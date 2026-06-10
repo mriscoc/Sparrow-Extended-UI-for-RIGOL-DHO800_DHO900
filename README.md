@@ -6,10 +6,6 @@ This is the official repository for the proyect Sparrow Extended UI. This projec
 
 ## Sparrow Extended UI
 
-Latest version can be found at:  
-For **00.01.04** firmware: https://www.patreon.com/posts/141472182  
-For **00.01.02** firmware: https://www.patreon.com/mriscoc/shop/rigol-dho800-900-sparrow-extended-gui-v0-204640    
-
 Get the latest version here: https://www.patreon.com/posts/dho800-900-gui-7-141608043
 
 Features of verion 0.7.1:
