@@ -870,7 +870,7 @@
 .method public final readCoarse1()I
     .locals 1
 
-    const/16 v0, 0x4747
+    const/16 v0, 0x4947
 
     .line 289
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/adc/AdcSettingParam;->readInt(I)I
@@ -888,7 +888,7 @@
 .method public final readCoarse2()I
     .locals 1
 
-    const/16 v0, 0x474e
+    const/16 v0, 0x494e
 
     .line 294
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/adc/AdcSettingParam;->readInt(I)I
@@ -906,7 +906,7 @@
 .method public final readFine1()I
     .locals 1
 
-    const/16 v0, 0x4749
+    const/16 v0, 0x4949
 
     .line 309
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/adc/AdcSettingParam;->readInt(I)I
@@ -924,7 +924,7 @@
 .method public final readFine2()I
     .locals 1
 
-    const/16 v0, 0x4750
+    const/16 v0, 0x4950
 
     .line 314
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/adc/AdcSettingParam;->readInt(I)I
@@ -942,7 +942,7 @@
 .method public final readFlip1()Z
     .locals 1
 
-    const/16 v0, 0x4746
+    const/16 v0, 0x4946
 
     .line 279
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/adc/AdcSettingParam;->readBool(I)Z
@@ -960,7 +960,7 @@
 .method public final readFlip2()Z
     .locals 1
 
-    const/16 v0, 0x4755
+    const/16 v0, 0x4955
 
     .line 284
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/adc/AdcSettingParam;->readBool(I)Z
@@ -978,7 +978,7 @@
 .method public final readInter1()I
     .locals 1
 
-    const/16 v0, 0x4748
+    const/16 v0, 0x4948
 
     .line 299
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/adc/AdcSettingParam;->readInt(I)I
@@ -996,7 +996,7 @@
 .method public final readInter2()I
     .locals 1
 
-    const/16 v0, 0x474f
+    const/16 v0, 0x494f
 
     .line 304
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/adc/AdcSettingParam;->readInt(I)I
@@ -1014,7 +1014,7 @@
 .method public final readPhase1Core1()I
     .locals 1
 
-    const/16 v0, 0x474a
+    const/16 v0, 0x494a
 
     .line 319
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/adc/AdcSettingParam;->readInt(I)I
@@ -1032,7 +1032,7 @@
 .method public final readPhase1Core2()I
     .locals 1
 
-    const/16 v0, 0x474b
+    const/16 v0, 0x494b
 
     .line 324
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/adc/AdcSettingParam;->readInt(I)I
@@ -1050,7 +1050,7 @@
 .method public final readPhase1Core3()I
     .locals 1
 
-    const/16 v0, 0x474c
+    const/16 v0, 0x494c
 
     .line 329
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/adc/AdcSettingParam;->readInt(I)I
@@ -1068,7 +1068,7 @@
 .method public final readPhase1Core4()I
     .locals 1
 
-    const/16 v0, 0x474d
+    const/16 v0, 0x494d
 
     .line 334
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/adc/AdcSettingParam;->readInt(I)I
@@ -1086,7 +1086,7 @@
 .method public final readPhase2Core1()I
     .locals 1
 
-    const/16 v0, 0x4751
+    const/16 v0, 0x4951
 
     .line 339
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/adc/AdcSettingParam;->readInt(I)I
@@ -1104,7 +1104,7 @@
 .method public final readPhase2Core2()I
     .locals 1
 
-    const/16 v0, 0x4752
+    const/16 v0, 0x4952
 
     .line 344
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/adc/AdcSettingParam;->readInt(I)I
@@ -1122,7 +1122,7 @@
 .method public final readPhase2Core3()I
     .locals 1
 
-    const/16 v0, 0x4753
+    const/16 v0, 0x4953
 
     .line 349
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/adc/AdcSettingParam;->readInt(I)I
@@ -1140,7 +1140,7 @@
 .method public final readPhase2Core4()I
     .locals 1
 
-    const/16 v0, 0x4754
+    const/16 v0, 0x4954
 
     .line 354
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/adc/AdcSettingParam;->readInt(I)I
@@ -1161,7 +1161,7 @@
     .line 370
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->setCoarse1(I)V
 
-    const/16 v0, 0x4747
+    const/16 v0, 0x4947
 
     .line 371
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->saveInt(II)I
@@ -1175,7 +1175,7 @@
     .line 375
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->setCoarse2(I)V
 
-    const/16 v0, 0x474e
+    const/16 v0, 0x494e
 
     .line 376
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->saveInt(II)I
@@ -1189,7 +1189,7 @@
     .line 390
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->setFine1(I)V
 
-    const/16 v0, 0x4749
+    const/16 v0, 0x4949
 
     .line 391
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->saveInt(II)I
@@ -1203,7 +1203,7 @@
     .line 395
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->setFine2(I)V
 
-    const/16 v0, 0x4750
+    const/16 v0, 0x4950
 
     .line 396
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->saveInt(II)I
@@ -1217,7 +1217,7 @@
     .line 360
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->setFlip1(Z)V
 
-    const/16 v0, 0x4746
+    const/16 v0, 0x4946
 
     .line 361
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->saveInt(IZ)I
@@ -1231,7 +1231,7 @@
     .line 365
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->setFlip2(Z)V
 
-    const/16 v0, 0x4755
+    const/16 v0, 0x4955
 
     .line 366
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->saveInt(IZ)I
@@ -1245,7 +1245,7 @@
     .line 380
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->setInter1(I)V
 
-    const/16 v0, 0x4748
+    const/16 v0, 0x4948
 
     .line 381
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->saveInt(II)I
@@ -1259,7 +1259,7 @@
     .line 385
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->setInter2(I)V
 
-    const/16 v0, 0x474f
+    const/16 v0, 0x494f
 
     .line 386
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->saveInt(II)I
@@ -1273,7 +1273,7 @@
     .line 400
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->setPhase1Core1(I)V
 
-    const/16 v0, 0x474a
+    const/16 v0, 0x494a
 
     .line 401
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->saveInt(II)I
@@ -1287,7 +1287,7 @@
     .line 405
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->setPhase1Core2(I)V
 
-    const/16 v0, 0x474b
+    const/16 v0, 0x494b
 
     .line 406
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->saveInt(II)I
@@ -1301,7 +1301,7 @@
     .line 410
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->setPhase1Core3(I)V
 
-    const/16 v0, 0x474c
+    const/16 v0, 0x494c
 
     .line 411
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->saveInt(II)I
@@ -1315,7 +1315,7 @@
     .line 415
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->setPhase1Core4(I)V
 
-    const/16 v0, 0x474d
+    const/16 v0, 0x494d
 
     .line 416
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->saveInt(II)I
@@ -1329,7 +1329,7 @@
     .line 420
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->setPhase2Core1(I)V
 
-    const/16 v0, 0x4751
+    const/16 v0, 0x4951
 
     .line 421
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->saveInt(II)I
@@ -1343,7 +1343,7 @@
     .line 425
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->setPhase2Core2(I)V
 
-    const/16 v0, 0x4752
+    const/16 v0, 0x4952
 
     .line 426
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->saveInt(II)I
@@ -1357,7 +1357,7 @@
     .line 430
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->setPhase2Core3(I)V
 
-    const/16 v0, 0x4753
+    const/16 v0, 0x4953
 
     .line 431
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->saveInt(II)I
@@ -1371,7 +1371,7 @@
     .line 435
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->setPhase2Core4(I)V
 
-    const/16 v0, 0x4754
+    const/16 v0, 0x4954
 
     .line 436
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->saveInt(II)I
@@ -1553,7 +1553,7 @@
     .line 88
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->inter1:I
 
-    const/16 p1, 0x1b6
+    const/16 p1, 0x1b7
 
     .line 89
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1567,7 +1567,7 @@
     .line 95
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->inter2:I
 
-    const/16 p1, 0x1b7
+    const/16 p1, 0x1b8
 
     .line 96
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1581,7 +1581,7 @@
     .line 102
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->inter3:I
 
-    const/16 p1, 0x1b8
+    const/16 p1, 0x1b9
 
     .line 103
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1595,7 +1595,7 @@
     .line 109
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->inter4:I
 
-    const/16 p1, 0x1b9
+    const/16 p1, 0x1ba
 
     .line 110
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1609,7 +1609,7 @@
     .line 144
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->phase1Core1:I
 
-    const/16 p1, 0x26e
+    const/16 p1, 0x271
 
     .line 145
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1623,7 +1623,7 @@
     .line 151
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->phase1Core2:I
 
-    const/16 p1, 0x26f
+    const/16 p1, 0x272
 
     .line 152
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1637,7 +1637,7 @@
     .line 158
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->phase1Core3:I
 
-    const/16 p1, 0x270
+    const/16 p1, 0x273
 
     .line 159
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1651,7 +1651,7 @@
     .line 165
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->phase1Core4:I
 
-    const/16 p1, 0x271
+    const/16 p1, 0x274
 
     .line 166
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1665,7 +1665,7 @@
     .line 172
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->phase2Core1:I
 
-    const/16 p1, 0x272
+    const/16 p1, 0x275
 
     .line 173
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1679,7 +1679,7 @@
     .line 179
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->phase2Core2:I
 
-    const/16 p1, 0x273
+    const/16 p1, 0x276
 
     .line 180
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1693,7 +1693,7 @@
     .line 186
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->phase2Core3:I
 
-    const/16 p1, 0x274
+    const/16 p1, 0x277
 
     .line 187
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1707,7 +1707,7 @@
     .line 193
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->phase2Core4:I
 
-    const/16 p1, 0x275
+    const/16 p1, 0x278
 
     .line 194
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1721,7 +1721,7 @@
     .line 200
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->phase3Core1:I
 
-    const/16 p1, 0x276
+    const/16 p1, 0x279
 
     .line 201
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1735,7 +1735,7 @@
     .line 207
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->phase3Core2:I
 
-    const/16 p1, 0x277
+    const/16 p1, 0x27a
 
     .line 208
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1749,7 +1749,7 @@
     .line 214
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->phase3Core3:I
 
-    const/16 p1, 0x278
+    const/16 p1, 0x27b
 
     .line 215
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1763,7 +1763,7 @@
     .line 221
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->phase3Core4:I
 
-    const/16 p1, 0x279
+    const/16 p1, 0x27c
 
     .line 222
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1777,7 +1777,7 @@
     .line 228
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->phase4Core1:I
 
-    const/16 p1, 0x27a
+    const/16 p1, 0x27d
 
     .line 229
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1791,7 +1791,7 @@
     .line 235
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->phase4Core2:I
 
-    const/16 p1, 0x27b
+    const/16 p1, 0x27e
 
     .line 236
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1805,7 +1805,7 @@
     .line 242
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->phase4Core3:I
 
-    const/16 p1, 0x27c
+    const/16 p1, 0x27f
 
     .line 243
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V
@@ -1819,7 +1819,7 @@
     .line 249
     iput p1, p0, Lcom/rigol/scope/views/adc/AdcSettingParam;->phase4Core4:I
 
-    const/16 p1, 0x27d
+    const/16 p1, 0x280
 
     .line 250
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/adc/AdcSettingParam;->notifyPropertyChanged(I)V

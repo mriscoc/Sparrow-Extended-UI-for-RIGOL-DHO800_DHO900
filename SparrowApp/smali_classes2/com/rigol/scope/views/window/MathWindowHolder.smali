@@ -101,7 +101,7 @@
 
     invoke-direct {p1, v0, v1, v2, v3}, Lcom/rigol/scope/views/grid/MathGridRulerView;-><init>(Landroid/content/Context;ILandroid/util/AttributeSet;I)V
 
-    const v0, 0x7f0a0b34
+    const v0, 0x7f0a0b40
 
     .line 692
     invoke-virtual {p1, v0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->setId(I)V
@@ -354,7 +354,7 @@
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->value1:I
 
-    const v2, 0x7f030246
+    const v2, 0x7f03024a
 
     .line 933
     invoke-static {v2, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -481,7 +481,7 @@
 
     move-result p2
 
-    const/16 v1, 0x3507
+    const/16 v1, 0x3707
 
     invoke-virtual {p1, p2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -684,7 +684,7 @@
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/WindowSimpleBinding;->warning:Landroid/widget/TextView;
 
-    const v1, 0x7f100fd5
+    const v1, 0x7f100fe6
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

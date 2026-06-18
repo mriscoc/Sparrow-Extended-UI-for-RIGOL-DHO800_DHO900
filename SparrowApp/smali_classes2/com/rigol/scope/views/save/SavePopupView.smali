@@ -460,7 +460,7 @@
 
     move-result v0
 
-    const v1, 0x7f0a0482
+    const v1, 0x7f0a0484
 
     if-ne v0, v1, :cond_0
 
@@ -486,7 +486,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/views/save/SavePopupView;->param:Lcom/rigol/scope/data/StorageSaveParam;
 
-    invoke-static {v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     new-instance v7, Lcom/rigol/scope/views/save/-$$Lambda$i9NRwQVRXRz5denMFitBirafr2w;
 
@@ -505,7 +505,7 @@
     goto/16 :goto_2
 
     :cond_0
-    const v1, 0x7f0a047f
+    const v1, 0x7f0a0481
 
     if-ne v0, v1, :cond_1
 
@@ -517,7 +517,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0301c8
+    const v1, 0x7f0301ca
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/views/save/SavePopupView;->getFileTypeList(Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;I)Ljava/util/List;
 
@@ -537,7 +537,7 @@
     goto/16 :goto_2
 
     :cond_1
-    const p1, 0x7f0a0484
+    const p1, 0x7f0a0486
 
     if-ne v0, p1, :cond_2
 
@@ -555,7 +555,7 @@
 
     iget-object v2, p0, Lcom/rigol/scope/views/save/SavePopupView;->param:Lcom/rigol/scope/data/StorageSaveParam;
 
-    invoke-static {v2}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     new-instance v3, Lcom/rigol/scope/views/save/-$$Lambda$FtnkS5Qj29C5AJZD93PQtkUcPos;
 
@@ -566,7 +566,7 @@
     goto/16 :goto_2
 
     :cond_2
-    const p1, 0x7f0a07cd
+    const p1, 0x7f0a07d9
 
     if-ne v0, p1, :cond_10
 
@@ -761,7 +761,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1011c2
+    const v1, 0x7f1011d7
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -794,7 +794,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1011c1
+    const v0, 0x7f1011d6
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -964,7 +964,7 @@
 
     const/16 v1, 0x30
 
-    const/16 v2, 0x531e
+    const/16 v2, 0x551e
 
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostStr(IILjava/lang/String;)I
 

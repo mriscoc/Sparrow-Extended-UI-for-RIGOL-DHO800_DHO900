@@ -736,7 +736,72 @@
     return-void
 .end method
 
-.method public synthetic lambda$onCreateViewHolder$10$DecodeCommonAdapter(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
+.method public synthetic lambda$null$0$DecodeCommonAdapter(ILcom/rigol/scope/data/MappingObject;)V
+    .locals 1
+
+    .line 94
+    iget-object p1, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->clickedView:Landroid/view/View;
+
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    move-result p1
+
+    const v0, 0x7f0a034c
+
+    if-ne p1, v0, :cond_1
+
+    .line 95
+    invoke-virtual {p0}, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->getCurrentItem()I
+
+    move-result p1
+
+    .line 96
+    invoke-virtual {p0}, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->getItems()Ljava/util/List;
+
+    move-result-object v0
+
+    invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/rigol/scope/data/DecodeParam;
+
+    if-nez p1, :cond_0
+
+    return-void
+
+    .line 100
+    :cond_0
+    invoke-virtual {p2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
+
+    move-result v0
+
+    invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getDecodeBusTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v0}, Lcom/rigol/scope/data/DecodeParam;->saveType(Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;)V
+
+    .line 101
+    iget-object p1, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->decodeBinding:Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;
+
+    invoke-virtual {p2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
+
+    move-result p2
+
+    invoke-static {p2}, Lcom/rigol/scope/cil/ServiceEnum;->getDecodeBusTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
+
+    move-result-object p2
+
+    iget-object v0, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->param:Lcom/rigol/scope/data/DecodeParam;
+
+    invoke-virtual {p0, p1, p2, v0}, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->showDecode(Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;Lcom/rigol/scope/data/DecodeParam;)V
+
+    :cond_1
+    return-void
+.end method
+
+.method public synthetic lambda$null$10$DecodeCommonAdapter(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
     .locals 0
 
     .line 304
@@ -747,7 +812,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$onCreateViewHolder$11$DecodeCommonAdapter(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
+.method public synthetic lambda$null$11$DecodeCommonAdapter(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
     .locals 0
 
     .line 309
@@ -765,13 +830,198 @@
     return-void
 .end method
 
-.method public synthetic lambda$onCreateViewHolder$12$DecodeCommonAdapter(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
+.method public synthetic lambda$null$12$DecodeCommonAdapter(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
     .locals 0
 
     .line 314
     iget-object p1, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->param:Lcom/rigol/scope/data/DecodeParam;
 
     invoke-virtual {p1, p3}, Lcom/rigol/scope/data/DecodeParam;->saveEvent_view(I)V
+
+    return-void
+.end method
+
+.method public synthetic lambda$null$14$DecodeCommonAdapter(Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;Lcom/rigol/scope/data/DecodeParam;Ljava/lang/Object;)V
+    .locals 0
+
+    .line 342
+    invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getType()Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
+
+    move-result-object p3
+
+    invoke-virtual {p0, p1, p3, p2}, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->showDecode(Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;Lcom/rigol/scope/data/DecodeParam;)V
+
+    return-void
+.end method
+
+.method public synthetic lambda$null$4$DecodeCommonAdapter(Lcom/rigol/scope/data/MappingObject;)Ljava/lang/Boolean;
+    .locals 4
+
+    const/4 v0, 0x1
+
+    .line 231
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v1
+
+    if-nez p1, :cond_0
+
+    return-object v1
+
+    .line 234
+    :cond_0
+    invoke-virtual {p1}, Lcom/rigol/scope/data/MappingObject;->getValue()I
+
+    move-result p1
+
+    invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getDecodeBusTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
+
+    move-result-object p1
+
+    if-nez p1, :cond_1
+
+    return-object v1
+
+    .line 240
+    :cond_1
+    iget-object v1, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->optionParam:Lcom/rigol/scope/data/OptionParam;
+
+    const-class v2, Lcom/rigol/scope/viewmodels/UtilityViewModel;
+
+    invoke-static {v2}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
+
+    move-result-object v2
+
+    check-cast v2, Lcom/rigol/scope/viewmodels/UtilityViewModel;
+
+    invoke-virtual {v2}, Lcom/rigol/scope/viewmodels/UtilityViewModel;->getValue()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Lcom/rigol/scope/data/UtilityParam;
+
+    invoke-virtual {v2}, Lcom/rigol/scope/data/UtilityParam;->getSeries()I
+
+    move-result v2
+
+    const/16 v3, 0x320
+
+    if-ne v2, v3, :cond_2
+
+    goto :goto_0
+
+    :cond_2
+    const/4 v0, 0x0
+
+    :goto_0
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v0
+
+    invoke-static {p1, v1, v0}, Lcom/rigol/scope/utilities/KtUtilKt;->decodeBusTypeEnable(Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;Lcom/rigol/scope/data/OptionParam;Ljava/lang/Boolean;)Z
+
+    move-result p1
+
+    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public synthetic lambda$null$5$DecodeCommonAdapter(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
+    .locals 0
+
+    .line 245
+    iput-object p1, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
+
+    .line 246
+    iput-object p2, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
+
+    .line 247
+    iput-object p3, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->mappingObjects:Ljava/util/List;
+
+    .line 248
+    iput-object p4, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->clickedView:Landroid/view/View;
+
+    return-void
+.end method
+
+.method public synthetic lambda$null$6$DecodeCommonAdapter(Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
+    .locals 0
+
+    .line 251
+    iget-object p2, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->param:Lcom/rigol/scope/data/DecodeParam;
+
+    invoke-virtual {p5}, Lcom/rigol/scope/data/MappingObject;->getValue()I
+
+    move-result p3
+
+    invoke-static {p3}, Lcom/rigol/scope/cil/ServiceEnum;->getDecodeBusTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
+
+    move-result-object p3
+
+    invoke-virtual {p2, p3}, Lcom/rigol/scope/data/DecodeParam;->saveType(Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;)V
+
+    .line 252
+    invoke-virtual {p5}, Lcom/rigol/scope/data/MappingObject;->getValue()I
+
+    move-result p2
+
+    invoke-static {p2}, Lcom/rigol/scope/cil/ServiceEnum;->getDecodeBusTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
+
+    move-result-object p2
+
+    iget-object p3, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->param:Lcom/rigol/scope/data/DecodeParam;
+
+    invoke-virtual {p0, p1, p2, p3}, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->showDecode(Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;Lcom/rigol/scope/data/DecodeParam;)V
+
+    return-void
+.end method
+
+.method public synthetic lambda$null$7$DecodeCommonAdapter(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
+    .locals 0
+
+    .line 289
+    iput-object p1, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
+
+    .line 290
+    iput-object p2, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
+
+    .line 291
+    iput-object p3, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->mappingObjects:Ljava/util/List;
+
+    .line 292
+    iput-object p4, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->clickedView:Landroid/view/View;
+
+    return-void
+.end method
+
+.method public synthetic lambda$null$8$DecodeCommonAdapter(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
+    .locals 0
+
+    .line 294
+    iget-object p1, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->param:Lcom/rigol/scope/data/DecodeParam;
+
+    invoke-virtual {p1, p3}, Lcom/rigol/scope/data/DecodeParam;->saveFormat(I)V
+
+    return-void
+.end method
+
+.method public synthetic lambda$null$9$DecodeCommonAdapter(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
+    .locals 0
+
+    .line 299
+    iput-object p1, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
+
+    .line 300
+    iput-object p2, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
+
+    .line 301
+    iput-object p3, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->mappingObjects:Ljava/util/List;
+
+    .line 302
+    iput-object p4, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->clickedView:Landroid/view/View;
 
     return-void
 .end method
@@ -891,9 +1141,9 @@
     move-result-object v0
 
     .line 228
-    new-instance v1, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$28Nw8cRcFQvb4sP04koSXaPU-Y0;
+    new-instance v1, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$KVbSpTTSU3_IXGBwhhWzzRsQu80;
 
-    invoke-direct {v1, p0}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$28Nw8cRcFQvb4sP04koSXaPU-Y0;-><init>(Lcom/rigol/scope/adapters/DecodeCommonAdapter;)V
+    invoke-direct {v1, p0}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$KVbSpTTSU3_IXGBwhhWzzRsQu80;-><init>(Lcom/rigol/scope/adapters/DecodeCommonAdapter;)V
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/KtUtilKt;->filter(Ljava/util/List;Lkotlin/jvm/functions/Function1;)Ljava/util/List;
 
@@ -902,13 +1152,13 @@
     .line 243
     iget-object v1, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->anchorView:Landroid/view/View;
 
-    new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$SYk62tAwswEipnXBazewlrf4zyA;
+    new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$SG_q7mHP7JswuPSN96WhuZ7aSg4;
 
-    invoke-direct {v2, p0}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$SYk62tAwswEipnXBazewlrf4zyA;-><init>(Lcom/rigol/scope/adapters/DecodeCommonAdapter;)V
+    invoke-direct {v2, p0}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$SG_q7mHP7JswuPSN96WhuZ7aSg4;-><init>(Lcom/rigol/scope/adapters/DecodeCommonAdapter;)V
 
-    new-instance v3, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$uATgb0ZEynGFErC3ZvLhcq1BTY8;
+    new-instance v3, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$tvpHIVsk5memCOwJAPA-FvibDVw;
 
-    invoke-direct {v3, p0, p1}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$uATgb0ZEynGFErC3ZvLhcq1BTY8;-><init>(Lcom/rigol/scope/adapters/DecodeCommonAdapter;Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;)V
+    invoke-direct {v3, p0, p1}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$tvpHIVsk5memCOwJAPA-FvibDVw;-><init>(Lcom/rigol/scope/adapters/DecodeCommonAdapter;Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;)V
 
     invoke-static {v1, p2, v0, v2, v3}, Lcom/rigol/scope/utilities/ViewUtil;->showSpinner(Landroid/view/View;Landroid/view/View;Ljava/util/List;Lcom/rigol/scope/utilities/AorBManager$OnSpinnerAdapterListener;Lcom/rigol/scope/views/spinner/PopupSpinner$OnItemClickListener;)V
 
@@ -932,7 +1182,7 @@
 
     move-result p2
 
-    const/16 v0, 0x591d
+    const/16 v0, 0x5b1d
 
     invoke-virtual {p1, p2, v0, v1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
@@ -955,7 +1205,7 @@
 
     move-result p2
 
-    const/16 v0, 0x59ad
+    const/16 v0, 0x5bad
 
     .line 258
     invoke-virtual {p1, p2, v0}, Lcom/rigol/scope/cil/API;->UI_QueryStr(II)Ljava/lang/String;
@@ -978,7 +1228,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1011c1
+    const p2, 0x7f1011d6
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1056,7 +1306,7 @@
 
     move-result p2
 
-    const/16 v0, 0x5924
+    const/16 v0, 0x5b24
 
     invoke-virtual {p1, p2, v0, v1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
@@ -1077,13 +1327,13 @@
     .line 287
     iget-object v0, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->anchorView:Landroid/view/View;
 
-    new-instance v1, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$w8MmtoEk5vEXe9Wi1hJnqel55qU;
+    new-instance v1, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$Pi00olCX5j00DRJNZBQ2ogFhspU;
 
-    invoke-direct {v1, p0}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$w8MmtoEk5vEXe9Wi1hJnqel55qU;-><init>(Lcom/rigol/scope/adapters/DecodeCommonAdapter;)V
+    invoke-direct {v1, p0}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$Pi00olCX5j00DRJNZBQ2ogFhspU;-><init>(Lcom/rigol/scope/adapters/DecodeCommonAdapter;)V
 
-    new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$PaFHz2FP8Zor4h8C6AvNo0LMUpQ;
+    new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$Aj0TKT7tPdrQ3z9QZ-6JE2F5Cwc;
 
-    invoke-direct {v2, p0}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$PaFHz2FP8Zor4h8C6AvNo0LMUpQ;-><init>(Lcom/rigol/scope/adapters/DecodeCommonAdapter;)V
+    invoke-direct {v2, p0}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$Aj0TKT7tPdrQ3z9QZ-6JE2F5Cwc;-><init>(Lcom/rigol/scope/adapters/DecodeCommonAdapter;)V
 
     invoke-static {v0, p2, p1, v1, v2}, Lcom/rigol/scope/utilities/ViewUtil;->showSpinner(Landroid/view/View;Landroid/view/View;Ljava/util/List;Lcom/rigol/scope/utilities/AorBManager$OnSpinnerAdapterListener;Lcom/rigol/scope/views/spinner/PopupSpinner$OnItemClickListener;)V
 
@@ -1104,13 +1354,13 @@
     .line 297
     iget-object v0, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->anchorView:Landroid/view/View;
 
-    new-instance v1, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$2qWG_vJJqdhme1Ts5ddsR7ac4hY;
+    new-instance v1, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$pyN-Cx6i3P0kTalDv_qyhXBTr98;
 
-    invoke-direct {v1, p0}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$2qWG_vJJqdhme1Ts5ddsR7ac4hY;-><init>(Lcom/rigol/scope/adapters/DecodeCommonAdapter;)V
+    invoke-direct {v1, p0}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$pyN-Cx6i3P0kTalDv_qyhXBTr98;-><init>(Lcom/rigol/scope/adapters/DecodeCommonAdapter;)V
 
-    new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$CCQTuA0ubWtZlngOmSQTBw1pDVg;
+    new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$rBhyC4xUcGBwuarismef56IhUsc;
 
-    invoke-direct {v2, p0}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$CCQTuA0ubWtZlngOmSQTBw1pDVg;-><init>(Lcom/rigol/scope/adapters/DecodeCommonAdapter;)V
+    invoke-direct {v2, p0}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$rBhyC4xUcGBwuarismef56IhUsc;-><init>(Lcom/rigol/scope/adapters/DecodeCommonAdapter;)V
 
     invoke-static {v0, p2, p1, v1, v2}, Lcom/rigol/scope/utilities/ViewUtil;->showSpinner(Landroid/view/View;Landroid/view/View;Ljava/util/List;Lcom/rigol/scope/utilities/AorBManager$OnSpinnerAdapterListener;Lcom/rigol/scope/views/spinner/PopupSpinner$OnItemClickListener;)V
 
@@ -1131,31 +1381,18 @@
     .line 307
     iget-object v0, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->anchorView:Landroid/view/View;
 
-    new-instance v1, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$37zKqQucg8I9cfn3rCrfDgLCa1A;
+    new-instance v1, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$ok0KXJViMqIoRs9N0SaZih3tLm0;
 
-    invoke-direct {v1, p0}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$37zKqQucg8I9cfn3rCrfDgLCa1A;-><init>(Lcom/rigol/scope/adapters/DecodeCommonAdapter;)V
+    invoke-direct {v1, p0}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$ok0KXJViMqIoRs9N0SaZih3tLm0;-><init>(Lcom/rigol/scope/adapters/DecodeCommonAdapter;)V
 
-    new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$YWVLRtH_fUtS7dqsuasQEgpsFuY;
+    new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$R3TUdxVnDvcEsWbZUaukt8T72Rg;
 
-    invoke-direct {v2, p0}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$YWVLRtH_fUtS7dqsuasQEgpsFuY;-><init>(Lcom/rigol/scope/adapters/DecodeCommonAdapter;)V
+    invoke-direct {v2, p0}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$R3TUdxVnDvcEsWbZUaukt8T72Rg;-><init>(Lcom/rigol/scope/adapters/DecodeCommonAdapter;)V
 
     invoke-static {v0, p2, p1, v1, v2}, Lcom/rigol/scope/utilities/ViewUtil;->showSpinner(Landroid/view/View;Landroid/view/View;Ljava/util/List;Lcom/rigol/scope/utilities/AorBManager$OnSpinnerAdapterListener;Lcom/rigol/scope/views/spinner/PopupSpinner$OnItemClickListener;)V
 
     :cond_c
     :goto_0
-    return-void
-.end method
-
-.method public synthetic lambda$onCreateViewHolder$14$DecodeCommonAdapter(Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;Lcom/rigol/scope/data/DecodeParam;Ljava/lang/Object;)V
-    .locals 0
-
-    .line 342
-    invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getType()Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
-
-    move-result-object p3
-
-    invoke-virtual {p0, p1, p3, p2}, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->showDecode(Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;Lcom/rigol/scope/data/DecodeParam;)V
-
     return-void
 .end method
 
@@ -1209,7 +1446,7 @@
 
     move-result v1
 
-    const/16 v2, 0x5901
+    const/16 v2, 0x5b01
 
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -1222,185 +1459,13 @@
 
     check-cast v1, Landroidx/lifecycle/LifecycleOwner;
 
-    new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$OC3gEftg-1pKuf9-V8fwiL6OGgg;
+    new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$NZoqFguPDQMOWtelGybU76Ahafs;
 
-    invoke-direct {v2, p0, p2, p1}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$OC3gEftg-1pKuf9-V8fwiL6OGgg;-><init>(Lcom/rigol/scope/adapters/DecodeCommonAdapter;Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;Lcom/rigol/scope/data/DecodeParam;)V
+    invoke-direct {v2, p0, p2, p1}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$NZoqFguPDQMOWtelGybU76Ahafs;-><init>(Lcom/rigol/scope/adapters/DecodeCommonAdapter;Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;Lcom/rigol/scope/data/DecodeParam;)V
 
     invoke-virtual {v0, v1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
     :cond_0
-    return-void
-.end method
-
-.method public synthetic lambda$onCreateViewHolder$4$DecodeCommonAdapter(Lcom/rigol/scope/data/MappingObject;)Ljava/lang/Boolean;
-    .locals 4
-
-    const/4 v0, 0x1
-
-    .line 231
-    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-
-    move-result-object v1
-
-    if-nez p1, :cond_0
-
-    return-object v1
-
-    .line 234
-    :cond_0
-    invoke-virtual {p1}, Lcom/rigol/scope/data/MappingObject;->getValue()I
-
-    move-result p1
-
-    invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getDecodeBusTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
-
-    move-result-object p1
-
-    if-nez p1, :cond_1
-
-    return-object v1
-
-    .line 240
-    :cond_1
-    iget-object v1, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->optionParam:Lcom/rigol/scope/data/OptionParam;
-
-    const-class v2, Lcom/rigol/scope/viewmodels/UtilityViewModel;
-
-    invoke-static {v2}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
-
-    move-result-object v2
-
-    check-cast v2, Lcom/rigol/scope/viewmodels/UtilityViewModel;
-
-    invoke-virtual {v2}, Lcom/rigol/scope/viewmodels/UtilityViewModel;->getValue()Ljava/lang/Object;
-
-    move-result-object v2
-
-    check-cast v2, Lcom/rigol/scope/data/UtilityParam;
-
-    invoke-virtual {v2}, Lcom/rigol/scope/data/UtilityParam;->getSeries()I
-
-    move-result v2
-
-    const/16 v3, 0x320
-
-    if-ne v2, v3, :cond_2
-
-    goto :goto_0
-
-    :cond_2
-    const/4 v0, 0x0
-
-    :goto_0
-    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-
-    move-result-object v0
-
-    invoke-static {p1, v1, v0}, Lcom/rigol/scope/utilities/KtUtilKt;->decodeBusTypeEnable(Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;Lcom/rigol/scope/data/OptionParam;Ljava/lang/Boolean;)Z
-
-    move-result p1
-
-    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-
-    move-result-object p1
-
-    return-object p1
-.end method
-
-.method public synthetic lambda$onCreateViewHolder$5$DecodeCommonAdapter(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
-    .locals 0
-
-    .line 245
-    iput-object p1, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
-
-    .line 246
-    iput-object p2, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
-
-    .line 247
-    iput-object p3, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->mappingObjects:Ljava/util/List;
-
-    .line 248
-    iput-object p4, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->clickedView:Landroid/view/View;
-
-    return-void
-.end method
-
-.method public synthetic lambda$onCreateViewHolder$6$DecodeCommonAdapter(Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
-    .locals 0
-
-    .line 251
-    iget-object p2, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->param:Lcom/rigol/scope/data/DecodeParam;
-
-    invoke-virtual {p5}, Lcom/rigol/scope/data/MappingObject;->getValue()I
-
-    move-result p3
-
-    invoke-static {p3}, Lcom/rigol/scope/cil/ServiceEnum;->getDecodeBusTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
-
-    move-result-object p3
-
-    invoke-virtual {p2, p3}, Lcom/rigol/scope/data/DecodeParam;->saveType(Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;)V
-
-    .line 252
-    invoke-virtual {p5}, Lcom/rigol/scope/data/MappingObject;->getValue()I
-
-    move-result p2
-
-    invoke-static {p2}, Lcom/rigol/scope/cil/ServiceEnum;->getDecodeBusTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
-
-    move-result-object p2
-
-    iget-object p3, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->param:Lcom/rigol/scope/data/DecodeParam;
-
-    invoke-virtual {p0, p1, p2, p3}, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->showDecode(Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;Lcom/rigol/scope/data/DecodeParam;)V
-
-    return-void
-.end method
-
-.method public synthetic lambda$onCreateViewHolder$7$DecodeCommonAdapter(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
-    .locals 0
-
-    .line 289
-    iput-object p1, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
-
-    .line 290
-    iput-object p2, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
-
-    .line 291
-    iput-object p3, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->mappingObjects:Ljava/util/List;
-
-    .line 292
-    iput-object p4, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->clickedView:Landroid/view/View;
-
-    return-void
-.end method
-
-.method public synthetic lambda$onCreateViewHolder$8$DecodeCommonAdapter(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
-    .locals 0
-
-    .line 294
-    iget-object p1, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->param:Lcom/rigol/scope/data/DecodeParam;
-
-    invoke-virtual {p1, p3}, Lcom/rigol/scope/data/DecodeParam;->saveFormat(I)V
-
-    return-void
-.end method
-
-.method public synthetic lambda$onCreateViewHolder$9$DecodeCommonAdapter(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
-    .locals 0
-
-    .line 299
-    iput-object p1, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
-
-    .line 300
-    iput-object p2, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
-
-    .line 301
-    iput-object p3, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->mappingObjects:Ljava/util/List;
-
-    .line 302
-    iput-object p4, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->clickedView:Landroid/view/View;
-
     return-void
 .end method
 
@@ -1422,71 +1487,6 @@
 
     iput-object p1, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
-    return-void
-.end method
-
-.method public synthetic lambda$setPanelKeyViewModel$0$DecodeCommonAdapter(ILcom/rigol/scope/data/MappingObject;)V
-    .locals 1
-
-    .line 94
-    iget-object p1, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->clickedView:Landroid/view/View;
-
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
-
-    move-result p1
-
-    const v0, 0x7f0a034c
-
-    if-ne p1, v0, :cond_1
-
-    .line 95
-    invoke-virtual {p0}, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->getCurrentItem()I
-
-    move-result p1
-
-    .line 96
-    invoke-virtual {p0}, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->getItems()Ljava/util/List;
-
-    move-result-object v0
-
-    invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
-
-    move-result-object p1
-
-    check-cast p1, Lcom/rigol/scope/data/DecodeParam;
-
-    if-nez p1, :cond_0
-
-    return-void
-
-    .line 100
-    :cond_0
-    invoke-virtual {p2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
-
-    move-result v0
-
-    invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getDecodeBusTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
-
-    move-result-object v0
-
-    invoke-virtual {p1, v0}, Lcom/rigol/scope/data/DecodeParam;->saveType(Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;)V
-
-    .line 101
-    iget-object p1, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->decodeBinding:Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;
-
-    invoke-virtual {p2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
-
-    move-result p2
-
-    invoke-static {p2}, Lcom/rigol/scope/cil/ServiceEnum;->getDecodeBusTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
-
-    move-result-object p2
-
-    iget-object v0, p0, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->param:Lcom/rigol/scope/data/DecodeParam;
-
-    invoke-virtual {p0, p1, p2, v0}, Lcom/rigol/scope/adapters/DecodeCommonAdapter;->showDecode(Lcom/rigol/scope/databinding/AdapterItemPopupviewDecodeBinding;Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;Lcom/rigol/scope/data/DecodeParam;)V
-
-    :cond_1
     return-void
 .end method
 
@@ -1529,9 +1529,9 @@
 
     const/4 v9, 0x0
 
-    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$iawdU7QFlYxfhkC59NBuPp7-3ho;
+    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$tyV6nhnJtDEV_pQaJmUnX-1h3ZU;
 
-    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$iawdU7QFlYxfhkC59NBuPp7-3ho;-><init>(Lcom/rigol/scope/adapters/DecodeCommonAdapter;)V
+    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCommonAdapter$tyV6nhnJtDEV_pQaJmUnX-1h3ZU;-><init>(Lcom/rigol/scope/adapters/DecodeCommonAdapter;)V
 
     move-object v1, p1
 

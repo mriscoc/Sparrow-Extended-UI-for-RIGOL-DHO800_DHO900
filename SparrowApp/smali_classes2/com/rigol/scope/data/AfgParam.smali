@@ -1423,7 +1423,7 @@
     .line 492
     iget-boolean v0, p0, Lcom/rigol/scope/data/AfgParam;->basic_output_enable:Z
 
-    const/16 v1, 0x5760
+    const/16 v1, 0x5960
 
     const/16 v2, 0xb
 
@@ -2319,7 +2319,7 @@
     .line 503
     invoke-virtual {v0, v1, v2, p1}, Lcom/rigol/scope/cil/API;->UI_PostBool(IIZ)I
 
-    const/16 v0, 0x5760
+    const/16 v0, 0x5960
 
     const/16 v1, 0xb
 
@@ -3502,7 +3502,7 @@
     .line 62
     iput p1, p0, Lcom/rigol/scope/data/AfgParam;->mode_function:I
 
-    const/16 p1, 0x225
+    const/16 p1, 0x226
 
     .line 63
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/AfgParam;->notifyPropertyChanged(I)V
@@ -3531,7 +3531,7 @@
     .line 252
     iput-boolean p1, p0, Lcom/rigol/scope/data/AfgParam;->service_output_enable:Z
 
-    const/16 p1, 0x32c
+    const/16 p1, 0x330
 
     .line 253
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/AfgParam;->notifyPropertyChanged(I)V
@@ -3627,7 +3627,7 @@
     .line 54
     iput p1, p0, Lcom/rigol/scope/data/AfgParam;->wave_function:I
 
-    const/16 p1, 0x410
+    const/16 p1, 0x414
 
     .line 55
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/AfgParam;->notifyPropertyChanged(I)V
@@ -3656,7 +3656,7 @@
     .line 124
     iput-wide p1, p0, Lcom/rigol/scope/data/AfgParam;->wave_mod_am_depth:J
 
-    const/16 p1, 0x411
+    const/16 p1, 0x415
 
     .line 125
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/AfgParam;->notifyPropertyChanged(I)V
@@ -3685,7 +3685,7 @@
     .line 94
     iput-wide p1, p0, Lcom/rigol/scope/data/AfgParam;->wave_mod_am_freq:J
 
-    const/16 p1, 0x412
+    const/16 p1, 0x416
 
     .line 95
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/AfgParam;->notifyPropertyChanged(I)V
@@ -3714,7 +3714,7 @@
     .line 132
     iput-wide p1, p0, Lcom/rigol/scope/data/AfgParam;->wave_mod_fm_deviation:J
 
-    const/16 p1, 0x413
+    const/16 p1, 0x417
 
     .line 133
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/AfgParam;->notifyPropertyChanged(I)V
@@ -3743,7 +3743,7 @@
     .line 102
     iput-wide p1, p0, Lcom/rigol/scope/data/AfgParam;->wave_mod_fm_freq:J
 
-    const/16 p1, 0x414
+    const/16 p1, 0x418
 
     .line 103
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/AfgParam;->notifyPropertyChanged(I)V
@@ -3772,7 +3772,7 @@
     .line 259
     iput p1, p0, Lcom/rigol/scope/data/AfgParam;->wave_mod_pic:I
 
-    const/16 p1, 0x415
+    const/16 p1, 0x419
 
     .line 260
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/AfgParam;->notifyPropertyChanged(I)V
@@ -3801,7 +3801,7 @@
     .line 117
     iput-wide p1, p0, Lcom/rigol/scope/data/AfgParam;->wave_mod_pm_dev:J
 
-    const/16 p1, 0x416
+    const/16 p1, 0x41a
 
     .line 118
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/AfgParam;->notifyPropertyChanged(I)V
@@ -3830,7 +3830,7 @@
     .line 110
     iput-wide p1, p0, Lcom/rigol/scope/data/AfgParam;->wave_mod_pm_freq:J
 
-    const/16 p1, 0x417
+    const/16 p1, 0x41b
 
     .line 111
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/AfgParam;->notifyPropertyChanged(I)V
@@ -3855,7 +3855,7 @@
     .line 46
     iput-object p1, p0, Lcom/rigol/scope/data/AfgParam;->wave_path:Ljava/lang/String;
 
-    const/16 p1, 0x418
+    const/16 p1, 0x41c
 
     .line 47
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/AfgParam;->notifyPropertyChanged(I)V

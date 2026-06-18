@@ -151,7 +151,7 @@
 
     move-result v0
 
-    const v1, 0x7f0a0563
+    const v1, 0x7f0a056b
 
     if-eq v0, v1, :cond_0
 
@@ -163,7 +163,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f03014c
+    const v0, 0x7f03014d
 
     .line 93
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;

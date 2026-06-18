@@ -327,7 +327,7 @@
 
     if-eqz v1, :cond_0
 
-    const v2, 0x7f100727
+    const v2, 0x7f10072f
 
     add-int/2addr v2, v0
 
@@ -344,7 +344,7 @@
 
     check-cast v1, Lcom/rigol/scope/data/DecodeParam;
 
-    const/16 v2, 0x3ab
+    const/16 v2, 0x3af
 
     invoke-virtual {v1, v2}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
 
@@ -357,7 +357,7 @@
 
     check-cast v1, Lcom/rigol/scope/data/DecodeParam;
 
-    const/16 v2, 0x3d2
+    const/16 v2, 0x3d6
 
     invoke-virtual {v1, v2}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
 
@@ -413,7 +413,7 @@
 
     const/16 v1, 0x2a
 
-    const/16 v2, 0x598a
+    const/16 v2, 0x5b8a
 
     invoke-static {v1, v2}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 

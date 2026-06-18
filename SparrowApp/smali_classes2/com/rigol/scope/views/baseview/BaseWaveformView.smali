@@ -711,7 +711,7 @@
 
     if-eqz v0, :cond_8
 
-    const/16 v1, 0x4f01
+    const/16 v1, 0x5101
 
     const/16 v2, 0x29
 
@@ -735,7 +735,7 @@
     .line 754
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 v1, 0x4ff8
+    const/16 v1, 0x51f8
 
     invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -756,7 +756,7 @@
     .line 767
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 v1, 0x4f1c
+    const/16 v1, 0x511c
 
     invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -777,7 +777,7 @@
     .line 780
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 v1, 0x2344
+    const/16 v1, 0x2544
 
     const/16 v2, 0xa
 
@@ -800,7 +800,7 @@
     .line 811
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 v1, 0x2310
+    const/16 v1, 0x2510
 
     invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -1244,6 +1244,8 @@
     const/4 p2, 0x0
 
     .line 903
+    check-cast p2, [[Ljava/lang/String;
+
     invoke-virtual {p1, p2}, Lcom/rigol/scope/views/DecodeInfoView;->setData([[Ljava/lang/String;)V
 
     :goto_0
@@ -1630,7 +1632,7 @@
 
     move-result v1
 
-    const/16 v2, 0x5902
+    const/16 v2, 0x5b02
 
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryBool(II)Z
 
@@ -3867,7 +3869,1519 @@
     return-void
 .end method
 
-.method public synthetic lambda$init$10$BaseWaveformView(Lcom/rigol/scope/data/DecodeParam;Ljava/lang/Object;)V
+.method public synthetic lambda$init$14$BaseWaveformView(Ljava/util/ArrayList;)V
+    .locals 4
+
+    .line 351
+    iput-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->decodeParams:Ljava/util/List;
+
+    if-eqz p1, :cond_3
+
+    .line 354
+    invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
+
+    move-result v0
+
+    if-lez v0, :cond_3
+
+    .line 355
+    invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+
+    move-result-object p1
+
+    :goto_0
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_3
+
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/rigol/scope/data/DecodeParam;
+
+    if-nez v0, :cond_0
+
+    goto :goto_0
+
+    .line 362
+    :cond_0
+    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
+
+    if-eqz v1, :cond_1
+
+    .line 363
+    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
+
+    move-result-object v2
+
+    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
+
+    iget-object v3, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->thresholdLine:Lcom/rigol/scope/views/baseview/ThresholdLine;
+
+    invoke-virtual {v1, v2, v0, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->bind(Landroidx/lifecycle/LifecycleOwner;Lcom/rigol/scope/data/DecodeParam;Lcom/rigol/scope/views/baseview/ThresholdLine;)V
+
+    .line 366
+    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
+
+    invoke-virtual {v0}, Lcom/rigol/scope/data/DecodeParam;->getServiceId()I
+
+    move-result v2
+
+    const/16 v3, 0x5b19
+
+    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+
+    move-result-object v1
+
+    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
+
+    move-result-object v2
+
+    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
+
+    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$7u-rWmcl2GXfdI6dqdrXyOfQmHU;
+
+    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$7u-rWmcl2GXfdI6dqdrXyOfQmHU;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/DecodeParam;)V
+
+    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+
+    .line 370
+    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
+
+    invoke-virtual {v0}, Lcom/rigol/scope/data/DecodeParam;->getServiceId()I
+
+    move-result v2
+
+    const/16 v3, 0x5b01
+
+    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+
+    move-result-object v1
+
+    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
+
+    move-result-object v2
+
+    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
+
+    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$eJDDlopRILcDRcJRpAm0VO0gtlY;
+
+    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$eJDDlopRILcDRcJRpAm0VO0gtlY;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/DecodeParam;)V
+
+    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+
+    .line 377
+    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
+
+    invoke-virtual {v0}, Lcom/rigol/scope/data/DecodeParam;->getServiceId()I
+
+    move-result v2
+
+    const/16 v3, 0x5b3e
+
+    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+
+    move-result-object v1
+
+    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
+
+    move-result-object v2
+
+    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
+
+    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$v_d5qfpFAxY0rGzL53hqaoIpdmk;
+
+    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$v_d5qfpFAxY0rGzL53hqaoIpdmk;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/DecodeParam;)V
+
+    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+
+    .line 384
+    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
+
+    invoke-virtual {v0}, Lcom/rigol/scope/data/DecodeParam;->getServiceId()I
+
+    move-result v2
+
+    const/16 v3, 0x5b3d
+
+    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+
+    move-result-object v1
+
+    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
+
+    move-result-object v2
+
+    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
+
+    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$JgMV4ZClp4P9eeQw8XvVPwPvnb0;
+
+    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$JgMV4ZClp4P9eeQw8XvVPwPvnb0;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/DecodeParam;)V
+
+    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+
+    .line 391
+    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
+
+    invoke-virtual {v0}, Lcom/rigol/scope/data/DecodeParam;->getServiceId()I
+
+    move-result v2
+
+    const/16 v3, 0x5b25
+
+    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+
+    move-result-object v1
+
+    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
+
+    move-result-object v2
+
+    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
+
+    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$bHJ-ZIXEF-EuUS0W6nHrt6BsxsI;
+
+    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$bHJ-ZIXEF-EuUS0W6nHrt6BsxsI;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/DecodeParam;)V
+
+    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+
+    .line 398
+    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
+
+    invoke-virtual {v0}, Lcom/rigol/scope/data/DecodeParam;->getServiceId()I
+
+    move-result v2
+
+    const/16 v3, 0x5b26
+
+    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+
+    move-result-object v1
+
+    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
+
+    move-result-object v2
+
+    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
+
+    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$7bZf9feZOu0jjMpB5gHh_F0FJY8;
+
+    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$7bZf9feZOu0jjMpB5gHh_F0FJY8;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/DecodeParam;)V
+
+    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+
+    .line 405
+    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
+
+    invoke-virtual {v0}, Lcom/rigol/scope/data/DecodeParam;->getServiceId()I
+
+    move-result v2
+
+    const/16 v3, 0x5b18
+
+    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+
+    move-result-object v1
+
+    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
+
+    move-result-object v2
+
+    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
+
+    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$1rCL-ujzpbo3k3o6S8Da7_IbFgk;
+
+    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$1rCL-ujzpbo3k3o6S8Da7_IbFgk;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/DecodeParam;)V
+
+    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+
+    .line 419
+    :cond_1
+    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->updateUIViewModel:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
+
+    if-eqz v1, :cond_2
+
+    .line 421
+    invoke-virtual {v0}, Lcom/rigol/scope/data/DecodeParam;->getServiceId()I
+
+    move-result v2
+
+    const/16 v3, 0x5b02
+
+    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+
+    move-result-object v1
+
+    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
+
+    move-result-object v2
+
+    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
+
+    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$ZvAu25IzzACfVg20IdVOMY3QTS4;
+
+    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$ZvAu25IzzACfVg20IdVOMY3QTS4;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/DecodeParam;)V
+
+    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+
+    .line 428
+    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->updateUIViewModel:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
+
+    invoke-virtual {v0}, Lcom/rigol/scope/data/DecodeParam;->getServiceId()I
+
+    move-result v2
+
+    const/16 v3, 0x5bae
+
+    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+
+    move-result-object v1
+
+    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
+
+    move-result-object v2
+
+    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
+
+    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$PE0zW_Z-r6cW8JMPkxFhTwiAnU0;
+
+    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$PE0zW_Z-r6cW8JMPkxFhTwiAnU0;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/DecodeParam;)V
+
+    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+
+    .line 529
+    :cond_2
+    new-instance v1, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$XzYugeGmJW9_VhZDIXAwifM5Q4o;
+
+    invoke-direct {v1, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$XzYugeGmJW9_VhZDIXAwifM5Q4o;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/DecodeParam;)V
+
+    const-wide/16 v2, 0xc8
+
+    invoke-virtual {p0, v1, v2, v3}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->postDelayed(Ljava/lang/Runnable;J)Z
+
+    goto/16 :goto_0
+
+    :cond_3
+    return-void
+.end method
+
+.method public synthetic lambda$init$2$BaseWaveformView(Lcom/rigol/scope/data/TriggerParam;)V
+    .locals 0
+
+    .line 333
+    iput-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
+
+    return-void
+.end method
+
+.method public synthetic lambda$init$24$BaseWaveformView(Lcom/rigol/scope/data/MeasureSettingParam;)V
+    .locals 5
+
+    if-eqz p1, :cond_0
+
+    .line 550
+    iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
+
+    if-eqz v0, :cond_0
+
+    const/16 v1, 0x3531
+
+    const/16 v2, 0x1c
+
+    .line 551
+    invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+
+    move-result-object v0
+
+    .line 552
+    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
+
+    move-result-object v1
+
+    check-cast v1, Landroidx/lifecycle/LifecycleOwner;
+
+    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$zBAqKnoywqAtHhKFBjCNABmQzNM;
+
+    invoke-direct {v3, p0, p1}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$zBAqKnoywqAtHhKFBjCNABmQzNM;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/MeasureSettingParam;)V
+
+    .line 551
+    invoke-virtual {v0, v1, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+
+    .line 561
+    iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
+
+    const/16 v1, 0x3532
+
+    invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+
+    move-result-object v0
+
+    .line 562
+    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
+
+    move-result-object v1
+
+    check-cast v1, Landroidx/lifecycle/LifecycleOwner;
+
+    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$LmZP3MpiyFJcLAZmMR2ZgrD4XuM;
+
+    invoke-direct {v3, p0, p1}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$LmZP3MpiyFJcLAZmMR2ZgrD4XuM;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/MeasureSettingParam;)V
+
+    .line 561
+    invoke-virtual {v0, v1, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+
+    .line 570
+    iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
+
+    const/16 v1, 0x3533
+
+    invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+
+    move-result-object v0
+
+    .line 571
+    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
+
+    move-result-object v1
+
+    check-cast v1, Landroidx/lifecycle/LifecycleOwner;
+
+    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$Q-K36ftyxYxcsepnJUWKSWr7uZc;
+
+    invoke-direct {v3, p0, p1}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$Q-K36ftyxYxcsepnJUWKSWr7uZc;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/MeasureSettingParam;)V
+
+    .line 570
+    invoke-virtual {v0, v1, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+
+    .line 580
+    iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
+
+    const/16 v1, 0x353f
+
+    invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+
+    move-result-object v0
+
+    .line 581
+    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
+
+    move-result-object v3
+
+    check-cast v3, Landroidx/lifecycle/LifecycleOwner;
+
+    new-instance v4, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$81QVC18jIBUoMvvffjYaO5_DD4M;
+
+    invoke-direct {v4, p0, p1}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$81QVC18jIBUoMvvffjYaO5_DD4M;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/MeasureSettingParam;)V
+
+    .line 580
+    invoke-virtual {v0, v3, v4}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+
+    .line 591
+    iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
+
+    invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+
+    move-result-object v0
+
+    .line 592
+    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
+
+    move-result-object v3
+
+    check-cast v3, Landroidx/lifecycle/LifecycleOwner;
+
+    new-instance v4, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$_Mp-iqjkSFYYZ9O-iP3F602i7F8;
+
+    invoke-direct {v4, p0, p1}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$_Mp-iqjkSFYYZ9O-iP3F602i7F8;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/MeasureSettingParam;)V
+
+    .line 591
+    invoke-virtual {v0, v3, v4}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+
+    .line 600
+    iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
+
+    invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+
+    move-result-object v0
+
+    .line 601
+    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
+
+    move-result-object v1
+
+    check-cast v1, Landroidx/lifecycle/LifecycleOwner;
+
+    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$RAn_rhiN8MVNfF-mpjafCbLczDc;
+
+    invoke-direct {v3, p0, p1}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$RAn_rhiN8MVNfF-mpjafCbLczDc;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/MeasureSettingParam;)V
+
+    .line 600
+    invoke-virtual {v0, v1, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+
+    .line 609
+    iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
+
+    const/16 v1, 0x3513
+
+    invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+
+    move-result-object v0
+
+    .line 610
+    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
+
+    move-result-object v3
+
+    check-cast v3, Landroidx/lifecycle/LifecycleOwner;
+
+    new-instance v4, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$lcONqzeAf_31vGjBiC3B0Lf07VA;
+
+    invoke-direct {v4, p0, p1}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$lcONqzeAf_31vGjBiC3B0Lf07VA;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/MeasureSettingParam;)V
+
+    .line 609
+    invoke-virtual {v0, v3, v4}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+
+    .line 619
+    iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
+
+    invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+
+    move-result-object v0
+
+    .line 620
+    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
+
+    move-result-object v3
+
+    check-cast v3, Landroidx/lifecycle/LifecycleOwner;
+
+    new-instance v4, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$ogPL6UHeWPc6yyLLvdmru7kIN0E;
+
+    invoke-direct {v4, p0, p1}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$ogPL6UHeWPc6yyLLvdmru7kIN0E;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/MeasureSettingParam;)V
+
+    .line 619
+    invoke-virtual {v0, v3, v4}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+
+    .line 628
+    iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
+
+    invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+
+    move-result-object v0
+
+    .line 629
+    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
+
+    move-result-object v1
+
+    check-cast v1, Landroidx/lifecycle/LifecycleOwner;
+
+    new-instance v2, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$96DJ1Q1PxJp-VMPofms1adiTl0A;
+
+    invoke-direct {v2, p0, p1}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$96DJ1Q1PxJp-VMPofms1adiTl0A;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/MeasureSettingParam;)V
+
+    .line 628
+    invoke-virtual {v0, v1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public synthetic lambda$init$25$BaseWaveformView(Lcom/rigol/scope/data/HorizontalParam;)V
+    .locals 0
+
+    .line 644
+    iput-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
+
+    return-void
+.end method
+
+.method public synthetic lambda$init$26$BaseWaveformView(Lcom/rigol/scope/data/MeasureSettingParam;)V
+    .locals 0
+
+    .line 650
+    iput-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->measureParam:Lcom/rigol/scope/data/MeasureSettingParam;
+
+    return-void
+.end method
+
+.method public synthetic lambda$init$3$BaseWaveformView(Lcom/rigol/scope/data/SearchParam;)V
+    .locals 3
+
+    .line 339
+    iput-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->searchParam:Lcom/rigol/scope/data/SearchParam;
+
+    .line 341
+    iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
+
+    if-eqz v0, :cond_0
+
+    .line 342
+    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
+
+    move-result-object v1
+
+    check-cast v1, Landroidx/lifecycle/LifecycleOwner;
+
+    iget-object v2, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->searchThresholdLine:Lcom/rigol/scope/views/baseview/SearchThresholdLine;
+
+    invoke-virtual {v0, v1, p1, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->bind(Landroidx/lifecycle/LifecycleOwner;Lcom/rigol/scope/data/SearchParam;Lcom/rigol/scope/views/baseview/SearchThresholdLine;)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public synthetic lambda$init$32$BaseWaveformView(Ljava/util/ArrayList;)V
+    .locals 4
+
+    .line 658
+    iput-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->verticalParams:Ljava/util/List;
+
+    if-eqz p1, :cond_2
+
+    .line 661
+    invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
+
+    move-result v0
+
+    if-lez v0, :cond_2
+
+    .line 662
+    invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+
+    move-result-object p1
+
+    :cond_0
+    :goto_0
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_2
+
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/rigol/scope/data/VerticalParam;
+
+    if-nez v0, :cond_1
+
+    goto :goto_0
+
+    .line 668
+    :cond_1
+    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
+
+    if-eqz v1, :cond_0
+
+    .line 674
+    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getServiceId()I
+
+    move-result v2
+
+    const/16 v3, 0x712
+
+    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+
+    move-result-object v1
+
+    invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->getContext()Landroid/content/Context;
+
+    move-result-object v2
+
+    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
+
+    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$b_otZD5K_3SjxtDry979O3gNyhg;
+
+    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$b_otZD5K_3SjxtDry979O3gNyhg;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/VerticalParam;)V
+
+    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+
+    .line 678
+    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
+
+    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getServiceId()I
+
+    move-result v2
+
+    const/16 v3, 0x700
+
+    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+
+    move-result-object v1
+
+    invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->getContext()Landroid/content/Context;
+
+    move-result-object v2
+
+    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
+
+    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$fcfEPMA6_ptS866muPHaxgKAPs4;
+
+    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$fcfEPMA6_ptS866muPHaxgKAPs4;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/VerticalParam;)V
+
+    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+
+    .line 682
+    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
+
+    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getServiceId()I
+
+    move-result v2
+
+    const/16 v3, 0x701
+
+    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+
+    move-result-object v1
+
+    invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->getContext()Landroid/content/Context;
+
+    move-result-object v2
+
+    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
+
+    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$xC6JSeOnpCWgOR5gVrhZi0IPMuI;
+
+    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$xC6JSeOnpCWgOR5gVrhZi0IPMuI;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/VerticalParam;)V
+
+    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+
+    .line 686
+    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
+
+    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getServiceId()I
+
+    move-result v2
+
+    const/16 v3, 0x70e
+
+    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+
+    move-result-object v1
+
+    invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->getContext()Landroid/content/Context;
+
+    move-result-object v2
+
+    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
+
+    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$XUiNlWTzDG0rt9iG1XAMOOo-ha8;
+
+    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$XUiNlWTzDG0rt9iG1XAMOOo-ha8;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/VerticalParam;)V
+
+    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+
+    .line 695
+    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
+
+    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getServiceId()I
+
+    move-result v2
+
+    const/16 v3, 0x70c
+
+    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+
+    move-result-object v1
+
+    invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->getContext()Landroid/content/Context;
+
+    move-result-object v2
+
+    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
+
+    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$pAxUhaU2LuUIM01xrUrSIoo7J84;
+
+    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$pAxUhaU2LuUIM01xrUrSIoo7J84;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/VerticalParam;)V
+
+    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+
+    goto/16 :goto_0
+
+    :cond_2
+    return-void
+.end method
+
+.method public synthetic lambda$init$33$BaseWaveformView(Ljava/lang/Object;)V
+    .locals 6
+
+    .line 709
+    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
+
+    if-nez p1, :cond_0
+
+    return-void
+
+    .line 714
+    :cond_0
+    invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->showTriggerTagAB(Lcom/rigol/scope/data/TriggerParam;)Z
+
+    move-result p1
+
+    const/16 v0, 0x8
+
+    const/4 v1, 0x0
+
+    if-eqz p1, :cond_1
+
+    .line 715
+    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerLevelTag:Lcom/rigol/scope/views/TriggerLevelTag;
+
+    invoke-static {p1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
+
+    .line 716
+    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerLevelTagA:Lcom/rigol/scope/views/TriggerLevelTagA;
+
+    invoke-static {p1, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
+
+    .line 717
+    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerLevelTagB:Lcom/rigol/scope/views/TriggerLevelTagB;
+
+    invoke-static {p1, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
+
+    goto :goto_0
+
+    .line 719
+    :cond_1
+    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerLevelTag:Lcom/rigol/scope/views/TriggerLevelTag;
+
+    invoke-static {p1, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
+
+    .line 720
+    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerLevelTagA:Lcom/rigol/scope/views/TriggerLevelTagA;
+
+    invoke-static {p1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
+
+    .line 721
+    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerLevelTagB:Lcom/rigol/scope/views/TriggerLevelTagB;
+
+    invoke-static {p1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
+
+    .line 725
+    :goto_0
+    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
+
+    invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
+
+    move-result-object p1
+
+    .line 726
+    sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Slope:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
+
+    const/16 v1, 0x51e7
+
+    const/16 v2, 0x51e6
+
+    const/16 v3, 0x29
+
+    if-ne p1, v0, :cond_2
+
+    .line 727
+    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
+
+    invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getSlopelevelA()J
+
+    move-result-wide v4
+
+    invoke-virtual {p1, v4, v5}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
+
+    .line 728
+    invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
+
+    move-result-object p1
+
+    invoke-static {v3, v2}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
+
+    move-result-object v0
+
+    iget-object v2, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
+
+    invoke-virtual {v2}, Lcom/rigol/scope/data/TriggerParam;->getSlopelevelA()J
+
+    move-result-wide v4
+
+    invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v2
+
+    invoke-virtual {p1, v0, v2}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
+
+    .line 729
+    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
+
+    invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getSlopelevelB()J
+
+    move-result-wide v4
+
+    invoke-virtual {p1, v4, v5}, Lcom/rigol/scope/data/TriggerParam;->setLevelB(J)V
+
+    .line 730
+    invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
+
+    move-result-object p1
+
+    invoke-static {v3, v1}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
+
+    move-result-object v0
+
+    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
+
+    invoke-virtual {v1}, Lcom/rigol/scope/data/TriggerParam;->getSlopelevelB()J
+
+    move-result-wide v1
+
+    invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v1
+
+    invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
+
+    goto/16 :goto_1
+
+    .line 731
+    :cond_2
+    sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Runt:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
+
+    if-ne p1, v0, :cond_3
+
+    .line 732
+    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
+
+    invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getRuntlevelA()J
+
+    move-result-wide v4
+
+    invoke-virtual {p1, v4, v5}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
+
+    .line 733
+    invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
+
+    move-result-object p1
+
+    invoke-static {v3, v2}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
+
+    move-result-object v0
+
+    iget-object v2, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
+
+    invoke-virtual {v2}, Lcom/rigol/scope/data/TriggerParam;->getRuntlevelA()J
+
+    move-result-wide v4
+
+    invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v2
+
+    invoke-virtual {p1, v0, v2}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
+
+    .line 734
+    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
+
+    invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getRuntlevelB()J
+
+    move-result-wide v4
+
+    invoke-virtual {p1, v4, v5}, Lcom/rigol/scope/data/TriggerParam;->setLevelB(J)V
+
+    .line 735
+    invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
+
+    move-result-object p1
+
+    invoke-static {v3, v1}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
+
+    move-result-object v0
+
+    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
+
+    invoke-virtual {v1}, Lcom/rigol/scope/data/TriggerParam;->getRuntlevelB()J
+
+    move-result-wide v1
+
+    invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v1
+
+    invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
+
+    goto/16 :goto_1
+
+    .line 736
+    :cond_3
+    sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Over:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
+
+    if-ne p1, v0, :cond_4
+
+    .line 737
+    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
+
+    invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getOverlevelA()J
+
+    move-result-wide v4
+
+    invoke-virtual {p1, v4, v5}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
+
+    .line 738
+    invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
+
+    move-result-object p1
+
+    invoke-static {v3, v2}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
+
+    move-result-object v0
+
+    iget-object v2, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
+
+    invoke-virtual {v2}, Lcom/rigol/scope/data/TriggerParam;->getOverlevelA()J
+
+    move-result-wide v4
+
+    invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v2
+
+    invoke-virtual {p1, v0, v2}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
+
+    .line 739
+    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
+
+    invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getOverlevelB()J
+
+    move-result-wide v4
+
+    invoke-virtual {p1, v4, v5}, Lcom/rigol/scope/data/TriggerParam;->setLevelB(J)V
+
+    .line 740
+    invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
+
+    move-result-object p1
+
+    invoke-static {v3, v1}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
+
+    move-result-object v0
+
+    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
+
+    invoke-virtual {v1}, Lcom/rigol/scope/data/TriggerParam;->getOverlevelB()J
+
+    move-result-wide v1
+
+    invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v1
+
+    invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
+
+    goto :goto_1
+
+    .line 741
+    :cond_4
+    sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_1553:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
+
+    if-ne p1, v0, :cond_5
+
+    .line 742
+    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
+
+    invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getMilstdlevelA()J
+
+    move-result-wide v4
+
+    invoke-virtual {p1, v4, v5}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
+
+    .line 743
+    invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
+
+    move-result-object p1
+
+    invoke-static {v3, v2}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
+
+    move-result-object v0
+
+    iget-object v2, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
+
+    invoke-virtual {v2}, Lcom/rigol/scope/data/TriggerParam;->getMilstdlevelA()J
+
+    move-result-wide v4
+
+    invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v2
+
+    invoke-virtual {p1, v0, v2}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
+
+    .line 744
+    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
+
+    invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getMilstdlevelB()J
+
+    move-result-wide v4
+
+    invoke-virtual {p1, v4, v5}, Lcom/rigol/scope/data/TriggerParam;->setLevelB(J)V
+
+    .line 745
+    invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
+
+    move-result-object p1
+
+    invoke-static {v3, v1}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
+
+    move-result-object v0
+
+    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
+
+    invoke-virtual {v1}, Lcom/rigol/scope/data/TriggerParam;->getMilstdlevelB()J
+
+    move-result-wide v1
+
+    invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v1
+
+    invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
+
+    goto :goto_1
+
+    .line 747
+    :cond_5
+    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
+
+    invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getLevel()J
+
+    move-result-wide v0
+
+    invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
+
+    .line 748
+    invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
+
+    move-result-object p1
+
+    const/16 v0, 0x51ab
+
+    invoke-static {v3, v0}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
+
+    move-result-object v0
+
+    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
+
+    invoke-virtual {v1}, Lcom/rigol/scope/data/TriggerParam;->getLevel()J
+
+    move-result-wide v1
+
+    invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v1
+
+    invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
+
+    :goto_1
+    return-void
+.end method
+
+.method public synthetic lambda$init$34$BaseWaveformView(Ljava/lang/Object;)V
+    .locals 2
+
+    .line 757
+    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
+
+    if-nez p1, :cond_0
+
+    return-void
+
+    .line 762
+    :cond_0
+    iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerLevelTag:Lcom/rigol/scope/views/TriggerLevelTag;
+
+    .line 763
+    invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->showTriggerTag(Lcom/rigol/scope/data/TriggerParam;)Z
+
+    move-result p1
+
+    const/16 v1, 0x8
+
+    if-eqz p1, :cond_2
+
+    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
+
+    invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->hideTriggerTag(Lcom/rigol/scope/data/TriggerParam;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_1
+
+    goto :goto_0
+
+    :cond_1
+    const/4 v1, 0x0
+
+    .line 762
+    :cond_2
+    :goto_0
+    invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
+
+    return-void
+.end method
+
+.method public synthetic lambda$init$35$BaseWaveformView(Ljava/lang/Object;)V
+    .locals 2
+
+    .line 770
+    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
+
+    if-nez p1, :cond_0
+
+    return-void
+
+    .line 775
+    :cond_0
+    iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerLevelTag:Lcom/rigol/scope/views/TriggerLevelTag;
+
+    .line 776
+    invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->showTriggerTag(Lcom/rigol/scope/data/TriggerParam;)Z
+
+    move-result p1
+
+    const/16 v1, 0x8
+
+    if-eqz p1, :cond_2
+
+    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
+
+    invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->hideTriggerTag(Lcom/rigol/scope/data/TriggerParam;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_1
+
+    goto :goto_0
+
+    :cond_1
+    const/4 v1, 0x0
+
+    .line 775
+    :cond_2
+    :goto_0
+    invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
+
+    return-void
+.end method
+
+.method public synthetic lambda$init$36$BaseWaveformView(Ljava/lang/Object;)V
+    .locals 2
+
+    .line 783
+    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
+
+    if-nez p1, :cond_0
+
+    return-void
+
+    .line 786
+    :cond_0
+    invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getTimeMode()Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
+
+    move-result-object p1
+
+    sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;->Horizontal_ROLL:Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
+
+    const/16 v1, 0x8
+
+    if-ne p1, v0, :cond_1
+
+    .line 788
+    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerPointTag:Lcom/rigol/scope/views/TagView;
+
+    invoke-static {p1, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
+
+    .line 789
+    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerLevelTagA:Lcom/rigol/scope/views/TriggerLevelTagA;
+
+    invoke-static {p1, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
+
+    .line 790
+    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerLevelTagB:Lcom/rigol/scope/views/TriggerLevelTagB;
+
+    invoke-static {p1, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
+
+    .line 791
+    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerLevelTag:Lcom/rigol/scope/views/TriggerLevelTag;
+
+    invoke-static {p1, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
+
+    goto :goto_0
+
+    .line 794
+    :cond_1
+    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerPointTag:Lcom/rigol/scope/views/TagView;
+
+    const/4 v0, 0x0
+
+    invoke-static {p1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
+
+    .line 795
+    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
+
+    invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->showTriggerTagAB(Lcom/rigol/scope/data/TriggerParam;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_2
+
+    .line 796
+    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerLevelTagA:Lcom/rigol/scope/views/TriggerLevelTagA;
+
+    invoke-static {p1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
+
+    .line 797
+    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerLevelTagB:Lcom/rigol/scope/views/TriggerLevelTagB;
+
+    invoke-static {p1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
+
+    goto :goto_0
+
+    .line 799
+    :cond_2
+    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
+
+    invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->showTriggerTag(Lcom/rigol/scope/data/TriggerParam;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_3
+
+    .line 800
+    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerLevelTag:Lcom/rigol/scope/views/TriggerLevelTag;
+
+    invoke-static {p1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
+
+    .line 801
+    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
+
+    invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
+
+    move-result-object p1
+
+    iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
+
+    sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->d0:Lcom/rigol/scope/cil/ServiceEnum$Chan;
+
+    iget v0, v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
+
+    if-lt p1, v0, :cond_3
+
+    .line 802
+    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerLevelTag:Lcom/rigol/scope/views/TriggerLevelTag;
+
+    invoke-static {p1, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
+
+    :cond_3
+    :goto_0
+    return-void
+.end method
+
+.method public synthetic lambda$init$37$BaseWaveformView(Ljava/lang/Object;)V
+    .locals 1
+
+    .line 813
+    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->decodeParams:Ljava/util/List;
+
+    if-eqz p1, :cond_0
+
+    .line 814
+    invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+
+    move-result-object p1
+
+    :goto_0
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/rigol/scope/data/DecodeParam;
+
+    .line 815
+    invoke-direct {p0, v0}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->updateDecodeVisibility(Lcom/rigol/scope/data/DecodeParam;)V
+
+    .line 816
+    invoke-direct {p0, v0}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->updateDecodeLabelVisibility(Lcom/rigol/scope/data/DecodeParam;)V
+
+    goto :goto_0
+
+    :cond_0
+    return-void
+.end method
+
+.method public synthetic lambda$init$42$BaseWaveformView(Ljava/util/ArrayList;)V
+    .locals 4
+
+    if-eqz p1, :cond_2
+
+    .line 827
+    invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
+
+    move-result v0
+
+    if-lez v0, :cond_2
+
+    .line 828
+    invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+
+    move-result-object p1
+
+    :cond_0
+    :goto_0
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_2
+
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/rigol/scope/data/MathParam;
+
+    if-nez v0, :cond_1
+
+    goto :goto_0
+
+    .line 835
+    :cond_1
+    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
+
+    if-eqz v1, :cond_0
+
+    .line 836
+    invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getServiceId()I
+
+    move-result v2
+
+    const/16 v3, 0x311a
+
+    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+
+    move-result-object v1
+
+    invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->getContext()Landroid/content/Context;
+
+    move-result-object v2
+
+    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
+
+    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$tpCnOicgsuL-VfzZKZKwNhHxCjE;
+
+    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$tpCnOicgsuL-VfzZKZKwNhHxCjE;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/MathParam;)V
+
+    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+
+    .line 843
+    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
+
+    invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getServiceId()I
+
+    move-result v2
+
+    const/16 v3, 0x311b
+
+    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+
+    move-result-object v1
+
+    invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->getContext()Landroid/content/Context;
+
+    move-result-object v2
+
+    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
+
+    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$qU_-7htPfB6BEhyuuLKwis9tkIY;
+
+    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$qU_-7htPfB6BEhyuuLKwis9tkIY;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/MathParam;)V
+
+    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+
+    .line 850
+    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
+
+    invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getServiceId()I
+
+    move-result v2
+
+    const/16 v3, 0x311c
+
+    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+
+    move-result-object v1
+
+    invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->getContext()Landroid/content/Context;
+
+    move-result-object v2
+
+    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
+
+    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$CfwKDjweSJGGkmVAwuLWqE76vyo;
+
+    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$CfwKDjweSJGGkmVAwuLWqE76vyo;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/MathParam;)V
+
+    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+
+    .line 857
+    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
+
+    invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getServiceId()I
+
+    move-result v2
+
+    const/16 v3, 0x311d
+
+    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+
+    move-result-object v1
+
+    invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->getContext()Landroid/content/Context;
+
+    move-result-object v2
+
+    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
+
+    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$xHt7zFv8nOjlcHxvT6m6GOeh95w;
+
+    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$xHt7zFv8nOjlcHxvT6m6GOeh95w;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/MathParam;)V
+
+    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+
+    goto :goto_0
+
+    :cond_2
+    return-void
+.end method
+
+.method public synthetic lambda$init$43$BaseWaveformView(Lcom/rigol/scope/data/SharedParam;)V
+    .locals 1
+
+    .line 876
+    new-instance v0, Lcom/rigol/scope/views/baseview/BaseWaveformView$1;
+
+    invoke-direct {v0, p0, p1}, Lcom/rigol/scope/views/baseview/BaseWaveformView$1;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/SharedParam;)V
+
+    invoke-virtual {p1, v0}, Lcom/rigol/scope/data/SharedParam;->addOnPropertyChangedCallback(Landroidx/databinding/Observable$OnPropertyChangedCallback;)V
+
+    return-void
+.end method
+
+.method public synthetic lambda$null$10$BaseWaveformView(Lcom/rigol/scope/data/DecodeParam;Ljava/lang/Object;)V
     .locals 1
 
     .line 407
@@ -3918,7 +5432,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$init$11$BaseWaveformView(Lcom/rigol/scope/data/DecodeParam;Ljava/lang/Boolean;)V
+.method public synthetic lambda$null$11$BaseWaveformView(Lcom/rigol/scope/data/DecodeParam;Ljava/lang/Boolean;)V
     .locals 0
 
     .line 423
@@ -3930,7 +5444,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$init$12$BaseWaveformView(Lcom/rigol/scope/data/DecodeParam;Ljava/lang/Boolean;)V
+.method public synthetic lambda$null$12$BaseWaveformView(Lcom/rigol/scope/data/DecodeParam;Ljava/lang/Boolean;)V
     .locals 16
 
     move-object/from16 v1, p0
@@ -3951,7 +5465,7 @@
 
     move-result v2
 
-    const/16 v3, 0x59ae
+    const/16 v3, 0x5bae
 
     invoke-virtual {v0, v2, v3}, Lcom/rigol/scope/cil/API;->UI_QueryStr(II)Ljava/lang/String;
 
@@ -4440,7 +5954,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$init$13$BaseWaveformView(Lcom/rigol/scope/data/DecodeParam;)V
+.method public synthetic lambda$null$13$BaseWaveformView(Lcom/rigol/scope/data/DecodeParam;)V
     .locals 2
 
     .line 530
@@ -4497,306 +6011,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$init$14$BaseWaveformView(Ljava/util/ArrayList;)V
-    .locals 4
-
-    .line 351
-    iput-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->decodeParams:Ljava/util/List;
-
-    if-eqz p1, :cond_3
-
-    .line 354
-    invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
-
-    move-result v0
-
-    if-lez v0, :cond_3
-
-    .line 355
-    invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
-
-    move-result-object p1
-
-    :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_3
-
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Lcom/rigol/scope/data/DecodeParam;
-
-    if-nez v0, :cond_0
-
-    goto :goto_0
-
-    .line 362
-    :cond_0
-    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
-
-    if-eqz v1, :cond_1
-
-    .line 363
-    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
-
-    move-result-object v2
-
-    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
-
-    iget-object v3, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->thresholdLine:Lcom/rigol/scope/views/baseview/ThresholdLine;
-
-    invoke-virtual {v1, v2, v0, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->bind(Landroidx/lifecycle/LifecycleOwner;Lcom/rigol/scope/data/DecodeParam;Lcom/rigol/scope/views/baseview/ThresholdLine;)V
-
-    .line 366
-    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
-
-    invoke-virtual {v0}, Lcom/rigol/scope/data/DecodeParam;->getServiceId()I
-
-    move-result v2
-
-    const/16 v3, 0x5919
-
-    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
-
-    move-result-object v1
-
-    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
-
-    move-result-object v2
-
-    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
-
-    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$7NMbJf9FNi7ZGCpgQGot2UqkhwI;
-
-    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$7NMbJf9FNi7ZGCpgQGot2UqkhwI;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/DecodeParam;)V
-
-    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
-
-    .line 370
-    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
-
-    invoke-virtual {v0}, Lcom/rigol/scope/data/DecodeParam;->getServiceId()I
-
-    move-result v2
-
-    const/16 v3, 0x5901
-
-    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
-
-    move-result-object v1
-
-    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
-
-    move-result-object v2
-
-    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
-
-    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$nAd3uLch_2l18N5pE27XHbGfQjw;
-
-    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$nAd3uLch_2l18N5pE27XHbGfQjw;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/DecodeParam;)V
-
-    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
-
-    .line 377
-    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
-
-    invoke-virtual {v0}, Lcom/rigol/scope/data/DecodeParam;->getServiceId()I
-
-    move-result v2
-
-    const/16 v3, 0x593e
-
-    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
-
-    move-result-object v1
-
-    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
-
-    move-result-object v2
-
-    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
-
-    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$fWnQe3IakRgd_XN8k0hBm241vek;
-
-    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$fWnQe3IakRgd_XN8k0hBm241vek;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/DecodeParam;)V
-
-    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
-
-    .line 384
-    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
-
-    invoke-virtual {v0}, Lcom/rigol/scope/data/DecodeParam;->getServiceId()I
-
-    move-result v2
-
-    const/16 v3, 0x593d
-
-    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
-
-    move-result-object v1
-
-    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
-
-    move-result-object v2
-
-    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
-
-    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$7BTxbUVAxVjtqClnqm73NFb0vEo;
-
-    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$7BTxbUVAxVjtqClnqm73NFb0vEo;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/DecodeParam;)V
-
-    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
-
-    .line 391
-    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
-
-    invoke-virtual {v0}, Lcom/rigol/scope/data/DecodeParam;->getServiceId()I
-
-    move-result v2
-
-    const/16 v3, 0x5925
-
-    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
-
-    move-result-object v1
-
-    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
-
-    move-result-object v2
-
-    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
-
-    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$Yot3aYtELEgyqnGItwqqlw8R6hY;
-
-    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$Yot3aYtELEgyqnGItwqqlw8R6hY;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/DecodeParam;)V
-
-    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
-
-    .line 398
-    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
-
-    invoke-virtual {v0}, Lcom/rigol/scope/data/DecodeParam;->getServiceId()I
-
-    move-result v2
-
-    const/16 v3, 0x5926
-
-    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
-
-    move-result-object v1
-
-    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
-
-    move-result-object v2
-
-    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
-
-    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$uPL8pROZyneTMjOJFf74j2P0Pw4;
-
-    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$uPL8pROZyneTMjOJFf74j2P0Pw4;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/DecodeParam;)V
-
-    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
-
-    .line 405
-    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
-
-    invoke-virtual {v0}, Lcom/rigol/scope/data/DecodeParam;->getServiceId()I
-
-    move-result v2
-
-    const/16 v3, 0x5918
-
-    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
-
-    move-result-object v1
-
-    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
-
-    move-result-object v2
-
-    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
-
-    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$NEfQJAigPmhCbQvH-ODJ9kQu0rU;
-
-    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$NEfQJAigPmhCbQvH-ODJ9kQu0rU;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/DecodeParam;)V
-
-    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
-
-    .line 419
-    :cond_1
-    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->updateUIViewModel:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
-
-    if-eqz v1, :cond_2
-
-    .line 421
-    invoke-virtual {v0}, Lcom/rigol/scope/data/DecodeParam;->getServiceId()I
-
-    move-result v2
-
-    const/16 v3, 0x5902
-
-    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
-
-    move-result-object v1
-
-    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
-
-    move-result-object v2
-
-    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
-
-    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$Tz6uSKzJ-yfr99G0CIVbPK5N9UI;
-
-    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$Tz6uSKzJ-yfr99G0CIVbPK5N9UI;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/DecodeParam;)V
-
-    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
-
-    .line 428
-    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->updateUIViewModel:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
-
-    invoke-virtual {v0}, Lcom/rigol/scope/data/DecodeParam;->getServiceId()I
-
-    move-result v2
-
-    const/16 v3, 0x59ae
-
-    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
-
-    move-result-object v1
-
-    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
-
-    move-result-object v2
-
-    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
-
-    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$2qRuPjYLdQ4W3JnBXaUxr_FPl6E;
-
-    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$2qRuPjYLdQ4W3JnBXaUxr_FPl6E;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/DecodeParam;)V
-
-    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
-
-    .line 529
-    :cond_2
-    new-instance v1, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$j8KOD37ZAcvtyoWSUY53PX5LbKk;
-
-    invoke-direct {v1, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$j8KOD37ZAcvtyoWSUY53PX5LbKk;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/DecodeParam;)V
-
-    const-wide/16 v2, 0xc8
-
-    invoke-virtual {p0, v1, v2, v3}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->postDelayed(Ljava/lang/Runnable;J)Z
-
-    goto/16 :goto_0
-
-    :cond_3
-    return-void
-.end method
-
-.method public synthetic lambda$init$15$BaseWaveformView(Lcom/rigol/scope/data/MeasureSettingParam;Ljava/lang/Object;)V
+.method public synthetic lambda$null$15$BaseWaveformView(Lcom/rigol/scope/data/MeasureSettingParam;Ljava/lang/Object;)V
     .locals 3
 
     .line 555
@@ -4821,7 +6036,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$init$16$BaseWaveformView(Lcom/rigol/scope/data/MeasureSettingParam;Ljava/lang/Object;)V
+.method public synthetic lambda$null$16$BaseWaveformView(Lcom/rigol/scope/data/MeasureSettingParam;Ljava/lang/Object;)V
     .locals 3
 
     .line 564
@@ -4846,7 +6061,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$init$17$BaseWaveformView(Lcom/rigol/scope/data/MeasureSettingParam;Ljava/lang/Object;)V
+.method public synthetic lambda$null$17$BaseWaveformView(Lcom/rigol/scope/data/MeasureSettingParam;Ljava/lang/Object;)V
     .locals 3
 
     .line 574
@@ -4871,7 +6086,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$init$18$BaseWaveformView(Lcom/rigol/scope/data/MeasureSettingParam;Ljava/lang/Object;)V
+.method public synthetic lambda$null$18$BaseWaveformView(Lcom/rigol/scope/data/MeasureSettingParam;Ljava/lang/Object;)V
     .locals 3
 
     .line 585
@@ -4896,7 +6111,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$init$19$BaseWaveformView(Lcom/rigol/scope/data/MeasureSettingParam;Ljava/lang/Object;)V
+.method public synthetic lambda$null$19$BaseWaveformView(Lcom/rigol/scope/data/MeasureSettingParam;Ljava/lang/Object;)V
     .locals 3
 
     .line 594
@@ -4921,16 +6136,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$init$2$BaseWaveformView(Lcom/rigol/scope/data/TriggerParam;)V
-    .locals 0
-
-    .line 333
-    iput-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
-
-    return-void
-.end method
-
-.method public synthetic lambda$init$20$BaseWaveformView(Lcom/rigol/scope/data/MeasureSettingParam;Ljava/lang/Object;)V
+.method public synthetic lambda$null$20$BaseWaveformView(Lcom/rigol/scope/data/MeasureSettingParam;Ljava/lang/Object;)V
     .locals 3
 
     .line 603
@@ -4955,7 +6161,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$init$21$BaseWaveformView(Lcom/rigol/scope/data/MeasureSettingParam;Ljava/lang/Object;)V
+.method public synthetic lambda$null$21$BaseWaveformView(Lcom/rigol/scope/data/MeasureSettingParam;Ljava/lang/Object;)V
     .locals 3
 
     .line 613
@@ -4980,7 +6186,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$init$22$BaseWaveformView(Lcom/rigol/scope/data/MeasureSettingParam;Ljava/lang/Object;)V
+.method public synthetic lambda$null$22$BaseWaveformView(Lcom/rigol/scope/data/MeasureSettingParam;Ljava/lang/Object;)V
     .locals 3
 
     .line 622
@@ -5005,7 +6211,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$init$23$BaseWaveformView(Lcom/rigol/scope/data/MeasureSettingParam;Ljava/lang/Object;)V
+.method public synthetic lambda$null$23$BaseWaveformView(Lcom/rigol/scope/data/MeasureSettingParam;Ljava/lang/Object;)V
     .locals 3
 
     .line 631
@@ -5030,238 +6236,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$init$24$BaseWaveformView(Lcom/rigol/scope/data/MeasureSettingParam;)V
-    .locals 5
-
-    if-eqz p1, :cond_0
-
-    .line 550
-    iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
-
-    if-eqz v0, :cond_0
-
-    const/16 v1, 0x3331
-
-    const/16 v2, 0x1c
-
-    .line 551
-    invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
-
-    move-result-object v0
-
-    .line 552
-    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
-
-    move-result-object v1
-
-    check-cast v1, Landroidx/lifecycle/LifecycleOwner;
-
-    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$HsdaH3QoK9aVamN8EmjKiq-EQ-U;
-
-    invoke-direct {v3, p0, p1}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$HsdaH3QoK9aVamN8EmjKiq-EQ-U;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/MeasureSettingParam;)V
-
-    .line 551
-    invoke-virtual {v0, v1, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
-
-    .line 561
-    iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
-
-    const/16 v1, 0x3332
-
-    invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
-
-    move-result-object v0
-
-    .line 562
-    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
-
-    move-result-object v1
-
-    check-cast v1, Landroidx/lifecycle/LifecycleOwner;
-
-    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$o9_IAbfMAra_Z8iIMxqGBbm_Zss;
-
-    invoke-direct {v3, p0, p1}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$o9_IAbfMAra_Z8iIMxqGBbm_Zss;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/MeasureSettingParam;)V
-
-    .line 561
-    invoke-virtual {v0, v1, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
-
-    .line 570
-    iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
-
-    const/16 v1, 0x3333
-
-    invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
-
-    move-result-object v0
-
-    .line 571
-    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
-
-    move-result-object v1
-
-    check-cast v1, Landroidx/lifecycle/LifecycleOwner;
-
-    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$jyV1R_DHS0aGuUcBK5RYJUxgMp8;
-
-    invoke-direct {v3, p0, p1}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$jyV1R_DHS0aGuUcBK5RYJUxgMp8;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/MeasureSettingParam;)V
-
-    .line 570
-    invoke-virtual {v0, v1, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
-
-    .line 580
-    iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
-
-    const/16 v1, 0x333f
-
-    invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
-
-    move-result-object v0
-
-    .line 581
-    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
-
-    move-result-object v3
-
-    check-cast v3, Landroidx/lifecycle/LifecycleOwner;
-
-    new-instance v4, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$wttSah9WAm9HL0rwOuM60VHLOxs;
-
-    invoke-direct {v4, p0, p1}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$wttSah9WAm9HL0rwOuM60VHLOxs;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/MeasureSettingParam;)V
-
-    .line 580
-    invoke-virtual {v0, v3, v4}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
-
-    .line 591
-    iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
-
-    invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
-
-    move-result-object v0
-
-    .line 592
-    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
-
-    move-result-object v3
-
-    check-cast v3, Landroidx/lifecycle/LifecycleOwner;
-
-    new-instance v4, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$vRFftCHed-vDhCqua8L7LffVi00;
-
-    invoke-direct {v4, p0, p1}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$vRFftCHed-vDhCqua8L7LffVi00;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/MeasureSettingParam;)V
-
-    .line 591
-    invoke-virtual {v0, v3, v4}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
-
-    .line 600
-    iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
-
-    invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
-
-    move-result-object v0
-
-    .line 601
-    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
-
-    move-result-object v1
-
-    check-cast v1, Landroidx/lifecycle/LifecycleOwner;
-
-    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$1CimneLaji3C7JLvhh-xiXbwKvk;
-
-    invoke-direct {v3, p0, p1}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$1CimneLaji3C7JLvhh-xiXbwKvk;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/MeasureSettingParam;)V
-
-    .line 600
-    invoke-virtual {v0, v1, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
-
-    .line 609
-    iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
-
-    const/16 v1, 0x3313
-
-    invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
-
-    move-result-object v0
-
-    .line 610
-    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
-
-    move-result-object v3
-
-    check-cast v3, Landroidx/lifecycle/LifecycleOwner;
-
-    new-instance v4, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$yiuxTOrkP4somp-wpX2DH8gYyfc;
-
-    invoke-direct {v4, p0, p1}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$yiuxTOrkP4somp-wpX2DH8gYyfc;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/MeasureSettingParam;)V
-
-    .line 609
-    invoke-virtual {v0, v3, v4}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
-
-    .line 619
-    iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
-
-    invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
-
-    move-result-object v0
-
-    .line 620
-    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
-
-    move-result-object v3
-
-    check-cast v3, Landroidx/lifecycle/LifecycleOwner;
-
-    new-instance v4, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$PKfBHNV6ZbusZK2ZwLl5SI4VG38;
-
-    invoke-direct {v4, p0, p1}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$PKfBHNV6ZbusZK2ZwLl5SI4VG38;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/MeasureSettingParam;)V
-
-    .line 619
-    invoke-virtual {v0, v3, v4}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
-
-    .line 628
-    iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
-
-    invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
-
-    move-result-object v0
-
-    .line 629
-    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
-
-    move-result-object v1
-
-    check-cast v1, Landroidx/lifecycle/LifecycleOwner;
-
-    new-instance v2, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$Aha8Jik5XZleTfcsj1JCBgo-cEs;
-
-    invoke-direct {v2, p0, p1}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$Aha8Jik5XZleTfcsj1JCBgo-cEs;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/MeasureSettingParam;)V
-
-    .line 628
-    invoke-virtual {v0, v1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
-
-    :cond_0
-    return-void
-.end method
-
-.method public synthetic lambda$init$25$BaseWaveformView(Lcom/rigol/scope/data/HorizontalParam;)V
-    .locals 0
-
-    .line 644
-    iput-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
-
-    return-void
-.end method
-
-.method public synthetic lambda$init$26$BaseWaveformView(Lcom/rigol/scope/data/MeasureSettingParam;)V
-    .locals 0
-
-    .line 650
-    iput-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->measureParam:Lcom/rigol/scope/data/MeasureSettingParam;
-
-    return-void
-.end method
-
-.method public synthetic lambda$init$27$BaseWaveformView(Lcom/rigol/scope/data/VerticalParam;Ljava/lang/Object;)V
+.method public synthetic lambda$null$27$BaseWaveformView(Lcom/rigol/scope/data/VerticalParam;Ljava/lang/Object;)V
     .locals 0
 
     .line 675
@@ -5270,7 +6245,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$init$28$BaseWaveformView(Lcom/rigol/scope/data/VerticalParam;Ljava/lang/Object;)V
+.method public synthetic lambda$null$28$BaseWaveformView(Lcom/rigol/scope/data/VerticalParam;Ljava/lang/Object;)V
     .locals 0
 
     .line 679
@@ -5279,7 +6254,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$init$29$BaseWaveformView(Lcom/rigol/scope/data/VerticalParam;Ljava/lang/Object;)V
+.method public synthetic lambda$null$29$BaseWaveformView(Lcom/rigol/scope/data/VerticalParam;Ljava/lang/Object;)V
     .locals 0
 
     .line 683
@@ -5288,33 +6263,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$init$3$BaseWaveformView(Lcom/rigol/scope/data/SearchParam;)V
-    .locals 3
-
-    .line 339
-    iput-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->searchParam:Lcom/rigol/scope/data/SearchParam;
-
-    .line 341
-    iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
-
-    if-eqz v0, :cond_0
-
-    .line 342
-    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
-
-    move-result-object v1
-
-    check-cast v1, Landroidx/lifecycle/LifecycleOwner;
-
-    iget-object v2, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->searchThresholdLine:Lcom/rigol/scope/views/baseview/SearchThresholdLine;
-
-    invoke-virtual {v0, v1, p1, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->bind(Landroidx/lifecycle/LifecycleOwner;Lcom/rigol/scope/data/SearchParam;Lcom/rigol/scope/views/baseview/SearchThresholdLine;)V
-
-    :cond_0
-    return-void
-.end method
-
-.method public synthetic lambda$init$30$BaseWaveformView(Lcom/rigol/scope/data/VerticalParam;Ljava/lang/Object;)V
+.method public synthetic lambda$null$30$BaseWaveformView(Lcom/rigol/scope/data/VerticalParam;Ljava/lang/Object;)V
     .locals 1
 
     .line 688
@@ -5370,7 +6319,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$init$31$BaseWaveformView(Lcom/rigol/scope/data/VerticalParam;Ljava/lang/Object;)V
+.method public synthetic lambda$null$31$BaseWaveformView(Lcom/rigol/scope/data/VerticalParam;Ljava/lang/Object;)V
     .locals 0
 
     .line 696
@@ -5379,796 +6328,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$init$32$BaseWaveformView(Ljava/util/ArrayList;)V
-    .locals 4
-
-    .line 658
-    iput-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->verticalParams:Ljava/util/List;
-
-    if-eqz p1, :cond_2
-
-    .line 661
-    invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
-
-    move-result v0
-
-    if-lez v0, :cond_2
-
-    .line 662
-    invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
-
-    move-result-object p1
-
-    :cond_0
-    :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_2
-
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Lcom/rigol/scope/data/VerticalParam;
-
-    if-nez v0, :cond_1
-
-    goto :goto_0
-
-    .line 668
-    :cond_1
-    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
-
-    if-eqz v1, :cond_0
-
-    .line 674
-    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getServiceId()I
-
-    move-result v2
-
-    const/16 v3, 0x712
-
-    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
-
-    move-result-object v1
-
-    invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->getContext()Landroid/content/Context;
-
-    move-result-object v2
-
-    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
-
-    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$3bB5N6npMuRIQ0ng_b355AkcKBA;
-
-    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$3bB5N6npMuRIQ0ng_b355AkcKBA;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/VerticalParam;)V
-
-    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
-
-    .line 678
-    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
-
-    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getServiceId()I
-
-    move-result v2
-
-    const/16 v3, 0x700
-
-    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
-
-    move-result-object v1
-
-    invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->getContext()Landroid/content/Context;
-
-    move-result-object v2
-
-    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
-
-    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$1hSFONdQDVvGZSSEl59Sw-EZD-U;
-
-    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$1hSFONdQDVvGZSSEl59Sw-EZD-U;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/VerticalParam;)V
-
-    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
-
-    .line 682
-    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
-
-    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getServiceId()I
-
-    move-result v2
-
-    const/16 v3, 0x701
-
-    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
-
-    move-result-object v1
-
-    invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->getContext()Landroid/content/Context;
-
-    move-result-object v2
-
-    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
-
-    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$JhKw79dsj_QImNs87DROC7MZBic;
-
-    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$JhKw79dsj_QImNs87DROC7MZBic;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/VerticalParam;)V
-
-    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
-
-    .line 686
-    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
-
-    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getServiceId()I
-
-    move-result v2
-
-    const/16 v3, 0x70e
-
-    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
-
-    move-result-object v1
-
-    invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->getContext()Landroid/content/Context;
-
-    move-result-object v2
-
-    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
-
-    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$bmOD6vR0Bbq0cDkeJ3e7mCr6ZSw;
-
-    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$bmOD6vR0Bbq0cDkeJ3e7mCr6ZSw;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/VerticalParam;)V
-
-    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
-
-    .line 695
-    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
-
-    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getServiceId()I
-
-    move-result v2
-
-    const/16 v3, 0x70c
-
-    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
-
-    move-result-object v1
-
-    invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->getContext()Landroid/content/Context;
-
-    move-result-object v2
-
-    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
-
-    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$qpIOmbiqQFHoreMzWglPRGCSbPQ;
-
-    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$qpIOmbiqQFHoreMzWglPRGCSbPQ;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/VerticalParam;)V
-
-    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
-
-    goto/16 :goto_0
-
-    :cond_2
-    return-void
-.end method
-
-.method public synthetic lambda$init$33$BaseWaveformView(Ljava/lang/Object;)V
-    .locals 6
-
-    .line 709
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
-
-    if-nez p1, :cond_0
-
-    return-void
-
-    .line 714
-    :cond_0
-    invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->showTriggerTagAB(Lcom/rigol/scope/data/TriggerParam;)Z
-
-    move-result p1
-
-    const/16 v0, 0x8
-
-    const/4 v1, 0x0
-
-    if-eqz p1, :cond_1
-
-    .line 715
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerLevelTag:Lcom/rigol/scope/views/TriggerLevelTag;
-
-    invoke-static {p1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
-
-    .line 716
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerLevelTagA:Lcom/rigol/scope/views/TriggerLevelTagA;
-
-    invoke-static {p1, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
-
-    .line 717
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerLevelTagB:Lcom/rigol/scope/views/TriggerLevelTagB;
-
-    invoke-static {p1, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
-
-    goto :goto_0
-
-    .line 719
-    :cond_1
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerLevelTag:Lcom/rigol/scope/views/TriggerLevelTag;
-
-    invoke-static {p1, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
-
-    .line 720
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerLevelTagA:Lcom/rigol/scope/views/TriggerLevelTagA;
-
-    invoke-static {p1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
-
-    .line 721
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerLevelTagB:Lcom/rigol/scope/views/TriggerLevelTagB;
-
-    invoke-static {p1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
-
-    .line 725
-    :goto_0
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
-
-    invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
-
-    move-result-object p1
-
-    .line 726
-    sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Slope:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
-
-    const/16 v1, 0x4fe7
-
-    const/16 v2, 0x4fe6
-
-    const/16 v3, 0x29
-
-    if-ne p1, v0, :cond_2
-
-    .line 727
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
-
-    invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getSlopelevelA()J
-
-    move-result-wide v4
-
-    invoke-virtual {p1, v4, v5}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
-
-    .line 728
-    invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
-
-    move-result-object p1
-
-    invoke-static {v3, v2}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
-
-    move-result-object v0
-
-    iget-object v2, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
-
-    invoke-virtual {v2}, Lcom/rigol/scope/data/TriggerParam;->getSlopelevelA()J
-
-    move-result-wide v4
-
-    invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
-
-    move-result-object v2
-
-    invoke-virtual {p1, v0, v2}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
-
-    .line 729
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
-
-    invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getSlopelevelB()J
-
-    move-result-wide v4
-
-    invoke-virtual {p1, v4, v5}, Lcom/rigol/scope/data/TriggerParam;->setLevelB(J)V
-
-    .line 730
-    invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
-
-    move-result-object p1
-
-    invoke-static {v3, v1}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
-
-    move-result-object v0
-
-    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
-
-    invoke-virtual {v1}, Lcom/rigol/scope/data/TriggerParam;->getSlopelevelB()J
-
-    move-result-wide v1
-
-    invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
-
-    move-result-object v1
-
-    invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
-
-    goto/16 :goto_1
-
-    .line 731
-    :cond_2
-    sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Runt:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
-
-    if-ne p1, v0, :cond_3
-
-    .line 732
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
-
-    invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getRuntlevelA()J
-
-    move-result-wide v4
-
-    invoke-virtual {p1, v4, v5}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
-
-    .line 733
-    invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
-
-    move-result-object p1
-
-    invoke-static {v3, v2}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
-
-    move-result-object v0
-
-    iget-object v2, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
-
-    invoke-virtual {v2}, Lcom/rigol/scope/data/TriggerParam;->getRuntlevelA()J
-
-    move-result-wide v4
-
-    invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
-
-    move-result-object v2
-
-    invoke-virtual {p1, v0, v2}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
-
-    .line 734
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
-
-    invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getRuntlevelB()J
-
-    move-result-wide v4
-
-    invoke-virtual {p1, v4, v5}, Lcom/rigol/scope/data/TriggerParam;->setLevelB(J)V
-
-    .line 735
-    invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
-
-    move-result-object p1
-
-    invoke-static {v3, v1}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
-
-    move-result-object v0
-
-    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
-
-    invoke-virtual {v1}, Lcom/rigol/scope/data/TriggerParam;->getRuntlevelB()J
-
-    move-result-wide v1
-
-    invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
-
-    move-result-object v1
-
-    invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
-
-    goto/16 :goto_1
-
-    .line 736
-    :cond_3
-    sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Over:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
-
-    if-ne p1, v0, :cond_4
-
-    .line 737
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
-
-    invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getOverlevelA()J
-
-    move-result-wide v4
-
-    invoke-virtual {p1, v4, v5}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
-
-    .line 738
-    invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
-
-    move-result-object p1
-
-    invoke-static {v3, v2}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
-
-    move-result-object v0
-
-    iget-object v2, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
-
-    invoke-virtual {v2}, Lcom/rigol/scope/data/TriggerParam;->getOverlevelA()J
-
-    move-result-wide v4
-
-    invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
-
-    move-result-object v2
-
-    invoke-virtual {p1, v0, v2}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
-
-    .line 739
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
-
-    invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getOverlevelB()J
-
-    move-result-wide v4
-
-    invoke-virtual {p1, v4, v5}, Lcom/rigol/scope/data/TriggerParam;->setLevelB(J)V
-
-    .line 740
-    invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
-
-    move-result-object p1
-
-    invoke-static {v3, v1}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
-
-    move-result-object v0
-
-    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
-
-    invoke-virtual {v1}, Lcom/rigol/scope/data/TriggerParam;->getOverlevelB()J
-
-    move-result-wide v1
-
-    invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
-
-    move-result-object v1
-
-    invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
-
-    goto :goto_1
-
-    .line 741
-    :cond_4
-    sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_1553:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
-
-    if-ne p1, v0, :cond_5
-
-    .line 742
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
-
-    invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getMilstdlevelA()J
-
-    move-result-wide v4
-
-    invoke-virtual {p1, v4, v5}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
-
-    .line 743
-    invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
-
-    move-result-object p1
-
-    invoke-static {v3, v2}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
-
-    move-result-object v0
-
-    iget-object v2, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
-
-    invoke-virtual {v2}, Lcom/rigol/scope/data/TriggerParam;->getMilstdlevelA()J
-
-    move-result-wide v4
-
-    invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
-
-    move-result-object v2
-
-    invoke-virtual {p1, v0, v2}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
-
-    .line 744
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
-
-    invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getMilstdlevelB()J
-
-    move-result-wide v4
-
-    invoke-virtual {p1, v4, v5}, Lcom/rigol/scope/data/TriggerParam;->setLevelB(J)V
-
-    .line 745
-    invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
-
-    move-result-object p1
-
-    invoke-static {v3, v1}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
-
-    move-result-object v0
-
-    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
-
-    invoke-virtual {v1}, Lcom/rigol/scope/data/TriggerParam;->getMilstdlevelB()J
-
-    move-result-wide v1
-
-    invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
-
-    move-result-object v1
-
-    invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
-
-    goto :goto_1
-
-    .line 747
-    :cond_5
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
-
-    invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getLevel()J
-
-    move-result-wide v0
-
-    invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
-
-    .line 748
-    invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
-
-    move-result-object p1
-
-    const/16 v0, 0x4fab
-
-    invoke-static {v3, v0}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
-
-    move-result-object v0
-
-    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
-
-    invoke-virtual {v1}, Lcom/rigol/scope/data/TriggerParam;->getLevel()J
-
-    move-result-wide v1
-
-    invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
-
-    move-result-object v1
-
-    invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
-
-    :goto_1
-    return-void
-.end method
-
-.method public synthetic lambda$init$34$BaseWaveformView(Ljava/lang/Object;)V
-    .locals 2
-
-    .line 757
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
-
-    if-nez p1, :cond_0
-
-    return-void
-
-    .line 762
-    :cond_0
-    iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerLevelTag:Lcom/rigol/scope/views/TriggerLevelTag;
-
-    .line 763
-    invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->showTriggerTag(Lcom/rigol/scope/data/TriggerParam;)Z
-
-    move-result p1
-
-    const/16 v1, 0x8
-
-    if-eqz p1, :cond_2
-
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
-
-    invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->hideTriggerTag(Lcom/rigol/scope/data/TriggerParam;)Z
-
-    move-result p1
-
-    if-eqz p1, :cond_1
-
-    goto :goto_0
-
-    :cond_1
-    const/4 v1, 0x0
-
-    .line 762
-    :cond_2
-    :goto_0
-    invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
-
-    return-void
-.end method
-
-.method public synthetic lambda$init$35$BaseWaveformView(Ljava/lang/Object;)V
-    .locals 2
-
-    .line 770
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
-
-    if-nez p1, :cond_0
-
-    return-void
-
-    .line 775
-    :cond_0
-    iget-object v0, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerLevelTag:Lcom/rigol/scope/views/TriggerLevelTag;
-
-    .line 776
-    invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->showTriggerTag(Lcom/rigol/scope/data/TriggerParam;)Z
-
-    move-result p1
-
-    const/16 v1, 0x8
-
-    if-eqz p1, :cond_2
-
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
-
-    invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->hideTriggerTag(Lcom/rigol/scope/data/TriggerParam;)Z
-
-    move-result p1
-
-    if-eqz p1, :cond_1
-
-    goto :goto_0
-
-    :cond_1
-    const/4 v1, 0x0
-
-    .line 775
-    :cond_2
-    :goto_0
-    invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
-
-    return-void
-.end method
-
-.method public synthetic lambda$init$36$BaseWaveformView(Ljava/lang/Object;)V
-    .locals 2
-
-    .line 783
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
-
-    if-nez p1, :cond_0
-
-    return-void
-
-    .line 786
-    :cond_0
-    invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getTimeMode()Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
-
-    move-result-object p1
-
-    sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;->Horizontal_ROLL:Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
-
-    const/16 v1, 0x8
-
-    if-ne p1, v0, :cond_1
-
-    .line 788
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerPointTag:Lcom/rigol/scope/views/TagView;
-
-    invoke-static {p1, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
-
-    .line 789
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerLevelTagA:Lcom/rigol/scope/views/TriggerLevelTagA;
-
-    invoke-static {p1, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
-
-    .line 790
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerLevelTagB:Lcom/rigol/scope/views/TriggerLevelTagB;
-
-    invoke-static {p1, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
-
-    .line 791
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerLevelTag:Lcom/rigol/scope/views/TriggerLevelTag;
-
-    invoke-static {p1, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
-
-    goto :goto_0
-
-    .line 794
-    :cond_1
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerPointTag:Lcom/rigol/scope/views/TagView;
-
-    const/4 v0, 0x0
-
-    invoke-static {p1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
-
-    .line 795
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
-
-    invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->showTriggerTagAB(Lcom/rigol/scope/data/TriggerParam;)Z
-
-    move-result p1
-
-    if-eqz p1, :cond_2
-
-    .line 796
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerLevelTagA:Lcom/rigol/scope/views/TriggerLevelTagA;
-
-    invoke-static {p1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
-
-    .line 797
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerLevelTagB:Lcom/rigol/scope/views/TriggerLevelTagB;
-
-    invoke-static {p1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
-
-    goto :goto_0
-
-    .line 799
-    :cond_2
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
-
-    invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->showTriggerTag(Lcom/rigol/scope/data/TriggerParam;)Z
-
-    move-result p1
-
-    if-eqz p1, :cond_3
-
-    .line 800
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerLevelTag:Lcom/rigol/scope/views/TriggerLevelTag;
-
-    invoke-static {p1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
-
-    .line 801
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerParam:Lcom/rigol/scope/data/TriggerParam;
-
-    invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
-
-    move-result-object p1
-
-    iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
-
-    sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->d0:Lcom/rigol/scope/cil/ServiceEnum$Chan;
-
-    iget v0, v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
-
-    if-lt p1, v0, :cond_3
-
-    .line 802
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->triggerLevelTag:Lcom/rigol/scope/views/TriggerLevelTag;
-
-    invoke-static {p1, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
-
-    :cond_3
-    :goto_0
-    return-void
-.end method
-
-.method public synthetic lambda$init$37$BaseWaveformView(Ljava/lang/Object;)V
-    .locals 1
-
-    .line 813
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->decodeParams:Ljava/util/List;
-
-    if-eqz p1, :cond_0
-
-    .line 814
-    invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
-
-    move-result-object p1
-
-    :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Lcom/rigol/scope/data/DecodeParam;
-
-    .line 815
-    invoke-direct {p0, v0}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->updateDecodeVisibility(Lcom/rigol/scope/data/DecodeParam;)V
-
-    .line 816
-    invoke-direct {p0, v0}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->updateDecodeLabelVisibility(Lcom/rigol/scope/data/DecodeParam;)V
-
-    goto :goto_0
-
-    :cond_0
-    return-void
-.end method
-
-.method public synthetic lambda$init$38$BaseWaveformView(Lcom/rigol/scope/data/MathParam;Ljava/lang/Object;)V
+.method public synthetic lambda$null$38$BaseWaveformView(Lcom/rigol/scope/data/MathParam;Ljava/lang/Object;)V
     .locals 3
 
     .line 838
@@ -6199,7 +6359,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$init$39$BaseWaveformView(Lcom/rigol/scope/data/MathParam;Ljava/lang/Object;)V
+.method public synthetic lambda$null$39$BaseWaveformView(Lcom/rigol/scope/data/MathParam;Ljava/lang/Object;)V
     .locals 3
 
     .line 845
@@ -6230,7 +6390,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$init$4$BaseWaveformView(Lcom/rigol/scope/data/DecodeParam;Ljava/lang/Object;)V
+.method public synthetic lambda$null$4$BaseWaveformView(Lcom/rigol/scope/data/DecodeParam;Ljava/lang/Object;)V
     .locals 0
 
     .line 367
@@ -6239,7 +6399,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$init$40$BaseWaveformView(Lcom/rigol/scope/data/MathParam;Ljava/lang/Object;)V
+.method public synthetic lambda$null$40$BaseWaveformView(Lcom/rigol/scope/data/MathParam;Ljava/lang/Object;)V
     .locals 3
 
     .line 852
@@ -6270,7 +6430,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$init$41$BaseWaveformView(Lcom/rigol/scope/data/MathParam;Ljava/lang/Object;)V
+.method public synthetic lambda$null$41$BaseWaveformView(Lcom/rigol/scope/data/MathParam;Ljava/lang/Object;)V
     .locals 3
 
     .line 859
@@ -6301,165 +6461,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$init$42$BaseWaveformView(Ljava/util/ArrayList;)V
-    .locals 4
-
-    if-eqz p1, :cond_2
-
-    .line 827
-    invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
-
-    move-result v0
-
-    if-lez v0, :cond_2
-
-    .line 828
-    invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
-
-    move-result-object p1
-
-    :cond_0
-    :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_2
-
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Lcom/rigol/scope/data/MathParam;
-
-    if-nez v0, :cond_1
-
-    goto :goto_0
-
-    .line 835
-    :cond_1
-    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
-
-    if-eqz v1, :cond_0
-
-    .line 836
-    invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getServiceId()I
-
-    move-result v2
-
-    const/16 v3, 0x2f1a
-
-    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
-
-    move-result-object v1
-
-    invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->getContext()Landroid/content/Context;
-
-    move-result-object v2
-
-    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
-
-    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$m2sQXdaNMZtmofG6Gu8p6AqZavo;
-
-    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$m2sQXdaNMZtmofG6Gu8p6AqZavo;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/MathParam;)V
-
-    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
-
-    .line 843
-    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
-
-    invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getServiceId()I
-
-    move-result v2
-
-    const/16 v3, 0x2f1b
-
-    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
-
-    move-result-object v1
-
-    invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->getContext()Landroid/content/Context;
-
-    move-result-object v2
-
-    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
-
-    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$bze1YxAbKcjoNbln9cNvaNWq7gc;
-
-    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$bze1YxAbKcjoNbln9cNvaNWq7gc;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/MathParam;)V
-
-    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
-
-    .line 850
-    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
-
-    invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getServiceId()I
-
-    move-result v2
-
-    const/16 v3, 0x2f1c
-
-    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
-
-    move-result-object v1
-
-    invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->getContext()Landroid/content/Context;
-
-    move-result-object v2
-
-    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
-
-    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$CTiHBBktdfOhlGivTtQXVUW6WPo;
-
-    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$CTiHBBktdfOhlGivTtQXVUW6WPo;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/MathParam;)V
-
-    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
-
-    .line 857
-    iget-object v1, p0, Lcom/rigol/scope/views/baseview/BaseWaveformView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
-
-    invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getServiceId()I
-
-    move-result v2
-
-    const/16 v3, 0x2f1d
-
-    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
-
-    move-result-object v1
-
-    invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->getContext()Landroid/content/Context;
-
-    move-result-object v2
-
-    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
-
-    new-instance v3, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$gde_eyKqa1kid5YZb_KKuMB8FTs;
-
-    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/views/baseview/-$$Lambda$BaseWaveformView$gde_eyKqa1kid5YZb_KKuMB8FTs;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/MathParam;)V
-
-    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
-
-    goto :goto_0
-
-    :cond_2
-    return-void
-.end method
-
-.method public synthetic lambda$init$43$BaseWaveformView(Lcom/rigol/scope/data/SharedParam;)V
-    .locals 1
-
-    .line 876
-    new-instance v0, Lcom/rigol/scope/views/baseview/BaseWaveformView$1;
-
-    invoke-direct {v0, p0, p1}, Lcom/rigol/scope/views/baseview/BaseWaveformView$1;-><init>(Lcom/rigol/scope/views/baseview/BaseWaveformView;Lcom/rigol/scope/data/SharedParam;)V
-
-    invoke-virtual {p1, v0}, Lcom/rigol/scope/data/SharedParam;->addOnPropertyChangedCallback(Landroidx/databinding/Observable$OnPropertyChangedCallback;)V
-
-    return-void
-.end method
-
-.method public synthetic lambda$init$5$BaseWaveformView(Lcom/rigol/scope/data/DecodeParam;Ljava/lang/Object;)V
+.method public synthetic lambda$null$5$BaseWaveformView(Lcom/rigol/scope/data/DecodeParam;Ljava/lang/Object;)V
     .locals 0
 
     .line 372
@@ -6471,7 +6473,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$init$6$BaseWaveformView(Lcom/rigol/scope/data/DecodeParam;Ljava/lang/Object;)V
+.method public synthetic lambda$null$6$BaseWaveformView(Lcom/rigol/scope/data/DecodeParam;Ljava/lang/Object;)V
     .locals 0
 
     .line 379
@@ -6483,7 +6485,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$init$7$BaseWaveformView(Lcom/rigol/scope/data/DecodeParam;Ljava/lang/Object;)V
+.method public synthetic lambda$null$7$BaseWaveformView(Lcom/rigol/scope/data/DecodeParam;Ljava/lang/Object;)V
     .locals 0
 
     .line 386
@@ -6495,7 +6497,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$init$8$BaseWaveformView(Lcom/rigol/scope/data/DecodeParam;Ljava/lang/Object;)V
+.method public synthetic lambda$null$8$BaseWaveformView(Lcom/rigol/scope/data/DecodeParam;Ljava/lang/Object;)V
     .locals 0
 
     .line 393
@@ -6507,7 +6509,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$init$9$BaseWaveformView(Lcom/rigol/scope/data/DecodeParam;Ljava/lang/Object;)V
+.method public synthetic lambda$null$9$BaseWaveformView(Lcom/rigol/scope/data/DecodeParam;Ljava/lang/Object;)V
     .locals 0
 
     .line 400

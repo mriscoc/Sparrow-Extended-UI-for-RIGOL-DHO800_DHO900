@@ -48,7 +48,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 872
+    .line 956
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -57,7 +57,7 @@
 .method public synthetic constructor <init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V
     .locals 0
 
-    .line 872
+    .line 956
     invoke-direct {p0}, Lcom/rigol/scope/views/grid/GridRulerView$Companion;-><init>()V
 
     return-void
@@ -68,7 +68,7 @@
 .method public final getDEFAULT_DASH_PATH_EFFECT()Landroid/graphics/PathEffect;
     .locals 1
 
-    .line 886
+    .line 970
     invoke-static {}, Lcom/rigol/scope/views/grid/GridRulerView;->access$getDEFAULT_DASH_PATH_EFFECT$cp()Landroid/graphics/PathEffect;
 
     move-result-object v0

@@ -57,7 +57,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/FragmentNavigationBarBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0691
+    const v1, 0x7f0a069b
 
     const/16 v2, 0x12
 
@@ -67,7 +67,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/FragmentNavigationBarBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0607
+    const v1, 0x7f0a060f
 
     const/16 v2, 0x13
 
@@ -76,7 +76,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/FragmentNavigationBarBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a086c
+    const v1, 0x7f0a0878
 
     const/16 v2, 0x14
 
@@ -85,7 +85,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/FragmentNavigationBarBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04aa
+    const v1, 0x7f0a04ac
 
     const/16 v2, 0x15
 
@@ -94,7 +94,7 @@
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/FragmentNavigationBarBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04ab
+    const v1, 0x7f0a04ad
 
     const/16 v2, 0x16
 
@@ -103,7 +103,7 @@
     .line 22
     sget-object v0, Lcom/rigol/scope/databinding/FragmentNavigationBarBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04ac
+    const v1, 0x7f0a04ae
 
     const/16 v2, 0x17
 
@@ -545,7 +545,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x204
+    const/16 v0, 0x205
 
     if-ne p2, v0, :cond_1
 
@@ -577,7 +577,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x302
+    const/16 v0, 0x306
 
     if-ne p2, v0, :cond_2
 
@@ -609,7 +609,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x304
+    const/16 v0, 0x308
 
     if-ne p2, v0, :cond_3
 
@@ -737,7 +737,7 @@
     throw p1
 
     :cond_6
-    const/16 v0, 0x3a7
+    const/16 v0, 0x3ab
 
     if-ne p2, v0, :cond_7
 
@@ -769,7 +769,7 @@
     throw p1
 
     :cond_7
-    const/16 v0, 0x2f8
+    const/16 v0, 0x2fc
 
     if-ne p2, v0, :cond_8
 
@@ -801,7 +801,7 @@
     throw p1
 
     :cond_8
-    const/16 v0, 0x203
+    const/16 v0, 0x204
 
     if-ne p2, v0, :cond_9
 
@@ -905,7 +905,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x3b1
+    const/16 v0, 0x3b5
 
     if-ne p2, v0, :cond_2
 
@@ -937,7 +937,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x406
+    const/16 v0, 0x40a
 
     if-ne p2, v0, :cond_3
 
@@ -969,7 +969,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x2fa
+    const/16 v0, 0x2fe
 
     if-ne p2, v0, :cond_4
 
@@ -1001,7 +1001,7 @@
     throw p1
 
     :cond_4
-    const/16 v0, 0x301
+    const/16 v0, 0x305
 
     if-ne p2, v0, :cond_5
 
@@ -1065,7 +1065,7 @@
     throw p1
 
     :cond_6
-    const/16 v0, 0x34e
+    const/16 v0, 0x352
 
     if-ne p2, v0, :cond_7
 
@@ -1097,7 +1097,7 @@
     throw p1
 
     :cond_7
-    const/16 v0, 0x3aa
+    const/16 v0, 0x3ae
 
     if-ne p2, v0, :cond_8
 
@@ -1129,7 +1129,7 @@
     throw p1
 
     :cond_8
-    const/16 v0, 0x243
+    const/16 v0, 0x245
 
     if-ne p2, v0, :cond_9
 
@@ -1161,7 +1161,7 @@
     throw p1
 
     :cond_9
-    const/16 v0, 0x242
+    const/16 v0, 0x244
 
     if-ne p2, v0, :cond_a
 
@@ -1193,7 +1193,7 @@
     throw p1
 
     :cond_a
-    const/16 v0, 0x333
+    const/16 v0, 0x337
 
     if-ne p2, v0, :cond_b
 
@@ -1225,7 +1225,7 @@
     throw p1
 
     :cond_b
-    const/16 v0, 0x232
+    const/16 v0, 0x234
 
     if-ne p2, v0, :cond_c
 
@@ -1257,7 +1257,7 @@
     throw p1
 
     :cond_c
-    const/16 v0, 0x282
+    const/16 v0, 0x285
 
     if-ne p2, v0, :cond_d
 
@@ -1353,7 +1353,7 @@
     throw p1
 
     :cond_f
-    const/16 v0, 0x3db
+    const/16 v0, 0x3df
 
     if-ne p2, v0, :cond_10
 
@@ -1385,7 +1385,7 @@
     throw p1
 
     :cond_10
-    const/16 v0, 0x1e4
+    const/16 v0, 0x1e5
 
     if-ne p2, v0, :cond_11
 
@@ -1417,7 +1417,7 @@
     throw p1
 
     :cond_11
-    const/16 v0, 0x355
+    const/16 v0, 0x359
 
     if-ne p2, v0, :cond_12
 
@@ -1449,7 +1449,7 @@
     throw p1
 
     :cond_12
-    const/16 v0, 0x356
+    const/16 v0, 0x35a
 
     if-ne p2, v0, :cond_13
 
@@ -1481,7 +1481,7 @@
     throw p1
 
     :cond_13
-    const/16 v0, 0x2fd
+    const/16 v0, 0x301
 
     if-ne p2, v0, :cond_14
 
@@ -1513,7 +1513,7 @@
     throw p1
 
     :cond_14
-    const/16 v0, 0x2fe
+    const/16 v0, 0x302
 
     if-ne p2, v0, :cond_15
 
@@ -1545,7 +1545,7 @@
     throw p1
 
     :cond_15
-    const/16 v0, 0x246
+    const/16 v0, 0x248
 
     if-ne p2, v0, :cond_16
 
@@ -1577,7 +1577,7 @@
     throw p1
 
     :cond_16
-    const/16 v0, 0x247
+    const/16 v0, 0x249
 
     if-ne p2, v0, :cond_17
 
@@ -1609,7 +1609,7 @@
     throw p1
 
     :cond_17
-    const/16 v0, 0x21b
+    const/16 v0, 0x21c
 
     if-ne p2, v0, :cond_18
 
@@ -1641,7 +1641,7 @@
     throw p1
 
     :cond_18
-    const/16 v0, 0x21c
+    const/16 v0, 0x21d
 
     if-ne p2, v0, :cond_19
 
@@ -1737,7 +1737,7 @@
     throw p1
 
     :cond_1b
-    const/16 v0, 0x334
+    const/16 v0, 0x338
 
     if-ne p2, v0, :cond_1c
 
@@ -1769,7 +1769,7 @@
     throw p1
 
     :cond_1c
-    const/16 v0, 0x335
+    const/16 v0, 0x339
 
     if-ne p2, v0, :cond_1d
 
@@ -1801,7 +1801,7 @@
     throw p1
 
     :cond_1d
-    const/16 v0, 0x19f
+    const/16 v0, 0x1a0
 
     if-ne p2, v0, :cond_1e
 
@@ -1833,7 +1833,7 @@
     throw p1
 
     :cond_1e
-    const/16 v0, 0x1a0
+    const/16 v0, 0x1a1
 
     if-ne p2, v0, :cond_1f
 
@@ -1865,7 +1865,7 @@
     throw p1
 
     :cond_1f
-    const/16 v0, 0x37d
+    const/16 v0, 0x381
 
     if-ne p2, v0, :cond_20
 
@@ -1897,7 +1897,7 @@
     throw p1
 
     :cond_20
-    const/16 v0, 0x37e
+    const/16 v0, 0x382
 
     if-ne p2, v0, :cond_21
 
@@ -1929,7 +1929,7 @@
     throw p1
 
     :cond_21
-    const/16 v0, 0x37f
+    const/16 v0, 0x383
 
     if-ne p2, v0, :cond_22
 
@@ -1961,7 +1961,7 @@
     throw p1
 
     :cond_22
-    const/16 v0, 0x1a8
+    const/16 v0, 0x1a9
 
     if-ne p2, v0, :cond_23
 
@@ -1993,7 +1993,7 @@
     throw p1
 
     :cond_23
-    const/16 v0, 0x1a9
+    const/16 v0, 0x1aa
 
     if-ne p2, v0, :cond_24
 
@@ -2025,7 +2025,7 @@
     throw p1
 
     :cond_24
-    const/16 v0, 0x1aa
+    const/16 v0, 0x1ab
 
     if-ne p2, v0, :cond_25
 
@@ -2057,7 +2057,7 @@
     throw p1
 
     :cond_25
-    const/16 v0, 0x22a
+    const/16 v0, 0x22c
 
     if-ne p2, v0, :cond_26
 
@@ -2129,7 +2129,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x27e
+    const/16 v0, 0x281
 
     if-ne p2, v0, :cond_1
 
@@ -4226,7 +4226,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x17e
+    const/16 p1, 0x17f
 
     .line 172
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/FragmentNavigationBarBindingImpl;->notifyPropertyChanged(I)V
@@ -4277,7 +4277,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x3b2
+    const/16 p1, 0x3b6
 
     .line 163
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/FragmentNavigationBarBindingImpl;->notifyPropertyChanged(I)V
@@ -4302,7 +4302,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x3b2
+    const/16 v0, 0x3b6
 
     if-ne v0, p1, :cond_0
 
@@ -4314,7 +4314,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x17e
+    const/16 v0, 0x17f
 
     if-ne v0, p1, :cond_1
 

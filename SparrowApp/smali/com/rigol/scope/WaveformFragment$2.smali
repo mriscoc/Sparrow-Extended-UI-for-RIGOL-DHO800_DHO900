@@ -22,7 +22,7 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 653
+    .line 662
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->values()[Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     move-result-object v0

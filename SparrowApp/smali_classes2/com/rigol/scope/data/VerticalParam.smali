@@ -11,7 +11,7 @@
         0x3
     }
     d1 = {
-        "\u0000\u0088\u0001\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0000\n\u0002\u0010\u0008\n\u0002\u0008\u0002\n\u0002\u0010\t\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0010\u000b\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0014\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008+\n\u0002\u0018\u0002\n\u0002\u0008\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0008\n\u0002\u0018\u0002\n\u0002\u0008\r\n\u0002\u0018\u0002\n\u0002\u0008\u000e\n\u0002\u0010\u0002\n\u0002\u0008<\u0018\u00002\u00020\u0001B\u0017\u0012\u0008\u0010\u0002\u001a\u0004\u0018\u00010\u0003\u0012\u0006\u0010\u0004\u001a\u00020\u0005\u00a2\u0006\u0002\u0010\u0006J\u0007\u0010\u00a0\u0001\u001a\u00020\u0008J\u0010\u0010\u00a1\u0001\u001a\u00030\u00a2\u00012\u0006\u0010?\u001a\u00020\u0008J\u0010\u0010\u00a3\u0001\u001a\u00020\u00082\u0007\u0010\u00a4\u0001\u001a\u00020\u0005J\u0010\u0010\u00a5\u0001\u001a\u00020\u00082\u0007\u0010\u00a4\u0001\u001a\u00020\u0005J\u0010\u0010\u00a6\u0001\u001a\u00020\u00082\u0007\u0010\u00a4\u0001\u001a\u00020\u0005J\u0010\u0010\u00a7\u0001\u001a\u00020\u00082\u0007\u0010\u00a4\u0001\u001a\u00020\u0005J\u0007\u0010V\u001a\u00030\u00a2\u0001J\u0008\u0010\u00a8\u0001\u001a\u00030\u00a2\u0001J\n\u0010\u00a9\u0001\u001a\u00030\u00a2\u0001H\u0016J\u0007\u0010\u00aa\u0001\u001a\u00020\u0014J\u0007\u0010\u00ab\u0001\u001a\u00020\u0008J\u0007\u0010\u00ac\u0001\u001a\u00020!J\u0007\u0010\u00ad\u0001\u001a\u00020(J\u0007\u0010\u00ae\u0001\u001a\u00020.J\u0007\u0010\u00af\u0001\u001a\u00020(J\t\u0010\u00b0\u0001\u001a\u0004\u0018\u00010\u0003J\u0007\u0010\u00b1\u0001\u001a\u00020\u0008J\u0007\u0010\u00b2\u0001\u001a\u00020\u0008J\u0007\u0010\u00b3\u0001\u001a\u00020\u0008J\u0008\u0010\u00b4\u0001\u001a\u00030\u00a2\u0001J\u0007\u0010\u00b5\u0001\u001a\u00020(J\u0007\u0010\u00b6\u0001\u001a\u00020\u0008J\u0007\u0010\u00b7\u0001\u001a\u00020\u0008J\u0008\u0010\u00b8\u0001\u001a\u00030\u00a2\u0001J\u0007\u0010\u00b9\u0001\u001a\u00020\u0003J\u0007\u0010\u00ba\u0001\u001a\u00020(J\u0007\u0010\u00bb\u0001\u001a\u00020sJ\u0007\u0010\u00bc\u0001\u001a\u00020|J\u0008\u0010\u00bd\u0001\u001a\u00030\u0085\u0001J\u0007\u0010\u00be\u0001\u001a\u00020\u0008J\u0007\u0010\u00bf\u0001\u001a\u00020\u0008J\u0007\u0010\u00c0\u0001\u001a\u00020(J\u0008\u0010\u00c1\u0001\u001a\u00030\u0093\u0001J\u0007\u0010\u00c2\u0001\u001a\u00020|J\n\u0010\u00c3\u0001\u001a\u00030\u00a2\u0001H\u0016J\u0008\u0010\u00c4\u0001\u001a\u00030\u00a2\u0001J\u0010\u0010\u00c5\u0001\u001a\u00030\u00a2\u00012\u0006\u0010\u0015\u001a\u00020\u0014J\u0010\u0010\u00c6\u0001\u001a\u00030\u00a2\u00012\u0006\u0010\u001e\u001a\u00020\u0008J\u0010\u0010\u00c7\u0001\u001a\u00030\u00a2\u00012\u0006\u0010\"\u001a\u00020!J\u0010\u0010\u00c8\u0001\u001a\u00030\u00a2\u00012\u0006\u0010)\u001a\u00020(J\u0010\u0010\u00c9\u0001\u001a\u00030\u00a2\u00012\u0006\u0010/\u001a\u00020.J\u0010\u0010\u00ca\u0001\u001a\u00030\u00a2\u00012\u0006\u00107\u001a\u00020(J\u0012\u0010\u00cb\u0001\u001a\u00030\u00a2\u00012\u0008\u0010:\u001a\u0004\u0018\u00010\u0003J\u0010\u0010\u00cc\u0001\u001a\u00030\u00a2\u00012\u0006\u0010?\u001a\u00020\u0008J\u0010\u0010\u00cd\u0001\u001a\u00030\u00a2\u00012\u0006\u0010?\u001a\u00020\u0008J\u0010\u0010\u00ce\u0001\u001a\u00030\u00a2\u00012\u0006\u0010L\u001a\u00020\u0008J\u0010\u0010\u00cf\u0001\u001a\u00030\u00a2\u00012\u0006\u0010Q\u001a\u00020\u0008J\u0010\u0010\u00d0\u0001\u001a\u00030\u00a2\u00012\u0006\u0010\\\u001a\u00020\u0008J\u0010\u0010\u00d1\u0001\u001a\u00030\u00a2\u00012\u0006\u0010_\u001a\u00020\u0008J\u0010\u0010\u00d2\u0001\u001a\u00030\u00a2\u00012\u0006\u0010t\u001a\u00020sJ\u0010\u0010\u00d3\u0001\u001a\u00030\u00a2\u00012\u0006\u0010}\u001a\u00020|J\u0011\u0010\u00d4\u0001\u001a\u00030\u00a2\u00012\u0007\u0010\u008b\u0001\u001a\u00020\u0008J\u0011\u0010\u00d5\u0001\u001a\u00030\u00a2\u00012\u0007\u0010\u0090\u0001\u001a\u00020(J\u0012\u0010\u00d6\u0001\u001a\u00030\u00a2\u00012\u0008\u0010\u0094\u0001\u001a\u00030\u0093\u0001J\u0011\u0010\u00d7\u0001\u001a\u00030\u00a2\u00012\u0007\u0010\u009a\u0001\u001a\u00020|J\u0011\u0010\u00d8\u0001\u001a\u00030\u00a2\u00012\u0007\u0010\u00a4\u0001\u001a\u00020\u0005J\u0011\u0010\u00d9\u0001\u001a\u00030\u00a2\u00012\u0007\u0010\u00a4\u0001\u001a\u00020\u0005J\u0008\u0010\u00da\u0001\u001a\u00030\u00a2\u0001J\u0008\u0010\u00db\u0001\u001a\u00030\u00a2\u0001J\u0008\u0010\u00dc\u0001\u001a\u00030\u00a2\u0001J\u0008\u0010\u00dd\u0001\u001a\u00030\u00a2\u0001R&\u0010\t\u001a\u00020\u00082\u0006\u0010\u0007\u001a\u00020\u00088G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\n\u0010\u000b\"\u0004\u0008\u000c\u0010\rR\u001a\u0010\u000e\u001a\u00020\u000fX\u0086.\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0010\u0010\u0011\"\u0004\u0008\u0012\u0010\u0013R&\u0010\u0015\u001a\u00020\u00142\u0006\u0010\u0007\u001a\u00020\u00148G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0016\u0010\u0017\"\u0004\u0008\u0018\u0010\u0019R\u0011\u0010\u001a\u001a\u00020\u001b\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u001c\u0010\u001dR&\u0010\u001e\u001a\u00020\u00082\u0006\u0010\u0007\u001a\u00020\u00088G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u001f\u0010\u000b\"\u0004\u0008 \u0010\rR&\u0010\"\u001a\u00020!2\u0006\u0010\u0007\u001a\u00020!8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008#\u0010$\"\u0004\u0008%\u0010&R\u000e\u0010\'\u001a\u00020(X\u0082\u000e\u00a2\u0006\u0002\n\u0000R&\u0010)\u001a\u00020(2\u0006\u0010\u0007\u001a\u00020(8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008*\u0010+\"\u0004\u0008,\u0010-R&\u0010/\u001a\u00020.2\u0006\u0010\u0007\u001a\u00020.8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00080\u00101\"\u0004\u00082\u00103R&\u00104\u001a\u00020(2\u0006\u0010\u0007\u001a\u00020(8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00085\u0010+\"\u0004\u00086\u0010-R&\u00107\u001a\u00020(2\u0006\u0010\u0007\u001a\u00020(8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00088\u0010+\"\u0004\u00089\u0010-R*\u0010:\u001a\u0004\u0018\u00010\u00032\u0008\u0010\u0007\u001a\u0004\u0018\u00010\u00038G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008;\u0010<\"\u0004\u0008=\u0010>R&\u0010?\u001a\u00020\u00082\u0006\u0010\u0007\u001a\u00020\u00088G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008@\u0010\u000b\"\u0004\u0008A\u0010\rR\u0011\u0010B\u001a\u00020C\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008D\u0010ER\u001c\u0010F\u001a\u0004\u0018\u00010GX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008H\u0010I\"\u0004\u0008J\u0010KR&\u0010L\u001a\u00020\u00082\u0006\u0010\u0007\u001a\u00020\u00088G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008M\u0010\u000b\"\u0004\u0008N\u0010\rR\u0011\u0010O\u001a\u00020C\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008P\u0010ER&\u0010Q\u001a\u00020\u00082\u0006\u0010\u0007\u001a\u00020\u00088G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008R\u0010\u000b\"\u0004\u0008S\u0010\rR\u0011\u0010T\u001a\u00020C\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008U\u0010ER&\u0010V\u001a\u00020(2\u0006\u0010\u0007\u001a\u00020(8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008W\u0010+\"\u0004\u0008X\u0010-R&\u0010Y\u001a\u00020\u00032\u0006\u0010\u0007\u001a\u00020\u00038G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008Z\u0010<\"\u0004\u0008[\u0010>R&\u0010\\\u001a\u00020\u00082\u0006\u0010\u0007\u001a\u00020\u00088G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008]\u0010\u000b\"\u0004\u0008^\u0010\rR&\u0010_\u001a\u00020\u00082\u0006\u0010\u0007\u001a\u00020\u00088G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008`\u0010\u000b\"\u0004\u0008a\u0010\rR\u0011\u0010b\u001a\u00020C\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008c\u0010ER&\u0010d\u001a\u00020(2\u0006\u0010\u0007\u001a\u00020(8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008e\u0010+\"\u0004\u0008f\u0010-R&\u0010g\u001a\u00020\u00032\u0006\u0010\u0007\u001a\u00020\u00038G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008h\u0010<\"\u0004\u0008i\u0010>R&\u0010j\u001a\u00020(2\u0006\u0010\u0007\u001a\u00020(8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008k\u0010+\"\u0004\u0008l\u0010-R&\u0010m\u001a\u00020\u00032\u0006\u0010\u0007\u001a\u00020\u00038G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008n\u0010<\"\u0004\u0008o\u0010>R&\u0010p\u001a\u00020\u00032\u0006\u0010\u0007\u001a\u00020\u00038G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008q\u0010<\"\u0004\u0008r\u0010>R&\u0010t\u001a\u00020s2\u0006\u0010\u0007\u001a\u00020s8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008u\u0010v\"\u0004\u0008w\u0010xR&\u0010y\u001a\u00020(2\u0006\u0010\u0007\u001a\u00020(8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008z\u0010+\"\u0004\u0008{\u0010-R(\u0010}\u001a\u00020|2\u0006\u0010\u0007\u001a\u00020|8G@FX\u0086\u000e\u00a2\u0006\u0010\n\u0000\u001a\u0004\u0008~\u0010\u007f\"\u0006\u0008\u0080\u0001\u0010\u0081\u0001R)\u0010\u0082\u0001\u001a\u00020\u00032\u0006\u0010\u0007\u001a\u00020\u00038G@FX\u0086\u000e\u00a2\u0006\u0010\n\u0000\u001a\u0005\u0008\u0083\u0001\u0010<\"\u0005\u0008\u0084\u0001\u0010>R-\u0010\u0086\u0001\u001a\u00030\u0085\u00012\u0007\u0010\u0007\u001a\u00030\u0085\u00018G@FX\u0086\u000e\u00a2\u0006\u0012\n\u0000\u001a\u0006\u0008\u0087\u0001\u0010\u0088\u0001\"\u0006\u0008\u0089\u0001\u0010\u008a\u0001R)\u0010\u008b\u0001\u001a\u00020\u00082\u0006\u0010\u0007\u001a\u00020\u00088G@FX\u0086\u000e\u00a2\u0006\u0010\n\u0000\u001a\u0005\u0008\u008c\u0001\u0010\u000b\"\u0005\u0008\u008d\u0001\u0010\rR\u0013\u0010\u008e\u0001\u001a\u00020C\u00a2\u0006\t\n\u0000\u001a\u0005\u0008\u008f\u0001\u0010ER)\u0010\u0090\u0001\u001a\u00020(2\u0006\u0010\u0007\u001a\u00020(8G@FX\u0086\u000e\u00a2\u0006\u0010\n\u0000\u001a\u0005\u0008\u0091\u0001\u0010+\"\u0005\u0008\u0092\u0001\u0010-R-\u0010\u0094\u0001\u001a\u00030\u0093\u00012\u0007\u0010\u0007\u001a\u00030\u0093\u00018G@FX\u0086\u000e\u00a2\u0006\u0012\n\u0000\u001a\u0006\u0008\u0095\u0001\u0010\u0096\u0001\"\u0006\u0008\u0097\u0001\u0010\u0098\u0001R\u0014\u0010\u0002\u001a\u0004\u0018\u00010\u0003\u00a2\u0006\t\n\u0000\u001a\u0005\u0008\u0099\u0001\u0010<R*\u0010\u009a\u0001\u001a\u00020|2\u0006\u0010\u0007\u001a\u00020|8G@FX\u0086\u000e\u00a2\u0006\u0011\n\u0000\u001a\u0005\u0008\u009b\u0001\u0010\u007f\"\u0006\u0008\u009c\u0001\u0010\u0081\u0001R\u001d\u0010\u009d\u0001\u001a\u00020\u0003X\u0086\u000e\u00a2\u0006\u0010\n\u0000\u001a\u0005\u0008\u009e\u0001\u0010<\"\u0005\u0008\u009f\u0001\u0010>\u00a8\u0006\u00de\u0001"
+        "\u0000\u0090\u0001\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0000\n\u0002\u0010\u0008\n\u0002\u0008\u0002\n\u0002\u0010\t\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0010\u000b\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0014\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0017\n\u0002\u0010\u0006\n\u0002\u0008\u001b\n\u0002\u0018\u0002\n\u0002\u0008\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0008\n\u0002\u0018\u0002\n\u0002\u0008\r\n\u0002\u0018\u0002\n\u0002\u0008\u000e\n\u0002\u0010\u0002\n\u0002\u0008?\u0018\u00002\u00020\u0001B\u0017\u0012\u0008\u0010\u0002\u001a\u0004\u0018\u00010\u0003\u0012\u0006\u0010\u0004\u001a\u00020\u0005\u00a2\u0006\u0002\u0010\u0006J\u0007\u0010\u00a8\u0001\u001a\u00020\u0008J\u0010\u0010\u00a9\u0001\u001a\u00030\u00aa\u00012\u0006\u0010?\u001a\u00020\u0008J\u0010\u0010\u00ab\u0001\u001a\u00020\u00082\u0007\u0010\u00ac\u0001\u001a\u00020\u0005J\u0010\u0010\u00ad\u0001\u001a\u00020\u00082\u0007\u0010\u00ac\u0001\u001a\u00020\u0005J\u0010\u0010\u00ae\u0001\u001a\u00020\u00082\u0007\u0010\u00ac\u0001\u001a\u00020\u0005J\u0010\u0010\u00af\u0001\u001a\u00020\u00082\u0007\u0010\u00ac\u0001\u001a\u00020\u0005J\u0007\u0010V\u001a\u00030\u00aa\u0001J\u0008\u0010\u00b0\u0001\u001a\u00030\u00aa\u0001J\n\u0010\u00b1\u0001\u001a\u00030\u00aa\u0001H\u0016J\u0007\u0010\u00b2\u0001\u001a\u00020\u0014J\u0007\u0010\u00b3\u0001\u001a\u00020\u0008J\u0007\u0010\u00b4\u0001\u001a\u00020!J\u0007\u0010\u00b5\u0001\u001a\u00020(J\u0007\u0010\u00b6\u0001\u001a\u00020.J\u0007\u0010\u00b7\u0001\u001a\u00020(J\t\u0010\u00b8\u0001\u001a\u0004\u0018\u00010\u0003J\u0007\u0010\u00b9\u0001\u001a\u00020\u0008J\u0007\u0010\u00ba\u0001\u001a\u00020\u0008J\u0007\u0010\u00bb\u0001\u001a\u00020\u0008J\u0008\u0010\u00bc\u0001\u001a\u00030\u00aa\u0001J\u0007\u0010\u00bd\u0001\u001a\u00020(J\u0007\u0010\u00be\u0001\u001a\u00020\u0008J\u0007\u0010\u00bf\u0001\u001a\u00020_J\u0008\u0010\u00c0\u0001\u001a\u00030\u00aa\u0001J\u0007\u0010\u00c1\u0001\u001a\u00020\u0008J\u0008\u0010\u00c2\u0001\u001a\u00030\u00aa\u0001J\u0007\u0010\u00c3\u0001\u001a\u00020\u0003J\u0007\u0010\u00c4\u0001\u001a\u00020(J\u0007\u0010\u00c5\u0001\u001a\u00020{J\u0008\u0010\u00c6\u0001\u001a\u00030\u0084\u0001J\u0008\u0010\u00c7\u0001\u001a\u00030\u008d\u0001J\u0007\u0010\u00c8\u0001\u001a\u00020\u0008J\u0007\u0010\u00c9\u0001\u001a\u00020\u0008J\u0007\u0010\u00ca\u0001\u001a\u00020(J\u0008\u0010\u00cb\u0001\u001a\u00030\u009b\u0001J\u0008\u0010\u00cc\u0001\u001a\u00030\u0084\u0001J\n\u0010\u00cd\u0001\u001a\u00030\u00aa\u0001H\u0016J\u0008\u0010\u00ce\u0001\u001a\u00030\u00aa\u0001J\u0010\u0010\u00cf\u0001\u001a\u00030\u00aa\u00012\u0006\u0010\u0015\u001a\u00020\u0014J\u0010\u0010\u00d0\u0001\u001a\u00030\u00aa\u00012\u0006\u0010\u001e\u001a\u00020\u0008J\u0010\u0010\u00d1\u0001\u001a\u00030\u00aa\u00012\u0006\u0010\"\u001a\u00020!J\u0010\u0010\u00d2\u0001\u001a\u00030\u00aa\u00012\u0006\u0010)\u001a\u00020(J\u0010\u0010\u00d3\u0001\u001a\u00030\u00aa\u00012\u0006\u0010/\u001a\u00020.J\u0010\u0010\u00d4\u0001\u001a\u00030\u00aa\u00012\u0006\u00107\u001a\u00020(J\u0012\u0010\u00d5\u0001\u001a\u00030\u00aa\u00012\u0008\u0010:\u001a\u0004\u0018\u00010\u0003J\u0010\u0010\u00d6\u0001\u001a\u00030\u00aa\u00012\u0006\u0010?\u001a\u00020\u0008J\u0010\u0010\u00d7\u0001\u001a\u00030\u00aa\u00012\u0006\u0010?\u001a\u00020\u0008J\u0010\u0010\u00d8\u0001\u001a\u00030\u00aa\u00012\u0006\u0010L\u001a\u00020\u0008J\u0010\u0010\u00d9\u0001\u001a\u00030\u00aa\u00012\u0006\u0010Q\u001a\u00020\u0008J\u0010\u0010\u00da\u0001\u001a\u00030\u00aa\u00012\u0006\u0010\\\u001a\u00020\u0008J\u0010\u0010\u00db\u0001\u001a\u00030\u00aa\u00012\u0006\u0010`\u001a\u00020_J\u0010\u0010\u00dc\u0001\u001a\u00030\u00aa\u00012\u0006\u0010g\u001a\u00020\u0008J\u0010\u0010\u00dd\u0001\u001a\u00030\u00aa\u00012\u0006\u0010|\u001a\u00020{J\u0012\u0010\u00de\u0001\u001a\u00030\u00aa\u00012\u0008\u0010\u0085\u0001\u001a\u00030\u0084\u0001J\u0011\u0010\u00df\u0001\u001a\u00030\u00aa\u00012\u0007\u0010\u0093\u0001\u001a\u00020\u0008J\u0011\u0010\u00e0\u0001\u001a\u00030\u00aa\u00012\u0007\u0010\u0098\u0001\u001a\u00020(J\u0012\u0010\u00e1\u0001\u001a\u00030\u00aa\u00012\u0008\u0010\u009c\u0001\u001a\u00030\u009b\u0001J\u0012\u0010\u00e2\u0001\u001a\u00030\u00aa\u00012\u0008\u0010\u00a2\u0001\u001a\u00030\u0084\u0001J\u0011\u0010\u00e3\u0001\u001a\u00030\u00aa\u00012\u0007\u0010\u00ac\u0001\u001a\u00020\u0005J\u0011\u0010\u00e4\u0001\u001a\u00030\u00aa\u00012\u0007\u0010\u00ac\u0001\u001a\u00020\u0005J\u0008\u0010\u00e5\u0001\u001a\u00030\u00aa\u0001J\u0008\u0010\u00e6\u0001\u001a\u00030\u00aa\u0001J\u0008\u0010\u00e7\u0001\u001a\u00030\u00aa\u0001J\u0008\u0010\u00e8\u0001\u001a\u00030\u00aa\u0001R&\u0010\t\u001a\u00020\u00082\u0006\u0010\u0007\u001a\u00020\u00088G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\n\u0010\u000b\"\u0004\u0008\u000c\u0010\rR\u001a\u0010\u000e\u001a\u00020\u000fX\u0086.\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0010\u0010\u0011\"\u0004\u0008\u0012\u0010\u0013R&\u0010\u0015\u001a\u00020\u00142\u0006\u0010\u0007\u001a\u00020\u00148G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0016\u0010\u0017\"\u0004\u0008\u0018\u0010\u0019R\u0011\u0010\u001a\u001a\u00020\u001b\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u001c\u0010\u001dR&\u0010\u001e\u001a\u00020\u00082\u0006\u0010\u0007\u001a\u00020\u00088G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u001f\u0010\u000b\"\u0004\u0008 \u0010\rR&\u0010\"\u001a\u00020!2\u0006\u0010\u0007\u001a\u00020!8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008#\u0010$\"\u0004\u0008%\u0010&R\u000e\u0010\'\u001a\u00020(X\u0082\u000e\u00a2\u0006\u0002\n\u0000R&\u0010)\u001a\u00020(2\u0006\u0010\u0007\u001a\u00020(8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008*\u0010+\"\u0004\u0008,\u0010-R&\u0010/\u001a\u00020.2\u0006\u0010\u0007\u001a\u00020.8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00080\u00101\"\u0004\u00082\u00103R&\u00104\u001a\u00020(2\u0006\u0010\u0007\u001a\u00020(8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00085\u0010+\"\u0004\u00086\u0010-R&\u00107\u001a\u00020(2\u0006\u0010\u0007\u001a\u00020(8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00088\u0010+\"\u0004\u00089\u0010-R*\u0010:\u001a\u0004\u0018\u00010\u00032\u0008\u0010\u0007\u001a\u0004\u0018\u00010\u00038G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008;\u0010<\"\u0004\u0008=\u0010>R&\u0010?\u001a\u00020\u00082\u0006\u0010\u0007\u001a\u00020\u00088G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008@\u0010\u000b\"\u0004\u0008A\u0010\rR\u0011\u0010B\u001a\u00020C\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008D\u0010ER\u001c\u0010F\u001a\u0004\u0018\u00010GX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008H\u0010I\"\u0004\u0008J\u0010KR&\u0010L\u001a\u00020\u00082\u0006\u0010\u0007\u001a\u00020\u00088G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008M\u0010\u000b\"\u0004\u0008N\u0010\rR\u0011\u0010O\u001a\u00020C\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008P\u0010ER&\u0010Q\u001a\u00020\u00082\u0006\u0010\u0007\u001a\u00020\u00088G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008R\u0010\u000b\"\u0004\u0008S\u0010\rR\u0011\u0010T\u001a\u00020C\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008U\u0010ER&\u0010V\u001a\u00020(2\u0006\u0010\u0007\u001a\u00020(8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008W\u0010+\"\u0004\u0008X\u0010-R&\u0010Y\u001a\u00020\u00032\u0006\u0010\u0007\u001a\u00020\u00038G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008Z\u0010<\"\u0004\u0008[\u0010>R&\u0010\\\u001a\u00020\u00082\u0006\u0010\u0007\u001a\u00020\u00088G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008]\u0010\u000b\"\u0004\u0008^\u0010\rR&\u0010`\u001a\u00020_2\u0006\u0010\u0007\u001a\u00020_8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008a\u0010b\"\u0004\u0008c\u0010dR\u0011\u0010e\u001a\u00020C\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008f\u0010ER&\u0010g\u001a\u00020\u00082\u0006\u0010\u0007\u001a\u00020\u00088G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008h\u0010\u000b\"\u0004\u0008i\u0010\rR\u0011\u0010j\u001a\u00020C\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008k\u0010ER&\u0010l\u001a\u00020(2\u0006\u0010\u0007\u001a\u00020(8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008m\u0010+\"\u0004\u0008n\u0010-R&\u0010o\u001a\u00020\u00032\u0006\u0010\u0007\u001a\u00020\u00038G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008p\u0010<\"\u0004\u0008q\u0010>R&\u0010r\u001a\u00020(2\u0006\u0010\u0007\u001a\u00020(8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008s\u0010+\"\u0004\u0008t\u0010-R&\u0010u\u001a\u00020\u00032\u0006\u0010\u0007\u001a\u00020\u00038G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008v\u0010<\"\u0004\u0008w\u0010>R&\u0010x\u001a\u00020\u00032\u0006\u0010\u0007\u001a\u00020\u00038G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008y\u0010<\"\u0004\u0008z\u0010>R\'\u0010|\u001a\u00020{2\u0006\u0010\u0007\u001a\u00020{8G@FX\u0086\u000e\u00a2\u0006\u000f\n\u0000\u001a\u0004\u0008}\u0010~\"\u0005\u0008\u007f\u0010\u0080\u0001R)\u0010\u0081\u0001\u001a\u00020(2\u0006\u0010\u0007\u001a\u00020(8G@FX\u0086\u000e\u00a2\u0006\u0010\n\u0000\u001a\u0005\u0008\u0082\u0001\u0010+\"\u0005\u0008\u0083\u0001\u0010-R-\u0010\u0085\u0001\u001a\u00030\u0084\u00012\u0007\u0010\u0007\u001a\u00030\u0084\u00018G@FX\u0086\u000e\u00a2\u0006\u0012\n\u0000\u001a\u0006\u0008\u0086\u0001\u0010\u0087\u0001\"\u0006\u0008\u0088\u0001\u0010\u0089\u0001R)\u0010\u008a\u0001\u001a\u00020\u00032\u0006\u0010\u0007\u001a\u00020\u00038G@FX\u0086\u000e\u00a2\u0006\u0010\n\u0000\u001a\u0005\u0008\u008b\u0001\u0010<\"\u0005\u0008\u008c\u0001\u0010>R-\u0010\u008e\u0001\u001a\u00030\u008d\u00012\u0007\u0010\u0007\u001a\u00030\u008d\u00018G@FX\u0086\u000e\u00a2\u0006\u0012\n\u0000\u001a\u0006\u0008\u008f\u0001\u0010\u0090\u0001\"\u0006\u0008\u0091\u0001\u0010\u0092\u0001R)\u0010\u0093\u0001\u001a\u00020\u00082\u0006\u0010\u0007\u001a\u00020\u00088G@FX\u0086\u000e\u00a2\u0006\u0010\n\u0000\u001a\u0005\u0008\u0094\u0001\u0010\u000b\"\u0005\u0008\u0095\u0001\u0010\rR\u0013\u0010\u0096\u0001\u001a\u00020C\u00a2\u0006\t\n\u0000\u001a\u0005\u0008\u0097\u0001\u0010ER)\u0010\u0098\u0001\u001a\u00020(2\u0006\u0010\u0007\u001a\u00020(8G@FX\u0086\u000e\u00a2\u0006\u0010\n\u0000\u001a\u0005\u0008\u0099\u0001\u0010+\"\u0005\u0008\u009a\u0001\u0010-R-\u0010\u009c\u0001\u001a\u00030\u009b\u00012\u0007\u0010\u0007\u001a\u00030\u009b\u00018G@FX\u0086\u000e\u00a2\u0006\u0012\n\u0000\u001a\u0006\u0008\u009d\u0001\u0010\u009e\u0001\"\u0006\u0008\u009f\u0001\u0010\u00a0\u0001R\u0014\u0010\u0002\u001a\u0004\u0018\u00010\u0003\u00a2\u0006\t\n\u0000\u001a\u0005\u0008\u00a1\u0001\u0010<R-\u0010\u00a2\u0001\u001a\u00030\u0084\u00012\u0007\u0010\u0007\u001a\u00030\u0084\u00018G@FX\u0086\u000e\u00a2\u0006\u0012\n\u0000\u001a\u0006\u0008\u00a3\u0001\u0010\u0087\u0001\"\u0006\u0008\u00a4\u0001\u0010\u0089\u0001R\u001d\u0010\u00a5\u0001\u001a\u00020\u0003X\u0086\u000e\u00a2\u0006\u0010\n\u0000\u001a\u0005\u0008\u00a6\u0001\u0010<\"\u0005\u0008\u00a7\u0001\u0010>\u00a8\u0006\u00e9\u0001"
     }
     d2 = {
         "Lcom/rigol/scope/data/VerticalParam;",
@@ -109,6 +109,14 @@
         "probeCurrentBias",
         "getProbeCurrentBias",
         "setProbeCurrentBias",
+        "",
+        "probeCusRatio",
+        "getProbeCusRatio",
+        "()D",
+        "setProbeCusRatio",
+        "(D)V",
+        "probeCusRatioAttr",
+        "getProbeCusRatioAttr",
         "probeDelay",
         "getProbeDelay",
         "setProbeDelay",
@@ -197,6 +205,8 @@
         "readProbeBiasAttr",
         "readProbeCal",
         "readProbeCurrentBias",
+        "readProbeCusRatio",
+        "readProbeCusRatioAttr",
         "readProbeDelay",
         "readProbeDelayAttr",
         "readProbeDetail",
@@ -223,6 +233,7 @@
         "savePosition",
         "saveProbeBias",
         "saveProbeCurrentBias",
+        "saveProbeCusRatio",
         "saveProbeDelay",
         "saveProbeRatio",
         "saveProbeRatioUnit",
@@ -292,6 +303,10 @@
 
 .field private probeCurrentBias:J
 
+.field private probeCusRatio:D
+
+.field private final probeCusRatioAttr:Lcom/rigol/scope/cil/MessageAttr;
+
 .field private probeDelay:J
 
 .field private final probeDelayAttr:Lcom/rigol/scope/cil/MessageAttr;
@@ -335,12 +350,12 @@
 .method public constructor <init>(Ljava/lang/String;I)V
     .locals 2
 
-    .line 104
+    .line 109
     invoke-direct {p0, p2}, Lcom/rigol/scope/data/BaseParam;-><init>(I)V
 
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->title:Ljava/lang/String;
 
-    .line 106
+    .line 111
     invoke-static {p2}, Lcom/rigol/scope/utilities/ViewUtil;->getChanFromServiceId(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object p1
@@ -353,138 +368,150 @@
 
     const-string p1, "Hz"
 
-    .line 122
+    .line 127
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->unitHz:Ljava/lang/String;
 
-    .line 125
+    .line 130
     invoke-static {}, Lcom/rigol/scope/data/VerticalParamKt;->access$getDEFAULT_STATUS$p()Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->status:Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
 
-    .line 137
+    .line 142
     invoke-static {}, Lcom/rigol/scope/data/VerticalParamKt;->access$getDEFAULT_COUPING$p()Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->coupling:Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
-    .line 148
+    .line 153
     invoke-static {}, Lcom/rigol/scope/data/VerticalParamKt;->access$getDEFAULT_BANDWIDTH$p()Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->bandLimit:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
-    .line 159
+    .line 164
     invoke-static {}, Lcom/rigol/scope/data/VerticalParamKt;->access$getDEFAULT_PROBE_RATIO$p()Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeRatio:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    .line 176
+    .line 181
     invoke-static {}, Lcom/rigol/scope/data/VerticalParamKt;->access$getDEFAULT_PROBE_RATIO_UNIT$p()Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     move-result-object p1
 
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeRatioUnit:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
+    const-wide/high16 p1, 0x3ff0000000000000L    # 1.0
+
+    .line 193
+    iput-wide p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeCusRatio:D
+
     const-string p1, ""
 
-    .line 188
+    .line 204
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeDetail:Ljava/lang/String;
 
-    .line 215
+    .line 231
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeMFR:Ljava/lang/String;
 
-    .line 226
+    .line 242
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeModel:Ljava/lang/String;
 
-    .line 237
+    .line 253
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeSN:Ljava/lang/String;
 
-    .line 248
+    .line 264
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeCalTime:Ljava/lang/String;
 
-    .line 259
+    .line 275
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$ProbeType;->Probe_BNC:Lcom/rigol/scope/cil/ServiceEnum$ProbeType;
 
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeType:Lcom/rigol/scope/cil/ServiceEnum$ProbeType;
 
     const/4 p1, 0x1
 
-    .line 321
+    .line 337
     iput-boolean p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeRatioEnable:Z
 
-    .line 332
+    .line 348
     iput-boolean p1, p0, Lcom/rigol/scope/data/VerticalParam;->impedanceEnable:Z
 
-    .line 387
+    .line 403
     invoke-static {}, Lcom/rigol/scope/data/VerticalParamKt;->access$getDEFAULT_IMPEDANCE$p()Lcom/rigol/scope/cil/ServiceEnum$Impedance;
 
     move-result-object p2
 
     iput-object p2, p0, Lcom/rigol/scope/data/VerticalParam;->impedance:Lcom/rigol/scope/cil/ServiceEnum$Impedance;
 
-    .line 420
+    .line 436
     invoke-static {}, Lcom/rigol/scope/data/VerticalParamKt;->access$getDEFAULT_UNIT$p()Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     move-result-object p2
 
     iput-object p2, p0, Lcom/rigol/scope/data/VerticalParam;->unit:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    .line 432
+    .line 448
     invoke-static {}, Lcom/rigol/scope/data/VerticalParamKt;->access$getDEFAULT_SCALE$p()J
 
     move-result-wide v0
 
     iput-wide v0, p0, Lcom/rigol/scope/data/VerticalParam;->scale:J
 
-    .line 442
+    .line 458
     invoke-static {}, Lcom/rigol/scope/data/VerticalParamKt;->access$getDEFAULT_SCALE$p()J
 
     move-result-wide v0
 
     iput-wide v0, p0, Lcom/rigol/scope/data/VerticalParam;->RealScale:J
 
-    .line 505
+    .line 521
     new-instance p2, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {p2}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
 
     iput-object p2, p0, Lcom/rigol/scope/data/VerticalParam;->scaleAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    .line 506
+    .line 522
     new-instance p2, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {p2}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
 
     iput-object p2, p0, Lcom/rigol/scope/data/VerticalParam;->offsetAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    .line 507
+    .line 523
     new-instance p2, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {p2}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
 
     iput-object p2, p0, Lcom/rigol/scope/data/VerticalParam;->positionAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    .line 508
+    .line 524
     new-instance p2, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {p2}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
 
     iput-object p2, p0, Lcom/rigol/scope/data/VerticalParam;->probeDelayAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    .line 509
+    .line 525
+    new-instance p2, Lcom/rigol/scope/cil/MessageAttr;
+
+    invoke-direct {p2}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
+
+    iput-object p2, p0, Lcom/rigol/scope/data/VerticalParam;->probeCusRatioAttr:Lcom/rigol/scope/cil/MessageAttr;
+
+    .line 526
     new-instance p2, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {p2}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
 
     iput-object p2, p0, Lcom/rigol/scope/data/VerticalParam;->probeBiasAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    .line 514
+    .line 531
     iput-boolean p1, p0, Lcom/rigol/scope/data/VerticalParam;->enableToSetOffset:Z
 
     return-void
@@ -495,7 +522,7 @@
 .method public final getAorBManager()Lcom/rigol/scope/utilities/AorBManager;
     .locals 2
 
-    .line 111
+    .line 116
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     if-nez v0, :cond_0
@@ -513,7 +540,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 148
+    .line 153
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->bandLimit:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     return-object v0
@@ -522,7 +549,7 @@
 .method public final getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
     .locals 1
 
-    .line 106
+    .line 111
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->chan:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -533,7 +560,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 471
+    .line 487
     iget-wide v0, p0, Lcom/rigol/scope/data/VerticalParam;->chanDelay:J
 
     return-wide v0
@@ -544,7 +571,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 137
+    .line 142
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->coupling:Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
     return-object v0
@@ -555,7 +582,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 409
+    .line 425
     iget-boolean v0, p0, Lcom/rigol/scope/data/VerticalParam;->fine:Z
 
     return v0
@@ -566,7 +593,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 387
+    .line 403
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->impedance:Lcom/rigol/scope/cil/ServiceEnum$Impedance;
 
     return-object v0
@@ -577,7 +604,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 332
+    .line 348
     iget-boolean v0, p0, Lcom/rigol/scope/data/VerticalParam;->impedanceEnable:Z
 
     return v0
@@ -588,7 +615,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 398
+    .line 414
     iget-boolean v0, p0, Lcom/rigol/scope/data/VerticalParam;->invert:Z
 
     return v0
@@ -599,7 +626,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 482
+    .line 498
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->label:Ljava/lang/String;
 
     return-object v0
@@ -610,7 +637,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 451
+    .line 467
     iget-wide v0, p0, Lcom/rigol/scope/data/VerticalParam;->offset:J
 
     return-wide v0
@@ -619,7 +646,7 @@
 .method public final getOffsetAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 506
+    .line 522
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->offsetAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -628,7 +655,7 @@
 .method public final getPopupSpinner()Lcom/rigol/scope/views/spinner/PopupSpinner;
     .locals 1
 
-    .line 116
+    .line 121
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
 
     return-object v0
@@ -639,7 +666,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 460
+    .line 476
     iget-wide v0, p0, Lcom/rigol/scope/data/VerticalParam;->position:J
 
     return-wide v0
@@ -648,7 +675,7 @@
 .method public final getPositionAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 507
+    .line 523
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->positionAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -659,7 +686,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 365
+    .line 381
     iget-wide v0, p0, Lcom/rigol/scope/data/VerticalParam;->probeBias:J
 
     return-wide v0
@@ -668,7 +695,7 @@
 .method public final getProbeBiasAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 509
+    .line 526
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->probeBiasAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -679,7 +706,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 290
+    .line 306
     iget-boolean v0, p0, Lcom/rigol/scope/data/VerticalParam;->probeCal:Z
 
     return v0
@@ -690,7 +717,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 248
+    .line 264
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->probeCalTime:Ljava/lang/String;
 
     return-object v0
@@ -701,10 +728,30 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 376
+    .line 392
     iget-wide v0, p0, Lcom/rigol/scope/data/VerticalParam;->probeCurrentBias:J
 
     return-wide v0
+.end method
+
+.method public final getProbeCusRatio()D
+    .locals 2
+    .annotation runtime Landroidx/databinding/Bindable;
+    .end annotation
+
+    .line 193
+    iget-wide v0, p0, Lcom/rigol/scope/data/VerticalParam;->probeCusRatio:D
+
+    return-wide v0
+.end method
+
+.method public final getProbeCusRatioAttr()Lcom/rigol/scope/cil/MessageAttr;
+    .locals 1
+
+    .line 525
+    iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->probeCusRatioAttr:Lcom/rigol/scope/cil/MessageAttr;
+
+    return-object v0
 .end method
 
 .method public final getProbeDelay()J
@@ -712,7 +759,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 354
+    .line 370
     iget-wide v0, p0, Lcom/rigol/scope/data/VerticalParam;->probeDelay:J
 
     return-wide v0
@@ -721,7 +768,7 @@
 .method public final getProbeDelayAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 508
+    .line 524
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->probeDelayAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -732,7 +779,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 343
+    .line 359
     iget-boolean v0, p0, Lcom/rigol/scope/data/VerticalParam;->probeDemagVisible:Z
 
     return v0
@@ -743,7 +790,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 188
+    .line 204
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->probeDetail:Ljava/lang/String;
 
     return-object v0
@@ -754,7 +801,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 301
+    .line 317
     iget-boolean v0, p0, Lcom/rigol/scope/data/VerticalParam;->probeInsert:Z
 
     return v0
@@ -765,7 +812,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 215
+    .line 231
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->probeMFR:Ljava/lang/String;
 
     return-object v0
@@ -776,7 +823,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 226
+    .line 242
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->probeModel:Ljava/lang/String;
 
     return-object v0
@@ -787,7 +834,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 159
+    .line 164
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->probeRatio:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     return-object v0
@@ -798,7 +845,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 321
+    .line 337
     iget-boolean v0, p0, Lcom/rigol/scope/data/VerticalParam;->probeRatioEnable:Z
 
     return v0
@@ -809,7 +856,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 176
+    .line 181
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->probeRatioUnit:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     return-object v0
@@ -820,7 +867,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 237
+    .line 253
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->probeSN:Ljava/lang/String;
 
     return-object v0
@@ -831,7 +878,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 259
+    .line 275
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->probeType:Lcom/rigol/scope/cil/ServiceEnum$ProbeType;
 
     return-object v0
@@ -842,7 +889,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 442
+    .line 458
     iget-wide v0, p0, Lcom/rigol/scope/data/VerticalParam;->RealScale:J
 
     return-wide v0
@@ -853,7 +900,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 432
+    .line 448
     iget-wide v0, p0, Lcom/rigol/scope/data/VerticalParam;->scale:J
 
     return-wide v0
@@ -862,7 +909,7 @@
 .method public final getScaleAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 505
+    .line 521
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->scaleAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -873,7 +920,7 @@
 
     const/16 v0, 0x710
 
-    .line 985
+    .line 1035
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readLong(I)J
 
     move-result-wide v0
@@ -886,7 +933,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 494
+    .line 510
     iget-boolean v0, p0, Lcom/rigol/scope/data/VerticalParam;->showLabel:Z
 
     return v0
@@ -897,7 +944,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 125
+    .line 130
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->status:Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
 
     return-object v0
@@ -906,7 +953,7 @@
 .method public final getTitle()Ljava/lang/String;
     .locals 1
 
-    .line 104
+    .line 109
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->title:Ljava/lang/String;
 
     return-object v0
@@ -917,7 +964,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 420
+    .line 436
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->unit:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     return-object v0
@@ -926,7 +973,7 @@
 .method public final getUnitHz()Ljava/lang/String;
     .locals 1
 
-    .line 122
+    .line 127
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->unitHz:Ljava/lang/String;
 
     return-object v0
@@ -935,7 +982,7 @@
 .method public final moveOffset(J)V
     .locals 8
 
-    .line 830
+    .line 865
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->status:Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
 
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;->CHAN_OFF:Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
@@ -944,7 +991,7 @@
 
     return-void
 
-    .line 834
+    .line 869
     :cond_0
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -966,24 +1013,24 @@
 
     move-result-wide p1
 
-    .line 835
+    .line 870
     iget-wide v0, p0, Lcom/rigol/scope/data/VerticalParam;->offset:J
 
     sub-long v6, p1, v0
 
-    .line 836
+    .line 871
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/VerticalParam;->setOffset(J)V
 
-    .line 838
+    .line 873
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v2
 
     const/16 v3, 0x28
 
-    const/16 v4, 0x3905
+    const/16 v4, 0x3b05
 
-    .line 839
+    .line 874
     iget-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->chan:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     iget v5, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
@@ -992,7 +1039,7 @@
 
     return-void
 
-    .line 834
+    .line 869
     :cond_1
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -1006,17 +1053,17 @@
 .method public final offsetLarger(I)J
     .locals 4
 
-    .line 1037
+    .line 1087
     iget-boolean v0, p0, Lcom/rigol/scope/data/VerticalParam;->enableToSetOffset:Z
 
     if-nez v0, :cond_0
 
-    .line 1039
+    .line 1089
     iget-wide v0, p0, Lcom/rigol/scope/data/VerticalParam;->offset:J
 
     return-wide v0
 
-    .line 1043
+    .line 1093
     :cond_0
     iget-wide v0, p0, Lcom/rigol/scope/data/VerticalParam;->offset:J
 
@@ -1034,17 +1081,17 @@
 .method public final offsetSmaller(I)J
     .locals 4
 
-    .line 1069
+    .line 1119
     iget-boolean v0, p0, Lcom/rigol/scope/data/VerticalParam;->enableToSetOffset:Z
 
     if-nez v0, :cond_0
 
-    .line 1071
+    .line 1121
     iget-wide v0, p0, Lcom/rigol/scope/data/VerticalParam;->offset:J
 
     return-wide v0
 
-    .line 1075
+    .line 1125
     :cond_0
     iget-wide v0, p0, Lcom/rigol/scope/data/VerticalParam;->offset:J
 
@@ -1062,17 +1109,17 @@
 .method public final positionLarger(I)J
     .locals 4
 
-    .line 1100
+    .line 1150
     iget-boolean v0, p0, Lcom/rigol/scope/data/VerticalParam;->enableToSetOffset:Z
 
     if-nez v0, :cond_0
 
-    .line 1102
+    .line 1152
     iget-wide v0, p0, Lcom/rigol/scope/data/VerticalParam;->position:J
 
     return-wide v0
 
-    .line 1106
+    .line 1156
     :cond_0
     iget-wide v0, p0, Lcom/rigol/scope/data/VerticalParam;->position:J
 
@@ -1090,17 +1137,17 @@
 .method public final positionSmaller(I)J
     .locals 4
 
-    .line 1131
+    .line 1181
     iget-boolean v0, p0, Lcom/rigol/scope/data/VerticalParam;->enableToSetOffset:Z
 
     if-nez v0, :cond_0
 
-    .line 1133
+    .line 1183
     iget-wide v0, p0, Lcom/rigol/scope/data/VerticalParam;->position:J
 
     return-wide v0
 
-    .line 1137
+    .line 1187
     :cond_0
     iget-wide v0, p0, Lcom/rigol/scope/data/VerticalParam;->position:J
 
@@ -1122,7 +1169,7 @@
 
     const/4 v1, 0x0
 
-    .line 1173
+    .line 1223
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/VerticalParam;->saveInt(II)I
 
     return-void
@@ -1135,7 +1182,7 @@
 
     const/4 v1, 0x0
 
-    .line 1180
+    .line 1230
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/VerticalParam;->saveInt(II)I
 
     return-void
@@ -1144,88 +1191,91 @@
 .method public readAll()V
     .locals 2
 
-    .line 525
+    .line 542
     invoke-virtual {p0}, Lcom/rigol/scope/data/VerticalParam;->readStatus()Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
 
-    .line 527
+    .line 544
     invoke-virtual {p0}, Lcom/rigol/scope/data/VerticalParam;->readScale()J
 
-    .line 529
+    .line 546
     invoke-virtual {p0}, Lcom/rigol/scope/data/VerticalParam;->readOffset()J
 
-    .line 531
+    .line 548
     invoke-virtual {p0}, Lcom/rigol/scope/data/VerticalParam;->readPosition()J
 
-    .line 533
+    .line 550
     invoke-virtual {p0}, Lcom/rigol/scope/data/VerticalParam;->readChanDelay()J
 
-    .line 535
+    .line 552
     invoke-virtual {p0}, Lcom/rigol/scope/data/VerticalParam;->readInvert()Z
 
-    .line 537
+    .line 554
     invoke-virtual {p0}, Lcom/rigol/scope/data/VerticalParam;->readFine()Z
 
-    .line 539
+    .line 556
     invoke-virtual {p0}, Lcom/rigol/scope/data/VerticalParam;->readCoupling()Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
-    .line 541
+    .line 558
     invoke-virtual {p0}, Lcom/rigol/scope/data/VerticalParam;->readBandLimit()Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
-    .line 543
+    .line 560
     invoke-virtual {p0}, Lcom/rigol/scope/data/VerticalParam;->readProbeRatio()Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    .line 545
+    .line 562
+    invoke-virtual {p0}, Lcom/rigol/scope/data/VerticalParam;->readProbeCusRatioAttr()V
+
+    .line 564
     invoke-virtual {p0}, Lcom/rigol/scope/data/VerticalParam;->readProbeDelay()J
 
-    .line 547
+    .line 566
     invoke-virtual {p0}, Lcom/rigol/scope/data/VerticalParam;->readProbeBias()J
 
-    .line 549
+    .line 568
     invoke-virtual {p0}, Lcom/rigol/scope/data/VerticalParam;->readProbeCurrentBias()J
 
-    .line 551
+    .line 570
     invoke-virtual {p0}, Lcom/rigol/scope/data/VerticalParam;->readUnit()Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    .line 553
+    .line 572
     invoke-virtual {p0}, Lcom/rigol/scope/data/VerticalParam;->readProbeRatioUnit()Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    .line 555
+    .line 574
     invoke-virtual {p0}, Lcom/rigol/scope/data/VerticalParam;->readImpedance()Lcom/rigol/scope/cil/ServiceEnum$Impedance;
 
-    .line 557
+    .line 576
     invoke-virtual {p0}, Lcom/rigol/scope/data/VerticalParam;->readLabel()Ljava/lang/String;
 
-    .line 559
+    .line 578
     invoke-virtual {p0}, Lcom/rigol/scope/data/VerticalParam;->readShowLabel()Z
 
-    .line 562
+    .line 581
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->scaleAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     const/16 v1, 0x70f
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/VerticalParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
-    .line 564
+    .line 583
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->offsetAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     const/16 v1, 0x712
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/VerticalParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
-    .line 566
+    .line 585
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->positionAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x742
+    const/16 v1, 0x743
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/VerticalParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
-    .line 568
+    .line 587
     invoke-virtual {p0}, Lcom/rigol/scope/data/VerticalParam;->readProbeDelayAttr()V
 
-    .line 570
+    .line 589
     invoke-virtual {p0}, Lcom/rigol/scope/data/VerticalParam;->readProbeBiasAttr()V
 
-    .line 572
+    .line 591
     invoke-virtual {p0}, Lcom/rigol/scope/data/VerticalParam;->readRealScale()J
 
     return-void
@@ -1236,7 +1286,7 @@
 
     const/16 v0, 0x705
 
-    .line 676
+    .line 698
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readInt(I)I
 
     move-result v0
@@ -1251,7 +1301,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->setBandLimit(Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;)V
 
-    .line 677
+    .line 699
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->bandLimit:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     return-object v0
@@ -1262,14 +1312,14 @@
 
     const/16 v0, 0x70b
 
-    .line 626
+    .line 648
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/VerticalParam;->setChanDelay(J)V
 
-    .line 627
+    .line 649
     iget-wide v0, p0, Lcom/rigol/scope/data/VerticalParam;->chanDelay:J
 
     return-wide v0
@@ -1280,7 +1330,7 @@
 
     const/16 v0, 0x704
 
-    .line 666
+    .line 688
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readInt(I)I
 
     move-result v0
@@ -1295,7 +1345,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->setCoupling(Lcom/rigol/scope/cil/ServiceEnum$Coupling;)V
 
-    .line 667
+    .line 689
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->coupling:Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
     return-object v0
@@ -1306,14 +1356,14 @@
 
     const/16 v0, 0x709
 
-    .line 656
+    .line 678
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->setFine(Z)V
 
-    .line 657
+    .line 679
     iget-boolean v0, p0, Lcom/rigol/scope/data/VerticalParam;->fine:Z
 
     return v0
@@ -1324,7 +1374,7 @@
 
     const/16 v0, 0x717
 
-    .line 754
+    .line 789
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readInt(I)I
 
     move-result v0
@@ -1339,7 +1389,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->setImpedance(Lcom/rigol/scope/cil/ServiceEnum$Impedance;)V
 
-    .line 755
+    .line 790
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->impedance:Lcom/rigol/scope/cil/ServiceEnum$Impedance;
 
     return-object v0
@@ -1350,14 +1400,14 @@
 
     const/16 v0, 0x708
 
-    .line 646
+    .line 668
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->setInvert(Z)V
 
-    .line 647
+    .line 669
     iget-boolean v0, p0, Lcom/rigol/scope/data/VerticalParam;->invert:Z
 
     return v0
@@ -1368,14 +1418,14 @@
 
     const/16 v0, 0x70e
 
-    .line 764
+    .line 799
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readStr(I)Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->setLabel(Ljava/lang/String;)V
 
-    .line 765
+    .line 800
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->label:Ljava/lang/String;
 
     return-object v0
@@ -1386,14 +1436,14 @@
 
     const/16 v0, 0x712
 
-    .line 606
+    .line 628
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/VerticalParam;->setOffset(J)V
 
-    .line 607
+    .line 629
     iget-wide v0, p0, Lcom/rigol/scope/data/VerticalParam;->offset:J
 
     return-wide v0
@@ -1402,16 +1452,16 @@
 .method public final readPosition()J
     .locals 2
 
-    const/16 v0, 0x742
+    const/16 v0, 0x743
 
-    .line 616
+    .line 638
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/VerticalParam;->setPosition(J)V
 
-    .line 617
+    .line 639
     iget-wide v0, p0, Lcom/rigol/scope/data/VerticalParam;->position:J
 
     return-wide v0
@@ -1422,14 +1472,14 @@
 
     const/16 v0, 0x71b
 
-    .line 717
+    .line 752
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/VerticalParam;->setProbeBias(J)V
 
-    .line 718
+    .line 753
     iget-wide v0, p0, Lcom/rigol/scope/data/VerticalParam;->probeBias:J
 
     return-wide v0
@@ -1438,7 +1488,7 @@
 .method public final readProbeBiasAttr()V
     .locals 2
 
-    .line 580
+    .line 602
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->probeBiasAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     const/16 v1, 0x71b
@@ -1453,14 +1503,14 @@
 
     const/16 v0, 0x71d
 
-    .line 702
+    .line 737
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->setProbeCal(Z)V
 
-    .line 703
+    .line 738
     iget-boolean v0, p0, Lcom/rigol/scope/data/VerticalParam;->probeCal:Z
 
     return v0
@@ -1471,17 +1521,62 @@
 
     const/16 v0, 0x71b
 
-    .line 722
+    .line 757
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/VerticalParam;->setProbeCurrentBias(J)V
 
-    .line 723
+    .line 758
     iget-wide v0, p0, Lcom/rigol/scope/data/VerticalParam;->probeCurrentBias:J
 
     return-wide v0
+.end method
+
+.method public final readProbeCusRatio()D
+    .locals 6
+
+    const/16 v0, 0x73f
+
+    .line 721
+    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readLong(I)J
+
+    move-result-wide v0
+
+    long-to-double v0, v0
+
+    const/16 v2, 0x9
+
+    int-to-double v2, v2
+
+    const-wide/high16 v4, 0x4024000000000000L    # 10.0
+
+    invoke-static {v4, v5, v2, v3}, Ljava/lang/Math;->pow(DD)D
+
+    move-result-wide v2
+
+    div-double/2addr v0, v2
+
+    invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/VerticalParam;->setProbeCusRatio(D)V
+
+    .line 723
+    iget-wide v0, p0, Lcom/rigol/scope/data/VerticalParam;->probeCusRatio:D
+
+    return-wide v0
+.end method
+
+.method public final readProbeCusRatioAttr()V
+    .locals 2
+
+    .line 595
+    iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->probeCusRatioAttr:Lcom/rigol/scope/cil/MessageAttr;
+
+    const/16 v1, 0x73f
+
+    invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/VerticalParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
+
+    return-void
 .end method
 
 .method public final readProbeDelay()J
@@ -1489,14 +1584,14 @@
 
     const/16 v0, 0x716
 
-    .line 712
+    .line 747
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/VerticalParam;->setProbeDelay(J)V
 
-    .line 713
+    .line 748
     iget-wide v0, p0, Lcom/rigol/scope/data/VerticalParam;->probeDelay:J
 
     return-wide v0
@@ -1505,7 +1600,7 @@
 .method public final readProbeDelayAttr()V
     .locals 2
 
-    .line 576
+    .line 598
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->probeDelayAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     const/16 v1, 0x716
@@ -1520,14 +1615,14 @@
 
     const/16 v0, 0x71c
 
-    .line 692
+    .line 727
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readStr(I)Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->setProbeDetail(Ljava/lang/String;)V
 
-    .line 693
+    .line 728
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->probeDetail:Ljava/lang/String;
 
     return-object v0
@@ -1538,14 +1633,14 @@
 
     const/16 v0, 0x739
 
-    .line 707
+    .line 742
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->setProbeInsert(Z)V
 
-    .line 708
+    .line 743
     iget-boolean v0, p0, Lcom/rigol/scope/data/VerticalParam;->probeInsert:Z
 
     return v0
@@ -1556,7 +1651,7 @@
 
     const/16 v0, 0x706
 
-    .line 687
+    .line 709
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readInt(I)I
 
     move-result v0
@@ -1571,7 +1666,10 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->setProbeRatio(Lcom/rigol/scope/cil/ServiceEnum$ProbeX;)V
 
-    .line 688
+    .line 710
+    invoke-virtual {p0}, Lcom/rigol/scope/data/VerticalParam;->readProbeCusRatio()D
+
+    .line 711
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->probeRatio:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     return-object v0
@@ -1580,9 +1678,9 @@
 .method public final readProbeRatioUnit()Lcom/rigol/scope/cil/ServiceEnum$Unit;
     .locals 2
 
-    const/16 v0, 0x751
+    const/16 v0, 0x752
 
-    .line 743
+    .line 778
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readInt(I)I
 
     move-result v0
@@ -1597,7 +1695,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->setProbeRatioUnit(Lcom/rigol/scope/cil/ServiceEnum$Unit;)V
 
-    .line 744
+    .line 779
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->probeRatioUnit:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     return-object v0
@@ -1606,9 +1704,9 @@
 .method public final readProbeType()Lcom/rigol/scope/cil/ServiceEnum$ProbeType;
     .locals 2
 
-    const/16 v0, 0x741
+    const/16 v0, 0x742
 
-    .line 697
+    .line 732
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readInt(I)I
 
     move-result v0
@@ -1623,7 +1721,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->setProbeType(Lcom/rigol/scope/cil/ServiceEnum$ProbeType;)V
 
-    .line 698
+    .line 733
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->probeType:Lcom/rigol/scope/cil/ServiceEnum$ProbeType;
 
     return-object v0
@@ -1634,14 +1732,14 @@
 
     const/16 v0, 0x70f
 
-    .line 595
+    .line 617
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/VerticalParam;->setRealScale(J)V
 
-    .line 597
+    .line 619
     iget-wide v0, p0, Lcom/rigol/scope/data/VerticalParam;->RealScale:J
 
     return-wide v0
@@ -1652,14 +1750,14 @@
 
     const/16 v0, 0x70f
 
-    .line 589
+    .line 611
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/VerticalParam;->setScale(J)V
 
-    .line 591
+    .line 613
     iget-wide v0, p0, Lcom/rigol/scope/data/VerticalParam;->scale:J
 
     return-wide v0
@@ -1670,14 +1768,14 @@
 
     const/16 v0, 0x70c
 
-    .line 774
+    .line 809
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->setShowLabel(Z)V
 
-    .line 775
+    .line 810
     iget-boolean v0, p0, Lcom/rigol/scope/data/VerticalParam;->showLabel:Z
 
     return v0
@@ -1688,7 +1786,7 @@
 
     const/16 v0, 0x700
 
-    .line 636
+    .line 658
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readInt(I)I
 
     move-result v0
@@ -1703,7 +1801,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->setStatus(Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;)V
 
-    .line 637
+    .line 659
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->status:Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
 
     return-object v0
@@ -1714,7 +1812,7 @@
 
     const/16 v0, 0x707
 
-    .line 732
+    .line 767
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->readInt(I)I
 
     move-result v0
@@ -1729,10 +1827,10 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->setUnit(Lcom/rigol/scope/cil/ServiceEnum$Unit;)V
 
-    .line 733
+    .line 768
     invoke-virtual {p0}, Lcom/rigol/scope/data/VerticalParam;->readProbeRatioUnit()Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    .line 734
+    .line 769
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->unit:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     return-object v0
@@ -1741,10 +1839,10 @@
 .method public reset()V
     .locals 3
 
-    .line 950
+    .line 998
     invoke-super {p0}, Lcom/rigol/scope/data/BaseParam;->reset()V
 
-    .line 952
+    .line 1000
     invoke-static {}, Lcom/rigol/scope/data/VerticalParamKt;->access$getDEFAULT_SCALE$p()J
 
     move-result-wide v0
@@ -1753,20 +1851,20 @@
 
     const-wide/16 v0, 0x0
 
-    .line 954
+    .line 1002
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/VerticalParam;->setOffset(J)V
 
-    .line 956
+    .line 1004
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/VerticalParam;->setPosition(J)V
 
-    .line 958
+    .line 1006
     invoke-static {}, Lcom/rigol/scope/data/VerticalParamKt;->access$getDEFAULT_IMPEDANCE$p()Lcom/rigol/scope/cil/ServiceEnum$Impedance;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->setImpedance(Lcom/rigol/scope/cil/ServiceEnum$Impedance;)V
 
-    .line 960
+    .line 1008
     invoke-static {}, Lcom/rigol/scope/data/VerticalParamKt;->access$getDEFAULT_COUPING$p()Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
     move-result-object v0
@@ -1775,24 +1873,24 @@
 
     const/4 v0, 0x0
 
-    .line 962
+    .line 1010
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->setInvert(Z)V
 
-    .line 964
+    .line 1012
     invoke-static {}, Lcom/rigol/scope/data/VerticalParamKt;->access$getDEFAULT_BANDWIDTH$p()Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     move-result-object v1
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/VerticalParam;->setBandLimit(Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;)V
 
-    .line 966
+    .line 1014
     invoke-static {}, Lcom/rigol/scope/data/VerticalParamKt;->access$getDEFAULT_UNIT$p()Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     move-result-object v1
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/VerticalParam;->setUnit(Lcom/rigol/scope/cil/ServiceEnum$Unit;)V
 
-    .line 968
+    .line 1016
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -1817,27 +1915,32 @@
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/VerticalParam;->setLabel(Ljava/lang/String;)V
 
-    .line 970
+    .line 1018
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->setShowLabel(Z)V
 
-    .line 972
+    .line 1020
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->setFine(Z)V
 
-    .line 974
+    .line 1022
     invoke-static {}, Lcom/rigol/scope/data/VerticalParamKt;->access$getDEFAULT_PROBE_RATIO$p()Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->setProbeRatio(Lcom/rigol/scope/cil/ServiceEnum$ProbeX;)V
 
-    .line 976
+    const-wide/high16 v0, 0x3ff0000000000000L    # 1.0
+
+    .line 1024
+    invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/VerticalParam;->setProbeCusRatio(D)V
+
+    .line 1026
     invoke-static {}, Lcom/rigol/scope/data/VerticalParamKt;->access$getDEFAULT_PROBE_RATIO_UNIT$p()Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->setProbeRatioUnit(Lcom/rigol/scope/cil/ServiceEnum$Unit;)V
 
-    .line 978
+    .line 1028
     invoke-static {}, Lcom/rigol/scope/data/VerticalParamKt;->access$getDEFAULT_SCALE$p()J
 
     move-result-wide v0
@@ -1852,7 +1955,7 @@
 
     const-wide/16 v0, 0x0
 
-    .line 1159
+    .line 1209
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/VerticalParam;->saveOffset(J)V
 
     return-void
@@ -1865,10 +1968,10 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 891
+    .line 926
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->setBandLimit(Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;)V
 
-    .line 892
+    .line 927
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;->value1:I
 
     const/16 v0, 0x705
@@ -1881,7 +1984,7 @@
 .method public final saveChanDelay(J)V
     .locals 2
 
-    .line 863
+    .line 898
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->status:Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
 
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;->CHAN_OFF:Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
@@ -1890,13 +1993,13 @@
 
     return-void
 
-    .line 866
+    .line 901
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/VerticalParam;->setChanDelay(J)V
 
     const/16 v0, 0x70b
 
-    .line 867
+    .line 902
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/VerticalParam;->saveLong(IJ)I
 
     return-void
@@ -1909,10 +2012,10 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 886
+    .line 921
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->setCoupling(Lcom/rigol/scope/cil/ServiceEnum$Coupling;)V
 
-    .line 887
+    .line 922
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Coupling;->value1:I
 
     const/16 v0, 0x704
@@ -1925,12 +2028,12 @@
 .method public final saveFine(Z)V
     .locals 1
 
-    .line 804
+    .line 839
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->setFine(Z)V
 
     const/16 v0, 0x709
 
-    .line 805
+    .line 840
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/VerticalParam;->saveBool(IZ)I
 
     return-void
@@ -1943,29 +2046,29 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 791
+    .line 826
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->setImpedance(Lcom/rigol/scope/cil/ServiceEnum$Impedance;)V
 
-    .line 792
+    .line 827
     iget v0, p1, Lcom/rigol/scope/cil/ServiceEnum$Impedance;->value1:I
 
     const/16 v1, 0x717
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/VerticalParam;->saveInt(II)I
 
-    .line 795
+    .line 830
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Impedance;->IMP_50:Lcom/rigol/scope/cil/ServiceEnum$Impedance;
 
     if-ne p1, v0, :cond_0
 
-    .line 796
+    .line 831
     iget-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->coupling:Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Coupling;->DC:Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
     if-eq p1, v0, :cond_0
 
-    .line 798
+    .line 833
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$Coupling;->DC:Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->saveCoupling(Lcom/rigol/scope/cil/ServiceEnum$Coupling;)V
@@ -1977,12 +2080,12 @@
 .method public final saveInvert(Z)V
     .locals 1
 
-    .line 786
+    .line 821
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->setInvert(Z)V
 
     const/16 v0, 0x708
 
-    .line 787
+    .line 822
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/VerticalParam;->saveBool(IZ)I
 
     return-void
@@ -1991,12 +2094,12 @@
 .method public final saveLabel(Ljava/lang/String;)V
     .locals 1
 
-    .line 933
+    .line 981
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->setLabel(Ljava/lang/String;)V
 
     const/16 v0, 0x70e
 
-    .line 935
+    .line 983
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/VerticalParam;->saveStr(ILjava/lang/String;)I
 
     return-void
@@ -2005,7 +2108,7 @@
 .method public final saveOffset(J)V
     .locals 3
 
-    .line 813
+    .line 848
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->status:Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
 
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;->CHAN_OFF:Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
@@ -2014,7 +2117,7 @@
 
     return-void
 
-    .line 817
+    .line 852
     :cond_0
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -2036,29 +2139,29 @@
 
     move-result-wide p1
 
-    .line 818
+    .line 853
     iget-wide v0, p0, Lcom/rigol/scope/data/VerticalParam;->offset:J
 
     sub-long v0, p1, v0
 
-    .line 819
+    .line 854
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/VerticalParam;->setOffset(J)V
 
-    .line 821
+    .line 856
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p1
 
     const/16 p2, 0x28
 
-    const/16 v2, 0x3907
+    const/16 v2, 0x3b07
 
-    .line 822
+    .line 857
     invoke-virtual {p1, p2, v2, v0, v1}, Lcom/rigol/scope/cil/API;->UI_PostInt64(IIJ)I
 
     return-void
 
-    .line 817
+    .line 852
     :cond_1
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -2072,7 +2175,7 @@
 .method public final saveOffsetReal(J)V
     .locals 2
 
-    .line 843
+    .line 878
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->status:Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
 
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;->CHAN_OFF:Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
@@ -2081,7 +2184,7 @@
 
     return-void
 
-    .line 847
+    .line 882
     :cond_0
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -2103,17 +2206,17 @@
 
     move-result-wide p1
 
-    .line 848
+    .line 883
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/VerticalParam;->setOffset(J)V
 
     const/16 v0, 0x712
 
-    .line 849
+    .line 884
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/VerticalParam;->saveLong(IJ)I
 
     return-void
 
-    .line 847
+    .line 882
     :cond_1
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -2127,7 +2230,7 @@
 .method public final savePosition(J)V
     .locals 3
 
-    .line 854
+    .line 889
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->status:Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
 
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;->CHAN_OFF:Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
@@ -2136,7 +2239,7 @@
 
     return-void
 
-    .line 857
+    .line 892
     :cond_0
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -2160,14 +2263,14 @@
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/VerticalParam;->setPosition(J)V
 
-    const/16 v0, 0x742
+    const/16 v0, 0x743
 
-    .line 858
+    .line 893
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/VerticalParam;->saveLong(IJ)I
 
     return-void
 
-    .line 857
+    .line 892
     :cond_1
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -2181,12 +2284,12 @@
 .method public final saveProbeBias(J)V
     .locals 1
 
-    .line 906
+    .line 954
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/VerticalParam;->setProbeBias(J)V
 
     const/16 v0, 0x71b
 
-    .line 907
+    .line 955
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/VerticalParam;->saveLong(IJ)I
 
     return-void
@@ -2195,12 +2298,41 @@
 .method public final saveProbeCurrentBias(J)V
     .locals 1
 
-    .line 911
+    .line 959
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/VerticalParam;->setProbeCurrentBias(J)V
 
     const/16 v0, 0x71b
 
-    .line 913
+    .line 961
+    invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/VerticalParam;->saveLong(IJ)I
+
+    return-void
+.end method
+
+.method public final saveProbeCusRatio(D)V
+    .locals 4
+
+    .line 941
+    invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/VerticalParam;->setProbeCusRatio(D)V
+
+    const/16 v0, 0x9
+
+    int-to-double v0, v0
+
+    const-wide/high16 v2, 0x4024000000000000L    # 10.0
+
+    .line 943
+    invoke-static {v2, v3, v0, v1}, Ljava/lang/Math;->pow(DD)D
+
+    move-result-wide v0
+
+    mul-double/2addr v0, p1
+
+    double-to-long p1, v0
+
+    const/16 v0, 0x73f
+
+    .line 944
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/VerticalParam;->saveLong(IJ)I
 
     return-void
@@ -2209,12 +2341,12 @@
 .method public final saveProbeDelay(J)V
     .locals 1
 
-    .line 901
+    .line 949
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/VerticalParam;->setProbeDelay(J)V
 
     const/16 v0, 0x716
 
-    .line 902
+    .line 950
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/VerticalParam;->saveLong(IJ)I
 
     return-void
@@ -2227,10 +2359,10 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 896
+    .line 931
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->setProbeRatio(Lcom/rigol/scope/cil/ServiceEnum$ProbeX;)V
 
-    .line 897
+    .line 932
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->value1:I
 
     const/16 v0, 0x706
@@ -2247,13 +2379,13 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 928
+    .line 976
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->setProbeRatioUnit(Lcom/rigol/scope/cil/ServiceEnum$Unit;)V
 
-    .line 929
+    .line 977
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->value1:I
 
-    const/16 v0, 0x751
+    const/16 v0, 0x752
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/VerticalParam;->saveInt(II)I
 
@@ -2263,7 +2395,7 @@
 .method public final saveScale(J)V
     .locals 3
 
-    .line 877
+    .line 912
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->status:Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
 
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;->CHAN_OFF:Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
@@ -2272,7 +2404,7 @@
 
     return-void
 
-    .line 880
+    .line 915
     :cond_0
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -2294,17 +2426,17 @@
 
     move-result-wide v0
 
-    .line 881
+    .line 916
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/VerticalParam;->setScale(J)V
 
     const/16 v0, 0x70f
 
-    .line 882
+    .line 917
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/VerticalParam;->saveLong(IJ)I
 
     return-void
 
-    .line 880
+    .line 915
     :cond_1
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -2318,12 +2450,12 @@
 .method public final saveShowLabel(Z)V
     .locals 1
 
-    .line 939
+    .line 987
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->setShowLabel(Z)V
 
     const/16 v0, 0x70c
 
-    .line 940
+    .line 988
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/VerticalParam;->saveBool(IZ)I
 
     return-void
@@ -2336,10 +2468,10 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 781
+    .line 816
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->setStatus(Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;)V
 
-    .line 782
+    .line 817
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;->value1:I
 
     const/16 v0, 0x700
@@ -2356,31 +2488,31 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 917
+    .line 965
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->setUnit(Lcom/rigol/scope/cil/ServiceEnum$Unit;)V
 
-    .line 918
+    .line 966
     iget v0, p1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->value1:I
 
     const/16 v1, 0x707
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/VerticalParam;->saveInt(II)I
 
-    .line 920
+    .line 968
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_A:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     if-ne p1, v0, :cond_0
 
-    .line 921
+    .line 969
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_VdivA:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     goto :goto_0
 
-    .line 923
+    .line 971
     :cond_0
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_X:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    .line 920
+    .line 968
     :goto_0
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->setProbeRatioUnit(Lcom/rigol/scope/cil/ServiceEnum$Unit;)V
 
@@ -2397,7 +2529,7 @@
     :goto_0
     if-ge v2, p1, :cond_1
 
-    .line 996
+    .line 1046
     iget-wide v0, p0, Lcom/rigol/scope/data/VerticalParam;->scale:J
 
     const/high16 v3, 0x3f800000    # 1.0f
@@ -2406,12 +2538,12 @@
 
     move-result-wide v0
 
-    .line 997
+    .line 1047
     iget-boolean v3, p0, Lcom/rigol/scope/data/VerticalParam;->fine:Z
 
     if-eqz v3, :cond_0
 
-    .line 999
+    .line 1049
     iget-wide v3, p0, Lcom/rigol/scope/data/VerticalParam;->scale:J
 
     const/16 v5, 0x64
@@ -2429,7 +2561,7 @@
 
     goto :goto_0
 
-    .line 1002
+    .line 1052
     :cond_1
     iget-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->scaleAttr:Lcom/rigol/scope/cil/MessageAttr;
 
@@ -2441,12 +2573,12 @@
 
     if-gtz p1, :cond_2
 
-    .line 1003
+    .line 1053
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/VerticalParam;->saveScale(J)V
 
     goto :goto_1
 
-    .line 1005
+    .line 1055
     :cond_2
     iget-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->scaleAttr:Lcom/rigol/scope/cil/MessageAttr;
 
@@ -2470,7 +2602,7 @@
     :goto_0
     if-ge v2, p1, :cond_1
 
-    .line 1017
+    .line 1067
     iget-wide v0, p0, Lcom/rigol/scope/data/VerticalParam;->scale:J
 
     const/high16 v3, 0x3f800000    # 1.0f
@@ -2479,12 +2611,12 @@
 
     move-result-wide v0
 
-    .line 1018
+    .line 1068
     iget-boolean v3, p0, Lcom/rigol/scope/data/VerticalParam;->fine:Z
 
     if-eqz v3, :cond_0
 
-    .line 1020
+    .line 1070
     iget-wide v3, p0, Lcom/rigol/scope/data/VerticalParam;->scale:J
 
     const/16 v5, 0x64
@@ -2502,7 +2634,7 @@
 
     goto :goto_0
 
-    .line 1023
+    .line 1073
     :cond_1
     iget-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->scaleAttr:Lcom/rigol/scope/cil/MessageAttr;
 
@@ -2514,12 +2646,12 @@
 
     if-ltz p1, :cond_2
 
-    .line 1024
+    .line 1074
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/VerticalParam;->saveScale(J)V
 
     goto :goto_1
 
-    .line 1026
+    .line 1076
     :cond_2
     iget-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->scaleAttr:Lcom/rigol/scope/cil/MessageAttr;
 
@@ -2540,7 +2672,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 111
+    .line 116
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     return-void
@@ -2553,7 +2685,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 150
+    .line 155
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2580,12 +2712,12 @@
 
     invoke-virtual {p0, v0, v1, p1}, Lcom/rigol/scope/data/VerticalParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 151
+    .line 156
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->bandLimit:Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     const/16 p1, 0x47
 
-    .line 152
+    .line 157
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2594,7 +2726,7 @@
 .method public final setChanDelay(J)V
     .locals 3
 
-    .line 473
+    .line 489
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2629,12 +2761,12 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/rigol/scope/data/VerticalParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 474
+    .line 490
     iput-wide p1, p0, Lcom/rigol/scope/data/VerticalParam;->chanDelay:J
 
     const/16 p1, 0xa3
 
-    .line 475
+    .line 491
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2647,7 +2779,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 139
+    .line 144
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2674,12 +2806,12 @@
 
     invoke-virtual {p0, v0, v1, p1}, Lcom/rigol/scope/data/VerticalParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 140
+    .line 145
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->coupling:Lcom/rigol/scope/cil/ServiceEnum$Coupling;
 
     const/16 p1, 0xc1
 
-    .line 141
+    .line 146
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2688,7 +2820,7 @@
 .method public final setFine(Z)V
     .locals 3
 
-    .line 411
+    .line 427
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2723,12 +2855,12 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/rigol/scope/data/VerticalParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 412
+    .line 428
     iput-boolean p1, p0, Lcom/rigol/scope/data/VerticalParam;->fine:Z
 
     const/16 p1, 0x13a
 
-    .line 413
+    .line 429
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2741,7 +2873,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 389
+    .line 405
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2768,12 +2900,12 @@
 
     invoke-virtual {p0, v0, v1, p1}, Lcom/rigol/scope/data/VerticalParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 390
+    .line 406
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->impedance:Lcom/rigol/scope/cil/ServiceEnum$Impedance;
 
-    const/16 p1, 0x1af
+    const/16 p1, 0x1b0
 
-    .line 391
+    .line 407
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2782,7 +2914,7 @@
 .method public final setImpedanceEnable(Z)V
     .locals 3
 
-    .line 334
+    .line 350
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2817,12 +2949,12 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/rigol/scope/data/VerticalParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 335
+    .line 351
     iput-boolean p1, p0, Lcom/rigol/scope/data/VerticalParam;->impedanceEnable:Z
 
-    const/16 p1, 0x1b0
+    const/16 p1, 0x1b1
 
-    .line 336
+    .line 352
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2831,7 +2963,7 @@
 .method public final setInvert(Z)V
     .locals 3
 
-    .line 400
+    .line 416
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2866,12 +2998,12 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/rigol/scope/data/VerticalParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 401
+    .line 417
     iput-boolean p1, p0, Lcom/rigol/scope/data/VerticalParam;->invert:Z
 
-    const/16 p1, 0x1bc
+    const/16 p1, 0x1bd
 
-    .line 402
+    .line 418
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2880,7 +3012,7 @@
 .method public final setLabel(Ljava/lang/String;)V
     .locals 2
 
-    .line 484
+    .line 500
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2907,15 +3039,15 @@
 
     invoke-virtual {p0, v0, v1, p1}, Lcom/rigol/scope/data/VerticalParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 485
+    .line 501
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->label:Ljava/lang/String;
 
-    const/16 p1, 0x1db
+    const/16 p1, 0x1dc
 
-    .line 486
+    .line 502
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
 
-    .line 487
+    .line 503
     iget-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->label:Ljava/lang/String;
 
     const/16 v0, 0x70e
@@ -2928,7 +3060,7 @@
 .method public final setOffset(J)V
     .locals 3
 
-    .line 453
+    .line 469
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2963,15 +3095,15 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/rigol/scope/data/VerticalParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 454
+    .line 470
     iput-wide p1, p0, Lcom/rigol/scope/data/VerticalParam;->offset:J
 
-    const/16 p1, 0x235
+    const/16 p1, 0x237
 
-    .line 455
+    .line 471
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
 
-    .line 456
+    .line 472
     iget-wide p1, p0, Lcom/rigol/scope/data/VerticalParam;->offset:J
 
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -2988,7 +3120,7 @@
 .method public final setPopupSpinner(Lcom/rigol/scope/views/spinner/PopupSpinner;)V
     .locals 0
 
-    .line 116
+    .line 121
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
 
     return-void
@@ -2997,7 +3129,7 @@
 .method public final setPosition(J)V
     .locals 3
 
-    .line 462
+    .line 478
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3032,12 +3164,12 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/rigol/scope/data/VerticalParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 463
+    .line 479
     iput-wide p1, p0, Lcom/rigol/scope/data/VerticalParam;->position:J
 
-    const/16 p1, 0x286
+    const/16 p1, 0x289
 
-    .line 464
+    .line 480
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3046,7 +3178,7 @@
 .method public final setProbeBias(J)V
     .locals 3
 
-    .line 367
+    .line 383
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3081,12 +3213,12 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/rigol/scope/data/VerticalParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 368
+    .line 384
     iput-wide p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeBias:J
 
-    const/16 p1, 0x28f
+    const/16 p1, 0x292
 
-    .line 369
+    .line 385
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3095,7 +3227,7 @@
 .method public final setProbeCal(Z)V
     .locals 3
 
-    .line 292
+    .line 308
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3130,12 +3262,12 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/rigol/scope/data/VerticalParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 293
+    .line 309
     iput-boolean p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeCal:Z
 
-    const/16 p1, 0x290
+    const/16 p1, 0x293
 
-    .line 294
+    .line 310
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3148,7 +3280,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 250
+    .line 266
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3175,12 +3307,12 @@
 
     invoke-virtual {p0, v0, v1, p1}, Lcom/rigol/scope/data/VerticalParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 251
+    .line 267
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeCalTime:Ljava/lang/String;
 
-    const/16 p1, 0x291
+    const/16 p1, 0x294
 
-    .line 252
+    .line 268
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3189,7 +3321,7 @@
 .method public final setProbeCurrentBias(J)V
     .locals 3
 
-    .line 378
+    .line 394
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3224,12 +3356,61 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/rigol/scope/data/VerticalParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 379
+    .line 395
     iput-wide p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeCurrentBias:J
 
-    const/16 p1, 0x292
+    const/16 p1, 0x295
 
-    .line 380
+    .line 396
+    invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
+
+    return-void
+.end method
+
+.method public final setProbeCusRatio(D)V
+    .locals 3
+
+    .line 195
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v1, "CHAN"
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v1, p0, Lcom/rigol/scope/data/VerticalParam;->chan:Lcom/rigol/scope/cil/ServiceEnum$Chan;
+
+    iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v1, ", probeCusRatio"
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    iget-wide v1, p0, Lcom/rigol/scope/data/VerticalParam;->probeCusRatio:D
+
+    invoke-static {v1, v2}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
+
+    move-result-object v1
+
+    invoke-static {p1, p2}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
+
+    move-result-object v2
+
+    invoke-virtual {p0, v0, v1, v2}, Lcom/rigol/scope/data/VerticalParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+
+    .line 196
+    iput-wide p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeCusRatio:D
+
+    const/16 p1, 0x296
+
+    .line 197
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3238,7 +3419,7 @@
 .method public final setProbeDelay(J)V
     .locals 3
 
-    .line 356
+    .line 372
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3273,12 +3454,12 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/rigol/scope/data/VerticalParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 357
+    .line 373
     iput-wide p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeDelay:J
 
-    const/16 p1, 0x293
+    const/16 p1, 0x297
 
-    .line 358
+    .line 374
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3287,7 +3468,7 @@
 .method public final setProbeDemagVisible(Z)V
     .locals 3
 
-    .line 345
+    .line 361
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3322,12 +3503,12 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/rigol/scope/data/VerticalParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 346
+    .line 362
     iput-boolean p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeDemagVisible:Z
 
-    const/16 p1, 0x294
+    const/16 p1, 0x298
 
-    .line 347
+    .line 363
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3340,7 +3521,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 190
+    .line 206
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3367,15 +3548,15 @@
 
     invoke-virtual {p0, v0, v1, p1}, Lcom/rigol/scope/data/VerticalParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 191
+    .line 207
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeDetail:Ljava/lang/String;
 
-    const/16 p1, 0x295
+    const/16 p1, 0x299
 
-    .line 192
+    .line 208
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
 
-    .line 195
+    .line 211
     iget-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeDetail:Ljava/lang/String;
 
     check-cast p1, Ljava/lang/CharSequence;
@@ -3386,7 +3567,7 @@
 
     if-nez p1, :cond_0
 
-    .line 196
+    .line 212
     iget-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeDetail:Ljava/lang/String;
 
     move-object v0, p1
@@ -3411,7 +3592,7 @@
 
     move-result-object p1
 
-    .line 197
+    .line 213
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v0
@@ -3422,7 +3603,7 @@
 
     const/4 v0, 0x0
 
-    .line 198
+    .line 214
     invoke-interface {p1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
@@ -3433,7 +3614,7 @@
 
     const/4 v0, 0x1
 
-    .line 199
+    .line 215
     invoke-interface {p1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
@@ -3444,7 +3625,7 @@
 
     const/4 v0, 0x2
 
-    .line 200
+    .line 216
     invoke-interface {p1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
@@ -3455,7 +3636,7 @@
 
     const/4 v0, 0x3
 
-    .line 201
+    .line 217
     invoke-interface {p1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p1
@@ -3469,16 +3650,16 @@
     :cond_0
     const-string p1, ""
 
-    .line 204
+    .line 220
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->setProbeMFR(Ljava/lang/String;)V
 
-    .line 205
+    .line 221
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->setProbeModel(Ljava/lang/String;)V
 
-    .line 206
+    .line 222
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->setProbeSN(Ljava/lang/String;)V
 
-    .line 207
+    .line 223
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->setProbeCalTime(Ljava/lang/String;)V
 
     :cond_1
@@ -3489,7 +3670,7 @@
 .method public final setProbeInsert(Z)V
     .locals 3
 
-    .line 303
+    .line 319
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3524,33 +3705,33 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/rigol/scope/data/VerticalParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 304
+    .line 320
     iput-boolean p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeInsert:Z
 
-    const/16 p1, 0x296
+    const/16 p1, 0x29a
 
-    .line 305
+    .line 321
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
 
-    .line 308
+    .line 324
     iget-boolean p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeInsert:Z
 
     if-nez p1, :cond_0
 
     const/4 p1, 0x1
 
-    .line 309
+    .line 325
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->setProbeRatioEnable(Z)V
 
-    .line 310
+    .line 326
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->setImpedanceEnable(Z)V
 
     const/4 p1, 0x0
 
-    .line 312
+    .line 328
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->setProbeDemagVisible(Z)V
 
-    .line 313
+    .line 329
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->setProbeCal(Z)V
 
     :cond_0
@@ -3564,7 +3745,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 217
+    .line 233
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3591,12 +3772,12 @@
 
     invoke-virtual {p0, v0, v1, p1}, Lcom/rigol/scope/data/VerticalParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 218
+    .line 234
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeMFR:Ljava/lang/String;
 
-    const/16 p1, 0x297
+    const/16 p1, 0x29b
 
-    .line 219
+    .line 235
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3609,7 +3790,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 228
+    .line 244
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3636,12 +3817,12 @@
 
     invoke-virtual {p0, v0, v1, p1}, Lcom/rigol/scope/data/VerticalParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 229
+    .line 245
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeModel:Ljava/lang/String;
 
-    const/16 p1, 0x298
+    const/16 p1, 0x29c
 
-    .line 230
+    .line 246
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3654,7 +3835,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 161
+    .line 166
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3681,15 +3862,15 @@
 
     invoke-virtual {p0, v0, v1, p1}, Lcom/rigol/scope/data/VerticalParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 162
+    .line 167
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeRatio:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    const/16 p1, 0x299
+    const/16 p1, 0x29d
 
-    .line 163
+    .line 168
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
 
-    .line 167
+    .line 172
     invoke-static {}, Lcom/blankj/utilcode/util/ThreadUtils;->getMainHandler()Landroid/os/Handler;
 
     move-result-object p1
@@ -3710,7 +3891,7 @@
 .method public final setProbeRatioEnable(Z)V
     .locals 3
 
-    .line 323
+    .line 339
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3745,12 +3926,12 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/rigol/scope/data/VerticalParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 324
+    .line 340
     iput-boolean p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeRatioEnable:Z
 
-    const/16 p1, 0x29a
+    const/16 p1, 0x29e
 
-    .line 325
+    .line 341
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3763,7 +3944,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 178
+    .line 183
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3790,18 +3971,18 @@
 
     invoke-virtual {p0, v0, v1, p1}, Lcom/rigol/scope/data/VerticalParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 179
+    .line 184
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeRatioUnit:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    const/16 p1, 0x29b
+    const/16 p1, 0x29f
 
-    .line 180
+    .line 185
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
 
-    .line 181
+    .line 186
     iget-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeRatioUnit:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    const/16 v0, 0x751
+    const/16 v0, 0x752
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/VerticalParam;->syncData(ILjava/lang/Object;)V
 
@@ -3815,7 +3996,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 239
+    .line 255
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3842,12 +4023,12 @@
 
     invoke-virtual {p0, v0, v1, p1}, Lcom/rigol/scope/data/VerticalParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 240
+    .line 256
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeSN:Ljava/lang/String;
 
-    const/16 p1, 0x29d
+    const/16 p1, 0x2a1
 
-    .line 241
+    .line 257
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3860,7 +4041,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 261
+    .line 277
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3887,15 +4068,15 @@
 
     invoke-virtual {p0, v0, v1, p1}, Lcom/rigol/scope/data/VerticalParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 262
+    .line 278
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeType:Lcom/rigol/scope/cil/ServiceEnum$ProbeType;
 
-    const/16 p1, 0x29e
+    const/16 p1, 0x2a2
 
-    .line 263
+    .line 279
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
 
-    .line 265
+    .line 281
     iget-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeType:Lcom/rigol/scope/cil/ServiceEnum$ProbeType;
 
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeType;->Probe_V:Lcom/rigol/scope/cil/ServiceEnum$ProbeType;
@@ -3904,21 +4085,21 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 267
+    .line 283
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/VerticalParam;->setImpedanceEnable(Z)V
 
-    .line 268
+    .line 284
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/VerticalParam;->setProbeRatioEnable(Z)V
 
-    .line 269
+    .line 285
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/VerticalParam;->setProbeDemagVisible(Z)V
 
-    .line 270
+    .line 286
     invoke-virtual {p0}, Lcom/rigol/scope/data/VerticalParam;->readProbeCal()Z
 
     goto :goto_0
 
-    .line 271
+    .line 287
     :cond_0
     iget-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeType:Lcom/rigol/scope/cil/ServiceEnum$ProbeType;
 
@@ -3926,23 +4107,23 @@
 
     if-ne p1, v0, :cond_1
 
-    .line 273
+    .line 289
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/VerticalParam;->setImpedanceEnable(Z)V
 
-    .line 274
+    .line 290
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/VerticalParam;->setProbeRatioEnable(Z)V
 
     const/4 p1, 0x1
 
-    .line 275
+    .line 291
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->setProbeDemagVisible(Z)V
 
-    .line 276
+    .line 292
     invoke-virtual {p0}, Lcom/rigol/scope/data/VerticalParam;->readProbeCal()Z
 
     goto :goto_0
 
-    .line 277
+    .line 293
     :cond_1
     iget-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeType:Lcom/rigol/scope/cil/ServiceEnum$ProbeType;
 
@@ -3950,21 +4131,21 @@
 
     if-ne p1, v0, :cond_3
 
-    .line 278
+    .line 294
     iget-boolean p1, p0, Lcom/rigol/scope/data/VerticalParam;->probeInsert:Z
 
     if-eqz p1, :cond_2
 
-    .line 279
+    .line 295
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/VerticalParam;->setImpedanceEnable(Z)V
 
     :cond_2
     const-wide/16 v0, 0x0
 
-    .line 281
+    .line 297
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/VerticalParam;->setProbeCurrentBias(J)V
 
-    .line 282
+    .line 298
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/VerticalParam;->setProbeBias(J)V
 
     :cond_3
@@ -3975,7 +4156,7 @@
 .method public final setRealScale(J)V
     .locals 0
 
-    .line 444
+    .line 460
     iput-wide p1, p0, Lcom/rigol/scope/data/VerticalParam;->RealScale:J
 
     return-void
@@ -3984,7 +4165,7 @@
 .method public final setScale(J)V
     .locals 3
 
-    .line 434
+    .line 450
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -4019,18 +4200,18 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/rigol/scope/data/VerticalParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 435
+    .line 451
     iput-wide p1, p0, Lcom/rigol/scope/data/VerticalParam;->scale:J
 
-    .line 436
+    .line 452
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/VerticalParam;->setRealScale(J)V
 
-    const/16 p1, 0x306
+    const/16 p1, 0x30a
 
-    .line 437
+    .line 453
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
 
-    .line 438
+    .line 454
     iget-wide p1, p0, Lcom/rigol/scope/data/VerticalParam;->scale:J
 
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -4047,7 +4228,7 @@
 .method public final setShowLabel(Z)V
     .locals 3
 
-    .line 496
+    .line 512
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -4082,15 +4263,15 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/rigol/scope/data/VerticalParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 497
+    .line 513
     iput-boolean p1, p0, Lcom/rigol/scope/data/VerticalParam;->showLabel:Z
 
-    const/16 p1, 0x33c
+    const/16 p1, 0x340
 
-    .line 498
+    .line 514
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
 
-    .line 499
+    .line 515
     iget-boolean p1, p0, Lcom/rigol/scope/data/VerticalParam;->showLabel:Z
 
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -4111,7 +4292,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 127
+    .line 132
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -4138,15 +4319,15 @@
 
     invoke-virtual {p0, v0, v1, p1}, Lcom/rigol/scope/data/VerticalParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 128
+    .line 133
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->status:Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
 
-    const/16 p1, 0x38d
+    const/16 p1, 0x391
 
-    .line 129
+    .line 134
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
 
-    .line 130
+    .line 135
     iget-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->status:Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
 
     const/16 v0, 0x701
@@ -4163,7 +4344,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 422
+    .line 438
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -4190,15 +4371,15 @@
 
     invoke-virtual {p0, v0, v1, p1}, Lcom/rigol/scope/data/VerticalParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 423
+    .line 439
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->unit:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    const/16 p1, 0x3db
+    const/16 p1, 0x3df
 
-    .line 424
+    .line 440
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/VerticalParam;->notifyPropertyChanged(I)V
 
-    .line 425
+    .line 441
     iget-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->unit:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     const/16 v0, 0x707
@@ -4215,7 +4396,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 122
+    .line 127
     iput-object p1, p0, Lcom/rigol/scope/data/VerticalParam;->unitHz:Ljava/lang/String;
 
     return-void
@@ -4224,7 +4405,7 @@
 .method public final toggleFine()V
     .locals 1
 
-    .line 1166
+    .line 1216
     iget-boolean v0, p0, Lcom/rigol/scope/data/VerticalParam;->fine:Z
 
     xor-int/lit8 v0, v0, 0x1
@@ -4237,7 +4418,7 @@
 .method public final toggleStatus()V
     .locals 2
 
-    .line 1201
+    .line 1251
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->status:Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
 
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;->CHAN_OFF:Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
@@ -4252,7 +4433,7 @@
 
     goto :goto_0
 
-    .line 1203
+    .line 1253
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam;->status:Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
 
@@ -4260,17 +4441,17 @@
 
     if-ne v0, v1, :cond_2
 
-    .line 1204
+    .line 1254
     invoke-virtual {p0}, Lcom/rigol/scope/data/VerticalParam;->turnOff()V
 
     goto :goto_1
 
-    .line 1202
+    .line 1252
     :cond_1
     :goto_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/VerticalParam;->turnActive()V
 
-    .line 1207
+    .line 1257
     :cond_2
     :goto_1
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
@@ -4287,7 +4468,7 @@
 
     if-eqz v0, :cond_3
 
-    .line 1209
+    .line 1259
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v1
@@ -4296,7 +4477,7 @@
 
     move-result-object v0
 
-    .line 1210
+    .line 1260
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v1
@@ -4310,7 +4491,7 @@
 .method public final turnActive()V
     .locals 1
 
-    .line 1187
+    .line 1237
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;->CHAN_ACTIVE:Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->saveStatus(Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;)V
@@ -4321,7 +4502,7 @@
 .method public final turnOff()V
     .locals 1
 
-    .line 1194
+    .line 1244
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;->CHAN_OFF:Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/VerticalParam;->saveStatus(Lcom/rigol/scope/cil/ServiceEnum$enChanStatus;)V

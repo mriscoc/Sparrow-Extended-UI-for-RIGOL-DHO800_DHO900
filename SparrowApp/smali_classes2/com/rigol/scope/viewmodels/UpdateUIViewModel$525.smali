@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/DecodeParam;)V
     .locals 0
 
-    .line 6095
+    .line 6054
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$525;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$525;->val$param:Lcom/rigol/scope/data/DecodeParam;
@@ -49,44 +49,9 @@
 
 # virtual methods
 .method public onChanged(Ljava/lang/Boolean;)V
-    .locals 5
+    .locals 2
 
-    .line 6098
-    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$525;->val$param:Lcom/rigol/scope/data/DecodeParam;
-
-    invoke-virtual {p1}, Lcom/rigol/scope/data/DecodeParam;->getType()Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
-
-    move-result-object p1
-
-    sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;->Decode_1553B:Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
-
-    if-ne p1, v0, :cond_0
-
-    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$525;->val$param:Lcom/rigol/scope/data/DecodeParam;
-
-    .line 6099
-    invoke-virtual {p1}, Lcom/rigol/scope/data/DecodeParam;->get_1553b_thres1()J
-
-    move-result-wide v0
-
-    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$525;->val$param:Lcom/rigol/scope/data/DecodeParam;
-
-    const/16 v2, 0x5971
-
-    invoke-virtual {p1, v2}, Lcom/rigol/scope/data/DecodeParam;->readLong(I)J
-
-    move-result-wide v3
-
-    cmp-long p1, v0, v3
-
-    if-eqz p1, :cond_0
-
-    .line 6100
-    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$525;->val$param:Lcom/rigol/scope/data/DecodeParam;
-
-    invoke-virtual {p1}, Lcom/rigol/scope/data/DecodeParam;->read_1553b_thres1()V
-
-    .line 6101
+    .line 6057
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$525;->val$param:Lcom/rigol/scope/data/DecodeParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/DecodeParam;->get_1553b_thres1()J
@@ -97,16 +62,17 @@
 
     move-result-object v0
 
-    invoke-virtual {p1, v2, v0}, Lcom/rigol/scope/data/DecodeParam;->syncData(ILjava/lang/Object;)V
+    const/16 v1, 0x5b71
 
-    :cond_0
+    invoke-virtual {p1, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->syncData(ILjava/lang/Object;)V
+
     return-void
 .end method
 
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 6095
+    .line 6054
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$525;->onChanged(Ljava/lang/Boolean;)V

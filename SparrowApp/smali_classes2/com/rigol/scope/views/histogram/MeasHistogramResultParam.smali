@@ -158,7 +158,7 @@
 
     iput-object v0, p0, Lcom/rigol/scope/views/histogram/MeasHistogramResultParam;->sourceArray:Landroidx/collection/SparseArrayCompat;
 
-    const v0, 0x7f030140
+    const v0, 0x7f030141
 
     .line 244
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -595,7 +595,7 @@
 .method public final remove()V
     .locals 2
 
-    const/16 v0, 0x33d7
+    const/16 v0, 0x35d7
 
     const/4 v1, 0x0
 
@@ -1085,7 +1085,7 @@
     .line 129
     iput-object p1, p0, Lcom/rigol/scope/views/histogram/MeasHistogramResultParam;->verUnit:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    const/16 p1, 0x3fd
+    const/16 p1, 0x401
 
     .line 130
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/MeasHistogramResultParam;->notifyPropertyChanged(I)V

@@ -330,7 +330,7 @@
 
     if-eqz v0, :cond_3
 
-    const-string v1, "28_13098"
+    const-string v1, "28_13610"
 
     .line 191
     invoke-virtual {v0, v1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->get(Ljava/lang/String;)Landroidx/lifecycle/MutableLiveData;
@@ -846,45 +846,6 @@
     return-void
 .end method
 
-.method public synthetic lambda$new$4$MeasurePopupView(ILcom/rigol/scope/data/MappingObject;)V
-    .locals 1
-
-    .line 221
-    iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->clickedView:Landroid/view/View;
-
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
-
-    move-result p1
-
-    const v0, 0x7f0a04f5
-
-    if-ne p1, v0, :cond_0
-
-    .line 222
-    invoke-direct {p0, p2}, Lcom/rigol/scope/views/measure/MeasurePopupView;->selectSourceA(Lcom/rigol/scope/data/MappingObject;)V
-
-    goto :goto_0
-
-    .line 223
-    :cond_0
-    iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->clickedView:Landroid/view/View;
-
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
-
-    move-result p1
-
-    const v0, 0x7f0a04f7
-
-    if-ne p1, v0, :cond_1
-
-    .line 224
-    invoke-direct {p0, p2}, Lcom/rigol/scope/views/measure/MeasurePopupView;->selectSourceB(Lcom/rigol/scope/data/MappingObject;)V
-
-    :cond_1
-    :goto_0
-    return-void
-.end method
-
 .method public synthetic lambda$new$5$MeasurePopupView(Landroid/view/KeyEvent;)V
     .locals 11
 
@@ -918,15 +879,54 @@
 
     const/4 v9, 0x0
 
-    new-instance v10, Lcom/rigol/scope/views/measure/-$$Lambda$MeasurePopupView$da7YyUktLcXryrRUwLZWVstR2XA;
+    new-instance v10, Lcom/rigol/scope/views/measure/-$$Lambda$MeasurePopupView$kwL4OE0e_gaw1ysj6cWzefPZvJI;
 
-    invoke-direct {v10, p0}, Lcom/rigol/scope/views/measure/-$$Lambda$MeasurePopupView$da7YyUktLcXryrRUwLZWVstR2XA;-><init>(Lcom/rigol/scope/views/measure/MeasurePopupView;)V
+    invoke-direct {v10, p0}, Lcom/rigol/scope/views/measure/-$$Lambda$MeasurePopupView$kwL4OE0e_gaw1ysj6cWzefPZvJI;-><init>(Lcom/rigol/scope/views/measure/MeasurePopupView;)V
 
     move-object v2, p1
 
     invoke-virtual/range {v1 .. v10}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->abSwitch(Landroid/view/KeyEvent;Landroid/view/View;Lcom/rigol/scope/views/spinner/PopupSpinner;Ljava/util/List;Lcom/rigol/scope/adapters/SpinnerAdapter;Lcom/rigol/scope/utilities/AorBManager;Lcom/rigol/scope/views/keyboard/KeyboardPopupView;Lcom/rigol/scope/utilities/AorBManager$OnKeyboardItemChangeListener;Lcom/rigol/scope/utilities/AorBManager$OnSpinnerItemChangeListener;)V
 
     :cond_0
+    return-void
+.end method
+
+.method public synthetic lambda$null$4$MeasurePopupView(ILcom/rigol/scope/data/MappingObject;)V
+    .locals 1
+
+    .line 221
+    iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->clickedView:Landroid/view/View;
+
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    move-result p1
+
+    const v0, 0x7f0a04f7
+
+    if-ne p1, v0, :cond_0
+
+    .line 222
+    invoke-direct {p0, p2}, Lcom/rigol/scope/views/measure/MeasurePopupView;->selectSourceA(Lcom/rigol/scope/data/MappingObject;)V
+
+    goto :goto_0
+
+    .line 223
+    :cond_0
+    iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->clickedView:Landroid/view/View;
+
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    move-result p1
+
+    const v0, 0x7f0a04f9
+
+    if-ne p1, v0, :cond_1
+
+    .line 224
+    invoke-direct {p0, p2}, Lcom/rigol/scope/views/measure/MeasurePopupView;->selectSourceB(Lcom/rigol/scope/data/MappingObject;)V
+
+    :cond_1
+    :goto_0
     return-void
 .end method
 
@@ -1007,7 +1007,7 @@
 
     move-result v0
 
-    const v1, 0x7f0a04f5
+    const v1, 0x7f0a04f7
 
     if-ne v0, v1, :cond_0
 
@@ -1038,7 +1038,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f0a04f7
+    const v1, 0x7f0a04f9
 
     if-ne v0, v1, :cond_1
 
@@ -1069,7 +1069,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f0a0ae2
+    const p1, 0x7f0a0aee
 
     if-ne v0, p1, :cond_2
 
@@ -1085,7 +1085,7 @@
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f0a07fc
+    const p1, 0x7f0a0808
 
     if-ne v0, p1, :cond_3
 
@@ -1124,7 +1124,7 @@
     .line 515
     iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasurePopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
-    const/16 v1, 0x3308
+    const/16 v1, 0x3508
 
     const/4 v2, 0x0
 
@@ -1164,7 +1164,7 @@
 
     const/16 p2, 0x1c
 
-    const/16 v0, 0x3300
+    const/16 v0, 0x3500
 
     invoke-static {p2, v0}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 
@@ -1191,7 +1191,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x3302
+    const/16 v0, 0x3502
 
     invoke-static {p2, v0}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 
@@ -1440,7 +1440,7 @@
 
     move-result-object p4
 
-    const/16 v0, 0x3301
+    const/16 v0, 0x3501
 
     new-instance v1, Lcom/rigol/scope/data/TwoTuple;
 

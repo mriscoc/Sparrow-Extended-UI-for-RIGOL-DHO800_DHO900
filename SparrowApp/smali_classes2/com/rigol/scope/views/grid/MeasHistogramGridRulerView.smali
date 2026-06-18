@@ -81,40 +81,40 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 0
 
-    .line 1742
+    .line 1857
     invoke-direct {p0, p1, p2, p3}, Lcom/rigol/scope/views/grid/GridRulerViewWrapper;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/4 p1, 0x0
 
-    .line 1747
+    .line 1862
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/grid/MeasHistogramGridRulerView;->setFromTop(Z)V
 
-    .line 1748
+    .line 1863
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/grid/MeasHistogramGridRulerView;->setFromStart(Z)V
 
-    .line 1750
+    .line 1865
     invoke-direct {p0}, Lcom/rigol/scope/views/grid/MeasHistogramGridRulerView;->updateXRuler()V
 
-    .line 1751
+    .line 1866
     invoke-direct {p0}, Lcom/rigol/scope/views/grid/MeasHistogramGridRulerView;->updateYRuler()V
 
-    .line 1754
+    .line 1869
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MeasHistogramGridRulerView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
     move-result-object p1
 
     if-eqz p1, :cond_1
 
-    const-string p2, "34_8478"
+    const-string p2, "34_8990"
 
-    .line 1753
+    .line 1868
     invoke-virtual {p1, p2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(Ljava/lang/String;)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
     if-eqz p1, :cond_1
 
-    .line 1754
+    .line 1869
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MeasHistogramGridRulerView;->getContext()Landroid/content/Context;
 
     move-result-object p2
@@ -156,7 +156,7 @@
 
     const/4 p2, 0x0
 
-    .line 1740
+    .line 1855
     check-cast p2, Landroid/util/AttributeSet;
 
     :cond_0
@@ -166,7 +166,7 @@
 
     const/4 p3, 0x0
 
-    .line 1741
+    .line 1856
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/rigol/scope/views/grid/MeasHistogramGridRulerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -176,7 +176,7 @@
 .method public static final synthetic access$updateXRuler(Lcom/rigol/scope/views/grid/MeasHistogramGridRulerView;)V
     .locals 0
 
-    .line 1738
+    .line 1853
     invoke-direct {p0}, Lcom/rigol/scope/views/grid/MeasHistogramGridRulerView;->updateXRuler()V
 
     return-void
@@ -185,7 +185,7 @@
 .method public static final synthetic access$updateYRuler(Lcom/rigol/scope/views/grid/MeasHistogramGridRulerView;)V
     .locals 0
 
-    .line 1738
+    .line 1853
     invoke-direct {p0}, Lcom/rigol/scope/views/grid/MeasHistogramGridRulerView;->updateYRuler()V
 
     return-void
@@ -194,14 +194,14 @@
 .method private final updateXRuler()V
     .locals 1
 
-    .line 1763
+    .line 1878
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->getMeasHistogramXRulers()[Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/grid/MeasHistogramGridRulerView;->setColumnContents([Ljava/lang/String;)V
 
-    .line 1766
+    .line 1881
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MeasHistogramGridRulerView;->invalidate()V
 
     return-void
@@ -210,14 +210,14 @@
 .method private final updateYRuler()V
     .locals 1
 
-    .line 1774
+    .line 1889
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->getMeasHistogramYRulers()[Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/grid/MeasHistogramGridRulerView;->setRowContents([Ljava/lang/String;)V
 
-    .line 1777
+    .line 1892
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MeasHistogramGridRulerView;->invalidate()V
 
     return-void

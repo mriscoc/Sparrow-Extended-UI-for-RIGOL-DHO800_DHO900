@@ -147,8 +147,6 @@
 
     move-result-object v5
 
-    check-cast v5, Lcom/rigol/scope/data/MappingObject;
-
     invoke-interface {v4, v3, v5}, Ljava/util/List;->add(ILjava/lang/Object;)V
 
     add-int/lit8 v2, v2, 0x1
@@ -203,7 +201,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f10076c
+    const v0, 0x7f100774
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -253,7 +251,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f100377
+    const v2, 0x7f10037a
 
     if-ne v1, p1, :cond_7
 

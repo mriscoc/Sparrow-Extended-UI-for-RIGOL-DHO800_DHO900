@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/PopupviewAlertBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04cc
+    const v1, 0x7f0a04ce
 
     const/4 v2, 0x1
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAlertBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08fd
+    const v1, 0x7f0a0909
 
     const/4 v2, 0x2
 
@@ -45,7 +45,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAlertBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a050a
+    const v1, 0x7f0a050c
 
     const/4 v2, 0x3
 
@@ -63,7 +63,7 @@
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAlertBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a038e
+    const v1, 0x7f0a0390
 
     const/4 v2, 0x5
 
@@ -90,7 +90,7 @@
     .line 24
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewAlertBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a06b0
+    const v1, 0x7f0a06ba
 
     const/16 v2, 0x8
 

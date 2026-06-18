@@ -86,11 +86,11 @@
 .method public onCheckedChanged(Landroid/widget/RadioGroup;I)V
     .locals 0
 
-    const p1, 0x7f0a074b
+    const p1, 0x7f0a0757
 
     if-eq p2, p1, :cond_1
 
-    const p1, 0x7f0a0752
+    const p1, 0x7f0a075e
 
     if-eq p2, p1, :cond_0
 
@@ -163,7 +163,7 @@
 
     iget p2, p2, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickStatReset;->value1:I
 
-    const v0, 0x7f03018f
+    const v0, 0x7f030191
 
     invoke-static {v0, p2}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 

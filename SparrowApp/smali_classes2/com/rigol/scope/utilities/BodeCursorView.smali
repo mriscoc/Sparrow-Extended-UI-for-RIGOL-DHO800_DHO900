@@ -65,10 +65,10 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
 
-    .line 52
+    .line 92
     invoke-direct {p0, p1}, Landroid/view/View;-><init>(Landroid/content/Context;)V
 
-    .line 15
+    .line 16
     new-instance p1, Landroid/graphics/Paint;
 
     invoke-direct {p1}, Landroid/graphics/Paint;-><init>()V
@@ -96,7 +96,7 @@
     .line 21
     sget-object v0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
 
-    .line 15
+    .line 16
     iput-object p1, p0, Lcom/rigol/scope/utilities/BodeCursorView;->textPaint:Landroid/graphics/Paint;
 
     .line 26
@@ -106,7 +106,7 @@
 
     iput-object p1, p0, Lcom/rigol/scope/utilities/BodeCursorView;->path_line:Landroid/graphics/Path;
 
-    .line 53
+    .line 93
     const-class p1, Lcom/rigol/scope/viewmodels/BodeViewModel;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -129,10 +129,10 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 0
 
-    .line 49
+    .line 89
     invoke-direct {p0, p1, p2}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 15
+    .line 16
     new-instance p1, Landroid/graphics/Paint;
 
     invoke-direct {p1}, Landroid/graphics/Paint;-><init>()V
@@ -160,7 +160,7 @@
     .line 21
     sget-object p2, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
 
-    .line 15
+    .line 16
     iput-object p1, p0, Lcom/rigol/scope/utilities/BodeCursorView;->textPaint:Landroid/graphics/Paint;
 
     .line 26
@@ -170,7 +170,7 @@
 
     iput-object p1, p0, Lcom/rigol/scope/utilities/BodeCursorView;->path_line:Landroid/graphics/Path;
 
-    .line 50
+    .line 90
     const-class p1, Lcom/rigol/scope/viewmodels/BodeViewModel;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -202,278 +202,542 @@
 .end method
 
 .method protected onDraw(Landroid/graphics/Canvas;)V
-    .locals 9
+    .locals 18
+
+    move-object/from16 v0, p0
 
     .line 31
-    invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
-
-    .line 32
-    iget-object v0, p0, Lcom/rigol/scope/utilities/BodeCursorView;->bodeParam:Lcom/rigol/scope/data/BodeParam;
-
-    invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
-
-    invoke-virtual {v0}, Lcom/rigol/scope/data/BodeParam;->getBode_resultlist()Ljava/util/ArrayList;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
-
-    move-result v0
-
-    if-lez v0, :cond_2
+    invoke-super/range {p0 .. p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
 
     .line 33
-    iget-object v0, p0, Lcom/rigol/scope/utilities/BodeCursorView;->bodeParam:Lcom/rigol/scope/data/BodeParam;
+    iget-object v1, v0, Lcom/rigol/scope/utilities/BodeCursorView;->bodeParam:Lcom/rigol/scope/data/BodeParam;
 
-    invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
-
-    invoke-virtual {v0}, Lcom/rigol/scope/data/BodeParam;->getBodeCursorPosition()I
-
-    move-result v0
-
-    if-gtz v0, :cond_0
+    if-eqz v1, :cond_b
 
     .line 34
-    iget-object v0, p0, Lcom/rigol/scope/utilities/BodeCursorView;->bodeParam:Lcom/rigol/scope/data/BodeParam;
+    invoke-virtual {v1}, Lcom/rigol/scope/data/BodeParam;->getBode_resultDatalist()Ljava/util/ArrayList;
 
-    invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
+    move-result-object v2
 
-    const/4 v1, 0x0
-
-    invoke-virtual {v0, v1}, Lcom/rigol/scope/data/BodeParam;->setBodeCursorPosition(I)V
-
-    goto :goto_0
-
-    .line 35
-    :cond_0
-    iget-object v0, p0, Lcom/rigol/scope/utilities/BodeCursorView;->bodeParam:Lcom/rigol/scope/data/BodeParam;
-
-    invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
-
-    invoke-virtual {v0}, Lcom/rigol/scope/data/BodeParam;->getBodeCursorPosition()I
-
-    move-result v0
-
-    iget-object v1, p0, Lcom/rigol/scope/utilities/BodeCursorView;->bodeParam:Lcom/rigol/scope/data/BodeParam;
-
-    invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
-
-    invoke-virtual {v1}, Lcom/rigol/scope/data/BodeParam;->getPosition_listx()Ljava/util/ArrayList;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
-
-    move-result v1
-
-    add-int/lit8 v1, v1, -0x1
-
-    if-lt v0, v1, :cond_1
-
-    .line 36
-    iget-object v0, p0, Lcom/rigol/scope/utilities/BodeCursorView;->bodeParam:Lcom/rigol/scope/data/BodeParam;
-
-    invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
-
-    iget-object v1, p0, Lcom/rigol/scope/utilities/BodeCursorView;->bodeParam:Lcom/rigol/scope/data/BodeParam;
-
-    invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
-
-    invoke-virtual {v1}, Lcom/rigol/scope/data/BodeParam;->getPosition_listx()Ljava/util/ArrayList;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
-
-    move-result v1
-
-    add-int/lit8 v1, v1, -0x1
-
-    invoke-virtual {v0, v1}, Lcom/rigol/scope/data/BodeParam;->setBodeCursorPosition(I)V
-
-    .line 38
-    :cond_1
-    :goto_0
-    iget-object v0, p0, Lcom/rigol/scope/utilities/BodeCursorView;->bodeParam:Lcom/rigol/scope/data/BodeParam;
-
-    invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
-
-    invoke-virtual {v0}, Lcom/rigol/scope/data/BodeParam;->getPosition_listx()Ljava/util/ArrayList;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
-
-    move-result v0
-
-    if-lez v0, :cond_2
-
-    .line 39
-    iget-object v0, p0, Lcom/rigol/scope/utilities/BodeCursorView;->path_line:Landroid/graphics/Path;
-
-    iget-object v1, p0, Lcom/rigol/scope/utilities/BodeCursorView;->bodeParam:Lcom/rigol/scope/data/BodeParam;
-
-    invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
-
-    invoke-virtual {v1}, Lcom/rigol/scope/data/BodeParam;->getPosition_listx()Ljava/util/ArrayList;
-
-    move-result-object v1
-
-    iget-object v2, p0, Lcom/rigol/scope/utilities/BodeCursorView;->bodeParam:Lcom/rigol/scope/data/BodeParam;
-
-    invoke-static {v2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
-
-    invoke-virtual {v2}, Lcom/rigol/scope/data/BodeParam;->getBodeCursorPosition()I
+    invoke-virtual {v2}, Ljava/util/ArrayList;->isEmpty()Z
 
     move-result v2
 
-    invoke-virtual {v1, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    if-eqz v2, :cond_0
 
-    move-result-object v1
+    return-void
 
-    check-cast v1, Ljava/lang/Number;
+    .line 37
+    :cond_0
+    invoke-virtual {v1}, Lcom/rigol/scope/data/BodeParam;->getBode_resultDatalist()Ljava/util/ArrayList;
 
-    invoke-virtual {v1}, Ljava/lang/Number;->floatValue()F
+    move-result-object v2
 
-    move-result v1
+    invoke-virtual {v2}, Ljava/util/ArrayList;->size()I
 
-    const/16 v2, 0x78
+    move-result v2
 
-    int-to-float v2, v2
+    const/4 v3, 0x1
 
-    add-float/2addr v1, v2
+    sub-int/2addr v2, v3
 
-    iget-object v3, p0, Lcom/rigol/scope/utilities/BodeCursorView;->bodeParam:Lcom/rigol/scope/data/BodeParam;
+    if-gez v2, :cond_1
 
-    invoke-static {v3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
-
-    invoke-virtual {v3}, Lcom/rigol/scope/data/BodeParam;->getSpacing_heightunit()D
-
-    move-result-wide v3
-
-    const/16 v5, 0x14
-
-    int-to-double v5, v5
-
-    add-double/2addr v3, v5
-
-    double-to-float v3, v3
-
-    invoke-virtual {v0, v1, v3}, Landroid/graphics/Path;->moveTo(FF)V
-
-    .line 40
-    iget-object v0, p0, Lcom/rigol/scope/utilities/BodeCursorView;->path_line:Landroid/graphics/Path;
-
-    iget-object v1, p0, Lcom/rigol/scope/utilities/BodeCursorView;->bodeParam:Lcom/rigol/scope/data/BodeParam;
-
-    invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
-
-    invoke-virtual {v1}, Lcom/rigol/scope/data/BodeParam;->getPosition_listx()Ljava/util/ArrayList;
-
-    move-result-object v1
-
-    iget-object v3, p0, Lcom/rigol/scope/utilities/BodeCursorView;->bodeParam:Lcom/rigol/scope/data/BodeParam;
-
-    invoke-static {v3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
-
-    invoke-virtual {v3}, Lcom/rigol/scope/data/BodeParam;->getBodeCursorPosition()I
-
-    move-result v3
-
-    invoke-virtual {v1, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
-
-    move-result-object v1
-
-    check-cast v1, Ljava/lang/Number;
-
-    invoke-virtual {v1}, Ljava/lang/Number;->floatValue()F
-
-    move-result v1
-
-    add-float/2addr v1, v2
-
-    iget-object v3, p0, Lcom/rigol/scope/utilities/BodeCursorView;->bodeParam:Lcom/rigol/scope/data/BodeParam;
-
-    invoke-static {v3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
-
-    invoke-virtual {v3}, Lcom/rigol/scope/data/BodeParam;->getSpacing_heightunit()D
-
-    move-result-wide v3
-
-    add-double/2addr v3, v5
-
-    double-to-float v3, v3
-
-    invoke-virtual {v0, v1, v3}, Landroid/graphics/Path;->lineTo(FF)V
+    return-void
 
     .line 41
-    iget-object v0, p0, Lcom/rigol/scope/utilities/BodeCursorView;->path_line:Landroid/graphics/Path;
+    :cond_1
+    invoke-virtual {v1}, Lcom/rigol/scope/data/BodeParam;->getBodeCursorPosition()I
 
-    iget-object v1, p0, Lcom/rigol/scope/utilities/BodeCursorView;->bodeParam:Lcom/rigol/scope/data/BodeParam;
+    move-result v4
 
-    invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
+    const/4 v5, 0x0
 
-    invoke-virtual {v1}, Lcom/rigol/scope/data/BodeParam;->getPosition_listx()Ljava/util/ArrayList;
+    invoke-static {v4, v5, v2}, Lkotlin/ranges/RangesKt;->coerceIn(III)I
 
-    move-result-object v1
+    move-result v2
 
-    iget-object v3, p0, Lcom/rigol/scope/utilities/BodeCursorView;->bodeParam:Lcom/rigol/scope/data/BodeParam;
+    .line 42
+    invoke-virtual {v1, v2}, Lcom/rigol/scope/data/BodeParam;->setBodeCursorPosition(I)V
 
-    invoke-static {v3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
+    .line 43
+    iget-object v4, v0, Lcom/rigol/scope/utilities/BodeCursorView;->path_line:Landroid/graphics/Path;
 
-    invoke-virtual {v3}, Lcom/rigol/scope/data/BodeParam;->getBodeCursorPosition()I
+    invoke-virtual {v4}, Landroid/graphics/Path;->reset()V
 
-    move-result v3
+    .line 45
+    invoke-virtual {v1}, Lcom/rigol/scope/data/BodeParam;->getBode_resultDatalist()Ljava/util/ArrayList;
 
-    invoke-virtual {v1, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    move-result-object v4
 
-    move-result-object v1
+    check-cast v4, Ljava/util/List;
 
-    check-cast v1, Ljava/lang/Number;
+    invoke-static {v4, v2}, Lkotlin/collections/CollectionsKt;->getOrNull(Ljava/util/List;I)Ljava/lang/Object;
 
-    invoke-virtual {v1}, Ljava/lang/Number;->floatValue()F
+    move-result-object v2
 
-    move-result v1
+    check-cast v2, Ljava/lang/String;
 
-    add-float/2addr v1, v2
+    if-eqz v2, :cond_b
 
-    iget-object v2, p0, Lcom/rigol/scope/utilities/BodeCursorView;->bodeParam:Lcom/rigol/scope/data/BodeParam;
+    .line 46
+    move-object v6, v2
 
-    invoke-static {v2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
+    check-cast v6, Ljava/lang/CharSequence;
 
-    invoke-virtual {v2}, Lcom/rigol/scope/data/BodeParam;->getSpacing_heightunit()D
+    const-string v2, ","
+
+    filled-new-array {v2}, [Ljava/lang/String;
+
+    move-result-object v7
+
+    const/4 v8, 0x0
+
+    const/4 v9, 0x0
+
+    const/4 v10, 0x6
+
+    const/4 v11, 0x0
+
+    invoke-static/range {v6 .. v11}, Lkotlin/text/StringsKt;->split$default(Ljava/lang/CharSequence;[Ljava/lang/String;ZIILjava/lang/Object;)Ljava/util/List;
+
+    move-result-object v4
+
+    .line 47
+    invoke-static {v4, v5}, Lkotlin/collections/CollectionsKt;->getOrNull(Ljava/util/List;I)Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Ljava/lang/String;
+
+    if-eqz v4, :cond_b
+
+    invoke-static {v4}, Lkotlin/text/StringsKt;->toDoubleOrNull(Ljava/lang/String;)Ljava/lang/Double;
+
+    move-result-object v4
+
+    if-eqz v4, :cond_b
+
+    invoke-virtual {v4}, Ljava/lang/Double;->doubleValue()D
+
+    move-result-wide v6
+
+    int-to-double v8, v5
+
+    cmpg-double v4, v6, v8
+
+    if-gtz v4, :cond_2
+
+    return-void
+
+    .line 51
+    :cond_2
+    invoke-virtual {v1}, Lcom/rigol/scope/data/BodeParam;->getBodeStartFreq()J
+
+    move-result-wide v10
+
+    long-to-double v10, v10
+
+    .line 52
+    invoke-virtual {v1}, Lcom/rigol/scope/data/BodeParam;->getBodeStopFreq()J
+
+    move-result-wide v12
+
+    long-to-double v12, v12
+
+    cmpl-double v4, v10, v8
+
+    if-lez v4, :cond_3
+
+    cmpl-double v4, v12, v10
+
+    if-lez v4, :cond_3
+
+    .line 54
+    invoke-static {v10, v11}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
+
+    move-result-object v2
+
+    invoke-static {v12, v13}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
+
+    move-result-object v3
+
+    invoke-static {v2, v3}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object v2
+
+    goto/16 :goto_1
+
+    .line 56
+    :cond_3
+    invoke-virtual {v1}, Lcom/rigol/scope/data/BodeParam;->getBode_resultDatalist()Ljava/util/ArrayList;
+
+    move-result-object v4
+
+    check-cast v4, Ljava/util/List;
+
+    invoke-static {v4}, Lkotlin/collections/CollectionsKt;->firstOrNull(Ljava/util/List;)Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Ljava/lang/String;
+
+    const/4 v10, 0x0
+
+    if-eqz v4, :cond_4
+
+    move-object v11, v4
+
+    check-cast v11, Ljava/lang/CharSequence;
+
+    filled-new-array {v2}, [Ljava/lang/String;
+
+    move-result-object v12
+
+    const/4 v13, 0x0
+
+    const/4 v14, 0x0
+
+    const/4 v15, 0x6
+
+    const/16 v16, 0x0
+
+    invoke-static/range {v11 .. v16}, Lkotlin/text/StringsKt;->split$default(Ljava/lang/CharSequence;[Ljava/lang/String;ZIILjava/lang/Object;)Ljava/util/List;
+
+    move-result-object v4
+
+    if-eqz v4, :cond_4
+
+    invoke-static {v4, v5}, Lkotlin/collections/CollectionsKt;->getOrNull(Ljava/util/List;I)Ljava/lang/Object;
+
+    move-result-object v4
+
+    check-cast v4, Ljava/lang/String;
+
+    if-eqz v4, :cond_4
+
+    invoke-static {v4}, Lkotlin/text/StringsKt;->toDoubleOrNull(Ljava/lang/String;)Ljava/lang/Double;
+
+    move-result-object v4
+
+    goto :goto_0
+
+    :cond_4
+    move-object v4, v10
+
+    .line 57
+    :goto_0
+    invoke-virtual {v1}, Lcom/rigol/scope/data/BodeParam;->getBode_resultDatalist()Ljava/util/ArrayList;
+
+    move-result-object v11
+
+    check-cast v11, Ljava/util/List;
+
+    invoke-static {v11}, Lkotlin/collections/CollectionsKt;->lastOrNull(Ljava/util/List;)Ljava/lang/Object;
+
+    move-result-object v11
+
+    check-cast v11, Ljava/lang/String;
+
+    if-eqz v11, :cond_5
+
+    move-object v12, v11
+
+    check-cast v12, Ljava/lang/CharSequence;
+
+    filled-new-array {v2}, [Ljava/lang/String;
+
+    move-result-object v13
+
+    const/4 v14, 0x0
+
+    const/4 v15, 0x0
+
+    const/16 v16, 0x6
+
+    const/16 v17, 0x0
+
+    invoke-static/range {v12 .. v17}, Lkotlin/text/StringsKt;->split$default(Ljava/lang/CharSequence;[Ljava/lang/String;ZIILjava/lang/Object;)Ljava/util/List;
+
+    move-result-object v2
+
+    if-eqz v2, :cond_5
+
+    invoke-static {v2, v5}, Lkotlin/collections/CollectionsKt;->getOrNull(Ljava/util/List;I)Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Ljava/lang/String;
+
+    if-eqz v2, :cond_5
+
+    invoke-static {v2}, Lkotlin/text/StringsKt;->toDoubleOrNull(Ljava/lang/String;)Ljava/lang/Double;
+
+    move-result-object v10
+
+    :cond_5
+    const/4 v2, 0x2
+
+    new-array v11, v2, [Ljava/lang/Double;
+
+    aput-object v4, v11, v5
+
+    aput-object v10, v11, v3
+
+    .line 58
+    invoke-static {v11}, Lkotlin/collections/CollectionsKt;->listOfNotNull([Ljava/lang/Object;)Ljava/util/List;
+
+    move-result-object v11
+
+    check-cast v11, Ljava/lang/Iterable;
+
+    invoke-static {v11}, Lkotlin/collections/CollectionsKt;->minOrNull(Ljava/lang/Iterable;)Ljava/lang/Double;
+
+    move-result-object v11
+
+    if-eqz v11, :cond_b
+
+    invoke-virtual {v11}, Ljava/lang/Double;->doubleValue()D
+
+    move-result-wide v11
+
+    new-array v2, v2, [Ljava/lang/Double;
+
+    aput-object v4, v2, v5
+
+    aput-object v10, v2, v3
+
+    .line 59
+    invoke-static {v2}, Lkotlin/collections/CollectionsKt;->listOfNotNull([Ljava/lang/Object;)Ljava/util/List;
+
+    move-result-object v2
+
+    check-cast v2, Ljava/lang/Iterable;
+
+    invoke-static {v2}, Lkotlin/collections/CollectionsKt;->maxOrNull(Ljava/lang/Iterable;)Ljava/lang/Double;
+
+    move-result-object v2
+
+    if-eqz v2, :cond_b
+
+    invoke-virtual {v2}, Ljava/lang/Double;->doubleValue()D
 
     move-result-wide v2
 
-    const/16 v4, 0x9
+    cmpg-double v4, v11, v8
 
-    int-to-double v7, v4
+    if-lez v4, :cond_b
 
-    mul-double/2addr v2, v7
+    cmpg-double v4, v2, v11
 
-    add-double/2addr v2, v5
+    if-gtz v4, :cond_6
 
-    double-to-float v2, v2
+    goto/16 :goto_3
 
-    invoke-virtual {v0, v1, v2}, Landroid/graphics/Path;->lineTo(FF)V
+    .line 63
+    :cond_6
+    invoke-static {v11, v12}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
-    .line 42
-    invoke-static {p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
+    move-result-object v4
 
-    iget-object v0, p0, Lcom/rigol/scope/utilities/BodeCursorView;->path_line:Landroid/graphics/Path;
+    invoke-static {v2, v3}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
-    iget-object v1, p0, Lcom/rigol/scope/utilities/BodeCursorView;->textPaint:Landroid/graphics/Paint;
+    move-result-object v2
 
-    invoke-virtual {p1, v0, v1}, Landroid/graphics/Canvas;->drawPath(Landroid/graphics/Path;Landroid/graphics/Paint;)V
+    invoke-static {v4, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
 
-    :cond_2
+    move-result-object v2
+
+    .line 53
+    :goto_1
+    invoke-virtual {v2}, Lkotlin/Pair;->component1()Ljava/lang/Object;
+
+    move-result-object v3
+
+    check-cast v3, Ljava/lang/Number;
+
+    invoke-virtual {v3}, Ljava/lang/Number;->doubleValue()D
+
+    move-result-wide v3
+
+    invoke-virtual {v2}, Lkotlin/Pair;->component2()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Ljava/lang/Number;
+
+    invoke-virtual {v2}, Ljava/lang/Number;->doubleValue()D
+
+    move-result-wide v8
+
+    .line 65
+    invoke-static {v3, v4}, Ljava/lang/Math;->log10(D)D
+
+    move-result-wide v2
+
+    .line 66
+    invoke-static {v8, v9}, Ljava/lang/Math;->log10(D)D
+
+    move-result-wide v4
+
+    cmpg-double v8, v4, v2
+
+    if-nez v8, :cond_7
+
+    return-void
+
+    .line 71
+    :cond_7
+    invoke-virtual {v1}, Lcom/rigol/scope/data/BodeParam;->getHorLineWidth()D
+
+    move-result-wide v8
+
+    const-wide/16 v10, 0x0
+
+    cmpl-double v8, v8, v10
+
+    const/4 v9, 0x0
+
+    if-lez v8, :cond_8
+
+    invoke-virtual {v1}, Lcom/rigol/scope/data/BodeParam;->getHorLineWidth()D
+
+    move-result-wide v10
+
+    double-to-float v8, v10
+
+    goto :goto_2
+
+    .line 72
+    :cond_8
+    invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/utilities/BodeCursorView;->getWidth()I
+
+    move-result v8
+
+    const/16 v10, 0xa0
+
+    if-le v8, v10, :cond_9
+
+    invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/utilities/BodeCursorView;->getWidth()I
+
+    move-result v8
+
+    sub-int/2addr v8, v10
+
+    int-to-float v8, v8
+
+    goto :goto_2
+
+    :cond_9
+    move v8, v9
+
+    :goto_2
+    cmpg-float v10, v8, v9
+
+    if-gtz v10, :cond_a
+
+    return-void
+
+    .line 78
+    :cond_a
+    invoke-static {v6, v7}, Ljava/lang/Math;->log10(D)D
+
+    move-result-wide v6
+
+    sub-double/2addr v6, v2
+
+    sub-double/2addr v4, v2
+
+    div-double/2addr v6, v4
+
+    double-to-float v2, v6
+
+    const/high16 v3, 0x3f800000    # 1.0f
+
+    .line 79
+    invoke-static {v2, v9, v3}, Lkotlin/ranges/RangesKt;->coerceIn(FFF)F
+
+    move-result v2
+
+    mul-float/2addr v2, v8
+
+    .line 81
+    iget-object v3, v0, Lcom/rigol/scope/utilities/BodeCursorView;->path_line:Landroid/graphics/Path;
+
+    const/16 v4, 0x50
+
+    int-to-float v4, v4
+
+    add-float/2addr v2, v4
+
+    invoke-virtual {v1}, Lcom/rigol/scope/data/BodeParam;->getSpacing_heightunit()D
+
+    move-result-wide v4
+
+    const/16 v6, 0x14
+
+    int-to-double v6, v6
+
+    add-double/2addr v4, v6
+
+    double-to-float v4, v4
+
+    invoke-virtual {v3, v2, v4}, Landroid/graphics/Path;->moveTo(FF)V
+
+    .line 82
+    iget-object v3, v0, Lcom/rigol/scope/utilities/BodeCursorView;->path_line:Landroid/graphics/Path;
+
+    invoke-virtual {v1}, Lcom/rigol/scope/data/BodeParam;->getSpacing_heightunit()D
+
+    move-result-wide v4
+
+    add-double/2addr v4, v6
+
+    double-to-float v4, v4
+
+    invoke-virtual {v3, v2, v4}, Landroid/graphics/Path;->lineTo(FF)V
+
+    .line 83
+    iget-object v3, v0, Lcom/rigol/scope/utilities/BodeCursorView;->path_line:Landroid/graphics/Path;
+
+    invoke-virtual {v1}, Lcom/rigol/scope/data/BodeParam;->getSpacing_heightunit()D
+
+    move-result-wide v4
+
+    const/16 v1, 0x9
+
+    int-to-double v8, v1
+
+    mul-double/2addr v4, v8
+
+    add-double/2addr v4, v6
+
+    double-to-float v1, v4
+
+    invoke-virtual {v3, v2, v1}, Landroid/graphics/Path;->lineTo(FF)V
+
+    .line 85
+    invoke-static/range {p1 .. p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
+
+    iget-object v1, v0, Lcom/rigol/scope/utilities/BodeCursorView;->path_line:Landroid/graphics/Path;
+
+    iget-object v2, v0, Lcom/rigol/scope/utilities/BodeCursorView;->textPaint:Landroid/graphics/Paint;
+
+    move-object/from16 v3, p1
+
+    invoke-virtual {v3, v1, v2}, Landroid/graphics/Canvas;->drawPath(Landroid/graphics/Path;Landroid/graphics/Paint;)V
+
+    nop
+
+    :cond_b
+    :goto_3
     return-void
 .end method
 
 .method protected onMeasure(II)V
     .locals 0
 
-    .line 67
+    .line 104
     invoke-super {p0, p1, p2}, Landroid/view/View;->onMeasure(II)V
 
     return-void
@@ -491,7 +755,7 @@
 .method public final setCursor()V
     .locals 0
 
-    .line 58
+    .line 96
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/BodeCursorView;->invalidate()V
 
     return-void
@@ -500,12 +764,12 @@
 .method public final setCursorReset()V
     .locals 1
 
-    .line 62
+    .line 99
     iget-object v0, p0, Lcom/rigol/scope/utilities/BodeCursorView;->path_line:Landroid/graphics/Path;
 
     invoke-virtual {v0}, Landroid/graphics/Path;->reset()V
 
-    .line 63
+    .line 100
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/BodeCursorView;->invalidate()V
 
     return-void

@@ -27,7 +27,7 @@
 .method constructor <init>(Lcom/rigol/scope/WaveformFragment;Lcom/rigol/scope/data/WindowParam;)V
     .locals 0
 
-    .line 780
+    .line 790
     iput-object p1, p0, Lcom/rigol/scope/WaveformFragment$1;->this$0:Lcom/rigol/scope/WaveformFragment;
 
     iput-object p2, p0, Lcom/rigol/scope/WaveformFragment$1;->val$waveformWindowParam:Lcom/rigol/scope/data/WindowParam;
@@ -40,14 +40,14 @@
 .method static synthetic lambda$onAdded$0()V
     .locals 3
 
-    .line 863
+    .line 873
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object v0
 
     const/16 v1, 0x3c
 
-    const/16 v2, 0x2901
+    const/16 v2, 0x2b01
 
     invoke-static {v1, v2}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 
@@ -69,7 +69,7 @@
 .method public onAdded(Lcom/rigol/scope/views/window/Window;)V
     .locals 2
 
-    .line 850
+    .line 860
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment$1;->this$0:Lcom/rigol/scope/WaveformFragment;
 
     invoke-static {p1}, Lcom/rigol/scope/WaveformFragment;->access$000(Lcom/rigol/scope/WaveformFragment;)Lcom/rigol/scope/databinding/FragmentWaveformBinding;
@@ -82,7 +82,7 @@
 
     move-result p1
 
-    .line 853
+    .line 863
     invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
 
     move-result-object v0
@@ -93,7 +93,7 @@
 
     move-result v0
 
-    .line 856
+    .line 866
     iget-object v1, p0, Lcom/rigol/scope/WaveformFragment$1;->this$0:Lcom/rigol/scope/WaveformFragment;
 
     invoke-static {v1}, Lcom/rigol/scope/WaveformFragment;->access$100(Lcom/rigol/scope/WaveformFragment;)Lcom/rigol/scope/data/SharedParam;
@@ -102,7 +102,7 @@
 
     if-eqz v1, :cond_0
 
-    .line 857
+    .line 867
     iget-object v1, p0, Lcom/rigol/scope/WaveformFragment$1;->this$0:Lcom/rigol/scope/WaveformFragment;
 
     invoke-static {v1}, Lcom/rigol/scope/WaveformFragment;->access$100(Lcom/rigol/scope/WaveformFragment;)Lcom/rigol/scope/data/SharedParam;
@@ -111,7 +111,7 @@
 
     invoke-virtual {v1, p1}, Lcom/rigol/scope/data/SharedParam;->setWindowCount(I)V
 
-    .line 858
+    .line 868
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment$1;->this$0:Lcom/rigol/scope/WaveformFragment;
 
     invoke-static {p1}, Lcom/rigol/scope/WaveformFragment;->access$100(Lcom/rigol/scope/WaveformFragment;)Lcom/rigol/scope/data/SharedParam;
@@ -120,7 +120,7 @@
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/SharedParam;->setXyWindowCount(I)V
 
-    .line 860
+    .line 870
     :cond_0
     sget-object p1, Lcom/rigol/scope/-$$Lambda$WaveformFragment$1$eqhUdykRE62xK2sFb9Z4nlP-obw;->INSTANCE:Lcom/rigol/scope/-$$Lambda$WaveformFragment$1$eqhUdykRE62xK2sFb9Z4nlP-obw;
 
@@ -134,7 +134,7 @@
 .method public onClosed(Lcom/rigol/scope/views/window/WindowHolder;)V
     .locals 6
 
-    .line 784
+    .line 794
     iget-object v0, p0, Lcom/rigol/scope/WaveformFragment$1;->this$0:Lcom/rigol/scope/WaveformFragment;
 
     invoke-static {v0}, Lcom/rigol/scope/WaveformFragment;->access$000(Lcom/rigol/scope/WaveformFragment;)Lcom/rigol/scope/databinding/FragmentWaveformBinding;
@@ -147,7 +147,7 @@
 
     move-result v0
 
-    .line 787
+    .line 797
     invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
 
     move-result-object v1
@@ -158,7 +158,7 @@
 
     move-result v1
 
-    .line 790
+    .line 800
     iget-object v2, p0, Lcom/rigol/scope/WaveformFragment$1;->this$0:Lcom/rigol/scope/WaveformFragment;
 
     invoke-static {v2}, Lcom/rigol/scope/WaveformFragment;->access$100(Lcom/rigol/scope/WaveformFragment;)Lcom/rigol/scope/data/SharedParam;
@@ -167,7 +167,7 @@
 
     if-eqz v2, :cond_0
 
-    .line 791
+    .line 801
     iget-object v2, p0, Lcom/rigol/scope/WaveformFragment$1;->this$0:Lcom/rigol/scope/WaveformFragment;
 
     invoke-static {v2}, Lcom/rigol/scope/WaveformFragment;->access$100(Lcom/rigol/scope/WaveformFragment;)Lcom/rigol/scope/data/SharedParam;
@@ -176,7 +176,7 @@
 
     invoke-virtual {v2, v0}, Lcom/rigol/scope/data/SharedParam;->setWindowCount(I)V
 
-    .line 792
+    .line 802
     iget-object v2, p0, Lcom/rigol/scope/WaveformFragment$1;->this$0:Lcom/rigol/scope/WaveformFragment;
 
     invoke-static {v2}, Lcom/rigol/scope/WaveformFragment;->access$100(Lcom/rigol/scope/WaveformFragment;)Lcom/rigol/scope/data/SharedParam;
@@ -190,14 +190,14 @@
 
     if-ge v0, v1, :cond_1
 
-    .line 802
+    .line 812
     iget-object v0, p0, Lcom/rigol/scope/WaveformFragment$1;->this$0:Lcom/rigol/scope/WaveformFragment;
 
     iget-object v2, p0, Lcom/rigol/scope/WaveformFragment$1;->val$waveformWindowParam:Lcom/rigol/scope/data/WindowParam;
 
     invoke-virtual {v0, v2}, Lcom/rigol/scope/WaveformFragment;->addWindow(Lcom/rigol/scope/data/WindowParam;)V
 
-    .line 806
+    .line 816
     :cond_1
     invoke-virtual {p1}, Lcom/rigol/scope/views/window/WindowHolder;->getWindowParam()Lcom/rigol/scope/data/WindowParam;
 
@@ -213,7 +213,7 @@
 
     if-ne v0, v2, :cond_2
 
-    .line 807
+    .line 817
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment$1;->this$0:Lcom/rigol/scope/WaveformFragment;
 
     invoke-static {p1}, Lcom/rigol/scope/WaveformFragment;->access$200(Lcom/rigol/scope/WaveformFragment;)Lcom/rigol/scope/data/EyeParam;
@@ -222,7 +222,7 @@
 
     if-eqz p1, :cond_b
 
-    .line 808
+    .line 818
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment$1;->this$0:Lcom/rigol/scope/WaveformFragment;
 
     invoke-static {p1}, Lcom/rigol/scope/WaveformFragment;->access$200(Lcom/rigol/scope/WaveformFragment;)Lcom/rigol/scope/data/EyeParam;
@@ -241,7 +241,7 @@
 
     goto/16 :goto_0
 
-    .line 810
+    .line 820
     :cond_2
     invoke-virtual {p1}, Lcom/rigol/scope/views/window/WindowHolder;->getWindowParam()Lcom/rigol/scope/data/WindowParam;
 
@@ -255,7 +255,7 @@
 
     if-ne v0, v2, :cond_3
 
-    .line 812
+    .line 822
     iget-object v0, p0, Lcom/rigol/scope/WaveformFragment$1;->this$0:Lcom/rigol/scope/WaveformFragment;
 
     invoke-static {v0}, Lcom/rigol/scope/WaveformFragment;->access$300(Lcom/rigol/scope/WaveformFragment;)Ljava/util/List;
@@ -276,12 +276,12 @@
 
     move-result-object p1
 
-    .line 813
+    .line 823
     invoke-virtual {p1, v3}, Lcom/rigol/scope/data/MathParam;->savePeakSearch(Z)V
 
     goto/16 :goto_0
 
-    .line 814
+    .line 824
     :cond_3
     invoke-virtual {p1}, Lcom/rigol/scope/views/window/WindowHolder;->getWindowParam()Lcom/rigol/scope/data/WindowParam;
 
@@ -295,7 +295,7 @@
 
     if-ne v0, v2, :cond_6
 
-    .line 816
+    .line 826
     const-class p1, Lcom/rigol/scope/viewmodels/FftViewModel;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -308,7 +308,7 @@
 
     return-void
 
-    .line 820
+    .line 830
     :cond_4
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/FftViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
@@ -324,13 +324,13 @@
 
     return-void
 
-    .line 824
+    .line 834
     :cond_5
     invoke-virtual {p1, v3}, Lcom/rigol/scope/data/FftParam;->savePeakTableEn(Z)V
 
     goto/16 :goto_0
 
-    .line 825
+    .line 835
     :cond_6
     invoke-virtual {p1}, Lcom/rigol/scope/views/window/WindowHolder;->getWindowParam()Lcom/rigol/scope/data/WindowParam;
 
@@ -344,7 +344,7 @@
 
     if-ne v0, v2, :cond_7
 
-    .line 826
+    .line 836
     sget-object v0, Lcom/rigol/scope/utilities/StateManager;->INSTANCE:Lcom/rigol/scope/utilities/StateManager;
 
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_DECODE:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
@@ -355,7 +355,7 @@
 
     new-array v5, v5, [Ljava/lang/Object;
 
-    .line 827
+    .line 837
     invoke-virtual {p1}, Lcom/rigol/scope/views/window/WindowHolder;->getWindowParam()Lcom/rigol/scope/data/WindowParam;
 
     move-result-object p1
@@ -378,12 +378,12 @@
 
     aput-object p1, v5, v1
 
-    .line 826
+    .line 836
     invoke-virtual {v0, v2, v1, v4, v5}, Lcom/rigol/scope/utilities/StateManager;->setState(Ljava/lang/Object;II[Ljava/lang/Object;)V
 
     goto/16 :goto_0
 
-    .line 828
+    .line 838
     :cond_7
     invoke-virtual {p1}, Lcom/rigol/scope/views/window/WindowHolder;->getWindowParam()Lcom/rigol/scope/data/WindowParam;
 
@@ -397,7 +397,7 @@
 
     if-ne v0, v1, :cond_8
 
-    .line 829
+    .line 839
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment$1;->this$0:Lcom/rigol/scope/WaveformFragment;
 
     invoke-static {p1}, Lcom/rigol/scope/WaveformFragment;->access$400(Lcom/rigol/scope/WaveformFragment;)Lcom/rigol/scope/data/JitterParam;
@@ -406,7 +406,7 @@
 
     if-eqz p1, :cond_b
 
-    .line 830
+    .line 840
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment$1;->this$0:Lcom/rigol/scope/WaveformFragment;
 
     invoke-static {p1}, Lcom/rigol/scope/WaveformFragment;->access$400(Lcom/rigol/scope/WaveformFragment;)Lcom/rigol/scope/data/JitterParam;
@@ -417,7 +417,7 @@
 
     goto :goto_0
 
-    .line 832
+    .line 842
     :cond_8
     invoke-virtual {p1}, Lcom/rigol/scope/views/window/WindowHolder;->getWindowParam()Lcom/rigol/scope/data/WindowParam;
 
@@ -431,7 +431,7 @@
 
     if-ne v0, v1, :cond_9
 
-    .line 833
+    .line 843
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment$1;->this$0:Lcom/rigol/scope/WaveformFragment;
 
     invoke-static {p1}, Lcom/rigol/scope/WaveformFragment;->access$400(Lcom/rigol/scope/WaveformFragment;)Lcom/rigol/scope/data/JitterParam;
@@ -440,7 +440,7 @@
 
     if-eqz p1, :cond_b
 
-    .line 834
+    .line 844
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment$1;->this$0:Lcom/rigol/scope/WaveformFragment;
 
     invoke-static {p1}, Lcom/rigol/scope/WaveformFragment;->access$400(Lcom/rigol/scope/WaveformFragment;)Lcom/rigol/scope/data/JitterParam;
@@ -451,7 +451,7 @@
 
     goto :goto_0
 
-    .line 836
+    .line 846
     :cond_9
     invoke-virtual {p1}, Lcom/rigol/scope/views/window/WindowHolder;->getWindowParam()Lcom/rigol/scope/data/WindowParam;
 
@@ -465,7 +465,7 @@
 
     if-ne v0, v1, :cond_a
 
-    .line 837
+    .line 847
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment$1;->this$0:Lcom/rigol/scope/WaveformFragment;
 
     invoke-static {p1}, Lcom/rigol/scope/WaveformFragment;->access$400(Lcom/rigol/scope/WaveformFragment;)Lcom/rigol/scope/data/JitterParam;
@@ -474,7 +474,7 @@
 
     if-eqz p1, :cond_b
 
-    .line 838
+    .line 848
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment$1;->this$0:Lcom/rigol/scope/WaveformFragment;
 
     invoke-static {p1}, Lcom/rigol/scope/WaveformFragment;->access$400(Lcom/rigol/scope/WaveformFragment;)Lcom/rigol/scope/data/JitterParam;
@@ -485,7 +485,7 @@
 
     goto :goto_0
 
-    .line 840
+    .line 850
     :cond_a
     invoke-virtual {p1}, Lcom/rigol/scope/views/window/WindowHolder;->getWindowParam()Lcom/rigol/scope/data/WindowParam;
 
@@ -499,7 +499,7 @@
 
     if-ne p1, v0, :cond_b
 
-    .line 841
+    .line 851
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment$1;->this$0:Lcom/rigol/scope/WaveformFragment;
 
     invoke-static {p1}, Lcom/rigol/scope/WaveformFragment;->access$400(Lcom/rigol/scope/WaveformFragment;)Lcom/rigol/scope/data/JitterParam;
@@ -508,7 +508,7 @@
 
     if-eqz p1, :cond_b
 
-    .line 842
+    .line 852
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment$1;->this$0:Lcom/rigol/scope/WaveformFragment;
 
     invoke-static {p1}, Lcom/rigol/scope/WaveformFragment;->access$400(Lcom/rigol/scope/WaveformFragment;)Lcom/rigol/scope/data/JitterParam;

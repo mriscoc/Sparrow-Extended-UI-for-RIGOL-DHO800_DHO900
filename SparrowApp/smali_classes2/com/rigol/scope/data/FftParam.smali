@@ -1200,7 +1200,7 @@
 
     if-gtz v0, :cond_0
 
-    const v0, 0x7f030137
+    const v0, 0x7f030138
 
     .line 886
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1223,7 +1223,7 @@
 
     if-gtz v0, :cond_1
 
-    const v0, 0x7f030135
+    const v0, 0x7f030136
 
     .line 890
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1246,7 +1246,7 @@
 
     if-gtz v0, :cond_2
 
-    const v0, 0x7f030136
+    const v0, 0x7f030137
 
     .line 894
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1271,7 +1271,7 @@
 
     if-gtz v0, :cond_3
 
-    const v0, 0x7f030138
+    const v0, 0x7f030139
 
     .line 898
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1288,7 +1288,7 @@
 
     cmpl-double v2, v5, v3
 
-    const v3, 0x7f030134
+    const v3, 0x7f030135
 
     if-lez v2, :cond_4
 
@@ -1543,14 +1543,14 @@
         }
     .end annotation
 
-    const v0, 0x7f03012d
+    const v0, 0x7f03012e
 
     .line 1573
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
 
     move-result-object v0
 
-    const v1, 0x7f03013a
+    const v1, 0x7f03013b
 
     .line 1575
     invoke-static {v1}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -2381,7 +2381,7 @@
     .line 1085
     iput p1, p0, Lcom/rigol/scope/data/FftParam;->markersState:I
 
-    const/16 p1, 0x208
+    const/16 p1, 0x209
 
     .line 1086
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/FftParam;->notifyPropertyChanged(I)V
@@ -2395,7 +2395,7 @@
     .line 1355
     iput-boolean p1, p0, Lcom/rigol/scope/data/FftParam;->peakEn:Z
 
-    const/16 p1, 0x25e
+    const/16 p1, 0x260
 
     .line 1356
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/FftParam;->notifyPropertyChanged(I)V
@@ -2412,7 +2412,7 @@
     .line 1418
     invoke-virtual {p0}, Lcom/rigol/scope/data/FftParam;->updateExcurStr()V
 
-    const/16 p1, 0x25f
+    const/16 p1, 0x261
 
     .line 1419
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/FftParam;->notifyPropertyChanged(I)V
@@ -2426,7 +2426,7 @@
     .line 1428
     iput-object p1, p0, Lcom/rigol/scope/data/FftParam;->peakExcurStr:Ljava/lang/String;
 
-    const/16 p1, 0x260
+    const/16 p1, 0x262
 
     .line 1429
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/FftParam;->notifyPropertyChanged(I)V
@@ -2440,7 +2440,7 @@
     .line 1365
     iput p1, p0, Lcom/rigol/scope/data/FftParam;->peakNum:I
 
-    const/16 p1, 0x264
+    const/16 p1, 0x266
 
     .line 1366
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/FftParam;->notifyPropertyChanged(I)V
@@ -2454,7 +2454,7 @@
     .line 1452
     iput-object p1, p0, Lcom/rigol/scope/data/FftParam;->peakOrder:Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;
 
-    const/16 p1, 0x265
+    const/16 p1, 0x267
 
     .line 1453
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/FftParam;->notifyPropertyChanged(I)V
@@ -2468,7 +2468,7 @@
     .line 1462
     iput-boolean p1, p0, Lcom/rigol/scope/data/FftParam;->peakTableEn:Z
 
-    const/16 p1, 0x267
+    const/16 p1, 0x269
 
     .line 1463
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/FftParam;->notifyPropertyChanged(I)V
@@ -2485,7 +2485,7 @@
     .line 1376
     invoke-virtual {p0}, Lcom/rigol/scope/data/FftParam;->updateThresholdStr()V
 
-    const/16 p1, 0x268
+    const/16 p1, 0x26a
 
     .line 1377
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/FftParam;->notifyPropertyChanged(I)V
@@ -2499,7 +2499,7 @@
     .line 1386
     iput-object p1, p0, Lcom/rigol/scope/data/FftParam;->peakThresholdStr:Ljava/lang/String;
 
-    const/16 p1, 0x269
+    const/16 p1, 0x26b
 
     .line 1387
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/FftParam;->notifyPropertyChanged(I)V
@@ -2513,7 +2513,7 @@
     .line 497
     iput-object p1, p0, Lcom/rigol/scope/data/FftParam;->persistTime:Lcom/rigol/scope/cil/ServiceEnum$EWavePersis;
 
-    const/16 p1, 0x26c
+    const/16 p1, 0x26f
 
     .line 498
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/FftParam;->notifyPropertyChanged(I)V
@@ -2527,7 +2527,7 @@
     .line 339
     iput-object p1, p0, Lcom/rigol/scope/data/FftParam;->rbw:Lcom/rigol/scope/cil/ServiceEnum$RtsaRBW;
 
-    const/16 p1, 0x2ae
+    const/16 p1, 0x2b2
 
     .line 340
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/FftParam;->notifyPropertyChanged(I)V
@@ -2541,7 +2541,7 @@
     .line 443
     iput-wide p1, p0, Lcom/rigol/scope/data/FftParam;->refLevel:J
 
-    const/16 p1, 0x2ce
+    const/16 p1, 0x2d2
 
     .line 444
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/FftParam;->notifyPropertyChanged(I)V
@@ -2567,7 +2567,7 @@
     .line 455
     iput-object p1, p0, Lcom/rigol/scope/data/FftParam;->refLevelStr:Ljava/lang/String;
 
-    const/16 p1, 0x2cf
+    const/16 p1, 0x2d3
 
     .line 456
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/FftParam;->notifyPropertyChanged(I)V
@@ -2581,7 +2581,7 @@
     .line 407
     iput-wide p1, p0, Lcom/rigol/scope/data/FftParam;->scale:J
 
-    const/16 p1, 0x306
+    const/16 p1, 0x30a
 
     .line 408
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/FftParam;->notifyPropertyChanged(I)V
@@ -2607,7 +2607,7 @@
     .line 419
     iput-object p1, p0, Lcom/rigol/scope/data/FftParam;->scaleStr:Ljava/lang/String;
 
-    const/16 p1, 0x308
+    const/16 p1, 0x30c
 
     .line 420
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/FftParam;->notifyPropertyChanged(I)V
@@ -2621,7 +2621,7 @@
     .line 396
     iput-wide p1, p0, Lcom/rigol/scope/data/FftParam;->span:J
 
-    const/16 p1, 0x366
+    const/16 p1, 0x36a
 
     .line 397
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/FftParam;->notifyPropertyChanged(I)V
@@ -2644,7 +2644,7 @@
     .line 313
     iput-object p1, p0, Lcom/rigol/scope/data/FftParam;->src:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x380
+    const/16 p1, 0x384
 
     .line 314
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/FftParam;->notifyPropertyChanged(I)V
@@ -2658,7 +2658,7 @@
     .line 361
     iput-wide p1, p0, Lcom/rigol/scope/data/FftParam;->start:J
 
-    const/16 p1, 0x384
+    const/16 p1, 0x388
 
     .line 362
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/FftParam;->notifyPropertyChanged(I)V
@@ -2681,7 +2681,7 @@
     .line 518
     iput-object p1, p0, Lcom/rigol/scope/data/FftParam;->title:Ljava/lang/String;
 
-    const/16 p1, 0x3ab
+    const/16 p1, 0x3af
 
     .line 519
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/FftParam;->notifyPropertyChanged(I)V
@@ -2695,7 +2695,7 @@
     .line 324
     iput-object p1, p0, Lcom/rigol/scope/data/FftParam;->unit:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    const/16 p1, 0x3db
+    const/16 p1, 0x3df
 
     .line 325
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/FftParam;->notifyPropertyChanged(I)V
@@ -2715,7 +2715,7 @@
     .line 487
     iput-object p1, p0, Lcom/rigol/scope/data/FftParam;->window:Lcom/rigol/scope/cil/ServiceEnum$fftWindow;
 
-    const/16 p1, 0x433
+    const/16 p1, 0x437
 
     .line 488
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/FftParam;->notifyPropertyChanged(I)V

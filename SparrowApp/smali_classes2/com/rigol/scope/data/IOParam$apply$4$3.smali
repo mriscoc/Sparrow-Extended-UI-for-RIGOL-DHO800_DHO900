@@ -57,53 +57,16 @@
 
 # virtual methods
 .method public final run()V
-    .locals 5
+    .locals 1
 
-    .line 858
-    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
+    .line 868
+    new-instance v0, Lcom/rigol/scope/data/IOParam$apply$4$3$1;
 
-    move-result-object v0
+    invoke-direct {v0, p0}, Lcom/rigol/scope/data/IOParam$apply$4$3$1;-><init>(Lcom/rigol/scope/data/IOParam$apply$4$3;)V
 
-    check-cast v0, Landroid/content/Context;
+    check-cast v0, Lcom/blankj/utilcode/util/Utils$Consumer;
 
-    .line 859
-    iget-object v1, p0, Lcom/rigol/scope/data/IOParam$apply$4$3;->this$0:Lcom/rigol/scope/data/IOParam$apply$4;
-
-    iget-object v1, v1, Lcom/rigol/scope/data/IOParam$apply$4;->this$0:Lcom/rigol/scope/data/IOParam;
-
-    invoke-virtual {v1}, Lcom/rigol/scope/data/IOParam;->getIpAddress()Ljava/lang/String;
-
-    move-result-object v1
-
-    .line 860
-    iget-object v2, p0, Lcom/rigol/scope/data/IOParam$apply$4$3;->this$0:Lcom/rigol/scope/data/IOParam$apply$4;
-
-    iget-object v2, v2, Lcom/rigol/scope/data/IOParam$apply$4;->this$0:Lcom/rigol/scope/data/IOParam;
-
-    invoke-virtual {v2}, Lcom/rigol/scope/data/IOParam;->getMask()Ljava/lang/String;
-
-    move-result-object v2
-
-    .line 861
-    iget-object v3, p0, Lcom/rigol/scope/data/IOParam$apply$4$3;->this$0:Lcom/rigol/scope/data/IOParam$apply$4;
-
-    iget-object v3, v3, Lcom/rigol/scope/data/IOParam$apply$4;->this$0:Lcom/rigol/scope/data/IOParam;
-
-    invoke-virtual {v3}, Lcom/rigol/scope/data/IOParam;->getGateway()Ljava/lang/String;
-
-    move-result-object v3
-
-    .line 862
-    iget-object v4, p0, Lcom/rigol/scope/data/IOParam$apply$4$3;->this$0:Lcom/rigol/scope/data/IOParam$apply$4;
-
-    iget-object v4, v4, Lcom/rigol/scope/data/IOParam$apply$4;->this$0:Lcom/rigol/scope/data/IOParam;
-
-    invoke-virtual {v4}, Lcom/rigol/scope/data/IOParam;->getDns()Ljava/lang/String;
-
-    move-result-object v4
-
-    .line 857
-    invoke-static {v0, v1, v2, v3, v4}, Lcom/rigol/util/EthernetUtil;->setStaticIp(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0}, Lcom/blankj/utilcode/util/NetworkUtils;->isAvailableAsync(Lcom/blankj/utilcode/util/Utils$Consumer;)Lcom/blankj/utilcode/util/Utils$Task;
 
     return-void
 .end method

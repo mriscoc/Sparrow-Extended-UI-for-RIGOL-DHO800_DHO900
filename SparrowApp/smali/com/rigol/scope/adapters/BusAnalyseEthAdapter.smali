@@ -167,7 +167,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f03011f
+    const v1, 0x7f030120
 
     new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$BusAnalyseEthAdapter$Ob3naQANJL9wxbAwIJuoXAUiI_c;
 
@@ -189,7 +189,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f030120
+    const v1, 0x7f030121
 
     new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$BusAnalyseEthAdapter$Tp6eQfRohuGiyI0bc13qL4UqD2c;
 

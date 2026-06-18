@@ -61,7 +61,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/PopupviewDiskManageBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a038e
+    const v1, 0x7f0a0390
 
     const/16 v2, 0x14
 
@@ -638,7 +638,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x38a
+    const/16 v0, 0x38e
 
     if-ne p2, v0, :cond_3
 
@@ -670,7 +670,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x31a
+    const/16 v0, 0x31e
 
     if-ne p2, v0, :cond_4
 
@@ -702,7 +702,7 @@
     throw p1
 
     :cond_4
-    const/16 v0, 0x31b
+    const/16 v0, 0x31f
 
     if-ne p2, v0, :cond_5
 
@@ -734,7 +734,7 @@
     throw p1
 
     :cond_5
-    const/16 v0, 0x25a
+    const/16 v0, 0x25c
 
     if-ne p2, v0, :cond_6
 
@@ -886,7 +886,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x34b
+    const/16 v0, 0x34f
 
     if-ne p2, v0, :cond_1
 
@@ -918,7 +918,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x343
+    const/16 v0, 0x347
 
     if-ne p2, v0, :cond_2
 
@@ -3191,7 +3191,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x1f9
+    const/16 p1, 0x1fa
 
     .line 193
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewDiskManageBindingImpl;->notifyPropertyChanged(I)V
@@ -3242,7 +3242,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x336
+    const/16 p1, 0x33a
 
     .line 202
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewDiskManageBindingImpl;->notifyPropertyChanged(I)V
@@ -3291,7 +3291,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0x1f9
+    const/16 v0, 0x1fa
 
     if-ne v0, p1, :cond_2
 
@@ -3303,7 +3303,7 @@
     goto :goto_0
 
     :cond_2
-    const/16 v0, 0x336
+    const/16 v0, 0x33a
 
     if-ne v0, p1, :cond_3
 

@@ -26,9 +26,9 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a062e
+    const v1, 0x7f0a0636
 
-    const/16 v2, 0xf
+    const/16 v2, 0x10
 
     .line 17
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
@@ -36,90 +36,90 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a082f
+    const v1, 0x7f0a083b
 
-    const/16 v2, 0x10
+    const/16 v2, 0x11
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0831
+    const v1, 0x7f0a083d
 
-    const/16 v2, 0x11
+    const/16 v2, 0x12
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a062d
+    const v1, 0x7f0a0635
 
-    const/16 v2, 0x12
+    const/16 v2, 0x13
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a06ac
+    const v1, 0x7f0a06b6
 
-    const/16 v2, 0x13
+    const/16 v2, 0x14
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
     .line 22
     sget-object v0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0632
+    const v1, 0x7f0a063a
 
-    const/16 v2, 0x14
+    const/16 v2, 0x15
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
     .line 23
     sget-object v0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0631
+    const v1, 0x7f0a0639
 
-    const/16 v2, 0x15
+    const/16 v2, 0x16
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
     .line 24
     sget-object v0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a07d2
+    const v1, 0x7f0a07de
 
-    const/16 v2, 0x16
+    const/16 v2, 0x17
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
     .line 25
     sget-object v0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0623
+    const v1, 0x7f0a062b
 
-    const/16 v2, 0x17
+    const/16 v2, 0x18
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
     .line 26
     sget-object v0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0621
+    const v1, 0x7f0a0629
 
-    const/16 v2, 0x18
+    const/16 v2, 0x19
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
     .line 27
     sget-object v0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a053e
+    const v1, 0x7f0a0540
 
-    const/16 v2, 0x19
+    const/16 v2, 0x1a
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
@@ -128,20 +128,11 @@
 
     const v1, 0x7f0a00c5
 
-    const/16 v2, 0x1a
-
-    invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
-
-    .line 29
-    sget-object v0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
-
-    const v1, 0x7f0a042a
-
     const/16 v2, 0x1b
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    .line 30
+    .line 29
     sget-object v0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
     const v1, 0x7f0a042c
@@ -150,30 +141,48 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
+    .line 30
+    sget-object v0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
+
+    const v1, 0x7f0a042e
+
+    const/16 v2, 0x1d
+
+    invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
+
     .line 31
     sget-object v0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a05c2
+    const v1, 0x7f0a05ca
 
-    const/16 v2, 0x1d
+    const/16 v2, 0x1e
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
     .line 32
     sget-object v0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04c3
+    const v1, 0x7f0a0385
 
-    const/16 v2, 0x1e
+    const/16 v2, 0x1f
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
     .line 33
     sget-object v0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04c4
+    const v1, 0x7f0a04c5
 
-    const/16 v2, 0x1f
+    const/16 v2, 0x20
+
+    invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
+
+    .line 34
+    sget-object v0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
+
+    const v1, 0x7f0a04c6
+
+    const/16 v2, 0x21
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
@@ -183,12 +192,12 @@
 .method public constructor <init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
     .locals 3
 
-    .line 44
+    .line 45
     sget-object v0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->sIncludes:Landroidx/databinding/ViewDataBinding$IncludedLayouts;
 
     sget-object v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const/16 v2, 0x20
+    const/16 v2, 0x22
 
     invoke-static {p1, p2, v2, v0, v1}, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mapBindings(Landroidx/databinding/DataBindingComponent;Landroid/view/View;ILandroidx/databinding/ViewDataBinding$IncludedLayouts;Landroid/util/SparseIntArray;)[Ljava/lang/Object;
 
@@ -200,7 +209,7 @@
 .end method
 
 .method private constructor <init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;[Ljava/lang/Object;)V
-    .locals 36
+    .locals 38
 
     move-object/from16 v3, p0
 
@@ -210,9 +219,9 @@
 
     move-object/from16 v2, p2
 
-    const/16 v4, 0x1a
+    const/16 v4, 0x1b
 
-    .line 47
+    .line 48
     aget-object v4, p3, v4
 
     check-cast v4, Landroid/widget/Button;
@@ -223,155 +232,155 @@
 
     check-cast v5, Landroid/widget/RadioButton;
 
-    const/16 v6, 0x1b
+    const/16 v6, 0x1f
 
     aget-object v6, p3, v6
 
     check-cast v6, Landroid/widget/TextView;
 
-    const/16 v7, 0x1c
+    const/16 v7, 0xc
 
     aget-object v7, p3, v7
 
-    check-cast v7, Landroid/widget/RadioGroup;
+    check-cast v7, Lcom/rigol/scope/views/SwitchButton;
 
-    const/16 v8, 0xc
+    const/16 v8, 0x1c
 
     aget-object v8, p3, v8
 
-    check-cast v8, Landroid/widget/RadioButton;
+    check-cast v8, Landroid/widget/TextView;
 
-    const/16 v9, 0x8
+    const/16 v9, 0x1d
 
     aget-object v9, p3, v9
 
-    check-cast v9, Landroid/widget/RadioButton;
+    check-cast v9, Landroid/widget/RadioGroup;
 
-    const/16 v10, 0x1e
+    const/16 v10, 0xd
 
     aget-object v10, p3, v10
 
-    check-cast v10, Landroid/widget/TextView;
+    check-cast v10, Landroid/widget/RadioButton;
 
-    const/16 v11, 0x1f
+    const/16 v11, 0x8
 
     aget-object v11, p3, v11
 
-    check-cast v11, Landroid/widget/RadioGroup;
+    check-cast v11, Landroid/widget/RadioButton;
 
-    const/16 v12, 0xd
+    const/16 v12, 0x20
 
     aget-object v12, p3, v12
 
-    check-cast v12, Landroid/widget/RadioButton;
+    check-cast v12, Landroid/widget/TextView;
 
-    const/16 v13, 0x19
+    const/16 v13, 0x21
 
     aget-object v13, p3, v13
 
-    check-cast v13, Landroid/widget/TextView;
+    check-cast v13, Landroid/widget/RadioGroup;
 
-    const/4 v14, 0x5
+    const/16 v14, 0xe
 
     aget-object v14, p3, v14
 
-    check-cast v14, Lcom/rigol/scope/views/SwitchButton;
+    check-cast v14, Landroid/widget/RadioButton;
 
-    const/16 v15, 0x1d
+    const/16 v15, 0x1a
 
     aget-object v15, p3, v15
 
     check-cast v15, Landroid/widget/TextView;
 
-    const/16 v16, 0xa
+    const/16 v16, 0x5
 
     aget-object v16, p3, v16
 
-    check-cast v16, Lcom/rigol/scope/views/baseview/BaseEditText;
+    check-cast v16, Lcom/rigol/scope/views/SwitchButton;
 
-    const/16 v17, 0xb
+    const/16 v17, 0x1e
 
     aget-object v17, p3, v17
 
-    check-cast v17, Lcom/rigol/scope/views/SwitchButton;
+    check-cast v17, Landroid/widget/TextView;
 
-    const/16 v18, 0x18
+    const/16 v18, 0xa
 
     aget-object v18, p3, v18
 
-    check-cast v18, Landroid/widget/ImageButton;
+    check-cast v18, Lcom/rigol/scope/views/baseview/BaseEditText;
 
-    const/16 v19, 0x17
+    const/16 v19, 0xb
 
     aget-object v19, p3, v19
 
-    check-cast v19, Landroid/widget/ImageButton;
+    check-cast v19, Lcom/rigol/scope/views/SwitchButton;
 
-    const/16 v20, 0x12
+    const/16 v20, 0x19
 
     aget-object v20, p3, v20
 
-    check-cast v20, Landroid/view/View;
+    check-cast v20, Landroid/widget/ImageButton;
 
-    const/16 v21, 0xf
+    const/16 v21, 0x18
 
     aget-object v21, p3, v21
 
-    check-cast v21, Landroidx/constraintlayout/widget/Guideline;
+    check-cast v21, Landroid/widget/ImageButton;
 
-    const/16 v22, 0x15
+    const/16 v22, 0x13
 
     aget-object v22, p3, v22
 
-    check-cast v22, Landroid/widget/ImageButton;
+    check-cast v22, Landroid/view/View;
 
-    const/16 v23, 0x14
+    const/16 v23, 0x10
 
     aget-object v23, p3, v23
 
-    check-cast v23, Landroid/widget/ImageButton;
+    check-cast v23, Landroidx/constraintlayout/widget/Guideline;
 
-    const/16 v24, 0xe
+    const/16 v24, 0x16
 
     aget-object v24, p3, v24
 
-    check-cast v24, Landroid/widget/RadioButton;
+    check-cast v24, Landroid/widget/ImageButton;
 
-    const/16 v25, 0x13
+    const/16 v25, 0x15
 
     aget-object v25, p3, v25
 
-    check-cast v25, Landroid/widget/TextView;
+    check-cast v25, Landroid/widget/ImageButton;
 
-    const/16 v26, 0x3
+    const/16 v26, 0xf
 
     aget-object v26, p3, v26
 
-    check-cast v26, Landroid/widget/EditText;
+    check-cast v26, Landroid/widget/RadioButton;
 
-    const/16 v27, 0x16
+    const/16 v27, 0x14
 
     aget-object v27, p3, v27
 
     check-cast v27, Landroid/widget/TextView;
 
-    const/16 v28, 0x4
+    const/16 v28, 0x3
 
     aget-object v28, p3, v28
 
     check-cast v28, Landroid/widget/EditText;
 
-    const/16 v29, 0x10
+    const/16 v29, 0x17
 
     aget-object v29, p3, v29
 
     check-cast v29, Landroid/widget/TextView;
 
-    const/16 v30, 0x1
+    const/16 v30, 0x4
 
     aget-object v30, p3, v30
 
-    check-cast v30, Landroid/widget/TextView;
+    check-cast v30, Landroid/widget/EditText;
 
     const/16 v31, 0x11
 
@@ -379,127 +388,144 @@
 
     check-cast v31, Landroid/widget/TextView;
 
-    const/16 v32, 0x2
+    const/16 v32, 0x1
 
     aget-object v32, p3, v32
 
     check-cast v32, Landroid/widget/TextView;
 
-    const/16 v33, 0x6
+    const/16 v33, 0x12
 
     aget-object v33, p3, v33
 
     check-cast v33, Landroid/widget/TextView;
 
-    const/16 v34, 0x7
+    const/16 v34, 0x2
 
     aget-object v34, p3, v34
 
-    check-cast v34, Lcom/rigol/scope/views/SwitchButton;
+    check-cast v34, Landroid/widget/TextView;
 
-    const/16 v35, 0x8
+    const/16 v35, 0x6
 
-    move/from16 v3, v35
+    aget-object v35, p3, v35
 
-    invoke-direct/range {v0 .. v34}, Lcom/rigol/scope/databinding/AdapterMathArithBinding;-><init>(Ljava/lang/Object;Landroid/view/View;ILandroid/widget/Button;Landroid/widget/RadioButton;Landroid/widget/TextView;Landroid/widget/RadioGroup;Landroid/widget/RadioButton;Landroid/widget/RadioButton;Landroid/widget/TextView;Landroid/widget/RadioGroup;Landroid/widget/RadioButton;Landroid/widget/TextView;Lcom/rigol/scope/views/SwitchButton;Landroid/widget/TextView;Lcom/rigol/scope/views/baseview/BaseEditText;Lcom/rigol/scope/views/SwitchButton;Landroid/widget/ImageButton;Landroid/widget/ImageButton;Landroid/view/View;Landroidx/constraintlayout/widget/Guideline;Landroid/widget/ImageButton;Landroid/widget/ImageButton;Landroid/widget/RadioButton;Landroid/widget/TextView;Landroid/widget/EditText;Landroid/widget/TextView;Landroid/widget/EditText;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Lcom/rigol/scope/views/SwitchButton;)V
+    check-cast v35, Landroid/widget/TextView;
+
+    const/16 v36, 0x7
+
+    aget-object v36, p3, v36
+
+    check-cast v36, Lcom/rigol/scope/views/SwitchButton;
+
+    const/16 v37, 0x8
+
+    move/from16 v3, v37
+
+    invoke-direct/range {v0 .. v36}, Lcom/rigol/scope/databinding/AdapterMathArithBinding;-><init>(Ljava/lang/Object;Landroid/view/View;ILandroid/widget/Button;Landroid/widget/RadioButton;Landroid/widget/TextView;Lcom/rigol/scope/views/SwitchButton;Landroid/widget/TextView;Landroid/widget/RadioGroup;Landroid/widget/RadioButton;Landroid/widget/RadioButton;Landroid/widget/TextView;Landroid/widget/RadioGroup;Landroid/widget/RadioButton;Landroid/widget/TextView;Lcom/rigol/scope/views/SwitchButton;Landroid/widget/TextView;Lcom/rigol/scope/views/baseview/BaseEditText;Lcom/rigol/scope/views/SwitchButton;Landroid/widget/ImageButton;Landroid/widget/ImageButton;Landroid/view/View;Landroidx/constraintlayout/widget/Guideline;Landroid/widget/ImageButton;Landroid/widget/ImageButton;Landroid/widget/RadioButton;Landroid/widget/TextView;Landroid/widget/EditText;Landroid/widget/TextView;Landroid/widget/EditText;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Lcom/rigol/scope/views/SwitchButton;)V
 
     const-wide/16 v0, -0x1
 
     move-object/from16 v2, p0
 
-    .line 780
+    .line 803
     iput-wide v0, v2, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    .line 80
+    .line 83
     iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->centerRadioButton:Landroid/widget/RadioButton;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Landroid/widget/RadioButton;->setTag(Ljava/lang/Object;)V
 
-    .line 81
-    iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->fullRadioButton:Landroid/widget/RadioButton;
-
-    invoke-virtual {v0, v1}, Landroid/widget/RadioButton;->setTag(Ljava/lang/Object;)V
-
-    .line 82
-    iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->gndRadioButton:Landroid/widget/RadioButton;
-
-    invoke-virtual {v0, v1}, Landroid/widget/RadioButton;->setTag(Ljava/lang/Object;)V
-
-    .line 83
-    iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->halfRadioButton:Landroid/widget/RadioButton;
-
-    invoke-virtual {v0, v1}, Landroid/widget/RadioButton;->setTag(Ljava/lang/Object;)V
-
     .line 84
-    iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->invertSwitch:Lcom/rigol/scope/views/SwitchButton;
+    iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->displayModeSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/SwitchButton;->setTag(Ljava/lang/Object;)V
 
     .line 85
+    iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->fullRadioButton:Landroid/widget/RadioButton;
+
+    invoke-virtual {v0, v1}, Landroid/widget/RadioButton;->setTag(Ljava/lang/Object;)V
+
+    .line 86
+    iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->gndRadioButton:Landroid/widget/RadioButton;
+
+    invoke-virtual {v0, v1}, Landroid/widget/RadioButton;->setTag(Ljava/lang/Object;)V
+
+    .line 87
+    iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->halfRadioButton:Landroid/widget/RadioButton;
+
+    invoke-virtual {v0, v1}, Landroid/widget/RadioButton;->setTag(Ljava/lang/Object;)V
+
+    .line 88
+    iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->invertSwitch:Lcom/rigol/scope/views/SwitchButton;
+
+    invoke-virtual {v0, v1}, Lcom/rigol/scope/views/SwitchButton;->setTag(Ljava/lang/Object;)V
+
+    .line 89
     iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->labelEditText:Lcom/rigol/scope/views/baseview/BaseEditText;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/baseview/BaseEditText;->setTag(Ljava/lang/Object;)V
 
-    .line 86
+    .line 90
     iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->labelSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/SwitchButton;->setTag(Ljava/lang/Object;)V
 
     const/4 v0, 0x0
 
-    .line 87
+    .line 91
     aget-object v0, p3, v0
 
     check-cast v0, Landroidx/constraintlayout/widget/ConstraintLayout;
 
     iput-object v0, v2, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mboundView0:Landroidx/constraintlayout/widget/ConstraintLayout;
 
-    .line 88
+    .line 92
     invoke-virtual {v0, v1}, Landroidx/constraintlayout/widget/ConstraintLayout;->setTag(Ljava/lang/Object;)V
 
-    .line 89
+    .line 93
     iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->noneRadioButton:Landroid/widget/RadioButton;
 
     invoke-virtual {v0, v1}, Landroid/widget/RadioButton;->setTag(Ljava/lang/Object;)V
 
-    .line 90
+    .line 94
     iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->offsetEditText:Landroid/widget/EditText;
 
     invoke-virtual {v0, v1}, Landroid/widget/EditText;->setTag(Ljava/lang/Object;)V
 
-    .line 91
+    .line 95
     iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->scaleEditText:Landroid/widget/EditText;
 
     invoke-virtual {v0, v1}, Landroid/widget/EditText;->setTag(Ljava/lang/Object;)V
 
-    .line 92
+    .line 96
     iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->sourceASpinner:Landroid/widget/TextView;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTag(Ljava/lang/Object;)V
 
-    .line 93
+    .line 97
     iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->sourceBSpinner:Landroid/widget/TextView;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTag(Ljava/lang/Object;)V
 
-    .line 94
+    .line 98
     iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->waveType:Landroid/widget/TextView;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTag(Ljava/lang/Object;)V
 
-    .line 95
+    .line 99
     iget-object v0, v2, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->waveTypeSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/SwitchButton;->setTag(Ljava/lang/Object;)V
 
     move-object/from16 v0, p2
 
-    .line 96
+    .line 100
     invoke-virtual {v2, v0}, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->setRootTag(Landroid/view/View;)V
 
-    .line 98
+    .line 102
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->invalidateAll()V
 
     return-void
@@ -512,10 +538,10 @@
 
     if-nez p2, :cond_0
 
-    .line 357
+    .line 367
     monitor-enter p0
 
-    .line 358
+    .line 368
     :try_start_0
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
@@ -525,7 +551,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    .line 359
+    .line 369
     monitor-exit p0
 
     return p1
@@ -540,24 +566,24 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
-    .line 363
+    .line 373
     monitor-enter p0
 
-    .line 364
+    .line 374
     :try_start_1
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    const-wide/32 v2, 0x1000000
+    const-wide/32 v2, 0x2000000
 
     or-long/2addr v0, v2
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    .line 365
+    .line 375
     monitor-exit p0
 
     return p1
@@ -584,10 +610,10 @@
 
     if-nez p2, :cond_0
 
-    .line 372
+    .line 382
     monitor-enter p0
 
-    .line 373
+    .line 383
     :try_start_0
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
@@ -597,7 +623,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    .line 374
+    .line 384
     monitor-exit p0
 
     return p1
@@ -612,24 +638,24 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
-    .line 378
+    .line 388
     monitor-enter p0
 
-    .line 379
+    .line 389
     :try_start_1
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    const-wide/32 v2, 0x2000000
+    const-wide/32 v2, 0x4000000
 
     or-long/2addr v0, v2
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    .line 380
+    .line 390
     monitor-exit p0
 
     return p1
@@ -656,10 +682,10 @@
 
     if-nez p2, :cond_0
 
-    .line 231
+    .line 235
     monitor-enter p0
 
-    .line 232
+    .line 236
     :try_start_0
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
@@ -669,7 +695,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    .line 233
+    .line 237
     monitor-exit p0
 
     return p1
@@ -684,14 +710,14 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
-    .line 237
+    .line 241
     monitor-enter p0
 
-    .line 238
+    .line 242
     :try_start_1
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
@@ -701,7 +727,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    .line 239
+    .line 243
     monitor-exit p0
 
     return p1
@@ -728,10 +754,10 @@
 
     if-nez p2, :cond_0
 
-    .line 327
+    .line 337
     monitor-enter p0
 
-    .line 328
+    .line 338
     :try_start_0
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
@@ -741,7 +767,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    .line 329
+    .line 339
     monitor-exit p0
 
     return p1
@@ -756,24 +782,24 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
-    .line 333
+    .line 343
     monitor-enter p0
 
-    .line 334
+    .line 344
     :try_start_1
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    const-wide/32 v2, 0x400000
+    const-wide/32 v2, 0x800000
 
     or-long/2addr v0, v2
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    .line 335
+    .line 345
     monitor-exit p0
 
     return p1
@@ -800,10 +826,10 @@
 
     if-nez p2, :cond_0
 
-    .line 342
+    .line 352
     monitor-enter p0
 
-    .line 343
+    .line 353
     :try_start_0
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
@@ -813,7 +839,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    .line 344
+    .line 354
     monitor-exit p0
 
     return p1
@@ -828,24 +854,24 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
-    .line 348
+    .line 358
     monitor-enter p0
 
-    .line 349
+    .line 359
     :try_start_1
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    const-wide/32 v2, 0x800000
+    const-wide/32 v2, 0x1000000
 
     or-long/2addr v0, v2
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    .line 350
+    .line 360
     monitor-exit p0
 
     return p1
@@ -872,10 +898,10 @@
 
     if-nez p2, :cond_0
 
-    .line 246
+    .line 250
     monitor-enter p0
 
-    .line 247
+    .line 251
     :try_start_0
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
@@ -885,7 +911,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    .line 248
+    .line 252
     monitor-exit p0
 
     return p1
@@ -900,14 +926,14 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x35f
+    const/16 v0, 0x363
 
     if-ne p2, v0, :cond_1
 
-    .line 252
+    .line 256
     monitor-enter p0
 
-    .line 253
+    .line 257
     :try_start_1
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
@@ -917,7 +943,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    .line 254
+    .line 258
     monitor-exit p0
 
     return p1
@@ -932,14 +958,14 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x360
+    const/16 v0, 0x364
 
     if-ne p2, v0, :cond_2
 
-    .line 258
+    .line 262
     monitor-enter p0
 
-    .line 259
+    .line 263
     :try_start_2
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
@@ -949,7 +975,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    .line 260
+    .line 264
     monitor-exit p0
 
     return p1
@@ -964,14 +990,14 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x235
+    const/16 v0, 0x237
 
     if-ne p2, v0, :cond_3
 
-    .line 264
+    .line 268
     monitor-enter p0
 
-    .line 265
+    .line 269
     :try_start_3
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
@@ -981,7 +1007,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    .line 266
+    .line 270
     monitor-exit p0
 
     return p1
@@ -996,14 +1022,14 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x3dc
+    const/16 v0, 0x3e0
 
     if-ne p2, v0, :cond_4
 
-    .line 270
+    .line 274
     monitor-enter p0
 
-    .line 271
+    .line 275
     :try_start_4
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
@@ -1013,7 +1039,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    .line 272
+    .line 276
     monitor-exit p0
 
     return p1
@@ -1028,14 +1054,14 @@
     throw p1
 
     :cond_4
-    const/16 v0, 0x306
+    const/16 v0, 0x30a
 
     if-ne p2, v0, :cond_5
 
-    .line 276
+    .line 280
     monitor-enter p0
 
-    .line 277
+    .line 281
     :try_start_5
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
@@ -1045,7 +1071,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    .line 278
+    .line 282
     monitor-exit p0
 
     return p1
@@ -1060,14 +1086,14 @@
     throw p1
 
     :cond_5
-    const/16 v0, 0x1bc
+    const/16 v0, 0x1bd
 
     if-ne p2, v0, :cond_6
 
-    .line 282
+    .line 286
     monitor-enter p0
 
-    .line 283
+    .line 287
     :try_start_6
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
@@ -1077,7 +1103,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    .line 284
+    .line 288
     monitor-exit p0
 
     return p1
@@ -1092,14 +1118,14 @@
     throw p1
 
     :cond_6
-    const/16 v0, 0x441
+    const/16 v0, 0x445
 
     if-ne p2, v0, :cond_7
 
-    .line 288
+    .line 292
     monitor-enter p0
 
-    .line 289
+    .line 293
     :try_start_7
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
@@ -1109,7 +1135,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    .line 290
+    .line 294
     monitor-exit p0
 
     return p1
@@ -1124,14 +1150,14 @@
     throw p1
 
     :cond_7
-    const/16 v0, 0x40f
+    const/16 v0, 0x413
 
     if-ne p2, v0, :cond_8
 
-    .line 294
+    .line 298
     monitor-enter p0
 
-    .line 295
+    .line 299
     :try_start_8
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
@@ -1141,7 +1167,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    .line 296
+    .line 300
     monitor-exit p0
 
     return p1
@@ -1160,10 +1186,10 @@
 
     if-ne p2, v0, :cond_9
 
-    .line 300
+    .line 304
     monitor-enter p0
 
-    .line 301
+    .line 305
     :try_start_9
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
@@ -1173,7 +1199,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    .line 302
+    .line 306
     monitor-exit p0
 
     return p1
@@ -1188,14 +1214,14 @@
     throw p1
 
     :cond_9
-    const/16 v0, 0x1dd
+    const/16 v0, 0x1de
 
     if-ne p2, v0, :cond_a
 
-    .line 306
+    .line 310
     monitor-enter p0
 
-    .line 307
+    .line 311
     :try_start_a
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
@@ -1205,7 +1231,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    .line 308
+    .line 312
     monitor-exit p0
 
     return p1
@@ -1220,14 +1246,14 @@
     throw p1
 
     :cond_a
-    const/16 v0, 0x1db
+    const/16 v0, 0x1dc
 
     if-ne p2, v0, :cond_b
 
-    .line 312
+    .line 316
     monitor-enter p0
 
-    .line 313
+    .line 317
     :try_start_b
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
@@ -1237,7 +1263,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    .line 314
+    .line 318
     monitor-exit p0
 
     return p1
@@ -1252,14 +1278,14 @@
     throw p1
 
     :cond_b
-    const/16 v0, 0x16b
+    const/16 v0, 0xf4
 
     if-ne p2, v0, :cond_c
 
-    .line 318
+    .line 322
     monitor-enter p0
 
-    .line 319
+    .line 323
     :try_start_c
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
@@ -1269,7 +1295,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    .line 320
+    .line 324
     monitor-exit p0
 
     return p1
@@ -1284,6 +1310,38 @@
     throw p1
 
     :cond_c
+    const/16 v0, 0x16b
+
+    if-ne p2, v0, :cond_d
+
+    .line 328
+    monitor-enter p0
+
+    .line 329
+    :try_start_d
+    iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
+
+    const-wide/32 v2, 0x400000
+
+    or-long/2addr v0, v2
+
+    iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
+
+    .line 330
+    monitor-exit p0
+
+    return p1
+
+    :catchall_d
+    move-exception p1
+
+    monitor-exit p0
+    :try_end_d
+    .catchall {:try_start_d .. :try_end_d} :catchall_d
+
+    throw p1
+
+    :cond_d
     const/4 p1, 0x0
 
     return p1
@@ -1294,10 +1352,10 @@
 
     if-nez p2, :cond_0
 
-    .line 396
+    .line 406
     monitor-enter p0
 
-    .line 397
+    .line 407
     :try_start_0
     iget-wide p1, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
@@ -1307,7 +1365,7 @@
 
     iput-wide p1, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    .line 398
+    .line 408
     monitor-exit p0
 
     const/4 p1, 0x1
@@ -1334,10 +1392,10 @@
 
     if-nez p2, :cond_0
 
-    .line 387
+    .line 397
     monitor-enter p0
 
-    .line 388
+    .line 398
     :try_start_0
     iget-wide p1, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
@@ -1347,7 +1405,7 @@
 
     iput-wide p1, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    .line 389
+    .line 399
     monitor-exit p0
 
     const/4 p1, 0x1
@@ -1372,46 +1430,46 @@
 
 # virtual methods
 .method protected executeBindings()V
-    .locals 64
+    .locals 67
 
     move-object/from16 v1, p0
 
-    .line 407
+    .line 417
     monitor-enter p0
 
-    .line 408
+    .line 418
     :try_start_0
     iget-wide v2, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
     const-wide/16 v4, 0x0
 
-    .line 409
+    .line 419
     iput-wide v4, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    .line 410
+    .line 420
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 411
+    .line 421
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mGridFullMapping:Lcom/rigol/scope/data/MappingObject;
 
-    .line 420
+    .line 430
     iget-object v6, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mParam:Lcom/rigol/scope/data/MathParam;
 
-    .line 423
+    .line 433
     iget-object v7, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mGridHalfMapping:Lcom/rigol/scope/data/MappingObject;
 
-    .line 424
+    .line 434
     iget-object v8, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mGridNoneMapping:Lcom/rigol/scope/data/MappingObject;
 
-    .line 432
+    .line 442
     iget-object v9, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mCenterMapping:Lcom/rigol/scope/data/MappingObject;
 
-    .line 436
+    .line 446
     iget-object v10, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mGndMapping:Lcom/rigol/scope/data/MappingObject;
 
-    const-wide/32 v12, 0x4000201
+    const-wide/32 v12, 0x8000201
 
     and-long/2addr v12, v2
 
@@ -1421,7 +1479,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 461
+    .line 472
     invoke-virtual {v0}, Lcom/rigol/scope/data/MappingObject;->getStr()Ljava/lang/String;
 
     move-result-object v0
@@ -1432,51 +1490,53 @@
     const/4 v0, 0x0
 
     :goto_0
-    const-wide/32 v14, 0x43ffcc2
+    const-wide/32 v14, 0x87ffcc2
 
     and-long/2addr v14, v2
 
     cmp-long v14, v14, v4
 
-    const-wide/32 v17, 0x4000802
+    const-wide/32 v17, 0x8100002
 
-    const-wide/32 v19, 0x4100002
+    const-wide/32 v19, 0x8000802
 
-    const-wide/32 v21, 0x4000402
+    const-wide/32 v21, 0x8008002
 
-    const-wide/32 v23, 0x4008002
+    const-wide/32 v23, 0x8000402
 
-    const-wide/32 v25, 0x4020002
+    const-wide/32 v25, 0x8020002
 
-    const-wide/32 v27, 0x4010002
+    const-wide/32 v27, 0x8010002
 
-    const-wide/32 v29, 0x4000842
+    const-wide/32 v29, 0x8000842
 
-    const-wide/32 v31, 0x4000482
+    const-wide/32 v31, 0x8200002
 
-    const-wide/32 v33, 0x4200002
+    const-wide/32 v33, 0x8000482
 
-    const-wide/32 v35, 0x4040002
+    const-wide/32 v35, 0x8400002
 
-    const-wide/32 v37, 0x4006002
+    const-wide/32 v37, 0x8040002
 
-    const-wide/32 v39, 0x4080002
+    const-wide/32 v39, 0x8006002
 
-    const/16 v41, 0x0
+    const-wide/32 v41, 0x8080002
 
-    if-eqz v14, :cond_22
+    const/16 v43, 0x0
 
-    const-wide/32 v42, 0x4007002
+    if-eqz v14, :cond_23
 
-    and-long v42, v2, v42
+    const-wide/32 v44, 0x8007002
 
-    cmp-long v14, v42, v4
+    and-long v44, v2, v44
+
+    cmp-long v14, v44, v4
 
     if-eqz v14, :cond_2
 
     if-eqz v6, :cond_1
 
-    .line 471
+    .line 482
     invoke-virtual {v6}, Lcom/rigol/scope/data/MathParam;->getUnitIndex()Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     move-result-object v14
@@ -1489,7 +1549,7 @@
     :goto_1
     if-eqz v14, :cond_2
 
-    .line 477
+    .line 488
     iget-object v14, v14, Lcom/rigol/scope/cil/ServiceEnum$Unit;->value2:Ljava/lang/String;
 
     goto :goto_2
@@ -1498,56 +1558,56 @@
     const/4 v14, 0x0
 
     :goto_2
-    and-long v42, v2, v39
+    and-long v44, v2, v41
 
-    cmp-long v42, v42, v4
+    cmp-long v44, v44, v4
 
-    if-eqz v42, :cond_3
+    if-eqz v44, :cond_3
 
     if-eqz v6, :cond_3
 
-    .line 484
+    .line 495
     invoke-virtual {v6}, Lcom/rigol/scope/data/MathParam;->getLabelString()Ljava/lang/String;
 
-    move-result-object v42
+    move-result-object v44
 
     goto :goto_3
 
     :cond_3
-    const/16 v42, 0x0
+    const/16 v44, 0x0
 
     :goto_3
-    and-long v43, v2, v37
+    and-long v45, v2, v39
 
-    cmp-long v43, v43, v4
+    cmp-long v45, v45, v4
 
-    if-eqz v43, :cond_5
+    if-eqz v45, :cond_5
 
     if-eqz v6, :cond_4
 
-    .line 491
+    .line 502
     invoke-virtual {v6}, Lcom/rigol/scope/data/MathParam;->getScale()J
 
-    move-result-wide v43
+    move-result-wide v45
 
-    move-wide/from16 v62, v43
+    move-wide/from16 v65, v45
 
-    move/from16 v44, v12
+    move/from16 v46, v12
 
-    move-wide/from16 v11, v62
+    move-wide/from16 v11, v65
 
     goto :goto_4
 
     :cond_4
-    move/from16 v44, v12
+    move/from16 v46, v12
 
     move-wide v11, v4
 
-    .line 496
+    .line 507
     :goto_4
-    sget-object v45, Lcom/rigol/scope/utilities/UnitFormat$SI;->NANO:Lcom/rigol/scope/utilities/UnitFormat$SI;
+    sget-object v47, Lcom/rigol/scope/utilities/UnitFormat$SI;->NANO:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
-    invoke-static/range {v45 .. v45}, Lcom/rigol/scope/utilities/UnitFormat;->newBuilder(Lcom/rigol/scope/utilities/UnitFormat$SI;)Lcom/rigol/scope/utilities/UnitFormat;
+    invoke-static/range {v47 .. v47}, Lcom/rigol/scope/utilities/UnitFormat;->newBuilder(Lcom/rigol/scope/utilities/UnitFormat$SI;)Lcom/rigol/scope/utilities/UnitFormat;
 
     move-result-object v13
 
@@ -1555,7 +1615,7 @@
 
     move-result-object v11
 
-    .line 500
+    .line 511
     new-instance v12, Ljava/lang/StringBuilder;
 
     invoke-direct {v12}, Ljava/lang/StringBuilder;-><init>()V
@@ -1571,12 +1631,12 @@
     goto :goto_5
 
     :cond_5
-    move/from16 v44, v12
+    move/from16 v46, v12
 
     const/4 v11, 0x0
 
     :goto_5
-    and-long v12, v2, v35
+    and-long v12, v2, v37
 
     cmp-long v12, v12, v4
 
@@ -1584,7 +1644,7 @@
 
     if-eqz v6, :cond_6
 
-    .line 506
+    .line 517
     invoke-virtual {v6}, Lcom/rigol/scope/data/MathParam;->getExpandIndex()Lcom/rigol/scope/cil/ServiceEnum$VertExpand;
 
     move-result-object v12
@@ -1594,7 +1654,7 @@
     :cond_6
     const/4 v12, 0x0
 
-    .line 511
+    .line 522
     :goto_6
     sget-object v13, Lcom/rigol/scope/cil/ServiceEnum$VertExpand;->vert_expand_center:Lcom/rigol/scope/cil/ServiceEnum$VertExpand;
 
@@ -1605,9 +1665,9 @@
     goto :goto_7
 
     :cond_7
-    move/from16 v13, v41
+    move/from16 v13, v43
 
-    .line 513
+    .line 524
     :goto_7
     sget-object v15, Lcom/rigol/scope/cil/ServiceEnum$VertExpand;->vert_expand_gnd:Lcom/rigol/scope/cil/ServiceEnum$VertExpand;
 
@@ -1618,17 +1678,17 @@
     goto :goto_8
 
     :cond_8
-    move/from16 v12, v41
+    move/from16 v12, v43
 
     goto :goto_8
 
     :cond_9
-    move/from16 v12, v41
+    move/from16 v12, v43
 
     move v13, v12
 
     :goto_8
-    and-long v15, v2, v33
+    and-long v15, v2, v35
 
     cmp-long v15, v15, v4
 
@@ -1636,7 +1696,7 @@
 
     if-eqz v6, :cond_a
 
-    .line 519
+    .line 530
     invoke-virtual {v6}, Lcom/rigol/scope/data/MathParam;->getGrids()Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
     move-result-object v15
@@ -1646,7 +1706,7 @@
     :cond_a
     const/4 v15, 0x0
 
-    .line 524
+    .line 535
     :goto_9
     sget-object v4, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;->GRID_IS_FULL:Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
@@ -1657,9 +1717,9 @@
     goto :goto_a
 
     :cond_b
-    move/from16 v4, v41
+    move/from16 v4, v43
 
-    .line 526
+    .line 537
     :goto_a
     sget-object v5, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;->GRID_IS_HALF:Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
@@ -1672,9 +1732,9 @@
     goto :goto_b
 
     :cond_c
-    move/from16 v5, v41
+    move/from16 v5, v43
 
-    .line 528
+    .line 539
     :goto_b
     sget-object v4, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;->GRID_IS_NONE:Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
@@ -1685,7 +1745,7 @@
     goto :goto_c
 
     :cond_d
-    move/from16 v4, v41
+    move/from16 v4, v43
 
     :goto_c
     move v15, v5
@@ -1697,33 +1757,33 @@
     goto :goto_d
 
     :cond_e
-    move/from16 v4, v41
+    move/from16 v4, v43
 
     move v5, v4
 
     move v15, v5
 
     :goto_d
-    and-long v50, v2, v31
+    and-long v52, v2, v33
 
-    const-wide/16 v48, 0x0
+    const-wide/16 v50, 0x0
 
-    cmp-long v16, v50, v48
+    cmp-long v16, v52, v50
 
     if-eqz v16, :cond_13
 
     if-eqz v6, :cond_f
 
-    .line 534
+    .line 545
     invoke-virtual {v6}, Lcom/rigol/scope/data/MathParam;->getSourceArithAIndex()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v16
 
-    move-object/from16 v62, v16
+    move-object/from16 v65, v16
 
     move/from16 v16, v4
 
-    move-object/from16 v4, v62
+    move-object/from16 v4, v65
 
     goto :goto_e
 
@@ -1733,38 +1793,38 @@
     const/4 v4, 0x0
 
     :goto_e
-    move/from16 v50, v5
+    move/from16 v52, v5
 
     if-eqz v4, :cond_10
 
-    .line 540
+    .line 551
     iget v5, v4, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    move-object/from16 v51, v11
+    move-object/from16 v53, v11
 
     goto :goto_f
 
     :cond_10
-    move-object/from16 v51, v11
+    move-object/from16 v53, v11
 
-    move/from16 v5, v41
+    move/from16 v5, v43
 
     :goto_f
-    const v11, 0x7f030174
+    const v11, 0x7f030176
 
-    .line 545
+    .line 556
     invoke-static {v11, v5}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
     move-result-object v5
 
     const/4 v11, 0x7
 
-    .line 546
+    .line 557
     invoke-virtual {v1, v11, v5}, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->updateRegistration(ILandroidx/databinding/Observable;)Z
 
     if-eqz v5, :cond_11
 
-    .line 551
+    .line 562
     invoke-virtual {v5}, Lcom/rigol/scope/data/MappingObject;->getStr()Ljava/lang/String;
 
     move-result-object v5
@@ -1775,15 +1835,15 @@
     const/4 v5, 0x0
 
     :goto_10
-    and-long v52, v2, v21
+    and-long v54, v2, v23
 
-    const-wide/16 v48, 0x0
+    const-wide/16 v50, 0x0
 
-    cmp-long v11, v52, v48
+    cmp-long v11, v54, v50
 
     if-eqz v11, :cond_12
 
-    .line 556
+    .line 567
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->getRoot()Landroid/view/View;
 
     move-result-object v11
@@ -1799,33 +1859,33 @@
     goto :goto_11
 
     :cond_12
-    move/from16 v4, v41
+    move/from16 v4, v43
 
     goto :goto_11
 
     :cond_13
     move/from16 v16, v4
 
-    move/from16 v50, v5
+    move/from16 v52, v5
 
-    move-object/from16 v51, v11
+    move-object/from16 v53, v11
 
-    const-wide/16 v48, 0x0
+    const-wide/16 v50, 0x0
 
-    move/from16 v4, v41
+    move/from16 v4, v43
 
     const/4 v5, 0x0
 
     :goto_11
-    and-long v52, v2, v29
+    and-long v54, v2, v29
 
-    cmp-long v11, v52, v48
+    cmp-long v11, v54, v50
 
     if-eqz v11, :cond_18
 
     if-eqz v6, :cond_14
 
-    .line 563
+    .line 574
     invoke-virtual {v6}, Lcom/rigol/scope/data/MathParam;->getSourceArithBIndex()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v11
@@ -1836,38 +1896,38 @@
     const/4 v11, 0x0
 
     :goto_12
-    move/from16 v52, v4
+    move/from16 v54, v4
 
     if-eqz v11, :cond_15
 
-    .line 569
+    .line 580
     iget v4, v11, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    move-object/from16 v53, v5
+    move-object/from16 v55, v5
 
     goto :goto_13
 
     :cond_15
-    move-object/from16 v53, v5
+    move-object/from16 v55, v5
 
-    move/from16 v4, v41
+    move/from16 v4, v43
 
     :goto_13
-    const v5, 0x7f030175
+    const v5, 0x7f030177
 
-    .line 574
+    .line 585
     invoke-static {v5, v4}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
     move-result-object v4
 
     const/4 v5, 0x6
 
-    .line 575
+    .line 586
     invoke-virtual {v1, v5, v4}, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->updateRegistration(ILandroidx/databinding/Observable;)Z
 
     if-eqz v4, :cond_16
 
-    .line 580
+    .line 591
     invoke-virtual {v4}, Lcom/rigol/scope/data/MappingObject;->getStr()Ljava/lang/String;
 
     move-result-object v4
@@ -1878,15 +1938,15 @@
     const/4 v4, 0x0
 
     :goto_14
-    and-long v54, v2, v17
+    and-long v56, v2, v19
 
-    const-wide/16 v48, 0x0
+    const-wide/16 v50, 0x0
 
-    cmp-long v5, v54, v48
+    cmp-long v5, v56, v50
 
     if-eqz v5, :cond_17
 
-    .line 585
+    .line 596
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->getRoot()Landroid/view/View;
 
     move-result-object v5
@@ -1902,31 +1962,31 @@
     goto :goto_15
 
     :cond_17
-    move/from16 v5, v41
+    move/from16 v5, v43
 
     goto :goto_15
 
     :cond_18
-    move/from16 v52, v4
+    move/from16 v54, v4
 
-    move-object/from16 v53, v5
+    move-object/from16 v55, v5
 
-    const-wide/16 v48, 0x0
+    const-wide/16 v50, 0x0
 
-    move/from16 v5, v41
+    move/from16 v5, v43
 
     const/4 v4, 0x0
 
     :goto_15
-    and-long v54, v2, v27
+    and-long v56, v2, v27
 
-    cmp-long v11, v54, v48
+    cmp-long v11, v56, v50
 
     if-eqz v11, :cond_1a
 
     if-eqz v6, :cond_19
 
-    .line 592
+    .line 603
     invoke-virtual {v6}, Lcom/rigol/scope/data/MathParam;->isZoomEn()Z
 
     move-result v11
@@ -1934,139 +1994,158 @@
     goto :goto_16
 
     :cond_19
-    move/from16 v11, v41
+    move/from16 v11, v43
 
-    .line 597
+    .line 608
     :goto_16
     invoke-static {v11}, Lcom/rigol/scope/utilities/ContextUtil;->getAlpha(Z)F
 
-    move-result v43
+    move-result v45
 
-    move/from16 v62, v43
+    move/from16 v65, v45
 
-    move/from16 v43, v11
+    move/from16 v45, v11
 
-    move/from16 v11, v62
+    move/from16 v11, v65
 
     goto :goto_17
 
     :cond_1a
-    move/from16 v43, v41
+    move/from16 v45, v43
 
     const/4 v11, 0x0
 
     :goto_17
-    and-long v54, v2, v25
+    and-long v56, v2, v31
 
-    cmp-long v54, v54, v48
+    cmp-long v56, v56, v50
 
-    if-eqz v54, :cond_1c
+    if-eqz v56, :cond_1b
 
     if-eqz v6, :cond_1b
 
-    .line 603
-    invoke-virtual {v6}, Lcom/rigol/scope/data/MathParam;->getWaveType()Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;
+    .line 614
+    invoke-virtual {v6}, Lcom/rigol/scope/data/MathParam;->isDisplayMode()Z
 
-    move-result-object v54
-
-    move/from16 v55, v5
-
-    move-object/from16 v62, v54
-
-    move-object/from16 v54, v4
-
-    move-object/from16 v4, v62
+    move-result v56
 
     goto :goto_18
 
     :cond_1b
-    move-object/from16 v54, v4
+    move/from16 v56, v43
 
-    move/from16 v55, v5
-
-    const/4 v4, 0x0
-
-    .line 608
     :goto_18
-    sget-object v5, Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;->MathWave_Zoom:Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;
+    and-long v57, v2, v25
 
-    if-ne v4, v5, :cond_1d
+    cmp-long v57, v57, v50
 
-    const/16 v45, 0x1
+    if-eqz v57, :cond_1d
+
+    if-eqz v6, :cond_1c
+
+    .line 621
+    invoke-virtual {v6}, Lcom/rigol/scope/data/MathParam;->getWaveType()Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;
+
+    move-result-object v57
+
+    move/from16 v58, v5
+
+    move-object/from16 v65, v57
+
+    move-object/from16 v57, v4
+
+    move-object/from16 v4, v65
 
     goto :goto_19
 
     :cond_1c
-    move-object/from16 v54, v4
+    move-object/from16 v57, v4
 
-    move/from16 v55, v5
+    move/from16 v58, v5
+
+    const/4 v4, 0x0
+
+    .line 626
+    :goto_19
+    sget-object v5, Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;->MathWave_Zoom:Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;
+
+    if-ne v4, v5, :cond_1e
+
+    const/16 v47, 0x1
+
+    goto :goto_1a
 
     :cond_1d
-    move/from16 v45, v41
+    move-object/from16 v57, v4
 
-    :goto_19
-    and-long v4, v2, v23
+    move/from16 v58, v5
 
-    const-wide/16 v48, 0x0
+    :cond_1e
+    move/from16 v47, v43
 
-    cmp-long v4, v4, v48
+    :goto_1a
+    and-long v4, v2, v21
 
-    if-eqz v4, :cond_1e
+    const-wide/16 v50, 0x0
 
-    if-eqz v6, :cond_1e
+    cmp-long v4, v4, v50
 
-    .line 614
+    if-eqz v4, :cond_1f
+
+    if-eqz v6, :cond_1f
+
+    .line 632
     invoke-virtual {v6}, Lcom/rigol/scope/data/MathParam;->getInvert()Z
 
     move-result v4
 
-    goto :goto_1a
-
-    :cond_1e
-    move/from16 v4, v41
-
-    :goto_1a
-    and-long v56, v2, v19
-
-    cmp-long v5, v56, v48
-
-    if-eqz v5, :cond_1f
-
-    if-eqz v6, :cond_1f
-
-    .line 621
-    invoke-virtual {v6}, Lcom/rigol/scope/data/MathParam;->isLabel()Z
-
-    move-result v41
+    goto :goto_1b
 
     :cond_1f
-    const-wide/32 v46, 0x4003002
+    move/from16 v4, v43
 
-    and-long v56, v2, v46
+    :goto_1b
+    and-long v59, v2, v17
 
-    cmp-long v5, v56, v48
+    cmp-long v5, v59, v50
 
-    if-eqz v5, :cond_21
+    if-eqz v5, :cond_20
 
     if-eqz v6, :cond_20
 
-    .line 628
+    .line 639
+    invoke-virtual {v6}, Lcom/rigol/scope/data/MathParam;->isLabel()Z
+
+    move-result v43
+
+    :cond_20
+    const-wide/32 v48, 0x8003002
+
+    and-long v59, v2, v48
+
+    cmp-long v5, v59, v50
+
+    if-eqz v5, :cond_22
+
+    if-eqz v6, :cond_21
+
+    .line 646
     invoke-virtual {v6}, Lcom/rigol/scope/data/MathParam;->getOffset()J
 
     move-result-wide v5
 
-    goto :goto_1b
+    goto :goto_1c
 
-    :cond_20
+    :cond_21
     const-wide/16 v5, 0x0
 
-    .line 633
-    :goto_1b
-    sget-object v56, Lcom/rigol/scope/utilities/UnitFormat$SI;->NANO:Lcom/rigol/scope/utilities/UnitFormat$SI;
+    .line 651
+    :goto_1c
+    sget-object v59, Lcom/rigol/scope/utilities/UnitFormat$SI;->NANO:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
-    move/from16 v57, v4
+    move/from16 v60, v4
 
-    invoke-static/range {v56 .. v56}, Lcom/rigol/scope/utilities/UnitFormat;->newBuilder(Lcom/rigol/scope/utilities/UnitFormat$SI;)Lcom/rigol/scope/utilities/UnitFormat;
+    invoke-static/range {v59 .. v59}, Lcom/rigol/scope/utilities/UnitFormat;->newBuilder(Lcom/rigol/scope/utilities/UnitFormat$SI;)Lcom/rigol/scope/utilities/UnitFormat;
 
     move-result-object v4
 
@@ -2074,7 +2153,7 @@
 
     move-result-object v4
 
-    .line 637
+    .line 655
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -2089,78 +2168,82 @@
 
     move v14, v13
 
-    move/from16 v61, v43
+    move v5, v15
 
-    move/from16 v60, v45
+    move/from16 v64, v45
 
-    move/from16 v5, v50
+    move/from16 v63, v47
 
-    move-object/from16 v43, v51
+    move/from16 v6, v52
 
-    move/from16 v58, v52
+    move-object/from16 v45, v53
 
-    move/from16 v59, v55
+    move/from16 v61, v54
 
-    move/from16 v6, v57
+    move/from16 v15, v56
 
-    move-object/from16 v45, v4
+    move/from16 v62, v58
 
-    move v13, v12
-
-    move v12, v15
-
-    move/from16 v15, v16
-
-    move-object/from16 v4, v42
-
-    move-object/from16 v42, v53
-
-    goto :goto_1c
-
-    :cond_21
-    move/from16 v57, v4
-
-    move v14, v13
-
-    move-object/from16 v4, v42
-
-    move/from16 v61, v43
-
-    move/from16 v60, v45
-
-    move/from16 v5, v50
-
-    move-object/from16 v43, v51
-
-    move/from16 v58, v52
-
-    move-object/from16 v42, v53
-
-    move/from16 v59, v55
-
-    move/from16 v6, v57
-
-    const/16 v45, 0x0
+    move-object/from16 v47, v4
 
     move v13, v12
 
-    move v12, v15
+    move/from16 v12, v16
 
-    move/from16 v15, v16
+    move/from16 v52, v43
 
-    :goto_1c
-    move/from16 v16, v11
+    move-object/from16 v4, v44
 
-    move/from16 v11, v41
-
-    move-object/from16 v41, v54
+    move-object/from16 v44, v55
 
     goto :goto_1d
 
     :cond_22
-    move/from16 v44, v12
+    move/from16 v60, v4
 
-    move/from16 v5, v41
+    move v14, v13
+
+    move v5, v15
+
+    move-object/from16 v4, v44
+
+    move/from16 v64, v45
+
+    move/from16 v63, v47
+
+    move/from16 v6, v52
+
+    move-object/from16 v45, v53
+
+    move/from16 v61, v54
+
+    move-object/from16 v44, v55
+
+    move/from16 v15, v56
+
+    move/from16 v62, v58
+
+    const/16 v47, 0x0
+
+    move v13, v12
+
+    move/from16 v12, v16
+
+    move/from16 v52, v43
+
+    :goto_1d
+    move-object/from16 v43, v57
+
+    move/from16 v16, v11
+
+    move/from16 v11, v60
+
+    goto :goto_1e
+
+    :cond_23
+    move/from16 v46, v12
+
+    move/from16 v5, v43
 
     move v6, v5
 
@@ -2174,242 +2257,258 @@
 
     move v15, v14
 
-    move/from16 v58, v15
+    move/from16 v52, v15
 
-    move/from16 v59, v58
+    move/from16 v61, v52
 
-    move/from16 v60, v59
+    move/from16 v62, v61
 
-    move/from16 v61, v60
+    move/from16 v63, v62
+
+    move/from16 v64, v63
 
     const/4 v4, 0x0
 
     const/16 v16, 0x0
 
-    const/16 v41, 0x0
-
-    const/16 v42, 0x0
-
     const/16 v43, 0x0
+
+    const/16 v44, 0x0
 
     const/16 v45, 0x0
 
-    :goto_1d
-    const-wide/32 v50, 0x4400004
+    const/16 v47, 0x0
 
-    and-long v50, v2, v50
+    :goto_1e
+    const-wide/32 v53, 0x8800004
 
-    const-wide/16 v48, 0x0
+    and-long v53, v2, v53
 
-    cmp-long v50, v50, v48
+    const-wide/16 v50, 0x0
 
-    if-eqz v50, :cond_23
+    cmp-long v53, v53, v50
 
-    if-eqz v7, :cond_23
+    if-eqz v53, :cond_24
 
-    .line 646
+    if-eqz v7, :cond_24
+
+    .line 664
     invoke-virtual {v7}, Lcom/rigol/scope/data/MappingObject;->getStr()Ljava/lang/String;
 
     move-result-object v7
 
-    goto :goto_1e
+    goto :goto_1f
 
-    :cond_23
+    :cond_24
     const/4 v7, 0x0
 
-    :goto_1e
-    const-wide/32 v51, 0x4800008
+    :goto_1f
+    const-wide/32 v54, 0x9000008
 
-    and-long v51, v2, v51
+    and-long v54, v2, v54
 
-    cmp-long v51, v51, v48
+    cmp-long v54, v54, v50
 
-    if-eqz v51, :cond_24
+    if-eqz v54, :cond_25
 
-    if-eqz v8, :cond_24
+    if-eqz v8, :cond_25
 
-    .line 655
+    .line 673
     invoke-virtual {v8}, Lcom/rigol/scope/data/MappingObject;->getStr()Ljava/lang/String;
 
     move-result-object v8
 
-    goto :goto_1f
+    goto :goto_20
 
-    :cond_24
+    :cond_25
     const/4 v8, 0x0
 
-    :goto_1f
-    const-wide/32 v52, 0x5000010
+    :goto_20
+    const-wide/32 v55, 0xa000010
 
-    and-long v52, v2, v52
+    and-long v55, v2, v55
 
-    cmp-long v52, v52, v48
+    cmp-long v55, v55, v50
 
-    if-eqz v52, :cond_25
+    if-eqz v55, :cond_26
 
-    if-eqz v9, :cond_25
+    if-eqz v9, :cond_26
 
-    .line 664
+    .line 682
     invoke-virtual {v9}, Lcom/rigol/scope/data/MappingObject;->getStr()Ljava/lang/String;
 
     move-result-object v9
 
-    goto :goto_20
+    goto :goto_21
 
-    :cond_25
+    :cond_26
     const/4 v9, 0x0
 
-    :goto_20
-    const-wide/32 v53, 0x6000020
+    :goto_21
+    const-wide/32 v56, 0xc000020
 
-    and-long v53, v2, v53
+    and-long v56, v2, v56
 
-    cmp-long v53, v53, v48
+    cmp-long v56, v56, v50
 
-    if-eqz v53, :cond_26
+    if-eqz v56, :cond_27
 
-    if-eqz v10, :cond_26
+    if-eqz v10, :cond_27
 
-    .line 673
+    .line 691
     invoke-virtual {v10}, Lcom/rigol/scope/data/MappingObject;->getStr()Ljava/lang/String;
 
     move-result-object v10
 
-    goto :goto_21
+    goto :goto_22
 
-    :cond_26
+    :cond_27
     const/4 v10, 0x0
 
-    :goto_21
-    and-long v35, v2, v35
+    :goto_22
+    and-long v37, v2, v37
 
-    cmp-long v35, v35, v48
+    cmp-long v37, v37, v50
 
-    if-eqz v35, :cond_27
+    if-eqz v37, :cond_28
 
-    move-object/from16 v35, v8
+    move-object/from16 v37, v8
 
-    .line 680
+    .line 698
     iget-object v8, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->centerRadioButton:Landroid/widget/RadioButton;
 
     invoke-static {v8, v14}, Landroidx/databinding/adapters/CompoundButtonBindingAdapter;->setChecked(Landroid/widget/CompoundButton;Z)V
 
-    .line 681
+    .line 699
     iget-object v8, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->gndRadioButton:Landroid/widget/RadioButton;
 
     invoke-static {v8, v13}, Landroidx/databinding/adapters/CompoundButtonBindingAdapter;->setChecked(Landroid/widget/CompoundButton;Z)V
 
-    goto :goto_22
+    goto :goto_23
 
-    :cond_27
-    move-object/from16 v35, v8
+    :cond_28
+    move-object/from16 v37, v8
 
-    :goto_22
-    if-eqz v52, :cond_28
+    :goto_23
+    if-eqz v55, :cond_29
 
-    .line 686
+    .line 704
     iget-object v8, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->centerRadioButton:Landroid/widget/RadioButton;
 
     invoke-static {v8, v9}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
 
-    :cond_28
-    and-long v8, v2, v33
+    :cond_29
+    and-long v8, v2, v31
 
     const-wide/16 v13, 0x0
 
     cmp-long v8, v8, v13
 
-    if-eqz v8, :cond_29
+    if-eqz v8, :cond_2a
 
-    .line 691
-    iget-object v8, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->fullRadioButton:Landroid/widget/RadioButton;
+    .line 709
+    iget-object v8, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->displayModeSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     invoke-static {v8, v15}, Landroidx/databinding/adapters/CompoundButtonBindingAdapter;->setChecked(Landroid/widget/CompoundButton;Z)V
 
-    .line 692
-    iget-object v8, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->halfRadioButton:Landroid/widget/RadioButton;
+    :cond_2a
+    and-long v8, v2, v35
+
+    cmp-long v8, v8, v13
+
+    if-eqz v8, :cond_2b
+
+    .line 714
+    iget-object v8, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->fullRadioButton:Landroid/widget/RadioButton;
 
     invoke-static {v8, v12}, Landroidx/databinding/adapters/CompoundButtonBindingAdapter;->setChecked(Landroid/widget/CompoundButton;Z)V
 
-    .line 693
-    iget-object v8, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->noneRadioButton:Landroid/widget/RadioButton;
+    .line 715
+    iget-object v8, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->halfRadioButton:Landroid/widget/RadioButton;
 
     invoke-static {v8, v5}, Landroidx/databinding/adapters/CompoundButtonBindingAdapter;->setChecked(Landroid/widget/CompoundButton;Z)V
 
-    :cond_29
-    if-eqz v44, :cond_2a
+    .line 716
+    iget-object v5, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->noneRadioButton:Landroid/widget/RadioButton;
 
-    .line 698
+    invoke-static {v5, v6}, Landroidx/databinding/adapters/CompoundButtonBindingAdapter;->setChecked(Landroid/widget/CompoundButton;Z)V
+
+    :cond_2b
+    if-eqz v46, :cond_2c
+
+    .line 721
     iget-object v5, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->fullRadioButton:Landroid/widget/RadioButton;
 
     invoke-static {v5, v0}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
 
-    :cond_2a
-    if-eqz v53, :cond_2b
+    :cond_2c
+    if-eqz v56, :cond_2d
 
-    .line 703
+    .line 726
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->gndRadioButton:Landroid/widget/RadioButton;
 
     invoke-static {v0, v10}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
 
-    :cond_2b
-    if-eqz v50, :cond_2c
+    :cond_2d
+    if-eqz v53, :cond_2e
 
-    .line 708
+    .line 731
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->halfRadioButton:Landroid/widget/RadioButton;
 
     invoke-static {v0, v7}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
 
-    :cond_2c
-    and-long v7, v2, v23
-
-    const-wide/16 v9, 0x0
-
-    cmp-long v0, v7, v9
-
-    if-eqz v0, :cond_2d
-
-    .line 713
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->invertSwitch:Lcom/rigol/scope/views/SwitchButton;
-
-    invoke-static {v0, v6}, Landroidx/databinding/adapters/CompoundButtonBindingAdapter;->setChecked(Landroid/widget/CompoundButton;Z)V
-
-    :cond_2d
-    and-long v5, v2, v39
-
-    cmp-long v0, v5, v9
-
-    if-eqz v0, :cond_2e
-
-    .line 718
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->labelEditText:Lcom/rigol/scope/views/baseview/BaseEditText;
-
-    invoke-static {v0, v4}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
-
     :cond_2e
-    and-long v4, v2, v19
+    and-long v5, v2, v21
 
-    cmp-long v0, v4, v9
+    const-wide/16 v7, 0x0
+
+    cmp-long v0, v5, v7
 
     if-eqz v0, :cond_2f
 
-    .line 723
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->labelSwitch:Lcom/rigol/scope/views/SwitchButton;
+    .line 736
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->invertSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     invoke-static {v0, v11}, Landroidx/databinding/adapters/CompoundButtonBindingAdapter;->setChecked(Landroid/widget/CompoundButton;Z)V
 
     :cond_2f
-    if-eqz v51, :cond_30
+    and-long v5, v2, v41
 
-    .line 728
+    cmp-long v0, v5, v7
+
+    if-eqz v0, :cond_30
+
+    .line 741
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->labelEditText:Lcom/rigol/scope/views/baseview/BaseEditText;
+
+    invoke-static {v0, v4}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
+
+    :cond_30
+    and-long v4, v2, v17
+
+    cmp-long v0, v4, v7
+
+    if-eqz v0, :cond_31
+
+    .line 746
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->labelSwitch:Lcom/rigol/scope/views/SwitchButton;
+
+    move/from16 v4, v52
+
+    invoke-static {v0, v4}, Landroidx/databinding/adapters/CompoundButtonBindingAdapter;->setChecked(Landroid/widget/CompoundButton;Z)V
+
+    :cond_31
+    if-eqz v54, :cond_32
+
+    .line 751
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->noneRadioButton:Landroid/widget/RadioButton;
 
-    move-object/from16 v8, v35
+    move-object/from16 v8, v37
 
     invoke-static {v0, v8}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
 
-    :cond_30
-    const-wide/32 v4, 0x4003002
+    :cond_32
+    const-wide/32 v4, 0x8003002
 
     and-long/2addr v4, v2
 
@@ -2417,144 +2516,144 @@
 
     cmp-long v0, v4, v6
 
-    if-eqz v0, :cond_31
-
-    .line 733
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->offsetEditText:Landroid/widget/EditText;
-
-    move-object/from16 v4, v45
-
-    invoke-static {v0, v4}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
-
-    :cond_31
-    and-long v4, v2, v37
-
-    cmp-long v0, v4, v6
-
-    if-eqz v0, :cond_32
-
-    .line 738
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->scaleEditText:Landroid/widget/EditText;
-
-    move-object/from16 v4, v43
-
-    invoke-static {v0, v4}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
-
-    :cond_32
-    and-long v4, v2, v31
-
-    cmp-long v0, v4, v6
-
     if-eqz v0, :cond_33
 
-    .line 743
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->sourceASpinner:Landroid/widget/TextView;
+    .line 756
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->offsetEditText:Landroid/widget/EditText;
 
-    move-object/from16 v4, v42
+    move-object/from16 v4, v47
 
     invoke-static {v0, v4}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
 
     :cond_33
-    and-long v4, v2, v21
+    and-long v4, v2, v39
 
     cmp-long v0, v4, v6
 
     if-eqz v0, :cond_34
 
-    .line 748
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->sourceASpinner:Landroid/widget/TextView;
+    .line 761
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->scaleEditText:Landroid/widget/EditText;
 
-    move/from16 v4, v58
+    move-object/from16 v4, v45
 
-    invoke-virtual {v0, v4}, Landroid/widget/TextView;->setTextColor(I)V
+    invoke-static {v0, v4}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
 
     :cond_34
-    and-long v4, v2, v29
+    and-long v4, v2, v33
 
     cmp-long v0, v4, v6
 
     if-eqz v0, :cond_35
 
-    .line 753
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->sourceBSpinner:Landroid/widget/TextView;
+    .line 766
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->sourceASpinner:Landroid/widget/TextView;
 
-    move-object/from16 v4, v41
+    move-object/from16 v4, v44
 
     invoke-static {v0, v4}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
 
     :cond_35
-    and-long v4, v2, v17
+    and-long v4, v2, v23
 
     cmp-long v0, v4, v6
 
     if-eqz v0, :cond_36
 
-    .line 758
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->sourceBSpinner:Landroid/widget/TextView;
+    .line 771
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->sourceASpinner:Landroid/widget/TextView;
 
-    move/from16 v4, v59
+    move/from16 v4, v61
 
     invoke-virtual {v0, v4}, Landroid/widget/TextView;->setTextColor(I)V
 
     :cond_36
-    and-long v4, v2, v27
+    and-long v4, v2, v29
+
+    cmp-long v0, v4, v6
+
+    if-eqz v0, :cond_37
+
+    .line 776
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->sourceBSpinner:Landroid/widget/TextView;
+
+    move-object/from16 v4, v43
+
+    invoke-static {v0, v4}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
+
+    :cond_37
+    and-long v4, v2, v19
 
     cmp-long v0, v4, v6
 
     if-eqz v0, :cond_38
 
-    .line 762
+    .line 781
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->sourceBSpinner:Landroid/widget/TextView;
+
+    move/from16 v4, v62
+
+    invoke-virtual {v0, v4}, Landroid/widget/TextView;->setTextColor(I)V
+
+    :cond_38
+    and-long v4, v2, v27
+
+    cmp-long v0, v4, v6
+
+    if-eqz v0, :cond_3a
+
+    .line 785
     invoke-static {}, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->getBuildSdkInt()I
 
     move-result v0
 
     const/16 v4, 0xb
 
-    if-lt v0, v4, :cond_37
+    if-lt v0, v4, :cond_39
 
-    .line 764
+    .line 787
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->waveType:Landroid/widget/TextView;
 
     move/from16 v11, v16
 
     invoke-virtual {v0, v11}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 765
+    .line 788
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->waveTypeSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     invoke-virtual {v0, v11}, Lcom/rigol/scope/views/SwitchButton;->setAlpha(F)V
 
-    .line 769
-    :cond_37
+    .line 792
+    :cond_39
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->waveTypeSwitch:Lcom/rigol/scope/views/SwitchButton;
 
-    move/from16 v4, v61
+    move/from16 v4, v64
 
     invoke-virtual {v0, v4}, Lcom/rigol/scope/views/SwitchButton;->setEnabled(Z)V
 
-    :cond_38
+    :cond_3a
     and-long v2, v2, v25
 
     const-wide/16 v4, 0x0
 
     cmp-long v0, v2, v4
 
-    if-eqz v0, :cond_39
+    if-eqz v0, :cond_3b
 
-    .line 774
+    .line 797
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->waveTypeSwitch:Lcom/rigol/scope/views/SwitchButton;
 
-    move/from16 v2, v60
+    move/from16 v2, v63
 
     invoke-static {v0, v2}, Landroidx/databinding/adapters/CompoundButtonBindingAdapter;->setChecked(Landroid/widget/CompoundButton;Z)V
 
-    :cond_39
+    :cond_3b
     return-void
 
     :catchall_0
     move-exception v0
 
-    .line 410
+    .line 420
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -2566,10 +2665,10 @@
 .method public hasPendingBindings()Z
     .locals 4
 
-    .line 111
+    .line 115
     monitor-enter p0
 
-    .line 112
+    .line 116
     :try_start_0
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
@@ -2581,12 +2680,12 @@
 
     const/4 v0, 0x1
 
-    .line 113
+    .line 117
     monitor-exit p0
 
     return v0
 
-    .line 115
+    .line 119
     :cond_0
     monitor-exit p0
 
@@ -2607,21 +2706,21 @@
 .method public invalidateAll()V
     .locals 2
 
-    .line 103
+    .line 107
     monitor-enter p0
 
-    const-wide/32 v0, 0x4000000
+    const-wide/32 v0, 0x8000000
 
-    .line 104
+    .line 108
     :try_start_0
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    .line 105
+    .line 109
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 106
+    .line 110
     invoke-virtual {p0}, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->requestRebind()V
 
     return-void
@@ -2629,7 +2728,7 @@
     :catchall_0
     move-exception v0
 
-    .line 105
+    .line 109
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -2647,7 +2746,7 @@
 
     return p1
 
-    .line 225
+    .line 229
     :pswitch_0
     check-cast p2, Lcom/rigol/scope/data/MappingObject;
 
@@ -2657,7 +2756,7 @@
 
     return p1
 
-    .line 223
+    .line 227
     :pswitch_1
     check-cast p2, Lcom/rigol/scope/data/MappingObject;
 
@@ -2667,7 +2766,7 @@
 
     return p1
 
-    .line 221
+    .line 225
     :pswitch_2
     check-cast p2, Lcom/rigol/scope/data/MappingObject;
 
@@ -2677,7 +2776,7 @@
 
     return p1
 
-    .line 219
+    .line 223
     :pswitch_3
     check-cast p2, Lcom/rigol/scope/data/MappingObject;
 
@@ -2687,7 +2786,7 @@
 
     return p1
 
-    .line 217
+    .line 221
     :pswitch_4
     check-cast p2, Lcom/rigol/scope/data/MappingObject;
 
@@ -2697,7 +2796,7 @@
 
     return p1
 
-    .line 215
+    .line 219
     :pswitch_5
     check-cast p2, Lcom/rigol/scope/data/MappingObject;
 
@@ -2707,7 +2806,7 @@
 
     return p1
 
-    .line 213
+    .line 217
     :pswitch_6
     check-cast p2, Lcom/rigol/scope/data/MathParam;
 
@@ -2717,7 +2816,7 @@
 
     return p1
 
-    .line 211
+    .line 215
     :pswitch_7
     check-cast p2, Lcom/rigol/scope/data/MappingObject;
 
@@ -2747,16 +2846,16 @@
 
     const/4 v0, 0x4
 
-    .line 189
+    .line 193
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->updateRegistration(ILandroidx/databinding/Observable;)Z
 
-    .line 190
+    .line 194
     iput-object p1, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mCenterMapping:Lcom/rigol/scope/data/MappingObject;
 
-    .line 191
+    .line 195
     monitor-enter p0
 
-    .line 192
+    .line 196
     :try_start_0
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
@@ -2766,17 +2865,17 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    .line 193
+    .line 197
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     const/4 p1, 0x2
 
-    .line 194
+    .line 198
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->notifyPropertyChanged(I)V
 
-    .line 195
+    .line 199
     invoke-super {p0}, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->requestRebind()V
 
     return-void
@@ -2784,7 +2883,7 @@
     :catchall_0
     move-exception p1
 
-    .line 193
+    .line 197
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -2798,16 +2897,16 @@
 
     const/4 v0, 0x5
 
-    .line 198
+    .line 202
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->updateRegistration(ILandroidx/databinding/Observable;)Z
 
-    .line 199
+    .line 203
     iput-object p1, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mGndMapping:Lcom/rigol/scope/data/MappingObject;
 
-    .line 200
+    .line 204
     monitor-enter p0
 
-    .line 201
+    .line 205
     :try_start_0
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
@@ -2817,17 +2916,17 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    .line 202
+    .line 206
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     const/4 p1, 0x7
 
-    .line 203
+    .line 207
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->notifyPropertyChanged(I)V
 
-    .line 204
+    .line 208
     invoke-super {p0}, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->requestRebind()V
 
     return-void
@@ -2835,7 +2934,7 @@
     :catchall_0
     move-exception p1
 
-    .line 202
+    .line 206
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -2849,16 +2948,16 @@
 
     const/4 v0, 0x0
 
-    .line 150
+    .line 154
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->updateRegistration(ILandroidx/databinding/Observable;)Z
 
-    .line 151
+    .line 155
     iput-object p1, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mGridFullMapping:Lcom/rigol/scope/data/MappingObject;
 
-    .line 152
+    .line 156
     monitor-enter p0
 
-    .line 153
+    .line 157
     :try_start_0
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
@@ -2868,17 +2967,17 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    .line 154
+    .line 158
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     const/16 p1, 0x166
 
-    .line 155
+    .line 159
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->notifyPropertyChanged(I)V
 
-    .line 156
+    .line 160
     invoke-super {p0}, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->requestRebind()V
 
     return-void
@@ -2886,7 +2985,7 @@
     :catchall_0
     move-exception p1
 
-    .line 154
+    .line 158
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -2900,16 +2999,16 @@
 
     const/4 v0, 0x2
 
-    .line 168
+    .line 172
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->updateRegistration(ILandroidx/databinding/Observable;)Z
 
-    .line 169
+    .line 173
     iput-object p1, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mGridHalfMapping:Lcom/rigol/scope/data/MappingObject;
 
-    .line 170
+    .line 174
     monitor-enter p0
 
-    .line 171
+    .line 175
     :try_start_0
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
@@ -2919,17 +3018,17 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    .line 172
+    .line 176
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     const/16 p1, 0x167
 
-    .line 173
+    .line 177
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->notifyPropertyChanged(I)V
 
-    .line 174
+    .line 178
     invoke-super {p0}, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->requestRebind()V
 
     return-void
@@ -2937,7 +3036,7 @@
     :catchall_0
     move-exception p1
 
-    .line 172
+    .line 176
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -2951,16 +3050,16 @@
 
     const/4 v0, 0x3
 
-    .line 177
+    .line 181
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->updateRegistration(ILandroidx/databinding/Observable;)Z
 
-    .line 178
+    .line 182
     iput-object p1, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mGridNoneMapping:Lcom/rigol/scope/data/MappingObject;
 
-    .line 179
+    .line 183
     monitor-enter p0
 
-    .line 180
+    .line 184
     :try_start_0
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
@@ -2970,17 +3069,17 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    .line 181
+    .line 185
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     const/16 p1, 0x169
 
-    .line 182
+    .line 186
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->notifyPropertyChanged(I)V
 
-    .line 183
+    .line 187
     invoke-super {p0}, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->requestRebind()V
 
     return-void
@@ -2988,7 +3087,7 @@
     :catchall_0
     move-exception p1
 
-    .line 181
+    .line 185
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -3000,7 +3099,7 @@
 .method public setItemPosition(Ljava/lang/Integer;)V
     .locals 0
 
-    .line 186
+    .line 190
     iput-object p1, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mItemPosition:Ljava/lang/Integer;
 
     return-void
@@ -3011,16 +3110,16 @@
 
     const/4 v0, 0x1
 
-    .line 159
+    .line 163
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->updateRegistration(ILandroidx/databinding/Observable;)Z
 
-    .line 160
+    .line 164
     iput-object p1, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mParam:Lcom/rigol/scope/data/MathParam;
 
-    .line 161
+    .line 165
     monitor-enter p0
 
-    .line 162
+    .line 166
     :try_start_0
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
@@ -3030,17 +3129,17 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->mDirtyFlags:J
 
-    .line 163
+    .line 167
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x252
+    const/16 p1, 0x254
 
-    .line 164
+    .line 168
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->notifyPropertyChanged(I)V
 
-    .line 165
+    .line 169
     invoke-super {p0}, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->requestRebind()V
 
     return-void
@@ -3048,7 +3147,7 @@
     :catchall_0
     move-exception p1
 
-    .line 163
+    .line 167
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -3064,7 +3163,7 @@
 
     if-ne v0, p1, :cond_0
 
-    .line 123
+    .line 127
     check-cast p2, Lcom/rigol/scope/data/MappingObject;
 
     invoke-virtual {p0, p2}, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->setGridFullMapping(Lcom/rigol/scope/data/MappingObject;)V
@@ -3072,11 +3171,11 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x252
+    const/16 v0, 0x254
 
     if-ne v0, p1, :cond_1
 
-    .line 126
+    .line 130
     check-cast p2, Lcom/rigol/scope/data/MathParam;
 
     invoke-virtual {p0, p2}, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->setParam(Lcom/rigol/scope/data/MathParam;)V
@@ -3088,7 +3187,7 @@
 
     if-ne v0, p1, :cond_2
 
-    .line 129
+    .line 133
     check-cast p2, Lcom/rigol/scope/data/MappingObject;
 
     invoke-virtual {p0, p2}, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->setGridHalfMapping(Lcom/rigol/scope/data/MappingObject;)V
@@ -3100,7 +3199,7 @@
 
     if-ne v0, p1, :cond_3
 
-    .line 132
+    .line 136
     check-cast p2, Lcom/rigol/scope/data/MappingObject;
 
     invoke-virtual {p0, p2}, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->setGridNoneMapping(Lcom/rigol/scope/data/MappingObject;)V
@@ -3108,11 +3207,11 @@
     goto :goto_0
 
     :cond_3
-    const/16 v0, 0x1c3
+    const/16 v0, 0x1c4
 
     if-ne v0, p1, :cond_4
 
-    .line 135
+    .line 139
     check-cast p2, Ljava/lang/Integer;
 
     invoke-virtual {p0, p2}, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->setItemPosition(Ljava/lang/Integer;)V
@@ -3124,7 +3223,7 @@
 
     if-ne v0, p1, :cond_5
 
-    .line 138
+    .line 142
     check-cast p2, Lcom/rigol/scope/data/MappingObject;
 
     invoke-virtual {p0, p2}, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->setCenterMapping(Lcom/rigol/scope/data/MappingObject;)V
@@ -3136,7 +3235,7 @@
 
     if-ne v0, p1, :cond_6
 
-    .line 141
+    .line 145
     check-cast p2, Lcom/rigol/scope/data/MappingObject;
 
     invoke-virtual {p0, p2}, Lcom/rigol/scope/databinding/AdapterMathArithBindingImpl;->setGndMapping(Lcom/rigol/scope/data/MappingObject;)V

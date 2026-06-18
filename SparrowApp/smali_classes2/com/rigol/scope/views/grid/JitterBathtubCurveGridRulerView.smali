@@ -81,18 +81,18 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 0
 
-    .line 1835
+    .line 1950
     invoke-direct {p0, p1, p2, p3}, Lcom/rigol/scope/views/grid/GridRulerViewWrapper;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/4 p1, 0x1
 
-    .line 1838
+    .line 1953
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/grid/JitterBathtubCurveGridRulerView;->setShowAllRow(Z)V
 
-    .line 1839
+    .line 1954
     invoke-direct {p0}, Lcom/rigol/scope/views/grid/JitterBathtubCurveGridRulerView;->updateXRuler()V
 
-    .line 1840
+    .line 1955
     invoke-direct {p0}, Lcom/rigol/scope/views/grid/JitterBathtubCurveGridRulerView;->updateYRuler()V
 
     return-void
@@ -107,7 +107,7 @@
 
     const/4 p2, 0x0
 
-    .line 1833
+    .line 1948
     check-cast p2, Landroid/util/AttributeSet;
 
     :cond_0
@@ -117,7 +117,7 @@
 
     const/4 p3, 0x0
 
-    .line 1834
+    .line 1949
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/rigol/scope/views/grid/JitterBathtubCurveGridRulerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -127,14 +127,14 @@
 .method private final updateXRuler()V
     .locals 1
 
-    .line 1847
+    .line 1962
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->getJitterBathtubCurveXRulers()[Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/grid/JitterBathtubCurveGridRulerView;->setColumnContents([Ljava/lang/String;)V
 
-    .line 1850
+    .line 1965
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/JitterBathtubCurveGridRulerView;->invalidate()V
 
     return-void
@@ -143,14 +143,14 @@
 .method private final updateYRuler()V
     .locals 1
 
-    .line 1857
+    .line 1972
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->getJitterBathtubCurveYRulers()[Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/grid/JitterBathtubCurveGridRulerView;->setRowContents([Ljava/lang/String;)V
 
-    .line 1860
+    .line 1975
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/JitterBathtubCurveGridRulerView;->invalidate()V
 
     return-void

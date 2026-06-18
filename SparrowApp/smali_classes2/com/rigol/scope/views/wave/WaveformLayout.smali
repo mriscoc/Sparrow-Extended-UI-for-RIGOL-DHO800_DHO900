@@ -682,7 +682,7 @@
 .method private addBodeCloseView()V
     .locals 4
 
-    .line 1307
+    .line 1328
     new-instance v0, Landroid/widget/ImageButton;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->getContext()Landroid/content/Context;
@@ -693,14 +693,14 @@
 
     iput-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeCloseButton:Landroid/widget/ImageButton;
 
-    .line 1308
+    .line 1329
     invoke-static {}, Landroid/view/View;->generateViewId()I
 
     move-result v1
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageButton;->setId(I)V
 
-    .line 1309
+    .line 1330
     new-instance v0, Landroid/widget/ImageButton;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->getContext()Landroid/content/Context;
@@ -711,19 +711,19 @@
 
     iput-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bode_menu:Landroid/widget/ImageButton;
 
-    .line 1310
+    .line 1331
     invoke-static {}, Landroid/view/View;->generateViewId()I
 
     move-result v1
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageButton;->setId(I)V
 
-    .line 1312
+    .line 1333
     new-instance v0, Landroid/util/TypedValue;
 
     invoke-direct {v0}, Landroid/util/TypedValue;-><init>()V
 
-    .line 1313
+    .line 1334
     invoke-virtual {p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -738,7 +738,7 @@
 
     invoke-virtual {v1, v2, v0, v3}, Landroid/content/res/Resources$Theme;->resolveAttribute(ILandroid/util/TypedValue;Z)Z
 
-    .line 1314
+    .line 1335
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeCloseButton:Landroid/widget/ImageButton;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->getContext()Landroid/content/Context;
@@ -753,14 +753,14 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageButton;->setForeground(Landroid/graphics/drawable/Drawable;)V
 
-    .line 1315
+    .line 1336
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeCloseButton:Landroid/widget/ImageButton;
 
     const v2, 0x7f08047e
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageButton;->setImageResource(I)V
 
-    .line 1316
+    .line 1337
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeCloseButton:Landroid/widget/ImageButton;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->getContext()Landroid/content/Context;
@@ -775,7 +775,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/ImageButton;->setBackgroundColor(I)V
 
-    .line 1317
+    .line 1338
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bode_menu:Landroid/widget/ImageButton;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->getContext()Landroid/content/Context;
@@ -790,14 +790,14 @@
 
     invoke-virtual {v1, v0}, Landroid/widget/ImageButton;->setForeground(Landroid/graphics/drawable/Drawable;)V
 
-    .line 1318
+    .line 1339
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bode_menu:Landroid/widget/ImageButton;
 
     const v1, 0x7f0804cd
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageButton;->setImageResource(I)V
 
-    .line 1319
+    .line 1340
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bode_menu:Landroid/widget/ImageButton;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->getContext()Landroid/content/Context;
@@ -810,26 +810,26 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageButton;->setBackgroundColor(I)V
 
-    .line 1320
+    .line 1341
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bode_menu:Landroid/widget/ImageButton;
 
     const/16 v1, 0x1e
 
     invoke-virtual {p0, v0, v1, v1}, Lcom/rigol/scope/views/wave/WaveformLayout;->addView(Landroid/view/View;II)V
 
-    .line 1321
+    .line 1342
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeCloseButton:Landroid/widget/ImageButton;
 
     invoke-virtual {p0, v0, v1, v1}, Lcom/rigol/scope/views/wave/WaveformLayout;->addView(Landroid/view/View;II)V
 
-    .line 1324
+    .line 1345
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeCloseButton:Landroid/widget/ImageButton;
 
-    sget-object v1, Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$W3_JtsRuAEqmr4yta2UWyoiZ1tw;->INSTANCE:Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$W3_JtsRuAEqmr4yta2UWyoiZ1tw;
+    sget-object v1, Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$gX9r-HTqOLA5aqRxwncNGhNcmBM;->INSTANCE:Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$gX9r-HTqOLA5aqRxwncNGhNcmBM;
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 1330
+    .line 1351
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bode_menu:Landroid/widget/ImageButton;
 
     new-instance v1, Lcom/rigol/scope/views/wave/WaveformLayout$7;
@@ -846,7 +846,7 @@
 
     move-object/from16 v0, p0
 
-    .line 1046
+    .line 1067
     iget-object v1, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeLaoutView:Landroidx/constraintlayout/widget/ConstraintLayout;
 
     const/16 v2, 0xa
@@ -871,10 +871,10 @@
 
     if-nez v1, :cond_0
 
-    .line 1047
+    .line 1068
     invoke-direct/range {p0 .. p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->addBodeCloseView()V
 
-    .line 1048
+    .line 1069
     new-instance v1, Landroidx/constraintlayout/widget/ConstraintLayout;
 
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->getContext()Landroid/content/Context;
@@ -885,7 +885,7 @@
 
     iput-object v1, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeLaoutView:Landroidx/constraintlayout/widget/ConstraintLayout;
 
-    .line 1049
+    .line 1070
     new-instance v1, Lcom/rigol/scope/utilities/BodeViewLien;
 
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->getContext()Landroid/content/Context;
@@ -896,7 +896,7 @@
 
     iput-object v1, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeViewLien:Lcom/rigol/scope/utilities/BodeViewLien;
 
-    .line 1050
+    .line 1071
     new-instance v1, Lcom/rigol/scope/utilities/BodeViewLien;
 
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->getContext()Landroid/content/Context;
@@ -907,7 +907,7 @@
 
     iput-object v1, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeViewLienRange:Lcom/rigol/scope/utilities/BodeViewLien;
 
-    .line 1051
+    .line 1072
     new-instance v1, Lcom/rigol/scope/utilities/BodeCursorView;
 
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->getContext()Landroid/content/Context;
@@ -918,14 +918,14 @@
 
     iput-object v1, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeCursorView:Lcom/rigol/scope/utilities/BodeCursorView;
 
-    .line 1052
+    .line 1073
     invoke-static {}, Landroid/view/View;->generateViewId()I
 
     move-result v12
 
     invoke-virtual {v1, v12}, Lcom/rigol/scope/utilities/BodeCursorView;->setId(I)V
 
-    .line 1053
+    .line 1074
     iget-object v1, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeViewLienRange:Lcom/rigol/scope/utilities/BodeViewLien;
 
     invoke-static {}, Landroid/view/View;->generateViewId()I
@@ -934,7 +934,7 @@
 
     invoke-virtual {v1, v12}, Lcom/rigol/scope/utilities/BodeViewLien;->setId(I)V
 
-    .line 1054
+    .line 1075
     iget-object v1, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeViewLien:Lcom/rigol/scope/utilities/BodeViewLien;
 
     invoke-static {}, Landroid/view/View;->generateViewId()I
@@ -943,7 +943,7 @@
 
     invoke-virtual {v1, v12}, Lcom/rigol/scope/utilities/BodeViewLien;->setId(I)V
 
-    .line 1056
+    .line 1077
     iget-object v1, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeLaoutView:Landroidx/constraintlayout/widget/ConstraintLayout;
 
     invoke-static {}, Landroid/view/View;->generateViewId()I
@@ -952,14 +952,14 @@
 
     invoke-virtual {v1, v12}, Landroidx/constraintlayout/widget/ConstraintLayout;->setId(I)V
 
-    .line 1057
+    .line 1078
     iget-object v1, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeLaoutView:Landroidx/constraintlayout/widget/ConstraintLayout;
 
     const/4 v12, -0x1
 
     invoke-virtual {v0, v1, v12, v9}, Lcom/rigol/scope/views/wave/WaveformLayout;->addView(Landroid/view/View;II)V
 
-    .line 1059
+    .line 1080
     new-instance v1, Lcom/rigol/scope/utilities/BodeView;
 
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->getContext()Landroid/content/Context;
@@ -970,14 +970,14 @@
 
     iput-object v1, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeView:Lcom/rigol/scope/utilities/BodeView;
 
-    .line 1061
+    .line 1082
     invoke-static {}, Landroid/view/View;->generateViewId()I
 
     move-result v13
 
     invoke-virtual {v1, v13}, Lcom/rigol/scope/utilities/BodeView;->setId(I)V
 
-    .line 1062
+    .line 1083
     new-instance v1, Landroid/widget/TextView;
 
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->getContext()Landroid/content/Context;
@@ -988,7 +988,7 @@
 
     iput-object v1, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeReseultText:Landroid/widget/TextView;
 
-    .line 1063
+    .line 1084
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->getContext()Landroid/content/Context;
 
     move-result-object v13
@@ -1001,14 +1001,14 @@
 
     invoke-virtual {v1, v13}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 1065
+    .line 1086
     iget-object v1, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeReseultText:Landroid/widget/TextView;
 
     const/high16 v13, 0x41700000    # 15.0f
 
     invoke-virtual {v1, v13}, Landroid/widget/TextView;->setTextSize(F)V
 
-    .line 1066
+    .line 1087
     new-instance v1, Landroid/widget/TextView;
 
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->getContext()Landroid/content/Context;
@@ -1019,7 +1019,7 @@
 
     iput-object v1, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->freqText:Landroid/widget/TextView;
 
-    .line 1067
+    .line 1088
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->getContext()Landroid/content/Context;
 
     move-result-object v15
@@ -1030,12 +1030,12 @@
 
     invoke-virtual {v1, v14}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 1068
+    .line 1089
     iget-object v1, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->freqText:Landroid/widget/TextView;
 
     invoke-virtual {v1, v13}, Landroid/widget/TextView;->setTextSize(F)V
 
-    .line 1069
+    .line 1090
     new-instance v1, Landroid/widget/TextView;
 
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->getContext()Landroid/content/Context;
@@ -1046,7 +1046,7 @@
 
     iput-object v1, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->gainText:Landroid/widget/TextView;
 
-    .line 1070
+    .line 1091
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->getContext()Landroid/content/Context;
 
     move-result-object v14
@@ -1059,12 +1059,12 @@
 
     invoke-virtual {v1, v14}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 1071
+    .line 1092
     iget-object v1, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->gainText:Landroid/widget/TextView;
 
     invoke-virtual {v1, v13}, Landroid/widget/TextView;->setTextSize(F)V
 
-    .line 1072
+    .line 1093
     new-instance v1, Landroid/widget/TextView;
 
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->getContext()Landroid/content/Context;
@@ -1075,7 +1075,7 @@
 
     iput-object v1, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->phaseText:Landroid/widget/TextView;
 
-    .line 1073
+    .line 1094
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->getContext()Landroid/content/Context;
 
     move-result-object v14
@@ -1088,12 +1088,12 @@
 
     invoke-virtual {v1, v14}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 1074
+    .line 1095
     iget-object v1, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->phaseText:Landroid/widget/TextView;
 
     invoke-virtual {v1, v13}, Landroid/widget/TextView;->setTextSize(F)V
 
-    .line 1075
+    .line 1096
     iget-object v1, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->freqText:Landroid/widget/TextView;
 
     invoke-static {}, Landroid/view/View;->generateViewId()I
@@ -1102,7 +1102,7 @@
 
     invoke-virtual {v1, v13}, Landroid/widget/TextView;->setId(I)V
 
-    .line 1076
+    .line 1097
     iget-object v1, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->gainText:Landroid/widget/TextView;
 
     invoke-static {}, Landroid/view/View;->generateViewId()I
@@ -1111,7 +1111,7 @@
 
     invoke-virtual {v1, v13}, Landroid/widget/TextView;->setId(I)V
 
-    .line 1077
+    .line 1098
     iget-object v1, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->phaseText:Landroid/widget/TextView;
 
     invoke-static {}, Landroid/view/View;->generateViewId()I
@@ -1120,7 +1120,7 @@
 
     invoke-virtual {v1, v13}, Landroid/widget/TextView;->setId(I)V
 
-    .line 1078
+    .line 1099
     iget-object v1, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeReseultText:Landroid/widget/TextView;
 
     invoke-static {}, Landroid/view/View;->generateViewId()I
@@ -1129,62 +1129,62 @@
 
     invoke-virtual {v1, v13}, Landroid/widget/TextView;->setId(I)V
 
-    .line 1079
+    .line 1100
     iget-object v1, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->freqText:Landroid/widget/TextView;
 
     const/4 v13, -0x2
 
     invoke-virtual {v0, v1, v13, v9}, Lcom/rigol/scope/views/wave/WaveformLayout;->addView(Landroid/view/View;II)V
 
-    .line 1080
+    .line 1101
     iget-object v1, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->gainText:Landroid/widget/TextView;
 
     invoke-virtual {v0, v1, v13, v9}, Lcom/rigol/scope/views/wave/WaveformLayout;->addView(Landroid/view/View;II)V
 
-    .line 1081
+    .line 1102
     iget-object v1, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->phaseText:Landroid/widget/TextView;
 
     invoke-virtual {v0, v1, v13, v9}, Lcom/rigol/scope/views/wave/WaveformLayout;->addView(Landroid/view/View;II)V
 
-    .line 1082
+    .line 1103
     iget-object v1, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeReseultText:Landroid/widget/TextView;
 
     invoke-virtual {v0, v1, v13, v9}, Lcom/rigol/scope/views/wave/WaveformLayout;->addView(Landroid/view/View;II)V
 
-    .line 1084
+    .line 1105
     iget-object v1, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeView:Lcom/rigol/scope/utilities/BodeView;
 
     invoke-virtual {v0, v1, v12, v9}, Lcom/rigol/scope/views/wave/WaveformLayout;->addView(Landroid/view/View;II)V
 
-    .line 1085
+    .line 1106
     iget-object v1, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeViewLienRange:Lcom/rigol/scope/utilities/BodeViewLien;
 
     invoke-virtual {v0, v1, v12, v9}, Lcom/rigol/scope/views/wave/WaveformLayout;->addView(Landroid/view/View;II)V
 
-    .line 1086
+    .line 1107
     iget-object v1, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeViewLien:Lcom/rigol/scope/utilities/BodeViewLien;
 
     invoke-virtual {v0, v1, v12, v9}, Lcom/rigol/scope/views/wave/WaveformLayout;->addView(Landroid/view/View;II)V
 
-    .line 1087
+    .line 1108
     iget-object v1, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeCursorView:Lcom/rigol/scope/utilities/BodeCursorView;
 
     invoke-virtual {v0, v1, v12, v9}, Lcom/rigol/scope/views/wave/WaveformLayout;->addView(Landroid/view/View;II)V
 
-    .line 1088
+    .line 1109
     new-instance v1, Landroidx/constraintlayout/widget/ConstraintSet;
 
     invoke-direct {v1}, Landroidx/constraintlayout/widget/ConstraintSet;-><init>()V
 
-    .line 1089
+    .line 1110
     invoke-virtual {v1, v0}, Landroidx/constraintlayout/widget/ConstraintSet;->clone(Landroidx/constraintlayout/widget/ConstraintLayout;)V
 
-    .line 1090
+    .line 1111
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeView:Lcom/rigol/scope/utilities/BodeView;
 
     if-eqz v12, :cond_2
 
-    .line 1091
+    .line 1112
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainView:Lcom/rigol/scope/views/baseview/BaseWaveformView;
 
     invoke-virtual {v12}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->getId()I
@@ -1199,7 +1199,7 @@
 
     invoke-virtual {v1, v12, v10, v13, v11}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1092
+    .line 1113
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainSurfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     invoke-virtual {v12}, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->getId()I
@@ -1214,7 +1214,7 @@
 
     invoke-virtual {v1, v12, v10, v13, v11}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1093
+    .line 1114
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainRulerView:Lcom/rigol/scope/views/grid/GridRulerView;
 
     invoke-virtual {v12}, Lcom/rigol/scope/views/grid/GridRulerView;->getId()I
@@ -1229,7 +1229,7 @@
 
     invoke-virtual {v1, v12, v10, v13, v11}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1094
+    .line 1115
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeLaoutView:Landroidx/constraintlayout/widget/ConstraintLayout;
 
     invoke-virtual {v12}, Landroidx/constraintlayout/widget/ConstraintLayout;->getId()I
@@ -1238,7 +1238,7 @@
 
     invoke-virtual {v1, v12, v10, v9, v10}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1095
+    .line 1116
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeLaoutView:Landroidx/constraintlayout/widget/ConstraintLayout;
 
     invoke-virtual {v12}, Landroidx/constraintlayout/widget/ConstraintLayout;->getId()I
@@ -1247,7 +1247,7 @@
 
     invoke-virtual {v1, v12, v7}, Landroidx/constraintlayout/widget/ConstraintSet;->constrainPercentHeight(IF)V
 
-    .line 1098
+    .line 1119
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeView:Lcom/rigol/scope/utilities/BodeView;
 
     invoke-virtual {v12}, Lcom/rigol/scope/utilities/BodeView;->getId()I
@@ -1256,7 +1256,7 @@
 
     invoke-virtual {v1, v12, v10, v9, v10}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1099
+    .line 1120
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeView:Lcom/rigol/scope/utilities/BodeView;
 
     invoke-virtual {v12}, Lcom/rigol/scope/utilities/BodeView;->getId()I
@@ -1265,7 +1265,7 @@
 
     invoke-virtual {v1, v12, v10, v9}, Landroidx/constraintlayout/widget/ConstraintSet;->setMargin(III)V
 
-    .line 1100
+    .line 1121
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeView:Lcom/rigol/scope/utilities/BodeView;
 
     invoke-virtual {v12}, Lcom/rigol/scope/utilities/BodeView;->getId()I
@@ -1274,7 +1274,7 @@
 
     invoke-virtual {v1, v12, v7}, Landroidx/constraintlayout/widget/ConstraintSet;->constrainPercentHeight(IF)V
 
-    .line 1101
+    .line 1122
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeViewLien:Lcom/rigol/scope/utilities/BodeViewLien;
 
     invoke-virtual {v12}, Lcom/rigol/scope/utilities/BodeViewLien;->getId()I
@@ -1283,7 +1283,7 @@
 
     invoke-virtual {v1, v12, v10, v9, v10}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1102
+    .line 1123
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeViewLien:Lcom/rigol/scope/utilities/BodeViewLien;
 
     invoke-virtual {v12}, Lcom/rigol/scope/utilities/BodeViewLien;->getId()I
@@ -1292,7 +1292,7 @@
 
     invoke-virtual {v1, v12, v10, v9}, Landroidx/constraintlayout/widget/ConstraintSet;->setMargin(III)V
 
-    .line 1103
+    .line 1124
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeViewLien:Lcom/rigol/scope/utilities/BodeViewLien;
 
     invoke-virtual {v12}, Lcom/rigol/scope/utilities/BodeViewLien;->getId()I
@@ -1301,7 +1301,7 @@
 
     invoke-virtual {v1, v12, v7}, Landroidx/constraintlayout/widget/ConstraintSet;->constrainPercentHeight(IF)V
 
-    .line 1104
+    .line 1125
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeViewLienRange:Lcom/rigol/scope/utilities/BodeViewLien;
 
     invoke-virtual {v12}, Lcom/rigol/scope/utilities/BodeViewLien;->getId()I
@@ -1310,7 +1310,7 @@
 
     invoke-virtual {v1, v12, v10, v9, v10}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1105
+    .line 1126
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeViewLienRange:Lcom/rigol/scope/utilities/BodeViewLien;
 
     invoke-virtual {v12}, Lcom/rigol/scope/utilities/BodeViewLien;->getId()I
@@ -1319,7 +1319,7 @@
 
     invoke-virtual {v1, v12, v10, v9}, Landroidx/constraintlayout/widget/ConstraintSet;->setMargin(III)V
 
-    .line 1106
+    .line 1127
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeViewLienRange:Lcom/rigol/scope/utilities/BodeViewLien;
 
     invoke-virtual {v12}, Lcom/rigol/scope/utilities/BodeViewLien;->getId()I
@@ -1328,7 +1328,7 @@
 
     invoke-virtual {v1, v12, v7}, Landroidx/constraintlayout/widget/ConstraintSet;->constrainPercentHeight(IF)V
 
-    .line 1107
+    .line 1128
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->freqText:Landroid/widget/TextView;
 
     invoke-virtual {v12}, Landroid/widget/TextView;->getId()I
@@ -1343,7 +1343,7 @@
 
     invoke-virtual {v1, v12, v11, v13, v11}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1108
+    .line 1129
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->freqText:Landroid/widget/TextView;
 
     invoke-virtual {v12}, Landroid/widget/TextView;->getId()I
@@ -1352,7 +1352,7 @@
 
     invoke-virtual {v1, v12, v11, v6}, Landroidx/constraintlayout/widget/ConstraintSet;->setMargin(III)V
 
-    .line 1109
+    .line 1130
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeViewLienRange:Lcom/rigol/scope/utilities/BodeViewLien;
 
     invoke-virtual {v12}, Lcom/rigol/scope/utilities/BodeViewLien;->getId()I
@@ -1361,7 +1361,7 @@
 
     invoke-virtual {v1, v12, v5, v2}, Landroidx/constraintlayout/widget/ConstraintSet;->setMargin(III)V
 
-    .line 1110
+    .line 1131
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->freqText:Landroid/widget/TextView;
 
     invoke-virtual {v2}, Landroid/widget/TextView;->getId()I
@@ -1370,7 +1370,7 @@
 
     invoke-virtual {v1, v2, v8}, Landroidx/constraintlayout/widget/ConstraintSet;->constrainPercentHeight(IF)V
 
-    .line 1111
+    .line 1132
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->gainText:Landroid/widget/TextView;
 
     invoke-virtual {v2}, Landroid/widget/TextView;->getId()I
@@ -1385,7 +1385,7 @@
 
     invoke-virtual {v1, v2, v11, v12, v11}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1112
+    .line 1133
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->gainText:Landroid/widget/TextView;
 
     invoke-virtual {v2}, Landroid/widget/TextView;->getId()I
@@ -1400,7 +1400,7 @@
 
     invoke-virtual {v1, v2, v5, v12, v4}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1114
+    .line 1135
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->gainText:Landroid/widget/TextView;
 
     invoke-virtual {v2}, Landroid/widget/TextView;->getId()I
@@ -1409,7 +1409,7 @@
 
     invoke-virtual {v1, v2, v11, v6}, Landroidx/constraintlayout/widget/ConstraintSet;->setMargin(III)V
 
-    .line 1115
+    .line 1136
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->gainText:Landroid/widget/TextView;
 
     invoke-virtual {v2}, Landroid/widget/TextView;->getId()I
@@ -1418,7 +1418,7 @@
 
     invoke-virtual {v1, v2, v8}, Landroidx/constraintlayout/widget/ConstraintSet;->constrainPercentHeight(IF)V
 
-    .line 1117
+    .line 1138
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeCursorView:Lcom/rigol/scope/utilities/BodeCursorView;
 
     invoke-virtual {v2}, Lcom/rigol/scope/utilities/BodeCursorView;->getId()I
@@ -1427,7 +1427,7 @@
 
     invoke-virtual {v1, v2, v10, v9, v10}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1118
+    .line 1139
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeCursorView:Lcom/rigol/scope/utilities/BodeCursorView;
 
     invoke-virtual {v2}, Lcom/rigol/scope/utilities/BodeCursorView;->getId()I
@@ -1436,7 +1436,7 @@
 
     invoke-virtual {v1, v2, v10, v9}, Landroidx/constraintlayout/widget/ConstraintSet;->setMargin(III)V
 
-    .line 1119
+    .line 1140
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeCursorView:Lcom/rigol/scope/utilities/BodeCursorView;
 
     invoke-virtual {v2}, Lcom/rigol/scope/utilities/BodeCursorView;->getId()I
@@ -1445,7 +1445,7 @@
 
     invoke-virtual {v1, v2, v7}, Landroidx/constraintlayout/widget/ConstraintSet;->constrainPercentHeight(IF)V
 
-    .line 1121
+    .line 1142
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->phaseText:Landroid/widget/TextView;
 
     invoke-virtual {v2}, Landroid/widget/TextView;->getId()I
@@ -1460,7 +1460,7 @@
 
     invoke-virtual {v1, v2, v11, v7, v11}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1122
+    .line 1143
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->phaseText:Landroid/widget/TextView;
 
     invoke-virtual {v2}, Landroid/widget/TextView;->getId()I
@@ -1475,7 +1475,7 @@
 
     invoke-virtual {v1, v2, v5, v7, v4}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1123
+    .line 1144
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->phaseText:Landroid/widget/TextView;
 
     invoke-virtual {v2}, Landroid/widget/TextView;->getId()I
@@ -1484,7 +1484,7 @@
 
     invoke-virtual {v1, v2, v11, v6}, Landroidx/constraintlayout/widget/ConstraintSet;->setMargin(III)V
 
-    .line 1124
+    .line 1145
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->gainText:Landroid/widget/TextView;
 
     invoke-virtual {v2}, Landroid/widget/TextView;->getId()I
@@ -1493,7 +1493,7 @@
 
     invoke-virtual {v1, v2, v8}, Landroidx/constraintlayout/widget/ConstraintSet;->constrainPercentHeight(IF)V
 
-    .line 1128
+    .line 1149
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeReseultText:Landroid/widget/TextView;
 
     invoke-virtual {v2}, Landroid/widget/TextView;->getId()I
@@ -1508,7 +1508,7 @@
 
     invoke-virtual {v1, v2, v11, v4, v11}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1129
+    .line 1150
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeReseultText:Landroid/widget/TextView;
 
     invoke-virtual {v2}, Landroid/widget/TextView;->getId()I
@@ -1527,7 +1527,7 @@
 
     invoke-virtual/range {v13 .. v18}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIIII)V
 
-    .line 1130
+    .line 1151
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeReseultText:Landroid/widget/TextView;
 
     invoke-virtual {v2}, Landroid/widget/TextView;->getId()I
@@ -1536,7 +1536,7 @@
 
     invoke-virtual {v1, v2, v11, v6}, Landroidx/constraintlayout/widget/ConstraintSet;->setMargin(III)V
 
-    .line 1131
+    .line 1152
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bode_menu:Landroid/widget/ImageButton;
 
     invoke-virtual {v2}, Landroid/widget/ImageButton;->getId()I
@@ -1551,7 +1551,7 @@
 
     invoke-virtual {v1, v2, v11, v4, v11}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1132
+    .line 1153
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bode_menu:Landroid/widget/ImageButton;
 
     invoke-virtual {v2}, Landroid/widget/ImageButton;->getId()I
@@ -1562,7 +1562,7 @@
 
     invoke-virtual/range {v13 .. v18}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIIII)V
 
-    .line 1133
+    .line 1154
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bode_menu:Landroid/widget/ImageButton;
 
     invoke-virtual {v2}, Landroid/widget/ImageButton;->getId()I
@@ -1571,7 +1571,7 @@
 
     invoke-virtual {v1, v2, v11, v3}, Landroidx/constraintlayout/widget/ConstraintSet;->setMargin(III)V
 
-    .line 1134
+    .line 1155
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bode_menu:Landroid/widget/ImageButton;
 
     invoke-virtual {v2}, Landroid/widget/ImageButton;->getId()I
@@ -1580,7 +1580,7 @@
 
     invoke-virtual {v1, v2, v8}, Landroidx/constraintlayout/widget/ConstraintSet;->constrainPercentHeight(IF)V
 
-    .line 1136
+    .line 1157
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeCloseButton:Landroid/widget/ImageButton;
 
     invoke-virtual {v2}, Landroid/widget/ImageButton;->getId()I
@@ -1595,7 +1595,7 @@
 
     invoke-virtual {v1, v2, v11, v4, v11}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1137
+    .line 1158
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeCloseButton:Landroid/widget/ImageButton;
 
     invoke-virtual {v2}, Landroid/widget/ImageButton;->getId()I
@@ -1606,7 +1606,7 @@
 
     invoke-virtual/range {v13 .. v18}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIIII)V
 
-    .line 1138
+    .line 1159
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeCloseButton:Landroid/widget/ImageButton;
 
     invoke-virtual {v2}, Landroid/widget/ImageButton;->getId()I
@@ -1615,7 +1615,7 @@
 
     invoke-virtual {v1, v2, v11, v3}, Landroidx/constraintlayout/widget/ConstraintSet;->setMargin(III)V
 
-    .line 1139
+    .line 1160
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeCloseButton:Landroid/widget/ImageButton;
 
     invoke-virtual {v2}, Landroid/widget/ImageButton;->getId()I
@@ -1624,26 +1624,26 @@
 
     invoke-virtual {v1, v2, v8}, Landroidx/constraintlayout/widget/ConstraintSet;->constrainPercentHeight(IF)V
 
-    .line 1142
+    .line 1163
     invoke-virtual {v1, v0}, Landroidx/constraintlayout/widget/ConstraintSet;->applyTo(Landroidx/constraintlayout/widget/ConstraintLayout;)V
 
     goto/16 :goto_0
 
-    .line 1160
+    .line 1181
     :cond_0
     new-instance v1, Landroidx/constraintlayout/widget/ConstraintSet;
 
     invoke-direct {v1}, Landroidx/constraintlayout/widget/ConstraintSet;-><init>()V
 
-    .line 1161
+    .line 1182
     invoke-virtual {v1, v0}, Landroidx/constraintlayout/widget/ConstraintSet;->clone(Landroidx/constraintlayout/widget/ConstraintLayout;)V
 
-    .line 1162
+    .line 1183
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeView:Lcom/rigol/scope/utilities/BodeView;
 
     if-eqz v12, :cond_1
 
-    .line 1163
+    .line 1184
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainView:Lcom/rigol/scope/views/baseview/BaseWaveformView;
 
     invoke-virtual {v12}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->getId()I
@@ -1658,7 +1658,7 @@
 
     invoke-virtual {v1, v12, v10, v13, v11}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1164
+    .line 1185
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainSurfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     invoke-virtual {v12}, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->getId()I
@@ -1673,7 +1673,7 @@
 
     invoke-virtual {v1, v12, v10, v13, v11}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1165
+    .line 1186
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainRulerView:Lcom/rigol/scope/views/grid/GridRulerView;
 
     invoke-virtual {v12}, Lcom/rigol/scope/views/grid/GridRulerView;->getId()I
@@ -1688,7 +1688,7 @@
 
     invoke-virtual {v1, v12, v10, v13, v11}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1166
+    .line 1187
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeLaoutView:Landroidx/constraintlayout/widget/ConstraintLayout;
 
     invoke-virtual {v12}, Landroidx/constraintlayout/widget/ConstraintLayout;->getId()I
@@ -1697,7 +1697,7 @@
 
     invoke-virtual {v1, v12, v10, v9, v10}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1167
+    .line 1188
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeLaoutView:Landroidx/constraintlayout/widget/ConstraintLayout;
 
     invoke-virtual {v12}, Landroidx/constraintlayout/widget/ConstraintLayout;->getId()I
@@ -1706,7 +1706,7 @@
 
     invoke-virtual {v1, v12, v7}, Landroidx/constraintlayout/widget/ConstraintSet;->constrainPercentHeight(IF)V
 
-    .line 1170
+    .line 1191
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeView:Lcom/rigol/scope/utilities/BodeView;
 
     invoke-virtual {v12}, Lcom/rigol/scope/utilities/BodeView;->getId()I
@@ -1715,7 +1715,7 @@
 
     invoke-virtual {v1, v12, v10, v9, v10}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1171
+    .line 1192
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeView:Lcom/rigol/scope/utilities/BodeView;
 
     invoke-virtual {v12}, Lcom/rigol/scope/utilities/BodeView;->getId()I
@@ -1724,7 +1724,7 @@
 
     invoke-virtual {v1, v12, v10, v9}, Landroidx/constraintlayout/widget/ConstraintSet;->setMargin(III)V
 
-    .line 1172
+    .line 1193
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeView:Lcom/rigol/scope/utilities/BodeView;
 
     invoke-virtual {v12}, Lcom/rigol/scope/utilities/BodeView;->getId()I
@@ -1733,7 +1733,7 @@
 
     invoke-virtual {v1, v12, v7}, Landroidx/constraintlayout/widget/ConstraintSet;->constrainPercentHeight(IF)V
 
-    .line 1173
+    .line 1194
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeViewLien:Lcom/rigol/scope/utilities/BodeViewLien;
 
     invoke-virtual {v12}, Lcom/rigol/scope/utilities/BodeViewLien;->getId()I
@@ -1742,7 +1742,7 @@
 
     invoke-virtual {v1, v12, v10, v9, v10}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1174
+    .line 1195
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeViewLien:Lcom/rigol/scope/utilities/BodeViewLien;
 
     invoke-virtual {v12}, Lcom/rigol/scope/utilities/BodeViewLien;->getId()I
@@ -1751,7 +1751,7 @@
 
     invoke-virtual {v1, v12, v10, v9}, Landroidx/constraintlayout/widget/ConstraintSet;->setMargin(III)V
 
-    .line 1175
+    .line 1196
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeViewLien:Lcom/rigol/scope/utilities/BodeViewLien;
 
     invoke-virtual {v12}, Lcom/rigol/scope/utilities/BodeViewLien;->getId()I
@@ -1760,7 +1760,7 @@
 
     invoke-virtual {v1, v12, v7}, Landroidx/constraintlayout/widget/ConstraintSet;->constrainPercentHeight(IF)V
 
-    .line 1176
+    .line 1197
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeViewLienRange:Lcom/rigol/scope/utilities/BodeViewLien;
 
     invoke-virtual {v12}, Lcom/rigol/scope/utilities/BodeViewLien;->getId()I
@@ -1769,7 +1769,7 @@
 
     invoke-virtual {v1, v12, v10, v9, v10}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1177
+    .line 1198
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeViewLienRange:Lcom/rigol/scope/utilities/BodeViewLien;
 
     invoke-virtual {v12}, Lcom/rigol/scope/utilities/BodeViewLien;->getId()I
@@ -1778,7 +1778,7 @@
 
     invoke-virtual {v1, v12, v10, v9}, Landroidx/constraintlayout/widget/ConstraintSet;->setMargin(III)V
 
-    .line 1178
+    .line 1199
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeViewLienRange:Lcom/rigol/scope/utilities/BodeViewLien;
 
     invoke-virtual {v12}, Lcom/rigol/scope/utilities/BodeViewLien;->getId()I
@@ -1787,7 +1787,7 @@
 
     invoke-virtual {v1, v12, v7}, Landroidx/constraintlayout/widget/ConstraintSet;->constrainPercentHeight(IF)V
 
-    .line 1179
+    .line 1200
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->freqText:Landroid/widget/TextView;
 
     invoke-virtual {v12}, Landroid/widget/TextView;->getId()I
@@ -1802,7 +1802,7 @@
 
     invoke-virtual {v1, v12, v11, v13, v11}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1180
+    .line 1201
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->freqText:Landroid/widget/TextView;
 
     invoke-virtual {v12}, Landroid/widget/TextView;->getId()I
@@ -1811,7 +1811,7 @@
 
     invoke-virtual {v1, v12, v11, v6}, Landroidx/constraintlayout/widget/ConstraintSet;->setMargin(III)V
 
-    .line 1181
+    .line 1202
     iget-object v12, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeViewLienRange:Lcom/rigol/scope/utilities/BodeViewLien;
 
     invoke-virtual {v12}, Lcom/rigol/scope/utilities/BodeViewLien;->getId()I
@@ -1820,7 +1820,7 @@
 
     invoke-virtual {v1, v12, v5, v2}, Landroidx/constraintlayout/widget/ConstraintSet;->setMargin(III)V
 
-    .line 1182
+    .line 1203
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->freqText:Landroid/widget/TextView;
 
     invoke-virtual {v2}, Landroid/widget/TextView;->getId()I
@@ -1829,7 +1829,7 @@
 
     invoke-virtual {v1, v2, v8}, Landroidx/constraintlayout/widget/ConstraintSet;->constrainPercentHeight(IF)V
 
-    .line 1183
+    .line 1204
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->gainText:Landroid/widget/TextView;
 
     invoke-virtual {v2}, Landroid/widget/TextView;->getId()I
@@ -1844,7 +1844,7 @@
 
     invoke-virtual {v1, v2, v11, v12, v11}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1184
+    .line 1205
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->gainText:Landroid/widget/TextView;
 
     invoke-virtual {v2}, Landroid/widget/TextView;->getId()I
@@ -1859,7 +1859,7 @@
 
     invoke-virtual {v1, v2, v5, v12, v4}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1186
+    .line 1207
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->gainText:Landroid/widget/TextView;
 
     invoke-virtual {v2}, Landroid/widget/TextView;->getId()I
@@ -1868,7 +1868,7 @@
 
     invoke-virtual {v1, v2, v11, v6}, Landroidx/constraintlayout/widget/ConstraintSet;->setMargin(III)V
 
-    .line 1187
+    .line 1208
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->gainText:Landroid/widget/TextView;
 
     invoke-virtual {v2}, Landroid/widget/TextView;->getId()I
@@ -1877,7 +1877,7 @@
 
     invoke-virtual {v1, v2, v8}, Landroidx/constraintlayout/widget/ConstraintSet;->constrainPercentHeight(IF)V
 
-    .line 1189
+    .line 1210
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeCursorView:Lcom/rigol/scope/utilities/BodeCursorView;
 
     invoke-virtual {v2}, Lcom/rigol/scope/utilities/BodeCursorView;->getId()I
@@ -1886,7 +1886,7 @@
 
     invoke-virtual {v1, v2, v10, v9, v10}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1190
+    .line 1211
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeCursorView:Lcom/rigol/scope/utilities/BodeCursorView;
 
     invoke-virtual {v2}, Lcom/rigol/scope/utilities/BodeCursorView;->getId()I
@@ -1895,7 +1895,7 @@
 
     invoke-virtual {v1, v2, v10, v9}, Landroidx/constraintlayout/widget/ConstraintSet;->setMargin(III)V
 
-    .line 1191
+    .line 1212
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeCursorView:Lcom/rigol/scope/utilities/BodeCursorView;
 
     invoke-virtual {v2}, Lcom/rigol/scope/utilities/BodeCursorView;->getId()I
@@ -1904,7 +1904,7 @@
 
     invoke-virtual {v1, v2, v7}, Landroidx/constraintlayout/widget/ConstraintSet;->constrainPercentHeight(IF)V
 
-    .line 1193
+    .line 1214
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->phaseText:Landroid/widget/TextView;
 
     invoke-virtual {v2}, Landroid/widget/TextView;->getId()I
@@ -1919,7 +1919,7 @@
 
     invoke-virtual {v1, v2, v11, v7, v11}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1194
+    .line 1215
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->phaseText:Landroid/widget/TextView;
 
     invoke-virtual {v2}, Landroid/widget/TextView;->getId()I
@@ -1934,7 +1934,7 @@
 
     invoke-virtual {v1, v2, v5, v7, v4}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1195
+    .line 1216
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->phaseText:Landroid/widget/TextView;
 
     invoke-virtual {v2}, Landroid/widget/TextView;->getId()I
@@ -1943,7 +1943,7 @@
 
     invoke-virtual {v1, v2, v11, v6}, Landroidx/constraintlayout/widget/ConstraintSet;->setMargin(III)V
 
-    .line 1196
+    .line 1217
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->gainText:Landroid/widget/TextView;
 
     invoke-virtual {v2}, Landroid/widget/TextView;->getId()I
@@ -1952,7 +1952,7 @@
 
     invoke-virtual {v1, v2, v8}, Landroidx/constraintlayout/widget/ConstraintSet;->constrainPercentHeight(IF)V
 
-    .line 1200
+    .line 1221
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeReseultText:Landroid/widget/TextView;
 
     invoke-virtual {v2}, Landroid/widget/TextView;->getId()I
@@ -1967,7 +1967,7 @@
 
     invoke-virtual {v1, v2, v11, v4, v11}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1201
+    .line 1222
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeReseultText:Landroid/widget/TextView;
 
     invoke-virtual {v2}, Landroid/widget/TextView;->getId()I
@@ -1986,7 +1986,7 @@
 
     invoke-virtual/range {v12 .. v17}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIIII)V
 
-    .line 1202
+    .line 1223
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeReseultText:Landroid/widget/TextView;
 
     invoke-virtual {v2}, Landroid/widget/TextView;->getId()I
@@ -1995,7 +1995,7 @@
 
     invoke-virtual {v1, v2, v11, v6}, Landroidx/constraintlayout/widget/ConstraintSet;->setMargin(III)V
 
-    .line 1204
+    .line 1225
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeReseultText:Landroid/widget/TextView;
 
     invoke-virtual {v2}, Landroid/widget/TextView;->getId()I
@@ -2004,7 +2004,7 @@
 
     invoke-virtual {v1, v2, v8}, Landroidx/constraintlayout/widget/ConstraintSet;->constrainPercentHeight(IF)V
 
-    .line 1205
+    .line 1226
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bode_menu:Landroid/widget/ImageButton;
 
     invoke-virtual {v2}, Landroid/widget/ImageButton;->getId()I
@@ -2019,7 +2019,7 @@
 
     invoke-virtual {v1, v2, v11, v4, v11}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1206
+    .line 1227
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bode_menu:Landroid/widget/ImageButton;
 
     invoke-virtual {v2}, Landroid/widget/ImageButton;->getId()I
@@ -2034,7 +2034,7 @@
 
     invoke-virtual/range {v12 .. v17}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIIII)V
 
-    .line 1207
+    .line 1228
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bode_menu:Landroid/widget/ImageButton;
 
     invoke-virtual {v2}, Landroid/widget/ImageButton;->getId()I
@@ -2043,7 +2043,7 @@
 
     invoke-virtual {v1, v2, v11, v3}, Landroidx/constraintlayout/widget/ConstraintSet;->setMargin(III)V
 
-    .line 1208
+    .line 1229
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bode_menu:Landroid/widget/ImageButton;
 
     invoke-virtual {v2}, Landroid/widget/ImageButton;->getId()I
@@ -2052,7 +2052,7 @@
 
     invoke-virtual {v1, v2, v8}, Landroidx/constraintlayout/widget/ConstraintSet;->constrainPercentHeight(IF)V
 
-    .line 1209
+    .line 1230
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeCloseButton:Landroid/widget/ImageButton;
 
     invoke-virtual {v2}, Landroid/widget/ImageButton;->getId()I
@@ -2067,7 +2067,7 @@
 
     invoke-virtual {v1, v2, v11, v4, v11}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1211
+    .line 1232
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeCloseButton:Landroid/widget/ImageButton;
 
     invoke-virtual {v2}, Landroid/widget/ImageButton;->getId()I
@@ -2078,7 +2078,7 @@
 
     invoke-virtual/range {v12 .. v17}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIIII)V
 
-    .line 1212
+    .line 1233
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeCloseButton:Landroid/widget/ImageButton;
 
     invoke-virtual {v2}, Landroid/widget/ImageButton;->getId()I
@@ -2087,7 +2087,7 @@
 
     invoke-virtual {v1, v2, v11, v3}, Landroidx/constraintlayout/widget/ConstraintSet;->setMargin(III)V
 
-    .line 1213
+    .line 1234
     iget-object v2, v0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeCloseButton:Landroid/widget/ImageButton;
 
     invoke-virtual {v2}, Landroid/widget/ImageButton;->getId()I
@@ -2096,14 +2096,14 @@
 
     invoke-virtual {v1, v2, v8}, Landroidx/constraintlayout/widget/ConstraintSet;->constrainPercentHeight(IF)V
 
-    .line 1216
+    .line 1237
     invoke-virtual {v1, v0}, Landroidx/constraintlayout/widget/ConstraintSet;->applyTo(Landroidx/constraintlayout/widget/ConstraintLayout;)V
 
-    .line 1232
+    .line 1253
     :cond_1
-    new-instance v1, Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$FKs4tex90bD0j9yrQJexiukbEb8;
+    new-instance v1, Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$FQj-2QjfcArjLbiwlW6hXZsJsV8;
 
-    invoke-direct {v1, v0}, Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$FKs4tex90bD0j9yrQJexiukbEb8;-><init>(Lcom/rigol/scope/views/wave/WaveformLayout;)V
+    invoke-direct {v1, v0}, Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$FQj-2QjfcArjLbiwlW6hXZsJsV8;-><init>(Lcom/rigol/scope/views/wave/WaveformLayout;)V
 
     const-wide/16 v2, 0x64
 
@@ -2117,7 +2117,7 @@
 .method private addLalien(ILjava/lang/String;)V
     .locals 4
 
-    .line 1487
+    .line 1508
     new-instance v0, Lcom/rigol/scope/views/la/LaLienView;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->getContext()Landroid/content/Context;
@@ -2134,21 +2134,21 @@
 
     iput-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->laLienView:Lcom/rigol/scope/views/la/LaLienView;
 
-    .line 1488
+    .line 1509
     invoke-static {}, Landroid/view/View;->generateViewId()I
 
     move-result v1
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/la/LaLienView;->setId(I)V
 
-    .line 1489
+    .line 1510
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->listla:Ljava/util/List;
 
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->laLienView:Lcom/rigol/scope/views/la/LaLienView;
 
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 1490
+    .line 1511
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->laViewModel:Lcom/rigol/scope/viewmodels/LaViewModel;
 
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/LaViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
@@ -2165,28 +2165,28 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/LaParam;->setList_lsview(Ljava/util/List;)V
 
-    .line 1491
+    .line 1512
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->laLienView:Lcom/rigol/scope/views/la/LaLienView;
 
     const/4 v1, -0x1
 
     invoke-virtual {p0, v0, v1, v1}, Lcom/rigol/scope/views/wave/WaveformLayout;->addView(Landroid/view/View;II)V
 
-    .line 1493
+    .line 1514
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->laLienView:Lcom/rigol/scope/views/la/LaLienView;
 
     int-to-float v1, p1
 
     invoke-virtual {v0, v1, p2}, Lcom/rigol/scope/views/la/LaLienView;->setPosition(FLjava/lang/String;)V
 
-    .line 1494
+    .line 1515
     iget-object p2, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->laLienView:Lcom/rigol/scope/views/la/LaLienView;
 
     const/4 v0, 0x0
 
     invoke-virtual {p2, v0}, Lcom/rigol/scope/views/la/LaLienView;->setVisibility(I)V
 
-    .line 1495
+    .line 1516
     iget-object p2, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->laLienView:Lcom/rigol/scope/views/la/LaLienView;
 
     new-instance v0, Lcom/rigol/scope/views/wave/WaveformLayout$8;
@@ -2195,7 +2195,7 @@
 
     invoke-virtual {p2, v0}, Lcom/rigol/scope/views/la/LaLienView;->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
 
-    .line 1513
+    .line 1534
     iget-object p1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->laLienView:Lcom/rigol/scope/views/la/LaLienView;
 
     new-instance p2, Lcom/rigol/scope/views/wave/WaveformLayout$9;
@@ -2210,7 +2210,7 @@
 .method private addMainRulerView()V
     .locals 4
 
-    .line 961
+    .line 974
     new-instance v0, Lcom/rigol/scope/views/grid/WaveformGridRulderView;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->getContext()Landroid/content/Context;
@@ -2225,28 +2225,28 @@
 
     iput-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainRulerView:Lcom/rigol/scope/views/grid/GridRulerView;
 
-    .line 962
+    .line 975
     invoke-static {}, Landroid/view/View;->generateViewId()I
 
     move-result v1
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/grid/GridRulerView;->setId(I)V
 
-    .line 963
+    .line 976
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainRulerView:Lcom/rigol/scope/views/grid/GridRulerView;
 
     const/16 v1, -0x7400
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/grid/GridRulerView;->setColumnTextColor(I)V
 
-    .line 964
+    .line 977
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainRulerView:Lcom/rigol/scope/views/grid/GridRulerView;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/grid/GridRulerView;->isMain(Z)V
 
-    .line 965
+    .line 978
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainRulerView:Lcom/rigol/scope/views/grid/GridRulerView;
 
     const/4 v1, -0x1
@@ -2259,7 +2259,7 @@
 .method private addMainSurfaceView()V
     .locals 3
 
-    .line 932
+    .line 945
     new-instance v0, Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->getContext()Landroid/content/Context;
@@ -2270,62 +2270,62 @@
 
     iput-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainSurfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
-    .line 933
+    .line 946
     invoke-static {}, Landroid/view/View;->generateViewId()I
 
     move-result v1
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->setId(I)V
 
-    .line 936
+    .line 949
     new-instance v0, Lcom/rigol/scope/data/WindowParam;
 
     invoke-direct {v0}, Lcom/rigol/scope/data/WindowParam;-><init>()V
 
-    .line 937
+    .line 950
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_MAIN_WAVEFORM:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/WindowParam;->setType(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)V
 
     const/16 v1, 0x37
 
-    .line 938
+    .line 951
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/WindowParam;->setServiceID(I)V
 
-    .line 939
+    .line 952
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainSurfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     invoke-virtual {v1, v0}, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->setParam(Lcom/rigol/scope/data/WindowParam;)V
 
-    .line 944
+    .line 957
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainSurfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->setOnScrollCalledInterval(I)V
 
-    .line 949
+    .line 962
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainSurfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     const/16 v1, 0xa
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->setOnScaleCalledInterval(I)V
 
-    .line 952
+    .line 965
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainSurfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainOnGestureListener:Landroid/view/GestureDetector$SimpleOnGestureListener;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->setGestureListener(Landroid/view/GestureDetector$SimpleOnGestureListener;)V
 
-    .line 955
+    .line 968
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainSurfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainOnScaleGestureListener:Landroid/view/ScaleGestureDetector$OnScaleGestureListener;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->setOnScaleGestureListener(Landroid/view/ScaleGestureDetector$OnScaleGestureListener;)V
 
-    .line 957
+    .line 970
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainSurfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     const/4 v1, -0x1
@@ -2340,7 +2340,7 @@
 .method private addMainTagLayoutView()V
     .locals 3
 
-    .line 926
+    .line 939
     new-instance v0, Lcom/rigol/scope/views/baseview/MainWaveformView;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->getContext()Landroid/content/Context;
@@ -2351,14 +2351,14 @@
 
     iput-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainView:Lcom/rigol/scope/views/baseview/BaseWaveformView;
 
-    .line 927
+    .line 940
     invoke-static {}, Landroid/view/View;->generateViewId()I
 
     move-result v1
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->setId(I)V
 
-    .line 928
+    .line 941
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainView:Lcom/rigol/scope/views/baseview/BaseWaveformView;
 
     const/4 v1, -0x1
@@ -2373,7 +2373,7 @@
 .method private addSearchMarkerView(I)V
     .locals 3
 
-    .line 1479
+    .line 1500
     new-instance v0, Lcom/rigol/scope/views/search/SearchMarkerView;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->getContext()Landroid/content/Context;
@@ -2386,19 +2386,19 @@
 
     iput-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->searchMarkerView:Lcom/rigol/scope/views/search/SearchMarkerView;
 
-    .line 1480
+    .line 1501
     invoke-static {}, Landroid/view/View;->generateViewId()I
 
     move-result p1
 
     invoke-virtual {v0, p1}, Lcom/rigol/scope/views/search/SearchMarkerView;->setId(I)V
 
-    .line 1481
+    .line 1502
     iget-object p1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->searchMarkerView:Lcom/rigol/scope/views/search/SearchMarkerView;
 
     invoke-virtual {p1}, Lcom/rigol/scope/views/search/SearchMarkerView;->updateVisibility()V
 
-    .line 1482
+    .line 1503
     iget-object p1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->searchMarkerView:Lcom/rigol/scope/views/search/SearchMarkerView;
 
     const/16 v0, 0x1f4
@@ -2413,7 +2413,7 @@
 .method private addZoomCloseView()V
     .locals 4
 
-    .line 1286
+    .line 1307
     new-instance v0, Landroid/widget/ImageButton;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->getContext()Landroid/content/Context;
@@ -2424,19 +2424,19 @@
 
     iput-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomCloseButton:Landroid/widget/ImageButton;
 
-    .line 1287
+    .line 1308
     invoke-static {}, Landroid/view/View;->generateViewId()I
 
     move-result v1
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageButton;->setId(I)V
 
-    .line 1290
+    .line 1311
     new-instance v0, Landroid/util/TypedValue;
 
     invoke-direct {v0}, Landroid/util/TypedValue;-><init>()V
 
-    .line 1291
+    .line 1312
     invoke-virtual {p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -2451,7 +2451,7 @@
 
     invoke-virtual {v1, v2, v0, v3}, Landroid/content/res/Resources$Theme;->resolveAttribute(ILandroid/util/TypedValue;Z)Z
 
-    .line 1292
+    .line 1313
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomCloseButton:Landroid/widget/ImageButton;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->getContext()Landroid/content/Context;
@@ -2466,14 +2466,14 @@
 
     invoke-virtual {v1, v0}, Landroid/widget/ImageButton;->setForeground(Landroid/graphics/drawable/Drawable;)V
 
-    .line 1293
+    .line 1314
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomCloseButton:Landroid/widget/ImageButton;
 
     const v1, 0x7f08047e
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageButton;->setImageResource(I)V
 
-    .line 1294
+    .line 1315
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomCloseButton:Landroid/widget/ImageButton;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->getContext()Landroid/content/Context;
@@ -2488,19 +2488,19 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageButton;->setBackgroundColor(I)V
 
-    .line 1295
+    .line 1316
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomCloseButton:Landroid/widget/ImageButton;
 
     const/16 v1, 0x1e
 
     invoke-virtual {p0, v0, v1, v1}, Lcom/rigol/scope/views/wave/WaveformLayout;->addView(Landroid/view/View;II)V
 
-    .line 1298
+    .line 1319
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomCloseButton:Landroid/widget/ImageButton;
 
-    new-instance v1, Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$8GR2gXYMq5t8eNeJiWNamqYImxw;
+    new-instance v1, Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$iW4beOSode8cbYQx5krISesJVW4;
 
-    invoke-direct {v1, p0}, Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$8GR2gXYMq5t8eNeJiWNamqYImxw;-><init>(Lcom/rigol/scope/views/wave/WaveformLayout;)V
+    invoke-direct {v1, p0}, Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$iW4beOSode8cbYQx5krISesJVW4;-><init>(Lcom/rigol/scope/views/wave/WaveformLayout;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -2510,7 +2510,7 @@
 .method private addZoomRulerView()V
     .locals 5
 
-    .line 1278
+    .line 1299
     new-instance v0, Lcom/rigol/scope/views/grid/WaveformGridRulderView;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->getContext()Landroid/content/Context;
@@ -2527,26 +2527,26 @@
 
     iput-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomRulerView:Lcom/rigol/scope/views/grid/GridRulerView;
 
-    .line 1279
+    .line 1300
     invoke-static {}, Landroid/view/View;->generateViewId()I
 
     move-result v1
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/grid/GridRulerView;->setId(I)V
 
-    .line 1280
+    .line 1301
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomRulerView:Lcom/rigol/scope/views/grid/GridRulerView;
 
     const/16 v1, -0x7400
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/grid/GridRulerView;->setColumnTextColor(I)V
 
-    .line 1281
+    .line 1302
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainRulerView:Lcom/rigol/scope/views/grid/GridRulerView;
 
     invoke-virtual {v0, v4}, Lcom/rigol/scope/views/grid/GridRulerView;->isMain(Z)V
 
-    .line 1282
+    .line 1303
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomRulerView:Lcom/rigol/scope/views/grid/GridRulerView;
 
     const/4 v1, -0x1
@@ -2559,7 +2559,7 @@
 .method private addZoomScaleView()V
     .locals 6
 
-    .line 1338
+    .line 1359
     new-instance v0, Landroid/widget/TextView;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->getContext()Landroid/content/Context;
@@ -2570,35 +2570,35 @@
 
     iput-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomInfoView:Landroid/widget/TextView;
 
-    .line 1339
+    .line 1360
     invoke-static {}, Landroid/view/View;->generateViewId()I
 
     move-result v1
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setId(I)V
 
-    .line 1340
+    .line 1361
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomInfoView:Landroid/widget/TextView;
 
     const/16 v1, 0x11
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setGravity(I)V
 
-    .line 1341
+    .line 1362
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomInfoView:Landroid/widget/TextView;
 
     const/4 v1, -0x1
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 1342
+    .line 1363
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomInfoView:Landroid/widget/TextView;
 
     const/4 v2, 0x0
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/rigol/scope/views/wave/WaveformLayout;->addView(Landroid/view/View;II)V
 
-    .line 1345
+    .line 1366
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
 
     if-eqz v0, :cond_0
@@ -2611,7 +2611,7 @@
 
     new-array v3, v3, [Ljava/lang/Object;
 
-    .line 1346
+    .line 1367
     invoke-virtual {v0}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScaleStr()Ljava/lang/String;
 
     move-result-object v0
@@ -2641,7 +2641,7 @@
 .method private addZoomSurfaceView()V
     .locals 3
 
-    .line 1249
+    .line 1270
     new-instance v0, Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->getContext()Landroid/content/Context;
@@ -2652,34 +2652,34 @@
 
     iput-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomSurfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
-    .line 1250
+    .line 1271
     invoke-static {}, Landroid/view/View;->generateViewId()I
 
     move-result v1
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->setId(I)V
 
-    .line 1251
+    .line 1272
     new-instance v0, Lcom/rigol/scope/data/WindowParam;
 
     invoke-direct {v0}, Lcom/rigol/scope/data/WindowParam;-><init>()V
 
-    .line 1252
+    .line 1273
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_ZOOM_WAVEFORM:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/WindowParam;->setType(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)V
 
     const/16 v1, 0x37
 
-    .line 1253
+    .line 1274
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/WindowParam;->setServiceID(I)V
 
-    .line 1254
+    .line 1275
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomSurfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     invoke-virtual {v1, v0}, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->setParam(Lcom/rigol/scope/data/WindowParam;)V
 
-    .line 1255
+    .line 1276
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomSurfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     const/4 v1, -0x1
@@ -2688,28 +2688,28 @@
 
     invoke-virtual {p0, v0, v1, v2}, Lcom/rigol/scope/views/wave/WaveformLayout;->addView(Landroid/view/View;II)V
 
-    .line 1260
+    .line 1281
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomSurfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     const/4 v1, 0x3
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->setOnScrollCalledInterval(I)V
 
-    .line 1265
+    .line 1286
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomSurfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     const/16 v1, 0xa
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->setOnScaleCalledInterval(I)V
 
-    .line 1268
+    .line 1289
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomSurfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomOnGestureListener:Landroid/view/GestureDetector$SimpleOnGestureListener;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->setGestureListener(Landroid/view/GestureDetector$SimpleOnGestureListener;)V
 
-    .line 1271
+    .line 1292
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomSurfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomOnScaleGestureListener:Landroid/view/ScaleGestureDetector$OnScaleGestureListener;
@@ -2722,7 +2722,7 @@
 .method private addZoomTagLayoutView()V
     .locals 3
 
-    .line 1040
+    .line 1061
     new-instance v0, Lcom/rigol/scope/views/ZoomWaveformView;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->getContext()Landroid/content/Context;
@@ -2733,14 +2733,14 @@
 
     iput-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomView:Lcom/rigol/scope/views/baseview/BaseWaveformView;
 
-    .line 1041
+    .line 1062
     invoke-static {}, Landroid/view/View;->generateViewId()I
 
     move-result v1
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->setId(I)V
 
-    .line 1042
+    .line 1063
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomView:Lcom/rigol/scope/views/baseview/BaseWaveformView;
 
     const/4 v1, -0x1
@@ -2988,7 +2988,7 @@
 
     const/16 v0, 0x507
 
-    .line 779
+    .line 787
     invoke-virtual {v2, v1, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v0
@@ -3005,7 +3005,7 @@
 
     invoke-virtual {v0, v1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 803
+    .line 816
     :cond_4
     invoke-virtual {p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->addMain()V
 
@@ -3022,10 +3022,10 @@
     return p0
 .end method
 
-.method static synthetic lambda$addBodeCloseView$14(Landroid/view/View;)V
+.method static synthetic lambda$addBodeCloseView$15(Landroid/view/View;)V
     .locals 1
 
-    .line 1327
+    .line 1348
     const-class p0, Lcom/rigol/scope/viewmodels/BodeViewModel;
 
     invoke-static {p0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -3047,17 +3047,17 @@
     return-void
 .end method
 
-.method static synthetic lambda$closeZoom$18()V
+.method static synthetic lambda$closeZoom$19()V
     .locals 3
 
-    .line 1445
+    .line 1466
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object v0
 
     const/16 v1, 0x3c
 
-    const/16 v2, 0x2901
+    const/16 v2, 0x2b01
 
     invoke-static {v1, v2}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 
@@ -3077,7 +3077,7 @@
 .method private updateZoomInfo()V
     .locals 6
 
-    .line 807
+    .line 820
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
 
     if-eqz v0, :cond_0
@@ -3086,28 +3086,28 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f100f34
+    const v0, 0x7f100f44
 
-    .line 808
+    .line 821
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getString(I)Ljava/lang/String;
 
     move-result-object v0
 
-    const v1, 0x7f100f2d
+    const v1, 0x7f100f3d
 
-    .line 809
+    .line 822
     invoke-static {v1}, Lcom/rigol/scope/utilities/ContextUtil;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f100f2c
+    const v2, 0x7f100f3c
 
-    .line 810
+    .line 823
     invoke-static {v2}, Lcom/rigol/scope/utilities/ContextUtil;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 812
+    .line 825
     iget-object v3, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomInfoView:Landroid/widget/TextView;
 
     const/4 v4, 0x5
@@ -3126,7 +3126,7 @@
 
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
 
-    .line 814
+    .line 827
     invoke-virtual {v1}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScaleStr()Ljava/lang/String;
 
     move-result-object v1
@@ -3141,7 +3141,7 @@
 
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
 
-    .line 815
+    .line 828
     invoke-virtual {v1}, Lcom/rigol/scope/data/HorizontalParam;->getZoomOffsetStr()Ljava/lang/String;
 
     move-result-object v1
@@ -3150,7 +3150,7 @@
 
     const-string v0, "%s    %s: %s    %s: %s"
 
-    .line 812
+    .line 825
     invoke-static {v0, v4}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
@@ -3164,12 +3164,12 @@
 
 # virtual methods
 .method public addBode()V
-    .locals 3
+    .locals 4
 
-    .line 1028
+    .line 1041
     invoke-direct {p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->addBodeLayoutView()V
 
-    .line 1031
+    .line 1044
     const-class v0, Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -3188,13 +3188,40 @@
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->getContext()Landroid/content/Context;
 
+    move-result-object v2
+
+    check-cast v2, Landroidx/lifecycle/LifecycleOwner;
+
+    new-instance v3, Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$HOzzM8MRQBFTUkBPwFn1_I9dsJ0;
+
+    invoke-direct {v3, p0}, Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$HOzzM8MRQBFTUkBPwFn1_I9dsJ0;-><init>(Lcom/rigol/scope/views/wave/WaveformLayout;)V
+
+    invoke-virtual {v0, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+
+    .line 1052
+    const-class v0, Lcom/rigol/scope/viewmodels/SyncDataViewModel;
+
+    invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/rigol/scope/viewmodels/SyncDataViewModel;
+
+    const/16 v2, 0x50b
+
+    invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+
+    move-result-object v0
+
+    invoke-virtual {p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->getContext()Landroid/content/Context;
+
     move-result-object v1
 
     check-cast v1, Landroidx/lifecycle/LifecycleOwner;
 
-    new-instance v2, Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$HOzzM8MRQBFTUkBPwFn1_I9dsJ0;
+    new-instance v2, Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$dR8Fws7mlGEHv6Kd5wqVplbjAEM;
 
-    invoke-direct {v2, p0}, Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$HOzzM8MRQBFTUkBPwFn1_I9dsJ0;-><init>(Lcom/rigol/scope/views/wave/WaveformLayout;)V
+    invoke-direct {v2, p0}, Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$dR8Fws7mlGEHv6Kd5wqVplbjAEM;-><init>(Lcom/rigol/scope/views/wave/WaveformLayout;)V
 
     invoke-virtual {v0, v1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
@@ -3204,29 +3231,29 @@
 .method public addMain()V
     .locals 7
 
-    .line 825
+    .line 838
     invoke-direct {p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->addMainSurfaceView()V
 
-    .line 828
+    .line 841
     invoke-direct {p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->addMainRulerView()V
 
-    .line 831
+    .line 844
     invoke-direct {p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->addMainTagLayoutView()V
 
     const/4 v0, 0x1
 
-    .line 832
+    .line 845
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/wave/WaveformLayout;->addSearchMarkerView(I)V
 
-    .line 838
+    .line 851
     new-instance v0, Landroidx/constraintlayout/widget/ConstraintSet;
 
     invoke-direct {v0}, Landroidx/constraintlayout/widget/ConstraintSet;-><init>()V
 
-    .line 839
+    .line 852
     invoke-virtual {v0, p0}, Landroidx/constraintlayout/widget/ConstraintSet;->clone(Landroidx/constraintlayout/widget/ConstraintLayout;)V
 
-    .line 840
+    .line 853
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainRulerView:Lcom/rigol/scope/views/grid/GridRulerView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/grid/GridRulerView;->getId()I
@@ -3239,7 +3266,7 @@
 
     invoke-virtual {v0, v1, v2, v3, v2}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 841
+    .line 854
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainRulerView:Lcom/rigol/scope/views/grid/GridRulerView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/grid/GridRulerView;->getId()I
@@ -3250,7 +3277,7 @@
 
     invoke-virtual {v0, v1, v4, v3, v4}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 842
+    .line 855
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainRulerView:Lcom/rigol/scope/views/grid/GridRulerView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/grid/GridRulerView;->getId()I
@@ -3261,7 +3288,7 @@
 
     invoke-virtual {v0, v1, v5, v3, v5}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 843
+    .line 856
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainRulerView:Lcom/rigol/scope/views/grid/GridRulerView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/grid/GridRulerView;->getId()I
@@ -3272,7 +3299,7 @@
 
     invoke-virtual {v0, v1, v6, v3, v6}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 845
+    .line 858
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainSurfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->getId()I
@@ -3281,7 +3308,7 @@
 
     invoke-virtual {v0, v1, v2, v3, v2}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 846
+    .line 859
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainSurfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->getId()I
@@ -3290,7 +3317,7 @@
 
     invoke-virtual {v0, v1, v4, v3, v4}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 847
+    .line 860
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainSurfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->getId()I
@@ -3299,7 +3326,7 @@
 
     invoke-virtual {v0, v1, v5, v3, v5}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 848
+    .line 861
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainSurfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->getId()I
@@ -3308,7 +3335,7 @@
 
     invoke-virtual {v0, v1, v6, v3, v6}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 850
+    .line 863
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainView:Lcom/rigol/scope/views/baseview/BaseWaveformView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->getId()I
@@ -3317,7 +3344,7 @@
 
     invoke-virtual {v0, v1, v2, v3, v2}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 851
+    .line 864
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainView:Lcom/rigol/scope/views/baseview/BaseWaveformView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->getId()I
@@ -3326,7 +3353,7 @@
 
     invoke-virtual {v0, v1, v4, v3, v4}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 852
+    .line 865
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainView:Lcom/rigol/scope/views/baseview/BaseWaveformView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->getId()I
@@ -3335,7 +3362,7 @@
 
     invoke-virtual {v0, v1, v5, v3, v5}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 853
+    .line 866
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainView:Lcom/rigol/scope/views/baseview/BaseWaveformView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->getId()I
@@ -3344,7 +3371,7 @@
 
     invoke-virtual {v0, v1, v6, v3, v6}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 854
+    .line 867
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainView:Lcom/rigol/scope/views/baseview/BaseWaveformView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->getId()I
@@ -3359,10 +3386,10 @@
 
     invoke-virtual {v0, v1, v2, v3, v2}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 856
+    .line 869
     invoke-virtual {v0, p0}, Landroidx/constraintlayout/widget/ConstraintSet;->applyTo(Landroidx/constraintlayout/widget/ConstraintLayout;)V
 
-    .line 859
+    .line 872
     const-class v0, Lcom/rigol/scope/viewmodels/SharedViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -3393,35 +3420,35 @@
 .method public addZoom()V
     .locals 7
 
-    .line 974
+    .line 987
     invoke-direct {p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->addZoomSurfaceView()V
 
-    .line 977
+    .line 990
     invoke-direct {p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->addZoomRulerView()V
 
-    .line 980
+    .line 993
     invoke-direct {p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->addZoomTagLayoutView()V
 
-    .line 983
+    .line 996
     invoke-direct {p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->addZoomScaleView()V
 
-    .line 986
+    .line 999
     invoke-direct {p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->addZoomCloseView()V
 
     const/4 v0, 0x2
 
-    .line 987
+    .line 1000
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/wave/WaveformLayout;->addSearchMarkerView(I)V
 
-    .line 989
+    .line 1002
     new-instance v0, Landroidx/constraintlayout/widget/ConstraintSet;
 
     invoke-direct {v0}, Landroidx/constraintlayout/widget/ConstraintSet;-><init>()V
 
-    .line 990
+    .line 1003
     invoke-virtual {v0, p0}, Landroidx/constraintlayout/widget/ConstraintSet;->clone(Landroidx/constraintlayout/widget/ConstraintLayout;)V
 
-    .line 991
+    .line 1004
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainRulerView:Lcom/rigol/scope/views/grid/GridRulerView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/grid/GridRulerView;->getId()I
@@ -3440,7 +3467,7 @@
 
     invoke-virtual {v0, v1, v3, v2, v4}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 992
+    .line 1005
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainSurfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->getId()I
@@ -3455,7 +3482,7 @@
 
     invoke-virtual {v0, v1, v3, v2, v4}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 993
+    .line 1006
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainView:Lcom/rigol/scope/views/baseview/BaseWaveformView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->getId()I
@@ -3470,7 +3497,7 @@
 
     invoke-virtual {v0, v1, v3, v2, v4}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 996
+    .line 1009
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomRulerView:Lcom/rigol/scope/views/grid/GridRulerView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/grid/GridRulerView;->getId()I
@@ -3485,7 +3512,7 @@
 
     invoke-virtual {v0, v1, v4, v2, v3}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 997
+    .line 1010
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomRulerView:Lcom/rigol/scope/views/grid/GridRulerView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/grid/GridRulerView;->getId()I
@@ -3496,7 +3523,7 @@
 
     invoke-virtual {v0, v1, v3, v2, v3}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 998
+    .line 1011
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomRulerView:Lcom/rigol/scope/views/grid/GridRulerView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/grid/GridRulerView;->getId()I
@@ -3507,7 +3534,7 @@
 
     invoke-virtual {v0, v1, v5}, Landroidx/constraintlayout/widget/ConstraintSet;->constrainPercentHeight(IF)V
 
-    .line 1000
+    .line 1013
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomView:Lcom/rigol/scope/views/baseview/BaseWaveformView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->getId()I
@@ -3522,7 +3549,7 @@
 
     invoke-virtual {v0, v1, v4, v6, v3}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1001
+    .line 1014
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomView:Lcom/rigol/scope/views/baseview/BaseWaveformView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->getId()I
@@ -3531,7 +3558,7 @@
 
     invoke-virtual {v0, v1, v3, v2, v3}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1002
+    .line 1015
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomView:Lcom/rigol/scope/views/baseview/BaseWaveformView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->getId()I
@@ -3540,7 +3567,7 @@
 
     invoke-virtual {v0, v1, v5}, Landroidx/constraintlayout/widget/ConstraintSet;->constrainPercentHeight(IF)V
 
-    .line 1005
+    .line 1018
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomSurfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->getId()I
@@ -3555,7 +3582,7 @@
 
     invoke-virtual {v0, v1, v4, v6, v3}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1006
+    .line 1019
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomSurfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->getId()I
@@ -3564,7 +3591,7 @@
 
     invoke-virtual {v0, v1, v3, v2, v3}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1007
+    .line 1020
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomSurfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->getId()I
@@ -3573,7 +3600,7 @@
 
     invoke-virtual {v0, v1, v5}, Landroidx/constraintlayout/widget/ConstraintSet;->constrainPercentHeight(IF)V
 
-    .line 1011
+    .line 1024
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomInfoView:Landroid/widget/TextView;
 
     invoke-virtual {v1}, Landroid/widget/TextView;->getId()I
@@ -3588,7 +3615,7 @@
 
     invoke-virtual {v0, v1, v4, v5, v3}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1012
+    .line 1025
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomInfoView:Landroid/widget/TextView;
 
     invoke-virtual {v1}, Landroid/widget/TextView;->getId()I
@@ -3603,7 +3630,7 @@
 
     invoke-virtual {v0, v1, v3, v5, v4}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1014
+    .line 1027
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomInfoView:Landroid/widget/TextView;
 
     invoke-virtual {v1}, Landroid/widget/TextView;->getId()I
@@ -3614,7 +3641,7 @@
 
     invoke-virtual {v0, v1, v5}, Landroidx/constraintlayout/widget/ConstraintSet;->constrainHeight(II)V
 
-    .line 1017
+    .line 1030
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomCloseButton:Landroid/widget/ImageButton;
 
     invoke-virtual {v1}, Landroid/widget/ImageButton;->getId()I
@@ -3629,7 +3656,7 @@
 
     invoke-virtual {v0, v1, v4, v5, v3}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1018
+    .line 1031
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomCloseButton:Landroid/widget/ImageButton;
 
     invoke-virtual {v1}, Landroid/widget/ImageButton;->getId()I
@@ -3644,7 +3671,7 @@
 
     invoke-virtual {v0, v1, v3, v5, v4}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1019
+    .line 1032
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomCloseButton:Landroid/widget/ImageButton;
 
     invoke-virtual {v1}, Landroid/widget/ImageButton;->getId()I
@@ -3655,7 +3682,7 @@
 
     invoke-virtual {v0, v1, v3, v2, v3}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1022
+    .line 1035
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->searchMarkerView:Lcom/rigol/scope/views/search/SearchMarkerView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/search/SearchMarkerView;->getId()I
@@ -3670,7 +3697,7 @@
 
     invoke-virtual {v0, v1, v4, v2, v4}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1023
+    .line 1036
     invoke-virtual {v0, p0}, Landroidx/constraintlayout/widget/ConstraintSet;->applyTo(Landroidx/constraintlayout/widget/ConstraintLayout;)V
 
     return-void
@@ -3679,10 +3706,10 @@
 .method public closeBode()V
     .locals 3
 
-    .line 1413
-    new-instance v0, Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$yR5RaKLC1N-QFN-KnubROaaIeyo;
+    .line 1434
+    new-instance v0, Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$_LivhmUDoQE9ZEJMUHfctCQ35GQ;
 
-    invoke-direct {v0, p0}, Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$yR5RaKLC1N-QFN-KnubROaaIeyo;-><init>(Lcom/rigol/scope/views/wave/WaveformLayout;)V
+    invoke-direct {v0, p0}, Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$_LivhmUDoQE9ZEJMUHfctCQ35GQ;-><init>(Lcom/rigol/scope/views/wave/WaveformLayout;)V
 
     const-wide/16 v1, 0x64
 
@@ -3694,16 +3721,16 @@
 .method public closeZoom()V
     .locals 3
 
-    .line 1430
-    new-instance v0, Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$3BXQIf94yotS3NirUSPkaBFBa8g;
+    .line 1451
+    new-instance v0, Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$9_2v9ysQBdrHbmaA4RmpsZ_HI8M;
 
-    invoke-direct {v0, p0}, Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$3BXQIf94yotS3NirUSPkaBFBa8g;-><init>(Lcom/rigol/scope/views/wave/WaveformLayout;)V
+    invoke-direct {v0, p0}, Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$9_2v9ysQBdrHbmaA4RmpsZ_HI8M;-><init>(Lcom/rigol/scope/views/wave/WaveformLayout;)V
 
     const-wide/16 v1, 0x64
 
     invoke-static {v0, v1, v2}, Lcom/blankj/utilcode/util/ThreadUtils;->runOnUiThreadDelayed(Ljava/lang/Runnable;J)V
 
-    .line 1440
+    .line 1461
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainView:Lcom/rigol/scope/views/baseview/BaseWaveformView;
 
     if-eqz v0, :cond_0
@@ -3712,8 +3739,8 @@
 
     if-eqz v0, :cond_0
 
-    .line 1442
-    sget-object v0, Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$r9ALB68MeUIFBM3W8xoaTVa8FJg;->INSTANCE:Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$r9ALB68MeUIFBM3W8xoaTVa8FJg;
+    .line 1463
+    sget-object v0, Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$gfv1YlTpcOpPPjk1Gt0OEsjg3YI;->INSTANCE:Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$gfv1YlTpcOpPPjk1Gt0OEsjg3YI;
 
     const-wide/16 v1, 0xc8
 
@@ -3726,7 +3753,7 @@
 .method public getMainView()Lcom/rigol/scope/views/baseview/BaseWaveformView;
     .locals 1
 
-    .line 1471
+    .line 1492
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainView:Lcom/rigol/scope/views/baseview/BaseWaveformView;
 
     return-object v0
@@ -3735,59 +3762,114 @@
 .method public getZoomView()Lcom/rigol/scope/views/baseview/BaseWaveformView;
     .locals 1
 
-    .line 1475
+    .line 1496
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomView:Lcom/rigol/scope/views/baseview/BaseWaveformView;
 
     return-object v0
 .end method
 
 .method public synthetic lambda$addBode$11$WaveformLayout(Ljava/lang/Object;)V
-    .locals 0
+    .locals 4
 
-    .line 1032
-    iget-object p1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeView:Lcom/rigol/scope/utilities/BodeView;
+    .line 1046
+    check-cast p1, Ljava/lang/Long;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/utilities/BodeView;->drawBodeLien()V
+    invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
+
+    move-result-wide v0
+
+    .line 1047
+    iget-object p1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeViewLien:Lcom/rigol/scope/utilities/BodeViewLien;
+
+    long-to-double v0, v0
+
+    invoke-static {v0, v1}, Ljava/lang/Math;->log10(D)D
+
+    move-result-wide v2
+
+    invoke-virtual {p1, v2, v3}, Lcom/rigol/scope/utilities/BodeViewLien;->setLogStart(D)V
+
+    .line 1048
+    iget-object p1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeViewLienRange:Lcom/rigol/scope/utilities/BodeViewLien;
+
+    invoke-static {v0, v1}, Ljava/lang/Math;->log10(D)D
+
+    move-result-wide v0
+
+    invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/utilities/BodeViewLien;->setLogStart(D)V
 
     return-void
 .end method
 
-.method public synthetic lambda$addBodeLayoutView$12$WaveformLayout()V
+.method public synthetic lambda$addBode$12$WaveformLayout(Ljava/lang/Object;)V
+    .locals 4
+
+    .line 1054
+    check-cast p1, Ljava/lang/Long;
+
+    invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
+
+    move-result-wide v0
+
+    .line 1055
+    iget-object p1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeViewLien:Lcom/rigol/scope/utilities/BodeViewLien;
+
+    long-to-double v0, v0
+
+    invoke-static {v0, v1}, Ljava/lang/Math;->log10(D)D
+
+    move-result-wide v2
+
+    invoke-virtual {p1, v2, v3}, Lcom/rigol/scope/utilities/BodeViewLien;->setLogStop(D)V
+
+    .line 1056
+    iget-object p1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeViewLienRange:Lcom/rigol/scope/utilities/BodeViewLien;
+
+    invoke-static {v0, v1}, Ljava/lang/Math;->log10(D)D
+
+    move-result-wide v0
+
+    invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/utilities/BodeViewLien;->setLogStop(D)V
+
+    return-void
+.end method
+
+.method public synthetic lambda$addBodeLayoutView$13$WaveformLayout()V
     .locals 2
 
-    .line 1234
+    .line 1255
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeView:Lcom/rigol/scope/utilities/BodeView;
 
     const/4 v1, 0x0
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1235
+    .line 1256
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeLaoutView:Landroidx/constraintlayout/widget/ConstraintLayout;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1236
+    .line 1257
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeViewLien:Lcom/rigol/scope/utilities/BodeViewLien;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1237
+    .line 1258
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeViewLienRange:Lcom/rigol/scope/utilities/BodeViewLien;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1238
+    .line 1259
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeCursorView:Lcom/rigol/scope/utilities/BodeCursorView;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1239
+    .line 1260
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeCloseButton:Landroid/widget/ImageButton;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1240
+    .line 1261
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bode_menu:Landroid/widget/ImageButton;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
@@ -3798,7 +3880,7 @@
 .method public synthetic lambda$addMain$10$WaveformLayout(Lcom/rigol/scope/data/SharedParam;)V
     .locals 1
 
-    .line 864
+    .line 877
     new-instance v0, Lcom/rigol/scope/views/wave/WaveformLayout$6;
 
     invoke-direct {v0, p0, p1}, Lcom/rigol/scope/views/wave/WaveformLayout$6;-><init>(Lcom/rigol/scope/views/wave/WaveformLayout;Lcom/rigol/scope/data/SharedParam;)V
@@ -3808,54 +3890,54 @@
     return-void
 .end method
 
-.method public synthetic lambda$addZoomCloseView$13$WaveformLayout(Landroid/view/View;)V
+.method public synthetic lambda$addZoomCloseView$14$WaveformLayout(Landroid/view/View;)V
     .locals 1
 
-    .line 1301
+    .line 1322
     iget-object p1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
 
     if-eqz p1, :cond_0
 
     const/4 v0, 0x0
 
-    .line 1302
+    .line 1323
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/HorizontalParam;->saveZoom(Z)V
 
     :cond_0
     return-void
 .end method
 
-.method public synthetic lambda$closeBode$16$WaveformLayout()V
+.method public synthetic lambda$closeBode$17$WaveformLayout()V
     .locals 2
 
-    .line 1416
+    .line 1437
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeView:Lcom/rigol/scope/utilities/BodeView;
 
     const/16 v1, 0x8
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1417
+    .line 1438
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeLaoutView:Landroidx/constraintlayout/widget/ConstraintLayout;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1418
+    .line 1439
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeViewLien:Lcom/rigol/scope/utilities/BodeViewLien;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1419
+    .line 1440
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeViewLienRange:Lcom/rigol/scope/utilities/BodeViewLien;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1420
+    .line 1441
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeCursorView:Lcom/rigol/scope/utilities/BodeCursorView;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1421
+    .line 1442
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomCloseButton:Landroid/widget/ImageButton;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
@@ -3863,32 +3945,32 @@
     return-void
 .end method
 
-.method public synthetic lambda$closeZoom$17$WaveformLayout()V
+.method public synthetic lambda$closeZoom$18$WaveformLayout()V
     .locals 2
 
-    .line 1432
+    .line 1453
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomSurfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     const/16 v1, 0x8
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1433
+    .line 1454
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomView:Lcom/rigol/scope/views/baseview/BaseWaveformView;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1434
+    .line 1455
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomRulerView:Lcom/rigol/scope/views/grid/GridRulerView;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1435
+    .line 1456
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomInfoView:Landroid/widget/TextView;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1436
+    .line 1457
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomCloseButton:Landroid/widget/ImageButton;
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
@@ -4592,7 +4674,7 @@
     .line 730
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeViewLien:Lcom/rigol/scope/utilities/BodeViewLien;
 
-    if-eqz v0, :cond_3
+    if-eqz v0, :cond_4
 
     .line 732
     check-cast p1, Ljava/lang/String;
@@ -4654,8 +4736,6 @@
 
     move-result-object v2
 
-    check-cast v2, Ljava/lang/Float;
-
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 737
@@ -4687,8 +4767,6 @@
 
     move-result-object v2
 
-    check-cast v2, Ljava/lang/Float;
-
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 738
@@ -4717,8 +4795,6 @@
     invoke-interface {v2, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
-
-    check-cast v2, Ljava/lang/Float;
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -4750,8 +4826,6 @@
     invoke-interface {v2, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
-
-    check-cast v2, Ljava/lang/Float;
 
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -5001,7 +5075,7 @@
 
     cmpg-float v1, v1, v2
 
-    if-gez v1, :cond_1
+    if-gez v1, :cond_2
 
     .line 748
     invoke-static {p1}, Ljava/util/stream/Stream;->of([Ljava/lang/Object;)Ljava/util/stream/Stream;
@@ -5065,178 +5139,230 @@
 
     invoke-virtual {v1, v4}, Lcom/rigol/scope/utilities/BodeViewLien;->setReset(Z)V
 
-    move v1, v3
-
-    .line 753
-    :goto_0
-    const-class v2, Lcom/rigol/scope/viewmodels/BodeViewModel;
-
-    invoke-static {v2}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
-
-    move-result-object v2
-
-    check-cast v2, Lcom/rigol/scope/viewmodels/BodeViewModel;
-
-    invoke-virtual {v2}, Lcom/rigol/scope/viewmodels/BodeViewModel;->getValue()Ljava/lang/Object;
-
-    move-result-object v2
-
-    check-cast v2, Lcom/rigol/scope/data/BodeParam;
-
-    invoke-virtual {v2}, Lcom/rigol/scope/data/BodeParam;->getBode_resultDatalist()Ljava/util/ArrayList;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Ljava/util/ArrayList;->size()I
-
-    move-result v2
-
-    if-ge v1, v2, :cond_2
-
     .line 754
-    const-class v2, Lcom/rigol/scope/viewmodels/BodeViewModel;
+    const-class v1, Lcom/rigol/scope/viewmodels/BodeViewModel;
 
-    invoke-static {v2}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
+    invoke-static {v1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
 
-    move-result-object v2
+    move-result-object v1
 
-    check-cast v2, Lcom/rigol/scope/viewmodels/BodeViewModel;
+    check-cast v1, Lcom/rigol/scope/viewmodels/BodeViewModel;
 
-    invoke-virtual {v2}, Lcom/rigol/scope/viewmodels/BodeViewModel;->getValue()Ljava/lang/Object;
+    invoke-virtual {v1}, Lcom/rigol/scope/viewmodels/BodeViewModel;->getValue()Ljava/lang/Object;
 
-    move-result-object v2
+    move-result-object v1
 
-    check-cast v2, Lcom/rigol/scope/data/BodeParam;
+    check-cast v1, Lcom/rigol/scope/data/BodeParam;
 
-    invoke-virtual {v2}, Lcom/rigol/scope/data/BodeParam;->getBode_resultDatalist()Ljava/util/ArrayList;
+    invoke-virtual {v1}, Lcom/rigol/scope/data/BodeParam;->getBode_resultDatalist()Ljava/util/ArrayList;
 
-    move-result-object v2
+    move-result-object v1
 
-    invoke-virtual {v2, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    move v2, v3
 
-    move-result-object v2
+    .line 755
+    :goto_0
+    invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
 
-    check-cast v2, Ljava/lang/String;
+    move-result v6
 
-    invoke-virtual {v2, v0}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
-
-    move-result-object v2
+    if-ge v2, v6, :cond_3
 
     .line 756
-    iget-object v6, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeViewLien:Lcom/rigol/scope/utilities/BodeViewLien;
+    new-instance v6, Ljava/lang/StringBuilder;
 
-    invoke-static {v2}, Ljava/util/stream/Stream;->of([Ljava/lang/Object;)Ljava/util/stream/Stream;
+    invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
 
-    move-result-object v7
+    const-string v7, "reset data : "
 
-    sget-object v8, Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$DdUgxEkxA6iWf8LmYljsS8-EFpc;->INSTANCE:Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$DdUgxEkxA6iWf8LmYljsS8-EFpc;
+    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-interface {v7, v8}, Ljava/util/stream/Stream;->map(Ljava/util/function/Function;)Ljava/util/stream/Stream;
+    invoke-virtual {v6, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
-    move-result-object v7
+    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    invoke-static {}, Ljava/util/stream/Collectors;->toList()Ljava/util/stream/Collector;
+    move-result-object v6
 
-    move-result-object v8
+    new-array v7, v3, [Ljava/lang/Object;
 
-    invoke-interface {v7, v8}, Ljava/util/stream/Stream;->collect(Ljava/util/stream/Collector;)Ljava/lang/Object;
-
-    move-result-object v7
-
-    check-cast v7, Ljava/util/List;
-
-    invoke-interface {v7, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
-
-    move-result-object v7
-
-    check-cast v7, Ljava/lang/Float;
-
-    invoke-virtual {v7}, Ljava/lang/Float;->floatValue()F
-
-    move-result v7
+    invoke-static {v6, v7}, Ltimber/log/Timber;->i(Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 757
-    invoke-static {v2}, Ljava/util/stream/Stream;->of([Ljava/lang/Object;)Ljava/util/stream/Stream;
+    invoke-virtual {v1, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
-    move-result-object v2
+    move-result-object v6
 
-    sget-object v8, Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$DdUgxEkxA6iWf8LmYljsS8-EFpc;->INSTANCE:Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$DdUgxEkxA6iWf8LmYljsS8-EFpc;
+    check-cast v6, Ljava/lang/String;
 
-    invoke-interface {v2, v8}, Ljava/util/stream/Stream;->map(Ljava/util/function/Function;)Ljava/util/stream/Stream;
+    invoke-virtual {v6, v0}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
-    move-result-object v2
+    move-result-object v6
 
-    invoke-static {}, Ljava/util/stream/Collectors;->toList()Ljava/util/stream/Collector;
+    .line 758
+    array-length v7, v6
+
+    const/4 v8, 0x3
+
+    if-eq v7, v8, :cond_0
+
+    .line 759
+    new-instance v6, Ljava/lang/StringBuilder;
+
+    invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v7, "resize bode plot data point invalid: "
+
+    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object v7
+
+    check-cast v7, Ljava/lang/String;
+
+    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v6
+
+    new-array v7, v3, [Ljava/lang/Object;
+
+    invoke-static {v6, v7}, Ltimber/log/Timber;->e(Ljava/lang/String;[Ljava/lang/Object;)V
+
+    goto :goto_2
+
+    .line 762
+    :cond_0
+    iget-object v7, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeViewLien:Lcom/rigol/scope/utilities/BodeViewLien;
+
+    invoke-static {v6}, Ljava/util/stream/Stream;->of([Ljava/lang/Object;)Ljava/util/stream/Stream;
 
     move-result-object v8
 
-    invoke-interface {v2, v8}, Ljava/util/stream/Stream;->collect(Ljava/util/stream/Collector;)Ljava/lang/Object;
+    sget-object v9, Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$DdUgxEkxA6iWf8LmYljsS8-EFpc;->INSTANCE:Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$DdUgxEkxA6iWf8LmYljsS8-EFpc;
 
-    move-result-object v2
+    invoke-interface {v8, v9}, Ljava/util/stream/Stream;->map(Ljava/util/function/Function;)Ljava/util/stream/Stream;
 
-    check-cast v2, Ljava/util/List;
+    move-result-object v8
 
-    invoke-interface {v2, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-static {}, Ljava/util/stream/Collectors;->toList()Ljava/util/stream/Collector;
 
-    move-result-object v2
+    move-result-object v9
 
-    check-cast v2, Ljava/lang/Float;
+    invoke-interface {v8, v9}, Ljava/util/stream/Stream;->collect(Ljava/util/stream/Collector;)Ljava/lang/Object;
 
-    invoke-virtual {v2}, Ljava/lang/Float;->floatValue()F
+    move-result-object v8
+
+    check-cast v8, Ljava/util/List;
+
+    invoke-interface {v8, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object v8
+
+    check-cast v8, Ljava/lang/Float;
+
+    invoke-virtual {v8}, Ljava/lang/Float;->floatValue()F
 
     move-result v8
 
-    iget v9, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodephase:I
+    .line 763
+    invoke-static {v6}, Ljava/util/stream/Stream;->of([Ljava/lang/Object;)Ljava/util/stream/Stream;
 
-    const-class v2, Lcom/rigol/scope/viewmodels/BodeViewModel;
+    move-result-object v6
 
-    .line 759
-    invoke-static {v2}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
+    sget-object v9, Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$DdUgxEkxA6iWf8LmYljsS8-EFpc;->INSTANCE:Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$DdUgxEkxA6iWf8LmYljsS8-EFpc;
 
-    move-result-object v2
+    invoke-interface {v6, v9}, Ljava/util/stream/Stream;->map(Ljava/util/function/Function;)Ljava/util/stream/Stream;
 
-    check-cast v2, Lcom/rigol/scope/viewmodels/BodeViewModel;
+    move-result-object v6
 
-    invoke-virtual {v2}, Lcom/rigol/scope/viewmodels/BodeViewModel;->getValue()Ljava/lang/Object;
+    invoke-static {}, Ljava/util/stream/Collectors;->toList()Ljava/util/stream/Collector;
 
-    move-result-object v2
+    move-result-object v9
 
-    check-cast v2, Lcom/rigol/scope/data/BodeParam;
+    invoke-interface {v6, v9}, Ljava/util/stream/Stream;->collect(Ljava/util/stream/Collector;)Ljava/lang/Object;
 
-    invoke-virtual {v2}, Lcom/rigol/scope/data/BodeParam;->getBode_resultDatalist()Ljava/util/ArrayList;
+    move-result-object v6
 
-    move-result-object v2
+    check-cast v6, Ljava/util/List;
 
-    invoke-virtual {v2}, Ljava/util/ArrayList;->size()I
+    invoke-interface {v6, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
-    move-result v2
+    move-result-object v6
 
-    if-ne v2, v1, :cond_0
+    check-cast v6, Ljava/lang/Float;
 
-    move v10, v4
+    invoke-virtual {v6}, Ljava/lang/Float;->floatValue()F
+
+    move-result v9
+
+    iget v6, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodephase:I
+
+    int-to-float v10, v6
+
+    const-class v6, Lcom/rigol/scope/viewmodels/BodeViewModel;
+
+    .line 765
+    invoke-static {v6}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
+
+    move-result-object v6
+
+    check-cast v6, Lcom/rigol/scope/viewmodels/BodeViewModel;
+
+    invoke-virtual {v6}, Lcom/rigol/scope/viewmodels/BodeViewModel;->getValue()Ljava/lang/Object;
+
+    move-result-object v6
+
+    check-cast v6, Lcom/rigol/scope/data/BodeParam;
+
+    invoke-virtual {v6}, Lcom/rigol/scope/data/BodeParam;->getBode_resultDatalist()Ljava/util/ArrayList;
+
+    move-result-object v6
+
+    invoke-virtual {v6}, Ljava/util/ArrayList;->size()I
+
+    move-result v6
+
+    sub-int/2addr v6, v4
+
+    if-ne v6, v2, :cond_1
+
+    move v11, v4
 
     goto :goto_1
 
-    :cond_0
-    move v10, v3
+    :cond_1
+    move v11, v3
 
     :goto_1
-    move v11, v1
+    move-object v6, v7
 
-    .line 756
-    invoke-virtual/range {v6 .. v11}, Lcom/rigol/scope/utilities/BodeViewLien;->resetdrawBodeLien(FFIZI)V
+    move v7, v8
 
-    add-int/lit8 v1, v1, 0x1
+    move v8, v9
+
+    move v9, v10
+
+    move v10, v11
+
+    move v11, v2
+
+    .line 762
+    invoke-virtual/range {v6 .. v11}, Lcom/rigol/scope/utilities/BodeViewLien;->resetdrawBodeLien(FFFZI)V
+
+    :goto_2
+    add-int/lit8 v2, v2, 0x1
 
     goto/16 :goto_0
 
-    .line 764
-    :cond_1
+    .line 770
+    :cond_2
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeViewLien:Lcom/rigol/scope/utilities/BodeViewLien;
 
     invoke-virtual {v0, v3}, Lcom/rigol/scope/utilities/BodeViewLien;->setReset(Z)V
 
-    .line 765
+    .line 771
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeViewLien:Lcom/rigol/scope/utilities/BodeViewLien;
 
     invoke-static {p1}, Ljava/util/stream/Stream;->of([Ljava/lang/Object;)Ljava/util/stream/Stream;
@@ -5269,6 +5395,7 @@
 
     move-result v1
 
+    .line 772
     invoke-static {p1}, Ljava/util/stream/Stream;->of([Ljava/lang/Object;)Ljava/util/stream/Stream;
 
     move-result-object v2
@@ -5301,10 +5428,13 @@
 
     iget v4, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodephase:I
 
-    invoke-virtual {v0, v1, v2, v4}, Lcom/rigol/scope/utilities/BodeViewLien;->drawBodeLien(FFI)V
+    int-to-float v4, v4
 
     .line 771
-    :cond_2
+    invoke-virtual {v0, v1, v2, v4}, Lcom/rigol/scope/utilities/BodeViewLien;->drawBodeGainLine(FFF)V
+
+    .line 778
+    :cond_3
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeViewLienRange:Lcom/rigol/scope/utilities/BodeViewLien;
 
     invoke-static {p1}, Ljava/util/stream/Stream;->of([Ljava/lang/Object;)Ljava/util/stream/Stream;
@@ -5337,6 +5467,7 @@
 
     move-result v1
 
+    .line 779
     invoke-static {p1}, Ljava/util/stream/Stream;->of([Ljava/lang/Object;)Ljava/util/stream/Stream;
 
     move-result-object p1
@@ -5367,35 +5498,36 @@
 
     move-result p1
 
-    const/16 v2, 0xb4
+    const/high16 v2, 0x43340000    # 180.0f
 
-    invoke-virtual {v0, v1, p1, v2}, Lcom/rigol/scope/utilities/BodeViewLien;->drawBodeLien1(FFI)V
+    .line 778
+    invoke-virtual {v0, v1, p1, v2}, Lcom/rigol/scope/utilities/BodeViewLien;->drawBodePhaseLine(FFF)V
 
-    .line 773
+    .line 781
     iget-object p1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeViewLienRange:Lcom/rigol/scope/utilities/BodeViewLien;
 
     const v0, -0xff0100
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/utilities/BodeViewLien;->setColor(I)V
 
-    :cond_3
+    :cond_4
     return-void
 .end method
 
 .method public synthetic lambda$init$9$WaveformLayout(Ljava/lang/Object;)V
     .locals 7
 
-    .line 781
+    .line 789
     iget-object p1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeCursorView:Lcom/rigol/scope/utilities/BodeCursorView;
 
     invoke-virtual {p1}, Lcom/rigol/scope/utilities/BodeCursorView;->setCursorReset()V
 
-    .line 782
+    .line 790
     iget-object p1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->bodeCursorView:Lcom/rigol/scope/utilities/BodeCursorView;
 
     invoke-virtual {p1}, Lcom/rigol/scope/utilities/BodeCursorView;->setCursor()V
 
-    .line 784
+    .line 792
     const-class p1, Lcom/rigol/scope/viewmodels/BodeViewModel;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -5410,152 +5542,75 @@
 
     check-cast p1, Lcom/rigol/scope/data/BodeParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/BodeParam;->getBodeCursorPosition()I
+    invoke-virtual {p1}, Lcom/rigol/scope/data/BodeParam;->getBode_resultDatalist()Ljava/util/ArrayList;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
 
     move-result p1
 
-    const-string v0, ","
+    if-gtz p1, :cond_0
+
+    return-void
+
+    .line 796
+    :cond_0
+    const-class v0, Lcom/rigol/scope/viewmodels/BodeViewModel;
+
+    invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/rigol/scope/viewmodels/BodeViewModel;
+
+    invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/BodeViewModel;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/rigol/scope/data/BodeParam;
+
+    invoke-virtual {v0}, Lcom/rigol/scope/data/BodeParam;->getBodeCursorPosition()I
+
+    move-result v0
 
     const/4 v1, 0x0
 
     const/4 v2, 0x1
 
-    if-gtz p1, :cond_0
+    if-gtz v0, :cond_1
 
-    .line 785
-    const-class p1, Lcom/rigol/scope/viewmodels/BodeViewModel;
-
-    invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
-
-    move-result-object p1
-
-    check-cast p1, Lcom/rigol/scope/viewmodels/BodeViewModel;
-
-    invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/BodeViewModel;->getValue()Ljava/lang/Object;
-
-    move-result-object p1
-
-    check-cast p1, Lcom/rigol/scope/data/BodeParam;
-
-    invoke-virtual {p1}, Lcom/rigol/scope/data/BodeParam;->getBode_resultDatalist()Ljava/util/ArrayList;
-
-    move-result-object p1
-
-    invoke-virtual {p1, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
-
-    move-result-object p1
-
-    check-cast p1, Ljava/lang/String;
-
-    invoke-virtual {p1, v0}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
-
-    move-result-object p1
-
-    goto/16 :goto_0
-
-    .line 786
-    :cond_0
-    const-class p1, Lcom/rigol/scope/viewmodels/BodeViewModel;
-
-    invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
-
-    move-result-object p1
-
-    check-cast p1, Lcom/rigol/scope/viewmodels/BodeViewModel;
-
-    invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/BodeViewModel;->getValue()Ljava/lang/Object;
-
-    move-result-object p1
-
-    check-cast p1, Lcom/rigol/scope/data/BodeParam;
-
-    invoke-virtual {p1}, Lcom/rigol/scope/data/BodeParam;->getBodeCursorPosition()I
-
-    move-result p1
-
-    const-class v3, Lcom/rigol/scope/viewmodels/BodeViewModel;
-
-    invoke-static {v3}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
-
-    move-result-object v3
-
-    check-cast v3, Lcom/rigol/scope/viewmodels/BodeViewModel;
-
-    invoke-virtual {v3}, Lcom/rigol/scope/viewmodels/BodeViewModel;->getValue()Ljava/lang/Object;
-
-    move-result-object v3
-
-    check-cast v3, Lcom/rigol/scope/data/BodeParam;
-
-    invoke-virtual {v3}, Lcom/rigol/scope/data/BodeParam;->getPosition_listx()Ljava/util/ArrayList;
-
-    move-result-object v3
-
-    invoke-virtual {v3}, Ljava/util/ArrayList;->size()I
-
-    move-result v3
-
-    sub-int/2addr v3, v2
-
-    if-lt p1, v3, :cond_1
-
-    .line 787
-    const-class p1, Lcom/rigol/scope/viewmodels/BodeViewModel;
-
-    invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
-
-    move-result-object p1
-
-    check-cast p1, Lcom/rigol/scope/viewmodels/BodeViewModel;
-
-    invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/BodeViewModel;->getValue()Ljava/lang/Object;
-
-    move-result-object p1
-
-    check-cast p1, Lcom/rigol/scope/data/BodeParam;
-
-    invoke-virtual {p1}, Lcom/rigol/scope/data/BodeParam;->getBode_resultDatalist()Ljava/util/ArrayList;
-
-    move-result-object p1
-
-    const-class v3, Lcom/rigol/scope/viewmodels/BodeViewModel;
-
-    invoke-static {v3}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
-
-    move-result-object v3
-
-    check-cast v3, Lcom/rigol/scope/viewmodels/BodeViewModel;
-
-    invoke-virtual {v3}, Lcom/rigol/scope/viewmodels/BodeViewModel;->getValue()Ljava/lang/Object;
-
-    move-result-object v3
-
-    check-cast v3, Lcom/rigol/scope/data/BodeParam;
-
-    invoke-virtual {v3}, Lcom/rigol/scope/data/BodeParam;->getPosition_listx()Ljava/util/ArrayList;
-
-    move-result-object v3
-
-    invoke-virtual {v3}, Ljava/util/ArrayList;->size()I
-
-    move-result v3
-
-    sub-int/2addr v3, v2
-
-    invoke-virtual {p1, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
-
-    move-result-object p1
-
-    check-cast p1, Ljava/lang/String;
-
-    invoke-virtual {p1, v0}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
-
-    move-result-object p1
+    move v0, v1
 
     goto :goto_0
 
-    .line 789
     :cond_1
+    sub-int/2addr p1, v2
+
+    if-lt v0, p1, :cond_2
+
+    move v0, p1
+
+    .line 802
+    :cond_2
+    :goto_0
+    const-class p1, Lcom/rigol/scope/viewmodels/BodeViewModel;
+
+    invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/rigol/scope/viewmodels/BodeViewModel;
+
+    invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/BodeViewModel;->getValue()Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/rigol/scope/data/BodeParam;
+
+    invoke-virtual {p1, v0}, Lcom/rigol/scope/data/BodeParam;->setBodeCursorPosition(I)V
+
+    .line 803
     const-class p1, Lcom/rigol/scope/viewmodels/BodeViewModel;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -5574,36 +5629,19 @@
 
     move-result-object p1
 
-    const-class v3, Lcom/rigol/scope/viewmodels/BodeViewModel;
-
-    invoke-static {v3}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
-
-    move-result-object v3
-
-    check-cast v3, Lcom/rigol/scope/viewmodels/BodeViewModel;
-
-    invoke-virtual {v3}, Lcom/rigol/scope/viewmodels/BodeViewModel;->getValue()Ljava/lang/Object;
-
-    move-result-object v3
-
-    check-cast v3, Lcom/rigol/scope/data/BodeParam;
-
-    invoke-virtual {v3}, Lcom/rigol/scope/data/BodeParam;->getBodeCursorPosition()I
-
-    move-result v3
-
-    invoke-virtual {p1, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+    invoke-virtual {p1, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Ljava/lang/String;
 
+    const-string v0, ","
+
     invoke-virtual {p1, v0}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object p1
 
-    .line 792
-    :goto_0
+    .line 805
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->gainText:Landroid/widget/TextView;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -5660,7 +5698,7 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 793
+    .line 806
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->phaseText:Landroid/widget/TextView;
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -5717,7 +5755,7 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 794
+    .line 807
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->freqText:Landroid/widget/TextView;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -5736,12 +5774,12 @@
 
     const-string v5, "0.##"
 
-    .line 795
+    .line 808
     invoke-static {v5, v4}, Lcom/rigol/scope/utilities/UnitFormat;->newBuilder(Ljava/lang/String;Lcom/rigol/scope/utilities/UnitFormat$SI;)Lcom/rigol/scope/utilities/UnitFormat;
 
     move-result-object v4
 
-    .line 796
+    .line 809
     invoke-static {p1}, Ljava/util/stream/Stream;->of([Ljava/lang/Object;)Ljava/util/stream/Stream;
 
     move-result-object p1
@@ -5774,7 +5812,7 @@
 
     float-to-double v5, p1
 
-    .line 795
+    .line 808
     invoke-virtual {v4, v5, v6}, Lcom/rigol/scope/utilities/UnitFormat;->convert(D)Ljava/lang/String;
 
     move-result-object p1
@@ -5793,7 +5831,7 @@
 
     const/4 v1, 0x6
 
-    .line 794
+    .line 807
     invoke-static {p1, v1}, Lcom/rigol/scope/utilities/ViewUtil;->subNumber(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object p1
@@ -5813,17 +5851,17 @@
     return-void
 .end method
 
-.method public synthetic lambda$openZoom$15$WaveformLayout()V
+.method public synthetic lambda$openZoom$16$WaveformLayout()V
     .locals 2
 
-    .line 1404
+    .line 1425
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomView:Lcom/rigol/scope/views/baseview/BaseWaveformView;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->upAddLaTag(F)V
 
-    .line 1405
+    .line 1426
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainView:Lcom/rigol/scope/views/baseview/BaseWaveformView;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->upAddLaTag(F)V
@@ -5834,20 +5872,20 @@
 .method public openZoom()V
     .locals 7
 
-    .line 1355
+    .line 1376
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomView:Lcom/rigol/scope/views/baseview/BaseWaveformView;
 
     if-eqz v0, :cond_0
 
-    .line 1356
+    .line 1377
     new-instance v0, Landroidx/constraintlayout/widget/ConstraintSet;
 
     invoke-direct {v0}, Landroidx/constraintlayout/widget/ConstraintSet;-><init>()V
 
-    .line 1357
+    .line 1378
     invoke-virtual {v0, p0}, Landroidx/constraintlayout/widget/ConstraintSet;->clone(Landroidx/constraintlayout/widget/ConstraintLayout;)V
 
-    .line 1358
+    .line 1379
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainRulerView:Lcom/rigol/scope/views/grid/GridRulerView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/grid/GridRulerView;->getId()I
@@ -5866,7 +5904,7 @@
 
     invoke-virtual {v0, v1, v3, v2, v4}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1359
+    .line 1380
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainSurfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->getId()I
@@ -5881,7 +5919,7 @@
 
     invoke-virtual {v0, v1, v3, v2, v4}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1360
+    .line 1381
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->mainView:Lcom/rigol/scope/views/baseview/BaseWaveformView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->getId()I
@@ -5896,7 +5934,7 @@
 
     invoke-virtual {v0, v1, v3, v2, v4}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1363
+    .line 1384
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomRulerView:Lcom/rigol/scope/views/grid/GridRulerView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/grid/GridRulerView;->getId()I
@@ -5911,7 +5949,7 @@
 
     invoke-virtual {v0, v1, v4, v2, v3}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1364
+    .line 1385
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomRulerView:Lcom/rigol/scope/views/grid/GridRulerView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/grid/GridRulerView;->getId()I
@@ -5922,7 +5960,7 @@
 
     invoke-virtual {v0, v1, v3, v2, v3}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1365
+    .line 1386
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomRulerView:Lcom/rigol/scope/views/grid/GridRulerView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/grid/GridRulerView;->getId()I
@@ -5933,7 +5971,7 @@
 
     invoke-virtual {v0, v1, v5}, Landroidx/constraintlayout/widget/ConstraintSet;->constrainPercentHeight(IF)V
 
-    .line 1367
+    .line 1388
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomView:Lcom/rigol/scope/views/baseview/BaseWaveformView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->getId()I
@@ -5948,7 +5986,7 @@
 
     invoke-virtual {v0, v1, v4, v6, v3}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1368
+    .line 1389
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomView:Lcom/rigol/scope/views/baseview/BaseWaveformView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->getId()I
@@ -5957,7 +5995,7 @@
 
     invoke-virtual {v0, v1, v3, v2, v3}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1369
+    .line 1390
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomView:Lcom/rigol/scope/views/baseview/BaseWaveformView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->getId()I
@@ -5966,7 +6004,7 @@
 
     invoke-virtual {v0, v1, v5}, Landroidx/constraintlayout/widget/ConstraintSet;->constrainPercentHeight(IF)V
 
-    .line 1372
+    .line 1393
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomSurfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->getId()I
@@ -5981,7 +6019,7 @@
 
     invoke-virtual {v0, v1, v4, v6, v3}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1373
+    .line 1394
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomSurfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->getId()I
@@ -5990,7 +6028,7 @@
 
     invoke-virtual {v0, v1, v3, v2, v3}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1374
+    .line 1395
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomSurfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/baseview/BaseSurfaceView;->getId()I
@@ -5999,7 +6037,7 @@
 
     invoke-virtual {v0, v1, v5}, Landroidx/constraintlayout/widget/ConstraintSet;->constrainPercentHeight(IF)V
 
-    .line 1378
+    .line 1399
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomInfoView:Landroid/widget/TextView;
 
     invoke-virtual {v1}, Landroid/widget/TextView;->getId()I
@@ -6014,7 +6052,7 @@
 
     invoke-virtual {v0, v1, v4, v5, v3}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1379
+    .line 1400
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomInfoView:Landroid/widget/TextView;
 
     invoke-virtual {v1}, Landroid/widget/TextView;->getId()I
@@ -6029,7 +6067,7 @@
 
     invoke-virtual {v0, v1, v3, v5, v4}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1381
+    .line 1402
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomInfoView:Landroid/widget/TextView;
 
     invoke-virtual {v1}, Landroid/widget/TextView;->getId()I
@@ -6040,7 +6078,7 @@
 
     invoke-virtual {v0, v1, v5}, Landroidx/constraintlayout/widget/ConstraintSet;->constrainHeight(II)V
 
-    .line 1384
+    .line 1405
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomCloseButton:Landroid/widget/ImageButton;
 
     invoke-virtual {v1}, Landroid/widget/ImageButton;->getId()I
@@ -6055,7 +6093,7 @@
 
     invoke-virtual {v0, v1, v4, v5, v3}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1385
+    .line 1406
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomCloseButton:Landroid/widget/ImageButton;
 
     invoke-virtual {v1}, Landroid/widget/ImageButton;->getId()I
@@ -6070,7 +6108,7 @@
 
     invoke-virtual {v0, v1, v3, v5, v4}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1386
+    .line 1407
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomCloseButton:Landroid/widget/ImageButton;
 
     invoke-virtual {v1}, Landroid/widget/ImageButton;->getId()I
@@ -6081,7 +6119,7 @@
 
     invoke-virtual {v0, v1, v3, v2, v3}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1389
+    .line 1410
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->searchMarkerView:Lcom/rigol/scope/views/search/SearchMarkerView;
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/search/SearchMarkerView;->getId()I
@@ -6096,45 +6134,45 @@
 
     invoke-virtual {v0, v1, v4, v3, v4}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
-    .line 1390
+    .line 1411
     invoke-virtual {v0, p0}, Landroidx/constraintlayout/widget/ConstraintSet;->applyTo(Landroidx/constraintlayout/widget/ConstraintLayout;)V
 
-    .line 1391
+    .line 1412
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomSurfaceView:Lcom/rigol/scope/views/baseview/BaseSurfaceView;
 
     invoke-static {v0, v2}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1392
+    .line 1413
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomView:Lcom/rigol/scope/views/baseview/BaseWaveformView;
 
     invoke-static {v0, v2}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1393
+    .line 1414
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomRulerView:Lcom/rigol/scope/views/grid/GridRulerView;
 
     invoke-static {v0, v2}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1394
+    .line 1415
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomInfoView:Landroid/widget/TextView;
 
     invoke-static {v0, v2}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
-    .line 1395
+    .line 1416
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomCloseButton:Landroid/widget/ImageButton;
 
     invoke-static {v0, v2}, Lcom/rigol/scope/utilities/ViewUtil;->setVisibility(Landroid/view/View;I)V
 
     goto :goto_0
 
-    .line 1398
+    .line 1419
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/views/wave/WaveformLayout;->addZoom()V
 
-    .line 1402
+    .line 1423
     :goto_0
-    new-instance v0, Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$pTMTa7kLLtdcGak4QkIGxWeXRQM;
+    new-instance v0, Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$9PiNh_Q_Q8ub5r2H46YxZ9BhK30;
 
-    invoke-direct {v0, p0}, Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$pTMTa7kLLtdcGak4QkIGxWeXRQM;-><init>(Lcom/rigol/scope/views/wave/WaveformLayout;)V
+    invoke-direct {v0, p0}, Lcom/rigol/scope/views/wave/-$$Lambda$WaveformLayout$9PiNh_Q_Q8ub5r2H46YxZ9BhK30;-><init>(Lcom/rigol/scope/views/wave/WaveformLayout;)V
 
     const-wide/16 v1, 0x64
 
@@ -6146,7 +6184,7 @@
 .method public toggleZoom()V
     .locals 2
 
-    .line 1457
+    .line 1478
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->zoomView:Lcom/rigol/scope/views/baseview/BaseWaveformView;
 
     if-eqz v0, :cond_1
@@ -6161,7 +6199,7 @@
 
     goto :goto_0
 
-    .line 1464
+    .line 1485
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
 
@@ -6169,12 +6207,12 @@
 
     const/4 v1, 0x0
 
-    .line 1465
+    .line 1486
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/HorizontalParam;->saveZoom(Z)V
 
     goto :goto_1
 
-    .line 1459
+    .line 1480
     :cond_1
     :goto_0
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
@@ -6183,7 +6221,7 @@
 
     const/4 v1, 0x1
 
-    .line 1460
+    .line 1481
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/HorizontalParam;->saveZoom(Z)V
 
     :cond_2

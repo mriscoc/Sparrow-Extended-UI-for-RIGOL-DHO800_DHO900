@@ -2484,8 +2484,6 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/rigol/scope/data/MappingObject;
-
     invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     :cond_0
@@ -2583,8 +2581,6 @@
     invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
-
-    check-cast v3, Lcom/rigol/scope/data/MappingObject;
 
     invoke-interface {v0, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -3007,7 +3003,7 @@
 
     const/16 v1, 0x1a
 
-    const/16 v2, 0x1317
+    const/16 v2, 0x1318
 
     .line 455
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -3280,7 +3276,7 @@
 
     if-eqz p1, :cond_3
 
-    const v0, 0x7f0a08fd
+    const v0, 0x7f0a0909
 
     .line 331
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;

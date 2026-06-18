@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/MathParam;)V
     .locals 0
 
-    .line 1386
+    .line 1359
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$67;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$67;->val$param:Lcom/rigol/scope/data/MathParam;
@@ -49,86 +49,20 @@
 
 # virtual methods
 .method public onChanged(Ljava/lang/Boolean;)V
-    .locals 2
+    .locals 0
 
-    .line 1389
+    .line 1362
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$67;->val$param:Lcom/rigol/scope/data/MathParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/MathParam;->readOperator()Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
+    invoke-virtual {p1}, Lcom/rigol/scope/data/MathParam;->readSourceArithA()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    .line 1392
-    invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
-
-    move-result-object p1
-
-    const-class v0, Lcom/rigol/scope/views/math/MathPopupView;
-
-    invoke-virtual {p1, v0}, Lcom/rigol/scope/utilities/PopupViewManager;->get(Ljava/lang/Class;)Lcom/rigol/scope/views/baseview/BasePopupView;
-
-    move-result-object p1
-
-    .line 1393
-    instance-of v0, p1, Lcom/rigol/scope/views/math/MathPopupView;
-
-    if-eqz v0, :cond_0
-
-    invoke-virtual {p1}, Lcom/rigol/scope/views/baseview/BasePopupView;->isShowing()Z
-
-    move-result v0
-
-    if-nez v0, :cond_0
-
-    .line 1394
-    check-cast p1, Lcom/rigol/scope/views/math/MathPopupView;
-
-    invoke-virtual {p1}, Lcom/rigol/scope/views/math/MathPopupView;->getMathRecyclerView()Lcom/rigol/scope/views/math/MathRecyclerView;
-
-    move-result-object p1
-
-    if-eqz p1, :cond_1
-
-    .line 1396
-    iget-object v0, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$67;->val$param:Lcom/rigol/scope/data/MathParam;
-
-    invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getOperator()Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
-
-    move-result-object v0
-
-    invoke-virtual {p1, v0}, Lcom/rigol/scope/views/math/MathRecyclerView;->showMath(Lcom/rigol/scope/cil/ServiceEnum$MathOperator;)V
-
-    goto :goto_0
-
-    .line 1399
-    :cond_0
-    invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
-
-    move-result-object p1
-
-    iget-object v0, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$67;->val$param:Lcom/rigol/scope/data/MathParam;
-
-    invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getServiceId()I
-
-    move-result v0
-
-    const/16 v1, 0x2f02
-
-    invoke-static {v0, v1}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
-
-    move-result-object v0
-
-    const-string v1, ""
-
-    invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
-
-    :cond_1
-    :goto_0
     return-void
 .end method
 
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1386
+    .line 1359
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$67;->onChanged(Ljava/lang/Boolean;)V

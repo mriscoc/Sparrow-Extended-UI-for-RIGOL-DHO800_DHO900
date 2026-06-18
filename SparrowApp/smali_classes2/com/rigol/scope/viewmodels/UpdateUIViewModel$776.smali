@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/LaParam;)V
     .locals 0
 
-    .line 8555
+    .line 8518
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$776;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$776;->val$laParam:Lcom/rigol/scope/data/LaParam;
@@ -49,39 +49,20 @@
 
 # virtual methods
 .method public onChanged(Ljava/lang/Boolean;)V
-    .locals 1
+    .locals 0
 
-    .line 8558
+    .line 8521
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$776;->val$laParam:Lcom/rigol/scope/data/LaParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/LaParam;->readLaEnable()Z
+    invoke-virtual {p1}, Lcom/rigol/scope/data/LaParam;->readlaSource()I
 
-    .line 8559
-    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$776;->val$laParam:Lcom/rigol/scope/data/LaParam;
-
-    invoke-virtual {p1}, Lcom/rigol/scope/data/LaParam;->readLaEnable()Z
-
-    move-result p1
-
-    if-nez p1, :cond_0
-
-    .line 8560
-    invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
-
-    move-result-object p1
-
-    const-class v0, Lcom/rigol/scope/views/la/LapopupView;
-
-    invoke-virtual {p1, v0}, Lcom/rigol/scope/utilities/PopupViewManager;->dismiss(Ljava/lang/Class;)V
-
-    :cond_0
     return-void
 .end method
 
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 8555
+    .line 8518
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$776;->onChanged(Ljava/lang/Boolean;)V

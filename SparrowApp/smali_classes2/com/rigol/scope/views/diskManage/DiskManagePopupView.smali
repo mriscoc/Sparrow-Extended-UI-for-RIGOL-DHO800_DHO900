@@ -212,7 +212,7 @@
 
     iget-object v3, p0, Lcom/rigol/scope/views/diskManage/DiskManagePopupView;->binding:Lcom/rigol/scope/databinding/PopupviewDiskManageBinding;
 
-    invoke-static {v3}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     new-instance v4, Lcom/rigol/scope/views/diskManage/-$$Lambda$xxb0S-bwQ8jSjHKaiRr4-_pEA00;
 
@@ -409,6 +409,52 @@
     return-object p0
 .end method
 
+.method static synthetic lambda$null$4(Lcom/rigol/scope/views/baseview/BasePopupView;Lcom/blankj/utilcode/util/ThreadUtils$SimpleTask;Landroid/view/View;)V
+    .locals 0
+
+    .line 487
+    invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->dismiss()V
+
+    .line 488
+    invoke-virtual {p1}, Lcom/blankj/utilcode/util/ThreadUtils$SimpleTask;->cancel()V
+
+    return-void
+.end method
+
+.method static synthetic lambda$null$6(Lcom/blankj/utilcode/util/ShellUtils$CommandResult;)V
+    .locals 1
+
+    .line 586
+    invoke-virtual {p0}, Lcom/blankj/utilcode/util/ShellUtils$CommandResult;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    const/4 v0, 0x0
+
+    new-array v0, v0, [Ljava/lang/Object;
+
+    invoke-static {p0, v0}, Ltimber/log/Timber;->d(Ljava/lang/String;[Ljava/lang/Object;)V
+
+    return-void
+.end method
+
+.method static synthetic lambda$null$8(Lcom/blankj/utilcode/util/ShellUtils$CommandResult;)V
+    .locals 1
+
+    .line 621
+    invoke-virtual {p0}, Lcom/blankj/utilcode/util/ShellUtils$CommandResult;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    const/4 v0, 0x0
+
+    new-array v0, v0, [Ljava/lang/Object;
+
+    invoke-static {p0, v0}, Ltimber/log/Timber;->d(Ljava/lang/String;[Ljava/lang/Object;)V
+
+    return-void
+.end method
+
 .method static synthetic lambda$onClick$10(Landroid/view/View;)V
     .locals 3
 
@@ -432,7 +478,7 @@
 
     const/16 v1, 0xc
 
-    const/16 v2, 0x4b46
+    const/16 v2, 0x4d47
 
     invoke-virtual {p0, v1, v2, v0}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
@@ -441,57 +487,11 @@
 
     move-result-object p0
 
-    const/16 v0, 0x4b20
+    const/16 v0, 0x4d20
 
     const/4 v2, 0x0
 
     invoke-virtual {p0, v1, v0, v2}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
-
-    return-void
-.end method
-
-.method static synthetic lambda$onClick$4(Lcom/rigol/scope/views/baseview/BasePopupView;Lcom/blankj/utilcode/util/ThreadUtils$SimpleTask;Landroid/view/View;)V
-    .locals 0
-
-    .line 487
-    invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->dismiss()V
-
-    .line 488
-    invoke-virtual {p1}, Lcom/blankj/utilcode/util/ThreadUtils$SimpleTask;->cancel()V
-
-    return-void
-.end method
-
-.method static synthetic lambda$onClick$6(Lcom/blankj/utilcode/util/ShellUtils$CommandResult;)V
-    .locals 1
-
-    .line 586
-    invoke-virtual {p0}, Lcom/blankj/utilcode/util/ShellUtils$CommandResult;->toString()Ljava/lang/String;
-
-    move-result-object p0
-
-    const/4 v0, 0x0
-
-    new-array v0, v0, [Ljava/lang/Object;
-
-    invoke-static {p0, v0}, Ltimber/log/Timber;->d(Ljava/lang/String;[Ljava/lang/Object;)V
-
-    return-void
-.end method
-
-.method static synthetic lambda$onClick$8(Lcom/blankj/utilcode/util/ShellUtils$CommandResult;)V
-    .locals 1
-
-    .line 621
-    invoke-virtual {p0}, Lcom/blankj/utilcode/util/ShellUtils$CommandResult;->toString()Ljava/lang/String;
-
-    move-result-object p0
-
-    const/4 v0, 0x0
-
-    new-array v0, v0, [Ljava/lang/Object;
-
-    invoke-static {p0, v0}, Ltimber/log/Timber;->d(Ljava/lang/String;[Ljava/lang/Object;)V
 
     return-void
 .end method
@@ -680,7 +680,7 @@
 
     check-cast v1, Lcom/rigol/scope/views/LoadingPopupView;
 
-    const v2, 0x7f1011c5
+    const v2, 0x7f1011da
 
     invoke-virtual {v1, v2}, Lcom/rigol/scope/views/LoadingPopupView;->setWrningResId(I)V
 
@@ -925,10 +925,10 @@
 
     goto :goto_0
 
-    .line 273
     :cond_0
     iget-object p1, p0, Lcom/rigol/scope/views/diskManage/DiskManagePopupView;->param:Lcom/rigol/scope/data/DiskManageParam;
 
+    .line 273
     invoke-virtual {p1}, Lcom/rigol/scope/data/DiskManageParam;->getSelectedCount()I
 
     move-result p1
@@ -952,11 +952,9 @@
 
     goto :goto_1
 
-    .line 277
     :cond_1
     sget-object v0, Lcom/rigol/scope/data/DiskManageParam$State;->SELECTING:Lcom/rigol/scope/data/DiskManageParam$State;
 
-    .line 276
     :goto_1
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/DiskManageParam;->setState(Lcom/rigol/scope/data/DiskManageParam$State;)V
 
@@ -1002,7 +1000,7 @@
 
     invoke-virtual {p1, v1}, Landroidx/databinding/ObservableBoolean;->set(Z)V
 
-    const p1, 0x7f1011c5
+    const p1, 0x7f1011da
 
     .line 786
     invoke-virtual {v0, p1}, Lcom/rigol/scope/views/LoadingPopupView;->setWrningResId(I)V
@@ -1154,9 +1152,9 @@
 
     check-cast v1, Lcom/rigol/scope/views/LoadingPopupView;
 
-    new-instance v2, Lcom/rigol/scope/views/diskManage/-$$Lambda$DiskManagePopupView$X6pR3qCeUr4cdHSnD644b-JWfYA;
+    new-instance v2, Lcom/rigol/scope/views/diskManage/-$$Lambda$DiskManagePopupView$MZIIbtaU3Nnug3tqnnjOxP_p7hg;
 
-    invoke-direct {v2, p1, v0}, Lcom/rigol/scope/views/diskManage/-$$Lambda$DiskManagePopupView$X6pR3qCeUr4cdHSnD644b-JWfYA;-><init>(Lcom/rigol/scope/views/baseview/BasePopupView;Lcom/blankj/utilcode/util/ThreadUtils$SimpleTask;)V
+    invoke-direct {v2, p1, v0}, Lcom/rigol/scope/views/diskManage/-$$Lambda$DiskManagePopupView$MZIIbtaU3Nnug3tqnnjOxP_p7hg;-><init>(Lcom/rigol/scope/views/baseview/BasePopupView;Lcom/blankj/utilcode/util/ThreadUtils$SimpleTask;)V
 
     invoke-virtual {v1, v2}, Lcom/rigol/scope/views/LoadingPopupView;->setCancelListener(Landroid/view/View$OnClickListener;)V
 
@@ -1200,7 +1198,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1011bf
+    const p2, 0x7f1011d4
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1272,7 +1270,7 @@
     const/4 p1, 0x1
 
     .line 586
-    sget-object p2, Lcom/rigol/scope/views/diskManage/-$$Lambda$DiskManagePopupView$b06ZlE-ZKXiOOaizNDMoAbFUmLI;->INSTANCE:Lcom/rigol/scope/views/diskManage/-$$Lambda$DiskManagePopupView$b06ZlE-ZKXiOOaizNDMoAbFUmLI;
+    sget-object p2, Lcom/rigol/scope/views/diskManage/-$$Lambda$DiskManagePopupView$2-7JW2OUhOAEMxjQy9zbWBVLZPY;->INSTANCE:Lcom/rigol/scope/views/diskManage/-$$Lambda$DiskManagePopupView$2-7JW2OUhOAEMxjQy9zbWBVLZPY;
 
     const-string p3, "sync"
 
@@ -1288,7 +1286,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f101192    # 1.9150006E38f
+    const p2, 0x7f1011a5
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1344,7 +1342,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f101191    # 1.9150004E38f
+    const p2, 0x7f1011a4
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1382,7 +1380,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1011bf
+    const p2, 0x7f1011d4
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1393,7 +1391,7 @@
     const/4 p1, 0x1
 
     .line 621
-    sget-object p2, Lcom/rigol/scope/views/diskManage/-$$Lambda$DiskManagePopupView$vFA2W_Cu9qK0W5E4285pesNgHrc;->INSTANCE:Lcom/rigol/scope/views/diskManage/-$$Lambda$DiskManagePopupView$vFA2W_Cu9qK0W5E4285pesNgHrc;
+    sget-object p2, Lcom/rigol/scope/views/diskManage/-$$Lambda$DiskManagePopupView$VquifcEwCa4G4xg2Ubj8k7JvahQ;->INSTANCE:Lcom/rigol/scope/views/diskManage/-$$Lambda$DiskManagePopupView$VquifcEwCa4G4xg2Ubj8k7JvahQ;
 
     const-string v0, "sync"
 
@@ -1463,7 +1461,7 @@
     goto/16 :goto_a
 
     :cond_1
-    const v1, 0x7f0a07ee
+    const v1, 0x7f0a07fa
 
     if-ne v0, v1, :cond_2
 
@@ -1487,7 +1485,7 @@
     goto/16 :goto_a
 
     :cond_2
-    const v1, 0x7f0a07ef
+    const v1, 0x7f0a07fb
 
     if-eq v0, v1, :cond_1d
 
@@ -1599,7 +1597,7 @@
     goto/16 :goto_a
 
     :cond_7
-    const v1, 0x7f0a079f
+    const v1, 0x7f0a07ab
 
     if-ne v0, v1, :cond_f
 
@@ -1853,7 +1851,7 @@
     goto/16 :goto_8
 
     :cond_10
-    const v1, 0x7f0a06db
+    const v1, 0x7f0a06e5
 
     if-ne v0, v1, :cond_11
 
@@ -1863,7 +1861,7 @@
     goto/16 :goto_a
 
     :cond_11
-    const v1, 0x7f0a06b0
+    const v1, 0x7f0a06ba
 
     if-ne v0, v1, :cond_15
 

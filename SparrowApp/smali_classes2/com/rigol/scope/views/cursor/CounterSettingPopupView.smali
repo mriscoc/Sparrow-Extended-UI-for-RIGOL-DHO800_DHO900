@@ -422,42 +422,6 @@
     return-object v0
 .end method
 
-.method public synthetic lambda$new$0$CounterSettingPopupView(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
-    .locals 0
-
-    .line 125
-    iput-object p1, p0, Lcom/rigol/scope/views/cursor/CounterSettingPopupView;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
-
-    return-void
-.end method
-
-.method public synthetic lambda$new$1$CounterSettingPopupView(ILcom/rigol/scope/data/MappingObject;)V
-    .locals 1
-
-    .line 127
-    iget-object p1, p0, Lcom/rigol/scope/views/cursor/CounterSettingPopupView;->clickedView:Landroid/view/View;
-
-    if-nez p1, :cond_0
-
-    return-void
-
-    .line 128
-    :cond_0
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
-
-    move-result p1
-
-    const v0, 0x7f0a083d
-
-    if-ne p1, v0, :cond_1
-
-    .line 129
-    invoke-direct {p0, p2}, Lcom/rigol/scope/views/cursor/CounterSettingPopupView;->selectSource(Lcom/rigol/scope/data/MappingObject;)V
-
-    :cond_1
-    return-void
-.end method
-
 .method public synthetic lambda$new$2$CounterSettingPopupView(Landroid/view/KeyEvent;)V
     .locals 11
 
@@ -489,19 +453,55 @@
 
     iget-object v8, p0, Lcom/rigol/scope/views/cursor/CounterSettingPopupView;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
 
-    new-instance v9, Lcom/rigol/scope/views/cursor/-$$Lambda$CounterSettingPopupView$gcV6X9g9G9We1kp27ez61a7HJaI;
+    new-instance v9, Lcom/rigol/scope/views/cursor/-$$Lambda$CounterSettingPopupView$R_z_QOIhHApZsooA6bAwS6DWZp0;
 
-    invoke-direct {v9, p0}, Lcom/rigol/scope/views/cursor/-$$Lambda$CounterSettingPopupView$gcV6X9g9G9We1kp27ez61a7HJaI;-><init>(Lcom/rigol/scope/views/cursor/CounterSettingPopupView;)V
+    invoke-direct {v9, p0}, Lcom/rigol/scope/views/cursor/-$$Lambda$CounterSettingPopupView$R_z_QOIhHApZsooA6bAwS6DWZp0;-><init>(Lcom/rigol/scope/views/cursor/CounterSettingPopupView;)V
 
-    new-instance v10, Lcom/rigol/scope/views/cursor/-$$Lambda$CounterSettingPopupView$tF5hbOv1Kf4ELtnbRQY77zPXnmU;
+    new-instance v10, Lcom/rigol/scope/views/cursor/-$$Lambda$CounterSettingPopupView$awAeaccgw9vqGB4ap3rvhIZnilk;
 
-    invoke-direct {v10, p0}, Lcom/rigol/scope/views/cursor/-$$Lambda$CounterSettingPopupView$tF5hbOv1Kf4ELtnbRQY77zPXnmU;-><init>(Lcom/rigol/scope/views/cursor/CounterSettingPopupView;)V
+    invoke-direct {v10, p0}, Lcom/rigol/scope/views/cursor/-$$Lambda$CounterSettingPopupView$awAeaccgw9vqGB4ap3rvhIZnilk;-><init>(Lcom/rigol/scope/views/cursor/CounterSettingPopupView;)V
 
     move-object v2, p1
 
     invoke-virtual/range {v1 .. v10}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->abSwitch(Landroid/view/KeyEvent;Landroid/view/View;Lcom/rigol/scope/views/spinner/PopupSpinner;Ljava/util/List;Lcom/rigol/scope/adapters/SpinnerAdapter;Lcom/rigol/scope/utilities/AorBManager;Lcom/rigol/scope/views/keyboard/KeyboardPopupView;Lcom/rigol/scope/utilities/AorBManager$OnKeyboardItemChangeListener;Lcom/rigol/scope/utilities/AorBManager$OnSpinnerItemChangeListener;)V
 
     :cond_0
+    return-void
+.end method
+
+.method public synthetic lambda$null$0$CounterSettingPopupView(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
+    .locals 0
+
+    .line 125
+    iput-object p1, p0, Lcom/rigol/scope/views/cursor/CounterSettingPopupView;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
+
+    return-void
+.end method
+
+.method public synthetic lambda$null$1$CounterSettingPopupView(ILcom/rigol/scope/data/MappingObject;)V
+    .locals 1
+
+    .line 127
+    iget-object p1, p0, Lcom/rigol/scope/views/cursor/CounterSettingPopupView;->clickedView:Landroid/view/View;
+
+    if-nez p1, :cond_0
+
+    return-void
+
+    .line 128
+    :cond_0
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    move-result p1
+
+    const v0, 0x7f0a0849
+
+    if-ne p1, v0, :cond_1
+
+    .line 129
+    invoke-direct {p0, p2}, Lcom/rigol/scope/views/cursor/CounterSettingPopupView;->selectSource(Lcom/rigol/scope/data/MappingObject;)V
+
+    :cond_1
     return-void
 .end method
 
@@ -550,7 +550,7 @@
     return-void
 
     :cond_0
-    const p1, 0x7f0a04a7
+    const p1, 0x7f0a04a9
 
     if-ne v0, p1, :cond_1
 
@@ -566,7 +566,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f0a06f8
+    const p1, 0x7f0a0704
 
     if-ne v0, p1, :cond_2
 
@@ -582,7 +582,7 @@
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f0a0913
+    const p1, 0x7f0a091f
 
     if-ne v0, p1, :cond_3
 
@@ -626,7 +626,7 @@
 
     move-result v0
 
-    const v1, 0x7f0a083d
+    const v1, 0x7f0a0849
 
     if-ne v0, v1, :cond_1
 
@@ -694,7 +694,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0a07a4
+    const v1, 0x7f0a07b0
 
     if-ne v0, v1, :cond_2
 
@@ -804,7 +804,7 @@
     return-void
 
     :cond_0
-    const v1, 0x7f0a07a4
+    const v1, 0x7f0a07b0
 
     if-ne p1, v1, :cond_2
 
@@ -856,7 +856,7 @@
     return-void
 
     :cond_0
-    const v1, 0x7f0a07a4
+    const v1, 0x7f0a07b0
 
     if-ne p2, v1, :cond_2
 

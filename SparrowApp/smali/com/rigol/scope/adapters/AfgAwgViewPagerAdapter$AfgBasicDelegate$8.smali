@@ -25,7 +25,7 @@
 .method constructor <init>(Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate;)V
     .locals 0
 
-    .line 408
+    .line 415
     iput-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate$8;->this$0:Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,7 +42,7 @@
 .end method
 
 .method public resultMinUnitValueListener(Ljava/lang/Object;)V
-    .locals 3
+    .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -51,7 +51,7 @@
         }
     .end annotation
 
-    .line 413
+    .line 420
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate$8;->this$0:Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate;
 
     iget-object v0, v0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
@@ -60,11 +60,11 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
+    invoke-static {p1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
-    move-result-wide v1
+    move-result p1
 
-    invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/data/AfgParam;->saveOffset(J)V
+    invoke-virtual {v0, p1}, Lcom/rigol/scope/data/AfgParam;->saveBasicPhase(I)V
 
     return-void
 .end method

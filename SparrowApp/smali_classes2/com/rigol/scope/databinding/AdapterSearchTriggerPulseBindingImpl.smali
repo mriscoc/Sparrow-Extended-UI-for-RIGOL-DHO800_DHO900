@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterSearchTriggerPulseBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a09ef
+    const v1, 0x7f0a09fb
 
     const/16 v2, 0x11
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterSearchTriggerPulseBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a09d3
+    const v1, 0x7f0a09df
 
     const/16 v2, 0x12
 
@@ -45,7 +45,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/AdapterSearchTriggerPulseBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0ae6
+    const v1, 0x7f0a0af2
 
     const/16 v2, 0x13
 
@@ -54,7 +54,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/AdapterSearchTriggerPulseBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0aec
+    const v1, 0x7f0a0af8
 
     const/16 v2, 0x14
 
@@ -399,7 +399,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x2a9
+    const/16 v0, 0x2ad
 
     if-ne p2, v0, :cond_2
 
@@ -431,7 +431,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x2aa
+    const/16 v0, 0x2ae
 
     if-ne p2, v0, :cond_3
 
@@ -463,7 +463,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x399
+    const/16 v0, 0x39d
 
     if-ne p2, v0, :cond_4
 
@@ -495,7 +495,7 @@
     throw p1
 
     :cond_4
-    const/16 v0, 0x285
+    const/16 v0, 0x288
 
     if-ne p2, v0, :cond_5
 
@@ -527,7 +527,7 @@
     throw p1
 
     :cond_5
-    const/16 v0, 0x2a7
+    const/16 v0, 0x2ab
 
     if-ne p2, v0, :cond_6
 
@@ -559,7 +559,7 @@
     throw p1
 
     :cond_6
-    const/16 v0, 0x2a6
+    const/16 v0, 0x2aa
 
     if-ne p2, v0, :cond_7
 
@@ -631,7 +631,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -703,7 +703,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -895,7 +895,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -1065,7 +1065,7 @@
     move/from16 v12, v32
 
     :goto_3
-    const v13, 0x7f0301af
+    const v13, 0x7f0301b1
 
     .line 382
     invoke-static {v13, v12}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -2196,7 +2196,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x252
+    const/16 p1, 0x254
 
     .line 154
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterSearchTriggerPulseBindingImpl;->notifyPropertyChanged(I)V
@@ -2247,7 +2247,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x283
+    const/16 p1, 0x286
 
     .line 136
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterSearchTriggerPulseBindingImpl;->notifyPropertyChanged(I)V
@@ -2298,7 +2298,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x284
+    const/16 p1, 0x287
 
     .line 145
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterSearchTriggerPulseBindingImpl;->notifyPropertyChanged(I)V
@@ -2350,7 +2350,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x396
+    const/16 v0, 0x39a
 
     if-ne v0, p1, :cond_0
 
@@ -2362,7 +2362,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x395
+    const/16 v0, 0x399
 
     if-ne v0, p1, :cond_1
 
@@ -2374,7 +2374,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0x283
+    const/16 v0, 0x286
 
     if-ne v0, p1, :cond_2
 
@@ -2386,7 +2386,7 @@
     goto :goto_0
 
     :cond_2
-    const/16 v0, 0x284
+    const/16 v0, 0x287
 
     if-ne v0, p1, :cond_3
 
@@ -2398,7 +2398,7 @@
     goto :goto_0
 
     :cond_3
-    const/16 v0, 0x252
+    const/16 v0, 0x254
 
     if-ne v0, p1, :cond_4
 
@@ -2410,7 +2410,7 @@
     goto :goto_0
 
     :cond_4
-    const/16 v0, 0x394
+    const/16 v0, 0x398
 
     if-ne v0, p1, :cond_5
 

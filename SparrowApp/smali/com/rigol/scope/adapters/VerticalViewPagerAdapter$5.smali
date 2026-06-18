@@ -1,11 +1,14 @@
 .class Lcom/rigol/scope/adapters/VerticalViewPagerAdapter$5;
-.super Lcom/rigol/scope/utilities/AorBManager;
+.super Ljava/lang/Object;
 .source "VerticalViewPagerAdapter.java"
+
+# interfaces
+.implements Lcom/rigol/scope/views/keyboard/KeyboardListener;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->getAorBManager(Lcom/rigol/scope/adapters/BaseViewHolder;I)Lcom/rigol/scope/utilities/AorBManager;
+    value = Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->lambda$click$16(Landroid/view/View;Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,145 +20,90 @@
 # instance fields
 .field final synthetic this$0:Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;
 
-.field final synthetic val$layoutPosition:I
-
 
 # direct methods
-.method constructor <init>(Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;Landroid/content/Context;Ljava/util/List;Lcom/rigol/scope/utilities/AorBManager$OnSetTextById;Lcom/rigol/scope/utilities/AorBManager$OnTextReset;I)V
+.method constructor <init>(Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;)V
     .locals 0
 
-    .line 501
+    .line 360
     iput-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter$5;->this$0:Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;
 
-    iput p6, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter$5;->val$layoutPosition:I
-
-    invoke-direct {p0, p2, p3, p4, p5}, Lcom/rigol/scope/utilities/AorBManager;-><init>(Landroid/content/Context;Ljava/util/List;Lcom/rigol/scope/utilities/AorBManager$OnSetTextById;Lcom/rigol/scope/utilities/AorBManager$OnTextReset;)V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method protected setSwitch_num(I)V
-    .locals 3
+.method public onCall(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
+    .locals 1
 
-    .line 504
+    .line 374
     iget-object v0, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter$5;->this$0:Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;
 
-    invoke-static {v0}, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->access$200(Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;)Ljava/util/Map;
-
-    move-result-object v0
-
-    iget v1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter$5;->val$layoutPosition:I
-
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v1
-
-    invoke-interface {v0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Ljava/util/List;
-
-    invoke-static {v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Ljava/util/List;
-
-    .line 505
-    iget-object v1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter$5;->this$0:Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;
-
-    invoke-static {v1}, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->access$300(Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;)Landroid/content/Context;
-
-    move-result-object v1
-
-    invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
-
-    move-result-object v2
-
-    check-cast v2, Lcom/rigol/scope/data/AorBParam;
-
-    invoke-virtual {v2}, Lcom/rigol/scope/data/AorBParam;->getEditText()Landroid/widget/EditText;
-
-    move-result-object v2
-
-    invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
-
-    move-result-object p1
-
-    check-cast p1, Lcom/rigol/scope/data/AorBParam;
-
-    invoke-virtual {p1}, Lcom/rigol/scope/data/AorBParam;->getAorb()Ljava/lang/String;
-
-    move-result-object p1
-
-    const/4 v0, 0x1
-
-    invoke-virtual {p0, v1, v2, v0, p1}, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter$5;->showKey(Landroid/content/Context;Landroid/widget/EditText;ZLjava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->access$102(Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
 
     return-void
 .end method
 
-.method protected setrecovery_num(I)V
-    .locals 3
+.method public resultMinUnitValueListener(Ljava/lang/Object;)V
+    .locals 6
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(TT;)V"
+        }
+    .end annotation
 
-    .line 510
+    .line 363
     iget-object v0, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter$5;->this$0:Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;
 
-    invoke-static {v0}, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->access$200(Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;)Ljava/util/Map;
+    invoke-static {v0}, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->access$000(Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;)Lcom/rigol/scope/data/VerticalParam;
 
     move-result-object v0
 
-    iget v1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter$5;->val$layoutPosition:I
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_Cus:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    invoke-virtual {v0, v1}, Lcom/rigol/scope/data/VerticalParam;->setProbeRatio(Lcom/rigol/scope/cil/ServiceEnum$ProbeX;)V
 
-    move-result-object v1
+    .line 365
+    check-cast p1, Ljava/lang/Long;
 
-    invoke-interface {v0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    .line 366
+    invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
 
-    move-result-object v0
+    move-result-wide v0
 
-    check-cast v0, Ljava/util/List;
+    long-to-double v0, v0
 
-    invoke-static {v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    const-wide/high16 v2, 0x4024000000000000L    # 10.0
 
-    move-result-object v0
+    const-wide/high16 v4, 0x4022000000000000L    # 9.0
 
-    check-cast v0, Ljava/util/List;
+    invoke-static {v2, v3, v4, v5}, Ljava/lang/Math;->pow(DD)D
 
-    .line 511
-    iget-object v1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter$5;->this$0:Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;
+    move-result-wide v2
 
-    invoke-static {v1}, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->access$300(Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;)Landroid/content/Context;
+    div-double/2addr v0, v2
 
-    move-result-object v1
+    .line 368
+    iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter$5;->this$0:Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;
 
-    invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
-
-    move-result-object v2
-
-    check-cast v2, Lcom/rigol/scope/data/AorBParam;
-
-    invoke-virtual {v2}, Lcom/rigol/scope/data/AorBParam;->getEditText()Landroid/widget/EditText;
-
-    move-result-object v2
-
-    invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->access$000(Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;)Lcom/rigol/scope/data/VerticalParam;
 
     move-result-object p1
 
-    check-cast p1, Lcom/rigol/scope/data/AorBParam;
+    invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/VerticalParam;->setProbeCusRatio(D)V
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/AorBParam;->getAorb()Ljava/lang/String;
+    .line 369
+    iget-object p1, p0, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter$5;->this$0:Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;
+
+    invoke-static {p1}, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;->access$000(Lcom/rigol/scope/adapters/VerticalViewPagerAdapter;)Lcom/rigol/scope/data/VerticalParam;
 
     move-result-object p1
 
-    const/4 v0, 0x0
-
-    invoke-virtual {p0, v1, v2, v0, p1}, Lcom/rigol/scope/adapters/VerticalViewPagerAdapter$5;->showKey(Landroid/content/Context;Landroid/widget/EditText;ZLjava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/VerticalParam;->saveProbeCusRatio(D)V
 
     return-void
 .end method

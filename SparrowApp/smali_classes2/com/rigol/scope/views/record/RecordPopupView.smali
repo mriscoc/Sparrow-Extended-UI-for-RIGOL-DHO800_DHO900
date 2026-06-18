@@ -608,15 +608,6 @@
     return-object v0
 .end method
 
-.method public synthetic lambda$initPopWindow$2$RecordPopupView(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
-    .locals 0
-
-    .line 180
-    iput-object p1, p0, Lcom/rigol/scope/views/record/RecordPopupView;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
-
-    return-void
-.end method
-
 .method public synthetic lambda$initPopWindow$3$RecordPopupView(Landroid/view/KeyEvent;)V
     .locals 10
 
@@ -648,9 +639,9 @@
 
     iget-object v8, p0, Lcom/rigol/scope/views/record/RecordPopupView;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
 
-    new-instance v9, Lcom/rigol/scope/views/record/-$$Lambda$RecordPopupView$ibZpRNSgMJ05no8fGSua5CUd1P0;
+    new-instance v9, Lcom/rigol/scope/views/record/-$$Lambda$RecordPopupView$ZEO3I0-unRpDjLFLdR01MJIqumo;
 
-    invoke-direct {v9, p0}, Lcom/rigol/scope/views/record/-$$Lambda$RecordPopupView$ibZpRNSgMJ05no8fGSua5CUd1P0;-><init>(Lcom/rigol/scope/views/record/RecordPopupView;)V
+    invoke-direct {v9, p0}, Lcom/rigol/scope/views/record/-$$Lambda$RecordPopupView$ZEO3I0-unRpDjLFLdR01MJIqumo;-><init>(Lcom/rigol/scope/views/record/RecordPopupView;)V
 
     move-object v2, p1
 
@@ -695,6 +686,15 @@
     return-void
 .end method
 
+.method public synthetic lambda$null$2$RecordPopupView(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
+    .locals 0
+
+    .line 180
+    iput-object p1, p0, Lcom/rigol/scope/views/record/RecordPopupView;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
+
+    return-void
+.end method
+
 .method public onCheckedChanged(Landroid/widget/CompoundButton;Z)V
     .locals 1
 
@@ -713,11 +713,11 @@
 
     move-result p1
 
-    const v0, 0x7f0a0779
+    const v0, 0x7f0a0785
 
     if-eq p1, v0, :cond_2
 
-    const v0, 0x7f0a077b
+    const v0, 0x7f0a0787
 
     if-eq p1, v0, :cond_1
 
@@ -750,7 +750,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f100377
+    const p2, 0x7f10037a
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1381,22 +1381,22 @@
 
     :sswitch_data_0
     .sparse-switch
-        0x7f0a0706 -> :sswitch_f
-        0x7f0a070b -> :sswitch_e
-        0x7f0a070c -> :sswitch_d
-        0x7f0a070d -> :sswitch_c
-        0x7f0a0711 -> :sswitch_b
-        0x7f0a076d -> :sswitch_a
-        0x7f0a076f -> :sswitch_9
-        0x7f0a0770 -> :sswitch_8
-        0x7f0a0772 -> :sswitch_7
-        0x7f0a0774 -> :sswitch_6
-        0x7f0a0776 -> :sswitch_5
-        0x7f0a077e -> :sswitch_4
-        0x7f0a0782 -> :sswitch_3
-        0x7f0a0783 -> :sswitch_2
-        0x7f0a0786 -> :sswitch_1
-        0x7f0a0787 -> :sswitch_0
+        0x7f0a0712 -> :sswitch_f
+        0x7f0a0717 -> :sswitch_e
+        0x7f0a0718 -> :sswitch_d
+        0x7f0a0719 -> :sswitch_c
+        0x7f0a071d -> :sswitch_b
+        0x7f0a0779 -> :sswitch_a
+        0x7f0a077b -> :sswitch_9
+        0x7f0a077c -> :sswitch_8
+        0x7f0a077e -> :sswitch_7
+        0x7f0a0780 -> :sswitch_6
+        0x7f0a0782 -> :sswitch_5
+        0x7f0a078a -> :sswitch_4
+        0x7f0a078e -> :sswitch_3
+        0x7f0a078f -> :sswitch_2
+        0x7f0a0792 -> :sswitch_1
+        0x7f0a0793 -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -1422,7 +1422,7 @@
 
     move-result p1
 
-    const p3, 0x7f0a0712
+    const p3, 0x7f0a071e
 
     if-ne p1, p3, :cond_1
 
@@ -1591,12 +1591,12 @@
 
     :sswitch_data_0
     .sparse-switch
-        0x7f0a076f -> :sswitch_5
-        0x7f0a0770 -> :sswitch_4
-        0x7f0a0772 -> :sswitch_3
-        0x7f0a0774 -> :sswitch_2
-        0x7f0a077e -> :sswitch_1
-        0x7f0a0783 -> :sswitch_0
+        0x7f0a077b -> :sswitch_5
+        0x7f0a077c -> :sswitch_4
+        0x7f0a077e -> :sswitch_3
+        0x7f0a0780 -> :sswitch_2
+        0x7f0a078a -> :sswitch_1
+        0x7f0a078f -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -1859,12 +1859,12 @@
 
     :sswitch_data_0
     .sparse-switch
-        0x7f0a076f -> :sswitch_5
-        0x7f0a0770 -> :sswitch_4
-        0x7f0a0772 -> :sswitch_3
-        0x7f0a0774 -> :sswitch_2
-        0x7f0a077e -> :sswitch_1
-        0x7f0a0783 -> :sswitch_0
+        0x7f0a077b -> :sswitch_5
+        0x7f0a077c -> :sswitch_4
+        0x7f0a077e -> :sswitch_3
+        0x7f0a0780 -> :sswitch_2
+        0x7f0a078a -> :sswitch_1
+        0x7f0a078f -> :sswitch_0
     .end sparse-switch
 .end method
 

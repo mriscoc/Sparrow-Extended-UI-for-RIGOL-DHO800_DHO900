@@ -585,7 +585,7 @@
     .line 139
     iput-object p1, p0, Lcom/rigol/scope/data/CounterResultParam;->maxValue:Ljava/lang/String;
 
-    const/16 p1, 0x20d
+    const/16 p1, 0x20e
 
     .line 140
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/CounterResultParam;->notifyPropertyChanged(I)V
@@ -599,7 +599,7 @@
     .line 149
     iput-object p1, p0, Lcom/rigol/scope/data/CounterResultParam;->minValue:Ljava/lang/String;
 
-    const/16 p1, 0x21e
+    const/16 p1, 0x21f
 
     .line 150
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/CounterResultParam;->notifyPropertyChanged(I)V
@@ -613,7 +613,7 @@
     .line 169
     iput p1, p0, Lcom/rigol/scope/data/CounterResultParam;->resolution:I
 
-    const/16 p1, 0x2e2
+    const/16 p1, 0x2e6
 
     .line 170
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/CounterResultParam;->notifyPropertyChanged(I)V
@@ -627,7 +627,7 @@
     .line 108
     iput-object p1, p0, Lcom/rigol/scope/data/CounterResultParam;->value:Ljava/lang/String;
 
-    const/16 p1, 0x3f7
+    const/16 p1, 0x3fb
 
     .line 109
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/CounterResultParam;->notifyPropertyChanged(I)V

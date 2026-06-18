@@ -173,17 +173,17 @@
     return-object p0
 .end method
 
-.method static synthetic lambda$addWindow$33()V
+.method static synthetic lambda$addWindow$34()V
     .locals 3
 
-    .line 762
+    .line 772
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object v0
 
     const/16 v1, 0x3c
 
-    const/16 v2, 0x2901
+    const/16 v2, 0x2b01
 
     invoke-static {v1, v2}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 
@@ -197,7 +197,7 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 764
+    .line 774
     const-class v0, Lcom/rigol/scope/viewmodels/SharedViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -243,7 +243,7 @@
     return-void
 .end method
 
-.method static synthetic lambda$onViewCreated$32(Lcom/rigol/scope/data/SharedParam;)V
+.method static synthetic lambda$onViewCreated$33(Lcom/rigol/scope/data/SharedParam;)V
     .locals 0
 
     return-void
@@ -252,14 +252,14 @@
 .method private updateHistogramWinState(Ljava/lang/Boolean;)V
     .locals 2
 
-    .line 877
+    .line 887
     iget-object v0, p0, Lcom/rigol/scope/WaveformFragment;->histogramResultParam:Lcom/rigol/scope/views/histogram/HistogramResultParam;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 880
+    .line 890
     :cond_0
     invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
 
@@ -271,7 +271,7 @@
 
     move-result-object v0
 
-    .line 881
+    .line 891
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p1
@@ -280,14 +280,14 @@
 
     if-eqz v0, :cond_1
 
-    .line 882
+    .line 892
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result p1
 
     if-eqz p1, :cond_1
 
-    .line 884
+    .line 894
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p1
@@ -296,7 +296,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1007cc
+    const v0, 0x7f1007d4
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -306,7 +306,7 @@
 
     return-void
 
-    .line 888
+    .line 898
     :cond_1
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->binding:Lcom/rigol/scope/databinding/FragmentWaveformBinding;
 
@@ -318,12 +318,12 @@
 
     if-eqz p1, :cond_2
 
-    const p1, 0x7f100778
+    const p1, 0x7f100780
 
-    .line 889
+    .line 899
     invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showShort(I)V
 
-    .line 890
+    .line 900
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->eyeParam:Lcom/rigol/scope/data/EyeParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/EyeParam;->getEnabled()Lcom/rigol/scope/data/BaseProperty;
@@ -340,7 +340,7 @@
 
     return-void
 
-    .line 894
+    .line 904
     :cond_2
     new-instance p1, Lcom/rigol/scope/data/WindowParam;
 
@@ -348,15 +348,15 @@
 
     const/16 v0, 0x22
 
-    .line 896
+    .line 906
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/WindowParam;->setServiceID(I)V
 
-    .line 897
+    .line 907
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_HISTOGRAM:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/WindowParam;->setType(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)V
 
-    .line 898
+    .line 908
     invoke-virtual {p0, p1}, Lcom/rigol/scope/WaveformFragment;->addWindow(Lcom/rigol/scope/data/WindowParam;)V
 
     goto :goto_0
@@ -364,7 +364,7 @@
     :cond_3
     if-eqz v0, :cond_4
 
-    .line 903
+    .line 913
     invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
 
     move-result-object p1
@@ -378,15 +378,15 @@
     return-void
 .end method
 
-.method private updateMathPeakWindowState(ZI)V
+.method private updateMathDisplayMode(ZI)V
     .locals 4
 
-    .line 1080
+    .line 1107
     invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
 
     move-result-object v0
 
-    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_MATH_PEAKSEARCH:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_MATH:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/utilities/WindowHolderManager;->get(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)Ljava/util/List;
 
@@ -396,14 +396,14 @@
 
     if-eqz v0, :cond_1
 
-    .line 1084
+    .line 1111
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    .line 1085
+    .line 1112
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -422,7 +422,168 @@
 
     check-cast v2, Lcom/rigol/scope/views/window/WindowHolder;
 
-    .line 1086
+    .line 1113
+    invoke-virtual {v2}, Lcom/rigol/scope/views/window/WindowHolder;->getWindowParam()Lcom/rigol/scope/data/WindowParam;
+
+    move-result-object v3
+
+    invoke-virtual {v3}, Lcom/rigol/scope/data/WindowParam;->getServiceID()I
+
+    move-result v3
+
+    if-ne v3, p2, :cond_0
+
+    move-object v1, v2
+
+    goto :goto_0
+
+    .line 1119
+    :cond_1
+    iget-object v0, p0, Lcom/rigol/scope/WaveformFragment;->mathParamList:Ljava/util/List;
+
+    if-nez v0, :cond_2
+
+    return-void
+
+    :cond_2
+    add-int/lit8 v2, p2, -0x11
+
+    .line 1122
+    invoke-interface {v0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/rigol/scope/data/MathParam;
+
+    if-nez v0, :cond_3
+
+    return-void
+
+    :cond_3
+    if-nez p1, :cond_6
+
+    if-eqz v1, :cond_4
+
+    return-void
+
+    .line 1132
+    :cond_4
+    iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->binding:Lcom/rigol/scope/databinding/FragmentWaveformBinding;
+
+    iget-object p1, p1, Lcom/rigol/scope/databinding/FragmentWaveformBinding;->multiWindow:Lcom/rigol/scope/views/multi/MultiWindow;
+
+    invoke-virtual {p1}, Lcom/rigol/scope/views/multi/MultiWindow;->isFull()Z
+
+    move-result p1
+
+    if-eqz p1, :cond_5
+
+    .line 1133
+    invoke-virtual {p0}, Lcom/rigol/scope/WaveformFragment;->getResources()Landroid/content/res/Resources;
+
+    move-result-object p1
+
+    const p2, 0x7f100780
+
+    invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showShort(Ljava/lang/CharSequence;)V
+
+    const/4 p1, 0x0
+
+    .line 1134
+    invoke-virtual {v0, p1}, Lcom/rigol/scope/data/MathParam;->saveDisplayMode(Z)V
+
+    return-void
+
+    .line 1139
+    :cond_5
+    invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getStatus()Z
+
+    move-result p1
+
+    if-eqz p1, :cond_7
+
+    .line 1141
+    new-instance p1, Lcom/rigol/scope/data/WindowParam;
+
+    invoke-direct {p1}, Lcom/rigol/scope/data/WindowParam;-><init>()V
+
+    .line 1142
+    invoke-virtual {p1, p2}, Lcom/rigol/scope/data/WindowParam;->setServiceID(I)V
+
+    .line 1143
+    sget-object p2, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_MATH:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
+
+    invoke-virtual {p1, p2}, Lcom/rigol/scope/data/WindowParam;->setType(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)V
+
+    .line 1144
+    invoke-virtual {p0, p1}, Lcom/rigol/scope/WaveformFragment;->addWindow(Lcom/rigol/scope/data/WindowParam;)V
+
+    goto :goto_1
+
+    :cond_6
+    if-eqz v1, :cond_7
+
+    .line 1149
+    invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
+
+    move-result-object p1
+
+    invoke-virtual {p1, v1}, Lcom/rigol/scope/utilities/WindowHolderManager;->remove(Lcom/rigol/scope/views/window/WindowHolder;)V
+
+    :cond_7
+    :goto_1
+    return-void
+.end method
+
+.method private updateMathPeakWindowState(ZI)V
+    .locals 4
+
+    .line 1155
+    invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
+
+    move-result-object v0
+
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_MATH_PEAKSEARCH:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
+
+    invoke-virtual {v0, v1}, Lcom/rigol/scope/utilities/WindowHolderManager;->get(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)Ljava/util/List;
+
+    move-result-object v0
+
+    const/4 v1, 0x0
+
+    if-eqz v0, :cond_1
+
+    .line 1159
+    invoke-interface {v0}, Ljava/util/List;->size()I
+
+    move-result v2
+
+    if-eqz v2, :cond_1
+
+    .line 1160
+    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+
+    move-result-object v0
+
+    :cond_0
+    :goto_0
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_1
+
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Lcom/rigol/scope/views/window/WindowHolder;
+
+    .line 1161
     invoke-virtual {v2}, Lcom/rigol/scope/views/window/WindowHolder;->getWindowParam()Lcom/rigol/scope/data/WindowParam;
 
     move-result-object v3
@@ -442,7 +603,7 @@
 
     if-eqz v1, :cond_2
 
-    .line 1095
+    .line 1170
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p1
@@ -451,7 +612,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1007cc
+    const p2, 0x7f1007d4
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -461,7 +622,7 @@
 
     return-void
 
-    .line 1099
+    .line 1174
     :cond_2
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->binding:Lcom/rigol/scope/databinding/FragmentWaveformBinding;
 
@@ -473,12 +634,12 @@
 
     if-eqz p1, :cond_5
 
-    .line 1100
+    .line 1175
     invoke-virtual {p0}, Lcom/rigol/scope/WaveformFragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object p1
 
-    const v0, 0x7f100778
+    const v0, 0x7f100780
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -486,7 +647,7 @@
 
     invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showShort(Ljava/lang/CharSequence;)V
 
-    .line 1102
+    .line 1177
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->mathParamList:Ljava/util/List;
 
     if-nez p1, :cond_3
@@ -496,7 +657,7 @@
     :cond_3
     add-int/lit8 p2, p2, -0x11
 
-    .line 1105
+    .line 1180
     invoke-interface {p1, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p1
@@ -510,26 +671,26 @@
     :cond_4
     const/4 p2, 0x0
 
-    .line 1110
+    .line 1185
     invoke-virtual {p1, p2}, Lcom/rigol/scope/data/MathParam;->savePeakSearch(Z)V
 
     return-void
 
-    .line 1114
+    .line 1189
     :cond_5
     new-instance p1, Lcom/rigol/scope/data/WindowParam;
 
     invoke-direct {p1}, Lcom/rigol/scope/data/WindowParam;-><init>()V
 
-    .line 1115
+    .line 1190
     invoke-virtual {p1, p2}, Lcom/rigol/scope/data/WindowParam;->setServiceID(I)V
 
-    .line 1116
+    .line 1191
     sget-object p2, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_MATH_PEAKSEARCH:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/data/WindowParam;->setType(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)V
 
-    .line 1117
+    .line 1192
     invoke-virtual {p0, p1}, Lcom/rigol/scope/WaveformFragment;->addWindow(Lcom/rigol/scope/data/WindowParam;)V
 
     goto :goto_1
@@ -537,7 +698,7 @@
     :cond_6
     if-eqz v1, :cond_7
 
-    .line 1121
+    .line 1196
     invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
 
     move-result-object p1
@@ -552,7 +713,7 @@
 .method private updateMathWindowState(ZI)V
     .locals 6
 
-    .line 1029
+    .line 1039
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object v0
@@ -565,7 +726,7 @@
 
     invoke-virtual {v0, v1, v2, v3}, Lcom/rigol/scope/utilities/FunctionManager;->setFlexKnobEnum(Lcom/rigol/scope/cil/ServiceEnum$Function;IZ)V
 
-    .line 1030
+    .line 1040
     invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
 
     move-result-object v0
@@ -580,14 +741,14 @@
 
     if-eqz v0, :cond_1
 
-    .line 1034
+    .line 1044
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v4
 
     if-eqz v4, :cond_1
 
-    .line 1035
+    .line 1045
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -606,7 +767,7 @@
 
     check-cast v4, Lcom/rigol/scope/views/window/WindowHolder;
 
-    .line 1036
+    .line 1046
     invoke-virtual {v4}, Lcom/rigol/scope/views/window/WindowHolder;->getWindowParam()Lcom/rigol/scope/data/WindowParam;
 
     move-result-object v5
@@ -621,12 +782,32 @@
 
     goto :goto_0
 
+    .line 1053
     :cond_1
+    iget-object v0, p0, Lcom/rigol/scope/WaveformFragment;->mathParamList:Ljava/util/List;
+
+    if-nez v0, :cond_2
+
+    return-void
+
+    .line 1056
+    :cond_2
+    invoke-interface {v0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/rigol/scope/data/MathParam;
+
+    if-nez v0, :cond_3
+
+    return-void
+
+    :cond_3
     if-eqz p1, :cond_6
 
-    if-eqz v1, :cond_2
+    if-eqz v1, :cond_4
 
-    .line 1045
+    .line 1064
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p1
@@ -635,7 +816,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1007cc
+    const p2, 0x7f1007d4
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -645,8 +826,8 @@
 
     return-void
 
-    .line 1049
-    :cond_2
+    .line 1068
+    :cond_4
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->binding:Lcom/rigol/scope/databinding/FragmentWaveformBinding;
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/FragmentWaveformBinding;->multiWindow:Lcom/rigol/scope/views/multi/MultiWindow;
@@ -657,12 +838,12 @@
 
     if-eqz p1, :cond_5
 
-    .line 1050
+    .line 1069
     invoke-virtual {p0}, Lcom/rigol/scope/WaveformFragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object p1
 
-    const p2, 0x7f100778
+    const p2, 0x7f100780
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -670,46 +851,33 @@
 
     invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showShort(Ljava/lang/CharSequence;)V
 
-    .line 1052
-    iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->mathParamList:Ljava/util/List;
-
-    if-nez p1, :cond_3
+    .line 1079
+    invoke-virtual {v0, v3}, Lcom/rigol/scope/data/MathParam;->saveStatus(Z)V
 
     return-void
 
-    .line 1055
-    :cond_3
-    invoke-interface {p1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
-
-    move-result-object p1
-
-    check-cast p1, Lcom/rigol/scope/data/MathParam;
-
-    if-nez p1, :cond_4
-
-    return-void
-
-    .line 1060
-    :cond_4
-    invoke-virtual {p1, v3}, Lcom/rigol/scope/data/MathParam;->saveStatus(Z)V
-
-    return-void
-
-    .line 1065
+    .line 1083
     :cond_5
+    invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->isDisplayMode()Z
+
+    move-result p1
+
+    if-nez p1, :cond_7
+
+    .line 1085
     new-instance p1, Lcom/rigol/scope/data/WindowParam;
 
     invoke-direct {p1}, Lcom/rigol/scope/data/WindowParam;-><init>()V
 
-    .line 1066
+    .line 1086
     invoke-virtual {p1, p2}, Lcom/rigol/scope/data/WindowParam;->setServiceID(I)V
 
-    .line 1067
+    .line 1087
     sget-object p2, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_MATH:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/data/WindowParam;->setType(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)V
 
-    .line 1068
+    .line 1088
     invoke-virtual {p0, p1}, Lcom/rigol/scope/WaveformFragment;->addWindow(Lcom/rigol/scope/data/WindowParam;)V
 
     goto :goto_1
@@ -717,14 +885,14 @@
     :cond_6
     if-eqz v1, :cond_7
 
-    .line 1072
+    .line 1098
     invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
 
     move-result-object p1
 
     invoke-virtual {p1, v1}, Lcom/rigol/scope/utilities/WindowHolderManager;->remove(Lcom/rigol/scope/views/window/WindowHolder;)V
 
-    .line 1076
+    .line 1102
     :cond_7
     :goto_1
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->getFlexKnobParamViewModel()Lcom/rigol/scope/viewmodels/FlexKnobParamViewModel;
@@ -739,7 +907,7 @@
 .method private updateRtsaPeakWindowState(Z)V
     .locals 2
 
-    .line 954
+    .line 964
     invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
 
     move-result-object v0
@@ -754,14 +922,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 956
+    .line 966
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 958
+    .line 968
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p1
@@ -770,7 +938,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1007cc
+    const v0, 0x7f1007d4
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -780,7 +948,7 @@
 
     return-void
 
-    .line 962
+    .line 972
     :cond_0
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->binding:Lcom/rigol/scope/databinding/FragmentWaveformBinding;
 
@@ -792,12 +960,12 @@
 
     if-eqz p1, :cond_3
 
-    .line 963
+    .line 973
     invoke-virtual {p0}, Lcom/rigol/scope/WaveformFragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object p1
 
-    const v0, 0x7f100778
+    const v0, 0x7f100780
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -805,7 +973,7 @@
 
     invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showShort(Ljava/lang/CharSequence;)V
 
-    .line 965
+    .line 975
     const-class p1, Lcom/rigol/scope/viewmodels/FftViewModel;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -818,7 +986,7 @@
 
     return-void
 
-    .line 969
+    .line 979
     :cond_1
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/FftViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
@@ -837,33 +1005,33 @@
     :cond_2
     const/4 v0, 0x0
 
-    .line 974
+    .line 984
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/FftParam;->savePeakTableEn(Z)V
 
     return-void
 
-    .line 979
+    .line 989
     :cond_3
     new-instance p1, Lcom/rigol/scope/data/WindowParam;
 
     invoke-direct {p1}, Lcom/rigol/scope/data/WindowParam;-><init>()V
 
-    .line 980
+    .line 990
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_RTSA_PEAKSEARCH:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/WindowParam;->setType(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)V
 
     const/16 v0, 0x32
 
-    .line 982
+    .line 992
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/WindowParam;->setServiceID(I)V
 
-    .line 983
+    .line 993
     invoke-virtual {p0, p1}, Lcom/rigol/scope/WaveformFragment;->addWindow(Lcom/rigol/scope/data/WindowParam;)V
 
     goto :goto_0
 
-    .line 985
+    .line 995
     :cond_4
     invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
 
@@ -880,7 +1048,7 @@
 .method private updateRtsaWindowState(Z)V
     .locals 2
 
-    .line 912
+    .line 922
     invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
 
     move-result-object v0
@@ -895,14 +1063,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 914
+    .line 924
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 916
+    .line 926
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p1
@@ -911,7 +1079,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1007cc
+    const v0, 0x7f1007d4
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -921,7 +1089,7 @@
 
     return-void
 
-    .line 921
+    .line 931
     :cond_0
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->binding:Lcom/rigol/scope/databinding/FragmentWaveformBinding;
 
@@ -933,12 +1101,12 @@
 
     if-eqz p1, :cond_3
 
-    .line 922
+    .line 932
     invoke-virtual {p0}, Lcom/rigol/scope/WaveformFragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object p1
 
-    const v0, 0x7f100778
+    const v0, 0x7f100780
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -946,7 +1114,7 @@
 
     invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showShort(Ljava/lang/CharSequence;)V
 
-    .line 924
+    .line 934
     const-class p1, Lcom/rigol/scope/viewmodels/FftViewModel;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -959,7 +1127,7 @@
 
     return-void
 
-    .line 928
+    .line 938
     :cond_1
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/FftViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
@@ -978,33 +1146,33 @@
     :cond_2
     const/4 v0, 0x0
 
-    .line 933
+    .line 943
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/FftParam;->saveEnable(Z)V
 
     return-void
 
-    .line 938
+    .line 948
     :cond_3
     new-instance p1, Lcom/rigol/scope/data/WindowParam;
 
     invoke-direct {p1}, Lcom/rigol/scope/data/WindowParam;-><init>()V
 
-    .line 939
+    .line 949
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_FFT:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/WindowParam;->setType(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)V
 
     const/16 v0, 0x32
 
-    .line 941
+    .line 951
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/WindowParam;->setServiceID(I)V
 
-    .line 942
+    .line 952
     invoke-virtual {p0, p1}, Lcom/rigol/scope/WaveformFragment;->addWindow(Lcom/rigol/scope/data/WindowParam;)V
 
     goto :goto_0
 
-    .line 945
+    .line 955
     :cond_4
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -1014,7 +1182,7 @@
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/utilities/PopupViewManager;->dismiss(Ljava/lang/Class;)V
 
-    .line 948
+    .line 958
     invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
 
     move-result-object p1
@@ -1030,7 +1198,7 @@
 .method private updateXYWindowState(Z)V
     .locals 2
 
-    .line 990
+    .line 1000
     invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
 
     move-result-object v0
@@ -1047,14 +1215,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 992
+    .line 1002
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 994
+    .line 1004
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p1
@@ -1063,7 +1231,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1007cc
+    const v0, 0x7f1007d4
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1073,7 +1241,7 @@
 
     return-void
 
-    .line 998
+    .line 1008
     :cond_0
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->binding:Lcom/rigol/scope/databinding/FragmentWaveformBinding;
 
@@ -1085,12 +1253,12 @@
 
     if-eqz p1, :cond_3
 
-    .line 999
+    .line 1009
     invoke-virtual {p0}, Lcom/rigol/scope/WaveformFragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object p1
 
-    const v0, 0x7f100778
+    const v0, 0x7f100780
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1098,7 +1266,7 @@
 
     invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showShort(Ljava/lang/CharSequence;)V
 
-    .line 1001
+    .line 1011
     const-class p1, Lcom/rigol/scope/viewmodels/XYViewModel;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -1111,7 +1279,7 @@
 
     return-void
 
-    .line 1005
+    .line 1015
     :cond_1
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/XYViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
@@ -1127,7 +1295,7 @@
 
     return-void
 
-    .line 1009
+    .line 1019
     :cond_2
     invoke-virtual {p1}, Lcom/rigol/scope/data/XYParam;->getEnable()Lcom/rigol/scope/data/BaseProperty;
 
@@ -1141,38 +1309,38 @@
 
     return-void
 
-    .line 1014
+    .line 1024
     :cond_3
     new-instance p1, Lcom/rigol/scope/data/WindowParam;
 
     invoke-direct {p1}, Lcom/rigol/scope/data/WindowParam;-><init>()V
 
-    .line 1015
+    .line 1025
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->chan1:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/WindowParam;->setSource1(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 1016
+    .line 1026
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->chan2:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/WindowParam;->setSource2(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
     const/16 v0, 0x38
 
-    .line 1017
+    .line 1027
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/WindowParam;->setServiceID(I)V
 
-    .line 1018
+    .line 1028
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_XY:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/WindowParam;->setType(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)V
 
-    .line 1019
+    .line 1029
     invoke-virtual {p0, p1}, Lcom/rigol/scope/WaveformFragment;->addWindow(Lcom/rigol/scope/data/WindowParam;)V
 
     goto :goto_0
 
-    .line 1022
+    .line 1032
     :cond_4
     invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
 
@@ -1182,7 +1350,7 @@
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/utilities/WindowHolderManager;->remove(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)V
 
-    .line 1023
+    .line 1033
     const-class p1, Lcom/rigol/scope/viewmodels/HorizontalViewModel;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -1214,7 +1382,7 @@
 
     if-eqz p1, :cond_9
 
-    .line 631
+    .line 640
     invoke-virtual {p1}, Lcom/rigol/scope/data/WindowParam;->getType()Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     move-result-object v0
@@ -1225,7 +1393,7 @@
 
     goto/16 :goto_3
 
-    .line 636
+    .line 645
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/WaveformFragment;->binding:Lcom/rigol/scope/databinding/FragmentWaveformBinding;
 
@@ -1237,12 +1405,12 @@
 
     if-eqz v0, :cond_1
 
-    .line 637
+    .line 646
     invoke-virtual {p0}, Lcom/rigol/scope/WaveformFragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object p1
 
-    const v0, 0x7f100778
+    const v0, 0x7f100780
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1252,7 +1420,7 @@
 
     return-void
 
-    .line 641
+    .line 650
     :cond_1
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -1278,7 +1446,7 @@
 
     return-void
 
-    .line 645
+    .line 654
     :cond_2
     iget-object v0, p0, Lcom/rigol/scope/WaveformFragment;->show_is_main:Ljava/lang/Boolean;
 
@@ -1298,13 +1466,13 @@
 
     return-void
 
-    .line 649
+    .line 658
     :cond_3
     invoke-virtual {p1}, Lcom/rigol/scope/data/WindowParam;->getType()Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     move-result-object v0
 
-    .line 653
+    .line 662
     sget-object v1, Lcom/rigol/scope/WaveformFragment$2;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$WindowType:[I
 
     invoke-virtual {v0}, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->ordinal()I
@@ -1321,7 +1489,7 @@
 
     goto/16 :goto_0
 
-    .line 733
+    .line 743
     :pswitch_0
     new-instance v2, Lcom/rigol/scope/views/window/BodeWindowHolder;
 
@@ -1331,7 +1499,7 @@
 
     goto/16 :goto_0
 
-    .line 727
+    .line 737
     :pswitch_1
     new-instance v2, Lcom/rigol/scope/views/window/SearchRippleWindowHolder;
 
@@ -1339,7 +1507,7 @@
 
     invoke-direct {v2, v1, p1}, Lcom/rigol/scope/views/window/SearchRippleWindowHolder;-><init>(Landroid/content/Context;Lcom/rigol/scope/data/WindowParam;)V
 
-    .line 729
+    .line 739
     const-class p1, Lcom/rigol/scope/viewmodels/SearchViewModel;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -1358,7 +1526,7 @@
 
     check-cast p1, Lcom/rigol/scope/data/SearchParam;
 
-    .line 730
+    .line 740
     invoke-virtual {p1}, Lcom/rigol/scope/data/SearchParam;->readNavigation()I
 
     move-result v1
@@ -1367,7 +1535,7 @@
 
     goto/16 :goto_0
 
-    .line 723
+    .line 733
     :pswitch_2
     new-instance v2, Lcom/rigol/scope/views/window/BodeWindowHolder;
 
@@ -1377,7 +1545,7 @@
 
     goto/16 :goto_0
 
-    .line 715
+    .line 725
     :pswitch_3
     const-class v1, Lcom/rigol/scope/viewmodels/UpaViewModel;
 
@@ -1403,7 +1571,7 @@
 
     if-nez v1, :cond_4
 
-    .line 716
+    .line 726
     new-instance v2, Lcom/rigol/scope/views/window/UPAListWindowHolder;
 
     iget-object v1, p0, Lcom/rigol/scope/WaveformFragment;->mActivity:Landroidx/appcompat/app/AppCompatActivity;
@@ -1412,7 +1580,7 @@
 
     goto/16 :goto_0
 
-    .line 718
+    .line 728
     :cond_4
     new-instance v2, Lcom/rigol/scope/views/window/UPARippleWindowHolder;
 
@@ -1422,7 +1590,7 @@
 
     goto/16 :goto_0
 
-    .line 712
+    .line 722
     :pswitch_4
     new-instance v2, Lcom/rigol/scope/views/window/RtsaPeakSearchWindowHolder;
 
@@ -1432,7 +1600,7 @@
 
     goto/16 :goto_0
 
-    .line 709
+    .line 719
     :pswitch_5
     new-instance v2, Lcom/rigol/scope/views/window/PeakSearchWindowHolder;
 
@@ -1442,7 +1610,7 @@
 
     goto/16 :goto_0
 
-    .line 706
+    .line 716
     :pswitch_6
     new-instance v2, Lcom/rigol/scope/views/window/DecodeTableWindowHolder;
 
@@ -1452,7 +1620,7 @@
 
     goto/16 :goto_0
 
-    .line 703
+    .line 713
     :pswitch_7
     new-instance v2, Lcom/rigol/scope/views/window/AllMeasureWindowHolder;
 
@@ -1462,7 +1630,7 @@
 
     goto/16 :goto_0
 
-    .line 700
+    .line 710
     :pswitch_8
     new-instance v2, Lcom/rigol/scope/views/window/MeasureListWindowHolder;
 
@@ -1472,7 +1640,7 @@
 
     goto/16 :goto_0
 
-    .line 697
+    .line 707
     :pswitch_9
     new-instance v2, Lcom/rigol/scope/views/window/EyeWindowHolder;
 
@@ -1482,7 +1650,7 @@
 
     goto :goto_0
 
-    .line 693
+    .line 703
     :pswitch_a
     new-instance v2, Lcom/rigol/scope/views/window/FFTWindowHolder;
 
@@ -1492,7 +1660,7 @@
 
     goto :goto_0
 
-    .line 689
+    .line 699
     :pswitch_b
     new-instance v2, Lcom/rigol/scope/views/window/HistogramWindowHolder;
 
@@ -1502,17 +1670,21 @@
 
     goto :goto_0
 
-    .line 685
+    .line 695
     :pswitch_c
-    new-instance v2, Lcom/rigol/scope/views/window/MathWindowHolder;
+    invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
 
-    iget-object v1, p0, Lcom/rigol/scope/WaveformFragment;->mActivity:Landroidx/appcompat/app/AppCompatActivity;
+    move-result-object v1
 
-    invoke-direct {v2, v1, p1}, Lcom/rigol/scope/views/window/MathWindowHolder;-><init>(Landroid/content/Context;Lcom/rigol/scope/data/WindowParam;)V
+    iget-object v2, p0, Lcom/rigol/scope/WaveformFragment;->mActivity:Landroidx/appcompat/app/AppCompatActivity;
+
+    invoke-virtual {v1, v2, p1}, Lcom/rigol/scope/utilities/WindowHolderManager;->obtain(Landroid/content/Context;Lcom/rigol/scope/data/WindowParam;)Lcom/rigol/scope/views/window/MathWindowHolder;
+
+    move-result-object v2
 
     goto :goto_0
 
-    .line 681
+    .line 690
     :pswitch_d
     new-instance v2, Lcom/rigol/scope/views/window/JitterBathtubWindowHolder;
 
@@ -1522,7 +1694,7 @@
 
     goto :goto_0
 
-    .line 677
+    .line 686
     :pswitch_e
     new-instance v2, Lcom/rigol/scope/views/window/JitterHistogramWindowHolder;
 
@@ -1532,7 +1704,7 @@
 
     goto :goto_0
 
-    .line 673
+    .line 682
     :pswitch_f
     new-instance v2, Lcom/rigol/scope/views/window/JitterSpectrumWindowHolder;
 
@@ -1542,7 +1714,7 @@
 
     goto :goto_0
 
-    .line 669
+    .line 678
     :pswitch_10
     new-instance v2, Lcom/rigol/scope/views/window/JitterTrackWindowHolder;
 
@@ -1552,7 +1724,7 @@
 
     goto :goto_0
 
-    .line 662
+    .line 671
     :pswitch_11
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
@@ -1560,21 +1732,21 @@
 
     iput-boolean v3, v1, Lcom/rigol/scope/utilities/FunctionManager;->xySwitch:Z
 
-    .line 663
+    .line 672
     new-instance v1, Lcom/rigol/scope/views/window/XYWindowHolder;
 
     iget-object v3, p0, Lcom/rigol/scope/WaveformFragment;->mActivity:Landroidx/appcompat/app/AppCompatActivity;
 
     invoke-direct {v1, v3, p1}, Lcom/rigol/scope/views/window/XYWindowHolder;-><init>(Landroid/content/Context;Lcom/rigol/scope/data/WindowParam;)V
 
-    .line 665
+    .line 674
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p1
 
     const/16 v3, 0xa
 
-    const/16 v4, 0x2343
+    const/16 v4, 0x2543
 
     invoke-static {v3, v4}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 
@@ -1586,7 +1758,7 @@
 
     goto :goto_0
 
-    .line 656
+    .line 665
     :pswitch_12
     invoke-static {v3}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -1594,7 +1766,7 @@
 
     iput-object v1, p0, Lcom/rigol/scope/WaveformFragment;->show_is_main:Ljava/lang/Boolean;
 
-    .line 657
+    .line 666
     new-instance v2, Lcom/rigol/scope/views/window/WaveformWindowHolder;
 
     iget-object v1, p0, Lcom/rigol/scope/WaveformFragment;->mActivity:Landroidx/appcompat/app/AppCompatActivity;
@@ -1604,14 +1776,14 @@
     :goto_0
     if-eqz v2, :cond_8
 
-    .line 743
+    .line 753
     invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
 
     move-result-object p1
 
     invoke-virtual {p1, v2}, Lcom/rigol/scope/utilities/WindowHolderManager;->add(Lcom/rigol/scope/views/window/WindowHolder;)V
 
-    .line 744
+    .line 754
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_JITTER_BATHTUB_CURVE:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     if-eq v0, p1, :cond_7
@@ -1634,13 +1806,13 @@
 
     goto :goto_1
 
-    .line 750
+    .line 760
     :cond_5
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_UPA:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     if-ne v0, p1, :cond_6
 
-    .line 753
+    .line 763
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->binding:Lcom/rigol/scope/databinding/FragmentWaveformBinding;
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/FragmentWaveformBinding;->multiWindow:Lcom/rigol/scope/views/multi/MultiWindow;
@@ -1655,7 +1827,7 @@
 
     goto :goto_2
 
-    .line 755
+    .line 765
     :cond_6
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->binding:Lcom/rigol/scope/databinding/FragmentWaveformBinding;
 
@@ -1669,7 +1841,7 @@
 
     goto :goto_2
 
-    .line 749
+    .line 759
     :cond_7
     :goto_1
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->binding:Lcom/rigol/scope/databinding/FragmentWaveformBinding;
@@ -1684,10 +1856,10 @@
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/views/multi/MultiWindow;->addWindow(Landroid/view/View;Lcom/rigol/scope/views/window/WindowDirection;)V
 
-    .line 759
+    .line 769
     :cond_8
     :goto_2
-    sget-object p1, Lcom/rigol/scope/-$$Lambda$WaveformFragment$ARstz8980jZkYtF-ySrkBn0xGYs;->INSTANCE:Lcom/rigol/scope/-$$Lambda$WaveformFragment$ARstz8980jZkYtF-ySrkBn0xGYs;
+    sget-object p1, Lcom/rigol/scope/-$$Lambda$WaveformFragment$NdIYZLCB8SDBBPeodGpa8uw6OyU;->INSTANCE:Lcom/rigol/scope/-$$Lambda$WaveformFragment$NdIYZLCB8SDBBPeodGpa8uw6OyU;
 
     const-wide/16 v0, 0xc8
 
@@ -1696,8 +1868,6 @@
     :cond_9
     :goto_3
     return-void
-
-    nop
 
     :pswitch_data_0
     .packed-switch 0x1
@@ -1726,10 +1896,145 @@
 .method public getBinding()Lcom/rigol/scope/databinding/FragmentWaveformBinding;
     .locals 1
 
-    .line 621
+    .line 630
     iget-object v0, p0, Lcom/rigol/scope/WaveformFragment;->binding:Lcom/rigol/scope/databinding/FragmentWaveformBinding;
 
     return-object v0
+.end method
+
+.method public synthetic lambda$null$10$WaveformFragment(Lcom/rigol/scope/data/DecodeParam;Ljava/lang/Object;)V
+    .locals 1
+
+    .line 236
+    sget-object p2, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_DECODE:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
+
+    invoke-virtual {p1}, Lcom/rigol/scope/data/DecodeParam;->getServiceId()I
+
+    move-result v0
+
+    invoke-static {p2, v0}, Lcom/rigol/scope/utilities/ViewUtil;->getWindowHolderByServiceID(Lcom/rigol/scope/cil/ServiceEnum$WindowType;I)Lcom/rigol/scope/views/window/WindowHolder;
+
+    move-result-object p2
+
+    .line 237
+    invoke-virtual {p1}, Lcom/rigol/scope/data/DecodeParam;->isEvent()Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    if-eqz p2, :cond_1
+
+    .line 240
+    invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
+
+    move-result-object p1
+
+    invoke-virtual {p1, p2}, Lcom/rigol/scope/utilities/WindowHolderManager;->remove(Lcom/rigol/scope/views/window/WindowHolder;)V
+
+    goto :goto_0
+
+    :cond_0
+    if-nez p2, :cond_1
+
+    .line 245
+    new-instance p2, Lcom/rigol/scope/data/WindowParam;
+
+    invoke-direct {p2}, Lcom/rigol/scope/data/WindowParam;-><init>()V
+
+    .line 246
+    invoke-virtual {p1}, Lcom/rigol/scope/data/DecodeParam;->getServiceId()I
+
+    move-result p1
+
+    invoke-virtual {p2, p1}, Lcom/rigol/scope/data/WindowParam;->setServiceID(I)V
+
+    .line 247
+    sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_DECODE:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
+
+    invoke-virtual {p2, p1}, Lcom/rigol/scope/data/WindowParam;->setType(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)V
+
+    .line 248
+    invoke-virtual {p0, p2}, Lcom/rigol/scope/WaveformFragment;->addWindow(Lcom/rigol/scope/data/WindowParam;)V
+
+    :cond_1
+    :goto_0
+    return-void
+.end method
+
+.method public synthetic lambda$null$13$WaveformFragment(Lcom/rigol/scope/data/MathParam;Ljava/lang/Object;)V
+    .locals 1
+
+    .line 280
+    instance-of v0, p2, Ljava/lang/Boolean;
+
+    if-eqz v0, :cond_0
+
+    .line 281
+    check-cast p2, Ljava/lang/Boolean;
+
+    invoke-virtual {p2}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result p2
+
+    invoke-virtual {p1}, Lcom/rigol/scope/data/MathParam;->getServiceId()I
+
+    move-result p1
+
+    invoke-direct {p0, p2, p1}, Lcom/rigol/scope/WaveformFragment;->updateMathWindowState(ZI)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public synthetic lambda$null$14$WaveformFragment(Lcom/rigol/scope/data/MathParam;Ljava/lang/Object;)V
+    .locals 1
+
+    .line 289
+    instance-of v0, p2, Ljava/lang/Boolean;
+
+    if-eqz v0, :cond_0
+
+    .line 290
+    check-cast p2, Ljava/lang/Boolean;
+
+    invoke-virtual {p2}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result p2
+
+    invoke-virtual {p1}, Lcom/rigol/scope/data/MathParam;->getServiceId()I
+
+    move-result p1
+
+    invoke-direct {p0, p2, p1}, Lcom/rigol/scope/WaveformFragment;->updateMathDisplayMode(ZI)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public synthetic lambda$null$15$WaveformFragment(Lcom/rigol/scope/data/MathParam;Ljava/lang/Object;)V
+    .locals 1
+
+    .line 298
+    instance-of v0, p2, Ljava/lang/Boolean;
+
+    if-eqz v0, :cond_0
+
+    .line 299
+    check-cast p2, Ljava/lang/Boolean;
+
+    invoke-virtual {p2}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result p2
+
+    invoke-virtual {p1}, Lcom/rigol/scope/data/MathParam;->getServiceId()I
+
+    move-result p1
+
+    invoke-direct {p0, p2, p1}, Lcom/rigol/scope/WaveformFragment;->updateMathPeakWindowState(ZI)V
+
+    :cond_0
+    return-void
 .end method
 
 .method public synthetic lambda$onCreate$0$WaveformFragment(Lcom/rigol/scope/data/SharedParam;)V
@@ -1795,66 +2100,6 @@
     return-void
 .end method
 
-.method public synthetic lambda$onViewCreated$10$WaveformFragment(Lcom/rigol/scope/data/DecodeParam;Ljava/lang/Object;)V
-    .locals 1
-
-    .line 236
-    sget-object p2, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_DECODE:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
-
-    invoke-virtual {p1}, Lcom/rigol/scope/data/DecodeParam;->getServiceId()I
-
-    move-result v0
-
-    invoke-static {p2, v0}, Lcom/rigol/scope/utilities/ViewUtil;->getWindowHolderByServiceID(Lcom/rigol/scope/cil/ServiceEnum$WindowType;I)Lcom/rigol/scope/views/window/WindowHolder;
-
-    move-result-object p2
-
-    .line 237
-    invoke-virtual {p1}, Lcom/rigol/scope/data/DecodeParam;->isEvent()Z
-
-    move-result v0
-
-    if-nez v0, :cond_0
-
-    if-eqz p2, :cond_1
-
-    .line 240
-    invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
-
-    move-result-object p1
-
-    invoke-virtual {p1, p2}, Lcom/rigol/scope/utilities/WindowHolderManager;->remove(Lcom/rigol/scope/views/window/WindowHolder;)V
-
-    goto :goto_0
-
-    :cond_0
-    if-nez p2, :cond_1
-
-    .line 245
-    new-instance p2, Lcom/rigol/scope/data/WindowParam;
-
-    invoke-direct {p2}, Lcom/rigol/scope/data/WindowParam;-><init>()V
-
-    .line 246
-    invoke-virtual {p1}, Lcom/rigol/scope/data/DecodeParam;->getServiceId()I
-
-    move-result p1
-
-    invoke-virtual {p2, p1}, Lcom/rigol/scope/data/WindowParam;->setServiceID(I)V
-
-    .line 247
-    sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_DECODE:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
-
-    invoke-virtual {p2, p1}, Lcom/rigol/scope/data/WindowParam;->setType(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)V
-
-    .line 248
-    invoke-virtual {p0, p2}, Lcom/rigol/scope/WaveformFragment;->addWindow(Lcom/rigol/scope/data/WindowParam;)V
-
-    :cond_1
-    :goto_0
-    return-void
-.end method
-
 .method public synthetic lambda$onViewCreated$11$WaveformFragment(Ljava/util/ArrayList;)V
     .locals 4
 
@@ -1893,7 +2138,7 @@
 
     move-result v2
 
-    const/16 v3, 0x591b
+    const/16 v3, 0x5b1b
 
     invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -1905,9 +2150,9 @@
 
     check-cast v2, Landroidx/lifecycle/LifecycleOwner;
 
-    new-instance v3, Lcom/rigol/scope/-$$Lambda$WaveformFragment$DPM3Z3J-8mheMXSmnz6ZbXHV8dM;
+    new-instance v3, Lcom/rigol/scope/-$$Lambda$WaveformFragment$Dt5-UFbgzq9MlsO3Y94yGy8yg5U;
 
-    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/-$$Lambda$WaveformFragment$DPM3Z3J-8mheMXSmnz6ZbXHV8dM;-><init>(Lcom/rigol/scope/WaveformFragment;Lcom/rigol/scope/data/DecodeParam;)V
+    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/-$$Lambda$WaveformFragment$Dt5-UFbgzq9MlsO3Y94yGy8yg5U;-><init>(Lcom/rigol/scope/WaveformFragment;Lcom/rigol/scope/data/DecodeParam;)V
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
@@ -1923,57 +2168,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$onViewCreated$13$WaveformFragment(Lcom/rigol/scope/data/MathParam;Ljava/lang/Object;)V
-    .locals 1
-
-    .line 280
-    instance-of v0, p2, Ljava/lang/Boolean;
-
-    if-eqz v0, :cond_0
-
-    .line 281
-    check-cast p2, Ljava/lang/Boolean;
-
-    invoke-virtual {p2}, Ljava/lang/Boolean;->booleanValue()Z
-
-    move-result p2
-
-    invoke-virtual {p1}, Lcom/rigol/scope/data/MathParam;->getServiceId()I
-
-    move-result p1
-
-    invoke-direct {p0, p2, p1}, Lcom/rigol/scope/WaveformFragment;->updateMathWindowState(ZI)V
-
-    :cond_0
-    return-void
-.end method
-
-.method public synthetic lambda$onViewCreated$14$WaveformFragment(Lcom/rigol/scope/data/MathParam;Ljava/lang/Object;)V
-    .locals 1
-
-    .line 289
-    instance-of v0, p2, Ljava/lang/Boolean;
-
-    if-eqz v0, :cond_0
-
-    .line 290
-    check-cast p2, Ljava/lang/Boolean;
-
-    invoke-virtual {p2}, Ljava/lang/Boolean;->booleanValue()Z
-
-    move-result p2
-
-    invoke-virtual {p1}, Lcom/rigol/scope/data/MathParam;->getServiceId()I
-
-    move-result p1
-
-    invoke-direct {p0, p2, p1}, Lcom/rigol/scope/WaveformFragment;->updateMathPeakWindowState(ZI)V
-
-    :cond_0
-    return-void
-.end method
-
-.method public synthetic lambda$onViewCreated$15$WaveformFragment(Ljava/util/ArrayList;)V
+.method public synthetic lambda$onViewCreated$16$WaveformFragment(Ljava/util/ArrayList;)V
     .locals 4
 
     .line 266
@@ -2011,7 +2206,7 @@
 
     move-result v2
 
-    const/16 v3, 0x2f01
+    const/16 v3, 0x3101
 
     invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -2021,9 +2216,9 @@
 
     move-result-object v2
 
-    new-instance v3, Lcom/rigol/scope/-$$Lambda$WaveformFragment$Y08CAzSBf3o0zYrm1qsZurwk_u8;
+    new-instance v3, Lcom/rigol/scope/-$$Lambda$WaveformFragment$goCKrC9Y9byGqP-X2kUuuytm4Kk;
 
-    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/-$$Lambda$WaveformFragment$Y08CAzSBf3o0zYrm1qsZurwk_u8;-><init>(Lcom/rigol/scope/WaveformFragment;Lcom/rigol/scope/data/MathParam;)V
+    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/-$$Lambda$WaveformFragment$goCKrC9Y9byGqP-X2kUuuytm4Kk;-><init>(Lcom/rigol/scope/WaveformFragment;Lcom/rigol/scope/data/MathParam;)V
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
@@ -2034,7 +2229,7 @@
 
     move-result v2
 
-    const/16 v3, 0x2f12
+    const/16 v3, 0x316b
 
     invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -2044,9 +2239,32 @@
 
     move-result-object v2
 
-    new-instance v3, Lcom/rigol/scope/-$$Lambda$WaveformFragment$MmVzsVMiIYT0vZOqSGxoKD6NB9w;
+    new-instance v3, Lcom/rigol/scope/-$$Lambda$WaveformFragment$uPyDW9eD7NDSepPFr2uFUTU8ad4;
 
-    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/-$$Lambda$WaveformFragment$MmVzsVMiIYT0vZOqSGxoKD6NB9w;-><init>(Lcom/rigol/scope/WaveformFragment;Lcom/rigol/scope/data/MathParam;)V
+    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/-$$Lambda$WaveformFragment$uPyDW9eD7NDSepPFr2uFUTU8ad4;-><init>(Lcom/rigol/scope/WaveformFragment;Lcom/rigol/scope/data/MathParam;)V
+
+    invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+
+    .line 295
+    iget-object v1, p0, Lcom/rigol/scope/WaveformFragment;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
+
+    invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getServiceId()I
+
+    move-result v2
+
+    const/16 v3, 0x3112
+
+    invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+
+    move-result-object v1
+
+    invoke-virtual {p0}, Lcom/rigol/scope/WaveformFragment;->getViewLifecycleOwner()Landroidx/lifecycle/LifecycleOwner;
+
+    move-result-object v2
+
+    new-instance v3, Lcom/rigol/scope/-$$Lambda$WaveformFragment$T3JbGQxrEd2NPkDcWnqIaih82RU;
+
+    invoke-direct {v3, p0, v0}, Lcom/rigol/scope/-$$Lambda$WaveformFragment$T3JbGQxrEd2NPkDcWnqIaih82RU;-><init>(Lcom/rigol/scope/WaveformFragment;Lcom/rigol/scope/data/MathParam;)V
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
@@ -2056,10 +2274,10 @@
     return-void
 .end method
 
-.method public synthetic lambda$onViewCreated$16$WaveformFragment(Landroid/view/KeyEvent;)V
+.method public synthetic lambda$onViewCreated$17$WaveformFragment(Landroid/view/KeyEvent;)V
     .locals 11
 
-    .line 302
+    .line 311
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v0
@@ -2072,7 +2290,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 303
+    .line 312
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v0
@@ -2085,10 +2303,10 @@
 
     check-cast v0, Lcom/rigol/scope/views/knob/FlexKnobPopupView;
 
-    .line 304
+    .line 313
     invoke-virtual {v0}, Lcom/rigol/scope/views/knob/FlexKnobPopupView;->dismiss()V
 
-    .line 306
+    .line 315
     :cond_0
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -2112,7 +2330,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 307
+    .line 316
     :cond_1
     iget-object v1, p0, Lcom/rigol/scope/WaveformFragment;->panelKeyViewModel:Lcom/rigol/scope/viewmodels/PanelKeyViewModel;
 
@@ -2120,7 +2338,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/WaveformFragment;->cursorViewModel:Lcom/rigol/scope/viewmodels/CursorViewModel;
 
-    .line 309
+    .line 318
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/CursorViewModel;->getValue()Ljava/lang/Object;
 
     move-result-object v0
@@ -2133,7 +2351,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/WaveformFragment;->displayViewModel:Lcom/rigol/scope/viewmodels/DisplayViewModel;
 
-    .line 311
+    .line 320
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/DisplayViewModel;->getValue()Ljava/lang/Object;
 
     move-result-object v0
@@ -2152,22 +2370,22 @@
 
     move-object v2, p1
 
-    .line 307
+    .line 316
     invoke-virtual/range {v1 .. v10}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->handleFlexKnob(Landroid/view/KeyEvent;Lcom/rigol/scope/data/FlexKnobParam;Lcom/rigol/scope/data/CursorResultParam;Ljava/util/List;Lcom/rigol/scope/data/DisplayParam;Lcom/rigol/scope/data/RefParam;Ljava/util/List;Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;Lcom/rigol/scope/data/BodeParam;)V
 
     :cond_2
     return-void
 .end method
 
-.method public synthetic lambda$onViewCreated$17$WaveformFragment(Ljava/lang/Object;)V
+.method public synthetic lambda$onViewCreated$18$WaveformFragment(Ljava/lang/Object;)V
     .locals 1
 
-    .line 338
+    .line 347
     instance-of v0, p1, Ljava/lang/Boolean;
 
     if-eqz v0, :cond_0
 
-    .line 339
+    .line 348
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-direct {p0, p1}, Lcom/rigol/scope/WaveformFragment;->updateHistogramWinState(Ljava/lang/Boolean;)V
@@ -2176,22 +2394,22 @@
     return-void
 .end method
 
-.method public synthetic lambda$onViewCreated$18$WaveformFragment(Ljava/lang/Object;)V
+.method public synthetic lambda$onViewCreated$19$WaveformFragment(Ljava/lang/Object;)V
     .locals 3
 
-    .line 346
+    .line 355
     instance-of v0, p1, Ljava/lang/Integer;
 
     if-eqz v0, :cond_8
 
-    .line 347
+    .line 356
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
     move-result p1
 
-    .line 348
+    .line 357
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$CursorView;->cursor_view_vert:Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     iget v0, v0, Lcom/rigol/scope/cil/ServiceEnum$CursorView;->value1:I
@@ -2202,14 +2420,14 @@
 
     if-ne p1, v0, :cond_3
 
-    .line 349
+    .line 358
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->cursorParam:Lcom/rigol/scope/data/CursorResultParam;
 
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$CursorView;->cursor_view_vert:Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/CursorResultParam;->setCursorLineBMode(Lcom/rigol/scope/cil/ServiceEnum$CursorView;)V
 
-    .line 351
+    .line 360
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->viewABkeyViewModel:Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;->getAx_boolean()Landroidx/lifecycle/MutableLiveData;
@@ -2218,7 +2436,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 352
+    .line 361
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->viewABkeyViewModel:Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;->getAx_boolean()Landroidx/lifecycle/MutableLiveData;
@@ -2231,7 +2449,7 @@
 
     invoke-virtual {p1, v0}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 354
+    .line 363
     :cond_0
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->viewABkeyViewModel:Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
@@ -2241,7 +2459,7 @@
 
     if-eqz p1, :cond_1
 
-    .line 355
+    .line 364
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->viewABkeyViewModel:Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;->getBx_boolean()Landroidx/lifecycle/MutableLiveData;
@@ -2254,7 +2472,7 @@
 
     invoke-virtual {p1, v0}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 357
+    .line 366
     :cond_1
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->viewABkeyViewModel:Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
@@ -2264,7 +2482,7 @@
 
     if-eqz p1, :cond_2
 
-    .line 358
+    .line 367
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->viewABkeyViewModel:Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;->getAy_boolean()Landroidx/lifecycle/MutableLiveData;
@@ -2277,7 +2495,7 @@
 
     invoke-virtual {p1, v0}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 360
+    .line 369
     :cond_2
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->viewABkeyViewModel:Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
@@ -2287,7 +2505,7 @@
 
     if-eqz p1, :cond_7
 
-    .line 361
+    .line 370
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->viewABkeyViewModel:Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;->getBy_boolean()Landroidx/lifecycle/MutableLiveData;
@@ -2302,7 +2520,7 @@
 
     goto :goto_0
 
-    .line 364
+    .line 373
     :cond_3
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->cursorParam:Lcom/rigol/scope/data/CursorResultParam;
 
@@ -2310,7 +2528,7 @@
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/CursorResultParam;->setCursorLineBMode(Lcom/rigol/scope/cil/ServiceEnum$CursorView;)V
 
-    .line 366
+    .line 375
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->viewABkeyViewModel:Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;->getAy_boolean()Landroidx/lifecycle/MutableLiveData;
@@ -2319,7 +2537,7 @@
 
     if-eqz p1, :cond_4
 
-    .line 367
+    .line 376
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->viewABkeyViewModel:Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;->getAy_boolean()Landroidx/lifecycle/MutableLiveData;
@@ -2332,7 +2550,7 @@
 
     invoke-virtual {p1, v0}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 369
+    .line 378
     :cond_4
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->viewABkeyViewModel:Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
@@ -2342,7 +2560,7 @@
 
     if-eqz p1, :cond_5
 
-    .line 370
+    .line 379
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->viewABkeyViewModel:Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;->getBy_boolean()Landroidx/lifecycle/MutableLiveData;
@@ -2355,7 +2573,7 @@
 
     invoke-virtual {p1, v0}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 372
+    .line 381
     :cond_5
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->viewABkeyViewModel:Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
@@ -2365,7 +2583,7 @@
 
     if-eqz p1, :cond_6
 
-    .line 373
+    .line 382
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->viewABkeyViewModel:Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;->getAx_boolean()Landroidx/lifecycle/MutableLiveData;
@@ -2378,7 +2596,7 @@
 
     invoke-virtual {p1, v0}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 375
+    .line 384
     :cond_6
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->viewABkeyViewModel:Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
@@ -2388,7 +2606,7 @@
 
     if-eqz p1, :cond_7
 
-    .line 376
+    .line 385
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->viewABkeyViewModel:Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;->getBx_boolean()Landroidx/lifecycle/MutableLiveData;
@@ -2401,7 +2619,7 @@
 
     invoke-virtual {p1, v0}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 380
+    .line 389
     :cond_7
     :goto_0
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
@@ -2424,27 +2642,6 @@
     return-void
 .end method
 
-.method public synthetic lambda$onViewCreated$19$WaveformFragment(Ljava/lang/Object;)V
-    .locals 1
-
-    .line 388
-    instance-of v0, p1, Ljava/lang/Boolean;
-
-    if-eqz v0, :cond_0
-
-    .line 389
-    check-cast p1, Ljava/lang/Boolean;
-
-    invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
-
-    move-result p1
-
-    invoke-direct {p0, p1}, Lcom/rigol/scope/WaveformFragment;->updateRtsaWindowState(Z)V
-
-    :cond_0
-    return-void
-.end method
-
 .method public synthetic lambda$onViewCreated$20$WaveformFragment(Ljava/lang/Object;)V
     .locals 1
 
@@ -2456,7 +2653,11 @@
     .line 398
     check-cast p1, Ljava/lang/Boolean;
 
-    invoke-direct {p0, p1}, Lcom/rigol/scope/WaveformFragment;->updateHistogramWinState(Ljava/lang/Boolean;)V
+    invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result p1
+
+    invoke-direct {p0, p1}, Lcom/rigol/scope/WaveformFragment;->updateRtsaWindowState(Z)V
 
     :cond_0
     return-void
@@ -2473,11 +2674,7 @@
     .line 407
     check-cast p1, Ljava/lang/Boolean;
 
-    invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
-
-    move-result p1
-
-    invoke-direct {p0, p1}, Lcom/rigol/scope/WaveformFragment;->updateRtsaPeakWindowState(Z)V
+    invoke-direct {p0, p1}, Lcom/rigol/scope/WaveformFragment;->updateHistogramWinState(Ljava/lang/Boolean;)V
 
     :cond_0
     return-void
@@ -2486,19 +2683,19 @@
 .method public synthetic lambda$onViewCreated$22$WaveformFragment(Ljava/lang/Object;)V
     .locals 1
 
-    .line 414
+    .line 415
     instance-of v0, p1, Ljava/lang/Boolean;
 
     if-eqz v0, :cond_0
 
-    .line 415
+    .line 416
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p1
 
-    invoke-virtual {p0, p1}, Lcom/rigol/scope/WaveformFragment;->updateEyeWindowState(Z)V
+    invoke-direct {p0, p1}, Lcom/rigol/scope/WaveformFragment;->updateRtsaPeakWindowState(Z)V
 
     :cond_0
     return-void
@@ -2519,154 +2716,37 @@
 
     move-result p1
 
-    invoke-direct {p0, p1}, Lcom/rigol/scope/WaveformFragment;->updateXYWindowState(Z)V
+    invoke-virtual {p0, p1}, Lcom/rigol/scope/WaveformFragment;->updateEyeWindowState(Z)V
 
     :cond_0
     return-void
 .end method
 
 .method public synthetic lambda$onViewCreated$24$WaveformFragment(Ljava/lang/Object;)V
-    .locals 4
+    .locals 1
 
-    .line 431
-    const-class p1, Lcom/rigol/scope/viewmodels/MeasureSettingViewModel;
+    .line 432
+    instance-of v0, p1, Ljava/lang/Boolean;
 
-    invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
+    if-eqz v0, :cond_0
 
-    move-result-object p1
+    .line 433
+    check-cast p1, Ljava/lang/Boolean;
 
-    check-cast p1, Lcom/rigol/scope/viewmodels/MeasureSettingViewModel;
+    invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
-    if-nez p1, :cond_0
+    move-result p1
 
-    return-void
+    invoke-direct {p0, p1}, Lcom/rigol/scope/WaveformFragment;->updateXYWindowState(Z)V
 
-    .line 436
     :cond_0
-    invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/MeasureSettingViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
-
-    move-result-object p1
-
-    invoke-virtual {p1}, Landroidx/lifecycle/LiveData;->getValue()Ljava/lang/Object;
-
-    move-result-object p1
-
-    check-cast p1, Lcom/rigol/scope/data/MeasureSettingParam;
-
-    if-nez p1, :cond_1
-
-    return-void
-
-    .line 441
-    :cond_1
-    invoke-virtual {p1}, Lcom/rigol/scope/data/MeasureSettingParam;->getMeasureAllSrc()Lcom/rigol/scope/cil/ServiceEnum$Chan;
-
-    move-result-object v0
-
-    .line 444
-    invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
-
-    move-result-object v1
-
-    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_ALL_MEASURE:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
-
-    invoke-virtual {v1, v2}, Lcom/rigol/scope/utilities/WindowHolderManager;->get(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)Ljava/util/List;
-
-    move-result-object v1
-
-    .line 447
-    iget v2, v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
-
-    sget-object v3, Lcom/rigol/scope/cil/ServiceEnum$Chan;->chan1:Lcom/rigol/scope/cil/ServiceEnum$Chan;
-
-    iget v3, v3, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
-
-    if-lt v2, v3, :cond_3
-
-    iget v2, v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
-
-    sget-object v3, Lcom/rigol/scope/cil/ServiceEnum$Chan;->chan4:Lcom/rigol/scope/cil/ServiceEnum$Chan;
-
-    iget v3, v3, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
-
-    if-gt v2, v3, :cond_3
-
-    if-eqz v1, :cond_2
-
-    .line 449
-    invoke-interface {v1}, Ljava/util/List;->size()I
-
-    move-result v1
-
-    if-eqz v1, :cond_2
-
-    return-void
-
-    .line 453
-    :cond_2
-    new-instance v1, Lcom/rigol/scope/data/WindowParam;
-
-    invoke-direct {v1}, Lcom/rigol/scope/data/WindowParam;-><init>()V
-
-    .line 454
-    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_ALL_MEASURE:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
-
-    invoke-virtual {v1, v2}, Lcom/rigol/scope/data/WindowParam;->setType(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)V
-
-    .line 455
-    invoke-virtual {v1, v0}, Lcom/rigol/scope/data/WindowParam;->setSource1(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
-
-    .line 456
-    invoke-virtual {p1}, Lcom/rigol/scope/data/MeasureSettingParam;->getServiceId()I
-
-    move-result p1
-
-    invoke-virtual {v1, p1}, Lcom/rigol/scope/data/WindowParam;->setServiceID(I)V
-
-    .line 457
-    iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->mActivity:Landroidx/appcompat/app/AppCompatActivity;
-
-    check-cast p1, Lcom/rigol/scope/MainActivity;
-
-    invoke-virtual {p1}, Lcom/rigol/scope/MainActivity;->getWaveformFragment()Lcom/rigol/scope/WaveformFragment;
-
-    move-result-object p1
-
-    invoke-virtual {p1, v1}, Lcom/rigol/scope/WaveformFragment;->addWindow(Lcom/rigol/scope/data/WindowParam;)V
-
-    goto :goto_0
-
-    :cond_3
-    if-eqz v1, :cond_5
-
-    .line 461
-    invoke-interface {v1}, Ljava/util/List;->size()I
-
-    move-result p1
-
-    if-nez p1, :cond_4
-
-    goto :goto_0
-
-    .line 464
-    :cond_4
-    invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
-
-    move-result-object p1
-
-    sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_ALL_MEASURE:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
-
-    invoke-virtual {p1, v0}, Lcom/rigol/scope/utilities/WindowHolderManager;->remove(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)V
-
-    :cond_5
-    :goto_0
     return-void
 .end method
 
 .method public synthetic lambda$onViewCreated$25$WaveformFragment(Ljava/lang/Object;)V
     .locals 4
 
-    .line 471
+    .line 440
     const-class p1, Lcom/rigol/scope/viewmodels/MeasureSettingViewModel;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -2679,7 +2759,7 @@
 
     return-void
 
-    .line 476
+    .line 445
     :cond_0
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/MeasureSettingViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
@@ -2695,13 +2775,13 @@
 
     return-void
 
-    .line 481
+    .line 450
     :cond_1
     invoke-virtual {p1}, Lcom/rigol/scope/data/MeasureSettingParam;->getMeasureAllSrc()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
-    .line 484
+    .line 453
     invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
 
     move-result-object v1
@@ -2712,7 +2792,7 @@
 
     move-result-object v1
 
-    .line 487
+    .line 456
     iget v2, v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
     sget-object v3, Lcom/rigol/scope/cil/ServiceEnum$Chan;->chan1:Lcom/rigol/scope/cil/ServiceEnum$Chan;
@@ -2731,7 +2811,7 @@
 
     if-eqz v1, :cond_2
 
-    .line 489
+    .line 458
     invoke-interface {v1}, Ljava/util/List;->size()I
 
     move-result v1
@@ -2740,28 +2820,28 @@
 
     return-void
 
-    .line 493
+    .line 462
     :cond_2
     new-instance v1, Lcom/rigol/scope/data/WindowParam;
 
     invoke-direct {v1}, Lcom/rigol/scope/data/WindowParam;-><init>()V
 
-    .line 494
+    .line 463
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_ALL_MEASURE:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     invoke-virtual {v1, v2}, Lcom/rigol/scope/data/WindowParam;->setType(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)V
 
-    .line 495
+    .line 464
     invoke-virtual {v1, v0}, Lcom/rigol/scope/data/WindowParam;->setSource1(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 496
+    .line 465
     invoke-virtual {p1}, Lcom/rigol/scope/data/MeasureSettingParam;->getServiceId()I
 
     move-result p1
 
     invoke-virtual {v1, p1}, Lcom/rigol/scope/data/WindowParam;->setServiceID(I)V
 
-    .line 497
+    .line 466
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->mActivity:Landroidx/appcompat/app/AppCompatActivity;
 
     check-cast p1, Lcom/rigol/scope/MainActivity;
@@ -2777,7 +2857,7 @@
     :cond_3
     if-eqz v1, :cond_5
 
-    .line 501
+    .line 470
     invoke-interface {v1}, Ljava/util/List;->size()I
 
     move-result p1
@@ -2786,7 +2866,7 @@
 
     goto :goto_0
 
-    .line 504
+    .line 473
     :cond_4
     invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
 
@@ -2802,16 +2882,154 @@
 .end method
 
 .method public synthetic lambda$onViewCreated$26$WaveformFragment(Ljava/lang/Object;)V
+    .locals 4
+
+    .line 480
+    const-class p1, Lcom/rigol/scope/viewmodels/MeasureSettingViewModel;
+
+    invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/rigol/scope/viewmodels/MeasureSettingViewModel;
+
+    if-nez p1, :cond_0
+
+    return-void
+
+    .line 485
+    :cond_0
+    invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/MeasureSettingViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Landroidx/lifecycle/LiveData;->getValue()Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/rigol/scope/data/MeasureSettingParam;
+
+    if-nez p1, :cond_1
+
+    return-void
+
+    .line 490
+    :cond_1
+    invoke-virtual {p1}, Lcom/rigol/scope/data/MeasureSettingParam;->getMeasureAllSrc()Lcom/rigol/scope/cil/ServiceEnum$Chan;
+
+    move-result-object v0
+
+    .line 493
+    invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
+
+    move-result-object v1
+
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_ALL_MEASURE:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
+
+    invoke-virtual {v1, v2}, Lcom/rigol/scope/utilities/WindowHolderManager;->get(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)Ljava/util/List;
+
+    move-result-object v1
+
+    .line 496
+    iget v2, v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
+
+    sget-object v3, Lcom/rigol/scope/cil/ServiceEnum$Chan;->chan1:Lcom/rigol/scope/cil/ServiceEnum$Chan;
+
+    iget v3, v3, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
+
+    if-lt v2, v3, :cond_3
+
+    iget v2, v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
+
+    sget-object v3, Lcom/rigol/scope/cil/ServiceEnum$Chan;->chan4:Lcom/rigol/scope/cil/ServiceEnum$Chan;
+
+    iget v3, v3, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
+
+    if-gt v2, v3, :cond_3
+
+    if-eqz v1, :cond_2
+
+    .line 498
+    invoke-interface {v1}, Ljava/util/List;->size()I
+
+    move-result v1
+
+    if-eqz v1, :cond_2
+
+    return-void
+
+    .line 502
+    :cond_2
+    new-instance v1, Lcom/rigol/scope/data/WindowParam;
+
+    invoke-direct {v1}, Lcom/rigol/scope/data/WindowParam;-><init>()V
+
+    .line 503
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_ALL_MEASURE:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
+
+    invoke-virtual {v1, v2}, Lcom/rigol/scope/data/WindowParam;->setType(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)V
+
+    .line 504
+    invoke-virtual {v1, v0}, Lcom/rigol/scope/data/WindowParam;->setSource1(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
+
+    .line 505
+    invoke-virtual {p1}, Lcom/rigol/scope/data/MeasureSettingParam;->getServiceId()I
+
+    move-result p1
+
+    invoke-virtual {v1, p1}, Lcom/rigol/scope/data/WindowParam;->setServiceID(I)V
+
+    .line 506
+    iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->mActivity:Landroidx/appcompat/app/AppCompatActivity;
+
+    check-cast p1, Lcom/rigol/scope/MainActivity;
+
+    invoke-virtual {p1}, Lcom/rigol/scope/MainActivity;->getWaveformFragment()Lcom/rigol/scope/WaveformFragment;
+
+    move-result-object p1
+
+    invoke-virtual {p1, v1}, Lcom/rigol/scope/WaveformFragment;->addWindow(Lcom/rigol/scope/data/WindowParam;)V
+
+    goto :goto_0
+
+    :cond_3
+    if-eqz v1, :cond_5
+
+    .line 510
+    invoke-interface {v1}, Ljava/util/List;->size()I
+
+    move-result p1
+
+    if-nez p1, :cond_4
+
+    goto :goto_0
+
+    .line 513
+    :cond_4
+    invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
+
+    move-result-object p1
+
+    sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_ALL_MEASURE:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
+
+    invoke-virtual {p1, v0}, Lcom/rigol/scope/utilities/WindowHolderManager;->remove(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)V
+
+    :cond_5
+    :goto_0
+    return-void
+.end method
+
+.method public synthetic lambda$onViewCreated$27$WaveformFragment(Ljava/lang/Object;)V
     .locals 1
 
-    .line 511
+    .line 520
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->jitterParam:Lcom/rigol/scope/data/JitterParam;
 
     if-nez p1, :cond_0
 
     return-void
 
-    .line 516
+    .line 525
     :cond_0
     invoke-virtual {p1}, Lcom/rigol/scope/data/JitterParam;->isEnabled()Z
 
@@ -2819,7 +3037,7 @@
 
     if-eqz p1, :cond_4
 
-    .line 518
+    .line 527
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->jitterParam:Lcom/rigol/scope/data/JitterParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/JitterParam;->isTrack()Z
@@ -2830,10 +3048,10 @@
 
     if-eqz p1, :cond_1
 
-    .line 519
+    .line 528
     invoke-virtual {p0, v0}, Lcom/rigol/scope/WaveformFragment;->updateJitterTrackWinState(Z)V
 
-    .line 522
+    .line 531
     :cond_1
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->jitterParam:Lcom/rigol/scope/data/JitterParam;
 
@@ -2843,10 +3061,10 @@
 
     if-eqz p1, :cond_2
 
-    .line 523
+    .line 532
     invoke-virtual {p0, v0}, Lcom/rigol/scope/WaveformFragment;->updateJitterSpectrumWinState(Z)V
 
-    .line 527
+    .line 536
     :cond_2
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->jitterParam:Lcom/rigol/scope/data/JitterParam;
 
@@ -2856,10 +3074,10 @@
 
     if-eqz p1, :cond_3
 
-    .line 528
+    .line 537
     invoke-virtual {p0, v0}, Lcom/rigol/scope/WaveformFragment;->updateJitterHistogramWinState(Z)V
 
-    .line 532
+    .line 541
     :cond_3
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->jitterParam:Lcom/rigol/scope/data/JitterParam;
 
@@ -2869,7 +3087,7 @@
 
     if-eqz p1, :cond_5
 
-    .line 533
+    .line 542
     invoke-virtual {p0, v0}, Lcom/rigol/scope/WaveformFragment;->updateJitterBathtubCurveWinState(Z)V
 
     goto :goto_0
@@ -2877,16 +3095,16 @@
     :cond_4
     const/4 p1, 0x0
 
-    .line 538
+    .line 547
     invoke-virtual {p0, p1}, Lcom/rigol/scope/WaveformFragment;->updateJitterTrackWinState(Z)V
 
-    .line 539
+    .line 548
     invoke-virtual {p0, p1}, Lcom/rigol/scope/WaveformFragment;->updateJitterSpectrumWinState(Z)V
 
-    .line 540
+    .line 549
     invoke-virtual {p0, p1}, Lcom/rigol/scope/WaveformFragment;->updateJitterHistogramWinState(Z)V
 
-    .line 541
+    .line 550
     invoke-virtual {p0, p1}, Lcom/rigol/scope/WaveformFragment;->updateJitterBathtubCurveWinState(Z)V
 
     :cond_5
@@ -2894,17 +3112,17 @@
     return-void
 .end method
 
-.method public synthetic lambda$onViewCreated$27$WaveformFragment(Ljava/lang/Object;)V
+.method public synthetic lambda$onViewCreated$28$WaveformFragment(Ljava/lang/Object;)V
     .locals 2
 
-    .line 548
+    .line 557
     iget-object v0, p0, Lcom/rigol/scope/WaveformFragment;->jitterParam:Lcom/rigol/scope/data/JitterParam;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 552
+    .line 561
     :cond_0
     instance-of v1, p1, Ljava/lang/Boolean;
 
@@ -2916,7 +3134,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 553
+    .line 562
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
@@ -2929,15 +3147,15 @@
     return-void
 .end method
 
-.method public synthetic lambda$onViewCreated$28$WaveformFragment(Ljava/lang/Object;)V
+.method public synthetic lambda$onViewCreated$29$WaveformFragment(Ljava/lang/Object;)V
     .locals 1
 
-    .line 560
+    .line 569
     instance-of v0, p1, Ljava/lang/Boolean;
 
     if-eqz v0, :cond_0
 
-    .line 561
+    .line 570
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
@@ -2950,15 +3168,15 @@
     return-void
 .end method
 
-.method public synthetic lambda$onViewCreated$29$WaveformFragment(Ljava/lang/Object;)V
+.method public synthetic lambda$onViewCreated$30$WaveformFragment(Ljava/lang/Object;)V
     .locals 1
 
-    .line 568
+    .line 577
     instance-of v0, p1, Ljava/lang/Boolean;
 
     if-eqz v0, :cond_0
 
-    .line 569
+    .line 578
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
@@ -2971,15 +3189,15 @@
     return-void
 .end method
 
-.method public synthetic lambda$onViewCreated$30$WaveformFragment(Ljava/lang/Object;)V
+.method public synthetic lambda$onViewCreated$31$WaveformFragment(Ljava/lang/Object;)V
     .locals 1
 
-    .line 576
+    .line 585
     instance-of v0, p1, Ljava/lang/Boolean;
 
     if-eqz v0, :cond_0
 
-    .line 577
+    .line 586
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
@@ -2992,15 +3210,15 @@
     return-void
 .end method
 
-.method public synthetic lambda$onViewCreated$31$WaveformFragment(Ljava/lang/Object;)V
+.method public synthetic lambda$onViewCreated$32$WaveformFragment(Ljava/lang/Object;)V
     .locals 1
 
-    .line 584
+    .line 593
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->optionParam:Lcom/rigol/scope/data/OptionParam;
 
     if-eqz p1, :cond_3
 
-    .line 586
+    .line 595
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_FFT:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     iget-object v0, p0, Lcom/rigol/scope/WaveformFragment;->optionParam:Lcom/rigol/scope/data/OptionParam;
@@ -3011,7 +3229,7 @@
 
     if-nez p1, :cond_0
 
-    .line 588
+    .line 597
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
@@ -3020,7 +3238,7 @@
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/utilities/PopupViewManager;->dismiss(Ljava/lang/Class;)V
 
-    .line 592
+    .line 601
     :cond_0
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_EYE:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
@@ -3032,7 +3250,7 @@
 
     if-nez p1, :cond_1
 
-    .line 594
+    .line 603
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
@@ -3041,7 +3259,7 @@
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/utilities/PopupViewManager;->dismiss(Ljava/lang/Class;)V
 
-    .line 598
+    .line 607
     :cond_1
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_JITTER:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
@@ -3053,7 +3271,7 @@
 
     if-nez p1, :cond_2
 
-    .line 600
+    .line 609
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
@@ -3062,7 +3280,7 @@
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/utilities/PopupViewManager;->dismiss(Ljava/lang/Class;)V
 
-    .line 604
+    .line 613
     :cond_2
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_BUS_ANALYSE:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
@@ -3074,7 +3292,7 @@
 
     if-nez p1, :cond_3
 
-    .line 606
+    .line 615
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
@@ -3457,7 +3675,7 @@
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 0
 
-    .line 772
+    .line 782
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->mActivity:Landroidx/appcompat/app/AppCompatActivity;
 
     invoke-static {p1}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
@@ -3470,20 +3688,20 @@
 
     iput-object p1, p0, Lcom/rigol/scope/WaveformFragment;->binding:Lcom/rigol/scope/databinding/FragmentWaveformBinding;
 
-    .line 775
+    .line 785
     new-instance p1, Lcom/rigol/scope/data/WindowParam;
 
     invoke-direct {p1}, Lcom/rigol/scope/data/WindowParam;-><init>()V
 
-    .line 776
+    .line 786
     sget-object p2, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_MAIN_WAVEFORM:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/data/WindowParam;->setType(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)V
 
-    .line 777
+    .line 787
     invoke-virtual {p0, p1}, Lcom/rigol/scope/WaveformFragment;->addWindow(Lcom/rigol/scope/data/WindowParam;)V
 
-    .line 780
+    .line 790
     iget-object p2, p0, Lcom/rigol/scope/WaveformFragment;->binding:Lcom/rigol/scope/databinding/FragmentWaveformBinding;
 
     iget-object p2, p2, Lcom/rigol/scope/databinding/FragmentWaveformBinding;->multiWindow:Lcom/rigol/scope/views/multi/MultiWindow;
@@ -3494,7 +3712,7 @@
 
     invoke-virtual {p2, p3}, Lcom/rigol/scope/views/multi/MultiWindow;->setCallback(Lcom/rigol/scope/views/multi/MultiWindow$Callback;)V
 
-    .line 873
+    .line 883
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->binding:Lcom/rigol/scope/databinding/FragmentWaveformBinding;
 
     invoke-virtual {p1}, Lcom/rigol/scope/databinding/FragmentWaveformBinding;->getRoot()Landroid/view/View;
@@ -3641,19 +3859,19 @@
 
     check-cast p2, Landroidx/lifecycle/LifecycleOwner;
 
-    new-instance v0, Lcom/rigol/scope/-$$Lambda$WaveformFragment$faQ1Km7s-fnxJmw3BZBVk8Mjg84;
+    new-instance v0, Lcom/rigol/scope/-$$Lambda$WaveformFragment$-65_fgQAo1QT-tHhoJLKGEVsveU;
 
-    invoke-direct {v0, p0}, Lcom/rigol/scope/-$$Lambda$WaveformFragment$faQ1Km7s-fnxJmw3BZBVk8Mjg84;-><init>(Lcom/rigol/scope/WaveformFragment;)V
+    invoke-direct {v0, p0}, Lcom/rigol/scope/-$$Lambda$WaveformFragment$-65_fgQAo1QT-tHhoJLKGEVsveU;-><init>(Lcom/rigol/scope/WaveformFragment;)V
 
     invoke-virtual {p1, p2, v0}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 297
+    .line 306
     :cond_5
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->panelKeyViewModel:Lcom/rigol/scope/viewmodels/PanelKeyViewModel;
 
     if-eqz p1, :cond_6
 
-    .line 298
+    .line 307
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->getOnKeyUpData()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
@@ -3664,19 +3882,19 @@
 
     check-cast p2, Landroidx/lifecycle/LifecycleOwner;
 
-    new-instance v0, Lcom/rigol/scope/-$$Lambda$WaveformFragment$fyNPfz9C6Yl_aNgS8_oWb4qLBDo;
+    new-instance v0, Lcom/rigol/scope/-$$Lambda$WaveformFragment$Dj1OZb4wYUeGwVLK9wadGDO8Drw;
 
-    invoke-direct {v0, p0}, Lcom/rigol/scope/-$$Lambda$WaveformFragment$fyNPfz9C6Yl_aNgS8_oWb4qLBDo;-><init>(Lcom/rigol/scope/WaveformFragment;)V
+    invoke-direct {v0, p0}, Lcom/rigol/scope/-$$Lambda$WaveformFragment$Dj1OZb4wYUeGwVLK9wadGDO8Drw;-><init>(Lcom/rigol/scope/WaveformFragment;)V
 
     invoke-virtual {p1, p2, v0}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 336
+    .line 345
     :cond_6
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
     const/16 p2, 0x1c
 
-    const/16 v0, 0x33d7
+    const/16 v0, 0x35d7
 
     invoke-virtual {p1, p2, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -3686,13 +3904,13 @@
 
     move-result-object v1
 
-    new-instance v2, Lcom/rigol/scope/-$$Lambda$WaveformFragment$N7YBmqjMD_TinK5F1qWfVZ0I9aU;
+    new-instance v2, Lcom/rigol/scope/-$$Lambda$WaveformFragment$W_U4zhiZP3yESwp1e5GEDLEhQTo;
 
-    invoke-direct {v2, p0}, Lcom/rigol/scope/-$$Lambda$WaveformFragment$N7YBmqjMD_TinK5F1qWfVZ0I9aU;-><init>(Lcom/rigol/scope/WaveformFragment;)V
+    invoke-direct {v2, p0}, Lcom/rigol/scope/-$$Lambda$WaveformFragment$W_U4zhiZP3yESwp1e5GEDLEhQTo;-><init>(Lcom/rigol/scope/WaveformFragment;)V
 
     invoke-virtual {p1, v1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 344
+    .line 353
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
     const/16 v1, 0x15
@@ -3707,13 +3925,13 @@
 
     move-result-object v1
 
-    new-instance v2, Lcom/rigol/scope/-$$Lambda$WaveformFragment$W_U4zhiZP3yESwp1e5GEDLEhQTo;
+    new-instance v2, Lcom/rigol/scope/-$$Lambda$WaveformFragment$f3HhpkytuTEISkJ0OuuQfvE58WU;
 
-    invoke-direct {v2, p0}, Lcom/rigol/scope/-$$Lambda$WaveformFragment$W_U4zhiZP3yESwp1e5GEDLEhQTo;-><init>(Lcom/rigol/scope/WaveformFragment;)V
+    invoke-direct {v2, p0}, Lcom/rigol/scope/-$$Lambda$WaveformFragment$f3HhpkytuTEISkJ0OuuQfvE58WU;-><init>(Lcom/rigol/scope/WaveformFragment;)V
 
     invoke-virtual {p1, v1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 385
+    .line 394
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
     const/16 v1, 0x1b01
@@ -3728,35 +3946,16 @@
 
     move-result-object v1
 
-    new-instance v3, Lcom/rigol/scope/-$$Lambda$WaveformFragment$f3HhpkytuTEISkJ0OuuQfvE58WU;
+    new-instance v3, Lcom/rigol/scope/-$$Lambda$WaveformFragment$avjy20QLWBYiVXZaYJ0kxyafndw;
 
-    invoke-direct {v3, p0}, Lcom/rigol/scope/-$$Lambda$WaveformFragment$f3HhpkytuTEISkJ0OuuQfvE58WU;-><init>(Lcom/rigol/scope/WaveformFragment;)V
+    invoke-direct {v3, p0}, Lcom/rigol/scope/-$$Lambda$WaveformFragment$avjy20QLWBYiVXZaYJ0kxyafndw;-><init>(Lcom/rigol/scope/WaveformFragment;)V
 
     invoke-virtual {p1, v1, v3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
-
-    .line 394
-    iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
-
-    invoke-virtual {p1, p2, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
-
-    move-result-object p1
-
-    invoke-virtual {p0}, Lcom/rigol/scope/WaveformFragment;->getViewLifecycleOwner()Landroidx/lifecycle/LifecycleOwner;
-
-    move-result-object v0
-
-    new-instance v1, Lcom/rigol/scope/-$$Lambda$WaveformFragment$avjy20QLWBYiVXZaYJ0kxyafndw;
-
-    invoke-direct {v1, p0}, Lcom/rigol/scope/-$$Lambda$WaveformFragment$avjy20QLWBYiVXZaYJ0kxyafndw;-><init>(Lcom/rigol/scope/WaveformFragment;)V
-
-    invoke-virtual {p1, v0, v1}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
     .line 403
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 v0, 0x1b46
-
-    invoke-virtual {p1, v2, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+    invoke-virtual {p1, p2, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
@@ -3773,11 +3972,9 @@
     .line 412
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 v0, 0x33
+    const/16 v0, 0x1b46
 
-    const/16 v1, 0x1901
-
-    invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+    invoke-virtual {p1, v2, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
@@ -3791,12 +3988,12 @@
 
     invoke-virtual {p1, v0, v1}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 420
+    .line 421
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 v0, 0x28
+    const/16 v0, 0x33
 
-    const/16 v1, 0x3914
+    const/16 v1, 0x1901
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -3815,28 +4012,28 @@
     .line 429
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 v0, 0x330f
+    const/16 v0, 0x28
 
-    invoke-virtual {p1, p2, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+    const/16 v1, 0x3b14
+
+    invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
     invoke-virtual {p0}, Lcom/rigol/scope/WaveformFragment;->getViewLifecycleOwner()Landroidx/lifecycle/LifecycleOwner;
 
-    move-result-object p2
+    move-result-object v0
 
-    new-instance v0, Lcom/rigol/scope/-$$Lambda$WaveformFragment$n8Fo4dqnDfiGG6b60DSS-DYF6vg;
+    new-instance v1, Lcom/rigol/scope/-$$Lambda$WaveformFragment$n8Fo4dqnDfiGG6b60DSS-DYF6vg;
 
-    invoke-direct {v0, p0}, Lcom/rigol/scope/-$$Lambda$WaveformFragment$n8Fo4dqnDfiGG6b60DSS-DYF6vg;-><init>(Lcom/rigol/scope/WaveformFragment;)V
+    invoke-direct {v1, p0}, Lcom/rigol/scope/-$$Lambda$WaveformFragment$n8Fo4dqnDfiGG6b60DSS-DYF6vg;-><init>(Lcom/rigol/scope/WaveformFragment;)V
 
-    invoke-virtual {p1, p2, v0}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+    invoke-virtual {p1, v0, v1}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 469
+    .line 438
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 p2, 0x1f
-
-    const/16 v0, 0x5111
+    const/16 v0, 0x350f
 
     invoke-virtual {p1, p2, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -3852,14 +4049,14 @@
 
     invoke-virtual {p1, p2, v0}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 509
+    .line 478
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 p2, 0x2701
+    const/16 p2, 0x1f
 
-    const/16 v0, 0x34
+    const/16 v0, 0x5311
 
-    invoke-virtual {p1, v0, p2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+    invoke-virtual {p1, p2, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
@@ -3867,16 +4064,18 @@
 
     move-result-object p2
 
-    new-instance v1, Lcom/rigol/scope/-$$Lambda$WaveformFragment$uDwKpk0b2PISOTe0WrjfksDEEwg;
+    new-instance v0, Lcom/rigol/scope/-$$Lambda$WaveformFragment$uDwKpk0b2PISOTe0WrjfksDEEwg;
 
-    invoke-direct {v1, p0}, Lcom/rigol/scope/-$$Lambda$WaveformFragment$uDwKpk0b2PISOTe0WrjfksDEEwg;-><init>(Lcom/rigol/scope/WaveformFragment;)V
+    invoke-direct {v0, p0}, Lcom/rigol/scope/-$$Lambda$WaveformFragment$uDwKpk0b2PISOTe0WrjfksDEEwg;-><init>(Lcom/rigol/scope/WaveformFragment;)V
 
-    invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+    invoke-virtual {p1, p2, v0}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 546
+    .line 518
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 p2, 0x2717
+    const/16 p2, 0x2901
+
+    const/16 v0, 0x34
 
     invoke-virtual {p1, v0, p2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -3892,10 +4091,10 @@
 
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 558
+    .line 555
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 p2, 0x2718
+    const/16 p2, 0x2917
 
     invoke-virtual {p1, v0, p2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -3911,10 +4110,10 @@
 
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 566
+    .line 567
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 p2, 0x2719
+    const/16 p2, 0x2918
 
     invoke-virtual {p1, v0, p2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -3930,10 +4129,10 @@
 
     invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 574
+    .line 575
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 p2, 0x2716
+    const/16 p2, 0x2919
 
     invoke-virtual {p1, v0, p2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -3943,20 +4142,18 @@
 
     move-result-object p2
 
-    new-instance v0, Lcom/rigol/scope/-$$Lambda$WaveformFragment$QkpHjmbcFamQpoh-lOlZbdrsDc0;
+    new-instance v1, Lcom/rigol/scope/-$$Lambda$WaveformFragment$QkpHjmbcFamQpoh-lOlZbdrsDc0;
 
-    invoke-direct {v0, p0}, Lcom/rigol/scope/-$$Lambda$WaveformFragment$QkpHjmbcFamQpoh-lOlZbdrsDc0;-><init>(Lcom/rigol/scope/WaveformFragment;)V
+    invoke-direct {v1, p0}, Lcom/rigol/scope/-$$Lambda$WaveformFragment$QkpHjmbcFamQpoh-lOlZbdrsDc0;-><init>(Lcom/rigol/scope/WaveformFragment;)V
 
-    invoke-virtual {p1, p2, v0}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+    invoke-virtual {p1, p2, v1}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 582
+    .line 583
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 p2, 0x24
+    const/16 p2, 0x2916
 
-    const/16 v0, 0x2b07
-
-    invoke-virtual {p1, p2, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+    invoke-virtual {p1, v0, p2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
@@ -3970,7 +4167,28 @@
 
     invoke-virtual {p1, p2, v0}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 612
+    .line 591
+    iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
+
+    const/16 p2, 0x24
+
+    const/16 v0, 0x2d07
+
+    invoke-virtual {p1, p2, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+
+    move-result-object p1
+
+    invoke-virtual {p0}, Lcom/rigol/scope/WaveformFragment;->getViewLifecycleOwner()Landroidx/lifecycle/LifecycleOwner;
+
+    move-result-object p2
+
+    new-instance v0, Lcom/rigol/scope/-$$Lambda$WaveformFragment$NrUy1zzHStG37WpHXIalOeIN8pg;
+
+    invoke-direct {v0, p0}, Lcom/rigol/scope/-$$Lambda$WaveformFragment$NrUy1zzHStG37WpHXIalOeIN8pg;-><init>(Lcom/rigol/scope/WaveformFragment;)V
+
+    invoke-virtual {p1, p2, v0}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+
+    .line 621
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->sharedViewModel:Lcom/rigol/scope/viewmodels/SharedViewModel;
 
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/SharedViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
@@ -3981,16 +4199,16 @@
 
     move-result-object p2
 
-    sget-object v0, Lcom/rigol/scope/-$$Lambda$WaveformFragment$CBst4jph9IPcdj3VLa7EPQW31Zk;->INSTANCE:Lcom/rigol/scope/-$$Lambda$WaveformFragment$CBst4jph9IPcdj3VLa7EPQW31Zk;
+    sget-object v0, Lcom/rigol/scope/-$$Lambda$WaveformFragment$bGDxRy0tb9fwxHTF3Zg4Hn617Uo;->INSTANCE:Lcom/rigol/scope/-$$Lambda$WaveformFragment$bGDxRy0tb9fwxHTF3Zg4Hn617Uo;
 
     invoke-virtual {p1, p2, v0}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 616
+    .line 625
     new-instance p1, Lcom/rigol/scope/views/multi/MultiWindowPopupView;
 
     invoke-direct {p1}, Lcom/rigol/scope/views/multi/MultiWindowPopupView;-><init>()V
 
-    .line 617
+    .line 626
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p2
@@ -4005,14 +4223,14 @@
 .method public updateEyeWindowState(Z)V
     .locals 2
 
-    .line 1248
+    .line 1323
     iget-object v0, p0, Lcom/rigol/scope/WaveformFragment;->eyeParam:Lcom/rigol/scope/data/EyeParam;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 1252
+    .line 1327
     :cond_0
     invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
 
@@ -4028,14 +4246,14 @@
 
     if-eqz v0, :cond_1
 
-    .line 1254
+    .line 1329
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result p1
 
     if-eqz p1, :cond_1
 
-    .line 1256
+    .line 1331
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p1
@@ -4044,7 +4262,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1007cc
+    const v0, 0x7f1007d4
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4054,7 +4272,7 @@
 
     return-void
 
-    .line 1260
+    .line 1335
     :cond_1
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->binding:Lcom/rigol/scope/databinding/FragmentWaveformBinding;
 
@@ -4066,12 +4284,12 @@
 
     if-eqz p1, :cond_2
 
-    .line 1261
+    .line 1336
     invoke-virtual {p0}, Lcom/rigol/scope/WaveformFragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object p1
 
-    const v0, 0x7f100778
+    const v0, 0x7f100780
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4079,7 +4297,7 @@
 
     invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showShort(Ljava/lang/CharSequence;)V
 
-    .line 1262
+    .line 1337
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->eyeParam:Lcom/rigol/scope/data/EyeParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/EyeParam;->getEnabled()Lcom/rigol/scope/data/BaseProperty;
@@ -4096,13 +4314,13 @@
 
     return-void
 
-    .line 1266
+    .line 1341
     :cond_2
     new-instance p1, Lcom/rigol/scope/data/WindowParam;
 
     invoke-direct {p1}, Lcom/rigol/scope/data/WindowParam;-><init>()V
 
-    .line 1267
+    .line 1342
     iget-object v0, p0, Lcom/rigol/scope/WaveformFragment;->eyeParam:Lcom/rigol/scope/data/EyeParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/EyeParam;->getChan()Lcom/rigol/scope/data/BaseProperty;
@@ -4127,15 +4345,15 @@
 
     const/16 v0, 0x33
 
-    .line 1268
+    .line 1343
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/WindowParam;->setServiceID(I)V
 
-    .line 1269
+    .line 1344
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_EYE:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/WindowParam;->setType(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)V
 
-    .line 1270
+    .line 1345
     invoke-virtual {p0, p1}, Lcom/rigol/scope/WaveformFragment;->addWindow(Lcom/rigol/scope/data/WindowParam;)V
 
     goto :goto_0
@@ -4143,7 +4361,7 @@
     :cond_3
     if-eqz v0, :cond_4
 
-    .line 1274
+    .line 1349
     invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
 
     move-result-object p1
@@ -4160,7 +4378,7 @@
 .method public updateJitterBathtubCurveWinState(Z)V
     .locals 2
 
-    .line 1218
+    .line 1293
     invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
 
     move-result-object v0
@@ -4175,14 +4393,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 1220
+    .line 1295
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 1222
+    .line 1297
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p1
@@ -4191,7 +4409,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1007cc
+    const v0, 0x7f1007d4
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4201,7 +4419,7 @@
 
     return-void
 
-    .line 1226
+    .line 1301
     :cond_0
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->binding:Lcom/rigol/scope/databinding/FragmentWaveformBinding;
 
@@ -4213,12 +4431,12 @@
 
     if-eqz p1, :cond_2
 
-    .line 1227
+    .line 1302
     invoke-virtual {p0}, Lcom/rigol/scope/WaveformFragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object p1
 
-    const v0, 0x7f100778
+    const v0, 0x7f100780
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4226,20 +4444,20 @@
 
     invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showShort(Ljava/lang/CharSequence;)V
 
-    .line 1229
+    .line 1304
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->jitterParam:Lcom/rigol/scope/data/JitterParam;
 
     if-eqz p1, :cond_1
 
     const/4 v0, 0x0
 
-    .line 1230
+    .line 1305
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/JitterParam;->saveBathtubCurve(Z)V
 
     :cond_1
     return-void
 
-    .line 1235
+    .line 1310
     :cond_2
     new-instance p1, Lcom/rigol/scope/data/WindowParam;
 
@@ -4247,15 +4465,15 @@
 
     const/16 v0, 0x34
 
-    .line 1236
+    .line 1311
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/WindowParam;->setServiceID(I)V
 
-    .line 1237
+    .line 1312
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_JITTER_BATHTUB_CURVE:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/WindowParam;->setType(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)V
 
-    .line 1238
+    .line 1313
     invoke-virtual {p0, p1}, Lcom/rigol/scope/WaveformFragment;->addWindow(Lcom/rigol/scope/data/WindowParam;)V
 
     goto :goto_0
@@ -4263,7 +4481,7 @@
     :cond_3
     if-eqz v0, :cond_4
 
-    .line 1242
+    .line 1317
     invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
 
     move-result-object p1
@@ -4280,7 +4498,7 @@
 .method public updateJitterHistogramWinState(Z)V
     .locals 2
 
-    .line 1188
+    .line 1263
     invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
 
     move-result-object v0
@@ -4295,14 +4513,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 1190
+    .line 1265
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 1192
+    .line 1267
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p1
@@ -4311,7 +4529,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1007cc
+    const v0, 0x7f1007d4
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4321,7 +4539,7 @@
 
     return-void
 
-    .line 1196
+    .line 1271
     :cond_0
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->binding:Lcom/rigol/scope/databinding/FragmentWaveformBinding;
 
@@ -4333,12 +4551,12 @@
 
     if-eqz p1, :cond_2
 
-    .line 1197
+    .line 1272
     invoke-virtual {p0}, Lcom/rigol/scope/WaveformFragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object p1
 
-    const v0, 0x7f100778
+    const v0, 0x7f100780
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4346,20 +4564,20 @@
 
     invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showShort(Ljava/lang/CharSequence;)V
 
-    .line 1199
+    .line 1274
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->jitterParam:Lcom/rigol/scope/data/JitterParam;
 
     if-eqz p1, :cond_1
 
     const/4 v0, 0x0
 
-    .line 1200
+    .line 1275
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/JitterParam;->saveHistogram(Z)V
 
     :cond_1
     return-void
 
-    .line 1205
+    .line 1280
     :cond_2
     new-instance p1, Lcom/rigol/scope/data/WindowParam;
 
@@ -4367,15 +4585,15 @@
 
     const/16 v0, 0x34
 
-    .line 1206
+    .line 1281
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/WindowParam;->setServiceID(I)V
 
-    .line 1207
+    .line 1282
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_JITTER_HISTOGRAM:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/WindowParam;->setType(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)V
 
-    .line 1208
+    .line 1283
     invoke-virtual {p0, p1}, Lcom/rigol/scope/WaveformFragment;->addWindow(Lcom/rigol/scope/data/WindowParam;)V
 
     goto :goto_0
@@ -4383,7 +4601,7 @@
     :cond_3
     if-eqz v0, :cond_4
 
-    .line 1212
+    .line 1287
     invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
 
     move-result-object p1
@@ -4400,7 +4618,7 @@
 .method public updateJitterSpectrumWinState(Z)V
     .locals 2
 
-    .line 1158
+    .line 1233
     invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
 
     move-result-object v0
@@ -4415,14 +4633,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 1160
+    .line 1235
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 1162
+    .line 1237
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p1
@@ -4431,7 +4649,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1007cc
+    const v0, 0x7f1007d4
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4441,7 +4659,7 @@
 
     return-void
 
-    .line 1166
+    .line 1241
     :cond_0
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->binding:Lcom/rigol/scope/databinding/FragmentWaveformBinding;
 
@@ -4453,12 +4671,12 @@
 
     if-eqz p1, :cond_2
 
-    .line 1167
+    .line 1242
     invoke-virtual {p0}, Lcom/rigol/scope/WaveformFragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object p1
 
-    const v0, 0x7f100778
+    const v0, 0x7f100780
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4466,20 +4684,20 @@
 
     invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showShort(Ljava/lang/CharSequence;)V
 
-    .line 1169
+    .line 1244
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->jitterParam:Lcom/rigol/scope/data/JitterParam;
 
     if-eqz p1, :cond_1
 
     const/4 v0, 0x0
 
-    .line 1170
+    .line 1245
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/JitterParam;->saveSpectrum(Z)V
 
     :cond_1
     return-void
 
-    .line 1175
+    .line 1250
     :cond_2
     new-instance p1, Lcom/rigol/scope/data/WindowParam;
 
@@ -4487,15 +4705,15 @@
 
     const/16 v0, 0x34
 
-    .line 1176
+    .line 1251
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/WindowParam;->setServiceID(I)V
 
-    .line 1177
+    .line 1252
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_JITTER_SPECTRUM:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/WindowParam;->setType(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)V
 
-    .line 1178
+    .line 1253
     invoke-virtual {p0, p1}, Lcom/rigol/scope/WaveformFragment;->addWindow(Lcom/rigol/scope/data/WindowParam;)V
 
     goto :goto_0
@@ -4503,7 +4721,7 @@
     :cond_3
     if-eqz v0, :cond_4
 
-    .line 1182
+    .line 1257
     invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
 
     move-result-object p1
@@ -4520,7 +4738,7 @@
 .method public updateJitterTrackWinState(Z)V
     .locals 2
 
-    .line 1127
+    .line 1202
     invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
 
     move-result-object v0
@@ -4535,14 +4753,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 1129
+    .line 1204
     invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 1131
+    .line 1206
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p1
@@ -4551,7 +4769,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1007cc
+    const v0, 0x7f1007d4
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4561,7 +4779,7 @@
 
     return-void
 
-    .line 1135
+    .line 1210
     :cond_0
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->binding:Lcom/rigol/scope/databinding/FragmentWaveformBinding;
 
@@ -4573,12 +4791,12 @@
 
     if-eqz p1, :cond_2
 
-    .line 1136
+    .line 1211
     invoke-virtual {p0}, Lcom/rigol/scope/WaveformFragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object p1
 
-    const v0, 0x7f100778
+    const v0, 0x7f100780
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -4586,20 +4804,20 @@
 
     invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showShort(Ljava/lang/CharSequence;)V
 
-    .line 1138
+    .line 1213
     iget-object p1, p0, Lcom/rigol/scope/WaveformFragment;->jitterParam:Lcom/rigol/scope/data/JitterParam;
 
     if-eqz p1, :cond_1
 
     const/4 v0, 0x0
 
-    .line 1139
+    .line 1214
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/JitterParam;->saveTrack(Z)V
 
     :cond_1
     return-void
 
-    .line 1145
+    .line 1220
     :cond_2
     new-instance p1, Lcom/rigol/scope/data/WindowParam;
 
@@ -4607,15 +4825,15 @@
 
     const/16 v0, 0x34
 
-    .line 1146
+    .line 1221
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/WindowParam;->setServiceID(I)V
 
-    .line 1147
+    .line 1222
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_JITTER_TRACK:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/WindowParam;->setType(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)V
 
-    .line 1148
+    .line 1223
     invoke-virtual {p0, p1}, Lcom/rigol/scope/WaveformFragment;->addWindow(Lcom/rigol/scope/data/WindowParam;)V
 
     goto :goto_0
@@ -4623,7 +4841,7 @@
     :cond_3
     if-eqz v0, :cond_4
 
-    .line 1152
+    .line 1227
     invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
 
     move-result-object p1

@@ -382,7 +382,7 @@
 
     invoke-virtual {p1, p0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const p1, 0x7f0301c8
+    const p1, 0x7f0301ca
 
     .line 918
     invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -398,8 +398,6 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/rigol/scope/data/MappingObject;
-
     invoke-interface {p2, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 921
@@ -411,8 +409,6 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/rigol/scope/data/MappingObject;
-
     invoke-interface {p2, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 922
@@ -421,8 +417,6 @@
     invoke-interface {p1, p3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p1
-
-    check-cast p1, Lcom/rigol/scope/data/MappingObject;
 
     invoke-interface {p2, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -621,7 +615,7 @@
 
     iget-object v2, p0, Lcom/rigol/scope/adapters/BodeViewPagerAdapter$BodesavingDelegate;->storagelParam:Lcom/rigol/scope/data/StorageLoadParam;
 
-    invoke-static {v2}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     new-instance v3, Lcom/rigol/scope/adapters/-$$Lambda$gdWAoUf1TpGS31Lcs9y1uuv3718;
 
@@ -684,7 +678,7 @@
 
     iget-object v2, p0, Lcom/rigol/scope/adapters/BodeViewPagerAdapter$BodesavingDelegate;->param:Lcom/rigol/scope/data/StorageSaveParam;
 
-    invoke-static {v2}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     new-instance v3, Lcom/rigol/scope/adapters/-$$Lambda$FtnkS5Qj29C5AJZD93PQtkUcPos;
 
@@ -722,7 +716,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/BodeViewPagerAdapter$BodesavingDelegate;->param:Lcom/rigol/scope/data/StorageSaveParam;
 
-    invoke-static {v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     new-instance v6, Lcom/rigol/scope/adapters/-$$Lambda$i9NRwQVRXRz5denMFitBirafr2w;
 
@@ -769,12 +763,12 @@
 
     :sswitch_data_0
     .sparse-switch
-        0x7f0a047f -> :sswitch_6
-        0x7f0a0482 -> :sswitch_5
-        0x7f0a0484 -> :sswitch_4
-        0x7f0a0601 -> :sswitch_3
-        0x7f0a06e0 -> :sswitch_2
-        0x7f0a07cd -> :sswitch_1
-        0x7f0a0b13 -> :sswitch_0
+        0x7f0a0481 -> :sswitch_6
+        0x7f0a0484 -> :sswitch_5
+        0x7f0a0486 -> :sswitch_4
+        0x7f0a0609 -> :sswitch_3
+        0x7f0a06ea -> :sswitch_2
+        0x7f0a07d9 -> :sswitch_1
+        0x7f0a0b1f -> :sswitch_0
     .end sparse-switch
 .end method

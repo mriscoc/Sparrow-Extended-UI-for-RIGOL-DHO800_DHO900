@@ -576,5 +576,17 @@
 
     aput v2, v0, v1
 
+    sget-object v0, Lcom/rigol/scope/data/KeyboardParam$WhenMappings;->$EnumSwitchMapping$1:[I
+
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_X:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+
+    invoke-virtual {v1}, Lcom/rigol/scope/cil/ServiceEnum$Unit;->ordinal()I
+
+    move-result v1
+
+    const/16 v2, 0x18
+
+    aput v2, v0, v1
+
     return-void
 .end method

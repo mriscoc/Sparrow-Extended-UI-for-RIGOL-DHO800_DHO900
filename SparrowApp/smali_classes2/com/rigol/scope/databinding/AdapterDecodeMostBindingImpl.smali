@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterDecodeMostBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04d1
+    const v1, 0x7f0a04d3
 
     const/4 v2, 0x5
 
@@ -45,7 +45,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/AdapterDecodeMostBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04cc
+    const v1, 0x7f0a04ce
 
     const/4 v2, 0x6
 
@@ -54,7 +54,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/AdapterDecodeMostBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04d2
+    const v1, 0x7f0a04d4
 
     const/4 v2, 0x7
 
@@ -63,7 +63,7 @@
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/AdapterDecodeMostBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04ca
+    const v1, 0x7f0a04cc
 
     const/16 v2, 0x8
 
@@ -72,7 +72,7 @@
     .line 22
     sget-object v0, Lcom/rigol/scope/databinding/AdapterDecodeMostBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04cb
+    const v1, 0x7f0a04cd
 
     const/16 v2, 0x9
 
@@ -323,7 +323,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x228
+    const/16 v0, 0x229
 
     if-ne p2, v0, :cond_1
 
@@ -355,7 +355,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x229
+    const/16 v0, 0x22a
 
     if-ne p2, v0, :cond_2
 
@@ -387,7 +387,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x227
+    const/16 v0, 0x228
 
     if-ne p2, v0, :cond_3
 
@@ -459,7 +459,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -959,7 +959,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x252
+    const/16 p1, 0x254
 
     .line 99
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterDecodeMostBindingImpl;->notifyPropertyChanged(I)V
@@ -984,7 +984,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x252
+    const/16 v0, 0x254
 
     if-ne v0, p1, :cond_0
 

@@ -655,7 +655,7 @@
     return v0
 .end method
 
-.method public synthetic lambda$onCreateViewHolder$0$UtilitySetupSettingAdapter(ILcom/rigol/scope/data/MappingObject;)V
+.method public synthetic lambda$null$0$UtilitySetupSettingAdapter(ILcom/rigol/scope/data/MappingObject;)V
     .locals 0
 
     .line 145
@@ -711,9 +711,9 @@
 
     const/4 v9, 0x0
 
-    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$UtilitySetupSettingAdapter$dqlodaXexal9yvdkikZ8cP5ikCU;
+    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$UtilitySetupSettingAdapter$ssfACgD-0pL2S73MIWFHceM-qcY;
 
-    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$UtilitySetupSettingAdapter$dqlodaXexal9yvdkikZ8cP5ikCU;-><init>(Lcom/rigol/scope/adapters/UtilitySetupSettingAdapter;)V
+    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$UtilitySetupSettingAdapter$ssfACgD-0pL2S73MIWFHceM-qcY;-><init>(Lcom/rigol/scope/adapters/UtilitySetupSettingAdapter;)V
 
     move-object v2, p1
 
@@ -806,7 +806,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a0879
+    const v0, 0x7f0a0885
 
     if-ne p1, v0, :cond_2
 
@@ -818,7 +818,7 @@
     goto/16 :goto_1
 
     :cond_2
-    const v0, 0x7f0a0887
+    const v0, 0x7f0a0893
 
     if-ne p1, v0, :cond_3
 
@@ -830,7 +830,7 @@
     goto/16 :goto_1
 
     :cond_3
-    const v0, 0x7f0a0881
+    const v0, 0x7f0a088d
 
     if-ne p1, v0, :cond_4
 
@@ -842,7 +842,7 @@
     goto/16 :goto_1
 
     :cond_4
-    const v0, 0x7f0a0878
+    const v0, 0x7f0a0884
 
     if-ne p1, v0, :cond_5
 
@@ -854,7 +854,7 @@
     goto/16 :goto_1
 
     :cond_5
-    const v0, 0x7f0a0883
+    const v0, 0x7f0a088f
 
     if-ne p1, v0, :cond_7
 
@@ -894,7 +894,7 @@
 
     if-eqz p2, :cond_6
 
-    const v1, 0x7f1007b5
+    const v1, 0x7f1007bd
 
     .line 289
     invoke-static {v1}, Lcom/rigol/util/ToastUtils;->showShort(I)V
@@ -909,7 +909,7 @@
 
     const/16 v2, 0xb
 
-    const/16 v3, 0x5760
+    const/16 v3, 0x5960
 
     sget-object v4, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->TOUCH_LED_WHITE:Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
@@ -917,7 +917,7 @@
 
     invoke-virtual {v1, v2, v3, v4, v0}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
 
-    const v1, 0x7f1007b4
+    const v1, 0x7f1007bc
 
     .line 293
     invoke-static {v1}, Lcom/rigol/util/ToastUtils;->showShort(I)V
@@ -955,7 +955,7 @@
     goto :goto_1
 
     :cond_7
-    const v0, 0x7f0a0880
+    const v0, 0x7f0a088c
 
     if-ne p1, v0, :cond_8
 
@@ -967,7 +967,7 @@
     goto :goto_1
 
     :cond_8
-    const v0, 0x7f0a087e
+    const v0, 0x7f0a088a
 
     if-ne p1, v0, :cond_9
 
@@ -979,7 +979,7 @@
     goto :goto_1
 
     :cond_9
-    const v0, 0x7f0a0886
+    const v0, 0x7f0a0892
 
     if-ne p1, v0, :cond_a
 
@@ -1001,7 +1001,7 @@
 
     move-result v0
 
-    const v1, 0x7f0a0841
+    const v1, 0x7f0a084d
 
     if-ne v0, v1, :cond_0
 
@@ -1034,7 +1034,7 @@
     goto/16 :goto_0
 
     :cond_1
-    const p1, 0x7f0a0ae3
+    const p1, 0x7f0a0aef
 
     if-ne v0, p1, :cond_2
 
@@ -1055,7 +1055,7 @@
     goto/16 :goto_0
 
     :cond_2
-    const p1, 0x7f0a0729
+    const p1, 0x7f0a0735
 
     if-ne v0, p1, :cond_3
 
@@ -1097,7 +1097,7 @@
     goto/16 :goto_0
 
     :cond_4
-    const p1, 0x7f0a07db
+    const p1, 0x7f0a07e7
 
     if-ne v0, p1, :cond_5
 
@@ -1118,7 +1118,7 @@
     goto :goto_0
 
     :cond_5
-    const p1, 0x7f0a0811
+    const p1, 0x7f0a081d
 
     if-ne v0, p1, :cond_6
 
@@ -1139,7 +1139,7 @@
     goto :goto_0
 
     :cond_6
-    const p1, 0x7f0a0b63
+    const p1, 0x7f0a0b6f
 
     if-ne v0, p1, :cond_7
 
@@ -1149,7 +1149,7 @@
     goto :goto_0
 
     :cond_7
-    const p1, 0x7f0a08f9
+    const p1, 0x7f0a0905
 
     if-ne v0, p1, :cond_8
 
@@ -1159,7 +1159,7 @@
     goto :goto_0
 
     :cond_8
-    const p1, 0x7f0a0602
+    const p1, 0x7f0a060a
 
     if-ne v0, p1, :cond_9
 
@@ -1180,7 +1180,7 @@
     goto :goto_0
 
     :cond_9
-    const p1, 0x7f0a0ada
+    const p1, 0x7f0a0ae6
 
     if-ne v0, p1, :cond_a
 

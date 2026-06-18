@@ -414,7 +414,7 @@
 
     move-result v1
 
-    const v2, 0x7f030143
+    const v2, 0x7f030144
 
     invoke-static {v2, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -458,7 +458,7 @@
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->setSwitchButton(Lcom/rigol/scope/views/SwitchButton;)V
 
-    const v0, 0x7f030245
+    const v0, 0x7f030249
 
     .line 508
     iget-object v1, p0, Lcom/rigol/scope/views/horizontal/HorizontalPopupView;->binding:Lcom/rigol/scope/databinding/PopupviewHorizontalBinding;
@@ -567,7 +567,7 @@
 
     const/16 v1, 0xa
 
-    const/16 v2, 0x2343
+    const/16 v2, 0x2543
 
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -1520,7 +1520,7 @@
 
     if-eqz p1, :cond_1
 
-    const v0, 0x7f0a0b8f
+    const v0, 0x7f0a0b9b
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/utilities/AorBManager;->set_switch_show(I)V
 
@@ -1860,15 +1860,15 @@
         0x7f0a00c3 -> :sswitch_b
         0x7f0a00c8 -> :sswitch_a
         0x7f0a0364 -> :sswitch_9
-        0x7f0a048e -> :sswitch_8
-        0x7f0a04ef -> :sswitch_7
-        0x7f0a0509 -> :sswitch_6
-        0x7f0a069b -> :sswitch_5
-        0x7f0a06ab -> :sswitch_4
-        0x7f0a06e8 -> :sswitch_3
-        0x7f0a0a85 -> :sswitch_2
-        0x7f0a0b61 -> :sswitch_1
-        0x7f0a0b8f -> :sswitch_0
+        0x7f0a0490 -> :sswitch_8
+        0x7f0a04f1 -> :sswitch_7
+        0x7f0a050b -> :sswitch_6
+        0x7f0a06a5 -> :sswitch_5
+        0x7f0a06b5 -> :sswitch_4
+        0x7f0a06f4 -> :sswitch_3
+        0x7f0a0a91 -> :sswitch_2
+        0x7f0a0b6d -> :sswitch_1
+        0x7f0a0b9b -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -1899,7 +1899,7 @@
 
     move-result v1
 
-    const v3, 0x7f0a0642
+    const v3, 0x7f0a064a
 
     if-ne v1, v3, :cond_1
 
@@ -1924,11 +1924,11 @@
     goto/16 :goto_0
 
     :cond_1
-    const v3, 0x7f0a042d
+    const v3, 0x7f0a042f
 
     if-ne v1, v3, :cond_2
 
-    const v1, 0x7f030144
+    const v1, 0x7f030145
 
     .line 250
     invoke-static {v1}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1950,7 +1950,7 @@
     goto/16 :goto_0
 
     :cond_2
-    const v3, 0x7f0a04e6
+    const v3, 0x7f0a04e8
 
     if-ne v1, v3, :cond_4
 
@@ -2121,7 +2121,7 @@
     goto/16 :goto_0
 
     :cond_7
-    const v3, 0x7f0a061f
+    const v3, 0x7f0a0627
 
     if-ne v1, v3, :cond_9
 
@@ -2208,7 +2208,7 @@
     goto/16 :goto_0
 
     :cond_9
-    const v3, 0x7f0a061b
+    const v3, 0x7f0a0623
 
     if-ne v1, v3, :cond_b
 
@@ -2301,7 +2301,7 @@
     goto/16 :goto_0
 
     :cond_b
-    const v3, 0x7f0a0b91
+    const v3, 0x7f0a0b9d
 
     if-ne v1, v3, :cond_d
 
@@ -2388,7 +2388,7 @@
     goto/16 :goto_0
 
     :cond_d
-    const v3, 0x7f0a0b8b
+    const v3, 0x7f0a0b97
 
     if-ne v1, v3, :cond_f
 
@@ -2481,7 +2481,7 @@
     goto/16 :goto_0
 
     :cond_f
-    const v3, 0x7f0a042f
+    const v3, 0x7f0a0431
 
     if-ne v1, v3, :cond_11
 
@@ -2597,7 +2597,7 @@
     goto/16 :goto_0
 
     :cond_11
-    const v3, 0x7f0a0637
+    const v3, 0x7f0a063f
 
     if-ne v1, v3, :cond_13
 
@@ -2684,7 +2684,7 @@
     goto/16 :goto_0
 
     :cond_13
-    const v3, 0x7f0a08f5
+    const v3, 0x7f0a0901
 
     if-ne v1, v3, :cond_15
 
@@ -2771,7 +2771,7 @@
     goto/16 :goto_0
 
     :cond_15
-    const v2, 0x7f0a0620
+    const v2, 0x7f0a0628
 
     if-ne v1, v2, :cond_16
 
@@ -2791,7 +2791,7 @@
     goto/16 :goto_0
 
     :cond_16
-    const v2, 0x7f0a0622
+    const v2, 0x7f0a062a
 
     if-ne v1, v2, :cond_17
 
@@ -2811,7 +2811,7 @@
     goto/16 :goto_0
 
     :cond_17
-    const v2, 0x7f0a061c
+    const v2, 0x7f0a0624
 
     if-ne v1, v2, :cond_18
 
@@ -2842,7 +2842,7 @@
     goto/16 :goto_0
 
     :cond_18
-    const v2, 0x7f0a061d
+    const v2, 0x7f0a0625
 
     if-ne v1, v2, :cond_19
 
@@ -2873,7 +2873,7 @@
     goto :goto_0
 
     :cond_19
-    const v2, 0x7f0a0b92
+    const v2, 0x7f0a0b9e
 
     if-ne v1, v2, :cond_1a
 
@@ -2893,7 +2893,7 @@
     goto :goto_0
 
     :cond_1a
-    const v2, 0x7f0a0b93
+    const v2, 0x7f0a0b9f
 
     if-ne v1, v2, :cond_1b
 
@@ -2913,7 +2913,7 @@
     goto :goto_0
 
     :cond_1b
-    const v2, 0x7f0a0b8c
+    const v2, 0x7f0a0b98
 
     if-ne v1, v2, :cond_1c
 
@@ -2944,7 +2944,7 @@
     goto :goto_0
 
     :cond_1c
-    const v2, 0x7f0a0b8d
+    const v2, 0x7f0a0b99
 
     if-ne v1, v2, :cond_1d
 
@@ -2988,7 +2988,7 @@
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewHorizontalBinding;->delaySample:Lcom/rigol/scope/views/SwitchButton;
 
-    const v1, 0x7f030245
+    const v1, 0x7f030249
 
     invoke-static {v1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->updateSwitchText(ILcom/rigol/scope/views/SwitchButton;)V
 
@@ -3170,13 +3170,13 @@
     :sswitch_data_0
     .sparse-switch
         0x7f0a00cb -> :sswitch_7
-        0x7f0a042f -> :sswitch_6
-        0x7f0a061b -> :sswitch_5
-        0x7f0a061f -> :sswitch_4
-        0x7f0a0637 -> :sswitch_3
-        0x7f0a08f5 -> :sswitch_2
-        0x7f0a0b8b -> :sswitch_1
-        0x7f0a0b91 -> :sswitch_0
+        0x7f0a0431 -> :sswitch_6
+        0x7f0a0623 -> :sswitch_5
+        0x7f0a0627 -> :sswitch_4
+        0x7f0a063f -> :sswitch_3
+        0x7f0a0901 -> :sswitch_2
+        0x7f0a0b97 -> :sswitch_1
+        0x7f0a0b9d -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -3568,13 +3568,13 @@
     :sswitch_data_0
     .sparse-switch
         0x7f0a00cb -> :sswitch_7
-        0x7f0a042f -> :sswitch_6
-        0x7f0a061b -> :sswitch_5
-        0x7f0a061f -> :sswitch_4
-        0x7f0a0637 -> :sswitch_3
-        0x7f0a08f5 -> :sswitch_2
-        0x7f0a0b8b -> :sswitch_1
-        0x7f0a0b91 -> :sswitch_0
+        0x7f0a0431 -> :sswitch_6
+        0x7f0a0623 -> :sswitch_5
+        0x7f0a0627 -> :sswitch_4
+        0x7f0a063f -> :sswitch_3
+        0x7f0a0901 -> :sswitch_2
+        0x7f0a0b97 -> :sswitch_1
+        0x7f0a0b9d -> :sswitch_0
     .end sparse-switch
 .end method
 

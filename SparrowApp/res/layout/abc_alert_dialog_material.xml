@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.AlertDialogLayout android:gravity="start|center|top" android:orientation="vertical" android:id="@id/parentPanel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+<androidx.appcompat.widget.AlertDialogLayout android:gravity="start|top" android:orientation="vertical" android:id="@id/parentPanel" android:layout_width="fill_parent" android:layout_height="wrap_content"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <include layout="@layout/abc_alert_dialog_title_material" />
     <FrameLayout android:id="@id/contentPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip">

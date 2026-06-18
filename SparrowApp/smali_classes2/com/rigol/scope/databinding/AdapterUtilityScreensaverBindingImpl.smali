@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterUtilityScreensaverBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a57
+    const v1, 0x7f0a0a63
 
     const/16 v2, 0xc
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityScreensaverBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a075f
+    const v1, 0x7f0a076b
 
     const/16 v2, 0xd
 
@@ -45,7 +45,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityScreensaverBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0ae7
+    const v1, 0x7f0a0af3
 
     const/16 v2, 0xe
 
@@ -54,7 +54,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityScreensaverBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0702
+    const v1, 0x7f0a070e
 
     const/16 v2, 0xf
 
@@ -63,7 +63,7 @@
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityScreensaverBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b0d
+    const v1, 0x7f0a0b19
 
     const/16 v2, 0x10
 
@@ -72,7 +72,7 @@
     .line 22
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityScreensaverBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a038a
+    const v1, 0x7f0a038c
 
     const/16 v2, 0x11
 
@@ -81,7 +81,7 @@
     .line 23
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityScreensaverBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0703
+    const v1, 0x7f0a070f
 
     const/16 v2, 0x12
 
@@ -90,7 +90,7 @@
     .line 24
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityScreensaverBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08d5
+    const v1, 0x7f0a08e1
 
     const/16 v2, 0x13
 
@@ -372,7 +372,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x30d
+    const/16 v0, 0x311
 
     if-ne p2, v0, :cond_1
 
@@ -404,7 +404,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x30f
+    const/16 v0, 0x313
 
     if-ne p2, v0, :cond_2
 
@@ -436,7 +436,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x310
+    const/16 v0, 0x314
 
     if-ne p2, v0, :cond_3
 
@@ -1025,7 +1025,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x252
+    const/16 p1, 0x254
 
     .line 113
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterUtilityScreensaverBindingImpl;->notifyPropertyChanged(I)V
@@ -1050,7 +1050,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x252
+    const/16 v0, 0x254
 
     if-ne v0, p1, :cond_0
 

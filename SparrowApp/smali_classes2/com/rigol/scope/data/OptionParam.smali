@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nOptionParam.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OptionParam.kt\ncom/rigol/scope/data/OptionParam\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,117:1\n13506#2,2:118\n*E\n*S KotlinDebug\n*F\n+ 1 OptionParam.kt\ncom/rigol/scope/data/OptionParam\n*L\n96#1,2:118\n*E\n"
+    value = "SMAP\nOptionParam.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OptionParam.kt\ncom/rigol/scope/data/OptionParam\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,119:1\n13506#2,2:120\n*E\n*S KotlinDebug\n*F\n+ 1 OptionParam.kt\ncom/rigol/scope/data/OptionParam\n*L\n98#1,2:120\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -133,16 +133,16 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 106
+    .line 108
     iget v0, p1, Lcom/rigol/scope/cil/ServiceEnum$OptType;->value1:I
 
-    const/16 v1, 0x2b00
+    const/16 v1, 0x2d00
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/OptionParam;->readLong(II)J
 
     move-result-wide v0
 
-    .line 107
+    .line 109
     invoke-virtual {p1}, Lcom/rigol/scope/cil/ServiceEnum$OptType;->name()Ljava/lang/String;
 
     move-result-object v2
@@ -161,7 +161,7 @@
 
     invoke-virtual {p0, v2, v3, v4}, Lcom/rigol/scope/data/OptionParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 108
+    .line 110
     iget-object v2, p0, Lcom/rigol/scope/data/OptionParam;->optionList:Landroidx/collection/SimpleArrayMap;
 
     const-wide/16 v3, 0x0
@@ -282,28 +282,38 @@
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/OptionParam;->read(Lcom/rigol/scope/cil/ServiceEnum$OptType;)V
 
     .line 80
-    sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_BW2T4:Lcom/rigol/scope/cil/ServiceEnum$OptType;
+    sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_BW10T12:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/OptionParam;->read(Lcom/rigol/scope/cil/ServiceEnum$OptType;)V
 
     .line 81
-    sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_BW2T8:Lcom/rigol/scope/cil/ServiceEnum$OptType;
+    sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_BW12T15:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/OptionParam;->read(Lcom/rigol/scope/cil/ServiceEnum$OptType;)V
 
     .line 82
+    sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_BW2T4:Lcom/rigol/scope/cil/ServiceEnum$OptType;
+
+    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/OptionParam;->read(Lcom/rigol/scope/cil/ServiceEnum$OptType;)V
+
+    .line 83
+    sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_BW2T8:Lcom/rigol/scope/cil/ServiceEnum$OptType;
+
+    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/OptionParam;->read(Lcom/rigol/scope/cil/ServiceEnum$OptType;)V
+
+    .line 84
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_BW4T8:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/OptionParam;->read(Lcom/rigol/scope/cil/ServiceEnum$OptType;)V
 
     const/4 v0, 0x1
 
-    .line 84
+    .line 86
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v0
 
-    const/16 v1, 0x2b07
+    const/16 v1, 0x2d07
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/OptionParam;->syncData(ILjava/lang/Object;)V
 
@@ -313,14 +323,14 @@
 .method public final readInfo()V
     .locals 5
 
-    const/16 v0, 0x2b02
+    const/16 v0, 0x2d02
 
-    .line 90
+    .line 92
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/OptionParam;->readStr(I)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 95
+    .line 97
     :try_start_0
     const-class v1, [Lcom/rigol/scope/data/OptionInfo;
 
@@ -334,7 +344,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 118
+    .line 120
     array-length v1, v0
 
     const/4 v2, 0x0
@@ -344,7 +354,7 @@
 
     aget-object v3, v0, v2
 
-    .line 97
+    .line 99
     invoke-virtual {v3}, Lcom/rigol/scope/data/OptionInfo;->getId()Ljava/lang/String;
 
     move-result-object v4
@@ -368,7 +378,7 @@
     :catch_0
     move-exception v0
 
-    .line 101
+    .line 103
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
     :cond_0

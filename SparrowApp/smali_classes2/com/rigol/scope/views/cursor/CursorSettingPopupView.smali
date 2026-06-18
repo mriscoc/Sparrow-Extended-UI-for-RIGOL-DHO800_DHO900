@@ -1125,7 +1125,72 @@
     return-void
 .end method
 
-.method public synthetic lambda$new$2$CursorSettingPopupView(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
+.method public synthetic lambda$new$4$CursorSettingPopupView(Landroid/view/KeyEvent;)V
+    .locals 11
+
+    .line 203
+    invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
+
+    move-result-object v0
+
+    const-class v1, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;
+
+    invoke-virtual {v0, v1}, Lcom/rigol/scope/utilities/PopupViewManager;->isShowing(Ljava/lang/Class;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    .line 204
+    iget-object v1, p0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->panelKeyViewModel:Lcom/rigol/scope/viewmodels/PanelKeyViewModel;
+
+    iget-object v3, p0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->clickedView:Landroid/view/View;
+
+    iget-object v4, p0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
+
+    iget-object v5, p0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->mappingObjects:Ljava/util/List;
+
+    iget-object v6, p0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
+
+    iget-object v7, p0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
+
+    iget-object v8, p0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
+
+    new-instance v9, Lcom/rigol/scope/views/cursor/-$$Lambda$CursorSettingPopupView$azrIyZmVKBB_ZM2xXJFTp2R1WWA;
+
+    invoke-direct {v9, p0}, Lcom/rigol/scope/views/cursor/-$$Lambda$CursorSettingPopupView$azrIyZmVKBB_ZM2xXJFTp2R1WWA;-><init>(Lcom/rigol/scope/views/cursor/CursorSettingPopupView;)V
+
+    new-instance v10, Lcom/rigol/scope/views/cursor/-$$Lambda$CursorSettingPopupView$g8qljq5nnl2DN-vUImhI3nhse3g;
+
+    invoke-direct {v10, p0}, Lcom/rigol/scope/views/cursor/-$$Lambda$CursorSettingPopupView$g8qljq5nnl2DN-vUImhI3nhse3g;-><init>(Lcom/rigol/scope/views/cursor/CursorSettingPopupView;)V
+
+    move-object v2, p1
+
+    invoke-virtual/range {v1 .. v10}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->abSwitch(Landroid/view/KeyEvent;Landroid/view/View;Lcom/rigol/scope/views/spinner/PopupSpinner;Ljava/util/List;Lcom/rigol/scope/adapters/SpinnerAdapter;Lcom/rigol/scope/utilities/AorBManager;Lcom/rigol/scope/views/keyboard/KeyboardPopupView;Lcom/rigol/scope/utilities/AorBManager$OnKeyboardItemChangeListener;Lcom/rigol/scope/utilities/AorBManager$OnSpinnerItemChangeListener;)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public synthetic lambda$new$5$CursorSettingPopupView(Ljava/util/ArrayList;)V
+    .locals 0
+
+    .line 244
+    iput-object p1, p0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->mathParams:Ljava/util/List;
+
+    return-void
+.end method
+
+.method public synthetic lambda$new$6$CursorSettingPopupView(Ljava/util/ArrayList;)V
+    .locals 0
+
+    .line 249
+    iput-object p1, p0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->verticalParams:Ljava/util/List;
+
+    return-void
+.end method
+
+.method public synthetic lambda$null$2$CursorSettingPopupView(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
     .locals 0
 
     .line 205
@@ -1134,7 +1199,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$new$3$CursorSettingPopupView(ILcom/rigol/scope/data/MappingObject;)V
+.method public synthetic lambda$null$3$CursorSettingPopupView(ILcom/rigol/scope/data/MappingObject;)V
     .locals 0
 
     .line 207
@@ -1199,74 +1264,9 @@
         0x7f0a0027 -> :sswitch_4
         0x7f0a0028 -> :sswitch_3
         0x7f0a00d0 -> :sswitch_2
-        0x7f0a0890 -> :sswitch_1
-        0x7f0a0a8a -> :sswitch_0
+        0x7f0a089c -> :sswitch_1
+        0x7f0a0a96 -> :sswitch_0
     .end sparse-switch
-.end method
-
-.method public synthetic lambda$new$4$CursorSettingPopupView(Landroid/view/KeyEvent;)V
-    .locals 11
-
-    .line 203
-    invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
-
-    move-result-object v0
-
-    const-class v1, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;
-
-    invoke-virtual {v0, v1}, Lcom/rigol/scope/utilities/PopupViewManager;->isShowing(Ljava/lang/Class;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    .line 204
-    iget-object v1, p0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->panelKeyViewModel:Lcom/rigol/scope/viewmodels/PanelKeyViewModel;
-
-    iget-object v3, p0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->clickedView:Landroid/view/View;
-
-    iget-object v4, p0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
-
-    iget-object v5, p0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->mappingObjects:Ljava/util/List;
-
-    iget-object v6, p0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
-
-    iget-object v7, p0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
-
-    iget-object v8, p0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
-
-    new-instance v9, Lcom/rigol/scope/views/cursor/-$$Lambda$CursorSettingPopupView$rUgdDpQw8ruBXtwuYq2Gn0Sa2LE;
-
-    invoke-direct {v9, p0}, Lcom/rigol/scope/views/cursor/-$$Lambda$CursorSettingPopupView$rUgdDpQw8ruBXtwuYq2Gn0Sa2LE;-><init>(Lcom/rigol/scope/views/cursor/CursorSettingPopupView;)V
-
-    new-instance v10, Lcom/rigol/scope/views/cursor/-$$Lambda$CursorSettingPopupView$_syf28RGwtrBQyOugHhC6Q-1FkU;
-
-    invoke-direct {v10, p0}, Lcom/rigol/scope/views/cursor/-$$Lambda$CursorSettingPopupView$_syf28RGwtrBQyOugHhC6Q-1FkU;-><init>(Lcom/rigol/scope/views/cursor/CursorSettingPopupView;)V
-
-    move-object v2, p1
-
-    invoke-virtual/range {v1 .. v10}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->abSwitch(Landroid/view/KeyEvent;Landroid/view/View;Lcom/rigol/scope/views/spinner/PopupSpinner;Ljava/util/List;Lcom/rigol/scope/adapters/SpinnerAdapter;Lcom/rigol/scope/utilities/AorBManager;Lcom/rigol/scope/views/keyboard/KeyboardPopupView;Lcom/rigol/scope/utilities/AorBManager$OnKeyboardItemChangeListener;Lcom/rigol/scope/utilities/AorBManager$OnSpinnerItemChangeListener;)V
-
-    :cond_0
-    return-void
-.end method
-
-.method public synthetic lambda$new$5$CursorSettingPopupView(Ljava/util/ArrayList;)V
-    .locals 0
-
-    .line 244
-    iput-object p1, p0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->mathParams:Ljava/util/List;
-
-    return-void
-.end method
-
-.method public synthetic lambda$new$6$CursorSettingPopupView(Ljava/util/ArrayList;)V
-    .locals 0
-
-    .line 249
-    iput-object p1, p0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->verticalParams:Ljava/util/List;
-
-    return-void
 .end method
 
 .method public synthetic lambda$onClick$10$CursorSettingPopupView(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
@@ -1449,7 +1449,7 @@
     return-void
 
     :cond_0
-    const p1, 0x7f0a0b41
+    const p1, 0x7f0a0b4d
 
     const/4 v1, 0x1
 
@@ -1613,7 +1613,7 @@
     goto/16 :goto_1
 
     :cond_3
-    const p1, 0x7f0a0626
+    const p1, 0x7f0a062e
 
     if-ne v0, p1, :cond_4
 
@@ -1632,7 +1632,7 @@
     goto/16 :goto_1
 
     :cond_4
-    const p1, 0x7f0a091a
+    const p1, 0x7f0a0926
 
     if-ne v0, p1, :cond_5
 
@@ -1651,7 +1651,7 @@
     goto/16 :goto_1
 
     :cond_5
-    const p1, 0x7f0a0b62
+    const p1, 0x7f0a0b6e
 
     if-ne v0, p1, :cond_7
 
@@ -1928,7 +1928,7 @@
     goto/16 :goto_69
 
     :cond_1
-    const v3, 0x7f0a0890
+    const v3, 0x7f0a089c
 
     if-ne v1, v3, :cond_2
 
@@ -2140,7 +2140,7 @@
     goto/16 :goto_69
 
     :cond_7
-    const v3, 0x7f0a0a8a
+    const v3, 0x7f0a0a96
 
     if-ne v1, v3, :cond_9
 
@@ -2268,9 +2268,9 @@
     .line 369
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->anchor:Landroid/view/View;
 
-    .line 370
     iget-object v4, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 370
     invoke-virtual {v4}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v4
@@ -2306,10 +2306,10 @@
 
     move-result-object v3
 
-    .line 371
     :goto_3
     iget-object v4, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 371
     invoke-virtual {v4}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v4
@@ -2338,9 +2338,9 @@
 
     move-result-wide v4
 
-    .line 372
     iget-object v6, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 372
     invoke-virtual {v6}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v6
@@ -2369,9 +2369,9 @@
 
     move-result-wide v6
 
-    .line 373
     iget-object v8, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 373
     invoke-virtual {v8}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v8
@@ -2400,9 +2400,9 @@
 
     move-result-wide v8
 
-    .line 374
     iget-object v10, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 374
     invoke-virtual {v10}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v10
@@ -2426,10 +2426,10 @@
 
     move-result-wide v10
 
-    .line 375
     :goto_7
     iget-object v12, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 375
     invoke-virtual {v12}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v12
@@ -2474,9 +2474,9 @@
     .line 397
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->anchor:Landroid/view/View;
 
-    .line 398
     iget-object v4, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 398
     invoke-virtual {v4}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v4
@@ -2506,10 +2506,10 @@
 
     move-result-object v3
 
-    .line 399
     :goto_9
     iget-object v4, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 399
     invoke-virtual {v4}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v4
@@ -2538,9 +2538,9 @@
 
     move-result-wide v4
 
-    .line 400
     iget-object v6, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 400
     invoke-virtual {v6}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v6
@@ -2569,9 +2569,9 @@
 
     move-result-wide v6
 
-    .line 401
     iget-object v8, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 401
     invoke-virtual {v8}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v8
@@ -2600,9 +2600,9 @@
 
     move-result-wide v8
 
-    .line 402
     iget-object v10, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 402
     invoke-virtual {v10}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v10
@@ -2626,10 +2626,10 @@
 
     move-result-wide v10
 
-    .line 403
     :goto_d
     iget-object v12, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 403
     invoke-virtual {v12}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v12
@@ -2680,9 +2680,9 @@
     .line 426
     iget-object v3, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->anchor:Landroid/view/View;
 
-    .line 427
     iget-object v4, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 427
     invoke-virtual {v4}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v4
@@ -2715,9 +2715,9 @@
     :goto_f
     move-object v4, v1
 
-    .line 428
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 428
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -2746,9 +2746,9 @@
 
     move-result-wide v5
 
-    .line 429
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 429
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -2777,9 +2777,9 @@
 
     move-result-wide v7
 
-    .line 430
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 430
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -2808,9 +2808,9 @@
 
     move-result-wide v9
 
-    .line 431
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 431
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -2917,9 +2917,9 @@
     .line 461
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->anchor:Landroid/view/View;
 
-    .line 462
     iget-object v4, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 462
     invoke-virtual {v4}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v4
@@ -2955,10 +2955,10 @@
 
     move-result-object v3
 
-    .line 463
     :goto_14
     iget-object v4, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 463
     invoke-virtual {v4}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v4
@@ -2987,9 +2987,9 @@
 
     move-result-wide v4
 
-    .line 464
     iget-object v6, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 464
     invoke-virtual {v6}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v6
@@ -3018,9 +3018,9 @@
 
     move-result-wide v6
 
-    .line 465
     iget-object v8, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 465
     invoke-virtual {v8}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v8
@@ -3049,9 +3049,9 @@
 
     move-result-wide v8
 
-    .line 466
     iget-object v10, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 466
     invoke-virtual {v10}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v10
@@ -3075,10 +3075,10 @@
 
     move-result-wide v10
 
-    .line 467
     :goto_18
     iget-object v12, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 467
     invoke-virtual {v12}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v12
@@ -3123,9 +3123,9 @@
     .line 489
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->anchor:Landroid/view/View;
 
-    .line 490
     iget-object v4, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 490
     invoke-virtual {v4}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v4
@@ -3155,10 +3155,10 @@
 
     move-result-object v3
 
-    .line 491
     :goto_1a
     iget-object v4, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 491
     invoke-virtual {v4}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v4
@@ -3187,9 +3187,9 @@
 
     move-result-wide v4
 
-    .line 492
     iget-object v6, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 492
     invoke-virtual {v6}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v6
@@ -3218,9 +3218,9 @@
 
     move-result-wide v6
 
-    .line 493
     iget-object v8, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 493
     invoke-virtual {v8}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v8
@@ -3249,9 +3249,9 @@
 
     move-result-wide v8
 
-    .line 494
     iget-object v10, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 494
     invoke-virtual {v10}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v10
@@ -3275,10 +3275,10 @@
 
     move-result-wide v10
 
-    .line 495
     :goto_1e
     iget-object v12, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 495
     invoke-virtual {v12}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v12
@@ -3329,9 +3329,9 @@
     .line 518
     iget-object v3, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->anchor:Landroid/view/View;
 
-    .line 519
     iget-object v4, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 519
     invoke-virtual {v4}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v4
@@ -3364,9 +3364,9 @@
     :goto_20
     move-object v4, v1
 
-    .line 520
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 520
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -3395,9 +3395,9 @@
 
     move-result-wide v5
 
-    .line 521
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 521
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -3426,9 +3426,9 @@
 
     move-result-wide v7
 
-    .line 522
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 522
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -3457,9 +3457,9 @@
 
     move-result-wide v9
 
-    .line 523
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 523
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -3566,9 +3566,9 @@
     .line 553
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->anchor:Landroid/view/View;
 
-    .line 554
     iget-object v4, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 554
     invoke-virtual {v4}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v4
@@ -3601,9 +3601,9 @@
 
     move-result-object v3
 
-    .line 555
     iget-object v4, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 555
     invoke-virtual {v4}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v4
@@ -3632,9 +3632,9 @@
 
     move-result-wide v4
 
-    .line 556
     iget-object v6, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 556
     invoke-virtual {v6}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v6
@@ -3663,9 +3663,9 @@
 
     move-result-wide v6
 
-    .line 557
     iget-object v8, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 557
     invoke-virtual {v8}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v8
@@ -3694,9 +3694,9 @@
 
     move-result-wide v8
 
-    .line 558
     iget-object v10, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 558
     invoke-virtual {v10}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v10
@@ -3720,10 +3720,10 @@
 
     move-result-wide v10
 
-    .line 559
     :goto_29
     iget-object v12, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 559
     invoke-virtual {v12}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v12
@@ -3768,9 +3768,9 @@
     .line 581
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->anchor:Landroid/view/View;
 
-    .line 582
     iget-object v4, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 582
     invoke-virtual {v4}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v4
@@ -3803,9 +3803,9 @@
 
     move-result-object v3
 
-    .line 583
     iget-object v4, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 583
     invoke-virtual {v4}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v4
@@ -3834,9 +3834,9 @@
 
     move-result-wide v4
 
-    .line 584
     iget-object v6, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 584
     invoke-virtual {v6}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v6
@@ -3865,9 +3865,9 @@
 
     move-result-wide v6
 
-    .line 585
     iget-object v8, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 585
     invoke-virtual {v8}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v8
@@ -3896,9 +3896,9 @@
 
     move-result-wide v8
 
-    .line 586
     iget-object v10, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 586
     invoke-virtual {v10}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v10
@@ -3922,10 +3922,10 @@
 
     move-result-wide v10
 
-    .line 587
     :goto_2f
     iget-object v12, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 587
     invoke-virtual {v12}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v12
@@ -3976,9 +3976,9 @@
     .line 610
     iget-object v4, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->anchor:Landroid/view/View;
 
-    .line 611
     iget-object v5, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 611
     invoke-virtual {v5}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v5
@@ -4013,9 +4013,9 @@
 
     move-object v3, v1
 
-    .line 612
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 612
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -4044,9 +4044,9 @@
 
     move-result-wide v5
 
-    .line 613
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 613
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -4075,9 +4075,9 @@
 
     move-result-wide v7
 
-    .line 614
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 614
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -4106,9 +4106,9 @@
 
     move-result-wide v9
 
-    .line 615
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 615
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -4239,9 +4239,9 @@
     .line 652
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->anchor:Landroid/view/View;
 
-    .line 653
     iget-object v4, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 653
     invoke-virtual {v4}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v4
@@ -4277,10 +4277,10 @@
 
     move-result-object v3
 
-    .line 654
     :goto_36
     iget-object v4, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 654
     invoke-virtual {v4}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v4
@@ -4309,9 +4309,9 @@
 
     move-result-wide v4
 
-    .line 655
     iget-object v6, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 655
     invoke-virtual {v6}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v6
@@ -4340,9 +4340,9 @@
 
     move-result-wide v6
 
-    .line 656
     iget-object v8, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 656
     invoke-virtual {v8}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v8
@@ -4371,9 +4371,9 @@
 
     move-result-wide v8
 
-    .line 657
     iget-object v10, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 657
     invoke-virtual {v10}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v10
@@ -4397,10 +4397,10 @@
 
     move-result-wide v10
 
-    .line 658
     :goto_3a
     iget-object v12, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 658
     invoke-virtual {v12}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v12
@@ -4445,9 +4445,9 @@
     .line 680
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->anchor:Landroid/view/View;
 
-    .line 681
     iget-object v4, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 681
     invoke-virtual {v4}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v4
@@ -4477,10 +4477,10 @@
 
     move-result-object v3
 
-    .line 682
     :goto_3c
     iget-object v4, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 682
     invoke-virtual {v4}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v4
@@ -4509,9 +4509,9 @@
 
     move-result-wide v4
 
-    .line 683
     iget-object v6, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 683
     invoke-virtual {v6}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v6
@@ -4540,9 +4540,9 @@
 
     move-result-wide v6
 
-    .line 684
     iget-object v8, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 684
     invoke-virtual {v8}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v8
@@ -4571,9 +4571,9 @@
 
     move-result-wide v8
 
-    .line 685
     iget-object v10, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 685
     invoke-virtual {v10}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v10
@@ -4597,10 +4597,10 @@
 
     move-result-wide v10
 
-    .line 686
     :goto_40
     iget-object v12, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 686
     invoke-virtual {v12}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v12
@@ -4651,9 +4651,9 @@
     .line 709
     iget-object v3, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->anchor:Landroid/view/View;
 
-    .line 710
     iget-object v4, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 710
     invoke-virtual {v4}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v4
@@ -4686,9 +4686,9 @@
     :goto_42
     move-object v4, v1
 
-    .line 711
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 711
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -4717,9 +4717,9 @@
 
     move-result-wide v5
 
-    .line 712
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 712
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -4748,9 +4748,9 @@
 
     move-result-wide v7
 
-    .line 713
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 713
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -4779,9 +4779,9 @@
 
     move-result-wide v9
 
-    .line 714
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 714
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -4882,9 +4882,9 @@
     .line 741
     iget-object v3, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->anchor:Landroid/view/View;
 
-    .line 742
     iget-object v4, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 742
     invoke-virtual {v4}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v4
@@ -4923,9 +4923,9 @@
     :goto_47
     move-object v4, v1
 
-    .line 743
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 743
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -4954,9 +4954,9 @@
 
     move-result-wide v5
 
-    .line 744
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 744
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -4985,9 +4985,9 @@
 
     move-result-wide v7
 
-    .line 745
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 745
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -5016,9 +5016,9 @@
 
     move-result-wide v9
 
-    .line 746
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 746
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -5042,10 +5042,10 @@
 
     move-result-wide v11
 
-    .line 747
     :goto_4b
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 747
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -5108,9 +5108,9 @@
     .line 769
     iget-object v3, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->anchor:Landroid/view/View;
 
-    .line 770
     iget-object v4, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 770
     invoke-virtual {v4}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v4
@@ -5143,9 +5143,9 @@
     :goto_4d
     move-object v4, v1
 
-    .line 771
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 771
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -5174,9 +5174,9 @@
 
     move-result-wide v5
 
-    .line 772
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 772
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -5205,9 +5205,9 @@
 
     move-result-wide v7
 
-    .line 773
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 773
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -5236,9 +5236,9 @@
 
     move-result-wide v9
 
-    .line 774
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 774
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -5262,10 +5262,10 @@
 
     move-result-wide v11
 
-    .line 775
     :goto_51
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 775
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -5334,9 +5334,9 @@
     .line 798
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->anchor:Landroid/view/View;
 
-    .line 799
     iget-object v4, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 799
     invoke-virtual {v4}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v4
@@ -5366,10 +5366,10 @@
 
     move-result-object v3
 
-    .line 800
     :goto_53
     iget-object v4, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 800
     invoke-virtual {v4}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v4
@@ -5398,9 +5398,9 @@
 
     move-result-wide v4
 
-    .line 801
     iget-object v6, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 801
     invoke-virtual {v6}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v6
@@ -5429,9 +5429,9 @@
 
     move-result-wide v6
 
-    .line 802
     iget-object v8, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 802
     invoke-virtual {v8}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v8
@@ -5460,9 +5460,9 @@
 
     move-result-wide v8
 
-    .line 803
     iget-object v10, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 803
     invoke-virtual {v10}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v10
@@ -5555,9 +5555,9 @@
     .line 833
     iget-object v3, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->anchor:Landroid/view/View;
 
-    .line 834
     iget-object v4, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 834
     invoke-virtual {v4}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v4
@@ -5592,9 +5592,9 @@
 
     move-object v4, v1
 
-    .line 835
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 835
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -5623,9 +5623,9 @@
 
     move-result-wide v5
 
-    .line 836
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 836
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -5654,9 +5654,9 @@
 
     move-result-wide v7
 
-    .line 837
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 837
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -5685,9 +5685,9 @@
 
     move-result-wide v9
 
-    .line 838
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 838
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -5711,10 +5711,10 @@
 
     move-result-wide v11
 
-    .line 839
     :goto_5c
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 839
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -5777,9 +5777,9 @@
     .line 861
     iget-object v3, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->anchor:Landroid/view/View;
 
-    .line 862
     iget-object v4, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 862
     invoke-virtual {v4}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v4
@@ -5814,9 +5814,9 @@
 
     move-object v4, v1
 
-    .line 863
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 863
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -5845,9 +5845,9 @@
 
     move-result-wide v5
 
-    .line 864
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 864
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -5876,9 +5876,9 @@
 
     move-result-wide v7
 
-    .line 865
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 865
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -5907,9 +5907,9 @@
 
     move-result-wide v9
 
-    .line 866
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 866
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -5933,10 +5933,10 @@
 
     move-result-wide v11
 
-    .line 867
     :goto_62
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 867
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -6005,9 +6005,9 @@
     .line 890
     iget-object v4, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->anchor:Landroid/view/View;
 
-    .line 891
     iget-object v5, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 891
     invoke-virtual {v5}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v5
@@ -6042,9 +6042,9 @@
 
     move-object v3, v1
 
-    .line 892
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 892
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -6073,9 +6073,9 @@
 
     move-result-wide v5
 
-    .line 893
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 893
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -6104,9 +6104,9 @@
 
     move-result-wide v7
 
-    .line 894
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 894
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -6135,9 +6135,9 @@
 
     move-result-wide v9
 
-    .line 895
     iget-object v1, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
+    .line 895
     invoke-virtual {v1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v1
@@ -6232,7 +6232,7 @@
     .line 1119
     iget-object v0, p0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->param:Lcom/rigol/scope/data/CursorResultParam;
 
-    const/16 v1, 0x408
+    const/16 v1, 0x40c
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/CursorResultParam;->notifyPropertyChanged(I)V
 

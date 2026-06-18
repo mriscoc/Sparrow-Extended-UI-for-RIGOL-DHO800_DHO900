@@ -230,7 +230,7 @@
     return v0
 .end method
 
-.method public synthetic lambda$onBindViewHolder$0$DecodeFlexrayAdapter(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
+.method public synthetic lambda$null$0$DecodeFlexrayAdapter(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
     .locals 0
 
     .line 135
@@ -239,7 +239,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$onBindViewHolder$1$DecodeFlexrayAdapter(ILcom/rigol/scope/data/MappingObject;)V
+.method public synthetic lambda$null$1$DecodeFlexrayAdapter(ILcom/rigol/scope/data/MappingObject;)V
     .locals 2
 
     .line 137
@@ -336,13 +336,13 @@
 
     iget-object v9, p0, Lcom/rigol/scope/adapters/DecodeFlexrayAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
 
-    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$DecodeFlexrayAdapter$mhOkzT4MmMnSrxlA_kKqn7uvGzU;
+    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$DecodeFlexrayAdapter$Oouyu2ddGJV05ppvOr1yvQag4_o;
 
-    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeFlexrayAdapter$mhOkzT4MmMnSrxlA_kKqn7uvGzU;-><init>(Lcom/rigol/scope/adapters/DecodeFlexrayAdapter;)V
+    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeFlexrayAdapter$Oouyu2ddGJV05ppvOr1yvQag4_o;-><init>(Lcom/rigol/scope/adapters/DecodeFlexrayAdapter;)V
 
-    new-instance v11, Lcom/rigol/scope/adapters/-$$Lambda$DecodeFlexrayAdapter$fPouET4wLzfweQ0EMYGh69yHtsU;
+    new-instance v11, Lcom/rigol/scope/adapters/-$$Lambda$DecodeFlexrayAdapter$QY6Eu_lus1pm9CHbBBnz1rb4Zvk;
 
-    invoke-direct {v11, p0}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeFlexrayAdapter$fPouET4wLzfweQ0EMYGh69yHtsU;-><init>(Lcom/rigol/scope/adapters/DecodeFlexrayAdapter;)V
+    invoke-direct {v11, p0}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeFlexrayAdapter$QY6Eu_lus1pm9CHbBBnz1rb4Zvk;-><init>(Lcom/rigol/scope/adapters/DecodeFlexrayAdapter;)V
 
     move-object v3, p1
 
@@ -545,7 +545,7 @@
 
     move-result p2
 
-    const/16 v1, 0x5959
+    const/16 v1, 0x5b59
 
     invoke-virtual {p1, p2, v1}, Lcom/rigol/scope/data/DecodeParam;->getDecodeThres(II)J
 

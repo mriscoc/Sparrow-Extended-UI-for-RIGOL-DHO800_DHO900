@@ -75,7 +75,7 @@
 .method public final onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 1709
+    .line 1824
     iget-object p1, p0, Lcom/rigol/scope/views/grid/JitterSpectrumGridRulerView$1;->this$0:Lcom/rigol/scope/views/grid/JitterSpectrumGridRulerView;
 
     invoke-static {p1}, Lcom/rigol/scope/views/grid/JitterSpectrumGridRulerView;->access$updateXRuler(Lcom/rigol/scope/views/grid/JitterSpectrumGridRulerView;)V
@@ -86,7 +86,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1691
+    .line 1806
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/grid/JitterSpectrumGridRulerView$1;->onChanged(Ljava/lang/Boolean;)V

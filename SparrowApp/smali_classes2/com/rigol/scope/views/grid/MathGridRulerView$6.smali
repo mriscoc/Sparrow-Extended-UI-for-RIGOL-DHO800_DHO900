@@ -74,19 +74,19 @@
 .method public final onChanged(Ljava/lang/Object;)V
     .locals 1
 
-    .line 1196
+    .line 1311
     instance-of v0, p1, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
     if-eqz v0, :cond_0
 
-    .line 1198
+    .line 1313
     iget-object v0, p0, Lcom/rigol/scope/views/grid/MathGridRulerView$6;->this$0:Lcom/rigol/scope/views/grid/MathGridRulerView;
 
     check-cast p1, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
     invoke-virtual {v0, p1}, Lcom/rigol/scope/views/grid/MathGridRulerView;->setType(Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;)V
 
-    .line 1199
+    .line 1314
     iget-object p1, p0, Lcom/rigol/scope/views/grid/MathGridRulerView$6;->this$0:Lcom/rigol/scope/views/grid/MathGridRulerView;
 
     invoke-virtual {p1}, Lcom/rigol/scope/views/grid/MathGridRulerView;->invalidate()V

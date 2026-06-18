@@ -74,7 +74,7 @@
 .method public final onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 983
+    .line 1075
     iget-object p1, p0, Lcom/rigol/scope/views/grid/WaveformGridRulderView$6;->this$0:Lcom/rigol/scope/views/grid/WaveformGridRulderView;
 
     invoke-static {p1}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->access$updateVerticalRuler(Lcom/rigol/scope/views/grid/WaveformGridRulderView;)V

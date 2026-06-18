@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 6021
+    .line 6027
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$CalBwIndex;
 
     const-string v1, "BW_CCTRIM"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$CalBwIndex;->BW_CCTRIM:Lcom/rigol/scope/cil/ServiceEnum$CalBwIndex;
 
-    .line 6022
+    .line 6028
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalBwIndex;
 
     const-string v9, "BW_CC2TRIM"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalBwIndex;->BW_CC2TRIM:Lcom/rigol/scope/cil/ServiceEnum$CalBwIndex;
 
-    .line 6023
+    .line 6029
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$CalBwIndex;
 
     const-string v2, "BW_BWTRIM"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$CalBwIndex;
 
-    .line 6019
+    .line 6025
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$CalBwIndex;->BW_CCTRIM:Lcom/rigol/scope/cil/ServiceEnum$CalBwIndex;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 6026
+    .line 6032
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 6027
+    .line 6033
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$CalBwIndex;->value1:I
 
-    .line 6028
+    .line 6034
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$CalBwIndex;->value2:Ljava/lang/String;
 
-    .line 6029
+    .line 6035
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$CalBwIndex;->pic1:Ljava/lang/String;
 
-    .line 6030
+    .line 6036
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$CalBwIndex;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$CalBwIndex;
     .locals 1
 
-    .line 6019
+    .line 6025
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$CalBwIndex;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$CalBwIndex;
     .locals 1
 
-    .line 6019
+    .line 6025
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$CalBwIndex;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$CalBwIndex;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$CalBwIndex;->clone()Ljava/lang/Object;

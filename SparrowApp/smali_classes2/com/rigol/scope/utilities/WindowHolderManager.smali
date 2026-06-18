@@ -8,6 +8,14 @@
 
 
 # instance fields
+.field private mathwindowholder1:Lcom/rigol/scope/views/window/MathWindowHolder;
+
+.field private mathwindowholder2:Lcom/rigol/scope/views/window/MathWindowHolder;
+
+.field private mathwindowholder3:Lcom/rigol/scope/views/window/MathWindowHolder;
+
+.field private mathwindowholder4:Lcom/rigol/scope/views/window/MathWindowHolder;
+
 .field private final windowHolders:Landroidx/collection/SimpleArrayMap;
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -25,10 +33,10 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 53
+    .line 60
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 51
+    .line 54
     new-instance v0, Landroidx/collection/SimpleArrayMap;
 
     invoke-direct {v0}, Landroidx/collection/SimpleArrayMap;-><init>()V
@@ -41,30 +49,30 @@
 .method public static getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
     .locals 2
 
-    .line 57
+    .line 64
     sget-object v0, Lcom/rigol/scope/utilities/WindowHolderManager;->INSTANCE:Lcom/rigol/scope/utilities/WindowHolderManager;
 
     if-nez v0, :cond_1
 
-    .line 58
+    .line 65
     const-class v0, Lcom/rigol/scope/utilities/WindowHolderManager;
 
     monitor-enter v0
 
-    .line 59
+    .line 66
     :try_start_0
     sget-object v1, Lcom/rigol/scope/utilities/WindowHolderManager;->INSTANCE:Lcom/rigol/scope/utilities/WindowHolderManager;
 
     if-nez v1, :cond_0
 
-    .line 60
+    .line 67
     new-instance v1, Lcom/rigol/scope/utilities/WindowHolderManager;
 
     invoke-direct {v1}, Lcom/rigol/scope/utilities/WindowHolderManager;-><init>()V
 
     sput-object v1, Lcom/rigol/scope/utilities/WindowHolderManager;->INSTANCE:Lcom/rigol/scope/utilities/WindowHolderManager;
 
-    .line 62
+    .line 69
     :cond_0
     monitor-exit v0
 
@@ -79,7 +87,7 @@
 
     throw v1
 
-    .line 64
+    .line 71
     :cond_1
     :goto_0
     sget-object v0, Lcom/rigol/scope/utilities/WindowHolderManager;->INSTANCE:Lcom/rigol/scope/utilities/WindowHolderManager;
@@ -90,14 +98,14 @@
 .method static synthetic lambda$remove$0()V
     .locals 3
 
-    .line 278
+    .line 322
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object v0
 
     const/16 v1, 0x3c
 
-    const/16 v2, 0x2901
+    const/16 v2, 0x2b01
 
     invoke-static {v1, v2}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 
@@ -119,14 +127,14 @@
 .method public add(Lcom/rigol/scope/views/window/WindowHolder;)V
     .locals 3
 
-    .line 177
+    .line 184
     invoke-virtual {p0, p1}, Lcom/rigol/scope/utilities/WindowHolderManager;->contains(Lcom/rigol/scope/views/window/WindowHolder;)Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 178
+    .line 185
     iget-object v0, p0, Lcom/rigol/scope/utilities/WindowHolderManager;->windowHolders:Landroidx/collection/SimpleArrayMap;
 
     invoke-virtual {p1}, Lcom/rigol/scope/views/window/WindowHolder;->getWindowParam()Lcom/rigol/scope/data/WindowParam;
@@ -145,12 +153,12 @@
 
     if-nez v0, :cond_0
 
-    .line 180
+    .line 187
     new-instance v0, Ljava/util/concurrent/CopyOnWriteArrayList;
 
     invoke-direct {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;-><init>()V
 
-    .line 181
+    .line 188
     iget-object v1, p0, Lcom/rigol/scope/utilities/WindowHolderManager;->windowHolders:Landroidx/collection/SimpleArrayMap;
 
     invoke-virtual {p1}, Lcom/rigol/scope/views/window/WindowHolder;->getWindowParam()Lcom/rigol/scope/data/WindowParam;
@@ -163,7 +171,7 @@
 
     invoke-virtual {v1, v2, v0}, Landroidx/collection/SimpleArrayMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 183
+    .line 190
     :cond_0
     invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z
 
@@ -180,7 +188,7 @@
 
     return v0
 
-    .line 124
+    .line 131
     :cond_0
     iget-object v1, p0, Lcom/rigol/scope/utilities/WindowHolderManager;->windowHolders:Landroidx/collection/SimpleArrayMap;
 
@@ -202,7 +210,7 @@
 
     return v0
 
-    .line 129
+    .line 136
     :cond_1
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -226,7 +234,7 @@
 
     goto :goto_0
 
-    .line 134
+    .line 141
     :cond_3
     sget-object v3, Lcom/rigol/scope/utilities/WindowHolderManager$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$WindowType:[I
 
@@ -250,7 +258,7 @@
 
     return v4
 
-    .line 163
+    .line 170
     :pswitch_0
     invoke-virtual {p1}, Lcom/rigol/scope/views/window/WindowHolder;->getWindowParam()Lcom/rigol/scope/data/WindowParam;
 
@@ -272,7 +280,7 @@
 
     return v4
 
-    .line 157
+    .line 164
     :pswitch_1
     invoke-virtual {p1}, Lcom/rigol/scope/views/window/WindowHolder;->getWindowParam()Lcom/rigol/scope/data/WindowParam;
 
@@ -292,7 +300,7 @@
 
     if-ne v3, v5, :cond_2
 
-    .line 158
+    .line 165
     invoke-virtual {p1}, Lcom/rigol/scope/views/window/WindowHolder;->getWindowParam()Lcom/rigol/scope/data/WindowParam;
 
     move-result-object v3
@@ -313,7 +321,7 @@
 
     return v4
 
-    .line 152
+    .line 159
     :pswitch_2
     invoke-virtual {p1}, Lcom/rigol/scope/views/window/WindowHolder;->getWindowParam()Lcom/rigol/scope/data/WindowParam;
 
@@ -335,7 +343,7 @@
 
     return v4
 
-    .line 142
+    .line 149
     :pswitch_3
     invoke-virtual {p1}, Lcom/rigol/scope/views/window/WindowHolder;->getWindowParam()Lcom/rigol/scope/data/WindowParam;
 
@@ -355,7 +363,7 @@
 
     if-ne v3, v5, :cond_2
 
-    .line 143
+    .line 150
     invoke-virtual {p1}, Lcom/rigol/scope/views/window/WindowHolder;->getWindowParam()Lcom/rigol/scope/data/WindowParam;
 
     move-result-object v3
@@ -374,7 +382,7 @@
 
     if-ne v3, v5, :cond_2
 
-    .line 144
+    .line 151
     invoke-virtual {p1}, Lcom/rigol/scope/views/window/WindowHolder;->getWindowParam()Lcom/rigol/scope/data/WindowParam;
 
     move-result-object v3
@@ -395,7 +403,7 @@
 
     return v4
 
-    .line 136
+    .line 143
     :pswitch_4
     invoke-virtual {p1}, Lcom/rigol/scope/views/window/WindowHolder;->getWindowParam()Lcom/rigol/scope/data/WindowParam;
 
@@ -415,7 +423,7 @@
 
     if-ne v3, v5, :cond_2
 
-    .line 137
+    .line 144
     invoke-virtual {p1}, Lcom/rigol/scope/views/window/WindowHolder;->getWindowParam()Lcom/rigol/scope/data/WindowParam;
 
     move-result-object v3
@@ -467,7 +475,7 @@
         }
     .end annotation
 
-    .line 68
+    .line 75
     iget-object v0, p0, Lcom/rigol/scope/utilities/WindowHolderManager;->windowHolders:Landroidx/collection/SimpleArrayMap;
 
     invoke-virtual {v0, p1}, Landroidx/collection/SimpleArrayMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -498,13 +506,13 @@
 
     return-object v0
 
-    .line 76
+    .line 83
     :cond_0
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 78
+    .line 85
     invoke-virtual {p1}, Lcom/rigol/scope/data/WindowParam;->getType()Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     move-result-object v2
@@ -517,7 +525,7 @@
 
     return-object v0
 
-    .line 83
+    .line 90
     :cond_1
     invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -541,7 +549,7 @@
 
     goto :goto_0
 
-    .line 88
+    .line 95
     :cond_3
     sget-object v3, Lcom/rigol/scope/utilities/WindowHolderManager$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$WindowType:[I
 
@@ -557,12 +565,12 @@
 
     packed-switch v3, :pswitch_data_0
 
-    .line 111
+    .line 118
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 106
+    .line 113
     :pswitch_0
     invoke-virtual {p1}, Lcom/rigol/scope/data/WindowParam;->getSource1()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -578,12 +586,12 @@
 
     if-ne v3, v4, :cond_2
 
-    .line 107
+    .line 114
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 96
+    .line 103
     :pswitch_1
     invoke-virtual {p1}, Lcom/rigol/scope/data/WindowParam;->getServiceID()I
 
@@ -599,7 +607,7 @@
 
     if-ne v3, v4, :cond_2
 
-    .line 97
+    .line 104
     invoke-virtual {p1}, Lcom/rigol/scope/data/WindowParam;->getSource1()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v3
@@ -614,7 +622,7 @@
 
     if-ne v3, v4, :cond_2
 
-    .line 98
+    .line 105
     invoke-virtual {p1}, Lcom/rigol/scope/data/WindowParam;->getSource2()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v3
@@ -629,12 +637,12 @@
 
     if-ne v3, v4, :cond_2
 
-    .line 99
+    .line 106
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 90
+    .line 97
     :pswitch_2
     invoke-virtual {p1}, Lcom/rigol/scope/data/WindowParam;->getServiceID()I
 
@@ -650,7 +658,7 @@
 
     if-ne v3, v4, :cond_2
 
-    .line 91
+    .line 98
     invoke-virtual {p1}, Lcom/rigol/scope/data/WindowParam;->getSource1()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v3
@@ -665,7 +673,7 @@
 
     if-ne v3, v4, :cond_2
 
-    .line 92
+    .line 99
     invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto/16 :goto_0
@@ -684,12 +692,132 @@
     .end packed-switch
 .end method
 
+.method public obtain(Landroid/content/Context;Lcom/rigol/scope/data/WindowParam;)Lcom/rigol/scope/views/window/MathWindowHolder;
+    .locals 2
+
+    .line 196
+    invoke-virtual {p2}, Lcom/rigol/scope/data/WindowParam;->getServiceID()I
+
+    move-result v0
+
+    const/16 v1, 0x11
+
+    if-ne v0, v1, :cond_1
+
+    .line 198
+    iget-object v0, p0, Lcom/rigol/scope/utilities/WindowHolderManager;->mathwindowholder1:Lcom/rigol/scope/views/window/MathWindowHolder;
+
+    if-nez v0, :cond_0
+
+    .line 200
+    new-instance v0, Lcom/rigol/scope/views/window/MathWindowHolder;
+
+    invoke-direct {v0, p1, p2}, Lcom/rigol/scope/views/window/MathWindowHolder;-><init>(Landroid/content/Context;Lcom/rigol/scope/data/WindowParam;)V
+
+    iput-object v0, p0, Lcom/rigol/scope/utilities/WindowHolderManager;->mathwindowholder1:Lcom/rigol/scope/views/window/MathWindowHolder;
+
+    .line 202
+    :cond_0
+    iget-object p1, p0, Lcom/rigol/scope/utilities/WindowHolderManager;->mathwindowholder1:Lcom/rigol/scope/views/window/MathWindowHolder;
+
+    return-object p1
+
+    .line 204
+    :cond_1
+    invoke-virtual {p2}, Lcom/rigol/scope/data/WindowParam;->getServiceID()I
+
+    move-result v0
+
+    const/16 v1, 0x12
+
+    if-ne v0, v1, :cond_3
+
+    .line 206
+    iget-object v0, p0, Lcom/rigol/scope/utilities/WindowHolderManager;->mathwindowholder2:Lcom/rigol/scope/views/window/MathWindowHolder;
+
+    if-nez v0, :cond_2
+
+    .line 208
+    new-instance v0, Lcom/rigol/scope/views/window/MathWindowHolder;
+
+    invoke-direct {v0, p1, p2}, Lcom/rigol/scope/views/window/MathWindowHolder;-><init>(Landroid/content/Context;Lcom/rigol/scope/data/WindowParam;)V
+
+    iput-object v0, p0, Lcom/rigol/scope/utilities/WindowHolderManager;->mathwindowholder2:Lcom/rigol/scope/views/window/MathWindowHolder;
+
+    .line 210
+    :cond_2
+    iget-object p1, p0, Lcom/rigol/scope/utilities/WindowHolderManager;->mathwindowholder2:Lcom/rigol/scope/views/window/MathWindowHolder;
+
+    return-object p1
+
+    .line 212
+    :cond_3
+    invoke-virtual {p2}, Lcom/rigol/scope/data/WindowParam;->getServiceID()I
+
+    move-result v0
+
+    const/16 v1, 0x13
+
+    if-ne v0, v1, :cond_5
+
+    .line 214
+    iget-object v0, p0, Lcom/rigol/scope/utilities/WindowHolderManager;->mathwindowholder3:Lcom/rigol/scope/views/window/MathWindowHolder;
+
+    if-nez v0, :cond_4
+
+    .line 216
+    new-instance v0, Lcom/rigol/scope/views/window/MathWindowHolder;
+
+    invoke-direct {v0, p1, p2}, Lcom/rigol/scope/views/window/MathWindowHolder;-><init>(Landroid/content/Context;Lcom/rigol/scope/data/WindowParam;)V
+
+    iput-object v0, p0, Lcom/rigol/scope/utilities/WindowHolderManager;->mathwindowholder3:Lcom/rigol/scope/views/window/MathWindowHolder;
+
+    .line 218
+    :cond_4
+    iget-object p1, p0, Lcom/rigol/scope/utilities/WindowHolderManager;->mathwindowholder3:Lcom/rigol/scope/views/window/MathWindowHolder;
+
+    return-object p1
+
+    .line 220
+    :cond_5
+    invoke-virtual {p2}, Lcom/rigol/scope/data/WindowParam;->getServiceID()I
+
+    move-result v0
+
+    const/16 v1, 0x14
+
+    if-ne v0, v1, :cond_7
+
+    .line 222
+    iget-object v0, p0, Lcom/rigol/scope/utilities/WindowHolderManager;->mathwindowholder4:Lcom/rigol/scope/views/window/MathWindowHolder;
+
+    if-nez v0, :cond_6
+
+    .line 224
+    new-instance v0, Lcom/rigol/scope/views/window/MathWindowHolder;
+
+    invoke-direct {v0, p1, p2}, Lcom/rigol/scope/views/window/MathWindowHolder;-><init>(Landroid/content/Context;Lcom/rigol/scope/data/WindowParam;)V
+
+    iput-object v0, p0, Lcom/rigol/scope/utilities/WindowHolderManager;->mathwindowholder4:Lcom/rigol/scope/views/window/MathWindowHolder;
+
+    .line 226
+    :cond_6
+    iget-object p1, p0, Lcom/rigol/scope/utilities/WindowHolderManager;->mathwindowholder4:Lcom/rigol/scope/views/window/MathWindowHolder;
+
+    return-object p1
+
+    :cond_7
+    const/4 p1, 0x0
+
+    return-object p1
+.end method
+
 .method public onLocaleChanged()V
     .locals 3
 
     const/4 v0, 0x0
 
-    .line 319
+    .line 363
     :goto_0
     iget-object v1, p0, Lcom/rigol/scope/utilities/WindowHolderManager;->windowHolders:Landroidx/collection/SimpleArrayMap;
 
@@ -699,7 +827,7 @@
 
     if-ge v0, v1, :cond_2
 
-    .line 320
+    .line 364
     iget-object v1, p0, Lcom/rigol/scope/utilities/WindowHolderManager;->windowHolders:Landroidx/collection/SimpleArrayMap;
 
     invoke-virtual {v1, v0}, Landroidx/collection/SimpleArrayMap;->valueAt(I)Ljava/lang/Object;
@@ -708,7 +836,7 @@
 
     check-cast v1, Ljava/util/List;
 
-    .line 321
+    .line 365
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -729,7 +857,7 @@
 
     if-eqz v2, :cond_0
 
-    .line 323
+    .line 367
     invoke-virtual {v2}, Lcom/rigol/scope/views/window/WindowHolder;->onLocaleChanged()V
 
     goto :goto_1
@@ -750,7 +878,7 @@
 
     return-void
 
-    .line 224
+    .line 268
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/utilities/WindowHolderManager;->windowHolders:Landroidx/collection/SimpleArrayMap;
 
@@ -762,7 +890,7 @@
 
     if-eqz v0, :cond_4
 
-    .line 225
+    .line 269
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
 
     move-result v1
@@ -771,7 +899,7 @@
 
     goto :goto_1
 
-    .line 232
+    .line 276
     :cond_1
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -795,7 +923,7 @@
 
     goto :goto_0
 
-    .line 237
+    .line 281
     :cond_3
     invoke-virtual {v1}, Lcom/rigol/scope/views/window/WindowHolder;->getWindowParam()Lcom/rigol/scope/data/WindowParam;
 
@@ -807,7 +935,7 @@
 
     if-ne v2, p1, :cond_2
 
-    .line 238
+    .line 282
     invoke-virtual {p0, v1}, Lcom/rigol/scope/utilities/WindowHolderManager;->remove(Lcom/rigol/scope/views/window/WindowHolder;)V
 
     goto :goto_0
@@ -820,7 +948,7 @@
 .method public remove(Lcom/rigol/scope/views/window/WindowHolder;)V
     .locals 2
 
-    .line 245
+    .line 289
     invoke-virtual {p1}, Lcom/rigol/scope/views/window/WindowHolder;->getWindowParam()Lcom/rigol/scope/data/WindowParam;
 
     move-result-object v0
@@ -833,7 +961,7 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 246
+    .line 290
     const-class v0, Lcom/rigol/scope/viewmodels/SearchViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -852,7 +980,7 @@
 
     check-cast v0, Lcom/rigol/scope/data/SearchParam;
 
-    .line 247
+    .line 291
     invoke-virtual {v0}, Lcom/rigol/scope/data/SearchParam;->readNavigation()I
 
     move-result v1
@@ -864,7 +992,7 @@
 
     return-void
 
-    .line 255
+    .line 299
     :cond_1
     iget-object v0, p0, Lcom/rigol/scope/utilities/WindowHolderManager;->windowHolders:Landroidx/collection/SimpleArrayMap;
 
@@ -884,21 +1012,21 @@
 
     if-eqz v0, :cond_2
 
-    .line 261
+    .line 305
     invoke-interface {v0, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
 
-    .line 264
+    .line 308
     :cond_2
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object v0
 
-    .line 265
+    .line 309
     instance-of v1, v0, Lcom/rigol/scope/MainActivity;
 
     if-eqz v1, :cond_3
 
-    .line 266
+    .line 310
     check-cast v0, Lcom/rigol/scope/MainActivity;
 
     invoke-virtual {v0}, Lcom/rigol/scope/MainActivity;->getWaveformFragment()Lcom/rigol/scope/WaveformFragment;
@@ -907,17 +1035,17 @@
 
     if-eqz v0, :cond_3
 
-    .line 268
+    .line 312
     invoke-virtual {v0}, Lcom/rigol/scope/WaveformFragment;->getBinding()Lcom/rigol/scope/databinding/FragmentWaveformBinding;
 
     move-result-object v0
 
-    .line 269
+    .line 313
     iget-object v0, v0, Lcom/rigol/scope/databinding/FragmentWaveformBinding;->multiWindow:Lcom/rigol/scope/views/multi/MultiWindow;
 
     invoke-virtual {v0, p1}, Lcom/rigol/scope/views/multi/MultiWindow;->removeWindow(Lcom/rigol/scope/views/window/WindowHolder;)V
 
-    .line 273
+    .line 317
     :cond_3
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->getFlexKnobParamViewModel()Lcom/rigol/scope/viewmodels/FlexKnobParamViewModel;
 
@@ -925,7 +1053,7 @@
 
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/FlexKnobParamViewModel;->refreshCHList()V
 
-    .line 275
+    .line 319
     sget-object p1, Lcom/rigol/scope/utilities/-$$Lambda$WindowHolderManager$ekkoI8RNtTkzMdrP1oBORpcpvu4;->INSTANCE:Lcom/rigol/scope/utilities/-$$Lambda$WindowHolderManager$ekkoI8RNtTkzMdrP1oBORpcpvu4;
 
     const-wide/16 v0, 0xc8
@@ -942,7 +1070,7 @@
 
     move v1, v0
 
-    .line 199
+    .line 243
     :goto_0
     iget-object v2, p0, Lcom/rigol/scope/utilities/WindowHolderManager;->windowHolders:Landroidx/collection/SimpleArrayMap;
 
@@ -952,7 +1080,7 @@
 
     if-ge v1, v2, :cond_1
 
-    .line 200
+    .line 244
     iget-object v2, p0, Lcom/rigol/scope/utilities/WindowHolderManager;->windowHolders:Landroidx/collection/SimpleArrayMap;
 
     invoke-virtual {v2, v1}, Landroidx/collection/SimpleArrayMap;->keyAt(I)Ljava/lang/Object;
@@ -961,7 +1089,7 @@
 
     check-cast v2, Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
-    .line 202
+    .line 246
     sget-object v3, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_MAIN_WAVEFORM:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
     if-ne v2, v3, :cond_0
@@ -981,10 +1109,10 @@
 
     aput-object v4, v3, v5
 
-    .line 213
+    .line 257
     invoke-static {v3}, Lcom/blankj/utilcode/util/LogUtils;->e([Ljava/lang/Object;)V
 
-    .line 214
+    .line 258
     invoke-virtual {p0, v2}, Lcom/rigol/scope/utilities/WindowHolderManager;->remove(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)V
 
     :goto_1
@@ -999,14 +1127,14 @@
 .method public size(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)I
     .locals 1
 
-    .line 284
+    .line 328
     invoke-virtual {p0, p1}, Lcom/rigol/scope/utilities/WindowHolderManager;->get(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)Ljava/util/List;
 
     move-result-object p1
 
     if-eqz p1, :cond_1
 
-    .line 285
+    .line 329
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
@@ -1015,7 +1143,7 @@
 
     goto :goto_0
 
-    .line 288
+    .line 332
     :cond_0
     invoke-interface {p1}, Ljava/util/List;->size()I
 
@@ -1033,7 +1161,7 @@
 .method public size(Lcom/rigol/scope/cil/ServiceEnum$WindowType;I)I
     .locals 2
 
-    .line 293
+    .line 337
     invoke-virtual {p0, p1}, Lcom/rigol/scope/utilities/WindowHolderManager;->get(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)Ljava/util/List;
 
     move-result-object p1
@@ -1042,7 +1170,7 @@
 
     if-eqz p1, :cond_4
 
-    .line 294
+    .line 338
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v1
@@ -1051,7 +1179,7 @@
 
     goto :goto_1
 
-    .line 298
+    .line 342
     :cond_0
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -1075,7 +1203,7 @@
 
     goto :goto_0
 
-    .line 305
+    .line 349
     :cond_2
     invoke-virtual {v1}, Lcom/rigol/scope/views/window/WindowHolder;->getWindowParam()Lcom/rigol/scope/data/WindowParam;
 
@@ -1085,7 +1213,7 @@
 
     goto :goto_0
 
-    .line 310
+    .line 354
     :cond_3
     invoke-virtual {v1}, Lcom/rigol/scope/data/WindowParam;->getServiceID()I
 

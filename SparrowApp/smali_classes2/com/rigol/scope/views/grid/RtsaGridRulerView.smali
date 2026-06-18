@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nGridRulerView.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GridRulerView.kt\ncom/rigol/scope/views/grid/RtsaGridRulerView\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,1863:1\n1#2:1864\n*E\n"
+    value = "SMAP\nGridRulerView.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GridRulerView.kt\ncom/rigol/scope/views/grid/RtsaGridRulerView\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,1978:1\n1#2:1979\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -91,10 +91,10 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 2
 
-    .line 1065
+    .line 1180
     invoke-direct {p0, p1, p2, p3}, Lcom/rigol/scope/views/grid/GridRulerViewWrapper;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 1066
+    .line 1181
     const-class p2, Lcom/rigol/scope/viewmodels/FftViewModel;
 
     invoke-static {p2}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -109,26 +109,26 @@
 
     if-eqz p1, :cond_0
 
-    .line 1070
+    .line 1185
     invoke-static {p1, p2}, Lcom/rigol/scope/utilities/ColorUtil;->getColor(Landroid/content/Context;I)I
 
     move-result p3
 
-    .line 1071
+    .line 1186
     invoke-virtual {p0, p3}, Lcom/rigol/scope/views/grid/RtsaGridRulerView;->setRowTextColor(I)V
 
     :cond_0
     if-eqz p1, :cond_1
 
-    .line 1072
+    .line 1187
     invoke-static {p1, p2}, Lcom/rigol/scope/utilities/ColorUtil;->getColor(Landroid/content/Context;I)I
 
     move-result p3
 
-    .line 1073
+    .line 1188
     invoke-virtual {p0, p3}, Lcom/rigol/scope/views/grid/RtsaGridRulerView;->setColumnTextColor(I)V
 
-    .line 1078
+    .line 1193
     :cond_1
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/RtsaGridRulerView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
@@ -140,7 +140,7 @@
 
     const/16 v1, 0x1304
 
-    .line 1077
+    .line 1192
     invoke-virtual {p3, p2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p3
@@ -149,7 +149,7 @@
 
     if-eqz p1, :cond_2
 
-    .line 1078
+    .line 1193
     check-cast p1, Landroidx/lifecycle/LifecycleOwner;
 
     new-instance v1, Lcom/rigol/scope/views/grid/RtsaGridRulerView$5;
@@ -169,7 +169,7 @@
 
     throw p1
 
-    .line 1089
+    .line 1204
     :cond_3
     :goto_0
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/RtsaGridRulerView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -180,14 +180,14 @@
 
     const/16 p3, 0x1b07
 
-    .line 1088
+    .line 1203
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
     if-eqz p1, :cond_5
 
-    .line 1089
+    .line 1204
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/RtsaGridRulerView;->getContext()Landroid/content/Context;
 
     move-result-object p3
@@ -213,7 +213,7 @@
 
     throw p1
 
-    .line 1096
+    .line 1211
     :cond_5
     :goto_1
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/RtsaGridRulerView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -224,14 +224,14 @@
 
     const/16 p3, 0x1b08
 
-    .line 1095
+    .line 1210
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
     if-eqz p1, :cond_7
 
-    .line 1096
+    .line 1211
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/RtsaGridRulerView;->getContext()Landroid/content/Context;
 
     move-result-object p3
@@ -257,7 +257,7 @@
 
     throw p1
 
-    .line 1103
+    .line 1218
     :cond_7
     :goto_2
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/RtsaGridRulerView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -268,14 +268,14 @@
 
     const/16 p3, 0x1b09
 
-    .line 1102
+    .line 1217
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
     if-eqz p1, :cond_9
 
-    .line 1103
+    .line 1218
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/RtsaGridRulerView;->getContext()Landroid/content/Context;
 
     move-result-object p3
@@ -301,7 +301,7 @@
 
     throw p1
 
-    .line 1110
+    .line 1225
     :cond_9
     :goto_3
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/RtsaGridRulerView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -312,14 +312,14 @@
 
     const/16 p3, 0x1b0a
 
-    .line 1109
+    .line 1224
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
     if-eqz p1, :cond_b
 
-    .line 1110
+    .line 1225
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/RtsaGridRulerView;->getContext()Landroid/content/Context;
 
     move-result-object p3
@@ -345,7 +345,7 @@
 
     throw p1
 
-    .line 1117
+    .line 1232
     :cond_b
     :goto_4
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/RtsaGridRulerView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -356,14 +356,14 @@
 
     const/16 p3, 0x1b0c
 
-    .line 1116
+    .line 1231
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
     if-eqz p1, :cond_d
 
-    .line 1117
+    .line 1232
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/RtsaGridRulerView;->getContext()Landroid/content/Context;
 
     move-result-object p3
@@ -389,7 +389,7 @@
 
     throw p1
 
-    .line 1125
+    .line 1240
     :cond_d
     :goto_5
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/RtsaGridRulerView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -400,14 +400,14 @@
 
     const/16 p3, 0x1b0f
 
-    .line 1124
+    .line 1239
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
     if-eqz p1, :cond_f
 
-    .line 1125
+    .line 1240
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/RtsaGridRulerView;->getContext()Landroid/content/Context;
 
     move-result-object p3
@@ -433,7 +433,7 @@
 
     throw p1
 
-    .line 1132
+    .line 1247
     :cond_f
     :goto_6
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/RtsaGridRulerView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -444,14 +444,14 @@
 
     const/16 p3, 0x1b06
 
-    .line 1131
+    .line 1246
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
     if-eqz p1, :cond_11
 
-    .line 1132
+    .line 1247
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/RtsaGridRulerView;->getContext()Landroid/content/Context;
 
     move-result-object p2
@@ -491,7 +491,7 @@
 
     const/4 p2, 0x0
 
-    .line 1063
+    .line 1178
     check-cast p2, Landroid/util/AttributeSet;
 
     :cond_0
@@ -501,7 +501,7 @@
 
     const/4 p3, 0x0
 
-    .line 1064
+    .line 1179
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/rigol/scope/views/grid/RtsaGridRulerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -511,7 +511,7 @@
 .method public static final synthetic access$updateXRulers(Lcom/rigol/scope/views/grid/RtsaGridRulerView;)V
     .locals 0
 
-    .line 1061
+    .line 1176
     invoke-direct {p0}, Lcom/rigol/scope/views/grid/RtsaGridRulerView;->updateXRulers()V
 
     return-void
@@ -520,7 +520,7 @@
 .method public static final synthetic access$updateYRulers(Lcom/rigol/scope/views/grid/RtsaGridRulerView;)V
     .locals 0
 
-    .line 1061
+    .line 1176
     invoke-direct {p0}, Lcom/rigol/scope/views/grid/RtsaGridRulerView;->updateYRulers()V
 
     return-void
@@ -529,12 +529,12 @@
 .method private final updateXRulers()V
     .locals 1
 
-    .line 1144
+    .line 1259
     iget-object v0, p0, Lcom/rigol/scope/views/grid/RtsaGridRulerView;->fftViewModel:Lcom/rigol/scope/viewmodels/FftViewModel;
 
     if-eqz v0, :cond_0
 
-    .line 1145
+    .line 1260
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/FftViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -551,7 +551,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/grid/RtsaGridRulerView;->setColumnContents([Ljava/lang/String;)V
 
-    .line 1148
+    .line 1263
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/RtsaGridRulerView;->invalidate()V
 
@@ -561,12 +561,12 @@
 .method private final updateYRulers()V
     .locals 1
 
-    .line 1155
+    .line 1270
     iget-object v0, p0, Lcom/rigol/scope/views/grid/RtsaGridRulerView;->fftViewModel:Lcom/rigol/scope/viewmodels/FftViewModel;
 
     if-eqz v0, :cond_0
 
-    .line 1156
+    .line 1271
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/FftViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -583,7 +583,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/grid/RtsaGridRulerView;->setRowContents([Ljava/lang/String;)V
 
-    .line 1159
+    .line 1274
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/RtsaGridRulerView;->invalidate()V
 

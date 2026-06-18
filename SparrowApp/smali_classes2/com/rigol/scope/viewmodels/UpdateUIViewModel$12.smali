@@ -34,7 +34,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;)V
     .locals 0
 
-    .line 695
+    .line 614
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$12;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -47,23 +47,22 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 1
 
-    .line 699
-    invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
+    .line 617
+    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p1
 
-    const-class v0, Lcom/rigol/scope/views/AnalysingPopupView;
-
-    invoke-virtual {p1, v0}, Lcom/rigol/scope/utilities/PopupViewManager;->dismiss(Ljava/lang/Class;)V
-
-    .line 701
-    invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
+    invoke-virtual {p1}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
 
     move-result-object p1
 
-    const-class v0, Lcom/rigol/scope/views/analyse/AnalyseRemindPopupView;
+    const v0, 0x7f100bc6
 
-    invoke-virtual {p1, v0}, Lcom/rigol/scope/utilities/PopupViewManager;->show(Ljava/lang/Class;)V
+    invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showShort(Ljava/lang/CharSequence;)V
 
     return-void
 .end method
@@ -71,7 +70,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 695
+    .line 614
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$12;->onChanged(Ljava/lang/Boolean;)V

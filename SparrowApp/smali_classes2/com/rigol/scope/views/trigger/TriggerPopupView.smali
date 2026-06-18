@@ -358,7 +358,7 @@
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$TriggerSweep;->value1:I
 
-    const v2, 0x7f030233
+    const v2, 0x7f030237
 
     invoke-static {v2, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -1313,7 +1313,7 @@
 .method private selectAdapter(ILcom/rigol/scope/data/MappingObject;)V
     .locals 3
 
-    const v0, 0x7f030234
+    const v0, 0x7f030238
 
     .line 498
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1364,7 +1364,7 @@
 
     iget v1, p0, Lcom/rigol/scope/views/trigger/TriggerPopupView;->serviceId:I
 
-    const/16 v2, 0x4f01
+    const/16 v2, 0x5101
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/MappingObject;->getValue()I
 
@@ -1898,7 +1898,7 @@
 
     const/4 v1, 0x0
 
-    const/16 v2, 0x5760
+    const/16 v2, 0x5960
 
     const/16 v3, 0xb
 
@@ -3127,11 +3127,11 @@
 
     if-eq p1, v0, :cond_2
 
-    const v0, 0x7f0a069b
+    const v0, 0x7f0a06a5
 
     if-eq p1, v0, :cond_1
 
-    const v0, 0x7f0a0813
+    const v0, 0x7f0a081f
 
     if-eq p1, v0, :cond_0
 
@@ -3193,17 +3193,17 @@
 
     move-result v0
 
-    const v1, 0x7f0a0495
+    const v1, 0x7f0a0497
 
     const/4 v2, 0x1
 
     if-eq v0, v1, :cond_2
 
-    const v1, 0x7f0a0a28
+    const v1, 0x7f0a0a34
 
     if-eq v0, v1, :cond_1
 
-    const p1, 0x7f0a0ae2
+    const p1, 0x7f0a0aee
 
     if-eq v0, p1, :cond_0
 
@@ -3230,7 +3230,7 @@
 
     if-eqz v0, :cond_3
 
-    const v0, 0x7f030234
+    const v0, 0x7f030238
 
     .line 442
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -3276,7 +3276,7 @@
 
     const/16 v0, 0x29
 
-    const/16 v1, 0x4fb1
+    const/16 v1, 0x51b1
 
     invoke-virtual {p1, v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_PostBool(IIZ)I
 

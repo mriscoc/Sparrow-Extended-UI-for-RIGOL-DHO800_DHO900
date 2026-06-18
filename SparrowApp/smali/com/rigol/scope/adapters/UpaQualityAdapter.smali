@@ -161,6 +161,117 @@
     return v0
 .end method
 
+.method public synthetic lambda$null$0$UpaQualityAdapter(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
+    .locals 0
+
+    .line 145
+    iput-object p1, p0, Lcom/rigol/scope/adapters/UpaQualityAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
+
+    return-void
+.end method
+
+.method public synthetic lambda$null$1$UpaQualityAdapter(ILcom/rigol/scope/data/MappingObject;)V
+    .locals 1
+
+    .line 146
+    iget-object p1, p0, Lcom/rigol/scope/adapters/UpaQualityAdapter;->param:Lcom/rigol/scope/data/UpaParam;
+
+    if-eqz p1, :cond_3
+
+    .line 147
+    iget-object p1, p0, Lcom/rigol/scope/adapters/UpaQualityAdapter;->clickedView:Landroid/view/View;
+
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    move-result p1
+
+    const v0, 0x7f0a0aa8
+
+    if-ne p1, v0, :cond_0
+
+    .line 148
+    iget-object p1, p0, Lcom/rigol/scope/adapters/UpaQualityAdapter;->param:Lcom/rigol/scope/data/UpaParam;
+
+    invoke-virtual {p2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
+
+    move-result p2
+
+    invoke-virtual {p1, p2}, Lcom/rigol/scope/data/UpaParam;->savePowerVolt(I)V
+
+    goto :goto_0
+
+    .line 149
+    :cond_0
+    iget-object p1, p0, Lcom/rigol/scope/adapters/UpaQualityAdapter;->clickedView:Landroid/view/View;
+
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    move-result p1
+
+    const v0, 0x7f0a0a9d
+
+    if-ne p1, v0, :cond_1
+
+    .line 150
+    iget-object p1, p0, Lcom/rigol/scope/adapters/UpaQualityAdapter;->param:Lcom/rigol/scope/data/UpaParam;
+
+    invoke-virtual {p2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
+
+    move-result p2
+
+    invoke-virtual {p1, p2}, Lcom/rigol/scope/data/UpaParam;->savePowerCurr(I)V
+
+    goto :goto_0
+
+    .line 151
+    :cond_1
+    iget-object p1, p0, Lcom/rigol/scope/adapters/UpaQualityAdapter;->clickedView:Landroid/view/View;
+
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    move-result p1
+
+    const v0, 0x7f0a0a9e
+
+    if-ne p1, v0, :cond_2
+
+    .line 152
+    iget-object p1, p0, Lcom/rigol/scope/adapters/UpaQualityAdapter;->param:Lcom/rigol/scope/data/UpaParam;
+
+    invoke-virtual {p2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
+
+    move-result p2
+
+    invoke-virtual {p1, p2}, Lcom/rigol/scope/data/UpaParam;->setRefLevel(I)V
+
+    goto :goto_0
+
+    .line 153
+    :cond_2
+    iget-object p1, p0, Lcom/rigol/scope/adapters/UpaQualityAdapter;->clickedView:Landroid/view/View;
+
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    move-result p1
+
+    const v0, 0x7f0a0aaf
+
+    if-ne p1, v0, :cond_3
+
+    .line 154
+    iget-object p1, p0, Lcom/rigol/scope/adapters/UpaQualityAdapter;->param:Lcom/rigol/scope/data/UpaParam;
+
+    invoke-virtual {p2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
+
+    move-result p2
+
+    invoke-virtual {p1, p2}, Lcom/rigol/scope/data/UpaParam;->savePowerFref(I)V
+
+    :cond_3
+    :goto_0
+    return-void
+.end method
+
 .method public synthetic lambda$onClick$10$UpaQualityAdapter(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
     .locals 0
 
@@ -293,117 +404,6 @@
     return-void
 .end method
 
-.method public synthetic lambda$onCreateViewHolder$0$UpaQualityAdapter(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
-    .locals 0
-
-    .line 145
-    iput-object p1, p0, Lcom/rigol/scope/adapters/UpaQualityAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
-
-    return-void
-.end method
-
-.method public synthetic lambda$onCreateViewHolder$1$UpaQualityAdapter(ILcom/rigol/scope/data/MappingObject;)V
-    .locals 1
-
-    .line 146
-    iget-object p1, p0, Lcom/rigol/scope/adapters/UpaQualityAdapter;->param:Lcom/rigol/scope/data/UpaParam;
-
-    if-eqz p1, :cond_3
-
-    .line 147
-    iget-object p1, p0, Lcom/rigol/scope/adapters/UpaQualityAdapter;->clickedView:Landroid/view/View;
-
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
-
-    move-result p1
-
-    const v0, 0x7f0a0a9c
-
-    if-ne p1, v0, :cond_0
-
-    .line 148
-    iget-object p1, p0, Lcom/rigol/scope/adapters/UpaQualityAdapter;->param:Lcom/rigol/scope/data/UpaParam;
-
-    invoke-virtual {p2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
-
-    move-result p2
-
-    invoke-virtual {p1, p2}, Lcom/rigol/scope/data/UpaParam;->savePowerVolt(I)V
-
-    goto :goto_0
-
-    .line 149
-    :cond_0
-    iget-object p1, p0, Lcom/rigol/scope/adapters/UpaQualityAdapter;->clickedView:Landroid/view/View;
-
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
-
-    move-result p1
-
-    const v0, 0x7f0a0a91
-
-    if-ne p1, v0, :cond_1
-
-    .line 150
-    iget-object p1, p0, Lcom/rigol/scope/adapters/UpaQualityAdapter;->param:Lcom/rigol/scope/data/UpaParam;
-
-    invoke-virtual {p2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
-
-    move-result p2
-
-    invoke-virtual {p1, p2}, Lcom/rigol/scope/data/UpaParam;->savePowerCurr(I)V
-
-    goto :goto_0
-
-    .line 151
-    :cond_1
-    iget-object p1, p0, Lcom/rigol/scope/adapters/UpaQualityAdapter;->clickedView:Landroid/view/View;
-
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
-
-    move-result p1
-
-    const v0, 0x7f0a0a92
-
-    if-ne p1, v0, :cond_2
-
-    .line 152
-    iget-object p1, p0, Lcom/rigol/scope/adapters/UpaQualityAdapter;->param:Lcom/rigol/scope/data/UpaParam;
-
-    invoke-virtual {p2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
-
-    move-result p2
-
-    invoke-virtual {p1, p2}, Lcom/rigol/scope/data/UpaParam;->setRefLevel(I)V
-
-    goto :goto_0
-
-    .line 153
-    :cond_2
-    iget-object p1, p0, Lcom/rigol/scope/adapters/UpaQualityAdapter;->clickedView:Landroid/view/View;
-
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
-
-    move-result p1
-
-    const v0, 0x7f0a0aa3
-
-    if-ne p1, v0, :cond_3
-
-    .line 154
-    iget-object p1, p0, Lcom/rigol/scope/adapters/UpaQualityAdapter;->param:Lcom/rigol/scope/data/UpaParam;
-
-    invoke-virtual {p2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
-
-    move-result p2
-
-    invoke-virtual {p1, p2}, Lcom/rigol/scope/data/UpaParam;->savePowerFref(I)V
-
-    :cond_3
-    :goto_0
-    return-void
-.end method
-
 .method public synthetic lambda$onCreateViewHolder$2$UpaQualityAdapter(Landroid/view/KeyEvent;)V
     .locals 11
 
@@ -435,13 +435,13 @@
 
     iget-object v8, p0, Lcom/rigol/scope/adapters/UpaQualityAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
 
-    new-instance v9, Lcom/rigol/scope/adapters/-$$Lambda$UpaQualityAdapter$ALc7b3mec_zM1ATI80tgOM7_B5I;
+    new-instance v9, Lcom/rigol/scope/adapters/-$$Lambda$UpaQualityAdapter$ziJl42qrUiV3orNqvLD9LO_qg5o;
 
-    invoke-direct {v9, p0}, Lcom/rigol/scope/adapters/-$$Lambda$UpaQualityAdapter$ALc7b3mec_zM1ATI80tgOM7_B5I;-><init>(Lcom/rigol/scope/adapters/UpaQualityAdapter;)V
+    invoke-direct {v9, p0}, Lcom/rigol/scope/adapters/-$$Lambda$UpaQualityAdapter$ziJl42qrUiV3orNqvLD9LO_qg5o;-><init>(Lcom/rigol/scope/adapters/UpaQualityAdapter;)V
 
-    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$UpaQualityAdapter$HyuqzUC-7Hxw7PKzBcNP8cHq6H0;
+    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$UpaQualityAdapter$Be9XttEOEB9Kpo1pUvMRmwf6wEc;
 
-    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$UpaQualityAdapter$HyuqzUC-7Hxw7PKzBcNP8cHq6H0;-><init>(Lcom/rigol/scope/adapters/UpaQualityAdapter;)V
+    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$UpaQualityAdapter$Be9XttEOEB9Kpo1pUvMRmwf6wEc;-><init>(Lcom/rigol/scope/adapters/UpaQualityAdapter;)V
 
     move-object v2, p1
 
@@ -578,7 +578,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f03023c
+    const v1, 0x7f030240
 
     invoke-static {v1}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
 
@@ -687,7 +687,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f03023b
+    const v1, 0x7f03023f
 
     invoke-static {v1}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
 
@@ -885,7 +885,7 @@
 
     const/16 v0, 0x1f
 
-    const/16 v1, 0x510d
+    const/16 v1, 0x530d
 
     const/4 v2, 0x1
 
@@ -1216,7 +1216,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f03023a
+    const v1, 0x7f03023e
 
     invoke-static {v1}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
 
@@ -1242,7 +1242,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f030238
+    const v1, 0x7f03023c
 
     invoke-static {v1}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
 
@@ -1265,7 +1265,7 @@
     nop
 
     :pswitch_data_0
-    .packed-switch 0x7f0a0a91
+    .packed-switch 0x7f0a0a9d
         :pswitch_b
         :pswitch_a
         :pswitch_0
@@ -1746,10 +1746,10 @@
 
     :sswitch_data_0
     .sparse-switch
-        0x7f0a0a94 -> :sswitch_3
-        0x7f0a0a95 -> :sswitch_2
-        0x7f0a0a9a -> :sswitch_1
-        0x7f0a0a9f -> :sswitch_0
+        0x7f0a0aa0 -> :sswitch_3
+        0x7f0a0aa1 -> :sswitch_2
+        0x7f0a0aa6 -> :sswitch_1
+        0x7f0a0aab -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -2011,10 +2011,10 @@
 
     :sswitch_data_0
     .sparse-switch
-        0x7f0a0a94 -> :sswitch_3
-        0x7f0a0a95 -> :sswitch_2
-        0x7f0a0a9a -> :sswitch_1
-        0x7f0a0a9f -> :sswitch_0
+        0x7f0a0aa0 -> :sswitch_3
+        0x7f0a0aa1 -> :sswitch_2
+        0x7f0a0aa6 -> :sswitch_1
+        0x7f0a0aab -> :sswitch_0
     .end sparse-switch
 .end method
 

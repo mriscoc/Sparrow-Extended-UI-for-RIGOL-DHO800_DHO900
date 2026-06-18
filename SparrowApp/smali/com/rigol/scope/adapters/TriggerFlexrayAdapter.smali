@@ -451,7 +451,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f0301fb
+    const v2, 0x7f0301ff
 
     invoke-static {v2, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -477,7 +477,7 @@
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$TriggerSweep;->value1:I
 
-    const v2, 0x7f030233
+    const v2, 0x7f030237
 
     invoke-static {v2, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -518,7 +518,7 @@
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_When;->value1:I
 
-    const v2, 0x7f030203
+    const v2, 0x7f030207
 
     invoke-static {v2, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -568,7 +568,7 @@
     .line 247
     iget-object v0, p0, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->binding:Lcom/rigol/scope/databinding/AdapterTriggerFlexrayBinding;
 
-    const v1, 0x7f0301fd
+    const v1, 0x7f030201
 
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_When;->trig_flex_frame:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Flex_When;
 
@@ -782,6 +782,156 @@
     iget-boolean v0, p0, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->isMove:Z
 
     return v0
+.end method
+
+.method public synthetic lambda$null$0$TriggerFlexrayAdapter(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
+    .locals 0
+
+    .line 156
+    iput-object p1, p0, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
+
+    return-void
+.end method
+
+.method public synthetic lambda$null$1$TriggerFlexrayAdapter(ILcom/rigol/scope/data/MappingObject;)V
+    .locals 1
+
+    .line 158
+    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->clickedView:Landroid/view/View;
+
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    move-result p1
+
+    const v0, 0x7f0a09fc
+
+    if-ne p1, v0, :cond_0
+
+    .line 159
+    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->selectSource(Lcom/rigol/scope/data/MappingObject;)V
+
+    goto :goto_0
+
+    .line 160
+    :cond_0
+    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->clickedView:Landroid/view/View;
+
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    move-result p1
+
+    const v0, 0x7f0a0955
+
+    if-ne p1, v0, :cond_1
+
+    .line 161
+    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->selectBaudValue(Lcom/rigol/scope/data/MappingObject;)V
+
+    goto :goto_0
+
+    .line 162
+    :cond_1
+    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->clickedView:Landroid/view/View;
+
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    move-result p1
+
+    const v0, 0x7f0a098f
+
+    if-ne p1, v0, :cond_2
+
+    .line 163
+    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->selectPostTypeValue(Lcom/rigol/scope/data/MappingObject;)V
+
+    goto :goto_0
+
+    .line 164
+    :cond_2
+    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->clickedView:Landroid/view/View;
+
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    move-result p1
+
+    const v0, 0x7f0a098a
+
+    if-ne p1, v0, :cond_3
+
+    .line 165
+    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->selectFrameValue(Lcom/rigol/scope/data/MappingObject;)V
+
+    goto :goto_0
+
+    .line 166
+    :cond_3
+    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->clickedView:Landroid/view/View;
+
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    move-result p1
+
+    const v0, 0x7f0a0992
+
+    if-ne p1, v0, :cond_4
+
+    .line 167
+    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->selectSymbolValue(Lcom/rigol/scope/data/MappingObject;)V
+
+    goto :goto_0
+
+    .line 168
+    :cond_4
+    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->clickedView:Landroid/view/View;
+
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    move-result p1
+
+    const v0, 0x7f0a0987
+
+    if-ne p1, v0, :cond_5
+
+    .line 169
+    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->selectErrorValue(Lcom/rigol/scope/data/MappingObject;)V
+
+    goto :goto_0
+
+    .line 170
+    :cond_5
+    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->clickedView:Landroid/view/View;
+
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    move-result p1
+
+    const v0, 0x7f0a098c
+
+    if-ne p1, v0, :cond_6
+
+    .line 171
+    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->selectIdCompValue(Lcom/rigol/scope/data/MappingObject;)V
+
+    goto :goto_0
+
+    .line 172
+    :cond_6
+    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->clickedView:Landroid/view/View;
+
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    move-result p1
+
+    const v0, 0x7f0a0981
+
+    if-ne p1, v0, :cond_7
+
+    .line 173
+    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->selectCycCompValue(Lcom/rigol/scope/data/MappingObject;)V
+
+    :cond_7
+    :goto_0
+    return-void
 .end method
 
 .method public synthetic lambda$onClick$10$TriggerFlexrayAdapter(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
@@ -1000,156 +1150,6 @@
     return-void
 .end method
 
-.method public synthetic lambda$onCreateViewHolder$0$TriggerFlexrayAdapter(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
-    .locals 0
-
-    .line 156
-    iput-object p1, p0, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
-
-    return-void
-.end method
-
-.method public synthetic lambda$onCreateViewHolder$1$TriggerFlexrayAdapter(ILcom/rigol/scope/data/MappingObject;)V
-    .locals 1
-
-    .line 158
-    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->clickedView:Landroid/view/View;
-
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
-
-    move-result p1
-
-    const v0, 0x7f0a09f0
-
-    if-ne p1, v0, :cond_0
-
-    .line 159
-    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->selectSource(Lcom/rigol/scope/data/MappingObject;)V
-
-    goto :goto_0
-
-    .line 160
-    :cond_0
-    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->clickedView:Landroid/view/View;
-
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
-
-    move-result p1
-
-    const v0, 0x7f0a0949
-
-    if-ne p1, v0, :cond_1
-
-    .line 161
-    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->selectBaudValue(Lcom/rigol/scope/data/MappingObject;)V
-
-    goto :goto_0
-
-    .line 162
-    :cond_1
-    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->clickedView:Landroid/view/View;
-
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
-
-    move-result p1
-
-    const v0, 0x7f0a0983
-
-    if-ne p1, v0, :cond_2
-
-    .line 163
-    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->selectPostTypeValue(Lcom/rigol/scope/data/MappingObject;)V
-
-    goto :goto_0
-
-    .line 164
-    :cond_2
-    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->clickedView:Landroid/view/View;
-
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
-
-    move-result p1
-
-    const v0, 0x7f0a097e
-
-    if-ne p1, v0, :cond_3
-
-    .line 165
-    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->selectFrameValue(Lcom/rigol/scope/data/MappingObject;)V
-
-    goto :goto_0
-
-    .line 166
-    :cond_3
-    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->clickedView:Landroid/view/View;
-
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
-
-    move-result p1
-
-    const v0, 0x7f0a0986
-
-    if-ne p1, v0, :cond_4
-
-    .line 167
-    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->selectSymbolValue(Lcom/rigol/scope/data/MappingObject;)V
-
-    goto :goto_0
-
-    .line 168
-    :cond_4
-    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->clickedView:Landroid/view/View;
-
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
-
-    move-result p1
-
-    const v0, 0x7f0a097b
-
-    if-ne p1, v0, :cond_5
-
-    .line 169
-    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->selectErrorValue(Lcom/rigol/scope/data/MappingObject;)V
-
-    goto :goto_0
-
-    .line 170
-    :cond_5
-    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->clickedView:Landroid/view/View;
-
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
-
-    move-result p1
-
-    const v0, 0x7f0a0980
-
-    if-ne p1, v0, :cond_6
-
-    .line 171
-    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->selectIdCompValue(Lcom/rigol/scope/data/MappingObject;)V
-
-    goto :goto_0
-
-    .line 172
-    :cond_6
-    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->clickedView:Landroid/view/View;
-
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
-
-    move-result p1
-
-    const v0, 0x7f0a0975
-
-    if-ne p1, v0, :cond_7
-
-    .line 173
-    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->selectCycCompValue(Lcom/rigol/scope/data/MappingObject;)V
-
-    :cond_7
-    :goto_0
-    return-void
-.end method
-
 .method public synthetic lambda$onCreateViewHolder$2$TriggerFlexrayAdapter(Landroid/view/KeyEvent;)V
     .locals 11
 
@@ -1193,13 +1193,13 @@
 
     iget-object v8, p0, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
 
-    new-instance v9, Lcom/rigol/scope/adapters/-$$Lambda$TriggerFlexrayAdapter$-NIBm0KUxVWpVMuqHUrtLCZUNAg;
+    new-instance v9, Lcom/rigol/scope/adapters/-$$Lambda$TriggerFlexrayAdapter$UcltSbebQZKdHWxAe2t9sQ3oXJg;
 
-    invoke-direct {v9, p0}, Lcom/rigol/scope/adapters/-$$Lambda$TriggerFlexrayAdapter$-NIBm0KUxVWpVMuqHUrtLCZUNAg;-><init>(Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;)V
+    invoke-direct {v9, p0}, Lcom/rigol/scope/adapters/-$$Lambda$TriggerFlexrayAdapter$UcltSbebQZKdHWxAe2t9sQ3oXJg;-><init>(Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;)V
 
-    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$TriggerFlexrayAdapter$2rq5ZjYK6ubIUVp4XSRl7BncPdA;
+    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$TriggerFlexrayAdapter$9lfss3U3P9pxeG5f1qhjWhR37N4;
 
-    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$TriggerFlexrayAdapter$2rq5ZjYK6ubIUVp4XSRl7BncPdA;-><init>(Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;)V
+    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$TriggerFlexrayAdapter$9lfss3U3P9pxeG5f1qhjWhR37N4;-><init>(Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;)V
 
     move-object v2, p1
 
@@ -1272,7 +1272,7 @@
 
     iget v0, p0, Lcom/rigol/scope/adapters/TriggerFlexrayAdapter;->serviceId:I
 
-    const/16 v1, 0x4f1e
+    const/16 v1, 0x511e
 
     invoke-virtual {p1, v0, v1, p2}, Lcom/rigol/scope/cil/API;->UI_PostBool(IIZ)I
 
@@ -1457,17 +1457,17 @@
     :sswitch_data_0
     .sparse-switch
         0x7f0a00c3 -> :sswitch_b
-        0x7f0a069b -> :sswitch_a
-        0x7f0a0813 -> :sswitch_9
-        0x7f0a0958 -> :sswitch_8
-        0x7f0a0959 -> :sswitch_7
-        0x7f0a0976 -> :sswitch_6
-        0x7f0a0977 -> :sswitch_5
-        0x7f0a0979 -> :sswitch_4
-        0x7f0a097c -> :sswitch_3
-        0x7f0a0981 -> :sswitch_2
-        0x7f0a0984 -> :sswitch_1
-        0x7f0a09d5 -> :sswitch_0
+        0x7f0a06a5 -> :sswitch_a
+        0x7f0a081f -> :sswitch_9
+        0x7f0a0964 -> :sswitch_8
+        0x7f0a0965 -> :sswitch_7
+        0x7f0a0982 -> :sswitch_6
+        0x7f0a0983 -> :sswitch_5
+        0x7f0a0985 -> :sswitch_4
+        0x7f0a0988 -> :sswitch_3
+        0x7f0a098d -> :sswitch_2
+        0x7f0a0990 -> :sswitch_1
+        0x7f0a09e1 -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -1484,7 +1484,7 @@
 
     move-result v1
 
-    const v2, 0x7f03020f
+    const v2, 0x7f030213
 
     sparse-switch v1, :sswitch_data_0
 
@@ -1670,7 +1670,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f03022a
+    const v0, 0x7f03022e
 
     .line 398
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1796,7 +1796,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f030202
+    const v0, 0x7f030206
 
     .line 454
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1834,7 +1834,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f030201
+    const v0, 0x7f030205
 
     .line 426
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1896,7 +1896,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0301ff
+    const v0, 0x7f030203
 
     .line 440
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1928,7 +1928,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0301fe
+    const v0, 0x7f030202
 
     .line 470
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -2170,7 +2170,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f0301fa
+    const v0, 0x7f0301fe
 
     .line 412
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -2263,21 +2263,21 @@
     .sparse-switch
         0x7f0a00c3 -> :sswitch_10
         0x7f0a0190 -> :sswitch_f
-        0x7f0a069b -> :sswitch_e
-        0x7f0a0813 -> :sswitch_d
-        0x7f0a0949 -> :sswitch_c
-        0x7f0a0965 -> :sswitch_b
-        0x7f0a0967 -> :sswitch_a
-        0x7f0a0975 -> :sswitch_9
-        0x7f0a097b -> :sswitch_8
-        0x7f0a097e -> :sswitch_7
-        0x7f0a0980 -> :sswitch_6
-        0x7f0a0983 -> :sswitch_5
-        0x7f0a0986 -> :sswitch_4
-        0x7f0a09b8 -> :sswitch_3
-        0x7f0a09f0 -> :sswitch_2
-        0x7f0a0a2b -> :sswitch_1
-        0x7f0a0a2d -> :sswitch_0
+        0x7f0a06a5 -> :sswitch_e
+        0x7f0a081f -> :sswitch_d
+        0x7f0a0955 -> :sswitch_c
+        0x7f0a0971 -> :sswitch_b
+        0x7f0a0973 -> :sswitch_a
+        0x7f0a0981 -> :sswitch_9
+        0x7f0a0987 -> :sswitch_8
+        0x7f0a098a -> :sswitch_7
+        0x7f0a098c -> :sswitch_6
+        0x7f0a098f -> :sswitch_5
+        0x7f0a0992 -> :sswitch_4
+        0x7f0a09c4 -> :sswitch_3
+        0x7f0a09fc -> :sswitch_2
+        0x7f0a0a37 -> :sswitch_1
+        0x7f0a0a39 -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -2787,11 +2787,11 @@
 
     :sswitch_data_0
     .sparse-switch
-        0x7f0a0965 -> :sswitch_4
-        0x7f0a0967 -> :sswitch_3
-        0x7f0a09b8 -> :sswitch_2
-        0x7f0a0a2b -> :sswitch_1
-        0x7f0a0a2d -> :sswitch_0
+        0x7f0a0971 -> :sswitch_4
+        0x7f0a0973 -> :sswitch_3
+        0x7f0a09c4 -> :sswitch_2
+        0x7f0a0a37 -> :sswitch_1
+        0x7f0a0a39 -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -2960,11 +2960,11 @@
 
     :sswitch_data_0
     .sparse-switch
-        0x7f0a0965 -> :sswitch_4
-        0x7f0a0967 -> :sswitch_3
-        0x7f0a09b8 -> :sswitch_2
-        0x7f0a0a2b -> :sswitch_1
-        0x7f0a0a2d -> :sswitch_0
+        0x7f0a0971 -> :sswitch_4
+        0x7f0a0973 -> :sswitch_3
+        0x7f0a09c4 -> :sswitch_2
+        0x7f0a0a37 -> :sswitch_1
+        0x7f0a0a39 -> :sswitch_0
     .end sparse-switch
 .end method
 

@@ -1,4 +1,4 @@
-.class Lcom/rigol/scope/adapters/MeasureViewPagerAdapter$1;
+.class final Lcom/rigol/scope/adapters/MeasureViewPagerAdapter$1;
 .super Ljava/util/ArrayList;
 .source "MeasureViewPagerAdapter.java"
 
@@ -9,7 +9,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x0
+    accessFlags = 0x8
     name = null
 .end annotation
 

@@ -843,7 +843,7 @@
     .line 267
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DiskManageParam;->notifyPropertyChanged(I)V
 
-    const/16 p1, 0x25a
+    const/16 p1, 0x25c
 
     .line 268
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DiskManageParam;->notifyPropertyChanged(I)V
@@ -857,7 +857,7 @@
     .line 392
     iput p1, p0, Lcom/rigol/scope/data/DiskManageParam;->selectedCount:I
 
-    const/16 p1, 0x31a
+    const/16 p1, 0x31e
 
     .line 393
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DiskManageParam;->notifyPropertyChanged(I)V
@@ -888,7 +888,7 @@
     .line 291
     iput-object p1, p0, Lcom/rigol/scope/data/DiskManageParam;->selectionMode:Lcom/rigol/scope/data/DiskManageParam$SelectionMode;
 
-    const/16 p1, 0x31b
+    const/16 p1, 0x31f
 
     .line 292
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DiskManageParam;->notifyPropertyChanged(I)V
@@ -902,7 +902,7 @@
     .line 529
     iput-object p1, p0, Lcom/rigol/scope/data/DiskManageParam;->state:Lcom/rigol/scope/data/DiskManageParam$State;
 
-    const/16 p1, 0x38a
+    const/16 p1, 0x38e
 
     .line 530
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DiskManageParam;->notifyPropertyChanged(I)V

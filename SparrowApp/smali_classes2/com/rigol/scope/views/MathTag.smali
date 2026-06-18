@@ -197,7 +197,7 @@
     .line 2227
     iget p2, p0, Lcom/rigol/scope/views/MathTag;->serviceID:I
 
-    const/16 p3, 0x2f32
+    const/16 p3, 0x3132
 
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -238,7 +238,7 @@
     :goto_1
     iget p2, p0, Lcom/rigol/scope/views/MathTag;->serviceID:I
 
-    const/16 v0, 0x2f33
+    const/16 v0, 0x3133
 
     invoke-virtual {p1, p2, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -277,7 +277,7 @@
     :goto_2
     iget p2, p0, Lcom/rigol/scope/views/MathTag;->serviceID:I
 
-    const/16 v0, 0x2f34
+    const/16 v0, 0x3134
 
     invoke-virtual {p1, p2, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -316,7 +316,7 @@
     :goto_3
     iget p2, p0, Lcom/rigol/scope/views/MathTag;->serviceID:I
 
-    const/16 v0, 0x2f31
+    const/16 v0, 0x3131
 
     invoke-virtual {p1, p2, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -355,7 +355,7 @@
     :goto_4
     iget p2, p0, Lcom/rigol/scope/views/MathTag;->serviceID:I
 
-    const/16 v0, 0x2f2a
+    const/16 v0, 0x312a
 
     invoke-virtual {p1, p2, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -394,7 +394,7 @@
     :goto_5
     iget p2, p0, Lcom/rigol/scope/views/MathTag;->serviceID:I
 
-    const/16 v0, 0x2f29
+    const/16 v0, 0x3129
 
     invoke-virtual {p1, p2, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 

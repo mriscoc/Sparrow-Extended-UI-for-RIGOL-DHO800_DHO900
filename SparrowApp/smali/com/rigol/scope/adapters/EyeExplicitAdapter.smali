@@ -146,7 +146,7 @@
 
     move-result v0
 
-    const v1, 0x7f0a0448
+    const v1, 0x7f0a044a
 
     if-ne v0, v1, :cond_0
 
@@ -157,7 +157,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f030126
+    const v1, 0x7f030127
 
     new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$EyeExplicitAdapter$5xR4FR29cLjoNPWmLhlbj9oetPY;
 

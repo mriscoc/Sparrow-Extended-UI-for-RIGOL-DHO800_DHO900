@@ -56,7 +56,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 8914
+    .line 8924
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;
 
     const-string v1, "ADC_CORE_A"
@@ -77,7 +77,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;->ADC_CORE_A:Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;
 
-    .line 8915
+    .line 8925
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;
 
     const-string v9, "ADC_CORE_B"
@@ -98,7 +98,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;->ADC_CORE_B:Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;
 
-    .line 8916
+    .line 8926
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;
 
     const-string v2, "ADC_CORE_C"
@@ -119,7 +119,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;->ADC_CORE_C:Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;
 
-    .line 8917
+    .line 8927
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;
 
     const-string v9, "ADC_CORE_D"
@@ -140,7 +140,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;->ADC_CORE_D:Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;
 
-    .line 8918
+    .line 8928
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;
 
     const-string v2, "ADC_CORE_E"
@@ -161,7 +161,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;->ADC_CORE_E:Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;
 
-    .line 8919
+    .line 8929
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;
 
     const-string v9, "ADC_CORE_F"
@@ -182,7 +182,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;->ADC_CORE_F:Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;
 
-    .line 8920
+    .line 8930
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;
 
     const-string v2, "ADC_CORE_G"
@@ -203,7 +203,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;->ADC_CORE_G:Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;
 
-    .line 8921
+    .line 8931
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;
 
     const-string v9, "ADC_CORE_H"
@@ -228,7 +228,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;
 
-    .line 8912
+    .line 8922
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;->ADC_CORE_A:Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;
 
     const/4 v3, 0x0
@@ -292,19 +292,19 @@
         }
     .end annotation
 
-    .line 8924
+    .line 8934
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 8925
+    .line 8935
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;->value1:I
 
-    .line 8926
+    .line 8936
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;->value2:Ljava/lang/String;
 
-    .line 8927
+    .line 8937
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;->pic1:Ljava/lang/String;
 
-    .line 8928
+    .line 8938
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;->pic2:Ljava/lang/String;
 
     return-void
@@ -313,7 +313,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;
     .locals 1
 
-    .line 8912
+    .line 8922
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -328,7 +328,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;
     .locals 1
 
-    .line 8912
+    .line 8922
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$AdcCoreEnum;->clone()Ljava/lang/Object;

@@ -52,7 +52,7 @@
     .line 201
     invoke-direct {p0, v0}, Lcom/rigol/scope/data/BaseParam;-><init>(I)V
 
-    const v1, 0x7f03013c
+    const v1, 0x7f03013d
 
     .line 72
     invoke-static {v1}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -266,7 +266,7 @@
     goto/16 :goto_1
 
     :pswitch_1
-    const p1, 0x7f100f01
+    const p1, 0x7f100f0e
 
     .line 429
     invoke-virtual {v0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -281,7 +281,7 @@
     goto/16 :goto_1
 
     :pswitch_2
-    const p1, 0x7f100521
+    const p1, 0x7f100524
 
     .line 478
     invoke-virtual {v0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -290,7 +290,7 @@
 
     invoke-virtual {p2, p1}, Lcom/rigol/scope/data/MappingObject;->setKeyAStr(Ljava/lang/String;)V
 
-    const p1, 0x7f100522
+    const p1, 0x7f100525
 
     .line 479
     invoke-virtual {v0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -302,7 +302,7 @@
     goto/16 :goto_1
 
     :pswitch_3
-    const p1, 0x7f10052f
+    const p1, 0x7f100532
 
     .line 471
     invoke-virtual {v0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -311,7 +311,7 @@
 
     invoke-virtual {p2, p1}, Lcom/rigol/scope/data/MappingObject;->setKeyAStr(Ljava/lang/String;)V
 
-    const p1, 0x7f100530
+    const p1, 0x7f100533
 
     .line 472
     invoke-virtual {v0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -401,7 +401,7 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f10051d
+    const v1, 0x7f100520
 
     .line 439
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -434,7 +434,7 @@
 
     if-eqz v1, :cond_1
 
-    const v1, 0x7f10051e
+    const v1, 0x7f100521
 
     .line 441
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -466,7 +466,7 @@
 
     if-eqz v1, :cond_2
 
-    const p1, 0x7f10051f
+    const p1, 0x7f100522
 
     .line 444
     invoke-virtual {v0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -499,7 +499,7 @@
 
     if-eqz p1, :cond_3
 
-    const p1, 0x7f100520
+    const p1, 0x7f100523
 
     .line 446
     invoke-virtual {v0, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -844,9 +844,9 @@
     .line 503
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->operator_add:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
-    const v1, 0x7f10052a
+    const v1, 0x7f10052d
 
-    const v2, 0x7f100529
+    const v2, 0x7f10052c
 
     if-eq p1, v0, :cond_7
 
@@ -870,7 +870,7 @@
 
     if-ne p1, v0, :cond_1
 
-    const p1, 0x7f10052b
+    const p1, 0x7f10052e
 
     .line 507
     invoke-virtual {p3, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -879,7 +879,7 @@
 
     invoke-virtual {p2, p1}, Lcom/rigol/scope/data/MappingObject;->setKeyAStr(Ljava/lang/String;)V
 
-    const p1, 0x7f10052c
+    const p1, 0x7f10052f
 
     .line 508
     invoke-virtual {p3, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1001,7 +1001,7 @@
 
     :cond_6
     :goto_1
-    const p1, 0x7f10052d
+    const p1, 0x7f100530
 
     .line 510
     invoke-virtual {p3, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1010,7 +1010,7 @@
 
     invoke-virtual {p2, p1}, Lcom/rigol/scope/data/MappingObject;->setKeyAStr(Ljava/lang/String;)V
 
-    const p1, 0x7f10052e
+    const p1, 0x7f100531
 
     .line 511
     invoke-virtual {p3, p1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -1548,7 +1548,7 @@
 
     const/4 v5, 0x1
 
-    const/16 v6, 0x745
+    const/16 v6, 0x746
 
     invoke-virtual {v4, v5, v6}, Lcom/rigol/scope/cil/API;->UI_QueryStr(II)Ljava/lang/String;
 
@@ -1732,7 +1732,7 @@
 
     check-cast v7, Lcom/rigol/scope/data/MappingObject;
 
-    goto/16 :goto_3
+    goto :goto_3
 
     .line 154
     :cond_4
@@ -1798,8 +1798,6 @@
 
     move-result-object v9
 
-    check-cast v9, Lcom/rigol/scope/data/MappingObject;
-
     invoke-interface {v1, v9}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_3
@@ -1843,8 +1841,6 @@
 
     move-result-object v9
 
-    check-cast v9, Lcom/rigol/scope/data/MappingObject;
-
     invoke-interface {v3, v9}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_3
@@ -1854,8 +1850,6 @@
     invoke-interface {v0, v8}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v9
-
-    check-cast v9, Lcom/rigol/scope/data/MappingObject;
 
     invoke-interface {v2, v9}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -2159,7 +2153,7 @@
 
     const/4 v3, 0x1
 
-    const/16 v4, 0x746
+    const/16 v4, 0x747
 
     invoke-virtual {v0, v3, v4, v1, v2}, Lcom/rigol/scope/cil/API;->UI_PostInt64(IIJ)I
 

@@ -229,7 +229,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a03dc
+    const v0, 0x7f0a03de
 
     if-eq p1, v0, :cond_1
 
@@ -303,14 +303,14 @@
 
     move-result v0
 
-    const v1, 0x7f0a03dd
+    const v1, 0x7f0a03df
 
     if-ne v0, v1, :cond_0
 
     .line 150
     iget-object v0, p0, Lcom/rigol/scope/adapters/BusAnalyseEth100BaseTAdapter;->anchorView:Landroid/view/View;
 
-    const v1, 0x7f03011a
+    const v1, 0x7f03011b
 
     new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$BusAnalyseEth100BaseTAdapter$tiVrFPtH8kBWIKinb6lZkD4rLfE;
 

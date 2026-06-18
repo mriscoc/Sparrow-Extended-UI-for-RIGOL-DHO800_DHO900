@@ -74,7 +74,7 @@
 .method public final onChanged(Lcom/rigol/scope/data/XYParam;)V
     .locals 1
 
-    .line 1501
+    .line 1616
     iget-object v0, p0, Lcom/rigol/scope/views/grid/XYGridRulderView$1;->this$0:Lcom/rigol/scope/views/grid/XYGridRulderView;
 
     invoke-static {v0, p1}, Lcom/rigol/scope/views/grid/XYGridRulderView;->access$setXyParam$p(Lcom/rigol/scope/views/grid/XYGridRulderView;Lcom/rigol/scope/data/XYParam;)V
@@ -85,7 +85,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1484
+    .line 1599
     check-cast p1, Lcom/rigol/scope/data/XYParam;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/grid/XYGridRulderView$1;->onChanged(Lcom/rigol/scope/data/XYParam;)V

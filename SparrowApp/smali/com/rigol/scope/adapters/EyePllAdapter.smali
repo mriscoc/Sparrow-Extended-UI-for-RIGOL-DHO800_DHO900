@@ -123,7 +123,7 @@
 .method public onCheckedChanged(Landroid/widget/RadioGroup;I)V
     .locals 0
 
-    const p1, 0x7f0a044a
+    const p1, 0x7f0a044c
 
     if-ne p2, p1, :cond_0
 
@@ -145,7 +145,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0a0462
+    const p1, 0x7f0a0464
 
     if-ne p2, p1, :cond_1
 
@@ -187,7 +187,7 @@
 
     move-result v1
 
-    const v2, 0x7f0a0440
+    const v2, 0x7f0a0442
 
     if-ne v1, v2, :cond_1
 
@@ -278,7 +278,7 @@
     goto/16 :goto_0
 
     :cond_1
-    const v2, 0x7f0a045b
+    const v2, 0x7f0a045d
 
     if-ne v1, v2, :cond_2
 
@@ -366,7 +366,7 @@
     goto :goto_0
 
     :cond_2
-    const v2, 0x7f0a043e
+    const v2, 0x7f0a0440
 
     if-ne v1, v2, :cond_3
 
@@ -504,7 +504,7 @@
     .line 69
     iget-object p1, p0, Lcom/rigol/scope/adapters/EyePllAdapter;->binding:Lcom/rigol/scope/databinding/AdapterEyePllBinding;
 
-    const p2, 0x7f030124
+    const p2, 0x7f030125
 
     invoke-static {p2, v0}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 

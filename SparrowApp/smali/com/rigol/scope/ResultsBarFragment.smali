@@ -1331,7 +1331,7 @@
 
     const/16 v2, 0x1c
 
-    const/16 v3, 0x3323
+    const/16 v3, 0x3523
 
     invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/cil/API;->UI_QueryBool(II)Z
 
@@ -1544,7 +1544,7 @@
 
     const/16 p2, 0x1c
 
-    const/16 p3, 0x3325
+    const/16 p3, 0x3525
 
     invoke-virtual {p1, p2, p3, p6}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
@@ -1878,7 +1878,7 @@
 
     const/16 p2, 0x22
 
-    const/16 p3, 0x2107
+    const/16 p3, 0x2307
 
     invoke-virtual {p1, p2, p3, p5}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
@@ -1967,7 +1967,7 @@
 
     const/16 p2, 0x22
 
-    const/16 p3, 0x211c
+    const/16 p3, 0x231c
 
     invoke-virtual {p1, p2, p3, p5}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
@@ -2056,7 +2056,7 @@
 
     const/16 p2, 0x2e
 
-    const/16 p3, 0x2d0f
+    const/16 p3, 0x2f0f
 
     const/4 p4, 0x0
 
@@ -2218,7 +2218,7 @@
 
     const/16 p2, 0x22
 
-    const/16 p3, 0x211c
+    const/16 p3, 0x231c
 
     invoke-virtual {p1, p2, p3, p5}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
@@ -2423,7 +2423,7 @@
 
     const/16 p2, 0x2e
 
-    const/16 v0, 0x2d01
+    const/16 v0, 0x2f01
 
     invoke-virtual {p1, p2, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -2446,7 +2446,7 @@
 
     const/16 p2, 0x34
 
-    const/16 v0, 0x2701
+    const/16 v0, 0x2901
 
     invoke-virtual {p1, p2, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -2469,7 +2469,7 @@
 
     const/16 p2, 0x1c
 
-    const/16 v0, 0x3301
+    const/16 v0, 0x3501
 
     invoke-virtual {p1, p2, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -2488,7 +2488,7 @@
     .line 217
     iget-object p1, p0, Lcom/rigol/scope/ResultsBarFragment;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 v0, 0x333e
+    const/16 v0, 0x353e
 
     invoke-virtual {p1, p2, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 

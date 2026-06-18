@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/VerticalParam;)V
     .locals 0
 
-    .line 851
+    .line 815
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$23;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$23;->val$param:Lcom/rigol/scope/data/VerticalParam;
@@ -49,50 +49,12 @@
 
 # virtual methods
 .method public onChanged(Ljava/lang/Boolean;)V
-    .locals 2
+    .locals 0
 
-    .line 854
+    .line 818
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$23;->val$param:Lcom/rigol/scope/data/VerticalParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->readScale()J
-
-    .line 855
-    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$23;->val$param:Lcom/rigol/scope/data/VerticalParam;
-
-    invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->readRealScale()J
-
-    .line 856
-    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$23;->val$param:Lcom/rigol/scope/data/VerticalParam;
-
-    invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->getScaleAttr()Lcom/rigol/scope/cil/MessageAttr;
-
-    move-result-object v0
-
-    const/16 v1, 0x70f
-
-    invoke-virtual {p1, v1, v0}, Lcom/rigol/scope/data/VerticalParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
-
-    .line 857
-    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$23;->val$param:Lcom/rigol/scope/data/VerticalParam;
-
-    invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->getOffsetAttr()Lcom/rigol/scope/cil/MessageAttr;
-
-    move-result-object v0
-
-    const/16 v1, 0x712
-
-    invoke-virtual {p1, v1, v0}, Lcom/rigol/scope/data/VerticalParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
-
-    .line 858
-    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$23;->val$param:Lcom/rigol/scope/data/VerticalParam;
-
-    invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->getPositionAttr()Lcom/rigol/scope/cil/MessageAttr;
-
-    move-result-object v0
-
-    const/16 v1, 0x742
-
-    invoke-virtual {p1, v1, v0}, Lcom/rigol/scope/data/VerticalParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
+    invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->readBandLimit()Lcom/rigol/scope/cil/ServiceEnum$Bandwidth;
 
     return-void
 .end method
@@ -100,7 +62,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 851
+    .line 815
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$23;->onChanged(Ljava/lang/Boolean;)V

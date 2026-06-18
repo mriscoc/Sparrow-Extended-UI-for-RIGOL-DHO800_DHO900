@@ -25,7 +25,7 @@
 .method constructor <init>(Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate;)V
     .locals 0
 
-    .line 270
+    .line 277
     iput-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate$2;->this$0:Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -51,20 +51,18 @@
         }
     .end annotation
 
-    .line 275
+    .line 282
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate$2;->this$0:Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate;
 
     iget-object v0, v0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
 
-    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+    check-cast p1, Ljava/lang/Long;
 
-    move-result-object p1
-
-    invoke-static {p1}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
+    invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
 
     move-result-wide v1
 
-    invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/data/AfgParam;->saveBasicRiseedge(J)V
+    invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/data/AfgParam;->saveBasicFreq(J)V
 
     return-void
 .end method

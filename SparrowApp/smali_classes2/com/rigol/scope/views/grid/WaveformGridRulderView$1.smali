@@ -74,12 +74,12 @@
 .method public final onChanged(Ljava/lang/Object;)V
     .locals 2
 
-    .line 942
+    .line 1034
     instance-of v0, p1, Ljava/lang/Integer;
 
     if-eqz v0, :cond_0
 
-    .line 944
+    .line 1036
     iget-object v0, p0, Lcom/rigol/scope/views/grid/WaveformGridRulderView$1;->this$0:Lcom/rigol/scope/views/grid/WaveformGridRulderView;
 
     check-cast p1, Ljava/lang/Number;
@@ -98,7 +98,7 @@
 
     invoke-virtual {v0, p1}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->setType(Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;)V
 
-    .line 945
+    .line 1037
     iget-object p1, p0, Lcom/rigol/scope/views/grid/WaveformGridRulderView$1;->this$0:Lcom/rigol/scope/views/grid/WaveformGridRulderView;
 
     invoke-virtual {p1}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->invalidate()V

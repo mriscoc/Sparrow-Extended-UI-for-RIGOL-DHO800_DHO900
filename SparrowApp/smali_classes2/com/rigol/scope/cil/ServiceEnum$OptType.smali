@@ -37,7 +37,11 @@
 
 .field public static final enum OPT_BODE:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
+.field public static final enum OPT_BW10T12:Lcom/rigol/scope/cil/ServiceEnum$OptType;
+
 .field public static final enum OPT_BW10T20:Lcom/rigol/scope/cil/ServiceEnum$OptType;
+
+.field public static final enum OPT_BW12T15:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
 .field public static final enum OPT_BW15T25:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
@@ -102,7 +106,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 5159
+    .line 5161
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     const-string v1, "OPT_BND"
@@ -123,7 +127,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_BND:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
-    .line 5161
+    .line 5163
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     const-string v9, "OPT_MSO"
@@ -144,7 +148,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_MSO:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
-    .line 5163
+    .line 5165
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     const-string v2, "OPT_COMP"
@@ -165,7 +169,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_COMP:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
-    .line 5165
+    .line 5167
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     const-string v9, "OPT_EMBD"
@@ -186,7 +190,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_EMBD:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
-    .line 5167
+    .line 5169
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     const-string v2, "OPT_AUTO"
@@ -207,7 +211,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_AUTO:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
-    .line 5169
+    .line 5171
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     const-string v9, "OPT_FLEX"
@@ -228,7 +232,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_FLEX:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
-    .line 5171
+    .line 5173
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     const-string v2, "OPT_AUDIO"
@@ -249,7 +253,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_AUDIO:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
-    .line 5173
+    .line 5175
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     const-string v9, "OPT_AERO"
@@ -270,7 +274,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_AERO:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
-    .line 5175
+    .line 5177
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     const-string v2, "OPT_ARINC"
@@ -291,7 +295,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_ARINC:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
-    .line 5177
+    .line 5179
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     const-string v9, "OPT_DG"
@@ -312,7 +316,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_DG:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
-    .line 5179
+    .line 5181
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     const-string v2, "OPT_JITTER"
@@ -333,7 +337,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_JITTER:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
-    .line 5181
+    .line 5183
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     const-string v9, "OPT_EYE"
@@ -354,7 +358,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_EYE:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
-    .line 5183
+    .line 5185
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     const-string v2, "OPT_RTSA"
@@ -375,7 +379,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_RTSA:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
-    .line 5185
+    .line 5187
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     const-string v9, "OPT_CM_USB"
@@ -396,7 +400,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_CM_USB:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
-    .line 5187
+    .line 5189
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     const-string v2, "OPT_CM_ENET"
@@ -417,7 +421,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_CM_ENET:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
-    .line 5189
+    .line 5191
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     const-string v9, "OPT_CM_MIPI"
@@ -438,7 +442,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_CM_MIPI:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
-    .line 5191
+    .line 5193
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     const-string v2, "OPT_CM_HDMI"
@@ -459,7 +463,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_CM_HDMI:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
-    .line 5193
+    .line 5195
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     const-string v9, "OPT_PWR"
@@ -480,7 +484,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_PWR:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
-    .line 5195
+    .line 5197
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     const-string v2, "OPT_UPA"
@@ -501,7 +505,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_UPA:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
-    .line 5197
+    .line 5199
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     const-string v9, "OPT_RLU"
@@ -522,7 +526,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_RLU:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
-    .line 5199
+    .line 5201
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     const-string v2, "OPT_BODE"
@@ -543,7 +547,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_BODE:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
-    .line 5201
+    .line 5203
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     const-string v9, "OPT_BW7T10"
@@ -564,7 +568,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_BW7T10:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
-    .line 5203
+    .line 5205
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     const-string v2, "OPT_BW7T15"
@@ -585,7 +589,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_BW7T15:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
-    .line 5205
+    .line 5207
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     const-string v9, "OPT_BW7T20"
@@ -606,7 +610,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_BW7T20:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
-    .line 5207
+    .line 5209
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     const-string v2, "OPT_BW10T20"
@@ -627,7 +631,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_BW10T20:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
-    .line 5209
+    .line 5211
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     const-string v9, "OPT_BW15T25"
@@ -648,7 +652,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_BW15T25:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
-    .line 5211
+    .line 5213
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     const-string v2, "OPT_BW2T4"
@@ -669,7 +673,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_BW2T4:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
-    .line 5213
+    .line 5215
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     const-string v9, "OPT_BW2T8"
@@ -690,7 +694,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_BW2T8:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
-    .line 5215
+    .line 5217
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     const-string v2, "OPT_BW4T8"
@@ -711,10 +715,10 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_BW4T8:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
-    .line 5217
+    .line 5219
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
-    const-string v9, "OPT_COUNT"
+    const-string v9, "OPT_BW10T12"
 
     const/16 v10, 0x1d
 
@@ -730,12 +734,12 @@
 
     invoke-direct/range {v8 .. v14}, Lcom/rigol/scope/cil/ServiceEnum$OptType;-><init>(Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_COUNT:Lcom/rigol/scope/cil/ServiceEnum$OptType;
+    sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_BW10T12:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
-    .line 5219
+    .line 5221
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
-    const-string v2, "OPT_UNKNOWN"
+    const-string v2, "OPT_BW12T15"
 
     const/16 v3, 0x1e
 
@@ -751,13 +755,55 @@
 
     invoke-direct/range {v1 .. v7}, Lcom/rigol/scope/cil/ServiceEnum$OptType;-><init>(Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
+    sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_BW12T15:Lcom/rigol/scope/cil/ServiceEnum$OptType;
+
+    .line 5223
+    new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;
+
+    const-string v9, "OPT_COUNT"
+
+    const/16 v10, 0x1f
+
+    const/16 v11, 0x1f
+
+    const-string v12, ""
+
+    const-string v13, ""
+
+    const-string v14, ""
+
+    move-object v8, v0
+
+    invoke-direct/range {v8 .. v14}, Lcom/rigol/scope/cil/ServiceEnum$OptType;-><init>(Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+
+    sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_COUNT:Lcom/rigol/scope/cil/ServiceEnum$OptType;
+
+    .line 5225
+    new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;
+
+    const-string v2, "OPT_UNKNOWN"
+
+    const/16 v3, 0x20
+
+    const/16 v4, 0x20
+
+    const-string v5, ""
+
+    const-string v6, ""
+
+    const-string v7, ""
+
+    move-object v1, v0
+
+    invoke-direct/range {v1 .. v7}, Lcom/rigol/scope/cil/ServiceEnum$OptType;-><init>(Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_UNKNOWN:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
-    const/16 v1, 0x1f
+    const/16 v1, 0x21
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
-    .line 5156
+    .line 5158
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_BND:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     const/4 v3, 0x0
@@ -932,13 +978,25 @@
 
     aput-object v2, v1, v3
 
-    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_COUNT:Lcom/rigol/scope/cil/ServiceEnum$OptType;
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_BW10T12:Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     const/16 v3, 0x1d
 
     aput-object v2, v1, v3
 
-    const/16 v2, 0x1e
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_BW12T15:Lcom/rigol/scope/cil/ServiceEnum$OptType;
+
+    const/16 v3, 0x1e
+
+    aput-object v2, v1, v3
+
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$OptType;->OPT_COUNT:Lcom/rigol/scope/cil/ServiceEnum$OptType;
+
+    const/16 v3, 0x1f
+
+    aput-object v2, v1, v3
+
+    const/16 v2, 0x20
 
     aput-object v0, v1, v2
 
@@ -959,19 +1017,19 @@
         }
     .end annotation
 
-    .line 5222
+    .line 5228
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 5223
+    .line 5229
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->value1:I
 
-    .line 5224
+    .line 5230
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->value2:Ljava/lang/String;
 
-    .line 5225
+    .line 5231
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->pic1:Ljava/lang/String;
 
-    .line 5226
+    .line 5232
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->pic2:Ljava/lang/String;
 
     return-void
@@ -980,7 +1038,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$OptType;
     .locals 1
 
-    .line 5156
+    .line 5158
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -995,7 +1053,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$OptType;
     .locals 1
 
-    .line 5156
+    .line 5158
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$OptType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$OptType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$OptType;->clone()Ljava/lang/Object;

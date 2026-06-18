@@ -326,7 +326,7 @@
 
     const/16 v1, 0x16
 
-    const/16 v2, 0x4126
+    const/16 v2, 0x4326
 
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -790,7 +790,7 @@
 .method private selectSource(I)V
     .locals 2
 
-    const v0, 0x7f0301a2
+    const v0, 0x7f0301a4
 
     .line 410
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1065,55 +1065,6 @@
     return-void
 .end method
 
-.method public synthetic lambda$new$0$RefPopupView(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
-    .locals 0
-
-    .line 120
-    iput-object p1, p0, Lcom/rigol/scope/views/ref/RefPopupView;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
-
-    return-void
-.end method
-
-.method public synthetic lambda$new$1$RefPopupView(ILcom/rigol/scope/data/MappingObject;)V
-    .locals 2
-
-    .line 122
-    iget-object v0, p0, Lcom/rigol/scope/views/ref/RefPopupView;->clickedView:Landroid/view/View;
-
-    if-nez v0, :cond_0
-
-    return-void
-
-    .line 123
-    :cond_0
-    invoke-virtual {v0}, Landroid/view/View;->getId()I
-
-    move-result v0
-
-    const v1, 0x7f0a0790
-
-    if-eq v0, v1, :cond_2
-
-    const p2, 0x7f0a083d
-
-    if-eq v0, p2, :cond_1
-
-    goto :goto_0
-
-    .line 128
-    :cond_1
-    invoke-direct {p0, p1}, Lcom/rigol/scope/views/ref/RefPopupView;->selectSource(I)V
-
-    goto :goto_0
-
-    .line 125
-    :cond_2
-    invoke-direct {p0, p2}, Lcom/rigol/scope/views/ref/RefPopupView;->selectChan(Lcom/rigol/scope/data/MappingObject;)V
-
-    :goto_0
-    return-void
-.end method
-
 .method public synthetic lambda$new$2$RefPopupView(Landroid/view/KeyEvent;)V
     .locals 11
 
@@ -1145,13 +1096,13 @@
 
     iget-object v8, p0, Lcom/rigol/scope/views/ref/RefPopupView;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
 
-    new-instance v9, Lcom/rigol/scope/views/ref/-$$Lambda$RefPopupView$QG9HlFF4A3M2RdkE6OYU7axvIHM;
+    new-instance v9, Lcom/rigol/scope/views/ref/-$$Lambda$RefPopupView$COLDRYUheGa4QCHfm2etzAdlnHM;
 
-    invoke-direct {v9, p0}, Lcom/rigol/scope/views/ref/-$$Lambda$RefPopupView$QG9HlFF4A3M2RdkE6OYU7axvIHM;-><init>(Lcom/rigol/scope/views/ref/RefPopupView;)V
+    invoke-direct {v9, p0}, Lcom/rigol/scope/views/ref/-$$Lambda$RefPopupView$COLDRYUheGa4QCHfm2etzAdlnHM;-><init>(Lcom/rigol/scope/views/ref/RefPopupView;)V
 
-    new-instance v10, Lcom/rigol/scope/views/ref/-$$Lambda$RefPopupView$Ws7_taSBUhxhIpNII-8_Cby6JyI;
+    new-instance v10, Lcom/rigol/scope/views/ref/-$$Lambda$RefPopupView$59nnCkvtAxuBLcSITSzK_B6ewOs;
 
-    invoke-direct {v10, p0}, Lcom/rigol/scope/views/ref/-$$Lambda$RefPopupView$Ws7_taSBUhxhIpNII-8_Cby6JyI;-><init>(Lcom/rigol/scope/views/ref/RefPopupView;)V
+    invoke-direct {v10, p0}, Lcom/rigol/scope/views/ref/-$$Lambda$RefPopupView$59nnCkvtAxuBLcSITSzK_B6ewOs;-><init>(Lcom/rigol/scope/views/ref/RefPopupView;)V
 
     move-object v2, p1
 
@@ -1194,7 +1145,7 @@
     .line 151
     iget-object p1, p0, Lcom/rigol/scope/views/ref/RefPopupView;->param:Lcom/rigol/scope/data/RefParam;
 
-    const/16 v0, 0x4102
+    const/16 v0, 0x4302
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/RefParam;->readInt(I)I
 
@@ -1205,6 +1156,55 @@
 
     invoke-virtual {v0, p1}, Lcom/rigol/scope/data/RefParam;->saveRefChan(I)V
 
+    return-void
+.end method
+
+.method public synthetic lambda$null$0$RefPopupView(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
+    .locals 0
+
+    .line 120
+    iput-object p1, p0, Lcom/rigol/scope/views/ref/RefPopupView;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
+
+    return-void
+.end method
+
+.method public synthetic lambda$null$1$RefPopupView(ILcom/rigol/scope/data/MappingObject;)V
+    .locals 2
+
+    .line 122
+    iget-object v0, p0, Lcom/rigol/scope/views/ref/RefPopupView;->clickedView:Landroid/view/View;
+
+    if-nez v0, :cond_0
+
+    return-void
+
+    .line 123
+    :cond_0
+    invoke-virtual {v0}, Landroid/view/View;->getId()I
+
+    move-result v0
+
+    const v1, 0x7f0a079c
+
+    if-eq v0, v1, :cond_2
+
+    const p2, 0x7f0a0849
+
+    if-eq v0, p2, :cond_1
+
+    goto :goto_0
+
+    .line 128
+    :cond_1
+    invoke-direct {p0, p1}, Lcom/rigol/scope/views/ref/RefPopupView;->selectSource(I)V
+
+    goto :goto_0
+
+    .line 125
+    :cond_2
+    invoke-direct {p0, p2}, Lcom/rigol/scope/views/ref/RefPopupView;->selectChan(Lcom/rigol/scope/data/MappingObject;)V
+
+    :goto_0
     return-void
 .end method
 
@@ -1219,7 +1219,7 @@
 
     if-eqz v0, :cond_0
 
-    const/16 v1, 0x2cc
+    const/16 v1, 0x2d0
 
     .line 466
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/RefParam;->notifyPropertyChanged(I)V
@@ -1257,11 +1257,11 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0a06ad
+    const v0, 0x7f0a06b7
 
     if-eq p1, v0, :cond_2
 
-    const v0, 0x7f0a07d3
+    const v0, 0x7f0a07df
 
     if-eq p1, v0, :cond_1
 
@@ -1374,11 +1374,11 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0a06ad
+    const p1, 0x7f0a06b7
 
     if-eq p2, p1, :cond_3
 
-    const p1, 0x7f0a07d3
+    const p1, 0x7f0a07df
 
     if-eq p2, p1, :cond_1
 

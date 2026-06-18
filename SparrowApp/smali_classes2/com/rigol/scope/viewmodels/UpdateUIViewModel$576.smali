@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/NavigateParam;)V
     .locals 0
 
-    .line 6680
+    .line 6635
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$576;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$576;->val$param:Lcom/rigol/scope/data/NavigateParam;
@@ -49,12 +49,44 @@
 
 # virtual methods
 .method public onChanged(Ljava/lang/Object;)V
-    .locals 0
+    .locals 1
 
-    .line 6683
+    .line 6638
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$576;->val$param:Lcom/rigol/scope/data/NavigateParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/NavigateParam;->readPage()I
+    invoke-virtual {p1}, Lcom/rigol/scope/data/NavigateParam;->readDisplayFrame()J
 
+    .line 6639
+    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$576;->val$param:Lcom/rigol/scope/data/NavigateParam;
+
+    invoke-virtual {p1}, Lcom/rigol/scope/data/NavigateParam;->readIsOutFrame()Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    .line 6640
+    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$576;->val$param:Lcom/rigol/scope/data/NavigateParam;
+
+    invoke-virtual {p1}, Lcom/rigol/scope/data/NavigateParam;->saveIsOutFrame()V
+
+    .line 6641
+    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
+
+    move-result-object p1
+
+    const v0, 0x7f10107f
+
+    invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showLong(Ljava/lang/CharSequence;)V
+
+    :cond_0
     return-void
 .end method

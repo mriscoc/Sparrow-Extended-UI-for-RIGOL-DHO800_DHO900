@@ -24,7 +24,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/WindowSimpleBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08ff
+    const v1, 0x7f0a090b
 
     const/4 v2, 0x1
 
@@ -34,7 +34,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/WindowSimpleBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08fd
+    const v1, 0x7f0a0909
 
     const/4 v2, 0x2
 
@@ -43,7 +43,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/WindowSimpleBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b35
+    const v1, 0x7f0a0b41
 
     const/4 v2, 0x3
 
@@ -52,7 +52,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/WindowSimpleBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b32
+    const v1, 0x7f0a0b3e
 
     const/4 v2, 0x4
 
@@ -61,7 +61,7 @@
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/WindowSimpleBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b2b
+    const v1, 0x7f0a0b37
 
     const/4 v2, 0x5
 
@@ -79,7 +79,7 @@
     .line 23
     sget-object v0, Lcom/rigol/scope/databinding/WindowSimpleBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a03cc
+    const v1, 0x7f0a03ce
 
     const/4 v2, 0x7
 
@@ -88,7 +88,7 @@
     .line 24
     sget-object v0, Lcom/rigol/scope/databinding/WindowSimpleBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0604
+    const v1, 0x7f0a060c
 
     const/16 v2, 0x8
 
@@ -97,7 +97,7 @@
     .line 25
     sget-object v0, Lcom/rigol/scope/databinding/WindowSimpleBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a086c
+    const v1, 0x7f0a0878
 
     const/16 v2, 0x9
 
@@ -106,7 +106,7 @@
     .line 26
     sget-object v0, Lcom/rigol/scope/databinding/WindowSimpleBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b0c
+    const v1, 0x7f0a0b18
 
     const/16 v2, 0xa
 

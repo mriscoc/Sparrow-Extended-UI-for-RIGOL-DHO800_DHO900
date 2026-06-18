@@ -226,7 +226,7 @@
 
     if-eq p1, v0, :cond_1
 
-    const v0, 0x7f0a06b0
+    const v0, 0x7f0a06ba
 
     if-eq p1, v0, :cond_0
 

@@ -63,6 +63,8 @@
 
 .field public static final enum Probe_5X:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
+.field public static final enum Probe_Cus:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
+
 .field public static final enum Probe_X0001:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
 .field public static final enum Probe_X0002:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
@@ -753,7 +755,28 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_50000X:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    const/16 v1, 0x1f
+    .line 1182
+    new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
+
+    const-string v9, "Probe_Cus"
+
+    const/16 v10, 0x1f
+
+    const/16 v11, 0x1f
+
+    const-string v12, "Custom"
+
+    const-string v13, ""
+
+    const-string v14, ""
+
+    move-object v8, v0
+
+    invoke-direct/range {v8 .. v14}, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;-><init>(Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+
+    sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_Cus:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
+
+    const/16 v1, 0x20
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
@@ -938,7 +961,13 @@
 
     aput-object v2, v1, v3
 
-    const/16 v2, 0x1e
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_50000X:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
+
+    const/16 v3, 0x1e
+
+    aput-object v2, v1, v3
+
+    const/16 v2, 0x1f
 
     aput-object v0, v1, v2
 
@@ -959,19 +988,19 @@
         }
     .end annotation
 
-    .line 1183
+    .line 1185
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 1184
+    .line 1186
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->value1:I
 
-    .line 1185
+    .line 1187
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->value2:Ljava/lang/String;
 
-    .line 1186
+    .line 1188
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->pic1:Ljava/lang/String;
 
-    .line 1187
+    .line 1189
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->pic2:Ljava/lang/String;
 
     return-void

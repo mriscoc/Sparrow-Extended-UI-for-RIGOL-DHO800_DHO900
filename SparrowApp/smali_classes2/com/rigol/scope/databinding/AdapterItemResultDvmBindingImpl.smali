@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterItemResultDvmBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08ff
+    const v1, 0x7f0a090b
 
     const/4 v2, 0x6
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterItemResultDvmBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a07a8
+    const v1, 0x7f0a07b4
 
     const/4 v2, 0x7
 
@@ -45,7 +45,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/AdapterItemResultDvmBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0653
+    const v1, 0x7f0a065b
 
     const/16 v2, 0x8
 
@@ -54,7 +54,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/AdapterItemResultDvmBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0654
+    const v1, 0x7f0a065c
 
     const/16 v2, 0x9
 
@@ -260,7 +260,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x210
+    const/16 v0, 0x211
 
     if-ne p2, v0, :cond_1
 
@@ -292,7 +292,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x3ab
+    const/16 v0, 0x3af
 
     if-ne p2, v0, :cond_2
 
@@ -324,7 +324,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x35e
+    const/16 v0, 0x362
 
     if-ne p2, v0, :cond_3
 
@@ -428,7 +428,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -696,7 +696,7 @@
     const/4 v14, 0x0
 
     :goto_9
-    const v11, 0x7f030116
+    const v11, 0x7f030117
 
     .line 249
     invoke-static {v11, v14}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -906,7 +906,7 @@
 
     move-result-object v0
 
-    const v10, 0x7f10144c
+    const v10, 0x7f101461
 
     invoke-virtual {v0, v10}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1144,7 +1144,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x252
+    const/16 p1, 0x254
 
     .line 93
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterItemResultDvmBindingImpl;->notifyPropertyChanged(I)V
@@ -1169,7 +1169,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x252
+    const/16 v0, 0x254
 
     if-ne v0, p1, :cond_0
 

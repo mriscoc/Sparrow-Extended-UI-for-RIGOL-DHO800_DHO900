@@ -33,7 +33,7 @@
     .line 2311
     new-instance v0, Landroid/util/SparseArray;
 
-    const/16 v1, 0x446
+    const/16 v1, 0x44a
 
     invoke-direct {v0, v1}, Landroid/util/SparseArray;-><init>(I)V
 
@@ -3470,7 +3470,7 @@
 
     const/16 v1, 0x17a
 
-    const-string v2, "hori"
+    const-string v2, "horLineWidth"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3479,7 +3479,7 @@
 
     const/16 v1, 0x17b
 
-    const-string v2, "horiParam"
+    const-string v2, "hori"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3488,7 +3488,7 @@
 
     const/16 v1, 0x17c
 
-    const-string v2, "horizontal"
+    const-string v2, "horiParam"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3497,7 +3497,7 @@
 
     const/16 v1, 0x17d
 
-    const-string v2, "horizontalMappingObject"
+    const-string v2, "horizontal"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3506,7 +3506,7 @@
 
     const/16 v1, 0x17e
 
-    const-string v2, "horizontalParam"
+    const-string v2, "horizontalMappingObject"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3515,7 +3515,7 @@
 
     const/16 v1, 0x17f
 
-    const-string v2, "hostName"
+    const-string v2, "horizontalParam"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3524,7 +3524,7 @@
 
     const/16 v1, 0x180
 
-    const-string v2, "hpFreq"
+    const-string v2, "hostName"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3533,7 +3533,7 @@
 
     const/16 v1, 0x181
 
-    const-string v2, "hresMappingObj"
+    const-string v2, "hpFreq"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3542,7 +3542,7 @@
 
     const/16 v1, 0x182
 
-    const-string v2, "i2cAddress"
+    const-string v2, "hresMappingObj"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3551,7 +3551,7 @@
 
     const/16 v1, 0x183
 
-    const-string v2, "i2cDataType"
+    const-string v2, "i2cAddress"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3560,7 +3560,7 @@
 
     const/16 v1, 0x184
 
-    const-string v2, "i2c_exchange"
+    const-string v2, "i2cDataType"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3569,7 +3569,7 @@
 
     const/16 v1, 0x185
 
-    const-string v2, "i2c_read_write"
+    const-string v2, "i2c_exchange"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3578,7 +3578,7 @@
 
     const/16 v1, 0x186
 
-    const-string v2, "i2c_scl"
+    const-string v2, "i2c_read_write"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3587,7 +3587,7 @@
 
     const/16 v1, 0x187
 
-    const-string v2, "i2c_scl_thres"
+    const-string v2, "i2c_scl"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3596,7 +3596,7 @@
 
     const/16 v1, 0x188
 
-    const-string v2, "i2c_sda"
+    const-string v2, "i2c_scl_thres"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3605,7 +3605,7 @@
 
     const/16 v1, 0x189
 
-    const-string v2, "i2c_sda_thres"
+    const-string v2, "i2c_sda"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3614,7 +3614,7 @@
 
     const/16 v1, 0x18a
 
-    const-string v2, "i2sDataType"
+    const-string v2, "i2c_sda_thres"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3623,7 +3623,7 @@
 
     const/16 v1, 0x18b
 
-    const-string v2, "i2s_align"
+    const-string v2, "i2sDataType"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3632,7 +3632,7 @@
 
     const/16 v1, 0x18c
 
-    const-string v2, "i2s_data"
+    const-string v2, "i2s_align"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3641,7 +3641,7 @@
 
     const/16 v1, 0x18d
 
-    const-string v2, "i2s_data_polarity"
+    const-string v2, "i2s_data"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3650,7 +3650,7 @@
 
     const/16 v1, 0x18e
 
-    const-string v2, "i2s_data_thres"
+    const-string v2, "i2s_data_polarity"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3659,7 +3659,7 @@
 
     const/16 v1, 0x18f
 
-    const-string v2, "i2s_endian"
+    const-string v2, "i2s_data_thres"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3668,7 +3668,7 @@
 
     const/16 v1, 0x190
 
-    const-string v2, "i2s_receive"
+    const-string v2, "i2s_endian"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3677,7 +3677,7 @@
 
     const/16 v1, 0x191
 
-    const-string v2, "i2s_sclock"
+    const-string v2, "i2s_receive"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3686,7 +3686,7 @@
 
     const/16 v1, 0x192
 
-    const-string v2, "i2s_sclock_edge"
+    const-string v2, "i2s_sclock"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3695,7 +3695,7 @@
 
     const/16 v1, 0x193
 
-    const-string v2, "i2s_sclock_thres"
+    const-string v2, "i2s_sclock_edge"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3704,7 +3704,7 @@
 
     const/16 v1, 0x194
 
-    const-string v2, "i2s_wave_singal_thres"
+    const-string v2, "i2s_sclock_thres"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3713,7 +3713,7 @@
 
     const/16 v1, 0x195
 
-    const-string v2, "i2s_word"
+    const-string v2, "i2s_wave_singal_thres"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3722,7 +3722,7 @@
 
     const/16 v1, 0x196
 
-    const-string v2, "i2s_ws"
+    const-string v2, "i2s_word"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3731,7 +3731,7 @@
 
     const/16 v1, 0x197
 
-    const-string v2, "i2s_ws_low"
+    const-string v2, "i2s_ws"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3740,7 +3740,7 @@
 
     const/16 v1, 0x198
 
-    const-string v2, "idExtended"
+    const-string v2, "i2s_ws_low"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3749,7 +3749,7 @@
 
     const/16 v1, 0x199
 
-    const-string v2, "idLowerLimit"
+    const-string v2, "idExtended"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3758,7 +3758,7 @@
 
     const/16 v1, 0x19a
 
-    const-string v2, "idUperLimit"
+    const-string v2, "idLowerLimit"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3767,7 +3767,7 @@
 
     const/16 v1, 0x19b
 
-    const-string v2, "idelTime"
+    const-string v2, "idUperLimit"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3776,7 +3776,7 @@
 
     const/16 v1, 0x19c
 
-    const-string v2, "ifPlaying"
+    const-string v2, "idelTime"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3785,7 +3785,7 @@
 
     const/16 v1, 0x19d
 
-    const-string v2, "iicChanA"
+    const-string v2, "ifPlaying"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3794,7 +3794,7 @@
 
     const/16 v1, 0x19e
 
-    const-string v2, "iicChanB"
+    const-string v2, "iicChanA"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3803,7 +3803,7 @@
 
     const/16 v1, 0x19f
 
-    const-string v2, "iiclevelA"
+    const-string v2, "iicChanB"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3812,7 +3812,7 @@
 
     const/16 v1, 0x1a0
 
-    const-string v2, "iiclevelB"
+    const-string v2, "iiclevelA"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3821,7 +3821,7 @@
 
     const/16 v1, 0x1a1
 
-    const-string v2, "iisChanA"
+    const-string v2, "iiclevelB"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3830,7 +3830,7 @@
 
     const/16 v1, 0x1a2
 
-    const-string v2, "iisChanB"
+    const-string v2, "iisChanA"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3839,7 +3839,7 @@
 
     const/16 v1, 0x1a3
 
-    const-string v2, "iisChanC"
+    const-string v2, "iisChanB"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3848,7 +3848,7 @@
 
     const/16 v1, 0x1a4
 
-    const-string v2, "iisDataType"
+    const-string v2, "iisChanC"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3857,7 +3857,7 @@
 
     const/16 v1, 0x1a5
 
-    const-string v2, "iisMaxDataType"
+    const-string v2, "iisDataType"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3866,7 +3866,7 @@
 
     const/16 v1, 0x1a6
 
-    const-string v2, "iisMinDataType"
+    const-string v2, "iisMaxDataType"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3875,7 +3875,7 @@
 
     const/16 v1, 0x1a7
 
-    const-string v2, "iisSlope"
+    const-string v2, "iisMinDataType"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3884,7 +3884,7 @@
 
     const/16 v1, 0x1a8
 
-    const-string v2, "iislevelA"
+    const-string v2, "iisSlope"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3893,7 +3893,7 @@
 
     const/16 v1, 0x1a9
 
-    const-string v2, "iislevelB"
+    const-string v2, "iislevelA"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3902,7 +3902,7 @@
 
     const/16 v1, 0x1aa
 
-    const-string v2, "iislevelC"
+    const-string v2, "iislevelB"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3911,7 +3911,7 @@
 
     const/16 v1, 0x1ab
 
-    const-string v2, "imageColor"
+    const-string v2, "iislevelC"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3920,7 +3920,7 @@
 
     const/16 v1, 0x1ac
 
-    const-string v2, "imageFileType"
+    const-string v2, "imageColor"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3929,7 +3929,7 @@
 
     const/16 v1, 0x1ad
 
-    const-string v2, "imageHeader"
+    const-string v2, "imageFileType"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3938,7 +3938,7 @@
 
     const/16 v1, 0x1ae
 
-    const-string v2, "imageInvert"
+    const-string v2, "imageHeader"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3947,7 +3947,7 @@
 
     const/16 v1, 0x1af
 
-    const-string v2, "impedance"
+    const-string v2, "imageInvert"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3956,7 +3956,7 @@
 
     const/16 v1, 0x1b0
 
-    const-string v2, "impedanceEnable"
+    const-string v2, "impedance"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3965,7 +3965,7 @@
 
     const/16 v1, 0x1b1
 
-    const-string v2, "index"
+    const-string v2, "impedanceEnable"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3974,7 +3974,7 @@
 
     const/16 v1, 0x1b2
 
-    const-string v2, "inputLabel"
+    const-string v2, "index"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3983,7 +3983,7 @@
 
     const/16 v1, 0x1b3
 
-    const-string v2, "inputLabellist"
+    const-string v2, "inputLabel"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -3992,7 +3992,7 @@
 
     const/16 v1, 0x1b4
 
-    const-string v2, "inputLabellist64"
+    const-string v2, "inputLabellist"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4001,7 +4001,7 @@
 
     const/16 v1, 0x1b5
 
-    const-string v2, "install"
+    const-string v2, "inputLabellist64"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4010,7 +4010,7 @@
 
     const/16 v1, 0x1b6
 
-    const-string v2, "inter1"
+    const-string v2, "install"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4019,7 +4019,7 @@
 
     const/16 v1, 0x1b7
 
-    const-string v2, "inter2"
+    const-string v2, "inter1"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4028,7 +4028,7 @@
 
     const/16 v1, 0x1b8
 
-    const-string v2, "inter3"
+    const-string v2, "inter2"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4037,7 +4037,7 @@
 
     const/16 v1, 0x1b9
 
-    const-string v2, "inter4"
+    const-string v2, "inter3"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4046,7 +4046,7 @@
 
     const/16 v1, 0x1ba
 
-    const-string v2, "intgBias"
+    const-string v2, "inter4"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4055,7 +4055,7 @@
 
     const/16 v1, 0x1bb
 
-    const-string v2, "intgBiasUnit"
+    const-string v2, "intgBias"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4064,7 +4064,7 @@
 
     const/16 v1, 0x1bc
 
-    const-string v2, "invert"
+    const-string v2, "intgBiasUnit"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4073,7 +4073,7 @@
 
     const/16 v1, 0x1bd
 
-    const-string v2, "invertDeltaXStr"
+    const-string v2, "invert"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4082,7 +4082,7 @@
 
     const/16 v1, 0x1be
 
-    const-string v2, "ioParam"
+    const-string v2, "invertDeltaXStr"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4091,7 +4091,7 @@
 
     const/16 v1, 0x1bf
 
-    const-string v2, "ipAddress"
+    const-string v2, "ioParam"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4100,7 +4100,7 @@
 
     const/16 v1, 0x1c0
 
-    const-string v2, "isNoise"
+    const-string v2, "ipAddress"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4109,7 +4109,7 @@
 
     const/16 v1, 0x1c1
 
-    const-string v2, "isProbe"
+    const-string v2, "isNoise"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4118,7 +4118,7 @@
 
     const/16 v1, 0x1c2
 
-    const-string v2, "itemBits"
+    const-string v2, "isProbe"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4127,7 +4127,7 @@
 
     const/16 v1, 0x1c3
 
-    const-string v2, "itemPosition"
+    const-string v2, "itemBits"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4136,7 +4136,7 @@
 
     const/16 v1, 0x1c4
 
-    const-string v2, "keyNumMax"
+    const-string v2, "itemPosition"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4145,7 +4145,7 @@
 
     const/16 v1, 0x1c5
 
-    const-string v2, "laEnable"
+    const-string v2, "keyNumMax"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4154,7 +4154,7 @@
 
     const/16 v1, 0x1c6
 
-    const-string v2, "laParam"
+    const-string v2, "laEnable"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4163,7 +4163,7 @@
 
     const/16 v1, 0x1c7
 
-    const-string v2, "la_calibration_probe"
+    const-string v2, "laParam"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4172,7 +4172,7 @@
 
     const/16 v1, 0x1c8
 
-    const-string v2, "la_edge_color"
+    const-string v2, "la_calibration_probe"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4181,7 +4181,7 @@
 
     const/16 v1, 0x1c9
 
-    const-string v2, "la_group1"
+    const-string v2, "la_edge_color"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4190,7 +4190,7 @@
 
     const/16 v1, 0x1ca
 
-    const-string v2, "la_group2"
+    const-string v2, "la_group1"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4199,7 +4199,7 @@
 
     const/16 v1, 0x1cb
 
-    const-string v2, "la_group3"
+    const-string v2, "la_group2"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4208,7 +4208,7 @@
 
     const/16 v1, 0x1cc
 
-    const-string v2, "la_group4"
+    const-string v2, "la_group3"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4217,7 +4217,7 @@
 
     const/16 v1, 0x1cd
 
-    const-string v2, "la_high_color"
+    const-string v2, "la_group4"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4226,7 +4226,7 @@
 
     const/16 v1, 0x1ce
 
-    const-string v2, "la_label_view_select"
+    const-string v2, "la_high_color"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4235,7 +4235,7 @@
 
     const/16 v1, 0x1cf
 
-    const-string v2, "la_label_view_select_chan"
+    const-string v2, "la_label_view_select"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4244,7 +4244,7 @@
 
     const/16 v1, 0x1d0
 
-    const-string v2, "la_labels_en"
+    const-string v2, "la_label_view_select_chan"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4253,7 +4253,7 @@
 
     const/16 v1, 0x1d1
 
-    const-string v2, "la_low_color"
+    const-string v2, "la_labels_en"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4262,7 +4262,7 @@
 
     const/16 v1, 0x1d2
 
-    const-string v2, "la_order"
+    const-string v2, "la_low_color"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4271,7 +4271,7 @@
 
     const/16 v1, 0x1d3
 
-    const-string v2, "la_position"
+    const-string v2, "la_order"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4280,7 +4280,7 @@
 
     const/16 v1, 0x1d4
 
-    const-string v2, "la_probe_cal_data"
+    const-string v2, "la_position"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4289,7 +4289,7 @@
 
     const/16 v1, 0x1d5
 
-    const-string v2, "la_probe_cal_pro"
+    const-string v2, "la_probe_cal_data"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4298,7 +4298,7 @@
 
     const/16 v1, 0x1d6
 
-    const-string v2, "la_probe_cal_prostr"
+    const-string v2, "la_probe_cal_pro"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4307,7 +4307,7 @@
 
     const/16 v1, 0x1d7
 
-    const-string v2, "la_select_position"
+    const-string v2, "la_probe_cal_prostr"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4316,7 +4316,7 @@
 
     const/16 v1, 0x1d8
 
-    const-string v2, "la_size_"
+    const-string v2, "la_select_position"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4325,7 +4325,7 @@
 
     const/16 v1, 0x1d9
 
-    const-string v2, "la_source"
+    const-string v2, "la_size_"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4334,7 +4334,7 @@
 
     const/16 v1, 0x1da
 
-    const-string v2, "la_spacing_"
+    const-string v2, "la_source"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4343,7 +4343,7 @@
 
     const/16 v1, 0x1db
 
-    const-string v2, "label"
+    const-string v2, "la_spacing_"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4352,7 +4352,7 @@
 
     const/16 v1, 0x1dc
 
-    const-string v2, "labelGroup"
+    const-string v2, "label"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4361,7 +4361,7 @@
 
     const/16 v1, 0x1dd
 
-    const-string v2, "labelString"
+    const-string v2, "labelGroup"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4370,7 +4370,7 @@
 
     const/16 v1, 0x1de
 
-    const-string v2, "language"
+    const-string v2, "labelString"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4379,7 +4379,7 @@
 
     const/16 v1, 0x1df
 
-    const-string v2, "lastDate"
+    const-string v2, "language"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4388,7 +4388,7 @@
 
     const/16 v1, 0x1e0
 
-    const-string v2, "last_one"
+    const-string v2, "lastDate"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4397,7 +4397,7 @@
 
     const/16 v1, 0x1e1
 
-    const-string v2, "launcheNum"
+    const-string v2, "last_one"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4406,7 +4406,7 @@
 
     const/16 v1, 0x1e2
 
-    const-string v2, "left"
+    const-string v2, "launcheNum"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4415,7 +4415,7 @@
 
     const/16 v1, 0x1e3
 
-    const-string v2, "leftStatusBarParam"
+    const-string v2, "left"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4424,7 +4424,7 @@
 
     const/16 v1, 0x1e4
 
-    const-string v2, "level"
+    const-string v2, "leftStatusBarParam"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4433,7 +4433,7 @@
 
     const/16 v1, 0x1e5
 
-    const-string v2, "levelB"
+    const-string v2, "level"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4442,7 +4442,7 @@
 
     const/16 v1, 0x1e6
 
-    const-string v2, "levelC"
+    const-string v2, "levelB"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4451,7 +4451,7 @@
 
     const/16 v1, 0x1e7
 
-    const-string v2, "limitLower"
+    const-string v2, "levelC"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4460,7 +4460,7 @@
 
     const/16 v1, 0x1e8
 
-    const-string v2, "limitType"
+    const-string v2, "limitLower"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4469,7 +4469,7 @@
 
     const/16 v1, 0x1e9
 
-    const-string v2, "limitUpper"
+    const-string v2, "limitType"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4478,7 +4478,7 @@
 
     const/16 v1, 0x1ea
 
-    const-string v2, "linBaud"
+    const-string v2, "limitUpper"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4487,7 +4487,7 @@
 
     const/16 v1, 0x1eb
 
-    const-string v2, "linByte"
+    const-string v2, "linBaud"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4496,7 +4496,7 @@
 
     const/16 v1, 0x1ec
 
-    const-string v2, "linDataType"
+    const-string v2, "linByte"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4505,7 +4505,7 @@
 
     const/16 v1, 0x1ed
 
-    const-string v2, "linId"
+    const-string v2, "linDataType"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4514,7 +4514,7 @@
 
     const/16 v1, 0x1ee
 
-    const-string v2, "linSamplePosition"
+    const-string v2, "linId"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4523,7 +4523,7 @@
 
     const/16 v1, 0x1ef
 
-    const-string v2, "lin_baud"
+    const-string v2, "linSamplePosition"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4532,7 +4532,7 @@
 
     const/16 v1, 0x1f0
 
-    const-string v2, "lin_parity_bit"
+    const-string v2, "lin_baud"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4541,7 +4541,7 @@
 
     const/16 v1, 0x1f1
 
-    const-string v2, "lin_polarity"
+    const-string v2, "lin_parity_bit"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4550,7 +4550,7 @@
 
     const/16 v1, 0x1f2
 
-    const-string v2, "lin_source"
+    const-string v2, "lin_polarity"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4559,7 +4559,7 @@
 
     const/16 v1, 0x1f3
 
-    const-string v2, "lin_thres"
+    const-string v2, "lin_source"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4574,7 +4574,7 @@
 
     const/16 v1, 0x1f4
 
-    const-string v2, "lin_version"
+    const-string v2, "lin_thres"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4583,7 +4583,7 @@
 
     const/16 v1, 0x1f5
 
-    const-string v2, "lineA"
+    const-string v2, "lin_version"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4592,7 +4592,7 @@
 
     const/16 v1, 0x1f6
 
-    const-string v2, "lineB"
+    const-string v2, "lineA"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4601,7 +4601,7 @@
 
     const/16 v1, 0x1f7
 
-    const-string v2, "linesNumber"
+    const-string v2, "lineB"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4610,7 +4610,7 @@
 
     const/16 v1, 0x1f8
 
-    const-string v2, "loadFileType"
+    const-string v2, "linesNumber"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4619,7 +4619,7 @@
 
     const/16 v1, 0x1f9
 
-    const-string v2, "loadingFiles"
+    const-string v2, "loadFileType"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4628,7 +4628,7 @@
 
     const/16 v1, 0x1fa
 
-    const-string v2, "lockKeyboard"
+    const-string v2, "loadingFiles"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4637,7 +4637,7 @@
 
     const/16 v1, 0x1fb
 
-    const-string v2, "logicOffset"
+    const-string v2, "lockKeyboard"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4646,7 +4646,7 @@
 
     const/16 v1, 0x1fc
 
-    const-string v2, "logicSizeIndex"
+    const-string v2, "logicOffset"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4655,7 +4655,7 @@
 
     const/16 v1, 0x1fd
 
-    const-string v2, "loopBw"
+    const-string v2, "logicSizeIndex"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4664,7 +4664,7 @@
 
     const/16 v1, 0x1fe
 
-    const-string v2, "lowThres"
+    const-string v2, "loopBw"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4673,7 +4673,7 @@
 
     const/16 v1, 0x1ff
 
-    const-string v2, "lowerLimit"
+    const-string v2, "lowThres"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4682,7 +4682,7 @@
 
     const/16 v1, 0x200
 
-    const-string v2, "lpFreq"
+    const-string v2, "lowerLimit"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4691,7 +4691,7 @@
 
     const/16 v1, 0x201
 
-    const-string v2, "macAddress"
+    const-string v2, "lpFreq"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4700,7 +4700,7 @@
 
     const/16 v1, 0x202
 
-    const-string v2, "mainOffset"
+    const-string v2, "macAddress"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4709,7 +4709,7 @@
 
     const/16 v1, 0x203
 
-    const-string v2, "mainOffsetStr"
+    const-string v2, "mainOffset"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4718,7 +4718,7 @@
 
     const/16 v1, 0x204
 
-    const-string v2, "mainScale"
+    const-string v2, "mainOffsetStr"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4727,7 +4727,7 @@
 
     const/16 v1, 0x205
 
-    const-string v2, "manualMapping"
+    const-string v2, "mainScale"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4736,7 +4736,7 @@
 
     const/16 v1, 0x206
 
-    const-string v2, "manufacturer"
+    const-string v2, "manualMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4745,7 +4745,7 @@
 
     const/16 v1, 0x207
 
-    const-string v2, "markTableEn"
+    const-string v2, "manufacturer"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4754,7 +4754,7 @@
 
     const/16 v1, 0x208
 
-    const-string v2, "markersState"
+    const-string v2, "markTableEn"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4763,7 +4763,7 @@
 
     const/16 v1, 0x209
 
-    const-string v2, "mask"
+    const-string v2, "markersState"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4772,7 +4772,7 @@
 
     const/16 v1, 0x20a
 
-    const-string v2, "maskParam"
+    const-string v2, "mask"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4781,7 +4781,7 @@
 
     const/16 v1, 0x20b
 
-    const-string v2, "maxFrame"
+    const-string v2, "maskParam"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4790,7 +4790,7 @@
 
     const/16 v1, 0x20c
 
-    const-string v2, "maxPage"
+    const-string v2, "maxFrame"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4799,7 +4799,7 @@
 
     const/16 v1, 0x20d
 
-    const-string v2, "maxValue"
+    const-string v2, "maxPage"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4808,7 +4808,7 @@
 
     const/16 v1, 0x20e
 
-    const-string v2, "mdns"
+    const-string v2, "maxValue"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4817,7 +4817,7 @@
 
     const/16 v1, 0x20f
 
-    const-string v2, "measSrc"
+    const-string v2, "mdns"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4826,7 +4826,7 @@
 
     const/16 v1, 0x210
 
-    const-string v2, "measType"
+    const-string v2, "measSrc"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4835,7 +4835,7 @@
 
     const/16 v1, 0x211
 
-    const-string v2, "measureAllSrc"
+    const-string v2, "measType"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4844,7 +4844,7 @@
 
     const/16 v1, 0x212
 
-    const-string v2, "measureMappingObject"
+    const-string v2, "measureAllSrc"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4853,7 +4853,7 @@
 
     const/16 v1, 0x213
 
-    const-string v2, "memEnd"
+    const-string v2, "measureMappingObject"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4862,7 +4862,7 @@
 
     const/16 v1, 0x214
 
-    const-string v2, "memStart"
+    const-string v2, "memEnd"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4871,7 +4871,7 @@
 
     const/16 v1, 0x215
 
-    const-string v2, "menuParam"
+    const-string v2, "memStart"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4880,7 +4880,7 @@
 
     const/16 v1, 0x216
 
-    const-string v2, "message"
+    const-string v2, "menuParam"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4889,7 +4889,7 @@
 
     const/16 v1, 0x217
 
-    const-string v2, "methodState"
+    const-string v2, "message"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4898,7 +4898,7 @@
 
     const/16 v1, 0x218
 
-    const-string v2, "midThres"
+    const-string v2, "methodState"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4907,7 +4907,7 @@
 
     const/16 v1, 0x219
 
-    const-string v2, "milstdDataType"
+    const-string v2, "midThres"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4916,7 +4916,7 @@
 
     const/16 v1, 0x21a
 
-    const-string v2, "milstdTrigger_Level_ID"
+    const-string v2, "milstdDataType"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4925,7 +4925,7 @@
 
     const/16 v1, 0x21b
 
-    const-string v2, "milstdlevelA"
+    const-string v2, "milstdTrigger_Level_ID"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4934,7 +4934,7 @@
 
     const/16 v1, 0x21c
 
-    const-string v2, "milstdlevelB"
+    const-string v2, "milstdlevelA"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4943,7 +4943,7 @@
 
     const/16 v1, 0x21d
 
-    const-string v2, "minPop"
+    const-string v2, "milstdlevelB"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4952,7 +4952,7 @@
 
     const/16 v1, 0x21e
 
-    const-string v2, "minValue"
+    const-string v2, "minPop"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4961,7 +4961,7 @@
 
     const/16 v1, 0x21f
 
-    const-string v2, "miscBuild"
+    const-string v2, "minValue"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4970,7 +4970,7 @@
 
     const/16 v1, 0x220
 
-    const-string v2, "mode"
+    const-string v2, "miscBuild"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4979,7 +4979,7 @@
 
     const/16 v1, 0x221
 
-    const-string v2, "modeCsMapping"
+    const-string v2, "mode"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4988,7 +4988,7 @@
 
     const/16 v1, 0x222
 
-    const-string v2, "modeNegativeMapping"
+    const-string v2, "modeCsMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -4997,7 +4997,7 @@
 
     const/16 v1, 0x223
 
-    const-string v2, "modePositiveMapping"
+    const-string v2, "modeNegativeMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5006,7 +5006,7 @@
 
     const/16 v1, 0x224
 
-    const-string v2, "modeTimeoutMapping"
+    const-string v2, "modePositiveMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5015,7 +5015,7 @@
 
     const/16 v1, 0x225
 
-    const-string v2, "mode_function"
+    const-string v2, "modeTimeoutMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5024,7 +5024,7 @@
 
     const/16 v1, 0x226
 
-    const-string v2, "model"
+    const-string v2, "mode_function"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5033,7 +5033,7 @@
 
     const/16 v1, 0x227
 
-    const-string v2, "most_signal_type"
+    const-string v2, "model"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5042,7 +5042,7 @@
 
     const/16 v1, 0x228
 
-    const-string v2, "most_source"
+    const-string v2, "most_signal_type"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5051,7 +5051,7 @@
 
     const/16 v1, 0x229
 
-    const-string v2, "most_thres"
+    const-string v2, "most_source"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5060,7 +5060,7 @@
 
     const/16 v1, 0x22a
 
-    const-string v2, "nMode"
+    const-string v2, "most_thres"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5069,7 +5069,7 @@
 
     const/16 v1, 0x22b
 
-    const-string v2, "name"
+    const-string v2, "moveEnable"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5078,7 +5078,7 @@
 
     const/16 v1, 0x22c
 
-    const-string v2, "navEnable"
+    const-string v2, "nMode"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5087,7 +5087,7 @@
 
     const/16 v1, 0x22d
 
-    const-string v2, "navigation"
+    const-string v2, "name"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5096,7 +5096,7 @@
 
     const/16 v1, 0x22e
 
-    const-string v2, "negativeMapping"
+    const-string v2, "navEnable"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5105,7 +5105,7 @@
 
     const/16 v1, 0x22f
 
-    const-string v2, "noiseProject"
+    const-string v2, "navigation"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5114,7 +5114,7 @@
 
     const/16 v1, 0x230
 
-    const-string v2, "normalMapping"
+    const-string v2, "negativeMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5123,7 +5123,7 @@
 
     const/16 v1, 0x231
 
-    const-string v2, "normalMappingObj"
+    const-string v2, "noiseProject"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5132,7 +5132,7 @@
 
     const/16 v1, 0x232
 
-    const-string v2, "nthSlope"
+    const-string v2, "normalMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5141,7 +5141,7 @@
 
     const/16 v1, 0x233
 
-    const-string v2, "obj"
+    const-string v2, "normalMappingObj"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5150,7 +5150,7 @@
 
     const/16 v1, 0x234
 
-    const-string v2, "offMappingObj"
+    const-string v2, "nthSlope"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5159,7 +5159,7 @@
 
     const/16 v1, 0x235
 
-    const-string v2, "offset"
+    const-string v2, "obj"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5168,7 +5168,7 @@
 
     const/16 v1, 0x236
 
-    const-string v2, "offsetString"
+    const-string v2, "offMappingObj"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5177,7 +5177,7 @@
 
     const/16 v1, 0x237
 
-    const-string v2, "okButtonEnable"
+    const-string v2, "offset"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5186,7 +5186,7 @@
 
     const/16 v1, 0x238
 
-    const-string v2, "onCheckedChangeListener"
+    const-string v2, "offsetString"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5195,7 +5195,7 @@
 
     const/16 v1, 0x239
 
-    const-string v2, "onClickListener"
+    const-string v2, "okButtonEnable"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5204,7 +5204,7 @@
 
     const/16 v1, 0x23a
 
-    const-string v2, "onOff"
+    const-string v2, "onCheckedChangeListener"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5213,7 +5213,7 @@
 
     const/16 v1, 0x23b
 
-    const-string v2, "onSwitchCheckedChangeListener"
+    const-string v2, "onClickListener"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5222,7 +5222,7 @@
 
     const/16 v1, 0x23c
 
-    const-string v2, "operate"
+    const-string v2, "onOff"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5231,7 +5231,7 @@
 
     const/16 v1, 0x23d
 
-    const-string v2, "operator"
+    const-string v2, "onSwitchCheckedChangeListener"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5240,7 +5240,7 @@
 
     const/16 v1, 0x23e
 
-    const-string v2, "operatorString"
+    const-string v2, "operate"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5249,7 +5249,7 @@
 
     const/16 v1, 0x23f
 
-    const-string v2, "outEvent"
+    const-string v2, "operator"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5258,7 +5258,7 @@
 
     const/16 v1, 0x240
 
-    const-string v2, "outHl"
+    const-string v2, "operatorString"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5267,7 +5267,7 @@
 
     const/16 v1, 0x241
 
-    const-string v2, "outPulse"
+    const-string v2, "outEvent"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5276,7 +5276,7 @@
 
     const/16 v1, 0x242
 
-    const-string v2, "overEvent"
+    const-string v2, "outHl"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5285,7 +5285,7 @@
 
     const/16 v1, 0x243
 
-    const-string v2, "overSlope"
+    const-string v2, "outPulse"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5294,7 +5294,7 @@
 
     const/16 v1, 0x244
 
-    const-string v2, "overTime"
+    const-string v2, "overEvent"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5303,7 +5303,7 @@
 
     const/16 v1, 0x245
 
-    const-string v2, "overTrigger_Level_ID"
+    const-string v2, "overSlope"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5312,7 +5312,7 @@
 
     const/16 v1, 0x246
 
-    const-string v2, "overlevelA"
+    const-string v2, "overTime"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5321,7 +5321,7 @@
 
     const/16 v1, 0x247
 
-    const-string v2, "overlevelB"
+    const-string v2, "overTrigger_Level_ID"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5330,7 +5330,7 @@
 
     const/16 v1, 0x248
 
-    const-string v2, "pal_bus"
+    const-string v2, "overlevelA"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5339,7 +5339,7 @@
 
     const/16 v1, 0x249
 
-    const-string v2, "pal_clk"
+    const-string v2, "overlevelB"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5348,7 +5348,7 @@
 
     const/16 v1, 0x24a
 
-    const-string v2, "pal_clk_edge"
+    const-string v2, "pal_bus"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5357,7 +5357,7 @@
 
     const/16 v1, 0x24b
 
-    const-string v2, "pal_clk_menu"
+    const-string v2, "pal_clk"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5366,7 +5366,7 @@
 
     const/16 v1, 0x24c
 
-    const-string v2, "pal_clk_thres"
+    const-string v2, "pal_clk_edge"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5375,7 +5375,7 @@
 
     const/16 v1, 0x24d
 
-    const-string v2, "pal_dat_menu"
+    const-string v2, "pal_clk_menu"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5384,7 +5384,7 @@
 
     const/16 v1, 0x24e
 
-    const-string v2, "pal_dat_thres"
+    const-string v2, "pal_clk_thres"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5393,7 +5393,7 @@
 
     const/16 v1, 0x24f
 
-    const-string v2, "pal_endian"
+    const-string v2, "pal_dat_menu"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5402,7 +5402,7 @@
 
     const/16 v1, 0x250
 
-    const-string v2, "pal_parity"
+    const-string v2, "pal_dat_thres"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5411,7 +5411,7 @@
 
     const/16 v1, 0x251
 
-    const-string v2, "paletteEnable"
+    const-string v2, "pal_endian"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5420,7 +5420,7 @@
 
     const/16 v1, 0x252
 
-    const-string v2, "param"
+    const-string v2, "pal_parity"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5429,7 +5429,7 @@
 
     const/16 v1, 0x253
 
-    const-string v2, "parityEvenMapping"
+    const-string v2, "paletteEnable"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5438,7 +5438,7 @@
 
     const/16 v1, 0x254
 
-    const-string v2, "parityNoneMapping"
+    const-string v2, "param"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5447,7 +5447,7 @@
 
     const/16 v1, 0x255
 
-    const-string v2, "parityOddMapping"
+    const-string v2, "parityEvenMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5456,7 +5456,7 @@
 
     const/16 v1, 0x256
 
-    const-string v2, "parityWithMapping"
+    const-string v2, "parityNoneMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5465,7 +5465,7 @@
 
     const/16 v1, 0x257
 
-    const-string v2, "parityWithoutMapping"
+    const-string v2, "parityOddMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5474,7 +5474,7 @@
 
     const/16 v1, 0x258
 
-    const-string v2, "parma"
+    const-string v2, "parityWithMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5483,7 +5483,7 @@
 
     const/16 v1, 0x259
 
-    const-string v2, "password"
+    const-string v2, "parityWithoutMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5492,7 +5492,7 @@
 
     const/16 v1, 0x25a
 
-    const-string v2, "path"
+    const-string v2, "parma"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5501,7 +5501,7 @@
 
     const/16 v1, 0x25b
 
-    const-string v2, "pathName"
+    const-string v2, "password"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5510,7 +5510,7 @@
 
     const/16 v1, 0x25c
 
-    const-string v2, "pattern"
+    const-string v2, "path"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5519,7 +5519,7 @@
 
     const/16 v1, 0x25d
 
-    const-string v2, "pctHigt"
+    const-string v2, "pathName"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5528,7 +5528,7 @@
 
     const/16 v1, 0x25e
 
-    const-string v2, "peakEn"
+    const-string v2, "pattern"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5537,7 +5537,7 @@
 
     const/16 v1, 0x25f
 
-    const-string v2, "peakExcur"
+    const-string v2, "pctHigt"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5546,7 +5546,7 @@
 
     const/16 v1, 0x260
 
-    const-string v2, "peakExcurStr"
+    const-string v2, "peakEn"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5555,7 +5555,7 @@
 
     const/16 v1, 0x261
 
-    const-string v2, "peakExcursion"
+    const-string v2, "peakExcur"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5564,7 +5564,7 @@
 
     const/16 v1, 0x262
 
-    const-string v2, "peakExcursionStr"
+    const-string v2, "peakExcurStr"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5573,7 +5573,7 @@
 
     const/16 v1, 0x263
 
-    const-string v2, "peakMappingObj"
+    const-string v2, "peakExcursion"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5582,7 +5582,7 @@
 
     const/16 v1, 0x264
 
-    const-string v2, "peakNum"
+    const-string v2, "peakExcursionStr"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5591,7 +5591,7 @@
 
     const/16 v1, 0x265
 
-    const-string v2, "peakOrder"
+    const-string v2, "peakMappingObj"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5600,7 +5600,7 @@
 
     const/16 v1, 0x266
 
-    const-string v2, "peakSearch"
+    const-string v2, "peakNum"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5609,7 +5609,7 @@
 
     const/16 v1, 0x267
 
-    const-string v2, "peakTableEn"
+    const-string v2, "peakOrder"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5618,7 +5618,7 @@
 
     const/16 v1, 0x268
 
-    const-string v2, "peakThreshold"
+    const-string v2, "peakSearch"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5627,7 +5627,7 @@
 
     const/16 v1, 0x269
 
-    const-string v2, "peakThresholdStr"
+    const-string v2, "peakTableEn"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5636,7 +5636,7 @@
 
     const/16 v1, 0x26a
 
-    const-string v2, "periodMappingObject"
+    const-string v2, "peakThreshold"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5645,7 +5645,7 @@
 
     const/16 v1, 0x26b
 
-    const-string v2, "persisTime"
+    const-string v2, "peakThresholdStr"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5654,7 +5654,7 @@
 
     const/16 v1, 0x26c
 
-    const-string v2, "persistTime"
+    const-string v2, "peakdetectStatus"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5663,7 +5663,7 @@
 
     const/16 v1, 0x26d
 
-    const-string v2, "persistance"
+    const-string v2, "periodMappingObject"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5672,7 +5672,7 @@
 
     const/16 v1, 0x26e
 
-    const-string v2, "phase1Core1"
+    const-string v2, "persisTime"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5681,7 +5681,7 @@
 
     const/16 v1, 0x26f
 
-    const-string v2, "phase1Core2"
+    const-string v2, "persistTime"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5690,7 +5690,7 @@
 
     const/16 v1, 0x270
 
-    const-string v2, "phase1Core3"
+    const-string v2, "persistance"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5699,7 +5699,7 @@
 
     const/16 v1, 0x271
 
-    const-string v2, "phase1Core4"
+    const-string v2, "phase1Core1"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5708,7 +5708,7 @@
 
     const/16 v1, 0x272
 
-    const-string v2, "phase2Core1"
+    const-string v2, "phase1Core2"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5717,7 +5717,7 @@
 
     const/16 v1, 0x273
 
-    const-string v2, "phase2Core2"
+    const-string v2, "phase1Core3"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5726,7 +5726,7 @@
 
     const/16 v1, 0x274
 
-    const-string v2, "phase2Core3"
+    const-string v2, "phase1Core4"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5735,7 +5735,7 @@
 
     const/16 v1, 0x275
 
-    const-string v2, "phase2Core4"
+    const-string v2, "phase2Core1"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5744,7 +5744,7 @@
 
     const/16 v1, 0x276
 
-    const-string v2, "phase3Core1"
+    const-string v2, "phase2Core2"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5753,7 +5753,7 @@
 
     const/16 v1, 0x277
 
-    const-string v2, "phase3Core2"
+    const-string v2, "phase2Core3"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5762,7 +5762,7 @@
 
     const/16 v1, 0x278
 
-    const-string v2, "phase3Core3"
+    const-string v2, "phase2Core4"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5771,7 +5771,7 @@
 
     const/16 v1, 0x279
 
-    const-string v2, "phase3Core4"
+    const-string v2, "phase3Core1"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5780,7 +5780,7 @@
 
     const/16 v1, 0x27a
 
-    const-string v2, "phase4Core1"
+    const-string v2, "phase3Core2"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5789,7 +5789,7 @@
 
     const/16 v1, 0x27b
 
-    const-string v2, "phase4Core2"
+    const-string v2, "phase3Core3"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5798,7 +5798,7 @@
 
     const/16 v1, 0x27c
 
-    const-string v2, "phase4Core3"
+    const-string v2, "phase3Core4"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5807,7 +5807,7 @@
 
     const/16 v1, 0x27d
 
-    const-string v2, "phase4Core4"
+    const-string v2, "phase4Core1"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5816,7 +5816,7 @@
 
     const/16 v1, 0x27e
 
-    const-string v2, "pic"
+    const-string v2, "phase4Core2"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5825,7 +5825,7 @@
 
     const/16 v1, 0x27f
 
-    const-string v2, "picObservable"
+    const-string v2, "phase4Core3"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5834,7 +5834,7 @@
 
     const/16 v1, 0x280
 
-    const-string v2, "pllMapping"
+    const-string v2, "phase4Core4"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5843,7 +5843,7 @@
 
     const/16 v1, 0x281
 
-    const-string v2, "pllOrder"
+    const-string v2, "pic"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5852,7 +5852,7 @@
 
     const/16 v1, 0x282
 
-    const-string v2, "polarity"
+    const-string v2, "picObservable"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5861,7 +5861,7 @@
 
     const/16 v1, 0x283
 
-    const-string v2, "polarityNegativeMapping"
+    const-string v2, "pllMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5870,7 +5870,7 @@
 
     const/16 v1, 0x284
 
-    const-string v2, "polarityPositiveMapping"
+    const-string v2, "pllOrder"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5879,7 +5879,7 @@
 
     const/16 v1, 0x285
 
-    const-string v2, "polaritySlope"
+    const-string v2, "polarity"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5888,7 +5888,7 @@
 
     const/16 v1, 0x286
 
-    const-string v2, "position"
+    const-string v2, "polarityNegativeMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5897,7 +5897,7 @@
 
     const/16 v1, 0x287
 
-    const-string v2, "positionEnterMapping"
+    const-string v2, "polarityPositiveMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5906,7 +5906,7 @@
 
     const/16 v1, 0x288
 
-    const-string v2, "positionExitMapping"
+    const-string v2, "polaritySlope"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5915,7 +5915,7 @@
 
     const/16 v1, 0x289
 
-    const-string v2, "positionTimeMapping"
+    const-string v2, "position"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5924,7 +5924,7 @@
 
     const/16 v1, 0x28a
 
-    const-string v2, "positiveMapping"
+    const-string v2, "positionEnterMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5933,7 +5933,7 @@
 
     const/16 v1, 0x28b
 
-    const-string v2, "powerOnSet"
+    const-string v2, "positionExitMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5942,7 +5942,7 @@
 
     const/16 v1, 0x28c
 
-    const-string v2, "powerStatus"
+    const-string v2, "positionTimeMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5951,7 +5951,7 @@
 
     const/16 v1, 0x28d
 
-    const-string v2, "precisionMapping"
+    const-string v2, "positiveMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5960,7 +5960,7 @@
 
     const/16 v1, 0x28e
 
-    const-string v2, "prefix"
+    const-string v2, "powerOnSet"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5969,7 +5969,7 @@
 
     const/16 v1, 0x28f
 
-    const-string v2, "probeBias"
+    const-string v2, "powerStatus"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5978,7 +5978,7 @@
 
     const/16 v1, 0x290
 
-    const-string v2, "probeCal"
+    const-string v2, "precisionMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5987,7 +5987,7 @@
 
     const/16 v1, 0x291
 
-    const-string v2, "probeCalTime"
+    const-string v2, "prefix"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -5996,7 +5996,7 @@
 
     const/16 v1, 0x292
 
-    const-string v2, "probeCurrentBias"
+    const-string v2, "probeBias"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6005,7 +6005,7 @@
 
     const/16 v1, 0x293
 
-    const-string v2, "probeDelay"
+    const-string v2, "probeCal"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6014,7 +6014,7 @@
 
     const/16 v1, 0x294
 
-    const-string v2, "probeDemagVisible"
+    const-string v2, "probeCalTime"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6023,7 +6023,7 @@
 
     const/16 v1, 0x295
 
-    const-string v2, "probeDetail"
+    const-string v2, "probeCurrentBias"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6032,7 +6032,7 @@
 
     const/16 v1, 0x296
 
-    const-string v2, "probeInsert"
+    const-string v2, "probeCusRatio"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6041,7 +6041,7 @@
 
     const/16 v1, 0x297
 
-    const-string v2, "probeMFR"
+    const-string v2, "probeDelay"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6050,7 +6050,7 @@
 
     const/16 v1, 0x298
 
-    const-string v2, "probeModel"
+    const-string v2, "probeDemagVisible"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6059,7 +6059,7 @@
 
     const/16 v1, 0x299
 
-    const-string v2, "probeRatio"
+    const-string v2, "probeDetail"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6068,7 +6068,7 @@
 
     const/16 v1, 0x29a
 
-    const-string v2, "probeRatioEnable"
+    const-string v2, "probeInsert"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6077,7 +6077,7 @@
 
     const/16 v1, 0x29b
 
-    const-string v2, "probeRatioUnit"
+    const-string v2, "probeMFR"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6086,7 +6086,7 @@
 
     const/16 v1, 0x29c
 
-    const-string v2, "probeRequestCal"
+    const-string v2, "probeModel"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6095,7 +6095,7 @@
 
     const/16 v1, 0x29d
 
-    const-string v2, "probeSN"
+    const-string v2, "probeRatio"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6104,7 +6104,7 @@
 
     const/16 v1, 0x29e
 
-    const-string v2, "probeType"
+    const-string v2, "probeRatioEnable"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6113,7 +6113,7 @@
 
     const/16 v1, 0x29f
 
-    const-string v2, "progress"
+    const-string v2, "probeRatioUnit"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6122,7 +6122,7 @@
 
     const/16 v1, 0x2a0
 
-    const-string v2, "progressA"
+    const-string v2, "probeRequestCal"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6131,7 +6131,7 @@
 
     const/16 v1, 0x2a1
 
-    const-string v2, "progressB"
+    const-string v2, "probeSN"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6140,7 +6140,7 @@
 
     const/16 v1, 0x2a2
 
-    const-string v2, "progressC"
+    const-string v2, "probeType"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6149,7 +6149,7 @@
 
     const/16 v1, 0x2a3
 
-    const-string v2, "progressNow"
+    const-string v2, "progress"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6158,7 +6158,7 @@
 
     const/16 v1, 0x2a4
 
-    const-string v2, "progressStr"
+    const-string v2, "progressA"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6167,7 +6167,7 @@
 
     const/16 v1, 0x2a5
 
-    const-string v2, "projectMode"
+    const-string v2, "progressB"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6176,7 +6176,7 @@
 
     const/16 v1, 0x2a6
 
-    const-string v2, "pulseLower"
+    const-string v2, "progressC"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6185,7 +6185,7 @@
 
     const/16 v1, 0x2a7
 
-    const-string v2, "pulseMax"
+    const-string v2, "progressNow"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6194,7 +6194,7 @@
 
     const/16 v1, 0x2a8
 
-    const-string v2, "pulsePolarity"
+    const-string v2, "progressStr"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6203,7 +6203,7 @@
 
     const/16 v1, 0x2a9
 
-    const-string v2, "pulsePolarty"
+    const-string v2, "projectMode"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6212,7 +6212,7 @@
 
     const/16 v1, 0x2aa
 
-    const-string v2, "pulseSrc"
+    const-string v2, "pulseLower"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6221,7 +6221,7 @@
 
     const/16 v1, 0x2ab
 
-    const-string v2, "quality_param"
+    const-string v2, "pulseMax"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6230,7 +6230,7 @@
 
     const/16 v1, 0x2ac
 
-    const-string v2, "quickOper"
+    const-string v2, "pulsePolarity"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6239,7 +6239,7 @@
 
     const/16 v1, 0x2ad
 
-    const-string v2, "range"
+    const-string v2, "pulsePolarty"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6248,7 +6248,7 @@
 
     const/16 v1, 0x2ae
 
-    const-string v2, "rbw"
+    const-string v2, "pulseSrc"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6257,7 +6257,7 @@
 
     const/16 v1, 0x2af
 
-    const-string v2, "readNavMode"
+    const-string v2, "quality_param"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6266,7 +6266,7 @@
 
     const/16 v1, 0x2b0
 
-    const-string v2, "readRunStop"
+    const-string v2, "quickOper"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6275,7 +6275,7 @@
 
     const/16 v1, 0x2b1
 
-    const-string v2, "realBottom"
+    const-string v2, "range"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6284,7 +6284,7 @@
 
     const/16 v1, 0x2b2
 
-    const-string v2, "realLeft"
+    const-string v2, "rbw"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6293,7 +6293,7 @@
 
     const/16 v1, 0x2b3
 
-    const-string v2, "realRight"
+    const-string v2, "readNavMode"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6302,7 +6302,7 @@
 
     const/16 v1, 0x2b4
 
-    const-string v2, "realScale"
+    const-string v2, "readRunStop"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6311,7 +6311,7 @@
 
     const/16 v1, 0x2b5
 
-    const-string v2, "realTop"
+    const-string v2, "realBottom"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6320,7 +6320,7 @@
 
     const/16 v1, 0x2b6
 
-    const-string v2, "recordBeeper"
+    const-string v2, "realLeft"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6329,7 +6329,7 @@
 
     const/16 v1, 0x2b7
 
-    const-string v2, "recordCurrent"
+    const-string v2, "realRight"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6338,7 +6338,7 @@
 
     const/16 v1, 0x2b8
 
-    const-string v2, "recordCurrentFrames"
+    const-string v2, "realScale"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6347,7 +6347,7 @@
 
     const/16 v1, 0x2b9
 
-    const-string v2, "recordEndFrame"
+    const-string v2, "realTop"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6356,7 +6356,7 @@
 
     const/16 v1, 0x2ba
 
-    const-string v2, "recordFrameStart"
+    const-string v2, "recordBeeper"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6365,7 +6365,7 @@
 
     const/16 v1, 0x2bb
 
-    const-string v2, "recordFrames"
+    const-string v2, "recordCurrent"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6374,7 +6374,7 @@
 
     const/16 v1, 0x2bc
 
-    const-string v2, "recordInterval"
+    const-string v2, "recordCurrentFrames"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6383,7 +6383,7 @@
 
     const/16 v1, 0x2bd
 
-    const-string v2, "recordMaxFrames"
+    const-string v2, "recordEndFrame"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6392,7 +6392,7 @@
 
     const/16 v1, 0x2be
 
-    const-string v2, "recordMin"
+    const-string v2, "recordFrameStart"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6401,7 +6401,7 @@
 
     const/16 v1, 0x2bf
 
-    const-string v2, "recordOnOff"
+    const-string v2, "recordFrames"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6410,7 +6410,7 @@
 
     const/16 v1, 0x2c0
 
-    const-string v2, "recordPlay"
+    const-string v2, "recordInterval"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6419,7 +6419,7 @@
 
     const/16 v1, 0x2c1
 
-    const-string v2, "recordPlayDir"
+    const-string v2, "recordMaxFrames"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6428,7 +6428,7 @@
 
     const/16 v1, 0x2c2
 
-    const-string v2, "recordPlayInterval"
+    const-string v2, "recordMin"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6437,7 +6437,7 @@
 
     const/16 v1, 0x2c3
 
-    const-string v2, "recordPlayMode"
+    const-string v2, "recordOnOff"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6446,7 +6446,7 @@
 
     const/16 v1, 0x2c4
 
-    const-string v2, "recordStart"
+    const-string v2, "recordPlay"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6455,7 +6455,7 @@
 
     const/16 v1, 0x2c5
 
-    const-string v2, "recordStartFrame"
+    const-string v2, "recordPlayDir"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6464,7 +6464,7 @@
 
     const/16 v1, 0x2c6
 
-    const-string v2, "recoveryType"
+    const-string v2, "recordPlayInterval"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6473,7 +6473,7 @@
 
     const/16 v1, 0x2c7
 
-    const-string v2, "refAbsHigh"
+    const-string v2, "recordPlayMode"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6482,7 +6482,7 @@
 
     const/16 v1, 0x2c8
 
-    const-string v2, "refAbsLow"
+    const-string v2, "recordStart"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6491,7 +6491,7 @@
 
     const/16 v1, 0x2c9
 
-    const-string v2, "refAbsMid"
+    const-string v2, "recordStartFrame"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6500,7 +6500,7 @@
 
     const/16 v1, 0x2ca
 
-    const-string v2, "refChan"
+    const-string v2, "recoveryType"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6509,7 +6509,7 @@
 
     const/16 v1, 0x2cb
 
-    const-string v2, "refClock"
+    const-string v2, "refAbsHigh"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6518,7 +6518,7 @@
 
     const/16 v1, 0x2cc
 
-    const-string v2, "refColor"
+    const-string v2, "refAbsLow"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6527,7 +6527,7 @@
 
     const/16 v1, 0x2cd
 
-    const-string v2, "refFerqrefSource"
+    const-string v2, "refAbsMid"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6536,7 +6536,7 @@
 
     const/16 v1, 0x2ce
 
-    const-string v2, "refLevel"
+    const-string v2, "refChan"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6545,7 +6545,7 @@
 
     const/16 v1, 0x2cf
 
-    const-string v2, "refLevelStr"
+    const-string v2, "refClock"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6554,7 +6554,7 @@
 
     const/16 v1, 0x2d0
 
-    const-string v2, "refPctLow"
+    const-string v2, "refColor"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6563,7 +6563,7 @@
 
     const/16 v1, 0x2d1
 
-    const-string v2, "refPctMid"
+    const-string v2, "refFerqrefSource"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6572,7 +6572,7 @@
 
     const/16 v1, 0x2d2
 
-    const-string v2, "refPctlHigh"
+    const-string v2, "refLevel"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6581,7 +6581,7 @@
 
     const/16 v1, 0x2d3
 
-    const-string v2, "refPowerAutoset"
+    const-string v2, "refLevelStr"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6590,7 +6590,7 @@
 
     const/16 v1, 0x2d4
 
-    const-string v2, "refPowerCurr"
+    const-string v2, "refPctLow"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6599,7 +6599,7 @@
 
     const/16 v1, 0x2d5
 
-    const-string v2, "refPowerCyc"
+    const-string v2, "refPctMid"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6608,7 +6608,7 @@
 
     const/16 v1, 0x2d6
 
-    const-string v2, "refPowerDisp"
+    const-string v2, "refPctlHigh"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6617,7 +6617,7 @@
 
     const/16 v1, 0x2d7
 
-    const-string v2, "refPowerFref"
+    const-string v2, "refPowerAutoset"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6626,7 +6626,7 @@
 
     const/16 v1, 0x2d8
 
-    const-string v2, "refPowerTips"
+    const-string v2, "refPowerCurr"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6635,7 +6635,7 @@
 
     const/16 v1, 0x2d9
 
-    const-string v2, "refPowerVolt"
+    const-string v2, "refPowerCyc"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6644,7 +6644,7 @@
 
     const/16 v1, 0x2da
 
-    const-string v2, "refRippleDisp"
+    const-string v2, "refPowerDisp"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6653,7 +6653,7 @@
 
     const/16 v1, 0x2db
 
-    const-string v2, "refRippleSource"
+    const-string v2, "refPowerFref"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6662,7 +6662,7 @@
 
     const/16 v1, 0x2dc
 
-    const-string v2, "reflType"
+    const-string v2, "refPowerTips"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6671,7 +6671,7 @@
 
     const/16 v1, 0x2dd
 
-    const-string v2, "reflevel"
+    const-string v2, "refPowerVolt"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6680,7 +6680,7 @@
 
     const/16 v1, 0x2de
 
-    const-string v2, "region"
+    const-string v2, "refRippleDisp"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6689,7 +6689,7 @@
 
     const/16 v1, 0x2df
 
-    const-string v2, "regionSelect"
+    const-string v2, "refRippleSource"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6698,7 +6698,7 @@
 
     const/16 v1, 0x2e0
 
-    const-string v2, "rejectTime"
+    const-string v2, "reflType"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6707,7 +6707,7 @@
 
     const/16 v1, 0x2e1
 
-    const-string v2, "removable"
+    const-string v2, "reflevel"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6716,7 +6716,7 @@
 
     const/16 v1, 0x2e2
 
-    const-string v2, "resolution"
+    const-string v2, "region"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6725,7 +6725,7 @@
 
     const/16 v1, 0x2e3
 
-    const-string v2, "result"
+    const-string v2, "regionSelect"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6734,7 +6734,7 @@
 
     const/16 v1, 0x2e4
 
-    const-string v2, "right"
+    const-string v2, "rejectTime"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6743,7 +6743,7 @@
 
     const/16 v1, 0x2e5
 
-    const-string v2, "ripplShowList"
+    const-string v2, "removable"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6752,7 +6752,7 @@
 
     const/16 v1, 0x2e6
 
-    const-string v2, "roll"
+    const-string v2, "resolution"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6761,7 +6761,7 @@
 
     const/16 v1, 0x2e7
 
-    const-string v2, "root"
+    const-string v2, "result"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6770,7 +6770,7 @@
 
     const/16 v1, 0x2e8
 
-    const-string v2, "rs232BaudRate"
+    const-string v2, "right"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6779,7 +6779,7 @@
 
     const/16 v1, 0x2e9
 
-    const-string v2, "rs232Data"
+    const-string v2, "ripplShowList"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6788,7 +6788,7 @@
 
     const/16 v1, 0x2ea
 
-    const-string v2, "rs232_baud"
+    const-string v2, "roll"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6797,7 +6797,7 @@
 
     const/16 v1, 0x2eb
 
-    const-string v2, "rs232_endian"
+    const-string v2, "root"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6806,7 +6806,7 @@
 
     const/16 v1, 0x2ec
 
-    const-string v2, "rs232_package"
+    const-string v2, "rs232BaudRate"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6815,7 +6815,7 @@
 
     const/16 v1, 0x2ed
 
-    const-string v2, "rs232_package_end"
+    const-string v2, "rs232Data"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6824,7 +6824,7 @@
 
     const/16 v1, 0x2ee
 
-    const-string v2, "rs232_parity"
+    const-string v2, "rs232_baud"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6833,7 +6833,7 @@
 
     const/16 v1, 0x2ef
 
-    const-string v2, "rs232_pol"
+    const-string v2, "rs232_endian"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6842,7 +6842,7 @@
 
     const/16 v1, 0x2f0
 
-    const-string v2, "rs232_rx"
+    const-string v2, "rs232_package"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6851,7 +6851,7 @@
 
     const/16 v1, 0x2f1
 
-    const-string v2, "rs232_rx_thres"
+    const-string v2, "rs232_package_end"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6860,7 +6860,7 @@
 
     const/16 v1, 0x2f2
 
-    const-string v2, "rs232_stop"
+    const-string v2, "rs232_parity"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6869,7 +6869,7 @@
 
     const/16 v1, 0x2f3
 
-    const-string v2, "rs232_tx"
+    const-string v2, "rs232_pol"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6878,7 +6878,7 @@
 
     const/16 v1, 0x2f4
 
-    const-string v2, "rs232_tx_thres"
+    const-string v2, "rs232_rx"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6887,7 +6887,7 @@
 
     const/16 v1, 0x2f5
 
-    const-string v2, "rs232_width"
+    const-string v2, "rs232_rx_thres"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6896,7 +6896,7 @@
 
     const/16 v1, 0x2f6
 
-    const-string v2, "rtaType"
+    const-string v2, "rs232_stop"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6905,7 +6905,7 @@
 
     const/16 v1, 0x2f7
 
-    const-string v2, "rulerEnable"
+    const-string v2, "rs232_tx"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6914,7 +6914,7 @@
 
     const/16 v1, 0x2f8
 
-    const-string v2, "runStop"
+    const-string v2, "rs232_tx_thres"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6923,7 +6923,7 @@
 
     const/16 v1, 0x2f9
 
-    const-string v2, "runtLowerLimit"
+    const-string v2, "rs232_width"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6932,7 +6932,7 @@
 
     const/16 v1, 0x2fa
 
-    const-string v2, "runtPolarity"
+    const-string v2, "rtaType"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6941,7 +6941,7 @@
 
     const/16 v1, 0x2fb
 
-    const-string v2, "runtTrigger_Level_ID"
+    const-string v2, "rulerEnable"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6950,7 +6950,7 @@
 
     const/16 v1, 0x2fc
 
-    const-string v2, "runtUperLimit"
+    const-string v2, "runStop"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6959,7 +6959,7 @@
 
     const/16 v1, 0x2fd
 
-    const-string v2, "runtlevelA"
+    const-string v2, "runtLowerLimit"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6968,7 +6968,7 @@
 
     const/16 v1, 0x2fe
 
-    const-string v2, "runtlevelB"
+    const-string v2, "runtPolarity"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6977,7 +6977,7 @@
 
     const/16 v1, 0x2ff
 
-    const-string v2, "rwWithMapping"
+    const-string v2, "runtTrigger_Level_ID"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6986,7 +6986,7 @@
 
     const/16 v1, 0x300
 
-    const-string v2, "rwWithoutMapping"
+    const-string v2, "runtUperLimit"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -6995,7 +6995,7 @@
 
     const/16 v1, 0x301
 
-    const-string v2, "sHEvent"
+    const-string v2, "runtlevelA"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7004,7 +7004,7 @@
 
     const/16 v1, 0x302
 
-    const-string v2, "sample"
+    const-string v2, "runtlevelB"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7013,7 +7013,7 @@
 
     const/16 v1, 0x303
 
-    const-string v2, "samplePoints"
+    const-string v2, "rwWithMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7022,7 +7022,7 @@
 
     const/16 v1, 0x304
 
-    const-string v2, "sapmassa"
+    const-string v2, "rwWithoutMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7031,7 +7031,7 @@
 
     const/16 v1, 0x305
 
-    const-string v2, "saveGroup"
+    const-string v2, "sHEvent"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7040,7 +7040,7 @@
 
     const/16 v1, 0x306
 
-    const-string v2, "scale"
+    const-string v2, "sample"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7049,7 +7049,7 @@
 
     const/16 v1, 0x307
 
-    const-string v2, "scaleNum"
+    const-string v2, "samplePoints"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7058,7 +7058,7 @@
 
     const/16 v1, 0x308
 
-    const-string v2, "scaleStr"
+    const-string v2, "sapmassa"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7067,7 +7067,7 @@
 
     const/16 v1, 0x309
 
-    const-string v2, "scaleString"
+    const-string v2, "saveGroup"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7076,7 +7076,7 @@
 
     const/16 v1, 0x30a
 
-    const-string v2, "scrEnd"
+    const-string v2, "scale"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7085,7 +7085,7 @@
 
     const/16 v1, 0x30b
 
-    const-string v2, "scrStart"
+    const-string v2, "scaleNum"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7094,7 +7094,7 @@
 
     const/16 v1, 0x30c
 
-    const-string v2, "screenPicture"
+    const-string v2, "scaleStr"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7103,7 +7103,7 @@
 
     const/16 v1, 0x30d
 
-    const-string v2, "screenSelect"
+    const-string v2, "scaleString"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7112,7 +7112,7 @@
 
     const/16 v1, 0x30e
 
-    const-string v2, "screenTime"
+    const-string v2, "scrEnd"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7121,7 +7121,7 @@
 
     const/16 v1, 0x30f
 
-    const-string v2, "screenTimeStr"
+    const-string v2, "scrStart"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7130,7 +7130,7 @@
 
     const/16 v1, 0x310
 
-    const-string v2, "screenWord"
+    const-string v2, "screenPicture"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7139,7 +7139,7 @@
 
     const/16 v1, 0x311
 
-    const-string v2, "searcceAvailblec"
+    const-string v2, "screenSelect"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7148,7 +7148,7 @@
 
     const/16 v1, 0x312
 
-    const-string v2, "secondOrderMapping"
+    const-string v2, "screenTime"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7157,7 +7157,7 @@
 
     const/16 v1, 0x313
 
-    const-string v2, "select"
+    const-string v2, "screenTimeStr"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7166,7 +7166,7 @@
 
     const/16 v1, 0x314
 
-    const-string v2, "selectLevelABMapping"
+    const-string v2, "screenWord"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7175,7 +7175,7 @@
 
     const/16 v1, 0x315
 
-    const-string v2, "selectLevelAMapping"
+    const-string v2, "searcceAvailblec"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7184,7 +7184,7 @@
 
     const/16 v1, 0x316
 
-    const-string v2, "selectLevelBMapping"
+    const-string v2, "secondOrderMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7193,7 +7193,7 @@
 
     const/16 v1, 0x317
 
-    const-string v2, "selectMode"
+    const-string v2, "select"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7202,7 +7202,7 @@
 
     const/16 v1, 0x318
 
-    const-string v2, "selectSourceA"
+    const-string v2, "selectLevelABMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7211,7 +7211,7 @@
 
     const/16 v1, 0x319
 
-    const-string v2, "selectSourceB"
+    const-string v2, "selectLevelAMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7220,7 +7220,7 @@
 
     const/16 v1, 0x31a
 
-    const-string v2, "selectedCount"
+    const-string v2, "selectLevelBMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7229,7 +7229,7 @@
 
     const/16 v1, 0x31b
 
-    const-string v2, "selectionMode"
+    const-string v2, "selectMode"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7238,7 +7238,7 @@
 
     const/16 v1, 0x31c
 
-    const-string v2, "semiautoMapping"
+    const-string v2, "selectSourceA"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7247,7 +7247,7 @@
 
     const/16 v1, 0x31d
 
-    const-string v2, "sens"
+    const-string v2, "selectSourceB"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7256,7 +7256,7 @@
 
     const/16 v1, 0x31e
 
-    const-string v2, "sent_crc_format"
+    const-string v2, "selectedCount"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7265,7 +7265,7 @@
 
     const/16 v1, 0x31f
 
-    const-string v2, "sent_idle_state"
+    const-string v2, "selectionMode"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7274,7 +7274,7 @@
 
     const/16 v1, 0x320
 
-    const-string v2, "sent_nibbnum"
+    const-string v2, "semiautoMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7283,7 +7283,7 @@
 
     const/16 v1, 0x321
 
-    const-string v2, "sent_pause_plus"
+    const-string v2, "sens"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7292,7 +7292,7 @@
 
     const/16 v1, 0x322
 
-    const-string v2, "sent_signal_type"
+    const-string v2, "sent_crc_format"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7301,7 +7301,7 @@
 
     const/16 v1, 0x323
 
-    const-string v2, "sent_source"
+    const-string v2, "sent_idle_state"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7310,7 +7310,7 @@
 
     const/16 v1, 0x324
 
-    const-string v2, "sent_thres"
+    const-string v2, "sent_nibbnum"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7319,7 +7319,7 @@
 
     const/16 v1, 0x325
 
-    const-string v2, "sent_tick"
+    const-string v2, "sent_pause_plus"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7328,7 +7328,7 @@
 
     const/16 v1, 0x326
 
-    const-string v2, "sent_tolerance"
+    const-string v2, "sent_signal_type"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7337,7 +7337,7 @@
 
     const/16 v1, 0x327
 
-    const-string v2, "serchType"
+    const-string v2, "sent_source"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7346,7 +7346,7 @@
 
     const/16 v1, 0x328
 
-    const-string v2, "serial"
+    const-string v2, "sent_thres"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7355,7 +7355,7 @@
 
     const/16 v1, 0x329
 
-    const-string v2, "serverPath"
+    const-string v2, "sent_tick"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7364,7 +7364,7 @@
 
     const/16 v1, 0x32a
 
-    const-string v2, "serviceID"
+    const-string v2, "sent_tolerance"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7373,7 +7373,7 @@
 
     const/16 v1, 0x32b
 
-    const-string v2, "serviceName"
+    const-string v2, "serchType"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7382,7 +7382,7 @@
 
     const/16 v1, 0x32c
 
-    const-string v2, "service_output_enable"
+    const-string v2, "serial"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7391,7 +7391,7 @@
 
     const/16 v1, 0x32d
 
-    const-string v2, "setup"
+    const-string v2, "serverPath"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7400,7 +7400,7 @@
 
     const/16 v1, 0x32e
 
-    const-string v2, "setupFileType"
+    const-string v2, "serviceID"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7409,7 +7409,7 @@
 
     const/16 v1, 0x32f
 
-    const-string v2, "setupHold"
+    const-string v2, "serviceName"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7418,7 +7418,7 @@
 
     const/16 v1, 0x330
 
-    const-string v2, "setupHoldChanA"
+    const-string v2, "service_output_enable"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7427,7 +7427,7 @@
 
     const/16 v1, 0x331
 
-    const-string v2, "setupHoldChanB"
+    const-string v2, "setup"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7436,7 +7436,7 @@
 
     const/16 v1, 0x332
 
-    const-string v2, "setupHoldPolarity"
+    const-string v2, "setupFileType"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7445,7 +7445,7 @@
 
     const/16 v1, 0x333
 
-    const-string v2, "setupHoldSlope"
+    const-string v2, "setupHold"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7454,7 +7454,7 @@
 
     const/16 v1, 0x334
 
-    const-string v2, "setupHoldlevelA"
+    const-string v2, "setupHoldChanA"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7463,7 +7463,7 @@
 
     const/16 v1, 0x335
 
-    const-string v2, "setupHoldlevelB"
+    const-string v2, "setupHoldChanB"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7472,7 +7472,7 @@
 
     const/16 v1, 0x336
 
-    const-string v2, "shareParam"
+    const-string v2, "setupHoldPolarity"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7481,7 +7481,7 @@
 
     const/16 v1, 0x337
 
-    const-string v2, "sharedParam"
+    const-string v2, "setupHoldSlope"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7490,7 +7490,7 @@
 
     const/16 v1, 0x338
 
-    const-string v2, "shorterName"
+    const-string v2, "setupHoldlevelA"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7499,7 +7499,7 @@
 
     const/16 v1, 0x339
 
-    const-string v2, "showCancel"
+    const-string v2, "setupHoldlevelB"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7508,7 +7508,7 @@
 
     const/16 v1, 0x33a
 
-    const-string v2, "showConfirm"
+    const-string v2, "shareParam"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7517,7 +7517,7 @@
 
     const/16 v1, 0x33b
 
-    const-string v2, "showDetail"
+    const-string v2, "sharedParam"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7526,7 +7526,7 @@
 
     const/16 v1, 0x33c
 
-    const-string v2, "showLabel"
+    const-string v2, "shorterName"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7535,7 +7535,7 @@
 
     const/16 v1, 0x33d
 
-    const-string v2, "showMainContent"
+    const-string v2, "showCancel"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7544,7 +7544,7 @@
 
     const/16 v1, 0x33e
 
-    const-string v2, "showNetwork"
+    const-string v2, "showConfirm"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7553,7 +7553,7 @@
 
     const/16 v1, 0x33f
 
-    const-string v2, "showPeakSetting"
+    const-string v2, "showDetail"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7562,7 +7562,7 @@
 
     const/16 v1, 0x340
 
-    const-string v2, "showRMT"
+    const-string v2, "showLabel"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7571,7 +7571,7 @@
 
     const/16 v1, 0x341
 
-    const-string v2, "showResultBar"
+    const-string v2, "showMainContent"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7580,7 +7580,7 @@
 
     const/16 v1, 0x342
 
-    const-string v2, "showSelectSourceB"
+    const-string v2, "showNetwork"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7589,7 +7589,7 @@
 
     const/16 v1, 0x343
 
-    const-string v2, "showSmb"
+    const-string v2, "showPeakSetting"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7598,7 +7598,7 @@
 
     const/16 v1, 0x344
 
-    const-string v2, "showSource1"
+    const-string v2, "showRMT"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7607,7 +7607,7 @@
 
     const/16 v1, 0x345
 
-    const-string v2, "showSource2"
+    const-string v2, "showResultBar"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7616,7 +7616,7 @@
 
     const/16 v1, 0x346
 
-    const-string v2, "showSource3"
+    const-string v2, "showSelectSourceB"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7625,7 +7625,7 @@
 
     const/16 v1, 0x347
 
-    const-string v2, "showStat"
+    const-string v2, "showSmb"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7634,7 +7634,7 @@
 
     const/16 v1, 0x348
 
-    const-string v2, "showThresLine"
+    const-string v2, "showSource1"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7643,7 +7643,7 @@
 
     const/16 v1, 0x349
 
-    const-string v2, "showTime"
+    const-string v2, "showSource2"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7652,7 +7652,7 @@
 
     const/16 v1, 0x34a
 
-    const-string v2, "showType"
+    const-string v2, "showSource3"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7661,7 +7661,7 @@
 
     const/16 v1, 0x34b
 
-    const-string v2, "showUsb"
+    const-string v2, "showStat"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7670,7 +7670,7 @@
 
     const/16 v1, 0x34c
 
-    const-string v2, "showWrning"
+    const-string v2, "showThresLine"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7679,7 +7679,7 @@
 
     const/16 v1, 0x34d
 
-    const-string v2, "showzoom"
+    const-string v2, "showTime"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7688,7 +7688,7 @@
 
     const/16 v1, 0x34e
 
-    const-string v2, "slope"
+    const-string v2, "showType"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7697,7 +7697,7 @@
 
     const/16 v1, 0x34f
 
-    const-string v2, "slopeEitherMapping"
+    const-string v2, "showUsb"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7706,7 +7706,7 @@
 
     const/16 v1, 0x350
 
-    const-string v2, "slopeFallingMapping"
+    const-string v2, "showWrning"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7715,7 +7715,7 @@
 
     const/16 v1, 0x351
 
-    const-string v2, "slopeLowerLimit"
+    const-string v2, "showzoom"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7724,7 +7724,7 @@
 
     const/16 v1, 0x352
 
-    const-string v2, "slopeRisingMapping"
+    const-string v2, "slope"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7733,7 +7733,7 @@
 
     const/16 v1, 0x353
 
-    const-string v2, "slopeTrigger_Level_ID"
+    const-string v2, "slopeEitherMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7742,7 +7742,7 @@
 
     const/16 v1, 0x354
 
-    const-string v2, "slopeUperLimit"
+    const-string v2, "slopeFallingMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7751,7 +7751,7 @@
 
     const/16 v1, 0x355
 
-    const-string v2, "slopelevelA"
+    const-string v2, "slopeLowerLimit"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7760,7 +7760,7 @@
 
     const/16 v1, 0x356
 
-    const-string v2, "slopelevelB"
+    const-string v2, "slopeRisingMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7769,7 +7769,7 @@
 
     const/16 v1, 0x357
 
-    const-string v2, "smbEn"
+    const-string v2, "slopeTrigger_Level_ID"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7778,7 +7778,7 @@
 
     const/16 v1, 0x358
 
-    const-string v2, "smooth"
+    const-string v2, "slopeUperLimit"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7787,7 +7787,7 @@
 
     const/16 v1, 0x359
 
-    const-string v2, "softVersion"
+    const-string v2, "slopelevelA"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7796,7 +7796,7 @@
 
     const/16 v1, 0x35a
 
-    const-string v2, "source"
+    const-string v2, "slopelevelB"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7805,7 +7805,7 @@
 
     const/16 v1, 0x35b
 
-    const-string v2, "source1"
+    const-string v2, "smbEn"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7814,7 +7814,7 @@
 
     const/16 v1, 0x35c
 
-    const-string v2, "source2"
+    const-string v2, "smooth"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7823,7 +7823,7 @@
 
     const/16 v1, 0x35d
 
-    const-string v2, "source3"
+    const-string v2, "softVersion"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7832,7 +7832,7 @@
 
     const/16 v1, 0x35e
 
-    const-string v2, "sourceA"
+    const-string v2, "source"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7841,7 +7841,7 @@
 
     const/16 v1, 0x35f
 
-    const-string v2, "sourceArithAIndex"
+    const-string v2, "source1"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7850,7 +7850,7 @@
 
     const/16 v1, 0x360
 
-    const-string v2, "sourceArithBIndex"
+    const-string v2, "source2"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7859,7 +7859,7 @@
 
     const/16 v1, 0x361
 
-    const-string v2, "sourceArrayId"
+    const-string v2, "source3"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7868,7 +7868,7 @@
 
     const/16 v1, 0x362
 
-    const-string v2, "sourceB"
+    const-string v2, "sourceA"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7877,7 +7877,7 @@
 
     const/16 v1, 0x363
 
-    const-string v2, "sourceFftIndex"
+    const-string v2, "sourceArithAIndex"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7886,7 +7886,7 @@
 
     const/16 v1, 0x364
 
-    const-string v2, "sourceLogicAIndex"
+    const-string v2, "sourceArithBIndex"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7895,7 +7895,7 @@
 
     const/16 v1, 0x365
 
-    const-string v2, "sourceLogicBIndex"
+    const-string v2, "sourceArrayId"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7904,7 +7904,7 @@
 
     const/16 v1, 0x366
 
-    const-string v2, "span"
+    const-string v2, "sourceB"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7913,7 +7913,7 @@
 
     const/16 v1, 0x367
 
-    const-string v2, "spectrum"
+    const-string v2, "sourceFftIndex"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7922,7 +7922,7 @@
 
     const/16 v1, 0x368
 
-    const-string v2, "spiChanA"
+    const-string v2, "sourceLogicAIndex"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7931,7 +7931,7 @@
 
     const/16 v1, 0x369
 
-    const-string v2, "spiChanB"
+    const-string v2, "sourceLogicBIndex"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7940,7 +7940,7 @@
 
     const/16 v1, 0x36a
 
-    const-string v2, "spiChanC"
+    const-string v2, "span"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7949,7 +7949,7 @@
 
     const/16 v1, 0x36b
 
-    const-string v2, "spiDataType"
+    const-string v2, "spectrum"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7958,7 +7958,7 @@
 
     const/16 v1, 0x36c
 
-    const-string v2, "spiSlope"
+    const-string v2, "spiChanA"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7967,7 +7967,7 @@
 
     const/16 v1, 0x36d
 
-    const-string v2, "spiTimeOut"
+    const-string v2, "spiChanB"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7976,7 +7976,7 @@
 
     const/16 v1, 0x36e
 
-    const-string v2, "spi_clock"
+    const-string v2, "spiChanC"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7985,7 +7985,7 @@
 
     const/16 v1, 0x36f
 
-    const-string v2, "spi_clock_edge"
+    const-string v2, "spiDataType"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -7994,7 +7994,7 @@
 
     const/16 v1, 0x370
 
-    const-string v2, "spi_clock_thres"
+    const-string v2, "spiSlope"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8003,7 +8003,7 @@
 
     const/16 v1, 0x371
 
-    const-string v2, "spi_cs"
+    const-string v2, "spiTimeOut"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8012,7 +8012,7 @@
 
     const/16 v1, 0x372
 
-    const-string v2, "spi_cs_polarity"
+    const-string v2, "spi_clock"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8021,7 +8021,7 @@
 
     const/16 v1, 0x373
 
-    const-string v2, "spi_cs_thres"
+    const-string v2, "spi_clock_edge"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8030,7 +8030,7 @@
 
     const/16 v1, 0x374
 
-    const-string v2, "spi_data_polarity"
+    const-string v2, "spi_clock_thres"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8039,7 +8039,7 @@
 
     const/16 v1, 0x375
 
-    const-string v2, "spi_endian"
+    const-string v2, "spi_cs"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8048,7 +8048,7 @@
 
     const/16 v1, 0x376
 
-    const-string v2, "spi_miso"
+    const-string v2, "spi_cs_polarity"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8057,7 +8057,7 @@
 
     const/16 v1, 0x377
 
-    const-string v2, "spi_miso_thres"
+    const-string v2, "spi_cs_thres"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8066,7 +8066,7 @@
 
     const/16 v1, 0x378
 
-    const-string v2, "spi_mode"
+    const-string v2, "spi_data_polarity"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8075,7 +8075,7 @@
 
     const/16 v1, 0x379
 
-    const-string v2, "spi_mosi"
+    const-string v2, "spi_endian"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8084,7 +8084,7 @@
 
     const/16 v1, 0x37a
 
-    const-string v2, "spi_mosi_thres"
+    const-string v2, "spi_miso"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8093,7 +8093,7 @@
 
     const/16 v1, 0x37b
 
-    const-string v2, "spi_timeout"
+    const-string v2, "spi_miso_thres"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8102,7 +8102,7 @@
 
     const/16 v1, 0x37c
 
-    const-string v2, "spi_width"
+    const-string v2, "spi_mode"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8111,7 +8111,7 @@
 
     const/16 v1, 0x37d
 
-    const-string v2, "spilevelA"
+    const-string v2, "spi_mosi"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8120,7 +8120,7 @@
 
     const/16 v1, 0x37e
 
-    const-string v2, "spilevelB"
+    const-string v2, "spi_mosi_thres"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8129,7 +8129,7 @@
 
     const/16 v1, 0x37f
 
-    const-string v2, "spilevelC"
+    const-string v2, "spi_timeout"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8138,7 +8138,7 @@
 
     const/16 v1, 0x380
 
-    const-string v2, "src"
+    const-string v2, "spi_width"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8147,7 +8147,7 @@
 
     const/16 v1, 0x381
 
-    const-string v2, "srcChan"
+    const-string v2, "spilevelA"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8156,7 +8156,7 @@
 
     const/16 v1, 0x382
 
-    const-string v2, "srcHscale"
+    const-string v2, "spilevelB"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8165,7 +8165,7 @@
 
     const/16 v1, 0x383
 
-    const-string v2, "srcVscale"
+    const-string v2, "spilevelC"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8174,7 +8174,7 @@
 
     const/16 v1, 0x384
 
-    const-string v2, "start"
+    const-string v2, "src"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8183,7 +8183,7 @@
 
     const/16 v1, 0x385
 
-    const-string v2, "started"
+    const-string v2, "srcChan"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8192,7 +8192,7 @@
 
     const/16 v1, 0x386
 
-    const-string v2, "stat"
+    const-string v2, "srcHscale"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8201,7 +8201,7 @@
 
     const/16 v1, 0x387
 
-    const-string v2, "statCount"
+    const-string v2, "srcVscale"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8210,7 +8210,7 @@
 
     const/16 v1, 0x388
 
-    const-string v2, "statCounts"
+    const-string v2, "start"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8219,7 +8219,7 @@
 
     const/16 v1, 0x389
 
-    const-string v2, "statReset"
+    const-string v2, "started"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8228,7 +8228,7 @@
 
     const/16 v1, 0x38a
 
-    const-string v2, "state"
+    const-string v2, "stat"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8237,7 +8237,7 @@
 
     const/16 v1, 0x38b
 
-    const-string v2, "staticSelected"
+    const-string v2, "statCount"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8246,7 +8246,7 @@
 
     const/16 v1, 0x38c
 
-    const-string v2, "statisticState"
+    const-string v2, "statCounts"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8255,7 +8255,7 @@
 
     const/16 v1, 0x38d
 
-    const-string v2, "status"
+    const-string v2, "statReset"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8264,7 +8264,7 @@
 
     const/16 v1, 0x38e
 
-    const-string v2, "stopBit15Mapping"
+    const-string v2, "state"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8273,7 +8273,7 @@
 
     const/16 v1, 0x38f
 
-    const-string v2, "stopBit1Mapping"
+    const-string v2, "staticSelected"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8282,7 +8282,7 @@
 
     const/16 v1, 0x390
 
-    const-string v2, "stopBit2Mapping"
+    const-string v2, "statisticState"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8291,7 +8291,7 @@
 
     const/16 v1, 0x391
 
-    const-string v2, "storageLoadParam"
+    const-string v2, "status"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8300,7 +8300,7 @@
 
     const/16 v1, 0x392
 
-    const-string v2, "storageParam"
+    const-string v2, "stopBit15Mapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8309,7 +8309,7 @@
 
     const/16 v1, 0x393
 
-    const-string v2, "str"
+    const-string v2, "stopBit1Mapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8318,7 +8318,7 @@
 
     const/16 v1, 0x394
 
-    const-string v2, "sweepAutoMapping"
+    const-string v2, "stopBit2Mapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8327,7 +8327,7 @@
 
     const/16 v1, 0x395
 
-    const-string v2, "sweepNormalMapping"
+    const-string v2, "storageLoadParam"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8336,7 +8336,7 @@
 
     const/16 v1, 0x396
 
-    const-string v2, "sweepSingleMapping"
+    const-string v2, "storageParam"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8345,7 +8345,7 @@
 
     const/16 v1, 0x397
 
-    const-string v2, "syncArea"
+    const-string v2, "str"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8354,7 +8354,7 @@
 
     const/16 v1, 0x398
 
-    const-string v2, "tabelOnOff"
+    const-string v2, "sweepAutoMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8363,7 +8363,7 @@
 
     const/16 v1, 0x399
 
-    const-string v2, "thre"
+    const-string v2, "sweepNormalMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8372,7 +8372,7 @@
 
     const/16 v1, 0x39a
 
-    const-string v2, "threA"
+    const-string v2, "sweepSingleMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8381,7 +8381,7 @@
 
     const/16 v1, 0x39b
 
-    const-string v2, "threB"
+    const-string v2, "syncArea"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8390,7 +8390,7 @@
 
     const/16 v1, 0x39c
 
-    const-string v2, "thresholdCH1"
+    const-string v2, "tabelOnOff"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8399,7 +8399,7 @@
 
     const/16 v1, 0x39d
 
-    const-string v2, "thresholdCH2"
+    const-string v2, "thre"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8408,7 +8408,7 @@
 
     const/16 v1, 0x39e
 
-    const-string v2, "thresholdCH3"
+    const-string v2, "threA"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8417,7 +8417,7 @@
 
     const/16 v1, 0x39f
 
-    const-string v2, "thresholdCH4"
+    const-string v2, "threB"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8426,7 +8426,7 @@
 
     const/16 v1, 0x3a0
 
-    const-string v2, "thresholdHigh"
+    const-string v2, "thresholdCH1"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8435,7 +8435,7 @@
 
     const/16 v1, 0x3a1
 
-    const-string v2, "thresholdLow"
+    const-string v2, "thresholdCH2"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8444,7 +8444,7 @@
 
     const/16 v1, 0x3a2
 
-    const-string v2, "thresholdMiddle"
+    const-string v2, "thresholdCH3"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8453,7 +8453,7 @@
 
     const/16 v1, 0x3a3
 
-    const-string v2, "thresholdSource"
+    const-string v2, "thresholdCH4"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8462,7 +8462,7 @@
 
     const/16 v1, 0x3a4
 
-    const-string v2, "thresholdType"
+    const-string v2, "thresholdHigh"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8471,7 +8471,7 @@
 
     const/16 v1, 0x3a5
 
-    const-string v2, "tieSlope"
+    const-string v2, "thresholdLow"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8480,7 +8480,7 @@
 
     const/16 v1, 0x3a6
 
-    const-string v2, "time"
+    const-string v2, "thresholdMiddle"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8489,7 +8489,7 @@
 
     const/16 v1, 0x3a7
 
-    const-string v2, "timeMode"
+    const-string v2, "thresholdSource"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8498,7 +8498,7 @@
 
     const/16 v1, 0x3a8
 
-    const-string v2, "timeOut"
+    const-string v2, "thresholdType"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8507,7 +8507,7 @@
 
     const/16 v1, 0x3a9
 
-    const-string v2, "timeSpeed"
+    const-string v2, "tieSlope"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8516,7 +8516,7 @@
 
     const/16 v1, 0x3aa
 
-    const-string v2, "timeoutSlope"
+    const-string v2, "time"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8525,7 +8525,7 @@
 
     const/16 v1, 0x3ab
 
-    const-string v2, "title"
+    const-string v2, "timeMode"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8534,7 +8534,7 @@
 
     const/16 v1, 0x3ac
 
-    const-string v2, "top"
+    const-string v2, "timeOut"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8543,7 +8543,7 @@
 
     const/16 v1, 0x3ad
 
-    const-string v2, "topMethod"
+    const-string v2, "timeSpeed"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8552,7 +8552,7 @@
 
     const/16 v1, 0x3ae
 
-    const-string v2, "totalizeMappingObject"
+    const-string v2, "timeoutSlope"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8561,7 +8561,7 @@
 
     const/16 v1, 0x3af
 
-    const-string v2, "track"
+    const-string v2, "title"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8570,7 +8570,7 @@
 
     const/16 v1, 0x3b0
 
-    const-string v2, "trackMapping"
+    const-string v2, "top"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8579,7 +8579,7 @@
 
     const/16 v1, 0x3b1
 
-    const-string v2, "triggerMode"
+    const-string v2, "topMethod"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8588,7 +8588,7 @@
 
     const/16 v1, 0x3b2
 
-    const-string v2, "triggerParam"
+    const-string v2, "totalizeMappingObject"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8597,7 +8597,7 @@
 
     const/16 v1, 0x3b3
 
-    const-string v2, "triggerStatus"
+    const-string v2, "track"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8606,7 +8606,7 @@
 
     const/16 v1, 0x3b4
 
-    const-string v2, "trigger_1553_Err"
+    const-string v2, "trackMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8615,7 +8615,7 @@
 
     const/16 v1, 0x3b5
 
-    const-string v2, "trigger_1553_Sync"
+    const-string v2, "triggerMode"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8624,7 +8624,7 @@
 
     const/16 v1, 0x3b6
 
-    const-string v2, "trigger_1553_When"
+    const-string v2, "triggerParam"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8633,7 +8633,7 @@
 
     const/16 v1, 0x3b7
 
-    const-string v2, "trigger_Can_Phy"
+    const-string v2, "triggerStatus"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8642,7 +8642,7 @@
 
     const/16 v1, 0x3b8
 
-    const-string v2, "trigger_Flex_Baud"
+    const-string v2, "trigger_1553_Err"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8651,7 +8651,7 @@
 
     const/16 v1, 0x3b9
 
-    const-string v2, "trigger_Flex_Err"
+    const-string v2, "trigger_1553_Sync"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8660,7 +8660,7 @@
 
     const/16 v1, 0x3ba
 
-    const-string v2, "trigger_Flex_Frame"
+    const-string v2, "trigger_1553_When"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8669,7 +8669,7 @@
 
     const/16 v1, 0x3bb
 
-    const-string v2, "trigger_Flex_Phy"
+    const-string v2, "trigger_Can_Phy"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8678,7 +8678,7 @@
 
     const/16 v1, 0x3bc
 
-    const-string v2, "trigger_Flex_Pos"
+    const-string v2, "trigger_Flex_Baud"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8687,7 +8687,7 @@
 
     const/16 v1, 0x3bd
 
-    const-string v2, "trigger_Flex_Symbol"
+    const-string v2, "trigger_Flex_Err"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8696,7 +8696,7 @@
 
     const/16 v1, 0x3be
 
-    const-string v2, "trigger_Flex_When"
+    const-string v2, "trigger_Flex_Frame"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8705,7 +8705,7 @@
 
     const/16 v1, 0x3bf
 
-    const-string v2, "trigger_I2C_Spec"
+    const-string v2, "trigger_Flex_Phy"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8714,7 +8714,7 @@
 
     const/16 v1, 0x3c0
 
-    const-string v2, "trigger_I2C_WR"
+    const-string v2, "trigger_Flex_Pos"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8723,7 +8723,7 @@
 
     const/16 v1, 0x3c1
 
-    const-string v2, "trigger_I2C_When"
+    const-string v2, "trigger_Flex_Symbol"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8732,7 +8732,7 @@
 
     const/16 v1, 0x3c2
 
-    const-string v2, "trigger_IIS_Ch"
+    const-string v2, "trigger_Flex_When"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8741,7 +8741,7 @@
 
     const/16 v1, 0x3c3
 
-    const-string v2, "trigger_IIS_Spec"
+    const-string v2, "trigger_I2C_Spec"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8750,7 +8750,7 @@
 
     const/16 v1, 0x3c4
 
-    const-string v2, "trigger_IIS_data_cmp"
+    const-string v2, "trigger_I2C_WR"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8759,7 +8759,7 @@
 
     const/16 v1, 0x3c5
 
-    const-string v2, "trigger_IIS_data_cmp_Cyc"
+    const-string v2, "trigger_I2C_When"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8768,7 +8768,7 @@
 
     const/16 v1, 0x3c6
 
-    const-string v2, "trigger_IIS_data_cmp_ID"
+    const-string v2, "trigger_IIS_Ch"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8777,7 +8777,7 @@
 
     const/16 v1, 0x3c7
 
-    const-string v2, "trigger_Level_ID"
+    const-string v2, "trigger_IIS_Spec"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8786,7 +8786,7 @@
 
     const/16 v1, 0x3c8
 
-    const-string v2, "trigger_Lin_Err"
+    const-string v2, "trigger_IIS_data_cmp"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8795,7 +8795,7 @@
 
     const/16 v1, 0x3c9
 
-    const-string v2, "trigger_Lin_Ver"
+    const-string v2, "trigger_IIS_data_cmp_Cyc"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8804,7 +8804,7 @@
 
     const/16 v1, 0x3ca
 
-    const-string v2, "trigger_Lin_When"
+    const-string v2, "trigger_IIS_data_cmp_ID"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8813,7 +8813,7 @@
 
     const/16 v1, 0x3cb
 
-    const-string v2, "trigger_RS232_Parity"
+    const-string v2, "trigger_Level_ID"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8822,7 +8822,7 @@
 
     const/16 v1, 0x3cc
 
-    const-string v2, "trigger_RS232_Stop"
+    const-string v2, "trigger_Lin_Err"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8831,7 +8831,7 @@
 
     const/16 v1, 0x3cd
 
-    const-string v2, "trigger_RS232_When"
+    const-string v2, "trigger_Lin_Ver"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8840,7 +8840,7 @@
 
     const/16 v1, 0x3ce
 
-    const-string v2, "trigger_RS232_Width"
+    const-string v2, "trigger_Lin_When"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8849,7 +8849,7 @@
 
     const/16 v1, 0x3cf
 
-    const-string v2, "trigger_Serv_Can_When"
+    const-string v2, "trigger_RS232_Parity"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8858,7 +8858,7 @@
 
     const/16 v1, 0x3d0
 
-    const-string v2, "trigger_Spi_CS"
+    const-string v2, "trigger_RS232_Stop"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8867,7 +8867,7 @@
 
     const/16 v1, 0x3d1
 
-    const-string v2, "trigger_value_cmp"
+    const-string v2, "trigger_RS232_When"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8876,7 +8876,7 @@
 
     const/16 v1, 0x3d2
 
-    const-string v2, "type"
+    const-string v2, "trigger_RS232_Width"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8885,7 +8885,7 @@
 
     const/16 v1, 0x3d3
 
-    const-string v2, "typeArrayId"
+    const-string v2, "trigger_Serv_Can_When"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8894,7 +8894,7 @@
 
     const/16 v1, 0x3d4
 
-    const-string v2, "typeDptsMapping"
+    const-string v2, "trigger_Spi_CS"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8903,7 +8903,7 @@
 
     const/16 v1, 0x3d5
 
-    const-string v2, "typeHMapping"
+    const-string v2, "trigger_value_cmp"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8912,7 +8912,7 @@
 
     const/16 v1, 0x3d6
 
-    const-string v2, "typeLMapping"
+    const-string v2, "type"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8921,7 +8921,7 @@
 
     const/16 v1, 0x3d7
 
-    const-string v2, "typeVectorMapping"
+    const-string v2, "typeArrayId"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8930,7 +8930,7 @@
 
     const/16 v1, 0x3d8
 
-    const-string v2, "uiEnable"
+    const-string v2, "typeDptsMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8939,7 +8939,7 @@
 
     const/16 v1, 0x3d9
 
-    const-string v2, "ultraEnable"
+    const-string v2, "typeHMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8948,7 +8948,7 @@
 
     const/16 v1, 0x3da
 
-    const-string v2, "ultraMappingObj"
+    const-string v2, "typeLMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8957,7 +8957,7 @@
 
     const/16 v1, 0x3db
 
-    const-string v2, "unit"
+    const-string v2, "typeVectorMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8966,7 +8966,7 @@
 
     const/16 v1, 0x3dc
 
-    const-string v2, "unitIndex"
+    const-string v2, "uiEnable"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8975,7 +8975,7 @@
 
     const/16 v1, 0x3dd
 
-    const-string v2, "unitSiList"
+    const-string v2, "ultraEnable"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8984,7 +8984,7 @@
 
     const/16 v1, 0x3de
 
-    const-string v2, "unitStr"
+    const-string v2, "ultraMappingObj"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -8993,7 +8993,7 @@
 
     const/16 v1, 0x3df
 
-    const-string v2, "upType"
+    const-string v2, "unit"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9002,7 +9002,7 @@
 
     const/16 v1, 0x3e0
 
-    const-string v2, "upaMappingObj"
+    const-string v2, "unitIndex"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9011,7 +9011,7 @@
 
     const/16 v1, 0x3e1
 
-    const-string v2, "upaRippleParam"
+    const-string v2, "unitSiList"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9020,7 +9020,7 @@
 
     const/16 v1, 0x3e2
 
-    const-string v2, "updateParam"
+    const-string v2, "unitStr"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9029,7 +9029,7 @@
 
     const/16 v1, 0x3e3
 
-    const-string v2, "uperLimit"
+    const-string v2, "upType"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9038,7 +9038,7 @@
 
     const/16 v1, 0x3e4
 
-    const-string v2, "usbHighMapping"
+    const-string v2, "upaMappingObj"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9047,7 +9047,7 @@
 
     const/16 v1, 0x3e5
 
-    const-string v2, "usbLowMapping"
+    const-string v2, "upaRippleParam"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9056,7 +9056,7 @@
 
     const/16 v1, 0x3e6
 
-    const-string v2, "usbMidMapping"
+    const-string v2, "updateParam"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9065,7 +9065,7 @@
 
     const/16 v1, 0x3e7
 
-    const-string v2, "usb_diff"
+    const-string v2, "uperLimit"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9080,7 +9080,7 @@
 
     const/16 v1, 0x3e8
 
-    const-string v2, "usb_diff_high_thres"
+    const-string v2, "usbHighMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9089,7 +9089,7 @@
 
     const/16 v1, 0x3e9
 
-    const-string v2, "usb_diff_low_thres"
+    const-string v2, "usbLowMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9098,7 +9098,7 @@
 
     const/16 v1, 0x3ea
 
-    const-string v2, "usb_diff_source"
+    const-string v2, "usbMidMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9107,7 +9107,7 @@
 
     const/16 v1, 0x3eb
 
-    const-string v2, "usb_dp"
+    const-string v2, "usb_diff"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9116,7 +9116,7 @@
 
     const/16 v1, 0x3ec
 
-    const-string v2, "usb_dp_thres"
+    const-string v2, "usb_diff_high_thres"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9125,7 +9125,7 @@
 
     const/16 v1, 0x3ed
 
-    const-string v2, "usb_ds"
+    const-string v2, "usb_diff_low_thres"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9134,7 +9134,7 @@
 
     const/16 v1, 0x3ee
 
-    const-string v2, "usb_ds_thres"
+    const-string v2, "usb_diff_source"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9143,7 +9143,7 @@
 
     const/16 v1, 0x3ef
 
-    const-string v2, "usb_point"
+    const-string v2, "usb_dp"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9152,7 +9152,7 @@
 
     const/16 v1, 0x3f0
 
-    const-string v2, "usb_rate"
+    const-string v2, "usb_dp_thres"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9161,7 +9161,7 @@
 
     const/16 v1, 0x3f1
 
-    const-string v2, "usb_source_dp"
+    const-string v2, "usb_ds"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9170,7 +9170,7 @@
 
     const/16 v1, 0x3f2
 
-    const-string v2, "usb_source_ds"
+    const-string v2, "usb_ds_thres"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9179,7 +9179,7 @@
 
     const/16 v1, 0x3f3
 
-    const-string v2, "usb_type"
+    const-string v2, "usb_point"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9188,7 +9188,7 @@
 
     const/16 v1, 0x3f4
 
-    const-string v2, "userName"
+    const-string v2, "usb_rate"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9197,7 +9197,7 @@
 
     const/16 v1, 0x3f5
 
-    const-string v2, "utilityParam"
+    const-string v2, "usb_source_dp"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9206,7 +9206,7 @@
 
     const/16 v1, 0x3f6
 
-    const-string/jumbo v2, "valid"
+    const-string v2, "usb_source_ds"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9215,7 +9215,7 @@
 
     const/16 v1, 0x3f7
 
-    const-string/jumbo v2, "value"
+    const-string v2, "usb_type"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9224,7 +9224,7 @@
 
     const/16 v1, 0x3f8
 
-    const-string/jumbo v2, "ver1Mapping"
+    const-string v2, "userName"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9233,7 +9233,7 @@
 
     const/16 v1, 0x3f9
 
-    const-string/jumbo v2, "ver2Mapping"
+    const-string v2, "utilityParam"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9242,7 +9242,7 @@
 
     const/16 v1, 0x3fa
 
-    const-string/jumbo v2, "verBothMapping"
+    const-string/jumbo v2, "valid"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9251,7 +9251,7 @@
 
     const/16 v1, 0x3fb
 
-    const-string/jumbo v2, "verOffset"
+    const-string/jumbo v2, "value"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9260,7 +9260,7 @@
 
     const/16 v1, 0x3fc
 
-    const-string/jumbo v2, "verScale"
+    const-string/jumbo v2, "ver1Mapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9269,7 +9269,7 @@
 
     const/16 v1, 0x3fd
 
-    const-string/jumbo v2, "verUnit"
+    const-string/jumbo v2, "ver2Mapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9278,7 +9278,7 @@
 
     const/16 v1, 0x3fe
 
-    const-string/jumbo v2, "version1Mapping"
+    const-string/jumbo v2, "verBothMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9287,7 +9287,7 @@
 
     const/16 v1, 0x3ff
 
-    const-string/jumbo v2, "version2Mapping"
+    const-string/jumbo v2, "verOffset"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9296,7 +9296,7 @@
 
     const/16 v1, 0x400
 
-    const-string/jumbo v2, "versionBothMapping"
+    const-string/jumbo v2, "verScale"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9305,7 +9305,7 @@
 
     const/16 v1, 0x401
 
-    const-string/jumbo v2, "verticalExpand"
+    const-string/jumbo v2, "verUnit"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9314,7 +9314,7 @@
 
     const/16 v1, 0x402
 
-    const-string/jumbo v2, "verticalMappingObject"
+    const-string/jumbo v2, "version1Mapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9323,7 +9323,7 @@
 
     const/16 v1, 0x403
 
-    const-string/jumbo v2, "verticalParam"
+    const-string/jumbo v2, "version2Mapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9332,7 +9332,7 @@
 
     const/16 v1, 0x404
 
-    const-string/jumbo v2, "vibration"
+    const-string/jumbo v2, "versionBothMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9341,7 +9341,7 @@
 
     const/16 v1, 0x405
 
-    const-string/jumbo v2, "videoFormat"
+    const-string/jumbo v2, "verticalExpand"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9350,7 +9350,7 @@
 
     const/16 v1, 0x406
 
-    const-string/jumbo v2, "videoPolarity"
+    const-string/jumbo v2, "verticalMappingObject"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9359,7 +9359,7 @@
 
     const/16 v1, 0x407
 
-    const-string/jumbo v2, "videoSync"
+    const-string/jumbo v2, "verticalParam"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9368,7 +9368,7 @@
 
     const/16 v1, 0x408
 
-    const-string/jumbo v2, "view"
+    const-string/jumbo v2, "vibration"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9377,7 +9377,7 @@
 
     const/16 v1, 0x409
 
-    const-string/jumbo v2, "viewonDrag"
+    const-string/jumbo v2, "videoFormat"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9386,7 +9386,7 @@
 
     const/16 v1, 0x40a
 
-    const-string/jumbo v2, "visaAddress"
+    const-string/jumbo v2, "videoPolarity"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9395,7 +9395,7 @@
 
     const/16 v1, 0x40b
 
-    const-string/jumbo v2, "waveDepth"
+    const-string/jumbo v2, "videoSync"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9404,7 +9404,7 @@
 
     const/16 v1, 0x40c
 
-    const-string/jumbo v2, "waveFileType"
+    const-string/jumbo v2, "view"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9413,7 +9413,7 @@
 
     const/16 v1, 0x40d
 
-    const-string/jumbo v2, "waveFreeze"
+    const-string/jumbo v2, "viewonDrag"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9422,7 +9422,7 @@
 
     const/16 v1, 0x40e
 
-    const-string/jumbo v2, "waveIntensity"
+    const-string/jumbo v2, "visaAddress"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9431,7 +9431,7 @@
 
     const/16 v1, 0x40f
 
-    const-string/jumbo v2, "waveType"
+    const-string/jumbo v2, "waveDepth"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9440,7 +9440,7 @@
 
     const/16 v1, 0x410
 
-    const-string/jumbo v2, "wave_function"
+    const-string/jumbo v2, "waveFileType"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9449,7 +9449,7 @@
 
     const/16 v1, 0x411
 
-    const-string/jumbo v2, "wave_mod_am_depth"
+    const-string/jumbo v2, "waveFreeze"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9458,7 +9458,7 @@
 
     const/16 v1, 0x412
 
-    const-string/jumbo v2, "wave_mod_am_freq"
+    const-string/jumbo v2, "waveIntensity"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9467,7 +9467,7 @@
 
     const/16 v1, 0x413
 
-    const-string/jumbo v2, "wave_mod_fm_deviation"
+    const-string/jumbo v2, "waveType"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9476,7 +9476,7 @@
 
     const/16 v1, 0x414
 
-    const-string/jumbo v2, "wave_mod_fm_freq"
+    const-string/jumbo v2, "wave_function"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9485,7 +9485,7 @@
 
     const/16 v1, 0x415
 
-    const-string/jumbo v2, "wave_mod_pic"
+    const-string/jumbo v2, "wave_mod_am_depth"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9494,7 +9494,7 @@
 
     const/16 v1, 0x416
 
-    const-string/jumbo v2, "wave_mod_pm_dev"
+    const-string/jumbo v2, "wave_mod_am_freq"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9503,7 +9503,7 @@
 
     const/16 v1, 0x417
 
-    const-string/jumbo v2, "wave_mod_pm_freq"
+    const-string/jumbo v2, "wave_mod_fm_deviation"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9512,7 +9512,7 @@
 
     const/16 v1, 0x418
 
-    const-string/jumbo v2, "wave_path"
+    const-string/jumbo v2, "wave_mod_fm_freq"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9521,7 +9521,7 @@
 
     const/16 v1, 0x419
 
-    const-string/jumbo v2, "whenAdMapping"
+    const-string/jumbo v2, "wave_mod_pic"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9530,7 +9530,7 @@
 
     const/16 v1, 0x41a
 
-    const-string/jumbo v2, "whenAddressMapping"
+    const-string/jumbo v2, "wave_mod_pm_dev"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9539,7 +9539,7 @@
 
     const/16 v1, 0x41b
 
-    const-string/jumbo v2, "whenCheckMapping"
+    const-string/jumbo v2, "wave_mod_pm_freq"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9548,7 +9548,7 @@
 
     const/16 v1, 0x41c
 
-    const-string/jumbo v2, "whenCsMapping"
+    const-string/jumbo v2, "wave_path"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9557,7 +9557,7 @@
 
     const/16 v1, 0x41d
 
-    const-string/jumbo v2, "whenDataIdMapping"
+    const-string/jumbo v2, "whenAdMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9566,7 +9566,7 @@
 
     const/16 v1, 0x41e
 
-    const-string/jumbo v2, "whenDataMapping"
+    const-string/jumbo v2, "whenAddressMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9575,7 +9575,7 @@
 
     const/16 v1, 0x41f
 
-    const-string/jumbo v2, "whenErrorMapping"
+    const-string/jumbo v2, "whenCheckMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9584,7 +9584,7 @@
 
     const/16 v1, 0x420
 
-    const-string/jumbo v2, "whenFrameMapping"
+    const-string/jumbo v2, "whenCsMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9593,7 +9593,7 @@
 
     const/16 v1, 0x421
 
-    const-string/jumbo v2, "whenHoldMapping"
+    const-string/jumbo v2, "whenDataIdMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9602,7 +9602,7 @@
 
     const/16 v1, 0x422
 
-    const-string/jumbo v2, "whenIdMapping"
+    const-string/jumbo v2, "whenDataMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9611,7 +9611,7 @@
 
     const/16 v1, 0x423
 
-    const-string/jumbo v2, "whenMissMapping"
+    const-string/jumbo v2, "whenErrorMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9620,7 +9620,7 @@
 
     const/16 v1, 0x424
 
-    const-string/jumbo v2, "whenNoneMapping"
+    const-string/jumbo v2, "whenFrameMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9629,7 +9629,7 @@
 
     const/16 v1, 0x425
 
-    const-string/jumbo v2, "whenPostMapping"
+    const-string/jumbo v2, "whenHoldMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9638,7 +9638,7 @@
 
     const/16 v1, 0x426
 
-    const-string/jumbo v2, "whenRestartMapping"
+    const-string/jumbo v2, "whenIdMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9647,7 +9647,7 @@
 
     const/16 v1, 0x427
 
-    const-string/jumbo v2, "whenRtaMapping"
+    const-string/jumbo v2, "whenMissMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9656,7 +9656,7 @@
 
     const/16 v1, 0x428
 
-    const-string/jumbo v2, "whenRtabitMapping"
+    const-string/jumbo v2, "whenNoneMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9665,7 +9665,7 @@
 
     const/16 v1, 0x429
 
-    const-string/jumbo v2, "whenSetupHoldMapping"
+    const-string/jumbo v2, "whenPostMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9674,7 +9674,7 @@
 
     const/16 v1, 0x42a
 
-    const-string/jumbo v2, "whenSetupMapping"
+    const-string/jumbo v2, "whenRestartMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9683,7 +9683,7 @@
 
     const/16 v1, 0x42b
 
-    const-string/jumbo v2, "whenSleepMapping"
+    const-string/jumbo v2, "whenRtaMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9692,7 +9692,7 @@
 
     const/16 v1, 0x42c
 
-    const-string/jumbo v2, "whenStartMapping"
+    const-string/jumbo v2, "whenRtabitMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9701,7 +9701,7 @@
 
     const/16 v1, 0x42d
 
-    const-string/jumbo v2, "whenStopMapping"
+    const-string/jumbo v2, "whenSetupHoldMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9710,7 +9710,7 @@
 
     const/16 v1, 0x42e
 
-    const-string/jumbo v2, "whenSymbolMapping"
+    const-string/jumbo v2, "whenSetupMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9719,7 +9719,7 @@
 
     const/16 v1, 0x42f
 
-    const-string/jumbo v2, "whenSyncMapping"
+    const-string/jumbo v2, "whenSleepMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9728,7 +9728,7 @@
 
     const/16 v1, 0x430
 
-    const-string/jumbo v2, "whenTimeoutMapping"
+    const-string/jumbo v2, "whenStartMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9737,7 +9737,7 @@
 
     const/16 v1, 0x431
 
-    const-string/jumbo v2, "whenWakeUpMapping"
+    const-string/jumbo v2, "whenStopMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9746,7 +9746,7 @@
 
     const/16 v1, 0x432
 
-    const-string/jumbo v2, "width"
+    const-string/jumbo v2, "whenSymbolMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9755,7 +9755,7 @@
 
     const/16 v1, 0x433
 
-    const-string/jumbo v2, "window"
+    const-string/jumbo v2, "whenSyncMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9764,7 +9764,7 @@
 
     const/16 v1, 0x434
 
-    const-string/jumbo v2, "windowCount"
+    const-string/jumbo v2, "whenTimeoutMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9773,7 +9773,7 @@
 
     const/16 v1, 0x435
 
-    const-string/jumbo v2, "windowParam"
+    const-string/jumbo v2, "whenWakeUpMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9782,7 +9782,7 @@
 
     const/16 v1, 0x436
 
-    const-string/jumbo v2, "windowTitleString"
+    const-string/jumbo v2, "width"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9791,7 +9791,7 @@
 
     const/16 v1, 0x437
 
-    const-string/jumbo v2, "windowTransparency"
+    const-string/jumbo v2, "window"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9800,7 +9800,7 @@
 
     const/16 v1, 0x438
 
-    const-string/jumbo v2, "xValue"
+    const-string/jumbo v2, "windowCount"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9809,7 +9809,7 @@
 
     const/16 v1, 0x439
 
-    const-string/jumbo v2, "xyCheck"
+    const-string/jumbo v2, "windowParam"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9818,7 +9818,7 @@
 
     const/16 v1, 0x43a
 
-    const-string/jumbo v2, "xyCheckEnable"
+    const-string/jumbo v2, "windowTitleString"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9827,7 +9827,7 @@
 
     const/16 v1, 0x43b
 
-    const-string/jumbo v2, "xyMapping"
+    const-string/jumbo v2, "windowTransparency"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9836,7 +9836,7 @@
 
     const/16 v1, 0x43c
 
-    const-string/jumbo v2, "xyParam"
+    const-string/jumbo v2, "xValue"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9845,7 +9845,7 @@
 
     const/16 v1, 0x43d
 
-    const-string/jumbo v2, "xyWindowCount"
+    const-string/jumbo v2, "xyCheck"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9854,7 +9854,7 @@
 
     const/16 v1, 0x43e
 
-    const-string/jumbo v2, "yValue"
+    const-string/jumbo v2, "xyCheckEnable"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9863,7 +9863,7 @@
 
     const/16 v1, 0x43f
 
-    const-string/jumbo v2, "zbdLed"
+    const-string/jumbo v2, "xyMapping"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9872,7 +9872,7 @@
 
     const/16 v1, 0x440
 
-    const-string/jumbo v2, "zoom"
+    const-string/jumbo v2, "xyParam"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9881,7 +9881,7 @@
 
     const/16 v1, 0x441
 
-    const-string/jumbo v2, "zoomEn"
+    const-string/jumbo v2, "xyWindowCount"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9890,7 +9890,7 @@
 
     const/16 v1, 0x442
 
-    const-string/jumbo v2, "zoomOffset"
+    const-string/jumbo v2, "yValue"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9899,7 +9899,7 @@
 
     const/16 v1, 0x443
 
-    const-string/jumbo v2, "zoomOffsetStr"
+    const-string/jumbo v2, "zbdLed"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9908,7 +9908,7 @@
 
     const/16 v1, 0x444
 
-    const-string/jumbo v2, "zoomScale"
+    const-string/jumbo v2, "zoom"
 
     invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
@@ -9916,6 +9916,42 @@
     sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl$InnerBrLookup;->sKeys:Landroid/util/SparseArray;
 
     const/16 v1, 0x445
+
+    const-string/jumbo v2, "zoomEn"
+
+    invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
+
+    .line 3420
+    sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl$InnerBrLookup;->sKeys:Landroid/util/SparseArray;
+
+    const/16 v1, 0x446
+
+    const-string/jumbo v2, "zoomOffset"
+
+    invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
+
+    .line 3421
+    sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl$InnerBrLookup;->sKeys:Landroid/util/SparseArray;
+
+    const/16 v1, 0x447
+
+    const-string/jumbo v2, "zoomOffsetStr"
+
+    invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
+
+    .line 3422
+    sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl$InnerBrLookup;->sKeys:Landroid/util/SparseArray;
+
+    const/16 v1, 0x448
+
+    const-string/jumbo v2, "zoomScale"
+
+    invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
+
+    .line 3423
+    sget-object v0, Lcom/rigol/scope/DataBinderMapperImpl$InnerBrLookup;->sKeys:Landroid/util/SparseArray;
+
+    const/16 v1, 0x449
 
     const-string/jumbo v2, "zoomScaleStr"
 

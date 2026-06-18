@@ -25,7 +25,7 @@
 .method constructor <init>(Lcom/rigol/scope/adapters/MathFftAdapter;)V
     .locals 0
 
-    .line 506
+    .line 509
     iput-object p1, p0, Lcom/rigol/scope/adapters/MathFftAdapter$7;->this$0:Lcom/rigol/scope/adapters/MathFftAdapter;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +38,7 @@
 .method public onCall(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
     .locals 1
 
-    .line 516
+    .line 519
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathFftAdapter$7;->this$0:Lcom/rigol/scope/adapters/MathFftAdapter;
 
     invoke-static {v0, p1}, Lcom/rigol/scope/adapters/MathFftAdapter;->access$402(Lcom/rigol/scope/adapters/MathFftAdapter;Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
@@ -56,7 +56,7 @@
         }
     .end annotation
 
-    .line 511
+    .line 514
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathFftAdapter$7;->this$0:Lcom/rigol/scope/adapters/MathFftAdapter;
 
     invoke-static {v0}, Lcom/rigol/scope/adapters/MathFftAdapter;->access$300(Lcom/rigol/scope/adapters/MathFftAdapter;)Lcom/rigol/scope/data/MathParam;

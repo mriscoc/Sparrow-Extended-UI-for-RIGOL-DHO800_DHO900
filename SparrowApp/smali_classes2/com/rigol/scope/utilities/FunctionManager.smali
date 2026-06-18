@@ -106,7 +106,7 @@
 
     move-result v0
 
-    const v1, 0x7f100377
+    const v1, 0x7f10037a
 
     if-eqz v0, :cond_0
 
@@ -796,7 +796,7 @@
 .method public flexKnobEnum2MappingObject(Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;)Lcom/rigol/scope/data/MappingObject;
     .locals 5
 
-    const v0, 0x7f03013c
+    const v0, 0x7f03013d
 
     .line 715
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1007,7 +1007,7 @@
 
     const/16 v4, 0x29
 
-    const v5, 0x7f100377
+    const v5, 0x7f10037a
 
     const/4 v6, 0x0
 
@@ -1166,7 +1166,7 @@
 
     const/16 v1, 0x1a
 
-    const/16 v2, 0x1309
+    const/16 v2, 0x130a
 
     invoke-virtual {v0, v1, v2, v6}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
@@ -1178,7 +1178,7 @@
 
     move-result-object v0
 
-    const/16 v1, 0x4fb1
+    const/16 v1, 0x51b1
 
     invoke-virtual {v0, v4, v1, v6}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
@@ -1199,7 +1199,7 @@
 
     move-result-object v0
 
-    const/16 v1, 0x4fb0
+    const/16 v1, 0x51b0
 
     invoke-virtual {v0, v4, v1, v6}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
@@ -1289,21 +1289,18 @@
 
     if-ne v1, v2, :cond_4
 
-    .line 1169
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;->Control_Run:Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
     goto :goto_1
 
-    .line 1170
     :cond_4
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;->Control_Stop:Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
-    .line 1168
     :goto_1
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/HorizontalParam;->saveRunStop(Lcom/rigol/scope/cil/ServiceEnum$ControlAction;)V
 
     .line 1171
-    invoke-static {v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     new-instance v1, Lcom/rigol/scope/utilities/-$$Lambda$mxLrpdfoHI4nwFrKf-viPyjN0ss;
 
@@ -1421,7 +1418,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f10039e
+    const v0, 0x7f1003a1
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1657,7 +1654,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f100379
+    const v1, 0x7f10037c
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2262,7 +2259,7 @@
 
     const/16 v1, 0xa
 
-    const/16 v2, 0x2343
+    const/16 v2, 0x2543
 
     invoke-static {v1, v2}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 
@@ -2413,7 +2410,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f100379
+    const v1, 0x7f10037c
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -3994,7 +3991,7 @@
 .method public updateIconForMessage(Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;)V
     .locals 4
 
-    const v0, 0x7f03013c
+    const v0, 0x7f03013d
 
     .line 634
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;

@@ -25,7 +25,7 @@
 .method constructor <init>(Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate;)V
     .locals 0
 
-    .line 362
+    .line 369
     iput-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate$6;->this$0:Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -51,7 +51,7 @@
         }
     .end annotation
 
-    .line 367
+    .line 374
     iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate$6;->this$0:Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate;
 
     iget-object v0, v0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
@@ -64,7 +64,7 @@
 
     move-result p1
 
-    invoke-virtual {v0, p1}, Lcom/rigol/scope/data/AfgParam;->saveBasicSymm(I)V
+    invoke-virtual {v0, p1}, Lcom/rigol/scope/data/AfgParam;->saveBasicSquDuty(I)V
 
     return-void
 .end method

@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/viewmodels/UpaViewModel;)V
     .locals 0
 
-    .line 8441
+    .line 8402
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$763;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$763;->val$upaViewModel:Lcom/rigol/scope/viewmodels/UpaViewModel;
@@ -51,7 +51,7 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 8444
+    .line 8405
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$763;->val$upaViewModel:Lcom/rigol/scope/viewmodels/UpaViewModel;
 
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/UpaViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
@@ -64,9 +64,9 @@
 
     check-cast p1, Lcom/rigol/scope/data/UpaParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/UpaParam;->readRefAbsLow()V
+    invoke-virtual {p1}, Lcom/rigol/scope/data/UpaParam;->readReflAbsHigh()V
 
-    .line 8445
+    .line 8406
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$763;->val$upaViewModel:Lcom/rigol/scope/viewmodels/UpaViewModel;
 
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/UpaViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
@@ -87,7 +87,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 8441
+    .line 8402
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$763;->onChanged(Ljava/lang/Boolean;)V

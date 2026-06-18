@@ -84,7 +84,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f03019d
+    const v0, 0x7f03019f
 
     .line 195
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;

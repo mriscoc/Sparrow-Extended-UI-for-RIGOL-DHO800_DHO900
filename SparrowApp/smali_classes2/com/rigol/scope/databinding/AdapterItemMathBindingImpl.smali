@@ -170,7 +170,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x38d
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -202,7 +202,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x309
+    const/16 v0, 0x30d
 
     if-ne p2, v0, :cond_2
 
@@ -234,7 +234,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x236
+    const/16 v0, 0x238
 
     if-ne p2, v0, :cond_3
 
@@ -266,7 +266,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x23e
+    const/16 v0, 0x240
 
     if-ne p2, v0, :cond_4
 
@@ -338,7 +338,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -607,7 +607,7 @@
     :goto_7
     add-int/lit8 v12, v12, -0x11
 
-    const v13, 0x7f030171
+    const v13, 0x7f030173
 
     .line 239
     invoke-static {v13}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1033,7 +1033,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x252
+    const/16 p1, 0x254
 
     .line 86
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterItemMathBindingImpl;->notifyPropertyChanged(I)V
@@ -1058,7 +1058,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x252
+    const/16 v0, 0x254
 
     if-ne v0, p1, :cond_0
 
@@ -1070,7 +1070,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x1c3
+    const/16 v0, 0x1c4
 
     if-ne v0, p1, :cond_1
 

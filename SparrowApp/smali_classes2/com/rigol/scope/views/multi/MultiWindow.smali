@@ -847,7 +847,6 @@
 
     move-result p3
 
-    .line 385
     sget-object v1, Lcom/rigol/scope/views/window/WindowType;->HORIZONTAL:Lcom/rigol/scope/views/window/WindowType;
 
     if-ne p4, v1, :cond_2
@@ -859,7 +858,6 @@
     :cond_2
     move p4, v0
 
-    .line 384
     :goto_1
     invoke-virtual {p1, p2, v0, p3, p4}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIII)V
 
@@ -1112,7 +1110,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f100778
+    const p2, 0x7f100780
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1622,7 +1620,7 @@
 
     if-eqz v2, :cond_2
 
-    const v2, 0x7f0a08ff
+    const v2, 0x7f0a090b
 
     .line 144
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

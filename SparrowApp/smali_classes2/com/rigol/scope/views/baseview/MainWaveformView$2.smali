@@ -67,7 +67,7 @@
 
     check-cast p1, Landroid/view/View;
 
-    const/16 v1, 0x341
+    const/16 v1, 0x345
 
     if-ne p2, v1, :cond_1
 
@@ -120,7 +120,7 @@
 
     :cond_1
     :goto_0
-    const/16 v1, 0x409
+    const/16 v1, 0x40d
 
     if-ne p2, v1, :cond_3
 

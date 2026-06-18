@@ -41,7 +41,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/rtsa/RtsaPopupView;->setContentView(Landroid/view/View;)V
 
-    const v0, 0x7f03012f
+    const v0, 0x7f030130
 
     .line 54
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -103,7 +103,7 @@
 .method static synthetic lambda$new$0(Lcom/google/android/material/tabs/TabLayout$Tab;I)V
     .locals 1
 
-    const v0, 0x7f03012f
+    const v0, 0x7f030130
 
     .line 68
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getArray(I)Landroidx/collection/SparseArrayCompat;
@@ -243,7 +243,7 @@
 .method public getTitle()I
     .locals 1
 
-    const v0, 0x7f100eca
+    const v0, 0x7f100ed7
 
     return v0
 .end method
@@ -262,7 +262,7 @@
 
     move-result v3
 
-    const v4, 0x7f0a0473
+    const v4, 0x7f0a0475
 
     if-ne v3, v4, :cond_0
 
@@ -332,7 +332,7 @@
     goto/16 :goto_0
 
     :cond_0
-    const v4, 0x7f0a0479
+    const v4, 0x7f0a047b
 
     if-ne v3, v4, :cond_1
 
@@ -402,7 +402,7 @@
     goto/16 :goto_0
 
     :cond_1
-    const v4, 0x7f0a0475
+    const v4, 0x7f0a0477
 
     if-ne v3, v4, :cond_2
 
@@ -472,7 +472,7 @@
     goto/16 :goto_0
 
     :cond_2
-    const v4, 0x7f0a0477
+    const v4, 0x7f0a0479
 
     if-ne v3, v4, :cond_3
 
@@ -542,7 +542,7 @@
     goto/16 :goto_0
 
     :cond_3
-    const v4, 0x7f0a05cb
+    const v4, 0x7f0a05d3
 
     if-ne v3, v4, :cond_4
 
@@ -552,7 +552,7 @@
     goto/16 :goto_0
 
     :cond_4
-    const v4, 0x7f0a04a9
+    const v4, 0x7f0a04ab
 
     if-ne v3, v4, :cond_5
 
@@ -562,7 +562,7 @@
     goto/16 :goto_0
 
     :cond_5
-    const v4, 0x7f0a0769
+    const v4, 0x7f0a0775
 
     if-ne v3, v4, :cond_6
 
@@ -582,7 +582,7 @@
     goto/16 :goto_0
 
     :cond_6
-    const v4, 0x7f0a0768
+    const v4, 0x7f0a0774
 
     if-ne v3, v4, :cond_7
 
@@ -598,14 +598,14 @@
     goto/16 :goto_0
 
     :cond_7
-    const v4, 0x7f0a0b36
+    const v4, 0x7f0a0b42
 
     if-ne v3, v4, :cond_8
 
     .line 202
     iget-object v3, v0, Lcom/rigol/scope/views/rtsa/RtsaPopupView;->anchor:Landroid/view/View;
 
-    const v4, 0x7f03013b
+    const v4, 0x7f03013c
 
     new-instance v5, Lcom/rigol/scope/views/rtsa/-$$Lambda$RtsaPopupView$oNRgZXF3f88-NhzZa69gk7zi-TA;
 
@@ -616,7 +616,7 @@
     goto/16 :goto_0
 
     :cond_8
-    const v4, 0x7f0a0797
+    const v4, 0x7f0a07a3
 
     if-ne v3, v4, :cond_9
 
@@ -693,7 +693,7 @@
     goto/16 :goto_0
 
     :cond_9
-    const v4, 0x7f0a0a8a
+    const v4, 0x7f0a0a96
 
     if-ne v3, v4, :cond_b
 
@@ -719,7 +719,7 @@
     goto/16 :goto_0
 
     :cond_b
-    const v4, 0x7f0a07d3
+    const v4, 0x7f0a07df
 
     if-ne v3, v4, :cond_c
 
@@ -793,14 +793,14 @@
     goto :goto_0
 
     :cond_c
-    const v4, 0x7f0a083d
+    const v4, 0x7f0a0849
 
     if-ne v3, v4, :cond_d
 
     .line 267
     iget-object v3, v0, Lcom/rigol/scope/views/rtsa/RtsaPopupView;->anchor:Landroid/view/View;
 
-    const v4, 0x7f030139
+    const v4, 0x7f03013a
 
     new-instance v5, Lcom/rigol/scope/views/rtsa/-$$Lambda$RtsaPopupView$xsBVWhcLp0pkxBfhhNhGHQcELq0;
 
@@ -821,7 +821,7 @@
     goto :goto_0
 
     :cond_e
-    const v4, 0x7f0a072d
+    const v4, 0x7f0a0739
 
     if-ne v3, v4, :cond_f
 
@@ -831,14 +831,14 @@
     goto :goto_0
 
     :cond_f
-    const v4, 0x7f0a06fc
+    const v4, 0x7f0a0708
 
     if-ne v3, v4, :cond_10
 
     .line 280
     iget-object v3, v0, Lcom/rigol/scope/views/rtsa/RtsaPopupView;->anchor:Landroid/view/View;
 
-    const v4, 0x7f030110
+    const v4, 0x7f030111
 
     new-instance v5, Lcom/rigol/scope/views/rtsa/-$$Lambda$RtsaPopupView$1L4PkP5HrWGVqu1Tod66o2CinRE;
 
@@ -857,7 +857,7 @@
     .line 438
     invoke-super {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->onLocaleChanged()V
 
-    const v0, 0x7f03012f
+    const v0, 0x7f030130
 
     .line 439
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1168,7 +1168,7 @@
     goto :goto_0
 
     :cond_10
-    const p3, 0x7f0a079e
+    const p3, 0x7f0a07aa
 
     if-ne p1, p3, :cond_11
 
@@ -1192,7 +1192,7 @@
 
     move-result v2
 
-    const v3, 0x7f0a06f5
+    const v3, 0x7f0a0701
 
     if-ne v2, v3, :cond_0
 
@@ -1208,7 +1208,7 @@
     goto/16 :goto_0
 
     :cond_0
-    const v3, 0x7f0a0694
+    const v3, 0x7f0a069e
 
     if-ne v2, v3, :cond_1
 
@@ -1218,7 +1218,7 @@
     goto/16 :goto_0
 
     :cond_1
-    const v3, 0x7f0a05ee
+    const v3, 0x7f0a05f6
 
     if-ne v2, v3, :cond_2
 
@@ -1228,7 +1228,7 @@
     goto/16 :goto_0
 
     :cond_2
-    const v3, 0x7f0a07b2
+    const v3, 0x7f0a07be
 
     if-ne v2, v3, :cond_3
 
@@ -1238,7 +1238,7 @@
     goto/16 :goto_0
 
     :cond_3
-    const v3, 0x7f0a06e5
+    const v3, 0x7f0a06f1
 
     if-ne v2, v3, :cond_4
 
@@ -1302,7 +1302,7 @@
     goto/16 :goto_0
 
     :cond_4
-    const v3, 0x7f0a08f3
+    const v3, 0x7f0a08ff
 
     if-ne v2, v3, :cond_5
 
@@ -1365,7 +1365,7 @@
     goto :goto_0
 
     :cond_5
-    const v3, 0x7f0a0427
+    const v3, 0x7f0a0429
 
     if-ne v2, v3, :cond_6
 
@@ -1425,7 +1425,7 @@
     goto :goto_0
 
     :cond_6
-    const v3, 0x7f0a06f2
+    const v3, 0x7f0a06fe
 
     if-ne v2, v3, :cond_7
 

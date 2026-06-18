@@ -22,7 +22,7 @@
 .method constructor <init>(Lcom/rigol/scope/views/display/DisplayPopupView;Landroid/content/Context;Ljava/util/List;)V
     .locals 0
 
-    .line 186
+    .line 188
     iput-object p1, p0, Lcom/rigol/scope/views/display/DisplayPopupView$5;->this$0:Lcom/rigol/scope/views/display/DisplayPopupView;
 
     invoke-direct {p0, p2, p3}, Lcom/rigol/scope/utilities/AorBManager;-><init>(Landroid/content/Context;Ljava/util/List;)V

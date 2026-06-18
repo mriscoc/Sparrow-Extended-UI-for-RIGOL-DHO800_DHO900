@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/rigol/scope/adapters/MathFftAdapter;->lambda$ShowMathFft$33(Landroid/view/View;)V
+    value = Lcom/rigol/scope/adapters/MathFftAdapter;->lambda$ShowMathFft$34(Landroid/view/View;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -25,7 +25,7 @@
 .method constructor <init>(Lcom/rigol/scope/adapters/MathFftAdapter;)V
     .locals 0
 
-    .line 619
+    .line 626
     iput-object p1, p0, Lcom/rigol/scope/adapters/MathFftAdapter$9;->this$0:Lcom/rigol/scope/adapters/MathFftAdapter;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +38,7 @@
 .method public onCall(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
     .locals 1
 
-    .line 629
+    .line 636
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathFftAdapter$9;->this$0:Lcom/rigol/scope/adapters/MathFftAdapter;
 
     invoke-static {v0, p1}, Lcom/rigol/scope/adapters/MathFftAdapter;->access$402(Lcom/rigol/scope/adapters/MathFftAdapter;Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
@@ -56,7 +56,7 @@
         }
     .end annotation
 
-    .line 624
+    .line 631
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathFftAdapter$9;->this$0:Lcom/rigol/scope/adapters/MathFftAdapter;
 
     invoke-static {v0}, Lcom/rigol/scope/adapters/MathFftAdapter;->access$300(Lcom/rigol/scope/adapters/MathFftAdapter;)Lcom/rigol/scope/data/MathParam;

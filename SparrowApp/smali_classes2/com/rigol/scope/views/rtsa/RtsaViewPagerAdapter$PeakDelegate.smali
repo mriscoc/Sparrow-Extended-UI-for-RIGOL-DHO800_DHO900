@@ -289,7 +289,7 @@
 
     iget p2, p2, Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;->value1:I
 
-    const p3, 0x7f030131
+    const p3, 0x7f030132
 
     invoke-static {p3, p2}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 

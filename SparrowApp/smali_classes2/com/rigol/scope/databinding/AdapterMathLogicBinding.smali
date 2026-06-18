@@ -4,6 +4,10 @@
 
 
 # instance fields
+.field public final displayMode:Landroid/widget/TextView;
+
+.field public final displayModeSwitch:Lcom/rigol/scope/views/SwitchButton;
+
 .field public final fullRadioButton:Landroid/widget/RadioButton;
 
 .field public final gridType:Landroid/widget/TextView;
@@ -116,187 +120,197 @@
 
 
 # direct methods
-.method protected constructor <init>(Ljava/lang/Object;Landroid/view/View;ILandroid/widget/RadioButton;Landroid/widget/TextView;Landroid/widget/RadioGroup;Landroid/widget/RadioButton;Landroid/widget/TextView;Lcom/rigol/scope/views/baseview/BaseEditText;Lcom/rigol/scope/views/SwitchButton;Landroid/widget/RadioButton;Landroid/view/View;Landroidx/constraintlayout/widget/Guideline;Landroid/widget/ImageButton;Landroid/widget/ImageButton;Landroid/widget/RadioButton;Landroid/widget/RadioButton;Landroid/widget/TextView;Landroid/widget/EditText;Landroid/widget/TextView;Landroid/widget/EditText;Landroid/widget/TextView;Landroid/widget/RadioGroup;Landroid/widget/RadioButton;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/EditText;Landroid/widget/TextView;Landroid/widget/EditText;Landroid/widget/TextView;Landroid/widget/EditText;Landroid/widget/TextView;Landroid/widget/EditText;Landroid/widget/TextView;Lcom/rigol/scope/views/SwitchButton;)V
+.method protected constructor <init>(Ljava/lang/Object;Landroid/view/View;ILandroid/widget/TextView;Lcom/rigol/scope/views/SwitchButton;Landroid/widget/RadioButton;Landroid/widget/TextView;Landroid/widget/RadioGroup;Landroid/widget/RadioButton;Landroid/widget/TextView;Lcom/rigol/scope/views/baseview/BaseEditText;Lcom/rigol/scope/views/SwitchButton;Landroid/widget/RadioButton;Landroid/view/View;Landroidx/constraintlayout/widget/Guideline;Landroid/widget/ImageButton;Landroid/widget/ImageButton;Landroid/widget/RadioButton;Landroid/widget/RadioButton;Landroid/widget/TextView;Landroid/widget/EditText;Landroid/widget/TextView;Landroid/widget/EditText;Landroid/widget/TextView;Landroid/widget/RadioGroup;Landroid/widget/RadioButton;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/EditText;Landroid/widget/TextView;Landroid/widget/EditText;Landroid/widget/TextView;Landroid/widget/EditText;Landroid/widget/TextView;Landroid/widget/EditText;Landroid/widget/TextView;Lcom/rigol/scope/views/SwitchButton;)V
     .locals 2
 
     move-object v0, p0
 
-    .line 168
+    .line 174
     invoke-direct {p0, p1, p2, p3}, Landroidx/databinding/ViewDataBinding;-><init>(Ljava/lang/Object;Landroid/view/View;I)V
 
     move-object v1, p4
 
-    .line 169
-    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->fullRadioButton:Landroid/widget/RadioButton;
+    .line 175
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->displayMode:Landroid/widget/TextView;
 
     move-object v1, p5
 
-    .line 170
-    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->gridType:Landroid/widget/TextView;
+    .line 176
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->displayModeSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     move-object v1, p6
 
-    .line 171
-    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->gridTypeRadioGroup:Landroid/widget/RadioGroup;
+    .line 177
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->fullRadioButton:Landroid/widget/RadioButton;
 
     move-object v1, p7
 
-    .line 172
-    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->halfRadioButton:Landroid/widget/RadioButton;
+    .line 178
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->gridType:Landroid/widget/TextView;
 
     move-object v1, p8
 
-    .line 173
-    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->label:Landroid/widget/TextView;
+    .line 179
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->gridTypeRadioGroup:Landroid/widget/RadioGroup;
 
     move-object v1, p9
 
-    .line 174
-    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->labelEditText:Lcom/rigol/scope/views/baseview/BaseEditText;
+    .line 180
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->halfRadioButton:Landroid/widget/RadioButton;
 
     move-object v1, p10
 
-    .line 175
-    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->labelSwitch:Lcom/rigol/scope/views/SwitchButton;
+    .line 181
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->label:Landroid/widget/TextView;
 
     move-object v1, p11
 
-    .line 176
-    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->largeRadioButton:Landroid/widget/RadioButton;
+    .line 182
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->labelEditText:Lcom/rigol/scope/views/baseview/BaseEditText;
 
     move-object v1, p12
 
-    .line 177
-    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->mathDividingLine:Landroid/view/View;
+    .line 183
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->labelSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     move-object v1, p13
 
-    .line 178
-    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->mathGuidelineCenter:Landroidx/constraintlayout/widget/Guideline;
+    .line 184
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->largeRadioButton:Landroid/widget/RadioButton;
 
     move-object/from16 v1, p14
 
-    .line 179
-    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->mathOffsetDown:Landroid/widget/ImageButton;
+    .line 185
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->mathDividingLine:Landroid/view/View;
 
     move-object/from16 v1, p15
 
-    .line 180
-    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->mathOffsetUp:Landroid/widget/ImageButton;
+    .line 186
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->mathGuidelineCenter:Landroidx/constraintlayout/widget/Guideline;
 
     move-object/from16 v1, p16
 
-    .line 181
-    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->mediumRadioButton:Landroid/widget/RadioButton;
+    .line 187
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->mathOffsetDown:Landroid/widget/ImageButton;
 
     move-object/from16 v1, p17
 
-    .line 182
-    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->noneRadioButton:Landroid/widget/RadioButton;
+    .line 188
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->mathOffsetUp:Landroid/widget/ImageButton;
 
     move-object/from16 v1, p18
 
-    .line 183
-    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->offset:Landroid/widget/TextView;
+    .line 189
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->mediumRadioButton:Landroid/widget/RadioButton;
 
     move-object/from16 v1, p19
 
-    .line 184
-    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->offsetEditText:Landroid/widget/EditText;
+    .line 190
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->noneRadioButton:Landroid/widget/RadioButton;
 
     move-object/from16 v1, p20
 
-    .line 185
-    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->sensitivity:Landroid/widget/TextView;
+    .line 191
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->offset:Landroid/widget/TextView;
 
     move-object/from16 v1, p21
 
-    .line 186
-    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->sensitivityEditText:Landroid/widget/EditText;
+    .line 192
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->offsetEditText:Landroid/widget/EditText;
 
     move-object/from16 v1, p22
 
-    .line 187
-    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->size:Landroid/widget/TextView;
+    .line 193
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->sensitivity:Landroid/widget/TextView;
 
     move-object/from16 v1, p23
 
-    .line 188
-    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->sizeRadioGroup:Landroid/widget/RadioGroup;
+    .line 194
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->sensitivityEditText:Landroid/widget/EditText;
 
     move-object/from16 v1, p24
 
-    .line 189
-    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->smallRadioButton:Landroid/widget/RadioButton;
+    .line 195
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->size:Landroid/widget/TextView;
 
     move-object/from16 v1, p25
 
-    .line 190
-    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->sourceA:Landroid/widget/TextView;
+    .line 196
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->sizeRadioGroup:Landroid/widget/RadioGroup;
 
     move-object/from16 v1, p26
 
-    .line 191
-    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->sourceASpinner:Landroid/widget/TextView;
+    .line 197
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->smallRadioButton:Landroid/widget/RadioButton;
 
     move-object/from16 v1, p27
 
-    .line 192
-    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->sourceB:Landroid/widget/TextView;
+    .line 198
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->sourceA:Landroid/widget/TextView;
 
     move-object/from16 v1, p28
 
-    .line 193
-    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->sourceBSpinner:Landroid/widget/TextView;
+    .line 199
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->sourceASpinner:Landroid/widget/TextView;
 
     move-object/from16 v1, p29
 
-    .line 194
-    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->thresholdCh1:Landroid/widget/TextView;
+    .line 200
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->sourceB:Landroid/widget/TextView;
 
     move-object/from16 v1, p30
 
-    .line 195
-    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->thresholdCh1EditText:Landroid/widget/EditText;
+    .line 201
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->sourceBSpinner:Landroid/widget/TextView;
 
     move-object/from16 v1, p31
 
-    .line 196
-    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->thresholdCh2:Landroid/widget/TextView;
+    .line 202
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->thresholdCh1:Landroid/widget/TextView;
 
     move-object/from16 v1, p32
 
-    .line 197
-    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->thresholdCh2EditText:Landroid/widget/EditText;
+    .line 203
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->thresholdCh1EditText:Landroid/widget/EditText;
 
     move-object/from16 v1, p33
 
-    .line 198
-    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->thresholdCh3:Landroid/widget/TextView;
+    .line 204
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->thresholdCh2:Landroid/widget/TextView;
 
     move-object/from16 v1, p34
 
-    .line 199
-    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->thresholdCh3EditText:Landroid/widget/EditText;
+    .line 205
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->thresholdCh2EditText:Landroid/widget/EditText;
 
     move-object/from16 v1, p35
 
-    .line 200
-    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->thresholdCh4:Landroid/widget/TextView;
+    .line 206
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->thresholdCh3:Landroid/widget/TextView;
 
     move-object/from16 v1, p36
 
-    .line 201
-    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->thresholdCh4EditText:Landroid/widget/EditText;
+    .line 207
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->thresholdCh3EditText:Landroid/widget/EditText;
 
     move-object/from16 v1, p37
 
-    .line 202
-    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->waveType:Landroid/widget/TextView;
+    .line 208
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->thresholdCh4:Landroid/widget/TextView;
 
     move-object/from16 v1, p38
 
-    .line 203
+    .line 209
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->thresholdCh4EditText:Landroid/widget/EditText;
+
+    move-object/from16 v1, p39
+
+    .line 210
+    iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->waveType:Landroid/widget/TextView;
+
+    move-object/from16 v1, p40
+
+    .line 211
     iput-object v1, v0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->waveTypeSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     return-void
@@ -305,7 +319,7 @@
 .method public static bind(Landroid/view/View;)Lcom/rigol/scope/databinding/AdapterMathLogicBinding;
     .locals 1
 
-    .line 302
+    .line 310
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -324,7 +338,7 @@
 
     const v0, 0x7f0d0071
 
-    .line 314
+    .line 322
     invoke-static {p1, p0, v0}, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->bind(Ljava/lang/Object;Landroid/view/View;I)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0
@@ -337,7 +351,7 @@
 .method public static inflate(Landroid/view/LayoutInflater;)Lcom/rigol/scope/databinding/AdapterMathLogicBinding;
     .locals 1
 
-    .line 284
+    .line 292
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -352,7 +366,7 @@
 .method public static inflate(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lcom/rigol/scope/databinding/AdapterMathLogicBinding;
     .locals 1
 
-    .line 265
+    .line 273
     invoke-static {}, Landroidx/databinding/DataBindingUtil;->getDefaultComponent()Landroidx/databinding/DataBindingComponent;
 
     move-result-object v0
@@ -371,7 +385,7 @@
 
     const v0, 0x7f0d0071
 
-    .line 279
+    .line 287
     invoke-static {p0, v0, p1, p2, p3}, Landroidx/databinding/ViewDataBinding;->inflateInternal(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;ZLjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0
@@ -392,7 +406,7 @@
 
     const/4 v2, 0x0
 
-    .line 298
+    .line 306
     invoke-static {p0, v0, v1, v2, p1}, Landroidx/databinding/ViewDataBinding;->inflateInternal(Landroid/view/LayoutInflater;ILandroid/view/ViewGroup;ZLjava/lang/Object;)Landroidx/databinding/ViewDataBinding;
 
     move-result-object p0
@@ -407,7 +421,7 @@
 .method public getGridFullMapping()Lcom/rigol/scope/data/MappingObject;
     .locals 1
 
-    .line 245
+    .line 253
     iget-object v0, p0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->mGridFullMapping:Lcom/rigol/scope/data/MappingObject;
 
     return-object v0
@@ -416,7 +430,7 @@
 .method public getGridHalfMapping()Lcom/rigol/scope/data/MappingObject;
     .locals 1
 
-    .line 252
+    .line 260
     iget-object v0, p0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->mGridHalfMapping:Lcom/rigol/scope/data/MappingObject;
 
     return-object v0
@@ -425,7 +439,7 @@
 .method public getGridNoneMapping()Lcom/rigol/scope/data/MappingObject;
     .locals 1
 
-    .line 259
+    .line 267
     iget-object v0, p0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->mGridNoneMapping:Lcom/rigol/scope/data/MappingObject;
 
     return-object v0
@@ -434,7 +448,7 @@
 .method public getItemPosition()Ljava/lang/Integer;
     .locals 1
 
-    .line 217
+    .line 225
     iget-object v0, p0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->mItemPosition:Ljava/lang/Integer;
 
     return-object v0
@@ -443,7 +457,7 @@
 .method public getLargeMapping()Lcom/rigol/scope/data/MappingObject;
     .locals 1
 
-    .line 238
+    .line 246
     iget-object v0, p0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->mLargeMapping:Lcom/rigol/scope/data/MappingObject;
 
     return-object v0
@@ -452,7 +466,7 @@
 .method public getMediumMapping()Lcom/rigol/scope/data/MappingObject;
     .locals 1
 
-    .line 231
+    .line 239
     iget-object v0, p0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->mMediumMapping:Lcom/rigol/scope/data/MappingObject;
 
     return-object v0
@@ -461,7 +475,7 @@
 .method public getParam()Lcom/rigol/scope/data/MathParam;
     .locals 1
 
-    .line 210
+    .line 218
     iget-object v0, p0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->mParam:Lcom/rigol/scope/data/MathParam;
 
     return-object v0
@@ -470,7 +484,7 @@
 .method public getSmallMapping()Lcom/rigol/scope/data/MappingObject;
     .locals 1
 
-    .line 224
+    .line 232
     iget-object v0, p0, Lcom/rigol/scope/databinding/AdapterMathLogicBinding;->mSmallMapping:Lcom/rigol/scope/data/MappingObject;
 
     return-object v0

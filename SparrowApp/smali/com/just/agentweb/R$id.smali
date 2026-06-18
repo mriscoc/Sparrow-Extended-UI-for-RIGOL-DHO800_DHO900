@@ -16,11 +16,11 @@
 # static fields
 .field public static final agentweb_webview_id:I = 0x7f0a00a0
 
-.field public static final mainframe_error_container_id:I = 0x7f0a0624
+.field public static final mainframe_error_container_id:I = 0x7f0a062c
 
-.field public static final mainframe_error_viewsub_id:I = 0x7f0a0625
+.field public static final mainframe_error_viewsub_id:I = 0x7f0a062d
 
-.field public static final web_parent_layout_id:I = 0x7f0a0b26
+.field public static final web_parent_layout_id:I = 0x7f0a0b32
 
 
 # direct methods

@@ -25,7 +25,7 @@
 .method constructor <init>(Lcom/rigol/scope/adapters/MathLogicAdapter;)V
     .locals 0
 
-    .line 556
+    .line 563
     iput-object p1, p0, Lcom/rigol/scope/adapters/MathLogicAdapter$10;->this$0:Lcom/rigol/scope/adapters/MathLogicAdapter;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +38,7 @@
 .method public synthetic lambda$onClick$0$MathLogicAdapter$10(Ljava/lang/String;)V
     .locals 1
 
-    .line 561
+    .line 568
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathLogicAdapter$10;->this$0:Lcom/rigol/scope/adapters/MathLogicAdapter;
 
     invoke-static {v0}, Lcom/rigol/scope/adapters/MathLogicAdapter;->access$400(Lcom/rigol/scope/adapters/MathLogicAdapter;)Lcom/rigol/scope/data/MathParam;
@@ -53,7 +53,7 @@
 .method public onClick(Landroid/view/View;)V
     .locals 3
 
-    .line 560
+    .line 567
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathLogicAdapter$10;->this$0:Lcom/rigol/scope/adapters/MathLogicAdapter;
 
     invoke-static {v0}, Lcom/rigol/scope/adapters/MathLogicAdapter;->access$000(Lcom/rigol/scope/adapters/MathLogicAdapter;)Landroid/content/Context;

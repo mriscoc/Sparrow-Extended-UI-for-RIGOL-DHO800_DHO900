@@ -157,7 +157,7 @@
     return p2
 .end method
 
-.method public synthetic lambda$onBindViewHolder$0$LaViewPagerAdapter$LaSeniorDelegate(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
+.method public synthetic lambda$null$0$LaViewPagerAdapter$LaSeniorDelegate(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
     .locals 0
 
     .line 440
@@ -166,7 +166,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$onBindViewHolder$1$LaViewPagerAdapter$LaSeniorDelegate(ILcom/rigol/scope/data/MappingObject;)V
+.method public synthetic lambda$null$1$LaViewPagerAdapter$LaSeniorDelegate(ILcom/rigol/scope/data/MappingObject;)V
     .locals 1
 
     .line 441
@@ -176,7 +176,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a05b4
+    const v0, 0x7f0a05bc
 
     if-ne p1, v0, :cond_0
 
@@ -209,7 +209,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a05ba
+    const v0, 0x7f0a05c2
 
     if-ne p1, v0, :cond_1
 
@@ -242,7 +242,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a05b3
+    const v0, 0x7f0a05bb
 
     if-ne p1, v0, :cond_2
 
@@ -275,7 +275,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a05bb
+    const v0, 0x7f0a05c3
 
     if-ne p1, v0, :cond_3
 
@@ -334,13 +334,13 @@
 
     iget-object v8, p0, Lcom/rigol/scope/adapters/LaViewPagerAdapter$LaSeniorDelegate;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
 
-    new-instance v9, Lcom/rigol/scope/adapters/-$$Lambda$LaViewPagerAdapter$LaSeniorDelegate$OzOUh0pcATVihPDHs2ghLiMVrVA;
+    new-instance v9, Lcom/rigol/scope/adapters/-$$Lambda$LaViewPagerAdapter$LaSeniorDelegate$BwczWxRQDxf2t-oFpfY9HNrdgfM;
 
-    invoke-direct {v9, p0}, Lcom/rigol/scope/adapters/-$$Lambda$LaViewPagerAdapter$LaSeniorDelegate$OzOUh0pcATVihPDHs2ghLiMVrVA;-><init>(Lcom/rigol/scope/adapters/LaViewPagerAdapter$LaSeniorDelegate;)V
+    invoke-direct {v9, p0}, Lcom/rigol/scope/adapters/-$$Lambda$LaViewPagerAdapter$LaSeniorDelegate$BwczWxRQDxf2t-oFpfY9HNrdgfM;-><init>(Lcom/rigol/scope/adapters/LaViewPagerAdapter$LaSeniorDelegate;)V
 
-    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$LaViewPagerAdapter$LaSeniorDelegate$gIWpu0UHIcEs1EC8BdqITFV2E0A;
+    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$LaViewPagerAdapter$LaSeniorDelegate$REtVjKr9KY1eWwUxR3RWioTLHrY;
 
-    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$LaViewPagerAdapter$LaSeniorDelegate$gIWpu0UHIcEs1EC8BdqITFV2E0A;-><init>(Lcom/rigol/scope/adapters/LaViewPagerAdapter$LaSeniorDelegate;)V
+    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$LaViewPagerAdapter$LaSeniorDelegate$REtVjKr9KY1eWwUxR3RWioTLHrY;-><init>(Lcom/rigol/scope/adapters/LaViewPagerAdapter$LaSeniorDelegate;)V
 
     move-object v2, p1
 
@@ -1030,7 +1030,7 @@
 
     if-eq p1, v0, :cond_2
 
-    const v0, 0x7f0a0810
+    const v0, 0x7f0a081c
 
     if-eq p1, v0, :cond_1
 
@@ -1436,14 +1436,14 @@
 
     move-result v0
 
-    const v1, 0x7f030155
+    const v1, 0x7f030156
 
     sparse-switch v0, :sswitch_data_0
 
     goto/16 :goto_0
 
     :sswitch_0
-    const v0, 0x7f030152
+    const v0, 0x7f030153
 
     .line 480
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1520,7 +1520,7 @@
     goto :goto_0
 
     :sswitch_3
-    const v0, 0x7f030154
+    const v0, 0x7f030155
 
     .line 493
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1622,13 +1622,13 @@
 
     :sswitch_data_0
     .sparse-switch
-        0x7f0a05aa -> :sswitch_6
-        0x7f0a05ab -> :sswitch_5
-        0x7f0a05b3 -> :sswitch_4
-        0x7f0a05b4 -> :sswitch_3
-        0x7f0a05ba -> :sswitch_2
-        0x7f0a05bb -> :sswitch_1
-        0x7f0a05bd -> :sswitch_0
+        0x7f0a05b2 -> :sswitch_6
+        0x7f0a05b3 -> :sswitch_5
+        0x7f0a05bb -> :sswitch_4
+        0x7f0a05bc -> :sswitch_3
+        0x7f0a05c2 -> :sswitch_2
+        0x7f0a05c3 -> :sswitch_1
+        0x7f0a05c5 -> :sswitch_0
     .end sparse-switch
 .end method
 

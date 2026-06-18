@@ -1043,7 +1043,7 @@
 
     move-result-object p2
 
-    .line 385
+    .line 387
     array-length v4, p2
 
     const/4 v5, 0x0
@@ -1057,18 +1057,23 @@
 
     aget-object v8, p2, v6
 
-    const-string v9, "255"
-
-    .line 387
-    invoke-virtual {v9, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    .line 388
+    invoke-static {v8}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result v8
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_5
 
-    if-eqz v8, :cond_0
+    :goto_1
+    if-lez v8, :cond_0
 
-    add-int/lit8 v7, v7, 0x1
+    and-int/lit8 v9, v8, 0x1
+
+    add-int/2addr v7, v9
+
+    shr-int/lit8 v8, v8, 0x1
+
+    goto :goto_1
 
     :cond_0
     add-int/lit8 v6, v6, 0x1
@@ -1076,14 +1081,12 @@
     goto :goto_0
 
     :cond_1
-    mul-int/lit8 v7, v7, 0x8
-
     const/4 p2, 0x0
 
     :try_start_1
     const-string v4, "android.net.LinkAddress"
 
-    .line 401
+    .line 402
     invoke-static {v4}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     move-result-object v4
@@ -1091,23 +1094,23 @@
     .catch Ljava/lang/ClassNotFoundException; {:try_start_1 .. :try_end_1} :catch_0
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_5
 
-    goto :goto_1
+    goto :goto_2
 
     :catch_0
     move-exception v4
 
-    .line 404
+    .line 405
     :try_start_2
     invoke-virtual {v4}, Ljava/lang/ClassNotFoundException;->printStackTrace()V
 
     move-object v4, p2
 
-    :goto_1
+    :goto_2
     const/4 v6, 0x2
 
     new-array v8, v6, [Ljava/lang/Class;
 
-    .line 406
+    .line 407
     const-class v9, Ljava/net/InetAddress;
 
     aput-object v9, v8, v5
@@ -1120,7 +1123,7 @@
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_5
 
-    .line 411
+    .line 412
     :try_start_3
     invoke-virtual {v4, v8}, Ljava/lang/Class;->getConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
@@ -1129,23 +1132,23 @@
     .catch Ljava/lang/NoSuchMethodException; {:try_start_3 .. :try_end_3} :catch_1
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_5
 
-    goto :goto_2
+    goto :goto_3
 
     :catch_1
     move-exception v4
 
-    .line 414
+    .line 415
     :try_start_4
     invoke-virtual {v4}, Ljava/lang/NoSuchMethodException;->printStackTrace()V
 
     move-object v4, p2
 
-    :goto_2
+    :goto_3
     new-array v6, v6, [Ljava/lang/Object;
 
     aput-object p1, v6, v5
 
-    .line 417
+    .line 418
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
@@ -1154,7 +1157,7 @@
     :try_end_4
     .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_5
 
-    .line 422
+    .line 423
     :try_start_5
     invoke-virtual {v4, v6}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1169,50 +1172,50 @@
     .catch Ljava/lang/reflect/InvocationTargetException; {:try_start_5 .. :try_end_5} :catch_2
     .catch Ljava/lang/Exception; {:try_start_5 .. :try_end_5} :catch_5
 
-    goto :goto_4
+    goto :goto_5
 
     :catch_2
     move-exception p1
 
-    goto :goto_3
+    goto :goto_4
 
     :catch_3
     move-exception p1
 
-    goto :goto_3
+    goto :goto_4
 
     :catch_4
     move-exception p1
 
-    .line 425
-    :goto_3
+    .line 426
+    :goto_4
     :try_start_6
     invoke-virtual {p1}, Ljava/lang/ReflectiveOperationException;->printStackTrace()V
 
-    .line 429
-    :goto_4
+    .line 430
+    :goto_5
     invoke-static {p3}, Landroid/net/NetworkUtils;->numericToInetAddress(Ljava/lang/String;)Ljava/net/InetAddress;
 
     move-result-object p1
 
-    .line 431
+    .line 432
     new-instance p3, Ljava/util/ArrayList;
 
     invoke-direct {p3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 433
+    .line 434
     invoke-virtual {p4, v2}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v4
 
     if-eqz v4, :cond_2
 
-    .line 435
+    .line 436
     invoke-virtual {p4, v2}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object p4
 
-    .line 436
+    .line 437
     aget-object p4, p4, v5
 
     invoke-static {p4}, Landroid/net/NetworkUtils;->numericToInetAddress(Ljava/lang/String;)Ljava/net/InetAddress;
@@ -1221,9 +1224,9 @@
 
     invoke-virtual {p3, p4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    goto :goto_5
+    goto :goto_6
 
-    .line 440
+    .line 441
     :cond_2
     invoke-static {p4}, Landroid/net/NetworkUtils;->numericToInetAddress(Ljava/lang/String;)Ljava/net/InetAddress;
 
@@ -1231,23 +1234,23 @@
 
     invoke-virtual {p3, p4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 443
-    :goto_5
+    .line 444
+    :goto_6
     iput-object p1, v3, Landroid/net/StaticIpConfiguration;->gateway:Ljava/net/InetAddress;
 
-    .line 444
+    .line 445
     iget-object p1, v3, Landroid/net/StaticIpConfiguration;->dnsServers:Ljava/util/ArrayList;
 
     invoke-virtual {p1, p3}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
-    .line 450
+    .line 451
     new-instance p1, Landroid/net/IpConfiguration;
 
     sget-object p3, Landroid/net/IpConfiguration$IpAssignment;->STATIC:Landroid/net/IpConfiguration$IpAssignment;
 
     sget-object p4, Landroid/net/IpConfiguration$ProxySettings;->NONE:Landroid/net/IpConfiguration$ProxySettings;
 
-    .line 452
+    .line 453
     invoke-static {p2, v5}, Landroid/net/ProxyInfo;->buildDirectProxy(Ljava/lang/String;I)Landroid/net/ProxyInfo;
 
     move-result-object p2
@@ -1256,7 +1259,7 @@
 
     const-string p2, "ethernet"
 
-    .line 459
+    .line 460
     invoke-virtual {p0, p2}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p0
@@ -1265,36 +1268,36 @@
 
     if-eqz p0, :cond_3
 
-    .line 462
+    .line 463
     invoke-virtual {p0, p1}, Landroid/net/EthernetManager;->setConfiguration(Landroid/net/IpConfiguration;)V
 
-    .line 464
+    .line 465
     invoke-virtual {p0, v1}, Landroid/net/EthernetManager;->disconnect(Ljava/lang/String;)V
 
     const-string p1, "disconnect"
 
-    .line 465
+    .line 466
     invoke-static {v0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 466
+    .line 467
     invoke-virtual {p0, v1}, Landroid/net/EthernetManager;->reconnect(Ljava/lang/String;)V
 
     const-string p0, "reconnect"
 
-    .line 467
+    .line 468
     invoke-static {v0, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
     :try_end_6
     .catch Ljava/lang/Exception; {:try_start_6 .. :try_end_6} :catch_5
 
-    goto :goto_6
+    goto :goto_7
 
     :catch_5
     move-exception p0
 
-    .line 471
+    .line 472
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
     :cond_3
-    :goto_6
+    :goto_7
     return-void
 .end method

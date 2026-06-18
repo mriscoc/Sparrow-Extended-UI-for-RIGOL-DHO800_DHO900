@@ -37,13 +37,13 @@
     return-void
 .end method
 
-.method static synthetic lambda$onClick$0(Lcom/blankj/utilcode/util/ShellUtils$CommandResult;)V
+.method static synthetic lambda$null$0(Lcom/blankj/utilcode/util/ShellUtils$CommandResult;)V
     .locals 0
 
     return-void
 .end method
 
-.method static synthetic lambda$onClick$1()V
+.method static synthetic lambda$null$1()V
     .locals 2
 
     const-string v0, "sys.hdmi_status.aux"
@@ -157,14 +157,20 @@
     invoke-virtual {p1, p0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 209
-    sget-object p0, Lcom/rigol/scope/adapters/-$$Lambda$UtilityOtherSettingAdapter$1$V3dVL8nHdHjMKxF2gRmdy-apHIo;->INSTANCE:Lcom/rigol/scope/adapters/-$$Lambda$UtilityOtherSettingAdapter$1$V3dVL8nHdHjMKxF2gRmdy-apHIo;
+    sget-object p0, Lcom/rigol/scope/adapters/-$$Lambda$UtilityOtherSettingAdapter$1$lmFGFKMOGMN3EvoEd7jxQmPm1g8;->INSTANCE:Lcom/rigol/scope/adapters/-$$Lambda$UtilityOtherSettingAdapter$1$lmFGFKMOGMN3EvoEd7jxQmPm1g8;
 
     const/4 p2, 0x1
 
     invoke-static {p1, p2, p0}, Lcom/blankj/utilcode/util/ShellUtils;->execCmdAsync(Ljava/util/List;ZLcom/blankj/utilcode/util/Utils$Consumer;)Lcom/blankj/utilcode/util/Utils$Task;
 
     .line 210
-    invoke-static {p2}, Lcom/rigol/scope/adapters/UtilityOtherSettingAdapter;->access$112(I)I
+    invoke-static {}, Lcom/rigol/scope/adapters/UtilityOtherSettingAdapter;->access$100()I
+
+    move-result p0
+
+    add-int/2addr p0, p2
+
+    invoke-static {p0}, Lcom/rigol/scope/adapters/UtilityOtherSettingAdapter;->access$102(I)I
 
     const-string p0, "persist.sys.rotation.efull"
 
@@ -185,7 +191,7 @@
 
     invoke-direct {p0}, Landroid/os/Handler;-><init>()V
 
-    sget-object p1, Lcom/rigol/scope/adapters/-$$Lambda$UtilityOtherSettingAdapter$1$B_oAOm9a2-kRToQQXNWnJF5aAB0;->INSTANCE:Lcom/rigol/scope/adapters/-$$Lambda$UtilityOtherSettingAdapter$1$B_oAOm9a2-kRToQQXNWnJF5aAB0;
+    sget-object p1, Lcom/rigol/scope/adapters/-$$Lambda$UtilityOtherSettingAdapter$1$wTBjcXBvEtdnHj6KADSwcNweF-M;->INSTANCE:Lcom/rigol/scope/adapters/-$$Lambda$UtilityOtherSettingAdapter$1$wTBjcXBvEtdnHj6KADSwcNweF-M;
 
     const-wide/16 p2, 0x1f4
 
@@ -193,6 +199,8 @@
 
     :cond_0
     return-void
+
+    nop
 
     :pswitch_data_0
     .packed-switch 0x1

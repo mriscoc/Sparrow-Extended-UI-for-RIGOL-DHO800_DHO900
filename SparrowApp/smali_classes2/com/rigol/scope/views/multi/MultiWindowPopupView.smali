@@ -380,7 +380,7 @@
 
     const/16 v1, 0x24
 
-    const/16 v2, 0x2b07
+    const/16 v2, 0x2d07
 
     .line 187
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -1245,7 +1245,7 @@
     .line 352
     iget-object v0, p0, Lcom/rigol/scope/views/multi/MultiWindowPopupView;->sourceArrayId:Landroidx/databinding/ObservableInt;
 
-    const v1, 0x7f030174
+    const v1, 0x7f030176
 
     invoke-virtual {v0, v1}, Landroidx/databinding/ObservableInt;->set(I)V
 
@@ -1260,7 +1260,7 @@
     .line 354
     iget-object v0, p0, Lcom/rigol/scope/views/multi/MultiWindowPopupView;->sourceArrayId:Landroidx/databinding/ObservableInt;
 
-    const v1, 0x7f030139
+    const v1, 0x7f03013a
 
     invoke-virtual {v0, v1}, Landroidx/databinding/ObservableInt;->set(I)V
 
@@ -1275,7 +1275,7 @@
     .line 356
     iget-object v0, p0, Lcom/rigol/scope/views/multi/MultiWindowPopupView;->sourceArrayId:Landroidx/databinding/ObservableInt;
 
-    const v1, 0x7f030129
+    const v1, 0x7f03012a
 
     invoke-virtual {v0, v1}, Landroidx/databinding/ObservableInt;->set(I)V
 
@@ -1300,7 +1300,7 @@
     .line 363
     iget-object v0, p0, Lcom/rigol/scope/views/multi/MultiWindowPopupView;->typeArrayId:Landroidx/databinding/ObservableInt;
 
-    const v2, 0x7f030170
+    const v2, 0x7f030172
 
     invoke-virtual {v0, v2}, Landroidx/databinding/ObservableInt;->set(I)V
 
@@ -1747,66 +1747,6 @@
     return-void
 .end method
 
-.method public synthetic lambda$new$6$MultiWindowPopupView(ILcom/rigol/scope/data/MappingObject;)V
-    .locals 0
-
-    .line 242
-    iget-object p1, p0, Lcom/rigol/scope/views/multi/MultiWindowPopupView;->clickedView:Landroid/view/View;
-
-    if-nez p1, :cond_0
-
-    return-void
-
-    .line 243
-    :cond_0
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
-
-    move-result p1
-
-    packed-switch p1, :pswitch_data_0
-
-    :pswitch_0
-    goto :goto_0
-
-    .line 254
-    :pswitch_1
-    invoke-direct {p0, p2}, Lcom/rigol/scope/views/multi/MultiWindowPopupView;->selectSourceC(Lcom/rigol/scope/data/MappingObject;)V
-
-    goto :goto_0
-
-    .line 251
-    :pswitch_2
-    invoke-direct {p0, p2}, Lcom/rigol/scope/views/multi/MultiWindowPopupView;->selectSourceB(Lcom/rigol/scope/data/MappingObject;)V
-
-    goto :goto_0
-
-    .line 248
-    :pswitch_3
-    invoke-direct {p0, p2}, Lcom/rigol/scope/views/multi/MultiWindowPopupView;->selectSourceA(Lcom/rigol/scope/data/MappingObject;)V
-
-    goto :goto_0
-
-    .line 245
-    :pswitch_4
-    invoke-direct {p0, p2}, Lcom/rigol/scope/views/multi/MultiWindowPopupView;->selectWindowType(Lcom/rigol/scope/data/MappingObject;)V
-
-    :goto_0
-    return-void
-
-    nop
-
-    :pswitch_data_0
-    .packed-switch 0x7f0a04f5
-        :pswitch_4
-        :pswitch_0
-        :pswitch_3
-        :pswitch_0
-        :pswitch_2
-        :pswitch_0
-        :pswitch_1
-    .end packed-switch
-.end method
-
 .method public synthetic lambda$new$7$MultiWindowPopupView(Landroid/view/KeyEvent;)V
     .locals 11
 
@@ -1840,9 +1780,9 @@
 
     const/4 v9, 0x0
 
-    new-instance v10, Lcom/rigol/scope/views/multi/-$$Lambda$MultiWindowPopupView$SeCllL8xaDokgeinGYLzEncChBk;
+    new-instance v10, Lcom/rigol/scope/views/multi/-$$Lambda$MultiWindowPopupView$PoJZ9c5v-l1YIUoZg-WOw8fH7tw;
 
-    invoke-direct {v10, p0}, Lcom/rigol/scope/views/multi/-$$Lambda$MultiWindowPopupView$SeCllL8xaDokgeinGYLzEncChBk;-><init>(Lcom/rigol/scope/views/multi/MultiWindowPopupView;)V
+    invoke-direct {v10, p0}, Lcom/rigol/scope/views/multi/-$$Lambda$MultiWindowPopupView$PoJZ9c5v-l1YIUoZg-WOw8fH7tw;-><init>(Lcom/rigol/scope/views/multi/MultiWindowPopupView;)V
 
     move-object v2, p1
 
@@ -1887,7 +1827,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1010b1
+    const p2, 0x7f1010c4
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1970,7 +1910,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1010b1
+    const p2, 0x7f1010c4
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2016,6 +1956,66 @@
     invoke-direct {p0}, Lcom/rigol/scope/views/multi/MultiWindowPopupView;->refreshUI()V
 
     return-void
+.end method
+
+.method public synthetic lambda$null$6$MultiWindowPopupView(ILcom/rigol/scope/data/MappingObject;)V
+    .locals 0
+
+    .line 242
+    iget-object p1, p0, Lcom/rigol/scope/views/multi/MultiWindowPopupView;->clickedView:Landroid/view/View;
+
+    if-nez p1, :cond_0
+
+    return-void
+
+    .line 243
+    :cond_0
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    move-result p1
+
+    packed-switch p1, :pswitch_data_0
+
+    :pswitch_0
+    goto :goto_0
+
+    .line 254
+    :pswitch_1
+    invoke-direct {p0, p2}, Lcom/rigol/scope/views/multi/MultiWindowPopupView;->selectSourceC(Lcom/rigol/scope/data/MappingObject;)V
+
+    goto :goto_0
+
+    .line 251
+    :pswitch_2
+    invoke-direct {p0, p2}, Lcom/rigol/scope/views/multi/MultiWindowPopupView;->selectSourceB(Lcom/rigol/scope/data/MappingObject;)V
+
+    goto :goto_0
+
+    .line 248
+    :pswitch_3
+    invoke-direct {p0, p2}, Lcom/rigol/scope/views/multi/MultiWindowPopupView;->selectSourceA(Lcom/rigol/scope/data/MappingObject;)V
+
+    goto :goto_0
+
+    .line 245
+    :pswitch_4
+    invoke-direct {p0, p2}, Lcom/rigol/scope/views/multi/MultiWindowPopupView;->selectWindowType(Lcom/rigol/scope/data/MappingObject;)V
+
+    :goto_0
+    return-void
+
+    nop
+
+    :pswitch_data_0
+    .packed-switch 0x7f0a04f7
+        :pswitch_4
+        :pswitch_0
+        :pswitch_3
+        :pswitch_0
+        :pswitch_2
+        :pswitch_0
+        :pswitch_1
+    .end packed-switch
 .end method
 
 .method public synthetic lambda$onClick$10$MultiWindowPopupView(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
@@ -2358,7 +2358,7 @@
 
     const/16 v3, 0x11
 
-    const v4, 0x7f0a04f7
+    const v4, 0x7f0a04f9
 
     if-ne v0, v4, :cond_6
 
@@ -2570,7 +2570,7 @@
 
     move-result v0
 
-    const v4, 0x7f0a04f9
+    const v4, 0x7f0a04fb
 
     if-ne v0, v4, :cond_d
 
@@ -2790,7 +2790,7 @@
 
     move-result v0
 
-    const v1, 0x7f0a04fb
+    const v1, 0x7f0a04fd
 
     if-ne v0, v1, :cond_e
 
@@ -2828,7 +2828,7 @@
 
     move-result v0
 
-    const v1, 0x7f0a04f5
+    const v1, 0x7f0a04f7
 
     if-ne v0, v1, :cond_10
 
@@ -2843,7 +2843,7 @@
 
     if-ne v0, v1, :cond_f
 
-    const v0, 0x7f030170
+    const v0, 0x7f030172
 
     .line 624
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -2917,7 +2917,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a06b1
+    const v0, 0x7f0a06bb
 
     if-ne p1, v0, :cond_1a
 

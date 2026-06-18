@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterRtsaPeakBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a06e2
+    const v1, 0x7f0a06ec
 
     const/16 v2, 0x8
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterRtsaPeakBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a06e9
+    const v1, 0x7f0a06f5
 
     const/16 v2, 0x9
 
@@ -45,7 +45,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/AdapterRtsaPeakBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a06f4
+    const v1, 0x7f0a0700
 
     const/16 v2, 0xa
 
@@ -54,7 +54,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/AdapterRtsaPeakBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0694
+    const v1, 0x7f0a069e
 
     const/16 v2, 0xb
 
@@ -63,7 +63,7 @@
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/AdapterRtsaPeakBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a07b2
+    const v1, 0x7f0a07be
 
     const/16 v2, 0xc
 
@@ -72,7 +72,7 @@
     .line 22
     sget-object v0, Lcom/rigol/scope/databinding/AdapterRtsaPeakBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a05ee
+    const v1, 0x7f0a05f6
 
     const/16 v2, 0xd
 
@@ -81,7 +81,7 @@
     .line 23
     sget-object v0, Lcom/rigol/scope/databinding/AdapterRtsaPeakBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a07e8
+    const v1, 0x7f0a07f4
 
     const/16 v2, 0xe
 
@@ -90,7 +90,7 @@
     .line 24
     sget-object v0, Lcom/rigol/scope/databinding/AdapterRtsaPeakBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0844
+    const v1, 0x7f0a0850
 
     const/16 v2, 0xf
 
@@ -99,7 +99,7 @@
     .line 25
     sget-object v0, Lcom/rigol/scope/databinding/AdapterRtsaPeakBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a06e4
+    const v1, 0x7f0a06f0
 
     const/16 v2, 0x10
 
@@ -108,7 +108,7 @@
     .line 26
     sget-object v0, Lcom/rigol/scope/databinding/AdapterRtsaPeakBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08e3
+    const v1, 0x7f0a08ef
 
     const/16 v2, 0x11
 
@@ -117,7 +117,7 @@
     .line 27
     sget-object v0, Lcom/rigol/scope/databinding/AdapterRtsaPeakBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0425
+    const v1, 0x7f0a0427
 
     const/16 v2, 0x12
 
@@ -126,7 +126,7 @@
     .line 28
     sget-object v0, Lcom/rigol/scope/databinding/AdapterRtsaPeakBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a06f3
+    const v1, 0x7f0a06ff
 
     const/16 v2, 0x13
 
@@ -135,7 +135,7 @@
     .line 29
     sget-object v0, Lcom/rigol/scope/databinding/AdapterRtsaPeakBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a06f0
+    const v1, 0x7f0a06fc
 
     const/16 v2, 0x14
 
@@ -144,7 +144,7 @@
     .line 30
     sget-object v0, Lcom/rigol/scope/databinding/AdapterRtsaPeakBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a06f1
+    const v1, 0x7f0a06fd
 
     const/16 v2, 0x15
 
@@ -153,7 +153,7 @@
     .line 31
     sget-object v0, Lcom/rigol/scope/databinding/AdapterRtsaPeakBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0893
+    const v1, 0x7f0a089f
 
     const/16 v2, 0x16
 
@@ -162,7 +162,7 @@
     .line 32
     sget-object v0, Lcom/rigol/scope/databinding/AdapterRtsaPeakBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0894
+    const v1, 0x7f0a08a0
 
     const/16 v2, 0x17
 
@@ -448,7 +448,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -520,7 +520,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -592,7 +592,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x3a7
+    const/16 v0, 0x3ab
 
     if-ne p2, v0, :cond_1
 
@@ -664,7 +664,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x25e
+    const/16 v0, 0x260
 
     if-ne p2, v0, :cond_1
 
@@ -696,7 +696,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x264
+    const/16 v0, 0x266
 
     if-ne p2, v0, :cond_2
 
@@ -728,7 +728,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x269
+    const/16 v0, 0x26b
 
     if-ne p2, v0, :cond_3
 
@@ -760,7 +760,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x260
+    const/16 v0, 0x262
 
     if-ne p2, v0, :cond_4
 
@@ -792,7 +792,7 @@
     throw p1
 
     :cond_4
-    const/16 v0, 0x267
+    const/16 v0, 0x269
 
     if-ne p2, v0, :cond_5
 
@@ -824,7 +824,7 @@
     throw p1
 
     :cond_5
-    const/16 v0, 0x265
+    const/16 v0, 0x267
 
     if-ne p2, v0, :cond_6
 
@@ -1648,7 +1648,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x17b
+    const/16 p1, 0x17c
 
     .line 157
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterRtsaPeakBindingImpl;->notifyPropertyChanged(I)V
@@ -1699,7 +1699,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x252
+    const/16 p1, 0x254
 
     .line 148
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterRtsaPeakBindingImpl;->notifyPropertyChanged(I)V
@@ -1748,7 +1748,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v1, 0x252
+    const/16 v1, 0x254
 
     if-ne v1, p1, :cond_2
 
@@ -1760,7 +1760,7 @@
     goto :goto_0
 
     :cond_2
-    const/16 v1, 0x17b
+    const/16 v1, 0x17c
 
     if-ne v1, p1, :cond_3
 

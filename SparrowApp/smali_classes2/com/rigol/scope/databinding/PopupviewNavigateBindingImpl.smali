@@ -24,7 +24,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/PopupviewNavigateBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a064c
+    const v1, 0x7f0a0654
 
     const/16 v2, 0x17
 
@@ -34,7 +34,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewNavigateBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0847
+    const v1, 0x7f0a0853
 
     const/16 v2, 0x18
 
@@ -43,7 +43,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewNavigateBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a78
+    const v1, 0x7f0a0a84
 
     const/16 v2, 0x19
 
@@ -52,7 +52,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewNavigateBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a07f6
+    const v1, 0x7f0a0802
 
     const/16 v2, 0x1a
 
@@ -61,7 +61,7 @@
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewNavigateBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a049e
+    const v1, 0x7f0a04a0
 
     const/16 v2, 0x1b
 
@@ -79,7 +79,7 @@
     .line 23
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewNavigateBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a05f7
+    const v1, 0x7f0a05ff
 
     const/16 v2, 0x1d
 
@@ -547,7 +547,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x22c
+    const/16 v0, 0x22e
 
     if-ne p2, v0, :cond_1
 
@@ -579,7 +579,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x317
+    const/16 v0, 0x31b
 
     if-ne p2, v0, :cond_2
 
@@ -611,7 +611,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x19c
+    const/16 v0, 0x19d
 
     if-ne p2, v0, :cond_3
 
@@ -643,7 +643,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x3a9
+    const/16 v0, 0x3ad
 
     if-ne p2, v0, :cond_4
 
@@ -675,7 +675,7 @@
     throw p1
 
     :cond_4
-    const/16 v0, 0x327
+    const/16 v0, 0x32b
 
     if-ne p2, v0, :cond_5
 
@@ -867,7 +867,7 @@
     throw p1
 
     :cond_a
-    const/16 v0, 0x20c
+    const/16 v0, 0x20d
 
     if-ne p2, v0, :cond_b
 
@@ -1215,7 +1215,7 @@
     const/4 v10, 0x0
 
     :goto_2
-    const v11, 0x7f0301c4
+    const v11, 0x7f0301c6
 
     .line 394
     invoke-static {v11, v10}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -1348,7 +1348,7 @@
     const/4 v11, 0x0
 
     :goto_a
-    const v8, 0x7f03017d
+    const v8, 0x7f03017f
 
     .line 438
     invoke-static {v8, v11}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -1433,7 +1433,7 @@
     const/4 v13, 0x0
 
     :goto_e
-    const v12, 0x7f030180
+    const v12, 0x7f030182
 
     .line 467
     invoke-static {v12, v13}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -1816,7 +1816,7 @@
     const/4 v4, 0x0
 
     :goto_1c
-    const v5, 0x7f030180
+    const v5, 0x7f030182
 
     .line 550
     invoke-static {v5, v4}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -2448,7 +2448,7 @@
     move/from16 v0, v42
 
     :goto_31
-    const v15, 0x7f03017d
+    const v15, 0x7f03017f
 
     .line 686
     invoke-static {v15, v0}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -3268,7 +3268,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x17c
+    const/16 p1, 0x17d
 
     .line 143
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewNavigateBindingImpl;->notifyPropertyChanged(I)V
@@ -3319,7 +3319,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x252
+    const/16 p1, 0x254
 
     .line 134
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewNavigateBindingImpl;->notifyPropertyChanged(I)V
@@ -3344,7 +3344,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x252
+    const/16 v0, 0x254
 
     if-ne v0, p1, :cond_0
 
@@ -3356,7 +3356,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x17c
+    const/16 v0, 0x17d
 
     if-ne v0, p1, :cond_1
 

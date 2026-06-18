@@ -700,7 +700,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0a0690
+    const v1, 0x7f0a069a
 
     invoke-virtual {v0, v1}, Landroidx/fragment/app/FragmentManager;->findFragmentById(I)Landroidx/fragment/app/Fragment;
 
@@ -730,7 +730,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0a07ac
+    const v1, 0x7f0a07b8
 
     invoke-virtual {v0, v1}, Landroidx/fragment/app/FragmentManager;->findFragmentById(I)Landroidx/fragment/app/Fragment;
 
@@ -760,7 +760,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0a07fe
+    const v1, 0x7f0a080a
 
     invoke-virtual {v0, v1}, Landroidx/fragment/app/FragmentManager;->findFragmentById(I)Landroidx/fragment/app/Fragment;
 
@@ -790,7 +790,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0a0b20
+    const v1, 0x7f0a0b2c
 
     invoke-virtual {v0, v1}, Landroidx/fragment/app/FragmentManager;->findFragmentById(I)Landroidx/fragment/app/Fragment;
 
@@ -1442,11 +1442,11 @@
 
     move-result-object v0
 
-    const/16 v3, 0x574a
+    const/16 v3, 0x594a
 
     const/16 v4, 0xb
 
-    const-string v5, "00.01.04.00.02"
+    const-string v5, "00.01.05.00.02"
 
     invoke-virtual {v0, v4, v3, v5}, Lcom/rigol/scope/cil/API;->UI_PostStr(IILjava/lang/String;)I
 
@@ -1539,7 +1539,7 @@
 
     move-result-object v0
 
-    const/16 v3, 0x574e
+    const/16 v3, 0x594e
 
     invoke-virtual {v0, v4, v3}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 

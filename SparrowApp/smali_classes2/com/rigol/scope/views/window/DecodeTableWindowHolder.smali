@@ -221,7 +221,7 @@
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v1, 0x7f030246
+    const v1, 0x7f03024a
 
     .line 2316
     sget-object v3, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_DECODE:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
@@ -345,7 +345,7 @@
 
     move-result v0
 
-    const/16 v1, 0x59ad
+    const/16 v1, 0x5bad
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -400,7 +400,7 @@
 
     move-result v0
 
-    const/16 v1, 0x5902
+    const/16 v1, 0x5b02
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -452,7 +452,7 @@
 
     move-result v0
 
-    const/16 v1, 0x5901
+    const/16 v1, 0x5b01
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -613,7 +613,7 @@
 
     move-result p1
 
-    const/16 v1, 0x59ad
+    const/16 v1, 0x5bad
 
     .line 2413
     invoke-virtual {v0, p1, v1}, Lcom/rigol/scope/cil/API;->UI_QueryStr(II)Ljava/lang/String;
@@ -989,7 +989,7 @@
 
     add-int/lit8 v0, v0, -0x2a
 
-    const v1, 0x7f100727
+    const v1, 0x7f10072f
 
     if-eqz v0, :cond_3
 
@@ -1008,17 +1008,17 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f10072a
+    const v1, 0x7f100732
 
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f100729
+    const v1, 0x7f100731
 
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f100728
+    const v1, 0x7f100730
 
     .line 2335
     :cond_3

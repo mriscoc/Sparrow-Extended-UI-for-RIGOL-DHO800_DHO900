@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterEyeExplicitBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0445
+    const v1, 0x7f0a0447
 
     const/4 v2, 0x2
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterEyeExplicitBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a07b0
+    const v1, 0x7f0a07bc
 
     const/4 v2, 0x3
 
@@ -45,7 +45,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/AdapterEyeExplicitBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0447
+    const v1, 0x7f0a0449
 
     const/4 v2, 0x4
 
@@ -235,7 +235,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x3f7
+    const/16 v0, 0x3fb
 
     if-ne p2, v0, :cond_1
 
@@ -307,7 +307,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -424,7 +424,7 @@
 
     move-result v4
 
-    const v11, 0x7f030126
+    const v11, 0x7f030127
 
     .line 189
     invoke-static {v11, v4}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -662,7 +662,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x239
+    const/16 p1, 0x23b
 
     .line 94
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterEyeExplicitBindingImpl;->notifyPropertyChanged(I)V
@@ -713,7 +713,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x252
+    const/16 p1, 0x254
 
     .line 86
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterEyeExplicitBindingImpl;->notifyPropertyChanged(I)V
@@ -738,7 +738,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x252
+    const/16 v0, 0x254
 
     if-ne v0, p1, :cond_0
 
@@ -750,7 +750,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x239
+    const/16 v0, 0x23b
 
     if-ne v0, p1, :cond_1
 

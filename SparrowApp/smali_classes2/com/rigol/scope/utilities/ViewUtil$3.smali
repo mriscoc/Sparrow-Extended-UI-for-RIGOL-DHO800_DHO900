@@ -1,4 +1,4 @@
-.class Lcom/rigol/scope/utilities/ViewUtil$3;
+.class final Lcom/rigol/scope/utilities/ViewUtil$3;
 .super Ljava/lang/Thread;
 .source "ViewUtil.java"
 
@@ -9,7 +9,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x0
+    accessFlags = 0x8
     name = null
 .end annotation
 
@@ -22,7 +22,7 @@
 .method constructor <init>(Lcom/rigol/scope/data/StorageSaveParam;)V
     .locals 0
 
-    .line 3822
+    .line 3848
     iput-object p1, p0, Lcom/rigol/scope/utilities/ViewUtil$3;->val$saveParam:Lcom/rigol/scope/data/StorageSaveParam;
 
     invoke-direct {p0}, Ljava/lang/Thread;-><init>()V
@@ -35,22 +35,22 @@
 .method public run()V
     .locals 2
 
-    .line 3825
+    .line 3851
     invoke-super {p0}, Ljava/lang/Thread;->run()V
 
-    .line 3827
+    .line 3853
     :try_start_0
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->doScreenShot()V
 
     const-wide/16 v0, 0x12c
 
-    .line 3828
+    .line 3854
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil$3;->sleep(J)V
 
-    .line 3829
+    .line 3855
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->doSaveWave()V
 
-    .line 3830
+    .line 3856
     iget-object v0, p0, Lcom/rigol/scope/utilities/ViewUtil$3;->val$saveParam:Lcom/rigol/scope/data/StorageSaveParam;
 
     const/4 v1, 0x4
@@ -64,7 +64,7 @@
     :catch_0
     move-exception v0
 
-    .line 3832
+    .line 3858
     invoke-virtual {v0}, Ljava/lang/InterruptedException;->printStackTrace()V
 
     :goto_0

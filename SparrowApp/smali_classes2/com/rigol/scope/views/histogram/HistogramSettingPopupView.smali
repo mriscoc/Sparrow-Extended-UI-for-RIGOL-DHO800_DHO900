@@ -300,7 +300,7 @@
 
     iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$HistoType;->value1:I
 
-    const v3, 0x7f030142
+    const v3, 0x7f030143
 
     .line 106
     invoke-static {v3, v2}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -346,7 +346,7 @@
 
     iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    const v3, 0x7f030140
+    const v3, 0x7f030141
 
     invoke-static {v3, v2}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -579,7 +579,7 @@
     :cond_7
     iget-object v0, p0, Lcom/rigol/scope/views/histogram/HistogramSettingPopupView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 v1, 0x2316
+    const/16 v1, 0x2516
 
     const/16 v2, 0xa
 
@@ -602,7 +602,7 @@
     .line 187
     iget-object v0, p0, Lcom/rigol/scope/views/histogram/HistogramSettingPopupView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 v1, 0x2317
+    const/16 v1, 0x2517
 
     invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -625,7 +625,7 @@
 
     const/16 v1, 0x22
 
-    const/16 v2, 0x2101
+    const/16 v2, 0x2301
 
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -1265,7 +1265,7 @@
     return-void
 
     :cond_0
-    const p1, 0x7f0a04ef
+    const p1, 0x7f0a04f1
 
     const-string v1, "param"
 
@@ -1306,7 +1306,7 @@
     goto :goto_0
 
     :cond_3
-    const p1, 0x7f0a0699
+    const p1, 0x7f0a06a3
 
     if-ne v0, p1, :cond_5
 
@@ -1345,7 +1345,7 @@
 
     const-string v3, "param"
 
-    const v4, 0x7f0a03cd
+    const v4, 0x7f0a03cf
 
     if-ne v0, v4, :cond_2
 
@@ -1735,7 +1735,7 @@
     goto/16 :goto_0
 
     :sswitch_4
-    const v0, 0x7f030142
+    const v0, 0x7f030143
 
     .line 307
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -2012,13 +2012,13 @@
     :sswitch_data_0
     .sparse-switch
         0x7f0a0381 -> :sswitch_7
-        0x7f0a04eb -> :sswitch_6
-        0x7f0a04ee -> :sswitch_5
-        0x7f0a04f1 -> :sswitch_4
-        0x7f0a05f0 -> :sswitch_3
-        0x7f0a0610 -> :sswitch_2
-        0x7f0a07b5 -> :sswitch_1
-        0x7f0a083d -> :sswitch_0
+        0x7f0a04ed -> :sswitch_6
+        0x7f0a04f0 -> :sswitch_5
+        0x7f0a04f3 -> :sswitch_4
+        0x7f0a05f8 -> :sswitch_3
+        0x7f0a0618 -> :sswitch_2
+        0x7f0a07c1 -> :sswitch_1
+        0x7f0a0849 -> :sswitch_0
     .end sparse-switch
 .end method
 

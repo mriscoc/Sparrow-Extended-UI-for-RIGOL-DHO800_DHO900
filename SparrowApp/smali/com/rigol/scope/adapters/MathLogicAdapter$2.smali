@@ -25,7 +25,7 @@
 .method constructor <init>(Lcom/rigol/scope/adapters/MathLogicAdapter;)V
     .locals 0
 
-    .line 265
+    .line 268
     iput-object p1, p0, Lcom/rigol/scope/adapters/MathLogicAdapter$2;->this$0:Lcom/rigol/scope/adapters/MathLogicAdapter;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,22 +38,22 @@
 .method public synthetic lambda$onClick$0$MathLogicAdapter$2(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
     .locals 1
 
-    .line 272
+    .line 275
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathLogicAdapter$2;->this$0:Lcom/rigol/scope/adapters/MathLogicAdapter;
 
     invoke-static {v0, p1}, Lcom/rigol/scope/adapters/MathLogicAdapter;->access$702(Lcom/rigol/scope/adapters/MathLogicAdapter;Lcom/rigol/scope/views/spinner/PopupSpinner;)Lcom/rigol/scope/views/spinner/PopupSpinner;
 
-    .line 273
+    .line 276
     iget-object p1, p0, Lcom/rigol/scope/adapters/MathLogicAdapter$2;->this$0:Lcom/rigol/scope/adapters/MathLogicAdapter;
 
     invoke-static {p1, p2}, Lcom/rigol/scope/adapters/MathLogicAdapter;->access$802(Lcom/rigol/scope/adapters/MathLogicAdapter;Lcom/rigol/scope/adapters/SpinnerAdapter;)Lcom/rigol/scope/adapters/SpinnerAdapter;
 
-    .line 274
+    .line 277
     iget-object p1, p0, Lcom/rigol/scope/adapters/MathLogicAdapter$2;->this$0:Lcom/rigol/scope/adapters/MathLogicAdapter;
 
     invoke-static {p1, p3}, Lcom/rigol/scope/adapters/MathLogicAdapter;->access$902(Lcom/rigol/scope/adapters/MathLogicAdapter;Ljava/util/List;)Ljava/util/List;
 
-    .line 275
+    .line 278
     iget-object p1, p0, Lcom/rigol/scope/adapters/MathLogicAdapter$2;->this$0:Lcom/rigol/scope/adapters/MathLogicAdapter;
 
     invoke-static {p1, p4}, Lcom/rigol/scope/adapters/MathLogicAdapter;->access$1002(Lcom/rigol/scope/adapters/MathLogicAdapter;Landroid/view/View;)Landroid/view/View;
@@ -64,7 +64,7 @@
 .method public synthetic lambda$onClick$1$MathLogicAdapter$2(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
     .locals 0
 
-    .line 277
+    .line 280
     iget-object p1, p0, Lcom/rigol/scope/adapters/MathLogicAdapter$2;->this$0:Lcom/rigol/scope/adapters/MathLogicAdapter;
 
     invoke-static {p1, p3}, Lcom/rigol/scope/adapters/MathLogicAdapter;->access$600(Lcom/rigol/scope/adapters/MathLogicAdapter;I)V
@@ -75,7 +75,7 @@
 .method public onClick(Landroid/view/View;)V
     .locals 4
 
-    .line 268
+    .line 271
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathLogicAdapter$2;->this$0:Lcom/rigol/scope/adapters/MathLogicAdapter;
 
     invoke-static {v0}, Lcom/rigol/scope/adapters/MathLogicAdapter;->access$400(Lcom/rigol/scope/adapters/MathLogicAdapter;)Lcom/rigol/scope/data/MathParam;
@@ -92,18 +92,18 @@
 
     move-result v1
 
-    const v2, 0x7f030177
+    const v2, 0x7f030179
 
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/data/MathParam;->getSpinnerList(II)Ljava/util/List;
 
     move-result-object v0
 
-    .line 269
+    .line 272
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->filterChan(Ljava/util/List;)Ljava/util/List;
 
     move-result-object v0
 
-    .line 270
+    .line 273
     iget-object v1, p0, Lcom/rigol/scope/adapters/MathLogicAdapter$2;->this$0:Lcom/rigol/scope/adapters/MathLogicAdapter;
 
     invoke-static {v1}, Lcom/rigol/scope/adapters/MathLogicAdapter;->access$500(Lcom/rigol/scope/adapters/MathLogicAdapter;)Landroid/view/View;

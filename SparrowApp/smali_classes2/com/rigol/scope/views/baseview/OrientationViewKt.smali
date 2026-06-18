@@ -54,7 +54,7 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 52
+    .line 44
     new-instance v0, Landroid/graphics/DashPathEffect;
 
     const/4 v1, 0x4
@@ -87,7 +87,7 @@
 .method public static final getDEFAULT_DASH_PATH_EFFECT()Landroid/graphics/PathEffect;
     .locals 1
 
-    .line 52
+    .line 44
     sget-object v0, Lcom/rigol/scope/views/baseview/OrientationViewKt;->DEFAULT_DASH_PATH_EFFECT:Landroid/graphics/PathEffect;
 
     return-object v0

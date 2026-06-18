@@ -206,7 +206,7 @@
     return v0
 .end method
 
-.method public synthetic lambda$onBindViewHolder$0$DecodeLinAdapter(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
+.method public synthetic lambda$null$0$DecodeLinAdapter(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
     .locals 0
 
     .line 133
@@ -215,7 +215,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$onBindViewHolder$1$DecodeLinAdapter(ILcom/rigol/scope/data/MappingObject;)V
+.method public synthetic lambda$null$1$DecodeLinAdapter(ILcom/rigol/scope/data/MappingObject;)V
     .locals 1
 
     .line 135
@@ -289,13 +289,13 @@
 
     iget-object v9, p0, Lcom/rigol/scope/adapters/DecodeLinAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
 
-    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$DecodeLinAdapter$RM_BUYEndDP0GrGqS2bTS35Radg;
+    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$DecodeLinAdapter$eoTTD9ZstfWeVQjBxWqiIYEa57M;
 
-    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeLinAdapter$RM_BUYEndDP0GrGqS2bTS35Radg;-><init>(Lcom/rigol/scope/adapters/DecodeLinAdapter;)V
+    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeLinAdapter$eoTTD9ZstfWeVQjBxWqiIYEa57M;-><init>(Lcom/rigol/scope/adapters/DecodeLinAdapter;)V
 
-    new-instance v11, Lcom/rigol/scope/adapters/-$$Lambda$DecodeLinAdapter$xn_vVnzeRzWDUe_I81S4E2oTvsI;
+    new-instance v11, Lcom/rigol/scope/adapters/-$$Lambda$DecodeLinAdapter$A8fXvRWyG7sdaSw5qY7bwmBq9DM;
 
-    invoke-direct {v11, p0}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeLinAdapter$xn_vVnzeRzWDUe_I81S4E2oTvsI;-><init>(Lcom/rigol/scope/adapters/DecodeLinAdapter;)V
+    invoke-direct {v11, p0}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeLinAdapter$A8fXvRWyG7sdaSw5qY7bwmBq9DM;-><init>(Lcom/rigol/scope/adapters/DecodeLinAdapter;)V
 
     move-object v3, p1
 
@@ -609,7 +609,7 @@
 
     move-result p2
 
-    const/16 v1, 0x594a
+    const/16 v1, 0x5b4a
 
     invoke-virtual {p1, p2, v1}, Lcom/rigol/scope/data/DecodeParam;->getDecodeThres(II)J
 

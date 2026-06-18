@@ -382,7 +382,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f1011cc
+    const p2, 0x7f1011e1
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1522,7 +1522,7 @@
 
     const/16 p2, 0x24
 
-    const/16 p3, 0x2b07
+    const/16 p3, 0x2d07
 
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -1645,7 +1645,7 @@
 
     const/16 p2, 0xa
 
-    const/16 v0, 0x2313
+    const/16 v0, 0x2513
 
     invoke-virtual {p1, p2, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -1666,7 +1666,7 @@
 
     const/16 p2, 0xb
 
-    const/16 v0, 0x5755
+    const/16 v0, 0x5955
 
     invoke-virtual {p1, p2, v0}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 

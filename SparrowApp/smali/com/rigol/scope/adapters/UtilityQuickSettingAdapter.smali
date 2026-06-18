@@ -54,7 +54,7 @@
     .line 66
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$Adapter;-><init>()V
 
-    const v0, 0x7f03018d
+    const v0, 0x7f03018f
 
     .line 63
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -123,7 +123,7 @@
 
     const/16 v0, 0x1b
 
-    const/16 v1, 0x3d01
+    const/16 v1, 0x3f01
 
     .line 88
     invoke-virtual {p2, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;

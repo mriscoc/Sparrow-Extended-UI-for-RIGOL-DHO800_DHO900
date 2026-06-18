@@ -39,7 +39,7 @@
 .method public constructor <init>(I)V
     .locals 0
 
-    .line 239
+    .line 241
     invoke-direct {p0, p1}, Lcom/rigol/scope/adapters/BaseAdapterDelegate;-><init>(I)V
 
     return-void
@@ -50,7 +50,7 @@
 .method protected bridge synthetic isForViewType(Ljava/lang/Object;I)Z
     .locals 0
 
-    .line 233
+    .line 235
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$UpgradeDelegate;->isForViewType(Ljava/util/List;I)Z
@@ -71,7 +71,7 @@
         }
     .end annotation
 
-    .line 244
+    .line 246
     invoke-interface {p1, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p1
@@ -84,7 +84,7 @@
 
     return p2
 
-    .line 248
+    .line 250
     :cond_0
     invoke-virtual {p1}, Lcom/rigol/scope/data/MappingObject;->getValue()I
 
@@ -105,7 +105,7 @@
 .method public synthetic lambda$onBindViewHolder$0$StorageViewPagerAdapter$UpgradeDelegate(Ljava/lang/Object;)V
     .locals 7
 
-    .line 264
+    .line 266
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$UpgradeDelegate;->binding:Lcom/rigol/scope/databinding/AdapterStorageUpgradeBinding;
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterStorageUpgradeBinding;->tvHint:Landroid/widget/TextView;
@@ -138,7 +138,7 @@
     :goto_0
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 266
+    .line 268
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$UpgradeDelegate;->binding:Lcom/rigol/scope/databinding/AdapterStorageUpgradeBinding;
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterStorageUpgradeBinding;->tvMemUnenoughHint:Landroid/widget/TextView;
@@ -166,7 +166,7 @@
 .method protected bridge synthetic onBindViewHolder(Ljava/lang/Object;ILcom/rigol/scope/adapters/BaseViewHolder;)V
     .locals 0
 
-    .line 233
+    .line 235
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$UpgradeDelegate;->onBindViewHolder(Ljava/util/List;ILcom/rigol/scope/adapters/BaseViewHolder;)V
@@ -189,7 +189,7 @@
         }
     .end annotation
 
-    .line 253
+    .line 255
     invoke-virtual {p3}, Lcom/rigol/scope/adapters/BaseViewHolder;->getBinding()Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
@@ -198,24 +198,24 @@
 
     iput-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$UpgradeDelegate;->binding:Lcom/rigol/scope/databinding/AdapterStorageUpgradeBinding;
 
-    .line 256
+    .line 258
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterStorageUpgradeBinding;->pathNameEditText:Landroid/widget/EditText;
 
     invoke-virtual {p1, p0}, Landroid/widget/EditText;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 258
+    .line 260
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$UpgradeDelegate;->binding:Lcom/rigol/scope/databinding/AdapterStorageUpgradeBinding;
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterStorageUpgradeBinding;->upgrade:Landroid/widget/Button;
 
     invoke-virtual {p1, p0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 259
+    .line 261
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$UpgradeDelegate;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
     if-nez p1, :cond_0
 
-    .line 260
+    .line 262
     const-class p1, Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -230,9 +230,9 @@
 
     const/16 p2, 0xc
 
-    const/16 p3, 0x4b31
+    const/16 p3, 0x4d32
 
-    .line 262
+    .line 264
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
@@ -256,12 +256,12 @@
 .method public onClick(Landroid/view/View;)V
     .locals 2
 
-    .line 280
+    .line 282
     iget-object v0, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$UpgradeDelegate;->onItemClickCallback:Lcom/rigol/scope/adapters/StorageViewPagerAdapter$OnItemClickCallback;
 
     if-eqz v0, :cond_0
 
-    .line 281
+    .line 283
     iget-object v1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$UpgradeDelegate;->binding:Lcom/rigol/scope/databinding/AdapterStorageUpgradeBinding;
 
     invoke-interface {v0, v1, p1}, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$OnItemClickCallback;->onUpgradeItemClick(Lcom/rigol/scope/databinding/AdapterStorageUpgradeBinding;Landroid/view/View;)V
@@ -273,7 +273,7 @@
 .method public setOnItemClickCallback(Lcom/rigol/scope/adapters/StorageViewPagerAdapter$OnItemClickCallback;)V
     .locals 0
 
-    .line 275
+    .line 277
     iput-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$UpgradeDelegate;->onItemClickCallback:Lcom/rigol/scope/adapters/StorageViewPagerAdapter$OnItemClickCallback;
 
     return-void

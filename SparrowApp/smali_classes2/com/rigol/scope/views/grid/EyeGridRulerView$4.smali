@@ -74,7 +74,7 @@
 .method public final onChanged(Ljava/lang/Object;)V
     .locals 1
 
-    .line 1380
+    .line 1495
     iget-object p1, p0, Lcom/rigol/scope/views/grid/EyeGridRulerView$4;->this$0:Lcom/rigol/scope/views/grid/EyeGridRulerView;
 
     invoke-static {p1}, Lcom/rigol/scope/views/grid/EyeGridRulerView;->access$getEyeParam$p(Lcom/rigol/scope/views/grid/EyeGridRulerView;)Lcom/rigol/scope/data/EyeParam;
@@ -83,7 +83,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 1381
+    .line 1496
     iget-object p1, p0, Lcom/rigol/scope/views/grid/EyeGridRulerView$4;->this$0:Lcom/rigol/scope/views/grid/EyeGridRulerView;
 
     invoke-static {p1}, Lcom/rigol/scope/views/grid/EyeGridRulerView;->access$getEyeParam$p(Lcom/rigol/scope/views/grid/EyeGridRulerView;)Lcom/rigol/scope/data/EyeParam;

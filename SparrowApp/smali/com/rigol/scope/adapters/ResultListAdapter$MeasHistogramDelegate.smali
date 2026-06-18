@@ -18,7 +18,7 @@
 .method public constructor <init>(I)V
     .locals 0
 
-    .line 1944
+    .line 1950
     invoke-direct {p0, p1}, Lcom/rigol/scope/adapters/ResultListAdapter$BaseMeasureAdapterDelegate;-><init>(I)V
 
     return-void
@@ -29,7 +29,7 @@
 .method protected bridge synthetic isForViewType(Ljava/lang/Object;I)Z
     .locals 0
 
-    .line 1940
+    .line 1946
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/adapters/ResultListAdapter$MeasHistogramDelegate;->isForViewType(Ljava/util/List;I)Z
@@ -50,7 +50,7 @@
         }
     .end annotation
 
-    .line 1950
+    .line 1956
     invoke-interface {p1, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p1
@@ -63,7 +63,7 @@
 .method protected bridge synthetic onBindViewHolder(Ljava/lang/Object;ILcom/rigol/scope/adapters/BaseViewHolder;)V
     .locals 0
 
-    .line 1940
+    .line 1946
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/rigol/scope/adapters/ResultListAdapter$MeasHistogramDelegate;->onBindViewHolder(Ljava/util/List;ILcom/rigol/scope/adapters/BaseViewHolder;)V
@@ -86,27 +86,27 @@
         }
     .end annotation
 
-    .line 1957
+    .line 1963
     invoke-super {p0, p1, p2, p3}, Lcom/rigol/scope/adapters/ResultListAdapter$BaseMeasureAdapterDelegate;->onBindViewHolder(Ljava/util/List;ILcom/rigol/scope/adapters/BaseViewHolder;)V
 
-    .line 1959
+    .line 1965
     invoke-virtual {p3}, Lcom/rigol/scope/adapters/BaseViewHolder;->getBinding()Landroidx/databinding/ViewDataBinding;
 
     move-result-object p3
 
     check-cast p3, Lcom/rigol/scope/databinding/AdapterItemResultMeasHistogramBinding;
 
-    .line 1960
+    .line 1966
     invoke-interface {p1, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Lcom/rigol/scope/views/histogram/MeasHistogramResultParam;
 
-    .line 1961
+    .line 1967
     invoke-virtual {p3, p1}, Lcom/rigol/scope/databinding/AdapterItemResultMeasHistogramBinding;->setParam(Lcom/rigol/scope/views/histogram/MeasHistogramResultParam;)V
 
-    .line 1964
+    .line 1970
     iget-object p2, p3, Lcom/rigol/scope/databinding/AdapterItemResultMeasHistogramBinding;->resultList:Lcom/rigol/scope/views/DisableTouchEventRecyclerView;
 
     invoke-virtual {p2}, Lcom/rigol/scope/views/DisableTouchEventRecyclerView;->getAdapter()Landroidx/recyclerview/widget/RecyclerView$Adapter;
@@ -117,21 +117,21 @@
 
     if-eqz p2, :cond_0
 
-    .line 1965
+    .line 1971
     invoke-virtual {p1}, Lcom/rigol/scope/views/histogram/MeasHistogramResultParam;->getData()Ljava/util/List;
 
     move-result-object p3
 
     if-eqz p3, :cond_0
 
-    .line 1967
+    .line 1973
     invoke-virtual {p1}, Lcom/rigol/scope/views/histogram/MeasHistogramResultParam;->getData()Ljava/util/List;
 
     move-result-object p1
 
     invoke-virtual {p2, p1}, Lcom/rigol/scope/adapters/ResultListAdapter$ItemAdapter;->setItems(Ljava/util/List;)V
 
-    .line 1968
+    .line 1974
     invoke-virtual {p2}, Lcom/rigol/scope/adapters/ResultListAdapter$ItemAdapter;->notifyDataSetChanged()V
 
     :cond_0
@@ -152,19 +152,19 @@
         }
     .end annotation
 
-    .line 1977
+    .line 1983
     invoke-super {p0, p1}, Lcom/rigol/scope/adapters/ResultListAdapter$BaseMeasureAdapterDelegate;->onCreateViewHolder(Landroid/view/ViewGroup;)Lcom/rigol/scope/adapters/BaseViewHolder;
 
     move-result-object p1
 
-    .line 1979
+    .line 1985
     invoke-virtual {p1}, Lcom/rigol/scope/adapters/BaseViewHolder;->getBinding()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v0
 
     check-cast v0, Lcom/rigol/scope/databinding/AdapterItemResultMeasHistogramBinding;
 
-    .line 1982
+    .line 1988
     new-instance v1, Lcom/rigol/scope/adapters/ResultListAdapter$ItemAdapter;
 
     invoke-virtual {v0}, Lcom/rigol/scope/databinding/AdapterItemResultMeasHistogramBinding;->getRoot()Landroid/view/View;
@@ -183,7 +183,7 @@
 
     invoke-direct {v1, v2, v3, v4}, Lcom/rigol/scope/adapters/ResultListAdapter$ItemAdapter;-><init>(Landroid/content/Context;Ljava/util/List;I)V
 
-    .line 1984
+    .line 1990
     iget-object v0, v0, Lcom/rigol/scope/databinding/AdapterItemResultMeasHistogramBinding;->resultList:Lcom/rigol/scope/views/DisableTouchEventRecyclerView;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/DisableTouchEventRecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V

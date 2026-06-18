@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 9549
+    .line 9559
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$PowerMode;
 
     const-string v1, "Power_Performance"
@@ -65,7 +65,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$PowerMode;->Power_Performance:Lcom/rigol/scope/cil/ServiceEnum$PowerMode;
 
-    .line 9550
+    .line 9560
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$PowerMode;
 
     const-string v9, "Power_Saver"
@@ -90,7 +90,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$PowerMode;
 
-    .line 9547
+    .line 9557
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$PowerMode;->Power_Performance:Lcom/rigol/scope/cil/ServiceEnum$PowerMode;
 
     aput-object v2, v1, v3
@@ -116,19 +116,19 @@
         }
     .end annotation
 
-    .line 9553
+    .line 9563
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 9554
+    .line 9564
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$PowerMode;->value1:I
 
-    .line 9555
+    .line 9565
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$PowerMode;->value2:Ljava/lang/String;
 
-    .line 9556
+    .line 9566
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$PowerMode;->pic1:Ljava/lang/String;
 
-    .line 9557
+    .line 9567
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$PowerMode;->pic2:Ljava/lang/String;
 
     return-void
@@ -137,7 +137,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$PowerMode;
     .locals 1
 
-    .line 9547
+    .line 9557
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$PowerMode;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -152,7 +152,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$PowerMode;
     .locals 1
 
-    .line 9547
+    .line 9557
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$PowerMode;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$PowerMode;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$PowerMode;->clone()Ljava/lang/Object;

@@ -295,7 +295,7 @@
 
     iget-object v2, p0, Lcom/rigol/scope/views/upa/UpaPopupview;->binding:Lcom/rigol/scope/databinding/PopupviewUpaBinding;
 
-    invoke-static {v2}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     new-instance v3, Lcom/rigol/scope/views/upa/-$$Lambda$bOTKTZwkZcuSZMg7G6Jzj2qlKsE;
 
@@ -307,7 +307,7 @@
     :cond_3
     iget-object v0, p0, Lcom/rigol/scope/views/upa/UpaPopupview;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 v1, 0x5111
+    const/16 v1, 0x5311
 
     const/16 v2, 0x1f
 
@@ -328,7 +328,7 @@
     .line 159
     iget-object v0, p0, Lcom/rigol/scope/views/upa/UpaPopupview;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 v1, 0x5118
+    const/16 v1, 0x5318
 
     invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -347,7 +347,7 @@
     .line 162
     iget-object v0, p0, Lcom/rigol/scope/views/upa/UpaPopupview;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 v1, 0x5101
+    const/16 v1, 0x5301
 
     invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -801,7 +801,7 @@
 
     const/16 v0, 0xa
 
-    const/16 v1, 0x2343
+    const/16 v1, 0x2543
 
     invoke-static {v0, v1}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 
@@ -836,7 +836,7 @@
 
     move-result p1
 
-    const v0, 0x7f03023f
+    const v0, 0x7f030243
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
 
@@ -985,7 +985,7 @@
 
     if-eqz p1, :cond_3
 
-    const p1, 0x7f100377
+    const p1, 0x7f10037a
 
     .line 291
     invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showShort(I)V
@@ -1002,7 +1002,7 @@
 
     move-result v0
 
-    const v1, 0x7f0a0a8e
+    const v1, 0x7f0a0a9a
 
     if-eq v0, v1, :cond_0
 
@@ -1012,7 +1012,7 @@
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/views/upa/UpaPopupview;->anchor:Landroid/view/View;
 
-    const v1, 0x7f03023f
+    const v1, 0x7f030243
 
     invoke-static {v1}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
 

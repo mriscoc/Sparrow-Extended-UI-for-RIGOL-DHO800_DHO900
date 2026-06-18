@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/rigol/scope/adapters/MathFunAdapter;->lambda$showMathFun$19(Landroid/view/View;)V
+    value = Lcom/rigol/scope/adapters/MathFunAdapter;->lambda$showMathFun$20(Landroid/view/View;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -25,7 +25,7 @@
 .method constructor <init>(Lcom/rigol/scope/adapters/MathFunAdapter;)V
     .locals 0
 
-    .line 389
+    .line 396
     iput-object p1, p0, Lcom/rigol/scope/adapters/MathFunAdapter$5;->this$0:Lcom/rigol/scope/adapters/MathFunAdapter;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +38,7 @@
 .method public onCall(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
     .locals 1
 
-    .line 398
+    .line 405
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathFunAdapter$5;->this$0:Lcom/rigol/scope/adapters/MathFunAdapter;
 
     invoke-static {v0, p1}, Lcom/rigol/scope/adapters/MathFunAdapter;->access$502(Lcom/rigol/scope/adapters/MathFunAdapter;Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
@@ -56,7 +56,7 @@
         }
     .end annotation
 
-    .line 393
+    .line 400
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathFunAdapter$5;->this$0:Lcom/rigol/scope/adapters/MathFunAdapter;
 
     invoke-static {v0}, Lcom/rigol/scope/adapters/MathFunAdapter;->access$400(Lcom/rigol/scope/adapters/MathFunAdapter;)Lcom/rigol/scope/data/MathParam;

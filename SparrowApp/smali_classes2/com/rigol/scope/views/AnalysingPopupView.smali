@@ -35,12 +35,12 @@
     .line 142
     invoke-direct {p0}, Lcom/rigol/scope/views/LoadingPopupView;-><init>()V
 
-    const v0, 0x7f100bb9
+    const v0, 0x7f100bc4
 
     .line 147
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/AnalysingPopupView;->setTitleResId(I)V
 
-    const v0, 0x7f100bb7
+    const v0, 0x7f100bc2
 
     .line 148
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/AnalysingPopupView;->setContentResId(I)V

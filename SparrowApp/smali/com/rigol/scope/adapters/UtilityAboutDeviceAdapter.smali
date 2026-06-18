@@ -95,7 +95,7 @@
 
     move-result-object v2
 
-    const/16 v3, 0x5733
+    const/16 v3, 0x5933
 
     const/16 v4, 0xb
 
@@ -108,7 +108,7 @@
 
     move-result-object v3
 
-    const/16 v5, 0x576c
+    const/16 v5, 0x596c
 
     invoke-virtual {v3, v4, v5}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
@@ -172,7 +172,7 @@
     move-result-object v5
 
     :cond_3
-    const v2, 0x7f1007a5
+    const v2, 0x7f1007ad
 
     const/4 v6, 0x0
 
@@ -184,11 +184,11 @@
 
     const-string v9, ")"
 
-    const v10, 0x7f1007b2
+    const v10, 0x7f1007ba
 
     const-string v11, " ("
 
-    const v12, 0x7f1007a9
+    const v12, 0x7f1007b1
 
     if-nez v3, :cond_4
 
@@ -317,7 +317,7 @@
 
     move-result-object v5
 
-    const v9, 0x7f1007aa
+    const v9, 0x7f1007b2
 
     invoke-virtual {v5, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -469,7 +469,7 @@
 
     move-result-object v5
 
-    const v9, 0x7f1007a6
+    const v9, 0x7f1007ae
 
     invoke-virtual {v5, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -502,7 +502,7 @@
 
     move-result-object v5
 
-    const v9, 0x7f1007a3
+    const v9, 0x7f1007ab
 
     invoke-virtual {v5, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -539,7 +539,7 @@
 
     move-result-object v3
 
-    const/16 v5, 0x5749
+    const/16 v5, 0x5949
 
     invoke-virtual {v3, v4, v5}, Lcom/rigol/scope/cil/API;->UI_QueryStr(II)Ljava/lang/String;
 
@@ -624,7 +624,7 @@
 
     move-result-object v1
 
-    const/16 v2, 0x576a
+    const/16 v2, 0x596a
 
     invoke-virtual {v1, v4, v2}, Lcom/rigol/scope/cil/API;->UI_QueryStr(II)Ljava/lang/String;
 
@@ -641,7 +641,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f1007b1
+    const v4, 0x7f1007b9
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -670,7 +670,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f1007ab
+    const v4, 0x7f1007b3
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -735,7 +735,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f1007a0
+    const v5, 0x7f1007a8
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -768,7 +768,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1007a1
+    const v3, 0x7f1007a9
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -813,7 +813,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f1007a8
+    const v4, 0x7f1007b0
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

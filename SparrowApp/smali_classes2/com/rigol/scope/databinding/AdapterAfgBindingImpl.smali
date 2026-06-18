@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterAfgBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a05e9
+    const v1, 0x7f0a05f1
 
     const/16 v2, 0x18
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterAfgBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a05ea
+    const v1, 0x7f0a05f2
 
     const/16 v2, 0x19
 
@@ -45,7 +45,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/AdapterAfgBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a05eb
+    const v1, 0x7f0a05f3
 
     const/16 v2, 0x1a
 
@@ -54,7 +54,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/AdapterAfgBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0874
+    const v1, 0x7f0a0880
 
     const/16 v2, 0x1b
 
@@ -63,7 +63,7 @@
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/AdapterAfgBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a083f
+    const v1, 0x7f0a084b
 
     const/16 v2, 0x1c
 
@@ -506,7 +506,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x410
+    const/16 v0, 0x414
 
     if-ne p2, v0, :cond_2
 
@@ -762,7 +762,7 @@
     throw p1
 
     :cond_9
-    const/16 v0, 0x418
+    const/16 v0, 0x41c
 
     if-ne p2, v0, :cond_a
 
@@ -938,7 +938,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x27e
+    const/16 v0, 0x281
 
     if-ne p2, v0, :cond_1
 
@@ -1010,7 +1010,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -1042,7 +1042,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x3f7
+    const/16 v0, 0x3fb
 
     if-ne p2, v0, :cond_2
 
@@ -2849,7 +2849,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x252
+    const/16 p1, 0x254
 
     .line 136
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterAfgBindingImpl;->notifyPropertyChanged(I)V
@@ -2883,7 +2883,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x252
+    const/16 v0, 0x254
 
     if-ne v0, p1, :cond_0
 
@@ -2895,7 +2895,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x391
+    const/16 v0, 0x395
 
     if-ne v0, p1, :cond_1
 

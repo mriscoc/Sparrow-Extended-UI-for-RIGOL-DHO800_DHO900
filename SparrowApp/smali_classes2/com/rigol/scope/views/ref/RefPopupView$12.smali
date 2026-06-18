@@ -92,7 +92,7 @@
 .method public onClick(Landroid/view/View;)V
     .locals 4
 
-    const v0, 0x7f03019e
+    const v0, 0x7f0301a0
 
     .line 385
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;

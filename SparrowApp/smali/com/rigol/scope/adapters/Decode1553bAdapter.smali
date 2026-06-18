@@ -202,7 +202,7 @@
     return v0
 .end method
 
-.method public synthetic lambda$onBindViewHolder$0$Decode1553bAdapter(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
+.method public synthetic lambda$null$0$Decode1553bAdapter(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
     .locals 0
 
     .line 117
@@ -211,7 +211,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$onBindViewHolder$1$Decode1553bAdapter(ILcom/rigol/scope/data/MappingObject;)V
+.method public synthetic lambda$null$1$Decode1553bAdapter(ILcom/rigol/scope/data/MappingObject;)V
     .locals 1
 
     .line 119
@@ -285,13 +285,13 @@
 
     iget-object v9, p0, Lcom/rigol/scope/adapters/Decode1553bAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
 
-    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$Decode1553bAdapter$ZvH4-99W-9Og52OeehaO-YsRPuU;
+    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$Decode1553bAdapter$AuSXoVkvOxR9EUGlNLq9P_J-lq8;
 
-    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$Decode1553bAdapter$ZvH4-99W-9Og52OeehaO-YsRPuU;-><init>(Lcom/rigol/scope/adapters/Decode1553bAdapter;)V
+    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$Decode1553bAdapter$AuSXoVkvOxR9EUGlNLq9P_J-lq8;-><init>(Lcom/rigol/scope/adapters/Decode1553bAdapter;)V
 
-    new-instance v11, Lcom/rigol/scope/adapters/-$$Lambda$Decode1553bAdapter$4xHE9vv90gsGwe6eDGje7uezNZQ;
+    new-instance v11, Lcom/rigol/scope/adapters/-$$Lambda$Decode1553bAdapter$vSq2L1CTmtC4-yC_CPqO_mP3pzg;
 
-    invoke-direct {v11, p0}, Lcom/rigol/scope/adapters/-$$Lambda$Decode1553bAdapter$4xHE9vv90gsGwe6eDGje7uezNZQ;-><init>(Lcom/rigol/scope/adapters/Decode1553bAdapter;)V
+    invoke-direct {v11, p0}, Lcom/rigol/scope/adapters/-$$Lambda$Decode1553bAdapter$vSq2L1CTmtC4-yC_CPqO_mP3pzg;-><init>(Lcom/rigol/scope/adapters/Decode1553bAdapter;)V
 
     move-object v3, p1
 
@@ -373,7 +373,7 @@
 
     move-result p2
 
-    const/16 v0, 0x5971
+    const/16 v0, 0x5b71
 
     invoke-virtual {p1, p2, v0}, Lcom/rigol/scope/data/DecodeParam;->getDecodeThres(II)J
 

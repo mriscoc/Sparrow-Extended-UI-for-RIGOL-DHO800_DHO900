@@ -922,7 +922,7 @@
     .line 679
     iget-object v0, p0, Lcom/rigol/scope/data/WaveRecordParam;->currentAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x3f06
+    const/16 v1, 0x4106
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/WaveRecordParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -935,7 +935,7 @@
     .line 691
     iget-object v0, p0, Lcom/rigol/scope/data/WaveRecordParam;->endFrameAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x3f10
+    const/16 v1, 0x4110
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/WaveRecordParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -948,7 +948,7 @@
     .line 683
     iget-object v0, p0, Lcom/rigol/scope/data/WaveRecordParam;->playIntervalAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x3f0e
+    const/16 v1, 0x410e
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/WaveRecordParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -958,7 +958,7 @@
 .method public readRecordBeeper()Z
     .locals 1
 
-    const/16 v0, 0x3f0b
+    const/16 v0, 0x410b
 
     .line 644
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/WaveRecordParam;->readBool(I)Z
@@ -976,7 +976,7 @@
 .method public readRecordCurrent()I
     .locals 1
 
-    const/16 v0, 0x3f06
+    const/16 v0, 0x4106
 
     .line 535
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/WaveRecordParam;->readInt(I)I
@@ -994,7 +994,7 @@
 .method public readRecordCurrentFrames()I
     .locals 1
 
-    const/16 v0, 0x3f23
+    const/16 v0, 0x4123
 
     .line 654
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/WaveRecordParam;->readInt(I)I
@@ -1012,7 +1012,7 @@
 .method public readRecordEndFrame()I
     .locals 1
 
-    const/16 v0, 0x3f10
+    const/16 v0, 0x4110
 
     .line 603
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/WaveRecordParam;->readInt(I)I
@@ -1030,7 +1030,7 @@
 .method public readRecordFrameStart()Z
     .locals 1
 
-    const/16 v0, 0x3f11
+    const/16 v0, 0x4111
 
     .line 553
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/WaveRecordParam;->readBool(I)Z
@@ -1048,7 +1048,7 @@
 .method public readRecordFrames()I
     .locals 1
 
-    const/16 v0, 0x3f08
+    const/16 v0, 0x4108
 
     .line 624
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/WaveRecordParam;->readInt(I)I
@@ -1069,7 +1069,7 @@
     .line 671
     iget-object v0, p0, Lcom/rigol/scope/data/WaveRecordParam;->recordFramesAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x3f08
+    const/16 v1, 0x4108
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/WaveRecordParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -1079,7 +1079,7 @@
 .method public readRecordInterval()J
     .locals 2
 
-    const/16 v0, 0x3f07
+    const/16 v0, 0x4107
 
     .line 613
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/WaveRecordParam;->readLong(I)J
@@ -1100,7 +1100,7 @@
     .line 675
     iget-object v0, p0, Lcom/rigol/scope/data/WaveRecordParam;->recordIntervalAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x3f07
+    const/16 v1, 0x4107
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/WaveRecordParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -1110,7 +1110,7 @@
 .method public readRecordMaxFrames()I
     .locals 1
 
-    const/16 v0, 0x3f09
+    const/16 v0, 0x4109
 
     .line 634
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/WaveRecordParam;->readInt(I)I
@@ -1128,7 +1128,7 @@
 .method public readRecordOnOff()Z
     .locals 1
 
-    const/16 v0, 0x3f01
+    const/16 v0, 0x4101
 
     .line 505
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/WaveRecordParam;->readBool(I)Z
@@ -1146,7 +1146,7 @@
 .method public readRecordPlay()Z
     .locals 1
 
-    const/16 v0, 0x3f03
+    const/16 v0, 0x4103
 
     .line 525
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/WaveRecordParam;->readBool(I)Z
@@ -1164,7 +1164,7 @@
 .method public readRecordPlayDir()Z
     .locals 1
 
-    const/16 v0, 0x3f0d
+    const/16 v0, 0x410d
 
     .line 573
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/WaveRecordParam;->readBool(I)Z
@@ -1182,7 +1182,7 @@
 .method public readRecordPlayInterval()J
     .locals 2
 
-    const/16 v0, 0x3f0e
+    const/16 v0, 0x410e
 
     .line 583
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/WaveRecordParam;->readLong(I)J
@@ -1200,7 +1200,7 @@
 .method public readRecordPlayMode()Z
     .locals 1
 
-    const/16 v0, 0x3f0c
+    const/16 v0, 0x410c
 
     .line 563
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/WaveRecordParam;->readBool(I)Z
@@ -1218,7 +1218,7 @@
 .method public readRecordStart()Z
     .locals 1
 
-    const/16 v0, 0x3f02
+    const/16 v0, 0x4102
 
     .line 515
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/WaveRecordParam;->readBool(I)Z
@@ -1236,7 +1236,7 @@
 .method public readRecordStartFrame()I
     .locals 1
 
-    const/16 v0, 0x3f0f
+    const/16 v0, 0x410f
 
     .line 593
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/WaveRecordParam;->readInt(I)I
@@ -1257,7 +1257,7 @@
     .line 687
     iget-object v0, p0, Lcom/rigol/scope/data/WaveRecordParam;->startFrameAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x3f0f
+    const/16 v1, 0x410f
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/WaveRecordParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -1267,7 +1267,7 @@
 .method public readState()Lcom/rigol/scope/cil/ServiceEnum$RecordState;
     .locals 1
 
-    const/16 v0, 0x3f22
+    const/16 v0, 0x4122
 
     .line 659
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/WaveRecordParam;->readInt(I)I
@@ -1289,7 +1289,7 @@
 .method public readTime()Ljava/lang/String;
     .locals 1
 
-    const/16 v0, 0x3f21
+    const/16 v0, 0x4121
 
     .line 664
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/WaveRecordParam;->readStr(I)Ljava/lang/String;
@@ -1387,7 +1387,7 @@
     .line 649
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->setRecordBeeper(Z)V
 
-    const/16 v0, 0x3f0b
+    const/16 v0, 0x410b
 
     .line 650
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->saveBool(IZ)I
@@ -1446,7 +1446,7 @@
     :cond_1
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->setRecordCurrent(I)V
 
-    const/16 v0, 0x3f06
+    const/16 v0, 0x4106
 
     .line 549
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->saveInt(II)I
@@ -1460,7 +1460,7 @@
     .line 608
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->setRecordEndFrame(I)V
 
-    const/16 v0, 0x3f10
+    const/16 v0, 0x4110
 
     .line 609
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->saveInt(II)I
@@ -1474,7 +1474,7 @@
     .line 558
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->setRecordFrameStart(Z)V
 
-    const/16 v0, 0x3f11
+    const/16 v0, 0x4111
 
     .line 559
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->saveBool(IZ)I
@@ -1488,7 +1488,7 @@
     .line 629
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->setRecordFrames(I)V
 
-    const/16 v0, 0x3f08
+    const/16 v0, 0x4108
 
     .line 630
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->saveInt(II)I
@@ -1502,7 +1502,7 @@
     .line 618
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/WaveRecordParam;->setRecordInterval(J)V
 
-    const/16 v0, 0x3f07
+    const/16 v0, 0x4107
 
     .line 619
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/WaveRecordParam;->saveLong(IJ)I
@@ -1516,7 +1516,7 @@
     .line 639
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->setRecordMaxFrames(I)V
 
-    const/16 v0, 0x3f09
+    const/16 v0, 0x4109
 
     .line 640
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->saveInt(II)I
@@ -1530,7 +1530,7 @@
     .line 510
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->setRecordOnOff(Z)V
 
-    const/16 v0, 0x3f01
+    const/16 v0, 0x4101
 
     .line 511
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->saveBool(IZ)I
@@ -1544,7 +1544,7 @@
     .line 530
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->setRecordPlay(Z)V
 
-    const/16 v0, 0x3f03
+    const/16 v0, 0x4103
 
     .line 531
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->saveBool(IZ)I
@@ -1558,7 +1558,7 @@
     .line 578
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->setRecordPlayDir(Z)V
 
-    const/16 v0, 0x3f0d
+    const/16 v0, 0x410d
 
     .line 579
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->saveBool(IZ)I
@@ -1572,7 +1572,7 @@
     .line 588
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/WaveRecordParam;->setRecordPlayInterval(J)V
 
-    const/16 v0, 0x3f0e
+    const/16 v0, 0x410e
 
     .line 589
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/WaveRecordParam;->saveLong(IJ)I
@@ -1586,7 +1586,7 @@
     .line 568
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->setRecordPlayMode(Z)V
 
-    const/16 v0, 0x3f0c
+    const/16 v0, 0x410c
 
     .line 569
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->saveBool(IZ)I
@@ -1600,7 +1600,7 @@
     .line 520
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->setRecordStart(Z)V
 
-    const/16 v0, 0x3f02
+    const/16 v0, 0x4102
 
     .line 521
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->saveBool(IZ)I
@@ -1614,7 +1614,7 @@
     .line 598
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->setRecordStartFrame(I)V
 
-    const/16 v0, 0x3f0f
+    const/16 v0, 0x410f
 
     .line 599
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->saveInt(II)I
@@ -1655,7 +1655,7 @@
     .line 410
     iput-boolean p1, p0, Lcom/rigol/scope/data/WaveRecordParam;->recordBeeper:Z
 
-    const/16 p1, 0x2b6
+    const/16 p1, 0x2ba
 
     .line 411
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->notifyPropertyChanged(I)V
@@ -1676,7 +1676,7 @@
 
     if-nez p1, :cond_0
 
-    const/16 p1, 0x2b7
+    const/16 p1, 0x2bb
 
     .line 301
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->notifyPropertyChanged(I)V
@@ -1691,7 +1691,7 @@
     .line 430
     iput p1, p0, Lcom/rigol/scope/data/WaveRecordParam;->recordCurrentFrames:I
 
-    const/16 p1, 0x2b8
+    const/16 p1, 0x2bc
 
     .line 432
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->notifyPropertyChanged(I)V
@@ -1712,7 +1712,7 @@
 
     if-nez p1, :cond_0
 
-    const/16 p1, 0x2b9
+    const/16 p1, 0x2bd
 
     .line 368
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->notifyPropertyChanged(I)V
@@ -1727,7 +1727,7 @@
     .line 311
     iput-boolean p1, p0, Lcom/rigol/scope/data/WaveRecordParam;->recordFrameStart:Z
 
-    const/16 p1, 0x2ba
+    const/16 p1, 0x2be
 
     .line 313
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->notifyPropertyChanged(I)V
@@ -1741,7 +1741,7 @@
     .line 388
     iput p1, p0, Lcom/rigol/scope/data/WaveRecordParam;->recordFrames:I
 
-    const/16 p1, 0x2bb
+    const/16 p1, 0x2bf
 
     .line 391
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->notifyPropertyChanged(I)V
@@ -1764,7 +1764,7 @@
     .line 378
     iput-wide p1, p0, Lcom/rigol/scope/data/WaveRecordParam;->recordInterval:J
 
-    const/16 p1, 0x2bc
+    const/16 p1, 0x2c0
 
     .line 379
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->notifyPropertyChanged(I)V
@@ -1787,7 +1787,7 @@
     .line 400
     iput p1, p0, Lcom/rigol/scope/data/WaveRecordParam;->recordMaxFrames:I
 
-    const/16 p1, 0x2bd
+    const/16 p1, 0x2c1
 
     .line 401
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->notifyPropertyChanged(I)V
@@ -1801,7 +1801,7 @@
     .line 420
     iput-boolean p1, p0, Lcom/rigol/scope/data/WaveRecordParam;->recordMin:Z
 
-    const/16 p1, 0x2be
+    const/16 p1, 0x2c2
 
     .line 421
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->notifyPropertyChanged(I)V
@@ -1815,7 +1815,7 @@
     .line 262
     iput-boolean p1, p0, Lcom/rigol/scope/data/WaveRecordParam;->recordOnOff:Z
 
-    const/16 p1, 0x2bf
+    const/16 p1, 0x2c3
 
     .line 263
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->notifyPropertyChanged(I)V
@@ -1829,7 +1829,7 @@
     .line 288
     iput-boolean p1, p0, Lcom/rigol/scope/data/WaveRecordParam;->recordPlay:Z
 
-    const/16 p1, 0x2c0
+    const/16 p1, 0x2c4
 
     .line 289
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->notifyPropertyChanged(I)V
@@ -1843,7 +1843,7 @@
     .line 332
     iput-boolean p1, p0, Lcom/rigol/scope/data/WaveRecordParam;->recordPlayDir:Z
 
-    const/16 p1, 0x2c1
+    const/16 p1, 0x2c5
 
     .line 333
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->notifyPropertyChanged(I)V
@@ -1857,7 +1857,7 @@
     .line 342
     iput-wide p1, p0, Lcom/rigol/scope/data/WaveRecordParam;->recordPlayInterval:J
 
-    const/16 p1, 0x2c2
+    const/16 p1, 0x2c6
 
     .line 343
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->notifyPropertyChanged(I)V
@@ -1871,7 +1871,7 @@
     .line 322
     iput-boolean p1, p0, Lcom/rigol/scope/data/WaveRecordParam;->recordPlayMode:Z
 
-    const/16 p1, 0x2c3
+    const/16 p1, 0x2c7
 
     .line 323
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->notifyPropertyChanged(I)V
@@ -1885,7 +1885,7 @@
     .line 278
     iput-boolean p1, p0, Lcom/rigol/scope/data/WaveRecordParam;->recordStart:Z
 
-    const/16 p1, 0x2c4
+    const/16 p1, 0x2c8
 
     .line 279
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->notifyPropertyChanged(I)V
@@ -1906,7 +1906,7 @@
 
     if-nez p1, :cond_0
 
-    const/16 p1, 0x2c5
+    const/16 p1, 0x2c9
 
     .line 355
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->notifyPropertyChanged(I)V
@@ -1930,7 +1930,7 @@
     .line 441
     iput-object p1, p0, Lcom/rigol/scope/data/WaveRecordParam;->state:Lcom/rigol/scope/cil/ServiceEnum$RecordState;
 
-    const/16 p1, 0x38a
+    const/16 p1, 0x38e
 
     .line 442
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->notifyPropertyChanged(I)V
@@ -1944,7 +1944,7 @@
     .line 451
     iput-object p1, p0, Lcom/rigol/scope/data/WaveRecordParam;->time:Ljava/lang/String;
 
-    const/16 p1, 0x3a6
+    const/16 p1, 0x3aa
 
     .line 452
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/WaveRecordParam;->notifyPropertyChanged(I)V

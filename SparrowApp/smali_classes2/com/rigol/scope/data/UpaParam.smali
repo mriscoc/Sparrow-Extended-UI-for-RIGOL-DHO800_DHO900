@@ -375,12 +375,12 @@
     .line 280
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaParam;->setType(I)V
 
-    const/16 v0, 0x5101
+    const/16 v0, 0x5301
 
     .line 281
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/UpaParam;->saveInt(II)I
 
-    const/16 p1, 0x3d2
+    const/16 p1, 0x3d6
 
     .line 282
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaParam;->notifyPropertyChanged(I)V
@@ -400,7 +400,7 @@
 .method public final getDisposeType()I
     .locals 1
 
-    const/16 v0, 0x5101
+    const/16 v0, 0x5301
 
     .line 287
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UpaParam;->readInt(I)I
@@ -763,49 +763,49 @@
     .line 254
     iget-object v0, p0, Lcom/rigol/scope/data/UpaParam;->upaholdHighAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x5107
+    const/16 v1, 0x5307
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/UpaParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
     .line 255
     iget-object v0, p0, Lcom/rigol/scope/data/UpaParam;->upaholdMiddleAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x5108
+    const/16 v1, 0x5308
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/UpaParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
     .line 256
     iget-object v0, p0, Lcom/rigol/scope/data/UpaParam;->upaholdLowAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x5109
+    const/16 v1, 0x5309
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/UpaParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
     .line 258
     iget-object v0, p0, Lcom/rigol/scope/data/UpaParam;->upaAbsHighAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x510a
+    const/16 v1, 0x530a
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/UpaParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
     .line 259
     iget-object v0, p0, Lcom/rigol/scope/data/UpaParam;->upaAbsMiddleAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x510b
+    const/16 v1, 0x530b
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/UpaParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
     .line 260
     iget-object v0, p0, Lcom/rigol/scope/data/UpaParam;->upaAbsLowAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x510c
+    const/16 v1, 0x530c
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/UpaParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
     .line 261
     iget-object v0, p0, Lcom/rigol/scope/data/UpaParam;->upaCountttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x5125
+    const/16 v1, 0x5325
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/UpaParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -818,7 +818,7 @@
 .method public final readFerqrefAutoset()V
     .locals 1
 
-    const/16 v0, 0x510e
+    const/16 v0, 0x530e
 
     .line 444
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UpaParam;->readInt(I)I
@@ -833,7 +833,7 @@
 .method public final readFerqrefSource()V
     .locals 1
 
-    const/16 v0, 0x5102
+    const/16 v0, 0x5302
 
     .line 428
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UpaParam;->readInt(I)I
@@ -848,7 +848,7 @@
 .method public final readPowerCount()I
     .locals 1
 
-    const/16 v0, 0x5125
+    const/16 v0, 0x5325
 
     .line 299
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UpaParam;->readInt(I)I
@@ -866,7 +866,7 @@
 .method public final readPowerCurr()V
     .locals 1
 
-    const/16 v0, 0x5104
+    const/16 v0, 0x5304
 
     .line 406
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UpaParam;->readInt(I)I
@@ -881,7 +881,7 @@
 .method public final readPowerCyc()V
     .locals 1
 
-    const/16 v0, 0x5112
+    const/16 v0, 0x5312
 
     .line 433
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UpaParam;->readInt(I)I
@@ -896,7 +896,7 @@
 .method public final readPowerDisp()V
     .locals 1
 
-    const/16 v0, 0x5111
+    const/16 v0, 0x5311
 
     .line 449
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UpaParam;->readBool(I)Z
@@ -905,7 +905,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UpaParam;->setRefPowerDisp(Z)V
 
-    const/16 v0, 0x2d6
+    const/16 v0, 0x2da
 
     .line 450
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UpaParam;->notifyPropertyChanged(I)V
@@ -916,7 +916,7 @@
 .method public final readPowerFref()V
     .locals 1
 
-    const/16 v0, 0x5106
+    const/16 v0, 0x5306
 
     .line 417
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UpaParam;->readInt(I)I
@@ -931,7 +931,7 @@
 .method public final readPowerTips()V
     .locals 1
 
-    const/16 v0, 0x5116
+    const/16 v0, 0x5316
 
     .line 463
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UpaParam;->readInt(I)I
@@ -946,7 +946,7 @@
 .method public final readPowerVolt()V
     .locals 1
 
-    const/16 v0, 0x5103
+    const/16 v0, 0x5303
 
     .line 394
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UpaParam;->readInt(I)I
@@ -961,7 +961,7 @@
 .method public final readRefAbsLow()V
     .locals 2
 
-    const/16 v0, 0x510c
+    const/16 v0, 0x530c
 
     .line 383
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UpaParam;->readLong(I)J
@@ -976,7 +976,7 @@
 .method public final readRefAbsMid()V
     .locals 2
 
-    const/16 v0, 0x510b
+    const/16 v0, 0x530b
 
     .line 371
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UpaParam;->readLong(I)J
@@ -991,7 +991,7 @@
 .method public final readRefLevel()V
     .locals 1
 
-    const/16 v0, 0x5112
+    const/16 v0, 0x5312
 
     .line 502
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UpaParam;->readBool(I)Z
@@ -1014,7 +1014,7 @@
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UpaParam;->setReflevel(I)V
 
     :goto_0
-    const/16 v0, 0x2dd
+    const/16 v0, 0x2e1
 
     .line 508
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UpaParam;->notifyPropertyChanged(I)V
@@ -1025,7 +1025,7 @@
 .method public final readRefPctLow()V
     .locals 1
 
-    const/16 v0, 0x5109
+    const/16 v0, 0x5309
 
     .line 346
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UpaParam;->readInt(I)I
@@ -1040,7 +1040,7 @@
 .method public final readRefPctMid()V
     .locals 1
 
-    const/16 v0, 0x5108
+    const/16 v0, 0x5308
 
     .line 335
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UpaParam;->readInt(I)I
@@ -1055,7 +1055,7 @@
 .method public final readReflAbsHigh()V
     .locals 2
 
-    const/16 v0, 0x510a
+    const/16 v0, 0x530a
 
     .line 358
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UpaParam;->readLong(I)J
@@ -1070,7 +1070,7 @@
 .method public final readReflHigh()V
     .locals 1
 
-    const/16 v0, 0x5107
+    const/16 v0, 0x5307
 
     .line 324
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UpaParam;->readInt(I)I
@@ -1085,7 +1085,7 @@
 .method public final readReflType()V
     .locals 1
 
-    const/16 v0, 0x5106
+    const/16 v0, 0x5306
 
     .line 311
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UpaParam;->readInt(I)I
@@ -1100,7 +1100,7 @@
 .method public final readRippleAutoset()V
     .locals 1
 
-    const/16 v0, 0x5117
+    const/16 v0, 0x5317
 
     .line 483
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UpaParam;->readInt(I)I
@@ -1111,7 +1111,7 @@
 .method public final readRippleDisp()V
     .locals 1
 
-    const/16 v0, 0x5118
+    const/16 v0, 0x5318
 
     .line 488
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UpaParam;->readInt(I)I
@@ -1126,7 +1126,7 @@
 .method public final readRippleSource()V
     .locals 1
 
-    const/16 v0, 0x5116
+    const/16 v0, 0x5316
 
     .line 469
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UpaParam;->readInt(I)I
@@ -1141,7 +1141,7 @@
 .method public final readRippleTips()V
     .locals 1
 
-    const/16 v0, 0x5119
+    const/16 v0, 0x5319
 
     .line 498
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UpaParam;->readInt(I)I
@@ -1237,7 +1237,7 @@
 .method public final resetPowerCount()V
     .locals 1
 
-    const/16 v0, 0x5126
+    const/16 v0, 0x5326
 
     .line 305
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UpaParam;->readInt(I)I
@@ -1254,7 +1254,7 @@
     .line 293
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaParam;->setStatCount(I)V
 
-    const/16 v0, 0x5125
+    const/16 v0, 0x5325
 
     .line 294
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/UpaParam;->saveInt(II)I
@@ -1268,7 +1268,7 @@
     .line 411
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaParam;->setRefPowerCurr(I)V
 
-    const/16 v0, 0x5104
+    const/16 v0, 0x5304
 
     .line 412
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/UpaParam;->saveInt(II)I
@@ -1282,7 +1282,7 @@
     .line 438
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaParam;->setRefPowerCyc(I)V
 
-    const/16 v0, 0x5113
+    const/16 v0, 0x5313
 
     .line 439
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/UpaParam;->saveInt(II)I
@@ -1296,12 +1296,12 @@
     .line 455
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaParam;->setRefPowerDisp(Z)V
 
-    const/16 v0, 0x5111
+    const/16 v0, 0x5311
 
     .line 456
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/UpaParam;->saveBool(IZ)I
 
-    const/16 p1, 0x2d6
+    const/16 p1, 0x2da
 
     .line 458
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaParam;->notifyPropertyChanged(I)V
@@ -1315,7 +1315,7 @@
     .line 422
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaParam;->setRefPowerFref(I)V
 
-    const/16 v0, 0x5106
+    const/16 v0, 0x5306
 
     .line 423
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/UpaParam;->saveInt(II)I
@@ -1329,7 +1329,7 @@
     .line 400
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaParam;->setRefPowerVolt(I)V
 
-    const/16 v0, 0x5103
+    const/16 v0, 0x5303
 
     .line 401
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/UpaParam;->saveInt(II)I
@@ -1343,7 +1343,7 @@
     .line 376
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/UpaParam;->setRefAbsMid(J)V
 
-    const/16 v0, 0x510b
+    const/16 v0, 0x530b
 
     .line 377
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/UpaParam;->saveLong(IJ)I
@@ -1357,7 +1357,7 @@
     .line 388
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/UpaParam;->setRefAbsLow(J)V
 
-    const/16 v0, 0x510c
+    const/16 v0, 0x530c
 
     .line 389
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/UpaParam;->saveLong(IJ)I
@@ -1371,7 +1371,7 @@
     .line 340
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaParam;->setRefPctMid(I)V
 
-    const/16 v0, 0x5108
+    const/16 v0, 0x5308
 
     .line 341
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/UpaParam;->saveInt(II)I
@@ -1385,7 +1385,7 @@
     .line 351
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaParam;->setRefPctLow(I)V
 
-    const/16 v0, 0x5109
+    const/16 v0, 0x5309
 
     .line 352
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/UpaParam;->saveInt(II)I
@@ -1399,7 +1399,7 @@
     .line 364
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/UpaParam;->setRefAbsHigh(J)V
 
-    const/16 v0, 0x510a
+    const/16 v0, 0x530a
 
     .line 365
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/UpaParam;->saveLong(IJ)I
@@ -1413,7 +1413,7 @@
     .line 329
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaParam;->setRefPctlHigh(I)V
 
-    const/16 v0, 0x5107
+    const/16 v0, 0x5307
 
     .line 330
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/UpaParam;->saveInt(II)I
@@ -1427,7 +1427,7 @@
     .line 317
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaParam;->setReflType(I)V
 
-    const/16 v0, 0x5106
+    const/16 v0, 0x5306
 
     .line 319
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/UpaParam;->saveInt(II)I
@@ -1441,7 +1441,7 @@
     .line 493
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaParam;->setRefRippleDisp(I)V
 
-    const/16 v0, 0x5118
+    const/16 v0, 0x5318
 
     .line 494
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/UpaParam;->saveInt(II)I
@@ -1455,7 +1455,7 @@
     .line 478
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaParam;->setRefRippleSource(I)V
 
-    const/16 v0, 0x5111
+    const/16 v0, 0x5311
 
     .line 479
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/UpaParam;->saveInt(II)I
@@ -1517,7 +1517,7 @@
     .line 98
     iput-wide p1, p0, Lcom/rigol/scope/data/UpaParam;->refAbsHigh:J
 
-    const/16 p1, 0x2c7
+    const/16 p1, 0x2cb
 
     .line 99
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaParam;->notifyPropertyChanged(I)V
@@ -1546,7 +1546,7 @@
     .line 114
     iput-wide p1, p0, Lcom/rigol/scope/data/UpaParam;->refAbsLow:J
 
-    const/16 p1, 0x2c8
+    const/16 p1, 0x2cc
 
     .line 115
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaParam;->notifyPropertyChanged(I)V
@@ -1575,7 +1575,7 @@
     .line 106
     iput-wide p1, p0, Lcom/rigol/scope/data/UpaParam;->refAbsMid:J
 
-    const/16 p1, 0x2c9
+    const/16 p1, 0x2cd
 
     .line 107
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaParam;->notifyPropertyChanged(I)V
@@ -1613,7 +1613,7 @@
     .line 512
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaParam;->setReflevel(I)V
 
-    const/16 v0, 0x5112
+    const/16 v0, 0x5312
 
     .line 513
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/UpaParam;->saveInt(II)I
@@ -1642,7 +1642,7 @@
     .line 90
     iput p1, p0, Lcom/rigol/scope/data/UpaParam;->refPctLow:I
 
-    const/16 p1, 0x2d0
+    const/16 p1, 0x2d4
 
     .line 91
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaParam;->notifyPropertyChanged(I)V
@@ -1671,7 +1671,7 @@
     .line 82
     iput p1, p0, Lcom/rigol/scope/data/UpaParam;->refPctMid:I
 
-    const/16 p1, 0x2d1
+    const/16 p1, 0x2d5
 
     .line 83
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaParam;->notifyPropertyChanged(I)V
@@ -1700,7 +1700,7 @@
     .line 70
     iput p1, p0, Lcom/rigol/scope/data/UpaParam;->refPctlHigh:I
 
-    const/16 p1, 0x2d2
+    const/16 p1, 0x2d6
 
     .line 75
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaParam;->notifyPropertyChanged(I)V
@@ -1753,7 +1753,7 @@
     .line 130
     iput p1, p0, Lcom/rigol/scope/data/UpaParam;->refPowerCurr:I
 
-    const/16 p1, 0x2d4
+    const/16 p1, 0x2d8
 
     .line 131
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaParam;->notifyPropertyChanged(I)V
@@ -1806,7 +1806,7 @@
     .line 171
     iput-boolean p1, p0, Lcom/rigol/scope/data/UpaParam;->refPowerDisp:Z
 
-    const/16 p1, 0x2d6
+    const/16 p1, 0x2da
 
     .line 172
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaParam;->notifyPropertyChanged(I)V
@@ -1835,7 +1835,7 @@
     .line 138
     iput p1, p0, Lcom/rigol/scope/data/UpaParam;->refPowerFref:I
 
-    const/16 p1, 0x2d7
+    const/16 p1, 0x2db
 
     .line 139
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaParam;->notifyPropertyChanged(I)V
@@ -1847,7 +1847,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x5112
+    const/16 v0, 0x5312
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/UpaParam;->syncData(ILjava/lang/Object;)V
 
@@ -1899,7 +1899,7 @@
     .line 122
     iput p1, p0, Lcom/rigol/scope/data/UpaParam;->refPowerVolt:I
 
-    const/16 p1, 0x2d9
+    const/16 p1, 0x2dd
 
     .line 123
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaParam;->notifyPropertyChanged(I)V
@@ -1976,7 +1976,7 @@
     .line 62
     iput p1, p0, Lcom/rigol/scope/data/UpaParam;->reflType:I
 
-    const/16 p1, 0x2dc
+    const/16 p1, 0x2e0
 
     .line 63
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaParam;->notifyPropertyChanged(I)V
@@ -2005,7 +2005,7 @@
     .line 203
     iput p1, p0, Lcom/rigol/scope/data/UpaParam;->reflevel:I
 
-    const/16 p1, 0x2dd
+    const/16 p1, 0x2e1
 
     .line 204
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaParam;->notifyPropertyChanged(I)V
@@ -2034,7 +2034,7 @@
     .line 54
     iput p1, p0, Lcom/rigol/scope/data/UpaParam;->statCount:I
 
-    const/16 p1, 0x387
+    const/16 p1, 0x38b
 
     .line 55
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaParam;->notifyPropertyChanged(I)V
@@ -2063,7 +2063,7 @@
     .line 38
     iput p1, p0, Lcom/rigol/scope/data/UpaParam;->type:I
 
-    const/16 p1, 0x3d2
+    const/16 p1, 0x3d6
 
     .line 39
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaParam;->notifyPropertyChanged(I)V
@@ -2239,21 +2239,21 @@
     .line 523
     iget-object v0, p0, Lcom/rigol/scope/data/UpaParam;->upaAbsHighAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x510a
+    const/16 v1, 0x530a
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/UpaParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
     .line 524
     iget-object v0, p0, Lcom/rigol/scope/data/UpaParam;->upaAbsLowAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x510c
+    const/16 v1, 0x530c
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/UpaParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
     .line 525
     iget-object v0, p0, Lcom/rigol/scope/data/UpaParam;->upaAbsMiddleAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x510b
+    const/16 v1, 0x530b
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/UpaParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -2266,21 +2266,21 @@
     .line 517
     iget-object v0, p0, Lcom/rigol/scope/data/UpaParam;->upaholdHighAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x5107
+    const/16 v1, 0x5307
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/UpaParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
     .line 518
     iget-object v0, p0, Lcom/rigol/scope/data/UpaParam;->upaholdLowAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x5109
+    const/16 v1, 0x5309
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/UpaParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
     .line 519
     iget-object v0, p0, Lcom/rigol/scope/data/UpaParam;->upaholdMiddleAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x5108
+    const/16 v1, 0x5308
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/UpaParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 

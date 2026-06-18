@@ -144,6 +144,8 @@
 
 .field private final diffSmoothAttr:Lcom/rigol/scope/cil/MessageAttr;
 
+.field private displayMode:Z
+
 .field private expandIndex:Lcom/rigol/scope/cil/ServiceEnum$VertExpand;
 
 .field private fftCenter:J
@@ -748,282 +750,282 @@
 .method public constructor <init>(Landroid/content/Context;Ljava/lang/String;I)V
     .locals 2
 
-    .line 259
+    .line 260
     invoke-direct {p0, p3}, Lcom/rigol/scope/data/BaseParam;-><init>(I)V
 
-    .line 159
+    .line 160
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->operator_add:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->operator:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
-    .line 160
+    .line 161
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->chan1:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->sourceArithAIndex:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    .line 161
+    .line 162
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->chan1:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->sourceArithBIndex:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    .line 162
+    .line 163
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->chan1:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->sourceLogicAIndex:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    .line 163
+    .line 164
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->chan1:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->sourceLogicBIndex:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    .line 164
+    .line 165
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->chan1:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->sourceFftIndex:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    .line 165
+    .line 166
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_none:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->unitIndex:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    .line 166
+    .line 167
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_V:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->thresholdUnit:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    .line 167
+    .line 168
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_hz:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->filterUnit:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    .line 168
+    .line 169
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_hz:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftFreqUnit:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    .line 169
+    .line 170
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$VertExpand;->vert_expand_gnd:Lcom/rigol/scope/cil/ServiceEnum$VertExpand;
 
     iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->expandIndex:Lcom/rigol/scope/cil/ServiceEnum$VertExpand;
 
-    .line 170
+    .line 171
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$LaScale;->Small:Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
     iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->logicSizeIndex:Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
-    .line 171
+    .line 172
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$FftxType;->fft_span_center:Lcom/rigol/scope/cil/ServiceEnum$FftxType;
 
     iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftxTypeIndex:Lcom/rigol/scope/cil/ServiceEnum$FftxType;
 
-    .line 172
+    .line 173
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$fftWindow;->fft_rectangle:Lcom/rigol/scope/cil/ServiceEnum$fftWindow;
 
     iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftWindowIndex:Lcom/rigol/scope/cil/ServiceEnum$fftWindow;
 
-    .line 173
+    .line 174
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;->fft_peak_AmpOrder:Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;
 
     iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftPeakOrderIndex:Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;
 
-    .line 174
+    .line 175
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;->fft_spec_db:Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;
 
     iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftUnitIndex:Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;
 
-    .line 178
+    .line 179
     sget-wide v0, Lcom/rigol/scope/data/MathParam;->DEFAULT_LOGICSCALE:J
 
     iput-wide v0, p0, Lcom/rigol/scope/data/MathParam;->logicScale:J
 
     const/4 v0, 0x0
 
-    .line 222
+    .line 223
     iput-boolean v0, p0, Lcom/rigol/scope/data/MathParam;->showPeakSetting:Z
-
-    .line 224
-    new-instance v0, Lcom/rigol/scope/cil/MessageAttr;
-
-    invoke-direct {v0}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
-
-    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->anaOffsetAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     .line 225
     new-instance v0, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {v0}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
 
-    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->anaScaleAttr:Lcom/rigol/scope/cil/MessageAttr;
+    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->anaOffsetAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     .line 226
     new-instance v0, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {v0}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
 
-    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftOffsetAttr:Lcom/rigol/scope/cil/MessageAttr;
+    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->anaScaleAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     .line 227
     new-instance v0, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {v0}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
 
-    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftScaleAttr:Lcom/rigol/scope/cil/MessageAttr;
+    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftOffsetAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     .line 228
     new-instance v0, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {v0}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
 
-    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->logicOffsetAttr:Lcom/rigol/scope/cil/MessageAttr;
+    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftScaleAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     .line 229
     new-instance v0, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {v0}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
 
-    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->intgBiasAttr:Lcom/rigol/scope/cil/MessageAttr;
+    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->logicOffsetAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     .line 230
     new-instance v0, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {v0}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
 
-    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->diffSmoothAttr:Lcom/rigol/scope/cil/MessageAttr;
+    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->intgBiasAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     .line 231
     new-instance v0, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {v0}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
 
-    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->lineAAttr:Lcom/rigol/scope/cil/MessageAttr;
+    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->diffSmoothAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     .line 232
     new-instance v0, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {v0}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
 
-    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->lineBAttr:Lcom/rigol/scope/cil/MessageAttr;
+    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->lineAAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     .line 233
     new-instance v0, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {v0}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
 
-    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->thresholdSensAttr:Lcom/rigol/scope/cil/MessageAttr;
+    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->lineBAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     .line 234
     new-instance v0, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {v0}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
 
-    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->thresholdCH1Attr:Lcom/rigol/scope/cil/MessageAttr;
+    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->thresholdSensAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     .line 235
     new-instance v0, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {v0}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
 
-    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->thresholdCH2Attr:Lcom/rigol/scope/cil/MessageAttr;
+    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->thresholdCH1Attr:Lcom/rigol/scope/cil/MessageAttr;
 
     .line 236
     new-instance v0, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {v0}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
 
-    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->thresholdCH3Attr:Lcom/rigol/scope/cil/MessageAttr;
+    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->thresholdCH2Attr:Lcom/rigol/scope/cil/MessageAttr;
 
     .line 237
     new-instance v0, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {v0}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
 
-    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->thresholdCH4Attr:Lcom/rigol/scope/cil/MessageAttr;
+    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->thresholdCH3Attr:Lcom/rigol/scope/cil/MessageAttr;
 
     .line 238
     new-instance v0, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {v0}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
 
-    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->lpFreqAttr:Lcom/rigol/scope/cil/MessageAttr;
+    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->thresholdCH4Attr:Lcom/rigol/scope/cil/MessageAttr;
 
     .line 239
     new-instance v0, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {v0}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
 
-    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->hpFreqAttr:Lcom/rigol/scope/cil/MessageAttr;
+    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->lpFreqAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     .line 240
     new-instance v0, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {v0}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
 
-    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->bpFreq1Attr:Lcom/rigol/scope/cil/MessageAttr;
+    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->hpFreqAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     .line 241
     new-instance v0, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {v0}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
 
-    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->bpFreq2Attr:Lcom/rigol/scope/cil/MessageAttr;
+    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->bpFreq1Attr:Lcom/rigol/scope/cil/MessageAttr;
 
     .line 242
     new-instance v0, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {v0}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
 
-    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->btFreq1Attr:Lcom/rigol/scope/cil/MessageAttr;
+    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->bpFreq2Attr:Lcom/rigol/scope/cil/MessageAttr;
 
     .line 243
     new-instance v0, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {v0}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
 
-    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->btFreq2Attr:Lcom/rigol/scope/cil/MessageAttr;
+    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->btFreq1Attr:Lcom/rigol/scope/cil/MessageAttr;
 
     .line 244
     new-instance v0, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {v0}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
 
-    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftSpanAttr:Lcom/rigol/scope/cil/MessageAttr;
+    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->btFreq2Attr:Lcom/rigol/scope/cil/MessageAttr;
 
     .line 245
     new-instance v0, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {v0}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
 
-    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftCenterAttr:Lcom/rigol/scope/cil/MessageAttr;
+    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftSpanAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     .line 246
     new-instance v0, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {v0}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
 
-    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftStartAttr:Lcom/rigol/scope/cil/MessageAttr;
+    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftCenterAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     .line 247
     new-instance v0, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {v0}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
 
-    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftEndAttr:Lcom/rigol/scope/cil/MessageAttr;
+    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftStartAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     .line 248
     new-instance v0, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {v0}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
 
-    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->peakNumAttr:Lcom/rigol/scope/cil/MessageAttr;
+    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftEndAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     .line 249
     new-instance v0, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {v0}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
 
-    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->peakThresholdAttr:Lcom/rigol/scope/cil/MessageAttr;
+    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->peakNumAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     .line 250
+    new-instance v0, Lcom/rigol/scope/cil/MessageAttr;
+
+    invoke-direct {v0}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
+
+    iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->peakThresholdAttr:Lcom/rigol/scope/cil/MessageAttr;
+
+    .line 251
     new-instance v0, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {v0}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
@@ -1032,13 +1034,13 @@
 
     const/4 v0, 0x0
 
-    .line 251
+    .line 252
     iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->mathLogicAdapter:Lcom/rigol/scope/adapters/MathLogicAdapter;
 
-    .line 260
+    .line 261
     iput-object p2, p0, Lcom/rigol/scope/data/MathParam;->title:Ljava/lang/String;
 
-    .line 263
+    .line 264
     invoke-static {p1, p3}, Lcom/rigol/scope/utilities/ColorUtil;->getColor(Landroid/content/Context;I)I
 
     move-result p2
@@ -1047,7 +1049,7 @@
 
     const p2, 0x7f0600ab
 
-    .line 264
+    .line 265
     invoke-static {p1, p2}, Landroidx/core/content/ContextCompat;->getColor(Landroid/content/Context;I)I
 
     move-result p2
@@ -1056,14 +1058,14 @@
 
     const p2, 0x7f0803d9
 
-    .line 265
+    .line 266
     invoke-static {p1, p2}, Lcom/rigol/scope/utilities/ContextUtil;->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     move-result-object p3
 
     iput-object p3, p0, Lcom/rigol/scope/data/MathParam;->defaultBackground:Landroid/graphics/drawable/Drawable;
 
-    .line 266
+    .line 267
     iget p3, p0, Lcom/rigol/scope/data/MathParam;->defaultColor:I
 
     invoke-static {p1, p2, p3}, Lcom/rigol/scope/utilities/ContextUtil;->getSelectedBackground(Landroid/content/Context;II)Landroid/graphics/drawable/Drawable;
@@ -1120,7 +1122,7 @@
 .method private updateOperatorString()V
     .locals 3
 
-    .line 1538
+    .line 1551
     sget-object v0, Lcom/rigol/scope/data/MathParam$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$MathOperator:[I
 
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getOperator()Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
@@ -1139,7 +1141,7 @@
 
     goto/16 :goto_0
 
-    .line 1600
+    .line 1613
     :pswitch_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -1167,7 +1169,7 @@
 
     goto/16 :goto_0
 
-    .line 1597
+    .line 1610
     :pswitch_1
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -1193,7 +1195,7 @@
 
     goto/16 :goto_0
 
-    .line 1594
+    .line 1607
     :pswitch_2
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -1219,7 +1221,7 @@
 
     goto/16 :goto_0
 
-    .line 1591
+    .line 1604
     :pswitch_3
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -1245,7 +1247,7 @@
 
     goto/16 :goto_0
 
-    .line 1588
+    .line 1601
     :pswitch_4
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -1271,7 +1273,7 @@
 
     goto/16 :goto_0
 
-    .line 1585
+    .line 1598
     :pswitch_5
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -1297,7 +1299,7 @@
 
     goto/16 :goto_0
 
-    .line 1582
+    .line 1595
     :pswitch_6
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -1323,7 +1325,7 @@
 
     goto/16 :goto_0
 
-    .line 1579
+    .line 1592
     :pswitch_7
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -1349,7 +1351,7 @@
 
     goto/16 :goto_0
 
-    .line 1576
+    .line 1589
     :pswitch_8
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -1375,7 +1377,7 @@
 
     goto/16 :goto_0
 
-    .line 1573
+    .line 1586
     :pswitch_9
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -1401,7 +1403,7 @@
 
     goto/16 :goto_0
 
-    .line 1570
+    .line 1583
     :pswitch_a
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -1427,7 +1429,7 @@
 
     goto/16 :goto_0
 
-    .line 1567
+    .line 1580
     :pswitch_b
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -1453,7 +1455,7 @@
 
     goto/16 :goto_0
 
-    .line 1564
+    .line 1577
     :pswitch_c
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -1479,7 +1481,7 @@
 
     goto/16 :goto_0
 
-    .line 1561
+    .line 1574
     :pswitch_d
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -1503,7 +1505,7 @@
 
     goto/16 :goto_0
 
-    .line 1558
+    .line 1571
     :pswitch_e
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -1533,7 +1535,7 @@
 
     goto/16 :goto_0
 
-    .line 1555
+    .line 1568
     :pswitch_f
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -1563,7 +1565,7 @@
 
     goto/16 :goto_0
 
-    .line 1552
+    .line 1565
     :pswitch_10
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -1593,7 +1595,7 @@
 
     goto/16 :goto_0
 
-    .line 1549
+    .line 1562
     :pswitch_11
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -1623,7 +1625,7 @@
 
     goto :goto_0
 
-    .line 1546
+    .line 1559
     :pswitch_12
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -1653,7 +1655,7 @@
 
     goto :goto_0
 
-    .line 1543
+    .line 1556
     :pswitch_13
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -1683,7 +1685,7 @@
 
     goto :goto_0
 
-    .line 1540
+    .line 1553
     :pswitch_14
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -1711,7 +1713,7 @@
 
     iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->operatorString:Ljava/lang/String;
 
-    .line 1605
+    .line 1618
     :goto_0
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->operatorString:Ljava/lang/String;
 
@@ -1750,7 +1752,7 @@
 .method private updeteOffsetString()V
     .locals 4
 
-    .line 1657
+    .line 1670
     sget-object v0, Lcom/rigol/scope/data/MathParam$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$MathOperator:[I
 
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getOperator()Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
@@ -1767,7 +1769,7 @@
 
     goto :goto_0
 
-    .line 1688
+    .line 1701
     :pswitch_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftOffsetStr()Ljava/lang/String;
 
@@ -1777,7 +1779,7 @@
 
     goto :goto_0
 
-    .line 1683
+    .line 1696
     :pswitch_1
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -1811,7 +1813,7 @@
 
     goto :goto_0
 
-    .line 1675
+    .line 1688
     :pswitch_2
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -1843,7 +1845,7 @@
 
     iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->offsetString:Ljava/lang/String;
 
-    .line 1695
+    .line 1708
     :goto_0
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->offsetString:Ljava/lang/String;
 
@@ -1882,7 +1884,7 @@
 .method public fftCenterReset()V
     .locals 2
 
-    .line 3210
+    .line 3242
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftCenterAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -1899,7 +1901,7 @@
 .method public fftCenterRoll(Landroid/view/KeyEvent;Z)V
     .locals 6
 
-    .line 3127
+    .line 3159
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftCenter()J
 
     move-result-wide v1
@@ -1926,7 +1928,7 @@
 .method public fftEndReset()V
     .locals 2
 
-    .line 3231
+    .line 3263
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftEndAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -1943,7 +1945,7 @@
 .method public fftEndRoll(Landroid/view/KeyEvent;Z)V
     .locals 6
 
-    .line 3157
+    .line 3189
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftEnd()J
 
     move-result-wide v1
@@ -1970,7 +1972,7 @@
 .method public fftPeakExcursionReset()V
     .locals 2
 
-    .line 3252
+    .line 3284
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getPeakExcursionAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -1987,7 +1989,7 @@
 .method public fftPeakExcursionRoll(Landroid/view/KeyEvent;Z)V
     .locals 6
 
-    .line 3187
+    .line 3219
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getPeakExcursion()J
 
     move-result-wide v1
@@ -2014,7 +2016,7 @@
 .method public fftPeakNumReset()V
     .locals 1
 
-    .line 3238
+    .line 3270
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getPeakNumAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -2031,7 +2033,7 @@
 .method public fftPeakNumRoll(Landroid/view/KeyEvent;Z)V
     .locals 7
 
-    .line 3167
+    .line 3199
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getPeakNum()I
 
     move-result v0
@@ -2060,7 +2062,7 @@
 .method public fftPeakThresholdReset()V
     .locals 2
 
-    .line 3245
+    .line 3277
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getPeakThresholdAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -2077,7 +2079,7 @@
 .method public fftPeakThresholdRoll(Landroid/view/KeyEvent;Z)V
     .locals 6
 
-    .line 3177
+    .line 3209
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getPeakThreshold()J
 
     move-result-wide v1
@@ -2104,7 +2106,7 @@
 .method public fftSpanReset()V
     .locals 2
 
-    .line 3217
+    .line 3249
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftSpanAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -2121,7 +2123,7 @@
 .method public fftSpanRoll(Landroid/view/KeyEvent;Z)V
     .locals 6
 
-    .line 3137
+    .line 3169
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftSpan()J
 
     move-result-wide v1
@@ -2148,7 +2150,7 @@
 .method public fftStartReset()V
     .locals 2
 
-    .line 3224
+    .line 3256
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftStartAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -2165,7 +2167,7 @@
 .method public fftStartRoll(Landroid/view/KeyEvent;Z)V
     .locals 6
 
-    .line 3147
+    .line 3179
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftStart()J
 
     move-result-wide v1
@@ -2192,7 +2194,7 @@
 .method public getAnaOffsetAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 366
+    .line 368
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->anaOffsetAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -2201,7 +2203,7 @@
 .method public getAnaScaleAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 370
+    .line 372
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->anaScaleAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -2210,7 +2212,7 @@
 .method public getAorBManager()Lcom/rigol/scope/utilities/AorBManager;
     .locals 1
 
-    .line 616
+    .line 618
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     return-object v0
@@ -2221,7 +2223,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1201
+    .line 1214
     iget-wide v0, p0, Lcom/rigol/scope/data/MathParam;->bpFreq1:J
 
     return-wide v0
@@ -2230,7 +2232,7 @@
 .method public getBpFreq1Attr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 416
+    .line 418
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->bpFreq1Attr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -2241,7 +2243,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1211
+    .line 1224
     iget-wide v0, p0, Lcom/rigol/scope/data/MathParam;->bpFreq2:J
 
     return-wide v0
@@ -2250,7 +2252,7 @@
 .method public getBpFreq2Attr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 420
+    .line 422
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->bpFreq2Attr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -2261,7 +2263,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1221
+    .line 1234
     iget-wide v0, p0, Lcom/rigol/scope/data/MathParam;->btFreq1:J
 
     return-wide v0
@@ -2270,7 +2272,7 @@
 .method public getBtFreq1Attr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 424
+    .line 426
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->btFreq1Attr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -2281,7 +2283,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1231
+    .line 1244
     iget-wide v0, p0, Lcom/rigol/scope/data/MathParam;->btFreq2:J
 
     return-wide v0
@@ -2290,7 +2292,7 @@
 .method public getBtFreq2Attr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 428
+    .line 430
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->btFreq2Attr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -2299,21 +2301,21 @@
 .method public getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
     .locals 1
 
-    .line 590
+    .line 592
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getServiceId()I
 
     move-result v0
 
     packed-switch v0, :pswitch_data_0
 
-    .line 604
+    .line 606
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->chan_none:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->chan:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     goto :goto_0
 
-    .line 601
+    .line 603
     :pswitch_0
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->m4:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -2321,7 +2323,7 @@
 
     goto :goto_0
 
-    .line 598
+    .line 600
     :pswitch_1
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->m3:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -2329,7 +2331,7 @@
 
     goto :goto_0
 
-    .line 595
+    .line 597
     :pswitch_2
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->m2:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -2337,13 +2339,13 @@
 
     goto :goto_0
 
-    .line 592
+    .line 594
     :pswitch_3
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->m1:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->chan:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    .line 608
+    .line 610
     :goto_0
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->chan:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -2361,7 +2363,7 @@
 .method public getClosedColor()I
     .locals 1
 
-    .line 688
+    .line 690
     iget v0, p0, Lcom/rigol/scope/data/MathParam;->closedColor:I
 
     return v0
@@ -2370,7 +2372,7 @@
 .method public getDefaultBackground()Landroid/graphics/drawable/Drawable;
     .locals 1
 
-    .line 696
+    .line 698
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->defaultBackground:Landroid/graphics/drawable/Drawable;
 
     return-object v0
@@ -2379,7 +2381,7 @@
 .method public getDefaultColor()I
     .locals 1
 
-    .line 680
+    .line 682
     iget v0, p0, Lcom/rigol/scope/data/MathParam;->defaultColor:I
 
     return v0
@@ -2390,7 +2392,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1123
+    .line 1136
     iget v0, p0, Lcom/rigol/scope/data/MathParam;->diffSmooth:I
 
     return v0
@@ -2399,7 +2401,7 @@
 .method public getDiffSmoothAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 433
+    .line 435
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->diffSmoothAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -2408,7 +2410,7 @@
 .method public getDiffSmoothConvertStr()Ljava/lang/String;
     .locals 3
 
-    .line 1410
+    .line 1423
     sget-object v0, Lcom/rigol/scope/utilities/UnitFormat$SI;->NONE:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/UnitFormat;->newBuilder(Lcom/rigol/scope/utilities/UnitFormat$SI;)Lcom/rigol/scope/utilities/UnitFormat;
@@ -2431,7 +2433,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 876
+    .line 878
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->expandIndex:Lcom/rigol/scope/cil/ServiceEnum$VertExpand;
 
     return-object v0
@@ -2442,7 +2444,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1257
+    .line 1270
     iget-wide v0, p0, Lcom/rigol/scope/data/MathParam;->fftCenter:J
 
     return-wide v0
@@ -2451,7 +2453,7 @@
 .method public getFftCenterAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 453
+    .line 455
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftCenterAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -2462,7 +2464,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1281
+    .line 1294
     iget-wide v0, p0, Lcom/rigol/scope/data/MathParam;->fftEnd:J
 
     return-wide v0
@@ -2471,7 +2473,7 @@
 .method public getFftEndAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 461
+    .line 463
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftEndAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -2480,7 +2482,7 @@
 .method public getFftFreqUnit()Lcom/rigol/scope/cil/ServiceEnum$Unit;
     .locals 1
 
-    .line 1406
+    .line 1419
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftFreqUnit:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     return-object v0
@@ -2491,7 +2493,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 770
+    .line 772
     iget-wide v0, p0, Lcom/rigol/scope/data/MathParam;->fftOffset:J
 
     return-wide v0
@@ -2500,7 +2502,7 @@
 .method public getFftOffsetAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 374
+    .line 376
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftOffsetAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -2511,7 +2513,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 795
+    .line 797
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftOffsetStr:Ljava/lang/String;
 
     return-object v0
@@ -2522,7 +2524,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1303
+    .line 1316
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftPeakOrderIndex:Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;
 
     return-object v0
@@ -2533,7 +2535,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 782
+    .line 784
     iget-wide v0, p0, Lcom/rigol/scope/data/MathParam;->fftScale:J
 
     return-wide v0
@@ -2542,7 +2544,7 @@
 .method public getFftScaleAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 378
+    .line 380
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftScaleAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -2553,7 +2555,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 806
+    .line 808
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftScaleStr:Ljava/lang/String;
 
     return-object v0
@@ -2564,7 +2566,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1245
+    .line 1258
     iget-wide v0, p0, Lcom/rigol/scope/data/MathParam;->fftSpan:J
 
     return-wide v0
@@ -2573,7 +2575,7 @@
 .method public getFftSpanAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 449
+    .line 451
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftSpanAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -2584,7 +2586,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1269
+    .line 1282
     iget-wide v0, p0, Lcom/rigol/scope/data/MathParam;->fftStart:J
 
     return-wide v0
@@ -2593,7 +2595,7 @@
 .method public getFftStartAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 457
+    .line 459
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftStartAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -2604,7 +2606,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1393
+    .line 1406
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftUnitIndex:Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;
 
     return-object v0
@@ -2621,9 +2623,9 @@
         }
     .end annotation
 
-    const v0, 0x7f03016d
+    const v0, 0x7f03016f
 
-    .line 991
+    .line 993
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getArray(I)Landroidx/collection/SparseArrayCompat;
 
     move-result-object v0
@@ -2636,7 +2638,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 996
+    .line 998
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftWindowIndex:Lcom/rigol/scope/cil/ServiceEnum$fftWindow;
 
     return-object v0
@@ -2647,7 +2649,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1508
+    .line 1521
     iget-wide v0, p0, Lcom/rigol/scope/data/MathParam;->fftZoomCenter:J
 
     return-wide v0
@@ -2658,7 +2660,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1498
+    .line 1511
     iget-wide v0, p0, Lcom/rigol/scope/data/MathParam;->fftZoomEnd:J
 
     return-wide v0
@@ -2667,7 +2669,7 @@
 .method public getFftZoomHScale()J
     .locals 2
 
-    .line 1487
+    .line 1500
     iget-wide v0, p0, Lcom/rigol/scope/data/MathParam;->fftZoomHScale:J
 
     return-wide v0
@@ -2678,7 +2680,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1518
+    .line 1531
     iget-wide v0, p0, Lcom/rigol/scope/data/MathParam;->fftZoomSpan:J
 
     return-wide v0
@@ -2689,7 +2691,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1476
+    .line 1489
     iget-wide v0, p0, Lcom/rigol/scope/data/MathParam;->fftZoomStart:J
 
     return-wide v0
@@ -2700,7 +2702,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1415
+    .line 1428
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftxTypeIndex:Lcom/rigol/scope/cil/ServiceEnum$FftxType;
 
     return-object v0
@@ -2709,7 +2711,7 @@
 .method public getFilterUnit()Lcom/rigol/scope/cil/ServiceEnum$Unit;
     .locals 1
 
-    .line 1402
+    .line 1415
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->filterUnit:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     return-object v0
@@ -2720,7 +2722,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 666
+    .line 668
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->grids:Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
     return-object v0
@@ -2731,7 +2733,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1191
+    .line 1204
     iget-wide v0, p0, Lcom/rigol/scope/data/MathParam;->hpFreq:J
 
     return-wide v0
@@ -2740,7 +2742,7 @@
 .method public getHpFreqAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 412
+    .line 414
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->hpFreqAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -2751,7 +2753,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1133
+    .line 1146
     iget-wide v0, p0, Lcom/rigol/scope/data/MathParam;->intgBias:J
 
     return-wide v0
@@ -2760,7 +2762,7 @@
 .method public getIntgBiasAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 437
+    .line 439
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->intgBiasAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -2771,7 +2773,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1143
+    .line 1156
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->intgBiasUnit:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     return-object v0
@@ -2782,7 +2784,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1020
+    .line 1022
     iget-boolean v0, p0, Lcom/rigol/scope/data/MathParam;->invert:Z
 
     return v0
@@ -2793,7 +2795,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 642
+    .line 644
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->labelString:Ljava/lang/String;
 
     return-object v0
@@ -2804,7 +2806,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1153
+    .line 1166
     iget-wide v0, p0, Lcom/rigol/scope/data/MathParam;->lineA:J
 
     return-wide v0
@@ -2813,7 +2815,7 @@
 .method public getLineAAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 441
+    .line 443
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->lineAAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -2824,7 +2826,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1163
+    .line 1176
     iget-wide v0, p0, Lcom/rigol/scope/data/MathParam;->lineB:J
 
     return-wide v0
@@ -2833,7 +2835,7 @@
 .method public getLineBAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 445
+    .line 447
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->lineBAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -2844,7 +2846,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 738
+    .line 740
     iget-wide v0, p0, Lcom/rigol/scope/data/MathParam;->logicOffset:J
 
     return-wide v0
@@ -2853,7 +2855,7 @@
 .method public getLogicOffsetAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 382
+    .line 384
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->logicOffsetAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -2862,7 +2864,7 @@
 .method public getLogicScale()J
     .locals 2
 
-    .line 749
+    .line 751
     iget-wide v0, p0, Lcom/rigol/scope/data/MathParam;->logicScale:J
 
     return-wide v0
@@ -2873,7 +2875,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 912
+    .line 914
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->logicSizeIndex:Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
     return-object v0
@@ -2884,7 +2886,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1181
+    .line 1194
     iget-wide v0, p0, Lcom/rigol/scope/data/MathParam;->lpFreq:J
 
     return-wide v0
@@ -2893,7 +2895,7 @@
 .method public getLpFreqAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 408
+    .line 410
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->lpFreqAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -2902,7 +2904,7 @@
 .method public getMathLogicAdapter()Lcom/rigol/scope/adapters/MathLogicAdapter;
     .locals 1
 
-    .line 256
+    .line 257
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->mathLogicAdapter:Lcom/rigol/scope/adapters/MathLogicAdapter;
 
     return-object v0
@@ -2913,7 +2915,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 713
+    .line 715
     iget-wide v0, p0, Lcom/rigol/scope/data/MathParam;->offset:J
 
     return-wide v0
@@ -2924,7 +2926,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1456
+    .line 1469
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->offsetString:Ljava/lang/String;
 
     return-object v0
@@ -2935,7 +2937,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 866
+    .line 868
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->operator:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     return-object v0
@@ -2946,7 +2948,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1430
+    .line 1443
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->operatorString:Ljava/lang/String;
 
     return-object v0
@@ -2957,7 +2959,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1353
+    .line 1366
     iget-wide v0, p0, Lcom/rigol/scope/data/MathParam;->peakExcursion:J
 
     return-wide v0
@@ -2966,7 +2968,7 @@
 .method public getPeakExcursionAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 473
+    .line 475
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->peakExcursionAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -2977,7 +2979,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1364
+    .line 1377
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->peakExcursionStr:Ljava/lang/String;
 
     return-object v0
@@ -2988,7 +2990,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1293
+    .line 1306
     iget v0, p0, Lcom/rigol/scope/data/MathParam;->peakNum:I
 
     return v0
@@ -2997,7 +2999,7 @@
 .method public getPeakNumAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 465
+    .line 467
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->peakNumAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -3008,7 +3010,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1313
+    .line 1326
     iget-wide v0, p0, Lcom/rigol/scope/data/MathParam;->peakThreshold:J
 
     return-wide v0
@@ -3017,7 +3019,7 @@
 .method public getPeakThresholdAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 469
+    .line 471
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->peakThresholdAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -3028,7 +3030,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1324
+    .line 1337
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->peakThresholdStr:Ljava/lang/String;
 
     return-object v0
@@ -3039,7 +3041,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 725
+    .line 727
     iget-wide v0, p0, Lcom/rigol/scope/data/MathParam;->scale:J
 
     return-wide v0
@@ -3050,7 +3052,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1435
+    .line 1448
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->scaleString:Ljava/lang/String;
 
     return-object v0
@@ -3059,7 +3061,7 @@
 .method public getSelectedBackground()Landroid/graphics/drawable/Drawable;
     .locals 1
 
-    .line 704
+    .line 706
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->selectedBackground:Landroid/graphics/drawable/Drawable;
 
     return-object v0
@@ -3070,7 +3072,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1073
+    .line 1086
     iget v0, p0, Lcom/rigol/scope/data/MathParam;->sens:I
 
     return v0
@@ -3081,7 +3083,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 917
+    .line 919
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->sourceArithAIndex:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -3090,16 +3092,16 @@
 .method public getSourceArithAStr()Ljava/lang/String;
     .locals 2
 
-    .line 929
+    .line 931
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getSourceArithAIndex()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     iget v0, v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    const v1, 0x7f030174
+    const v1, 0x7f030176
 
-    .line 928
+    .line 930
     invoke-static {v1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
     move-result-object v0
@@ -3110,7 +3112,7 @@
 
     return-object v0
 
-    .line 931
+    .line 933
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getSourceArithAIndex()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -3118,12 +3120,12 @@
 
     iget v0, v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    .line 930
+    .line 932
     invoke-static {v1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
     move-result-object v0
 
-    .line 931
+    .line 933
     invoke-virtual {v0}, Lcom/rigol/scope/data/MappingObject;->getStr()Ljava/lang/String;
 
     move-result-object v0
@@ -3136,7 +3138,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 936
+    .line 938
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->sourceArithBIndex:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -3145,16 +3147,16 @@
 .method public getSourceArithBStr()Ljava/lang/String;
     .locals 2
 
-    .line 947
+    .line 949
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getSourceArithBIndex()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     iget v0, v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    const v1, 0x7f030175
+    const v1, 0x7f030177
 
-    .line 946
+    .line 948
     invoke-static {v1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
     move-result-object v0
@@ -3165,7 +3167,7 @@
 
     return-object v0
 
-    .line 949
+    .line 951
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getSourceArithBIndex()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -3173,12 +3175,12 @@
 
     iget v0, v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    .line 948
+    .line 950
     invoke-static {v1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
     move-result-object v0
 
-    .line 949
+    .line 951
     invoke-virtual {v0}, Lcom/rigol/scope/data/MappingObject;->getStr()Ljava/lang/String;
 
     move-result-object v0
@@ -3191,7 +3193,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 976
+    .line 978
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->sourceFftIndex:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -3200,21 +3202,21 @@
 .method public getSourceFftStr()Ljava/lang/String;
     .locals 2
 
-    .line 987
+    .line 989
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getSourceFftIndex()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     iget v0, v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    const v1, 0x7f03016b
+    const v1, 0x7f03016d
 
-    .line 986
+    .line 988
     invoke-static {v1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
     move-result-object v0
 
-    .line 987
+    .line 989
     invoke-virtual {v0}, Lcom/rigol/scope/data/MappingObject;->getStr()Ljava/lang/String;
 
     move-result-object v0
@@ -3233,9 +3235,9 @@
         }
     .end annotation
 
-    const v0, 0x7f030177
+    const v0, 0x7f030179
 
-    .line 880
+    .line 882
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getArray(I)Landroidx/collection/SparseArrayCompat;
 
     move-result-object v0
@@ -3248,7 +3250,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 893
+    .line 895
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->sourceLogicAIndex:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -3257,21 +3259,21 @@
 .method public getSourceLogicAStr()Ljava/lang/String;
     .locals 2
 
-    .line 898
+    .line 900
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getSourceLogicAIndex()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     iget v0, v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    const v1, 0x7f030177
+    const v1, 0x7f030179
 
-    .line 897
+    .line 899
     invoke-static {v1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
     move-result-object v0
 
-    .line 898
+    .line 900
     invoke-virtual {v0}, Lcom/rigol/scope/data/MappingObject;->getStr()Ljava/lang/String;
 
     move-result-object v0
@@ -3290,9 +3292,9 @@
         }
     .end annotation
 
-    const v0, 0x7f030178
+    const v0, 0x7f03017a
 
-    .line 965
+    .line 967
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getArray(I)Landroidx/collection/SparseArrayCompat;
 
     move-result-object v0
@@ -3305,7 +3307,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 954
+    .line 956
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->sourceLogicBIndex:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -3314,21 +3316,21 @@
 .method public getSourceLogicBStr()Ljava/lang/String;
     .locals 2
 
-    .line 970
+    .line 972
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getSourceLogicBIndex()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     iget v0, v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    const v1, 0x7f030178
+    const v1, 0x7f03017a
 
-    .line 969
+    .line 971
     invoke-static {v1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
     move-result-object v0
 
-    .line 970
+    .line 972
     invoke-virtual {v0}, Lcom/rigol/scope/data/MappingObject;->getStr()Ljava/lang/String;
 
     move-result-object v0
@@ -3347,19 +3349,19 @@
         }
     .end annotation
 
-    .line 2917
+    .line 2949
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2919
+    .line 2951
     invoke-static {p2}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
 
     move-result-object p2
 
     add-int/lit8 p1, p1, -0x11
 
-    .line 2921
+    .line 2953
     invoke-interface {p2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p2
@@ -3378,7 +3380,7 @@
 
     check-cast v1, Lcom/rigol/scope/data/MappingObject;
 
-    .line 2922
+    .line 2954
     invoke-virtual {v1}, Lcom/rigol/scope/data/MappingObject;->getValue()I
 
     move-result v2
@@ -3391,7 +3393,7 @@
 
     if-ge v2, p1, :cond_0
 
-    .line 2923
+    .line 2955
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
@@ -3403,7 +3405,7 @@
 .method public getSrcSa()J
     .locals 2
 
-    .line 1172
+    .line 1185
     iget-wide v0, p0, Lcom/rigol/scope/data/MathParam;->srcSa:J
 
     return-wide v0
@@ -3414,7 +3416,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 654
+    .line 656
     iget-boolean v0, p0, Lcom/rigol/scope/data/MathParam;->status:Z
 
     return v0
@@ -3425,7 +3427,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1083
+    .line 1096
     iget-wide v0, p0, Lcom/rigol/scope/data/MathParam;->thresholdCH1:J
 
     return-wide v0
@@ -3434,7 +3436,7 @@
 .method public getThresholdCH1Attr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 391
+    .line 393
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->thresholdCH1Attr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -3445,7 +3447,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1113
+    .line 1126
     iget-wide v0, p0, Lcom/rigol/scope/data/MathParam;->thresholdCH2:J
 
     return-wide v0
@@ -3454,7 +3456,7 @@
 .method public getThresholdCH2Attr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 395
+    .line 397
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->thresholdCH2Attr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -3465,7 +3467,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1103
+    .line 1116
     iget-wide v0, p0, Lcom/rigol/scope/data/MathParam;->thresholdCH3:J
 
     return-wide v0
@@ -3474,7 +3476,7 @@
 .method public getThresholdCH3Attr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 399
+    .line 401
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->thresholdCH3Attr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -3485,7 +3487,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1093
+    .line 1106
     iget-wide v0, p0, Lcom/rigol/scope/data/MathParam;->thresholdCH4:J
 
     return-wide v0
@@ -3494,7 +3496,7 @@
 .method public getThresholdCH4Attr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 403
+    .line 405
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->thresholdCH4Attr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -3503,7 +3505,7 @@
 .method public getThresholdSensAttr()Lcom/rigol/scope/cil/MessageAttr;
     .locals 1
 
-    .line 387
+    .line 389
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->thresholdSensAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     return-object v0
@@ -3512,7 +3514,7 @@
 .method public getThresholdUnit()Lcom/rigol/scope/cil/ServiceEnum$Unit;
     .locals 1
 
-    .line 1240
+    .line 1253
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->thresholdUnit:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     return-object v0
@@ -3521,7 +3523,7 @@
 .method public getTitle()Ljava/lang/String;
     .locals 1
 
-    .line 676
+    .line 678
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->title:Ljava/lang/String;
 
     return-object v0
@@ -3532,7 +3534,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1052
+    .line 1065
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->unitIndex:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     return-object v0
@@ -3543,7 +3545,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 631
+    .line 633
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->waveType:Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;
 
     return-object v0
@@ -3554,7 +3556,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1445
+    .line 1458
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->windowTitleString:Ljava/lang/String;
 
     return-object v0
@@ -3565,8 +3567,19 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1010
+    .line 1012
     iget-boolean v0, p0, Lcom/rigol/scope/data/MathParam;->colorGrade:Z
+
+    return v0
+.end method
+
+.method public isDisplayMode()Z
+    .locals 1
+    .annotation runtime Landroidx/databinding/Bindable;
+    .end annotation
+
+    .line 1043
+    iget-boolean v0, p0, Lcom/rigol/scope/data/MathParam;->displayMode:Z
 
     return v0
 .end method
@@ -3576,7 +3589,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1030
+    .line 1032
     iget-boolean v0, p0, Lcom/rigol/scope/data/MathParam;->label:Z
 
     return v0
@@ -3587,7 +3600,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1041
+    .line 1054
     iget-boolean v0, p0, Lcom/rigol/scope/data/MathParam;->peakSearch:Z
 
     return v0
@@ -3598,7 +3611,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 1466
+    .line 1479
     iget-boolean v0, p0, Lcom/rigol/scope/data/MathParam;->showPeakSetting:Z
 
     return v0
@@ -3609,7 +3622,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 621
+    .line 623
     iget-boolean v0, p0, Lcom/rigol/scope/data/MathParam;->zoomEn:Z
 
     return v0
@@ -3618,7 +3631,7 @@
 .method public logicOffsetReset()V
     .locals 2
 
-    .line 3309
+    .line 3341
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getLogicOffsetAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -3639,7 +3652,7 @@
 
     if-eqz p2, :cond_0
 
-    .line 3289
+    .line 3321
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getLogicOffset()J
 
     move-result-wide p1
@@ -3650,7 +3663,7 @@
 
     goto :goto_0
 
-    .line 3291
+    .line 3323
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getLogicOffset()J
 
@@ -3667,7 +3680,7 @@
 .method public logicScaleReset()V
     .locals 1
 
-    .line 3316
+    .line 3348
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$LaScale;->Small:Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->saveLogicScale(Lcom/rigol/scope/cil/ServiceEnum$LaScale;)V
@@ -3680,21 +3693,21 @@
 
     if-eqz p2, :cond_2
 
-    .line 3263
+    .line 3295
     iget-object p1, p0, Lcom/rigol/scope/data/MathParam;->logicSizeIndex:Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
     sget-object p2, Lcom/rigol/scope/cil/ServiceEnum$LaScale;->Small:Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
     if-ne p1, p2, :cond_0
 
-    .line 3264
+    .line 3296
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$LaScale;->Medium:Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->saveLogicScale(Lcom/rigol/scope/cil/ServiceEnum$LaScale;)V
 
     goto :goto_0
 
-    .line 3265
+    .line 3297
     :cond_0
     iget-object p1, p0, Lcom/rigol/scope/data/MathParam;->logicSizeIndex:Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
@@ -3702,14 +3715,14 @@
 
     if-ne p1, p2, :cond_1
 
-    .line 3266
+    .line 3298
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$LaScale;->Large:Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->saveLogicScale(Lcom/rigol/scope/cil/ServiceEnum$LaScale;)V
 
     goto :goto_0
 
-    .line 3267
+    .line 3299
     :cond_1
     iget-object p1, p0, Lcom/rigol/scope/data/MathParam;->logicSizeIndex:Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
@@ -3717,14 +3730,14 @@
 
     if-ne p1, p2, :cond_5
 
-    .line 3268
+    .line 3300
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$LaScale;->Small:Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->saveLogicScale(Lcom/rigol/scope/cil/ServiceEnum$LaScale;)V
 
     goto :goto_0
 
-    .line 3271
+    .line 3303
     :cond_2
     iget-object p1, p0, Lcom/rigol/scope/data/MathParam;->logicSizeIndex:Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
@@ -3732,14 +3745,14 @@
 
     if-ne p1, p2, :cond_3
 
-    .line 3272
+    .line 3304
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$LaScale;->Medium:Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->saveLogicScale(Lcom/rigol/scope/cil/ServiceEnum$LaScale;)V
 
     goto :goto_0
 
-    .line 3273
+    .line 3305
     :cond_3
     iget-object p1, p0, Lcom/rigol/scope/data/MathParam;->logicSizeIndex:Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
@@ -3747,14 +3760,14 @@
 
     if-ne p1, p2, :cond_4
 
-    .line 3274
+    .line 3306
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$LaScale;->Small:Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->saveLogicScale(Lcom/rigol/scope/cil/ServiceEnum$LaScale;)V
 
     goto :goto_0
 
-    .line 3275
+    .line 3307
     :cond_4
     iget-object p1, p0, Lcom/rigol/scope/data/MathParam;->logicSizeIndex:Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
@@ -3762,7 +3775,7 @@
 
     if-ne p1, p2, :cond_5
 
-    .line 3276
+    .line 3308
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$LaScale;->Large:Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->saveLogicScale(Lcom/rigol/scope/cil/ServiceEnum$LaScale;)V
@@ -3775,15 +3788,15 @@
 .method public logicSensReset()V
     .locals 3
 
-    .line 3323
+    .line 3355
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readThresholdSensAttr()V
 
-    .line 3324
+    .line 3356
     new-instance v0, Lcom/rigol/scope/cil/MessageAttr;
 
     invoke-direct {v0}, Lcom/rigol/scope/cil/MessageAttr;-><init>()V
 
-    .line 3325
+    .line 3357
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getThresholdSensAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v1
@@ -3796,7 +3809,7 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/cil/MessageAttr;->setMaxValue(I)V
 
-    .line 3326
+    .line 3358
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getThresholdSensAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v1
@@ -3809,7 +3822,7 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/cil/MessageAttr;->setMinValue(I)V
 
-    .line 3327
+    .line 3359
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getThresholdSensAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v1
@@ -3824,10 +3837,10 @@
 
     const-wide/16 v1, 0x64
 
-    .line 3328
+    .line 3360
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/MessageAttr;->setStepValue(J)V
 
-    .line 3329
+    .line 3361
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->getIntDef(Lcom/rigol/scope/cil/MessageAttr;)I
 
     move-result v0
@@ -3840,7 +3853,7 @@
 .method public logicSenstRoll(Landroid/view/KeyEvent;Z)V
     .locals 7
 
-    .line 3302
+    .line 3334
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getSens()I
 
     move-result v0
@@ -3869,12 +3882,12 @@
 .method public offsetDown()V
     .locals 6
 
-    .line 3082
+    .line 3114
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getScale()J
 
     move-result-wide v0
 
-    .line 3084
+    .line 3116
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getOffset()J
 
     move-result-wide v2
@@ -3885,7 +3898,7 @@
 
     const-wide/16 v4, 0x3e8
 
-    .line 3086
+    .line 3118
     div-long/2addr v0, v4
 
     const-wide/16 v4, 0x0
@@ -3902,7 +3915,7 @@
     :goto_0
     sub-long/2addr v2, v0
 
-    .line 3091
+    .line 3123
     invoke-virtual {p0, v2, v3}, Lcom/rigol/scope/data/MathParam;->saveOffset(J)V
 
     return-void
@@ -3911,7 +3924,7 @@
 .method public offsetReset()V
     .locals 2
 
-    .line 3203
+    .line 3235
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getAnaOffsetAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -3930,12 +3943,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 3114
+    .line 3146
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->offsetUp()V
 
     goto :goto_0
 
-    .line 3116
+    .line 3148
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->offsetDown()V
 
@@ -3946,12 +3959,12 @@
 .method public offsetUp()V
     .locals 6
 
-    .line 3065
+    .line 3097
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getScale()J
 
     move-result-wide v0
 
-    .line 3067
+    .line 3099
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getOffset()J
 
     move-result-wide v2
@@ -3962,7 +3975,7 @@
 
     const-wide/16 v4, 0x3e8
 
-    .line 3069
+    .line 3101
     div-long/2addr v0, v4
 
     const-wide/16 v4, 0x0
@@ -3979,7 +3992,7 @@
     :goto_0
     add-long/2addr v2, v0
 
-    .line 3074
+    .line 3106
     invoke-virtual {p0, v2, v3}, Lcom/rigol/scope/data/MathParam;->saveOffset(J)V
 
     return-void
@@ -3988,10 +4001,10 @@
 .method public readAll()V
     .locals 0
 
-    .line 271
+    .line 272
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readAllParam()V
 
-    .line 272
+    .line 273
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readAllAttr()V
 
     return-void
@@ -4000,85 +4013,85 @@
 .method public readAllAttr()V
     .locals 0
 
-    .line 335
+    .line 337
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readAnaOffsetAttr()V
 
-    .line 336
+    .line 338
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readAnaScaleAttr()V
 
-    .line 337
+    .line 339
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readFftOffsetAttr()V
 
-    .line 338
+    .line 340
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readFftScaleAttr()V
 
-    .line 339
+    .line 341
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readLogicOffsetAttr()V
 
-    .line 340
+    .line 342
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readIntgBiasAttr()V
 
-    .line 341
+    .line 343
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readDiffSmoothAttr()V
 
-    .line 342
+    .line 344
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readLinAAttr()V
 
-    .line 343
+    .line 345
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readLinBAttr()V
 
-    .line 344
+    .line 346
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readThresholdSensAttr()V
 
-    .line 345
+    .line 347
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readThresholdCH1Attr()V
 
-    .line 346
+    .line 348
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readThresholdCH2Attr()V
 
-    .line 347
+    .line 349
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readThresholdCH3Attr()V
 
-    .line 348
+    .line 350
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readThresholdCH4Attr()V
 
-    .line 349
+    .line 351
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readLpFreqAttr()V
 
-    .line 350
+    .line 352
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readHpFreqAttr()V
 
-    .line 351
+    .line 353
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readBpFreq1Attr()V
 
-    .line 352
+    .line 354
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readBpFreq2Attr()V
 
-    .line 353
+    .line 355
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readBtFreq1Attr()V
 
-    .line 354
+    .line 356
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readBtFreq2Attr()V
 
-    .line 355
+    .line 357
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readFftSpanAttr()V
 
-    .line 356
+    .line 358
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readFftCenterAttr()V
 
-    .line 357
+    .line 359
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readFftStartAttr()V
 
-    .line 358
+    .line 360
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readFftEndAttr()V
 
-    .line 359
+    .line 361
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readPeakNumAttr()V
 
-    .line 360
+    .line 362
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readPeakThresholdAttr()V
 
-    .line 361
+    .line 363
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readPeakExcursionAttr()V
 
     return-void
@@ -4087,158 +4100,161 @@
 .method public readAllParam()V
     .locals 0
 
-    .line 276
+    .line 277
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readOperator()Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
-    .line 277
+    .line 278
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readStatus()Z
 
-    .line 278
+    .line 279
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readUnit()Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    .line 279
+    .line 280
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readLable()Z
 
-    .line 280
+    .line 281
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readLableString()Ljava/lang/String;
 
-    .line 281
+    .line 282
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readGrids()Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
-    .line 282
+    .line 283
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readZoomEn()V
 
-    .line 283
+    .line 284
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readWaveType()V
 
-    .line 285
+    .line 286
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readSourceArithA()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    .line 286
+    .line 287
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readSourceArithB()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    .line 287
+    .line 288
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readScale()J
 
-    .line 288
+    .line 289
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readOffset()J
 
-    .line 289
+    .line 290
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readInvert()Z
 
-    .line 290
+    .line 291
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readExpand()Lcom/rigol/scope/cil/ServiceEnum$VertExpand;
 
-    .line 292
+    .line 293
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readSourceFft()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    .line 293
+    .line 294
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readFftXType()Lcom/rigol/scope/cil/ServiceEnum$FftxType;
 
-    .line 294
+    .line 295
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readFftUnit()Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;
 
-    .line 295
+    .line 296
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readFftStart()J
 
-    .line 296
+    .line 297
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readFftEnd()J
 
-    .line 297
+    .line 298
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readFftCenter()J
 
-    .line 298
+    .line 299
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readFftSpan()J
 
-    .line 299
+    .line 300
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readFftWindow()Lcom/rigol/scope/cil/ServiceEnum$fftWindow;
 
-    .line 300
+    .line 301
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readFftOffset()J
 
-    .line 301
+    .line 302
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readFftScale()J
 
-    .line 302
+    .line 303
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readColorGrade()Z
 
-    .line 303
+    .line 304
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readPeakSearch()Z
 
-    .line 304
+    .line 305
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readPeakNum()I
 
-    .line 305
+    .line 306
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readPeakThreshold()J
 
-    .line 306
+    .line 307
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readPeakExcursion()J
 
-    .line 307
+    .line 308
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readFftPeakOrder()Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;
 
-    .line 308
+    .line 309
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readFftZoomStart()V
 
-    .line 309
+    .line 310
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readFftZoomHScale()V
 
-    .line 311
+    .line 312
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readIntgBias()J
 
-    .line 312
+    .line 313
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readSmooth()I
 
-    .line 313
+    .line 314
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readLineA()J
 
-    .line 314
+    .line 315
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readLineB()J
 
-    .line 316
+    .line 317
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readSourceLogicA()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    .line 317
+    .line 318
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readSourceLogicB()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    .line 318
+    .line 319
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readLogicScale()Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
-    .line 319
+    .line 320
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readLogicOffset()J
 
-    .line 320
+    .line 321
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readSens()I
 
-    .line 321
+    .line 322
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readThresholdCH1()J
 
-    .line 322
+    .line 323
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readThresholdCH2()J
 
-    .line 323
+    .line 324
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readThresholdCH3()J
 
-    .line 324
+    .line 325
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readThresholdCH4()J
 
-    .line 326
+    .line 327
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readLpFreq()J
 
-    .line 327
+    .line 328
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readHpFreq()J
 
-    .line 328
+    .line 329
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readBpFreq1()J
 
-    .line 329
+    .line 330
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readBpFreq2()J
 
-    .line 330
+    .line 331
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readBtFreq1()J
 
-    .line 331
+    .line 332
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readBtFreq2()J
+
+    .line 333
+    invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readDisplayMode()Z
 
     return-void
 .end method
@@ -4246,10 +4262,10 @@
 .method public readAnaOffsetAttr()V
     .locals 2
 
-    .line 480
+    .line 482
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->anaOffsetAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2f32
+    const/16 v1, 0x3132
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MathParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -4259,10 +4275,10 @@
 .method public readAnaScaleAttr()V
     .locals 2
 
-    .line 484
+    .line 486
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->anaScaleAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2f1f
+    const/16 v1, 0x311f
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MathParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -4272,16 +4288,16 @@
 .method public readBpFreq1()J
     .locals 2
 
-    const/16 v0, 0x2f3a
+    const/16 v0, 0x313a
 
-    .line 2342
+    .line 2355
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MathParam;->setBpFreq1(J)V
 
-    .line 2343
+    .line 2356
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getBpFreq1()J
 
     move-result-wide v0
@@ -4292,10 +4308,10 @@
 .method public readBpFreq1Attr()V
     .locals 2
 
-    .line 544
+    .line 546
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->bpFreq1Attr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2f3a
+    const/16 v1, 0x313a
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MathParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -4305,16 +4321,16 @@
 .method public readBpFreq2()J
     .locals 2
 
-    const/16 v0, 0x2f3b
+    const/16 v0, 0x313b
 
-    .line 2362
+    .line 2375
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MathParam;->setBpFreq2(J)V
 
-    .line 2363
+    .line 2376
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getBpFreq2()J
 
     move-result-wide v0
@@ -4325,10 +4341,10 @@
 .method public readBpFreq2Attr()V
     .locals 2
 
-    .line 548
+    .line 550
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->bpFreq2Attr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2f3b
+    const/16 v1, 0x313b
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MathParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -4338,16 +4354,16 @@
 .method public readBtFreq1()J
     .locals 2
 
-    const/16 v0, 0x2f3c
+    const/16 v0, 0x313c
 
-    .line 2382
+    .line 2395
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MathParam;->setBtFreq1(J)V
 
-    .line 2383
+    .line 2396
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getBtFreq1()J
 
     move-result-wide v0
@@ -4358,10 +4374,10 @@
 .method public readBtFreq1Attr()V
     .locals 2
 
-    .line 552
+    .line 554
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->btFreq1Attr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2f3c
+    const/16 v1, 0x313c
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MathParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -4371,16 +4387,16 @@
 .method public readBtFreq2()J
     .locals 2
 
-    const/16 v0, 0x2f3d
+    const/16 v0, 0x313d
 
-    .line 2402
+    .line 2415
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MathParam;->setBtFreq2(J)V
 
-    .line 2403
+    .line 2416
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getBtFreq2()J
 
     move-result-wide v0
@@ -4391,10 +4407,10 @@
 .method public readBtFreq2Attr()V
     .locals 2
 
-    .line 556
+    .line 558
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->btFreq2Attr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2f3d
+    const/16 v1, 0x313d
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MathParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -4404,16 +4420,16 @@
 .method public readColorGrade()Z
     .locals 1
 
-    const/16 v0, 0x2f36
+    const/16 v0, 0x3136
 
-    .line 2694
+    .line 2707
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setColorGrade(Z)V
 
-    .line 2695
+    .line 2708
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->isColorGrade()Z
 
     move-result v0
@@ -4424,22 +4440,42 @@
 .method public readDiffSmoothAttr()V
     .locals 2
 
-    .line 504
+    .line 506
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->diffSmoothAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2f20
+    const/16 v1, 0x3120
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MathParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
     return-void
 .end method
 
+.method public readDisplayMode()Z
+    .locals 1
+
+    const/16 v0, 0x316b
+
+    .line 2757
+    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readBool(I)Z
+
+    move-result v0
+
+    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setDisplayMode(Z)V
+
+    .line 2758
+    invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->isDisplayMode()Z
+
+    move-result v0
+
+    return v0
+.end method
+
 .method public readExpand()Lcom/rigol/scope/cil/ServiceEnum$VertExpand;
     .locals 1
 
-    const/16 v0, 0x2f35
+    const/16 v0, 0x3135
 
-    .line 2061
+    .line 2074
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readInt(I)I
 
     move-result v0
@@ -4450,7 +4486,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setExpandIndex(Lcom/rigol/scope/cil/ServiceEnum$VertExpand;)V
 
-    .line 2062
+    .line 2075
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getExpandIndex()Lcom/rigol/scope/cil/ServiceEnum$VertExpand;
 
     move-result-object v0
@@ -4461,16 +4497,16 @@
 .method public readFftCenter()J
     .locals 2
 
-    const/16 v0, 0x2f07
+    const/16 v0, 0x3107
 
-    .line 2449
+    .line 2462
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MathParam;->setFftCenter(J)V
 
-    .line 2450
+    .line 2463
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftCenter()J
 
     move-result-wide v0
@@ -4481,10 +4517,10 @@
 .method public readFftCenterAttr()V
     .locals 2
 
-    .line 564
+    .line 566
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftCenterAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2f07
+    const/16 v1, 0x3107
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MathParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -4494,16 +4530,16 @@
 .method public readFftEnd()J
     .locals 2
 
-    const/16 v0, 0x2f0a
+    const/16 v0, 0x310a
 
-    .line 2503
+    .line 2516
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MathParam;->setFftEnd(J)V
 
-    .line 2504
+    .line 2517
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftEnd()J
 
     move-result-wide v0
@@ -4514,10 +4550,10 @@
 .method public readFftEndAttr()V
     .locals 2
 
-    .line 572
+    .line 574
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftEndAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2f0a
+    const/16 v1, 0x310a
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MathParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -4527,16 +4563,16 @@
 .method public readFftOffset()J
     .locals 2
 
-    const/16 v0, 0x2f33
+    const/16 v0, 0x3133
 
-    .line 1983
+    .line 1996
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MathParam;->setFftOffset(J)V
 
-    .line 1984
+    .line 1997
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftOffset()J
 
     move-result-wide v0
@@ -4547,10 +4583,10 @@
 .method public readFftOffsetAttr()V
     .locals 2
 
-    .line 488
+    .line 490
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftOffsetAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2f33
+    const/16 v1, 0x3133
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MathParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -4560,9 +4596,9 @@
 .method public readFftPeakOrder()Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;
     .locals 1
 
-    const/16 v0, 0x2f16
+    const/16 v0, 0x3116
 
-    .line 2674
+    .line 2687
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readInt(I)I
 
     move-result v0
@@ -4573,7 +4609,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setFftPeakOrderIndex(Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;)V
 
-    .line 2675
+    .line 2688
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftPeakOrderIndex()Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;
 
     move-result-object v0
@@ -4584,16 +4620,16 @@
 .method public readFftScale()J
     .locals 2
 
-    const/16 v0, 0x2f0b
+    const/16 v0, 0x310b
 
-    .line 2011
+    .line 2024
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MathParam;->setFftScale(J)V
 
-    .line 2012
+    .line 2025
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftScale()J
 
     move-result-wide v0
@@ -4604,10 +4640,10 @@
 .method public readFftScaleAttr()V
     .locals 2
 
-    .line 492
+    .line 494
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftScaleAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2f0b
+    const/16 v1, 0x310b
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MathParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -4617,16 +4653,16 @@
 .method public readFftSpan()J
     .locals 2
 
-    const/16 v0, 0x2f08
+    const/16 v0, 0x3108
 
-    .line 2422
+    .line 2435
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MathParam;->setFftSpan(J)V
 
-    .line 2423
+    .line 2436
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftSpan()J
 
     move-result-wide v0
@@ -4637,10 +4673,10 @@
 .method public readFftSpanAttr()V
     .locals 2
 
-    .line 560
+    .line 562
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftSpanAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2f08
+    const/16 v1, 0x3108
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MathParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -4650,16 +4686,16 @@
 .method public readFftStart()J
     .locals 2
 
-    const/16 v0, 0x2f09
+    const/16 v0, 0x3109
 
-    .line 2476
+    .line 2489
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MathParam;->setFftStart(J)V
 
-    .line 2477
+    .line 2490
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftStart()J
 
     move-result-wide v0
@@ -4670,10 +4706,10 @@
 .method public readFftStartAttr()V
     .locals 2
 
-    .line 568
+    .line 570
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->fftStartAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2f09
+    const/16 v1, 0x3109
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MathParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -4683,9 +4719,9 @@
 .method public readFftUnit()Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;
     .locals 1
 
-    const/16 v0, 0x2f0e
+    const/16 v0, 0x310e
 
-    .line 2614
+    .line 2627
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readInt(I)I
 
     move-result v0
@@ -4696,7 +4732,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setFftUnitIndex(Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;)V
 
-    .line 2615
+    .line 2628
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftUnitIndex()Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;
 
     move-result-object v0
@@ -4707,9 +4743,9 @@
 .method public readFftWindow()Lcom/rigol/scope/cil/ServiceEnum$fftWindow;
     .locals 1
 
-    const/16 v0, 0x2f0c
+    const/16 v0, 0x310c
 
-    .line 2634
+    .line 2647
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readInt(I)I
 
     move-result v0
@@ -4720,7 +4756,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setFftWindowIndex(Lcom/rigol/scope/cil/ServiceEnum$fftWindow;)V
 
-    .line 2635
+    .line 2648
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftWindowIndex()Lcom/rigol/scope/cil/ServiceEnum$fftWindow;
 
     move-result-object v0
@@ -4731,21 +4767,21 @@
 .method public readFftXType()Lcom/rigol/scope/cil/ServiceEnum$FftxType;
     .locals 1
 
-    const/16 v0, 0x2f0f
+    const/16 v0, 0x310f
 
-    .line 2590
+    .line 2603
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readBool(I)Z
 
     move-result v0
 
-    .line 2592
+    .line 2605
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getFftxTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$FftxType;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setFftxTypeIndex(Lcom/rigol/scope/cil/ServiceEnum$FftxType;)V
 
-    .line 2593
+    .line 2606
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftxTypeIndex()Lcom/rigol/scope/cil/ServiceEnum$FftxType;
 
     move-result-object v0
@@ -4756,9 +4792,9 @@
 .method public readFftZoomHScale()V
     .locals 2
 
-    const/16 v0, 0x2f62
+    const/16 v0, 0x3162
 
-    .line 2791
+    .line 2823
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readLong(I)J
 
     move-result-wide v0
@@ -4771,9 +4807,9 @@
 .method public readFftZoomStart()V
     .locals 2
 
-    const/16 v0, 0x2f61
+    const/16 v0, 0x3161
 
-    .line 2784
+    .line 2816
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readLong(I)J
 
     move-result-wide v0
@@ -4788,7 +4824,7 @@
 
     const/16 v0, 0x1304
 
-    .line 2752
+    .line 2784
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readInt(I)I
 
     move-result v0
@@ -4799,7 +4835,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setGrids(Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;)V
 
-    .line 2753
+    .line 2785
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getGrids()Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
     move-result-object v0
@@ -4810,16 +4846,16 @@
 .method public readHpFreq()J
     .locals 2
 
-    const/16 v0, 0x2f39
+    const/16 v0, 0x3139
 
-    .line 2322
+    .line 2335
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MathParam;->setHpFreq(J)V
 
-    .line 2323
+    .line 2336
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getHpFreq()J
 
     move-result-wide v0
@@ -4830,10 +4866,10 @@
 .method public readHpFreqAttr()V
     .locals 2
 
-    .line 540
+    .line 542
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->hpFreqAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2f39
+    const/16 v1, 0x3139
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MathParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -4843,16 +4879,16 @@
 .method public readIntgBias()J
     .locals 2
 
-    const/16 v0, 0x2f2d
+    const/16 v0, 0x312d
 
-    .line 2101
+    .line 2114
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MathParam;->setIntgBias(J)V
 
-    .line 2102
+    .line 2115
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getIntgBias()J
 
     move-result-wide v0
@@ -4863,10 +4899,10 @@
 .method public readIntgBiasAttr()V
     .locals 2
 
-    .line 500
+    .line 502
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->intgBiasAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2f2d
+    const/16 v1, 0x312d
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MathParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -4876,21 +4912,21 @@
 .method public readIntgBiasUnit()Lcom/rigol/scope/cil/ServiceEnum$Unit;
     .locals 1
 
-    const/16 v0, 0x2f2e
+    const/16 v0, 0x312e
 
-    .line 2116
+    .line 2129
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readInt(I)I
 
     move-result v0
 
-    .line 2117
+    .line 2130
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getUnitFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setIntgBiasUnit(Lcom/rigol/scope/cil/ServiceEnum$Unit;)V
 
-    .line 2118
+    .line 2131
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getIntgBiasUnit()Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     move-result-object v0
@@ -4901,16 +4937,16 @@
 .method public readInvert()Z
     .locals 1
 
-    const/16 v0, 0x2f03
+    const/16 v0, 0x3103
 
-    .line 2039
+    .line 2052
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setInvert(Z)V
 
-    .line 2040
+    .line 2053
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getInvert()Z
 
     move-result v0
@@ -4921,16 +4957,16 @@
 .method public readLable()Z
     .locals 1
 
-    const/16 v0, 0x2f2a
+    const/16 v0, 0x312a
 
-    .line 2734
+    .line 2747
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setLabel(Z)V
 
-    .line 2735
+    .line 2748
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->isLabel()Z
 
     move-result v0
@@ -4941,16 +4977,16 @@
 .method public readLableString()Ljava/lang/String;
     .locals 1
 
-    const/16 v0, 0x2f29
+    const/16 v0, 0x3129
 
-    .line 2714
+    .line 2727
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readStr(I)Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setLabelString(Ljava/lang/String;)V
 
-    .line 2715
+    .line 2728
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getLabelString()Ljava/lang/String;
 
     move-result-object v0
@@ -4961,10 +4997,10 @@
 .method public readLinAAttr()V
     .locals 2
 
-    .line 508
+    .line 510
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->lineAAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2f2f
+    const/16 v1, 0x312f
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MathParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -4974,10 +5010,10 @@
 .method public readLinBAttr()V
     .locals 2
 
-    .line 512
+    .line 514
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->lineBAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2f30
+    const/16 v1, 0x3130
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MathParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -4987,16 +5023,16 @@
 .method public readLineA()J
     .locals 2
 
-    const/16 v0, 0x2f2f
+    const/16 v0, 0x312f
 
-    .line 2127
+    .line 2140
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MathParam;->setLineA(J)V
 
-    .line 2128
+    .line 2141
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getLineA()J
 
     move-result-wide v0
@@ -5007,16 +5043,16 @@
 .method public readLineB()J
     .locals 2
 
-    const/16 v0, 0x2f30
+    const/16 v0, 0x3130
 
-    .line 2147
+    .line 2160
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MathParam;->setLineB(J)V
 
-    .line 2148
+    .line 2161
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getLineB()J
 
     move-result-wide v0
@@ -5027,16 +5063,16 @@
 .method public readLogicOffset()J
     .locals 2
 
-    const/16 v0, 0x2f34
+    const/16 v0, 0x3134
 
-    .line 1935
+    .line 1948
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MathParam;->setLogicOffset(J)V
 
-    .line 1936
+    .line 1949
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getLogicOffset()J
 
     move-result-wide v0
@@ -5047,10 +5083,10 @@
 .method public readLogicOffsetAttr()V
     .locals 2
 
-    .line 496
+    .line 498
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->logicOffsetAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2f34
+    const/16 v1, 0x3134
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MathParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -5060,21 +5096,21 @@
 .method public readLogicScale()Lcom/rigol/scope/cil/ServiceEnum$LaScale;
     .locals 1
 
-    const/16 v0, 0x2f31
+    const/16 v0, 0x3131
 
-    .line 1962
+    .line 1975
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readInt(I)I
 
     move-result v0
 
-    .line 1963
+    .line 1976
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getLaScaleFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setLogicSizeIndex(Lcom/rigol/scope/cil/ServiceEnum$LaScale;)V
 
-    .line 1964
+    .line 1977
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getLogicSizeIndex()Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
     move-result-object v0
@@ -5085,16 +5121,16 @@
 .method public readLpFreq()J
     .locals 2
 
-    const/16 v0, 0x2f38
+    const/16 v0, 0x3138
 
-    .line 2302
+    .line 2315
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MathParam;->setLpFreq(J)V
 
-    .line 2303
+    .line 2316
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getLpFreq()J
 
     move-result-wide v0
@@ -5105,10 +5141,10 @@
 .method public readLpFreqAttr()V
     .locals 2
 
-    .line 536
+    .line 538
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->lpFreqAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2f38
+    const/16 v1, 0x3138
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MathParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -5118,16 +5154,16 @@
 .method public readOffset()J
     .locals 2
 
-    const/16 v0, 0x2f32
+    const/16 v0, 0x3132
 
-    .line 1906
+    .line 1919
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MathParam;->setOffset(J)V
 
-    .line 1907
+    .line 1920
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getOffset()J
 
     move-result-wide v0
@@ -5138,21 +5174,21 @@
 .method public readOperator()Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
     .locals 1
 
-    const/16 v0, 0x2f02
+    const/16 v0, 0x3102
 
-    .line 1732
+    .line 1745
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readInt(I)I
 
     move-result v0
 
-    .line 1733
+    .line 1746
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getMathOperatorFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setOperator(Lcom/rigol/scope/cil/ServiceEnum$MathOperator;)V
 
-    .line 1734
+    .line 1747
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->operator:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     return-object v0
@@ -5161,16 +5197,16 @@
 .method public readPeakExcursion()J
     .locals 2
 
-    const/16 v0, 0x2f15
+    const/16 v0, 0x3115
 
-    .line 2570
+    .line 2583
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MathParam;->setPeakExcursion(J)V
 
-    .line 2571
+    .line 2584
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getPeakExcursion()J
 
     move-result-wide v0
@@ -5181,10 +5217,10 @@
 .method public readPeakExcursionAttr()V
     .locals 2
 
-    .line 584
+    .line 586
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->peakExcursionAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2f15
+    const/16 v1, 0x3115
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MathParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -5194,16 +5230,16 @@
 .method public readPeakNum()I
     .locals 1
 
-    const/16 v0, 0x2f13
+    const/16 v0, 0x3113
 
-    .line 2530
+    .line 2543
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setPeakNum(I)V
 
-    .line 2531
+    .line 2544
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getPeakNum()I
 
     move-result v0
@@ -5214,10 +5250,10 @@
 .method public readPeakNumAttr()V
     .locals 2
 
-    .line 576
+    .line 578
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->peakNumAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2f13
+    const/16 v1, 0x3113
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MathParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -5227,16 +5263,16 @@
 .method public readPeakSearch()Z
     .locals 1
 
-    const/16 v0, 0x2f12
+    const/16 v0, 0x3112
 
-    .line 2654
+    .line 2667
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setPeakSearch(Z)V
 
-    .line 2655
+    .line 2668
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->isPeakSearch()Z
 
     move-result v0
@@ -5247,16 +5283,16 @@
 .method public readPeakThreshold()J
     .locals 2
 
-    const/16 v0, 0x2f14
+    const/16 v0, 0x3114
 
-    .line 2550
+    .line 2563
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MathParam;->setPeakThreshold(J)V
 
-    .line 2551
+    .line 2564
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getPeakThreshold()J
 
     move-result-wide v0
@@ -5267,10 +5303,10 @@
 .method public readPeakThresholdAttr()V
     .locals 2
 
-    .line 580
+    .line 582
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->peakThresholdAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2f14
+    const/16 v1, 0x3114
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MathParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -5280,16 +5316,16 @@
 .method public readScale()J
     .locals 2
 
-    const/16 v0, 0x2f1f
+    const/16 v0, 0x311f
 
-    .line 1879
+    .line 1892
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MathParam;->setScale(J)V
 
-    .line 1880
+    .line 1893
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getScale()J
 
     move-result-wide v0
@@ -5300,9 +5336,9 @@
 .method public readSens()I
     .locals 1
 
-    const/16 v0, 0x2f1e
+    const/16 v0, 0x311e
 
-    .line 2081
+    .line 2094
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readInt(I)I
 
     move-result v0
@@ -5311,7 +5347,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setSens(I)V
 
-    .line 2082
+    .line 2095
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getSens()I
 
     move-result v0
@@ -5322,16 +5358,16 @@
 .method public readSmooth()I
     .locals 1
 
-    const/16 v0, 0x2f20
+    const/16 v0, 0x3120
 
-    .line 2275
+    .line 2288
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setDiffSmooth(I)V
 
-    .line 2276
+    .line 2289
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getDiffSmooth()I
 
     move-result v0
@@ -5342,21 +5378,21 @@
 .method public readSourceArithA()Lcom/rigol/scope/cil/ServiceEnum$Chan;
     .locals 1
 
-    const/16 v0, 0x2f04
+    const/16 v0, 0x3104
 
-    .line 1774
+    .line 1787
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readInt(I)I
 
     move-result v0
 
-    .line 1775
+    .line 1788
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setSourceArithAIndex(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 1776
+    .line 1789
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->sourceArithAIndex:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -5365,21 +5401,21 @@
 .method public readSourceArithB()Lcom/rigol/scope/cil/ServiceEnum$Chan;
     .locals 1
 
-    const/16 v0, 0x2f05
+    const/16 v0, 0x3105
 
-    .line 1795
+    .line 1808
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readInt(I)I
 
     move-result v0
 
-    .line 1796
+    .line 1809
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setSourceArithBIndex(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 1797
+    .line 1810
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->sourceArithBIndex:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -5388,21 +5424,21 @@
 .method public readSourceFft()Lcom/rigol/scope/cil/ServiceEnum$Chan;
     .locals 1
 
-    const/16 v0, 0x2f06
+    const/16 v0, 0x3106
 
-    .line 1858
+    .line 1871
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readInt(I)I
 
     move-result v0
 
-    .line 1859
+    .line 1872
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setSourceFftIndex(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 1860
+    .line 1873
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->sourceFftIndex:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -5411,21 +5447,21 @@
 .method public readSourceLogicA()Lcom/rigol/scope/cil/ServiceEnum$Chan;
     .locals 1
 
-    const/16 v0, 0x2f18
+    const/16 v0, 0x3118
 
-    .line 1816
+    .line 1829
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readInt(I)I
 
     move-result v0
 
-    .line 1817
+    .line 1830
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setSourceLogicAIndex(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 1818
+    .line 1831
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->sourceLogicAIndex:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -5434,21 +5470,21 @@
 .method public readSourceLogicB()Lcom/rigol/scope/cil/ServiceEnum$Chan;
     .locals 1
 
-    const/16 v0, 0x2f19
+    const/16 v0, 0x3119
 
-    .line 1837
+    .line 1850
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readInt(I)I
 
     move-result v0
 
-    .line 1838
+    .line 1851
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setSourceLogicBIndex(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 1839
+    .line 1852
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->sourceLogicBIndex:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     return-object v0
@@ -5457,9 +5493,9 @@
 .method public readSrcSa()V
     .locals 2
 
-    const/16 v0, 0x2f63    # 1.6999E-41f
+    const/16 v0, 0x3163
 
-    .line 2293
+    .line 2306
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readLong(I)J
 
     move-result-wide v0
@@ -5472,17 +5508,17 @@
 .method public readStatus()Z
     .locals 1
 
-    const/16 v0, 0x2f01
+    const/16 v0, 0x3101
 
-    .line 1704
+    .line 1717
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readBool(I)Z
 
     move-result v0
 
-    .line 1705
+    .line 1718
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setStatus(Z)V
 
-    .line 1706
+    .line 1719
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getStatus()Z
 
     move-result v0
@@ -5493,16 +5529,16 @@
 .method public readThresholdCH1()J
     .locals 2
 
-    const/16 v0, 0x2f1a
+    const/16 v0, 0x311a
 
-    .line 2167
+    .line 2180
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MathParam;->setThresholdCH1(J)V
 
-    .line 2168
+    .line 2181
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getThresholdCH1()J
 
     move-result-wide v0
@@ -5513,10 +5549,10 @@
 .method public readThresholdCH1Attr()V
     .locals 2
 
-    .line 520
+    .line 522
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->thresholdCH1Attr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2f1a
+    const/16 v1, 0x311a
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MathParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -5526,16 +5562,16 @@
 .method public readThresholdCH2()J
     .locals 2
 
-    const/16 v0, 0x2f1b
+    const/16 v0, 0x311b
 
-    .line 2194
+    .line 2207
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MathParam;->setThresholdCH2(J)V
 
-    .line 2195
+    .line 2208
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getThresholdCH2()J
 
     move-result-wide v0
@@ -5546,10 +5582,10 @@
 .method public readThresholdCH2Attr()V
     .locals 2
 
-    .line 524
+    .line 526
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->thresholdCH2Attr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2f1b
+    const/16 v1, 0x311b
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MathParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -5559,16 +5595,16 @@
 .method public readThresholdCH3()J
     .locals 2
 
-    const/16 v0, 0x2f1c
+    const/16 v0, 0x311c
 
-    .line 2221
+    .line 2234
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MathParam;->setThresholdCH3(J)V
 
-    .line 2222
+    .line 2235
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getThresholdCH3()J
 
     move-result-wide v0
@@ -5579,10 +5615,10 @@
 .method public readThresholdCH3Attr()V
     .locals 2
 
-    .line 528
+    .line 530
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->thresholdCH3Attr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2f1c
+    const/16 v1, 0x311c
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MathParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -5592,16 +5628,16 @@
 .method public readThresholdCH4()J
     .locals 2
 
-    const/16 v0, 0x2f1d
+    const/16 v0, 0x311d
 
-    .line 2248
+    .line 2261
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MathParam;->setThresholdCH4(J)V
 
-    .line 2249
+    .line 2262
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getThresholdCH4()J
 
     move-result-wide v0
@@ -5612,10 +5648,10 @@
 .method public readThresholdCH4Attr()V
     .locals 2
 
-    .line 532
+    .line 534
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->thresholdCH4Attr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2f1d
+    const/16 v1, 0x311d
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MathParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -5625,10 +5661,10 @@
 .method public readThresholdSensAttr()V
     .locals 2
 
-    .line 516
+    .line 518
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->thresholdSensAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2f1e
+    const/16 v1, 0x311e
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MathParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -5638,21 +5674,21 @@
 .method public readUnit()Lcom/rigol/scope/cil/ServiceEnum$Unit;
     .locals 1
 
-    const/16 v0, 0x2f4f
+    const/16 v0, 0x314f
 
-    .line 1753
+    .line 1766
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readInt(I)I
 
     move-result v0
 
-    .line 1754
+    .line 1767
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getUnitFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setUnitIndex(Lcom/rigol/scope/cil/ServiceEnum$Unit;)V
 
-    .line 1755
+    .line 1768
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getUnitIndex()Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     move-result-object v0
@@ -5663,9 +5699,9 @@
 .method public readWaveType()V
     .locals 1
 
-    const/16 v0, 0x2f60
+    const/16 v0, 0x3160
 
-    .line 2772
+    .line 2804
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readInt(I)I
 
     move-result v0
@@ -5682,16 +5718,16 @@
 .method public readWindowTitle()Ljava/lang/String;
     .locals 1
 
-    const/16 v0, 0x3507
+    const/16 v0, 0x3707
 
-    .line 2869
+    .line 2901
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readStr(I)Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setWindowTitleString(Ljava/lang/String;)V
 
-    .line 2870
+    .line 2902
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getWindowTitleString()Ljava/lang/String;
 
     move-result-object v0
@@ -5702,9 +5738,9 @@
 .method public readZoomEn()V
     .locals 1
 
-    const/16 v0, 0x2f5f
+    const/16 v0, 0x315f
 
-    .line 2765
+    .line 2797
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->readBool(I)Z
 
     move-result v0
@@ -5717,220 +5753,220 @@
 .method public reset()V
     .locals 6
 
-    .line 2800
+    .line 2832
     invoke-super {p0}, Lcom/rigol/scope/data/BaseParam;->reset()V
 
     const/4 v0, 0x0
 
-    .line 2802
+    .line 2834
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setStatus(Z)V
 
-    .line 2803
+    .line 2835
     sget-object v1, Lcom/rigol/scope/data/MathParam;->DEFAULT_GRIDS:Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/MathParam;->setGrids(Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;)V
 
-    .line 2804
+    .line 2836
     sget-object v1, Lcom/rigol/scope/data/MathParam;->DEFAULT_WAVETYPE:Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/MathParam;->setWaveType(Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;)V
 
-    .line 2805
+    .line 2837
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setInvert(Z)V
 
-    .line 2806
+    .line 2838
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setColorGrade(Z)V
 
-    .line 2807
+    .line 2839
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setPeakSearch(Z)V
 
-    .line 2808
+    .line 2840
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setLabel(Z)V
 
-    .line 2809
+    .line 2841
     sget-object v1, Lcom/rigol/scope/data/MathParam;->DEFAULT_OPERATOR:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/MathParam;->setOperator(Lcom/rigol/scope/cil/ServiceEnum$MathOperator;)V
 
-    .line 2810
+    .line 2842
     sget-object v1, Lcom/rigol/scope/data/MathParam;->DEFAULT_SOURCEARITHA:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/MathParam;->setSourceArithAIndex(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 2811
+    .line 2843
     sget-object v1, Lcom/rigol/scope/data/MathParam;->DEFAULT_SOURCEARITHB:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/MathParam;->setSourceArithBIndex(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 2812
+    .line 2844
     sget-object v1, Lcom/rigol/scope/data/MathParam;->DEFAULT_SOURCELOGICA:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/MathParam;->setSourceLogicAIndex(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 2813
+    .line 2845
     sget-object v1, Lcom/rigol/scope/data/MathParam;->DEFAULT_SOURCELOGICB:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/MathParam;->setSourceLogicBIndex(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 2814
+    .line 2846
     sget-object v1, Lcom/rigol/scope/data/MathParam;->DEFAULT_SOURCEFFT:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/MathParam;->setSourceFftIndex(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 2815
+    .line 2847
     sget-object v1, Lcom/rigol/scope/data/MathParam;->DEFAULT_EXPAND:Lcom/rigol/scope/cil/ServiceEnum$VertExpand;
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/MathParam;->setExpandIndex(Lcom/rigol/scope/cil/ServiceEnum$VertExpand;)V
 
-    .line 2816
+    .line 2848
     sget-object v1, Lcom/rigol/scope/data/MathParam;->DEFAULT_LOGICSIZE:Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/MathParam;->setLogicSizeIndex(Lcom/rigol/scope/cil/ServiceEnum$LaScale;)V
 
-    .line 2817
+    .line 2849
     sget-object v1, Lcom/rigol/scope/data/MathParam;->DEFAULT_FFTWIN:Lcom/rigol/scope/cil/ServiceEnum$fftWindow;
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/MathParam;->setFftWindowIndex(Lcom/rigol/scope/cil/ServiceEnum$fftWindow;)V
 
-    .line 2818
+    .line 2850
     sget-object v1, Lcom/rigol/scope/data/MathParam;->DEFAULT_PEAKORDER:Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/MathParam;->setFftPeakOrderIndex(Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;)V
 
-    .line 2819
+    .line 2851
     sget-object v1, Lcom/rigol/scope/data/MathParam;->DEFAULT_FFTUNIT:Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/MathParam;->setFftUnitIndex(Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;)V
 
-    .line 2820
+    .line 2852
     sget-wide v1, Lcom/rigol/scope/data/MathParam;->DEFAULT_SCALE:J
 
     invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/MathParam;->setScale(J)V
 
     const-wide/16 v1, 0x0
 
-    .line 2821
+    .line 2853
     invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/MathParam;->setOffset(J)V
 
-    .line 2822
+    .line 2854
     invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/MathParam;->setLogicOffset(J)V
 
-    .line 2823
+    .line 2855
     invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/MathParam;->setFftOffset(J)V
 
-    .line 2824
+    .line 2856
     sget-wide v3, Lcom/rigol/scope/data/MathParam;->DEFAULT_FFTSCALE:J
 
     invoke-virtual {p0, v3, v4}, Lcom/rigol/scope/data/MathParam;->setFftScale(J)V
 
-    .line 2825
+    .line 2857
     invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/MathParam;->setThresholdCH1(J)V
 
-    .line 2826
+    .line 2858
     invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/MathParam;->setThresholdCH2(J)V
 
-    .line 2827
+    .line 2859
     invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/MathParam;->setThresholdCH3(J)V
 
-    .line 2828
+    .line 2860
     invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/MathParam;->setThresholdCH4(J)V
 
-    .line 2829
+    .line 2861
     sget-wide v3, Lcom/rigol/scope/data/MathParam;->DEFAULT_LP:J
 
     invoke-virtual {p0, v3, v4}, Lcom/rigol/scope/data/MathParam;->setLpFreq(J)V
 
-    .line 2830
+    .line 2862
     sget-wide v3, Lcom/rigol/scope/data/MathParam;->DEFAULT_HP:J
 
     invoke-virtual {p0, v3, v4}, Lcom/rigol/scope/data/MathParam;->setHpFreq(J)V
 
-    .line 2831
+    .line 2863
     sget-wide v3, Lcom/rigol/scope/data/MathParam;->DEFAULT_BP1:J
 
     invoke-virtual {p0, v3, v4}, Lcom/rigol/scope/data/MathParam;->setBpFreq1(J)V
 
-    .line 2832
+    .line 2864
     sget-wide v3, Lcom/rigol/scope/data/MathParam;->DEFAULT_BP2:J
 
     invoke-virtual {p0, v3, v4}, Lcom/rigol/scope/data/MathParam;->setBpFreq2(J)V
 
-    .line 2833
+    .line 2865
     sget-wide v3, Lcom/rigol/scope/data/MathParam;->DEFAULT_BT1:J
 
     invoke-virtual {p0, v3, v4}, Lcom/rigol/scope/data/MathParam;->setBtFreq1(J)V
 
-    .line 2834
+    .line 2866
     sget-wide v3, Lcom/rigol/scope/data/MathParam;->DEFAULT_BT2:J
 
     invoke-virtual {p0, v3, v4}, Lcom/rigol/scope/data/MathParam;->setBtFreq2(J)V
 
     const/4 v3, 0x5
 
-    .line 2835
+    .line 2867
     invoke-virtual {p0, v3}, Lcom/rigol/scope/data/MathParam;->setDiffSmooth(I)V
 
-    .line 2836
+    .line 2868
     invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/MathParam;->setIntgBias(J)V
 
-    .line 2837
+    .line 2869
     sget-object v4, Lcom/rigol/scope/data/MathParam;->DEFAULT_BISAUNIT:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     invoke-virtual {p0, v4}, Lcom/rigol/scope/data/MathParam;->setIntgBiasUnit(Lcom/rigol/scope/cil/ServiceEnum$Unit;)V
 
     const-wide/32 v4, 0xf4240
 
-    .line 2838
+    .line 2870
     invoke-virtual {p0, v4, v5}, Lcom/rigol/scope/data/MathParam;->setLineA(J)V
 
-    .line 2839
+    .line 2871
     invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/MathParam;->setLineB(J)V
 
-    .line 2840
+    .line 2872
     sget-wide v4, Lcom/rigol/scope/data/MathParam;->DEFAULT_CENTER:J
 
     invoke-virtual {p0, v4, v5}, Lcom/rigol/scope/data/MathParam;->setFftCenter(J)V
 
-    .line 2841
+    .line 2873
     sget-wide v4, Lcom/rigol/scope/data/MathParam;->DEFAULT_SPAN:J
 
     invoke-virtual {p0, v4, v5}, Lcom/rigol/scope/data/MathParam;->setFftSpan(J)V
 
-    .line 2842
+    .line 2874
     invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/MathParam;->setFftStart(J)V
 
-    .line 2843
+    .line 2875
     sget-wide v1, Lcom/rigol/scope/data/MathParam;->DEFAULT_END:J
 
     invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/MathParam;->setFftEnd(J)V
 
-    .line 2844
+    .line 2876
     invoke-virtual {p0, v3}, Lcom/rigol/scope/data/MathParam;->setPeakNum(I)V
 
-    .line 2845
+    .line 2877
     sget-wide v1, Lcom/rigol/scope/data/MathParam;->DEFAULT_PEAKTHRE:J
 
     invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/MathParam;->setPeakThreshold(J)V
 
-    .line 2846
+    .line 2878
     sget-wide v1, Lcom/rigol/scope/data/MathParam;->DEFAULT_EXCURSION:J
 
     invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/MathParam;->setPeakExcursion(J)V
 
-    .line 2847
+    .line 2879
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setShowPeakSetting(Z)V
 
     const/16 v0, 0x12c
 
-    .line 2848
+    .line 2880
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setSens(I)V
 
-    .line 2849
+    .line 2881
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_V:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setUnitIndex(Lcom/rigol/scope/cil/ServiceEnum$Unit;)V
 
-    .line 2852
+    .line 2884
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getServiceId()I
 
     move-result v0
@@ -5941,12 +5977,12 @@
 
     const-string v0, "Math1"
 
-    .line 2853
+    .line 2885
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setLabelString(Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 2854
+    .line 2886
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getServiceId()I
 
@@ -5958,12 +5994,12 @@
 
     const-string v0, "Math2"
 
-    .line 2855
+    .line 2887
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setLabelString(Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 2856
+    .line 2888
     :cond_1
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getServiceId()I
 
@@ -5975,12 +6011,12 @@
 
     const-string v0, "Math3"
 
-    .line 2857
+    .line 2889
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setLabelString(Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 2858
+    .line 2890
     :cond_2
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getServiceId()I
 
@@ -5992,7 +6028,7 @@
 
     const-string v0, "Math4"
 
-    .line 2859
+    .line 2891
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setLabelString(Ljava/lang/String;)V
 
     :cond_3
@@ -6003,12 +6039,12 @@
 .method public saveBpFreq1(J)V
     .locals 1
 
-    .line 2352
+    .line 2365
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MathParam;->setBpFreq1(J)V
 
-    const/16 v0, 0x2f3a
+    const/16 v0, 0x313a
 
-    .line 2353
+    .line 2366
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MathParam;->saveLong(IJ)I
 
     return-void
@@ -6017,12 +6053,12 @@
 .method public saveBpFreq2(J)V
     .locals 1
 
-    .line 2372
+    .line 2385
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MathParam;->setBpFreq2(J)V
 
-    const/16 v0, 0x2f3b
+    const/16 v0, 0x313b
 
-    .line 2373
+    .line 2386
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MathParam;->saveLong(IJ)I
 
     return-void
@@ -6031,12 +6067,12 @@
 .method public saveBtFreq1(J)V
     .locals 1
 
-    .line 2392
+    .line 2405
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MathParam;->setBtFreq1(J)V
 
-    const/16 v0, 0x2f3c
+    const/16 v0, 0x313c
 
-    .line 2393
+    .line 2406
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MathParam;->saveLong(IJ)I
 
     return-void
@@ -6045,12 +6081,12 @@
 .method public saveBtFreq2(J)V
     .locals 1
 
-    .line 2412
+    .line 2425
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MathParam;->setBtFreq2(J)V
 
-    const/16 v0, 0x2f3d
+    const/16 v0, 0x313d
 
-    .line 2413
+    .line 2426
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MathParam;->saveLong(IJ)I
 
     return-void
@@ -6059,12 +6095,12 @@
 .method public saveColorGrade(Z)V
     .locals 1
 
-    .line 2704
+    .line 2717
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->setColorGrade(Z)V
 
-    const/16 v0, 0x2f36
+    const/16 v0, 0x3136
 
-    .line 2705
+    .line 2718
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MathParam;->saveBool(IZ)I
 
     return-void
@@ -6073,13 +6109,24 @@
 .method public saveDiffSmooth(I)V
     .locals 1
 
-    .line 2285
+    .line 2298
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->setDiffSmooth(I)V
 
-    const/16 v0, 0x2f20
+    const/16 v0, 0x3120
 
-    .line 2286
+    .line 2299
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MathParam;->saveInt(II)I
+
+    return-void
+.end method
+
+.method public saveDisplayMode(Z)V
+    .locals 1
+
+    const/16 v0, 0x316b
+
+    .line 2777
+    invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MathParam;->saveBool(IZ)I
 
     return-void
 .end method
@@ -6087,13 +6134,13 @@
 .method public saveExpand(Lcom/rigol/scope/cil/ServiceEnum$VertExpand;)V
     .locals 1
 
-    .line 2071
+    .line 2084
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->setExpandIndex(Lcom/rigol/scope/cil/ServiceEnum$VertExpand;)V
 
-    .line 2072
+    .line 2085
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$VertExpand;->value1:I
 
-    const/16 v0, 0x2f35
+    const/16 v0, 0x3135
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MathParam;->saveInt(II)I
 
@@ -6103,10 +6150,10 @@
 .method public saveFftCenter(J)V
     .locals 2
 
-    .line 2459
+    .line 2472
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readFftCenterAttr()V
 
-    .line 2460
+    .line 2473
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftCenterAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -6119,7 +6166,7 @@
 
     if-gez v0, :cond_0
 
-    .line 2461
+    .line 2474
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftCenterAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object p1
@@ -6128,7 +6175,7 @@
 
     move-result-wide p1
 
-    .line 2463
+    .line 2476
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftCenterAttr()Lcom/rigol/scope/cil/MessageAttr;
 
@@ -6142,7 +6189,7 @@
 
     if-lez v0, :cond_1
 
-    .line 2464
+    .line 2477
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftCenterAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object p1
@@ -6151,13 +6198,13 @@
 
     move-result-wide p1
 
-    .line 2466
+    .line 2479
     :cond_1
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MathParam;->setFftCenter(J)V
 
-    const/16 v0, 0x2f07
+    const/16 v0, 0x3107
 
-    .line 2467
+    .line 2480
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MathParam;->saveLong(IJ)I
 
     return-void
@@ -6166,10 +6213,10 @@
 .method public saveFftEnd(J)V
     .locals 2
 
-    .line 2513
+    .line 2526
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readFftEndAttr()V
 
-    .line 2514
+    .line 2527
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftEndAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -6182,7 +6229,7 @@
 
     if-gez v0, :cond_0
 
-    .line 2515
+    .line 2528
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftEndAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object p1
@@ -6191,7 +6238,7 @@
 
     move-result-wide p1
 
-    .line 2517
+    .line 2530
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftEndAttr()Lcom/rigol/scope/cil/MessageAttr;
 
@@ -6205,7 +6252,7 @@
 
     if-lez v0, :cond_1
 
-    .line 2518
+    .line 2531
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftEndAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object p1
@@ -6214,13 +6261,13 @@
 
     move-result-wide p1
 
-    .line 2520
+    .line 2533
     :cond_1
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MathParam;->setFftEnd(J)V
 
-    const/16 v0, 0x2f0a
+    const/16 v0, 0x310a
 
-    .line 2521
+    .line 2534
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MathParam;->saveLong(IJ)I
 
     return-void
@@ -6229,10 +6276,10 @@
 .method public saveFftOffset(J)V
     .locals 2
 
-    .line 1993
+    .line 2006
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readFftOffsetAttr()V
 
-    .line 1994
+    .line 2007
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftOffsetAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -6245,7 +6292,7 @@
 
     if-gez v0, :cond_0
 
-    .line 1995
+    .line 2008
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftOffsetAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object p1
@@ -6254,7 +6301,7 @@
 
     move-result-wide p1
 
-    .line 1997
+    .line 2010
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftOffsetAttr()Lcom/rigol/scope/cil/MessageAttr;
 
@@ -6268,7 +6315,7 @@
 
     if-lez v0, :cond_1
 
-    .line 1998
+    .line 2011
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftOffsetAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object p1
@@ -6277,13 +6324,13 @@
 
     move-result-wide p1
 
-    .line 2001
+    .line 2014
     :cond_1
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MathParam;->setFftOffset(J)V
 
-    const/16 v0, 0x2f33
+    const/16 v0, 0x3133
 
-    .line 2002
+    .line 2015
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MathParam;->saveLong(IJ)I
 
     return-void
@@ -6292,13 +6339,13 @@
 .method public saveFftPeakOrder(Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;)V
     .locals 1
 
-    .line 2684
+    .line 2697
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->setFftPeakOrderIndex(Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;)V
 
-    .line 2685
+    .line 2698
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;->value1:I
 
-    const/16 v0, 0x2f16
+    const/16 v0, 0x3116
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MathParam;->saveInt(II)I
 
@@ -6308,10 +6355,10 @@
 .method public saveFftScale(J)V
     .locals 2
 
-    .line 2021
+    .line 2034
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readFftScaleAttr()V
 
-    .line 2022
+    .line 2035
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftScaleAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -6324,7 +6371,7 @@
 
     if-gez v0, :cond_0
 
-    .line 2023
+    .line 2036
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftScaleAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object p1
@@ -6333,7 +6380,7 @@
 
     move-result-wide p1
 
-    .line 2025
+    .line 2038
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftScaleAttr()Lcom/rigol/scope/cil/MessageAttr;
 
@@ -6347,7 +6394,7 @@
 
     if-lez v0, :cond_1
 
-    .line 2026
+    .line 2039
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftScaleAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object p1
@@ -6356,13 +6403,13 @@
 
     move-result-wide p1
 
-    .line 2029
+    .line 2042
     :cond_1
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MathParam;->setFftScale(J)V
 
-    const/16 v0, 0x2f0b
+    const/16 v0, 0x310b
 
-    .line 2030
+    .line 2043
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MathParam;->saveLong(IJ)I
 
     return-void
@@ -6371,10 +6418,10 @@
 .method public saveFftSpan(J)V
     .locals 2
 
-    .line 2432
+    .line 2445
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readFftSpanAttr()V
 
-    .line 2433
+    .line 2446
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftSpanAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -6387,7 +6434,7 @@
 
     if-gez v0, :cond_0
 
-    .line 2434
+    .line 2447
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftSpanAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object p1
@@ -6396,7 +6443,7 @@
 
     move-result-wide p1
 
-    .line 2436
+    .line 2449
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftSpanAttr()Lcom/rigol/scope/cil/MessageAttr;
 
@@ -6410,7 +6457,7 @@
 
     if-lez v0, :cond_1
 
-    .line 2437
+    .line 2450
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftSpanAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object p1
@@ -6419,13 +6466,13 @@
 
     move-result-wide p1
 
-    .line 2439
+    .line 2452
     :cond_1
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MathParam;->setFftSpan(J)V
 
-    const/16 v0, 0x2f08
+    const/16 v0, 0x3108
 
-    .line 2440
+    .line 2453
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MathParam;->saveLong(IJ)I
 
     return-void
@@ -6434,10 +6481,10 @@
 .method public saveFftStart(J)V
     .locals 2
 
-    .line 2486
+    .line 2499
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readFftStartAttr()V
 
-    .line 2487
+    .line 2500
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftStartAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -6450,7 +6497,7 @@
 
     if-gez v0, :cond_0
 
-    .line 2488
+    .line 2501
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftStartAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object p1
@@ -6459,7 +6506,7 @@
 
     move-result-wide p1
 
-    .line 2490
+    .line 2503
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftStartAttr()Lcom/rigol/scope/cil/MessageAttr;
 
@@ -6473,7 +6520,7 @@
 
     if-lez v0, :cond_1
 
-    .line 2491
+    .line 2504
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftStartAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object p1
@@ -6482,13 +6529,13 @@
 
     move-result-wide p1
 
-    .line 2493
+    .line 2506
     :cond_1
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MathParam;->setFftStart(J)V
 
-    const/16 v0, 0x2f09
+    const/16 v0, 0x3109
 
-    .line 2494
+    .line 2507
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MathParam;->saveLong(IJ)I
 
     return-void
@@ -6497,13 +6544,13 @@
 .method public saveFftUnit(Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;)V
     .locals 1
 
-    .line 2624
+    .line 2637
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->setFftUnitIndex(Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;)V
 
-    .line 2625
+    .line 2638
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;->value1:I
 
-    const/16 v0, 0x2f0e
+    const/16 v0, 0x310e
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MathParam;->saveInt(II)I
 
@@ -6513,13 +6560,13 @@
 .method public saveFftWindow(Lcom/rigol/scope/cil/ServiceEnum$fftWindow;)V
     .locals 1
 
-    .line 2644
+    .line 2657
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->setFftWindowIndex(Lcom/rigol/scope/cil/ServiceEnum$fftWindow;)V
 
-    .line 2645
+    .line 2658
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$fftWindow;->value1:I
 
-    const/16 v0, 0x2f0c
+    const/16 v0, 0x310c
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MathParam;->saveInt(II)I
 
@@ -6529,10 +6576,10 @@
 .method public saveFftXType(Lcom/rigol/scope/cil/ServiceEnum$FftxType;)V
     .locals 1
 
-    .line 2602
+    .line 2615
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->setFftxTypeIndex(Lcom/rigol/scope/cil/ServiceEnum$FftxType;)V
 
-    .line 2603
+    .line 2616
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$FftxType;->value1:I
 
     const/4 v0, 0x1
@@ -6545,9 +6592,9 @@
     const/4 v0, 0x0
 
     :goto_0
-    const/16 p1, 0x2f0f
+    const/16 p1, 0x310f
 
-    .line 2604
+    .line 2617
     invoke-virtual {p0, p1, v0}, Lcom/rigol/scope/data/MathParam;->saveBool(IZ)I
 
     return-void
@@ -6556,10 +6603,10 @@
 .method public saveGrids(Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;)V
     .locals 1
 
-    .line 2757
+    .line 2789
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->setGrids(Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;)V
 
-    .line 2758
+    .line 2790
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;->value1:I
 
     const/16 v0, 0x1304
@@ -6572,12 +6619,12 @@
 .method public saveHpFreq(J)V
     .locals 1
 
-    .line 2332
+    .line 2345
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MathParam;->setHpFreq(J)V
 
-    const/16 v0, 0x2f39
+    const/16 v0, 0x3139
 
-    .line 2333
+    .line 2346
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MathParam;->saveLong(IJ)I
 
     return-void
@@ -6586,12 +6633,12 @@
 .method public saveIntgBias(J)V
     .locals 1
 
-    .line 2111
+    .line 2124
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MathParam;->setIntgBias(J)V
 
-    const/16 v0, 0x2f2d
+    const/16 v0, 0x312d
 
-    .line 2112
+    .line 2125
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MathParam;->saveLong(IJ)I
 
     return-void
@@ -6600,12 +6647,12 @@
 .method public saveInvert(Z)V
     .locals 1
 
-    .line 2049
+    .line 2062
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->setInvert(Z)V
 
-    const/16 v0, 0x2f03
+    const/16 v0, 0x3103
 
-    .line 2050
+    .line 2063
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MathParam;->saveBool(IZ)I
 
     return-void
@@ -6614,12 +6661,12 @@
 .method public saveLabel(Z)V
     .locals 1
 
-    .line 2744
+    .line 2767
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->setLabel(Z)V
 
-    const/16 v0, 0x2f2a
+    const/16 v0, 0x312a
 
-    .line 2745
+    .line 2768
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MathParam;->saveBool(IZ)I
 
     return-void
@@ -6628,12 +6675,12 @@
 .method public saveLableString(Ljava/lang/String;)V
     .locals 1
 
-    .line 2724
+    .line 2737
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->setLabelString(Ljava/lang/String;)V
 
-    const/16 v0, 0x2f29
+    const/16 v0, 0x3129
 
-    .line 2725
+    .line 2738
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MathParam;->saveStr(ILjava/lang/String;)I
 
     return-void
@@ -6642,12 +6689,12 @@
 .method public saveLineA(J)V
     .locals 1
 
-    .line 2137
+    .line 2150
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MathParam;->setLineA(J)V
 
-    const/16 v0, 0x2f2f
+    const/16 v0, 0x312f
 
-    .line 2138
+    .line 2151
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MathParam;->saveLong(IJ)I
 
     return-void
@@ -6656,12 +6703,12 @@
 .method public saveLineB(J)V
     .locals 1
 
-    .line 2157
+    .line 2170
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MathParam;->setLineB(J)V
 
-    const/16 v0, 0x2f30
+    const/16 v0, 0x3130
 
-    .line 2158
+    .line 2171
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MathParam;->saveLong(IJ)I
 
     return-void
@@ -6670,10 +6717,10 @@
 .method public saveLogicOffset(J)V
     .locals 2
 
-    .line 1945
+    .line 1958
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readLogicOffsetAttr()V
 
-    .line 1946
+    .line 1959
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getLogicOffsetAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -6686,7 +6733,7 @@
 
     if-gez v0, :cond_0
 
-    .line 1947
+    .line 1960
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getLogicOffsetAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object p1
@@ -6695,7 +6742,7 @@
 
     move-result-wide p1
 
-    .line 1949
+    .line 1962
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getLogicOffsetAttr()Lcom/rigol/scope/cil/MessageAttr;
 
@@ -6709,7 +6756,7 @@
 
     if-lez v0, :cond_1
 
-    .line 1950
+    .line 1963
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getLogicOffsetAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object p1
@@ -6718,13 +6765,13 @@
 
     move-result-wide p1
 
-    .line 1952
+    .line 1965
     :cond_1
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MathParam;->setLogicOffset(J)V
 
-    const/16 v0, 0x2f34
+    const/16 v0, 0x3134
 
-    .line 1953
+    .line 1966
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MathParam;->saveLong(IJ)I
 
     return-void
@@ -6733,13 +6780,13 @@
 .method public saveLogicScale(Lcom/rigol/scope/cil/ServiceEnum$LaScale;)V
     .locals 1
 
-    .line 1973
+    .line 1986
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->setLogicSizeIndex(Lcom/rigol/scope/cil/ServiceEnum$LaScale;)V
 
-    .line 1974
+    .line 1987
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$LaScale;->value1:I
 
-    const/16 v0, 0x2f31
+    const/16 v0, 0x3131
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MathParam;->saveInt(II)I
 
@@ -6749,12 +6796,12 @@
 .method public saveLpFreq(J)V
     .locals 1
 
-    .line 2312
+    .line 2325
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MathParam;->setLpFreq(J)V
 
-    const/16 v0, 0x2f38
+    const/16 v0, 0x3138
 
-    .line 2313
+    .line 2326
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MathParam;->saveLong(IJ)I
 
     return-void
@@ -6763,10 +6810,10 @@
 .method public saveOffset(J)V
     .locals 2
 
-    .line 1916
+    .line 1929
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readAnaOffsetAttr()V
 
-    .line 1917
+    .line 1930
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getAnaOffsetAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -6779,7 +6826,7 @@
 
     if-gez v0, :cond_0
 
-    .line 1918
+    .line 1931
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getAnaOffsetAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object p1
@@ -6788,7 +6835,7 @@
 
     move-result-wide p1
 
-    .line 1920
+    .line 1933
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getAnaOffsetAttr()Lcom/rigol/scope/cil/MessageAttr;
 
@@ -6802,7 +6849,7 @@
 
     if-lez v0, :cond_1
 
-    .line 1921
+    .line 1934
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getAnaOffsetAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object p1
@@ -6811,13 +6858,13 @@
 
     move-result-wide p1
 
-    .line 1924
+    .line 1937
     :cond_1
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MathParam;->setOffset(J)V
 
-    const/16 v0, 0x2f32
+    const/16 v0, 0x3132
 
-    .line 1925
+    .line 1938
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MathParam;->saveLong(IJ)I
 
     return-void
@@ -6826,14 +6873,14 @@
 .method public saveOperator(Lcom/rigol/scope/cil/ServiceEnum$MathOperator;)V
     .locals 2
 
-    .line 1743
+    .line 1756
     iget v0, p1, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->value1:I
 
-    const/16 v1, 0x2f02
+    const/16 v1, 0x3102
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MathParam;->saveInt(II)I
 
-    .line 1744
+    .line 1757
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->setOperator(Lcom/rigol/scope/cil/ServiceEnum$MathOperator;)V
 
     return-void
@@ -6842,12 +6889,12 @@
 .method public savePeakExcursion(J)V
     .locals 1
 
-    .line 2580
+    .line 2593
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MathParam;->setPeakExcursion(J)V
 
-    const/16 v0, 0x2f15
+    const/16 v0, 0x3115
 
-    .line 2581
+    .line 2594
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MathParam;->saveLong(IJ)I
 
     return-void
@@ -6856,12 +6903,12 @@
 .method public savePeakNum(I)V
     .locals 1
 
-    .line 2540
+    .line 2553
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->setPeakNum(I)V
 
-    const/16 v0, 0x2f13
+    const/16 v0, 0x3113
 
-    .line 2541
+    .line 2554
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MathParam;->saveInt(II)I
 
     return-void
@@ -6870,12 +6917,12 @@
 .method public savePeakSearch(Z)V
     .locals 1
 
-    .line 2664
+    .line 2677
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->setPeakSearch(Z)V
 
-    const/16 v0, 0x2f12
+    const/16 v0, 0x3112
 
-    .line 2665
+    .line 2678
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MathParam;->saveBool(IZ)I
 
     return-void
@@ -6884,12 +6931,12 @@
 .method public savePeakThreshold(J)V
     .locals 1
 
-    .line 2560
+    .line 2573
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MathParam;->setPeakThreshold(J)V
 
-    const/16 v0, 0x2f14
+    const/16 v0, 0x3114
 
-    .line 2561
+    .line 2574
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MathParam;->saveLong(IJ)I
 
     return-void
@@ -6898,10 +6945,10 @@
 .method public saveScale(J)V
     .locals 2
 
-    .line 1889
+    .line 1902
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readAnaScaleAttr()V
 
-    .line 1890
+    .line 1903
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getAnaScaleAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -6914,7 +6961,7 @@
 
     if-gez v0, :cond_0
 
-    .line 1891
+    .line 1904
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getAnaScaleAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object p1
@@ -6923,7 +6970,7 @@
 
     move-result-wide p1
 
-    .line 1893
+    .line 1906
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getAnaScaleAttr()Lcom/rigol/scope/cil/MessageAttr;
 
@@ -6937,7 +6984,7 @@
 
     if-lez v0, :cond_1
 
-    .line 1894
+    .line 1907
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getAnaScaleAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object p1
@@ -6946,13 +6993,13 @@
 
     move-result-wide p1
 
-    .line 1896
+    .line 1909
     :cond_1
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MathParam;->setScale(J)V
 
-    const/16 v0, 0x2f1f
+    const/16 v0, 0x311f
 
-    .line 1897
+    .line 1910
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MathParam;->saveLong(IJ)I
 
     return-void
@@ -6961,13 +7008,13 @@
 .method public saveSens(I)V
     .locals 1
 
-    .line 2091
+    .line 2104
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->setSens(I)V
 
-    .line 2092
+    .line 2105
     div-int/lit8 p1, p1, 0x64
 
-    const/16 v0, 0x2f1e
+    const/16 v0, 0x311e
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MathParam;->saveInt(II)I
 
@@ -6977,13 +7024,13 @@
 .method public saveSourceArithA(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
     .locals 1
 
-    .line 1785
+    .line 1798
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->setSourceArithAIndex(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 1786
+    .line 1799
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    const/16 v0, 0x2f04
+    const/16 v0, 0x3104
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MathParam;->saveInt(II)I
 
@@ -6993,13 +7040,13 @@
 .method public saveSourceArithB(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
     .locals 1
 
-    .line 1806
+    .line 1819
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->setSourceArithBIndex(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 1807
+    .line 1820
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    const/16 v0, 0x2f05
+    const/16 v0, 0x3105
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MathParam;->saveInt(II)I
 
@@ -7009,13 +7056,13 @@
 .method public saveSourceFft(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
     .locals 1
 
-    .line 1869
+    .line 1882
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->setSourceFftIndex(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 1870
+    .line 1883
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    const/16 v0, 0x2f06
+    const/16 v0, 0x3106
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MathParam;->saveInt(II)I
 
@@ -7025,13 +7072,13 @@
 .method public saveSourceLogicA(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
     .locals 1
 
-    .line 1827
+    .line 1840
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->setSourceLogicAIndex(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 1828
+    .line 1841
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    const/16 v0, 0x2f18
+    const/16 v0, 0x3118
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MathParam;->saveInt(II)I
 
@@ -7041,13 +7088,13 @@
 .method public saveSourceLogicB(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
     .locals 1
 
-    .line 1848
+    .line 1861
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->setSourceLogicBIndex(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    .line 1849
+    .line 1862
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    const/16 v0, 0x2f19
+    const/16 v0, 0x3119
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MathParam;->saveInt(II)I
 
@@ -7057,7 +7104,7 @@
 .method public saveStatus(Z)V
     .locals 3
 
-    .line 1715
+    .line 1728
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -7070,14 +7117,14 @@
 
     move-result v0
 
-    const/16 v1, 0x2f01
+    const/16 v1, 0x3101
 
     if-nez v0, :cond_0
 
-    .line 1718
+    .line 1731
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->setStatus(Z)V
 
-    .line 1719
+    .line 1732
     invoke-virtual {p0, v1, p1}, Lcom/rigol/scope/data/MathParam;->saveBool(IZ)I
 
     goto :goto_0
@@ -7085,10 +7132,10 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 1721
+    .line 1734
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->setStatus(Z)V
 
-    .line 1722
+    .line 1735
     invoke-virtual {p0, v1, p1}, Lcom/rigol/scope/data/MathParam;->saveBool(IZ)I
 
     :goto_0
@@ -7098,7 +7145,7 @@
 .method public saveThresholdCH1(J)V
     .locals 2
 
-    .line 2177
+    .line 2190
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getThresholdCH1Attr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -7111,7 +7158,7 @@
 
     if-gez v0, :cond_0
 
-    .line 2178
+    .line 2191
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getThresholdCH1Attr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object p1
@@ -7120,7 +7167,7 @@
 
     move-result-wide p1
 
-    .line 2180
+    .line 2193
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getThresholdCH1Attr()Lcom/rigol/scope/cil/MessageAttr;
 
@@ -7134,7 +7181,7 @@
 
     if-lez v0, :cond_1
 
-    .line 2181
+    .line 2194
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getThresholdCH1Attr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object p1
@@ -7143,16 +7190,16 @@
 
     move-result-wide p1
 
-    .line 2183
+    .line 2196
     :cond_1
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MathParam;->setThresholdCH1(J)V
 
-    const/16 v0, 0x2f1a
+    const/16 v0, 0x311a
 
-    .line 2184
+    .line 2197
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MathParam;->saveLong(IJ)I
 
-    .line 2185
+    .line 2198
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
@@ -7165,7 +7212,7 @@
 .method public saveThresholdCH2(J)V
     .locals 2
 
-    .line 2204
+    .line 2217
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getThresholdCH2Attr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -7178,7 +7225,7 @@
 
     if-gez v0, :cond_0
 
-    .line 2205
+    .line 2218
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getThresholdCH2Attr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object p1
@@ -7187,7 +7234,7 @@
 
     move-result-wide p1
 
-    .line 2207
+    .line 2220
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getThresholdCH2Attr()Lcom/rigol/scope/cil/MessageAttr;
 
@@ -7201,7 +7248,7 @@
 
     if-lez v0, :cond_1
 
-    .line 2208
+    .line 2221
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getThresholdCH2Attr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object p1
@@ -7210,16 +7257,16 @@
 
     move-result-wide p1
 
-    .line 2210
+    .line 2223
     :cond_1
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MathParam;->setThresholdCH2(J)V
 
-    const/16 v0, 0x2f1b
+    const/16 v0, 0x311b
 
-    .line 2211
+    .line 2224
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MathParam;->saveLong(IJ)I
 
-    .line 2212
+    .line 2225
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
@@ -7232,7 +7279,7 @@
 .method public saveThresholdCH3(J)V
     .locals 2
 
-    .line 2231
+    .line 2244
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getThresholdCH3Attr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -7245,7 +7292,7 @@
 
     if-gez v0, :cond_0
 
-    .line 2232
+    .line 2245
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getThresholdCH3Attr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object p1
@@ -7254,7 +7301,7 @@
 
     move-result-wide p1
 
-    .line 2234
+    .line 2247
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getThresholdCH3Attr()Lcom/rigol/scope/cil/MessageAttr;
 
@@ -7268,7 +7315,7 @@
 
     if-lez v0, :cond_1
 
-    .line 2235
+    .line 2248
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getThresholdCH3Attr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object p1
@@ -7277,16 +7324,16 @@
 
     move-result-wide p1
 
-    .line 2237
+    .line 2250
     :cond_1
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MathParam;->setThresholdCH3(J)V
 
-    const/16 v0, 0x2f1c
+    const/16 v0, 0x311c
 
-    .line 2238
+    .line 2251
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MathParam;->saveLong(IJ)I
 
-    .line 2239
+    .line 2252
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
@@ -7299,7 +7346,7 @@
 .method public saveThresholdCH4(J)V
     .locals 2
 
-    .line 2258
+    .line 2271
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getThresholdCH4Attr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -7312,7 +7359,7 @@
 
     if-gez v0, :cond_0
 
-    .line 2259
+    .line 2272
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getThresholdCH4Attr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object p1
@@ -7321,7 +7368,7 @@
 
     move-result-wide p1
 
-    .line 2261
+    .line 2274
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getThresholdCH4Attr()Lcom/rigol/scope/cil/MessageAttr;
 
@@ -7335,7 +7382,7 @@
 
     if-lez v0, :cond_1
 
-    .line 2262
+    .line 2275
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getThresholdCH4Attr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object p1
@@ -7344,16 +7391,16 @@
 
     move-result-wide p1
 
-    .line 2264
+    .line 2277
     :cond_1
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MathParam;->setThresholdCH4(J)V
 
-    const/16 v0, 0x2f1d
+    const/16 v0, 0x311d
 
-    .line 2265
+    .line 2278
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MathParam;->saveLong(IJ)I
 
-    .line 2266
+    .line 2279
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
@@ -7366,13 +7413,13 @@
 .method public saveUnit(Lcom/rigol/scope/cil/ServiceEnum$Unit;)V
     .locals 1
 
-    .line 1764
+    .line 1777
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->setUnitIndex(Lcom/rigol/scope/cil/ServiceEnum$Unit;)V
 
-    .line 1765
+    .line 1778
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->value1:I
 
-    const/16 v0, 0x2f4f
+    const/16 v0, 0x314f
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MathParam;->saveInt(II)I
 
@@ -7382,13 +7429,13 @@
 .method public saveWaveType(Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;)V
     .locals 1
 
-    .line 2776
+    .line 2808
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->setWaveType(Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;)V
 
-    .line 2777
+    .line 2809
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;->value1:I
 
-    const/16 v0, 0x2f60
+    const/16 v0, 0x3160
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MathParam;->saveInt(II)I
 
@@ -7398,19 +7445,19 @@
 .method public scaleDown()V
     .locals 3
 
-    .line 3053
+    .line 3085
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getScale()J
 
     move-result-wide v0
 
     const/high16 v2, 0x3f800000    # 1.0f
 
-    .line 3055
+    .line 3087
     invoke-static {v0, v1, v2}, Lcom/rigol/scope/utilities/ScaleNumUtil;->getMinusNum(JF)J
 
     move-result-wide v0
 
-    .line 3057
+    .line 3089
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MathParam;->saveScale(J)V
 
     return-void
@@ -7419,7 +7466,7 @@
 .method public scaleReset()V
     .locals 2
 
-    .line 3196
+    .line 3228
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getAnaScaleAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -7438,12 +7485,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 3101
+    .line 3133
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->scaleDown()V
 
     goto :goto_0
 
-    .line 3103
+    .line 3135
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->scaleUp()V
 
@@ -7454,15 +7501,15 @@
 .method public scaleUp()V
     .locals 4
 
-    .line 3035
+    .line 3067
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getScale()J
 
     move-result-wide v0
 
-    .line 3036
+    .line 3068
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readAnaScaleAttr()V
 
-    .line 3037
+    .line 3069
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getAnaScaleAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v2
@@ -7480,12 +7527,12 @@
     :cond_0
     const/high16 v2, 0x3f800000    # 1.0f
 
-    .line 3043
+    .line 3075
     invoke-static {v0, v1, v2}, Lcom/rigol/scope/utilities/ScaleNumUtil;->getPlusNum(JF)J
 
     move-result-wide v0
 
-    .line 3045
+    .line 3077
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MathParam;->saveScale(J)V
 
     return-void
@@ -7494,7 +7541,7 @@
 .method public setAorBManager(Lcom/rigol/scope/utilities/AorBManager;)V
     .locals 0
 
-    .line 612
+    .line 614
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     return-void
@@ -7503,12 +7550,12 @@
 .method public setBpFreq1(J)V
     .locals 0
 
-    .line 1205
+    .line 1218
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->bpFreq1:J
 
     const/16 p1, 0x7a
 
-    .line 1206
+    .line 1219
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -7517,12 +7564,12 @@
 .method public setBpFreq2(J)V
     .locals 0
 
-    .line 1215
+    .line 1228
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->bpFreq2:J
 
     const/16 p1, 0x7b
 
-    .line 1216
+    .line 1229
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -7531,12 +7578,12 @@
 .method public setBtFreq1(J)V
     .locals 0
 
-    .line 1225
+    .line 1238
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->btFreq1:J
 
     const/16 p1, 0x7c
 
-    .line 1226
+    .line 1239
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -7545,12 +7592,12 @@
 .method public setBtFreq2(J)V
     .locals 0
 
-    .line 1235
+    .line 1248
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->btFreq2:J
 
     const/16 p1, 0x7d
 
-    .line 1236
+    .line 1249
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -7561,7 +7608,7 @@
 
     if-eqz p2, :cond_0
 
-    .line 2900
+    .line 2932
     invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -7570,7 +7617,7 @@
 
     move-result p2
 
-    .line 2901
+    .line 2933
     check-cast p1, Landroid/widget/TextView;
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setTextColor(I)V
@@ -7582,7 +7629,7 @@
 .method public setClosedColor(I)V
     .locals 0
 
-    .line 692
+    .line 694
     iput p1, p0, Lcom/rigol/scope/data/MathParam;->closedColor:I
 
     return-void
@@ -7591,12 +7638,12 @@
 .method public setColorGrade(Z)V
     .locals 0
 
-    .line 1014
+    .line 1016
     iput-boolean p1, p0, Lcom/rigol/scope/data/MathParam;->colorGrade:Z
 
     const/16 p1, 0xb9
 
-    .line 1015
+    .line 1017
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -7605,7 +7652,7 @@
 .method public setDefaultBackground(Landroid/graphics/drawable/Drawable;)V
     .locals 0
 
-    .line 700
+    .line 702
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->defaultBackground:Landroid/graphics/drawable/Drawable;
 
     return-void
@@ -7614,7 +7661,7 @@
 .method public setDefaultColor(I)V
     .locals 0
 
-    .line 684
+    .line 686
     iput p1, p0, Lcom/rigol/scope/data/MathParam;->defaultColor:I
 
     return-void
@@ -7623,13 +7670,36 @@
 .method public setDiffSmooth(I)V
     .locals 0
 
-    .line 1127
+    .line 1140
     iput p1, p0, Lcom/rigol/scope/data/MathParam;->diffSmooth:I
 
     const/16 p1, 0xf1
 
-    .line 1128
+    .line 1141
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
+
+    return-void
+.end method
+
+.method public setDisplayMode(Z)V
+    .locals 1
+
+    .line 1047
+    iput-boolean p1, p0, Lcom/rigol/scope/data/MathParam;->displayMode:Z
+
+    const/16 v0, 0xf4
+
+    .line 1048
+    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
+
+    .line 1049
+    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object p1
+
+    const/16 v0, 0x316b
+
+    invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MathParam;->syncData(ILjava/lang/Object;)V
 
     return-void
 .end method
@@ -7637,12 +7707,12 @@
 .method public setExpandIndex(Lcom/rigol/scope/cil/ServiceEnum$VertExpand;)V
     .locals 0
 
-    .line 870
+    .line 872
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->expandIndex:Lcom/rigol/scope/cil/ServiceEnum$VertExpand;
 
     const/16 p1, 0x120
 
-    .line 871
+    .line 873
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -7651,23 +7721,23 @@
 .method public setFftCenter(J)V
     .locals 1
 
-    .line 1261
+    .line 1274
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->fftCenter:J
 
-    .line 1262
+    .line 1275
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updateWindowTitle()V
 
     const/16 v0, 0x126
 
-    .line 1263
+    .line 1276
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
-    .line 1264
+    .line 1277
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
 
-    const/16 p2, 0x2f07
+    const/16 p2, 0x3107
 
     invoke-virtual {p0, p2, p1}, Lcom/rigol/scope/data/MathParam;->syncData(ILjava/lang/Object;)V
 
@@ -7677,23 +7747,23 @@
 .method public setFftEnd(J)V
     .locals 1
 
-    .line 1285
+    .line 1298
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->fftEnd:J
 
-    .line 1286
+    .line 1299
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updateWindowTitle()V
 
     const/16 v0, 0x127
 
-    .line 1287
+    .line 1300
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
-    .line 1288
+    .line 1301
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
 
-    const/16 p2, 0x2f0a
+    const/16 p2, 0x310a
 
     invoke-virtual {p0, p2, p1}, Lcom/rigol/scope/data/MathParam;->syncData(ILjava/lang/Object;)V
 
@@ -7703,23 +7773,23 @@
 .method public setFftOffset(J)V
     .locals 1
 
-    .line 774
+    .line 776
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->fftOffset:J
 
-    .line 775
+    .line 777
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updateFftOffsetStr()V
 
     const/16 v0, 0x128
 
-    .line 776
+    .line 778
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
-    .line 777
+    .line 779
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
 
-    const/16 p2, 0x2f33
+    const/16 p2, 0x3133
 
     invoke-virtual {p0, p2, p1}, Lcom/rigol/scope/data/MathParam;->syncData(ILjava/lang/Object;)V
 
@@ -7729,15 +7799,15 @@
 .method public setFftOffsetStr(Ljava/lang/String;)V
     .locals 0
 
-    .line 799
+    .line 801
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->fftOffsetStr:Ljava/lang/String;
 
-    .line 800
+    .line 802
     invoke-direct {p0}, Lcom/rigol/scope/data/MathParam;->updeteOffsetString()V
 
     const/16 p1, 0x129
 
-    .line 801
+    .line 803
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -7746,12 +7816,12 @@
 .method public setFftPeakOrderIndex(Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;)V
     .locals 0
 
-    .line 1307
+    .line 1320
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->fftPeakOrderIndex:Lcom/rigol/scope/cil/ServiceEnum$enPeakOrder;
 
     const/16 p1, 0x12a
 
-    .line 1308
+    .line 1321
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -7760,23 +7830,23 @@
 .method public setFftScale(J)V
     .locals 1
 
-    .line 786
+    .line 788
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->fftScale:J
 
-    .line 787
+    .line 789
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updateFftScaleStr()V
 
     const/16 v0, 0x12b
 
-    .line 788
+    .line 790
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
-    .line 789
+    .line 791
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
 
-    const/16 p2, 0x2f0b
+    const/16 p2, 0x310b
 
     invoke-virtual {p0, p2, p1}, Lcom/rigol/scope/data/MathParam;->syncData(ILjava/lang/Object;)V
 
@@ -7786,15 +7856,15 @@
 .method public setFftScaleStr(Ljava/lang/String;)V
     .locals 0
 
-    .line 810
+    .line 812
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->fftScaleStr:Ljava/lang/String;
 
-    .line 811
+    .line 813
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updateScaleString()V
 
     const/16 p1, 0x12c
 
-    .line 812
+    .line 814
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -7803,23 +7873,23 @@
 .method public setFftSpan(J)V
     .locals 1
 
-    .line 1249
+    .line 1262
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->fftSpan:J
 
-    .line 1250
+    .line 1263
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updateWindowTitle()V
 
     const/16 v0, 0x12d
 
-    .line 1251
+    .line 1264
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
-    .line 1252
+    .line 1265
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
 
-    const/16 p2, 0x2f08
+    const/16 p2, 0x3108
 
     invoke-virtual {p0, p2, p1}, Lcom/rigol/scope/data/MathParam;->syncData(ILjava/lang/Object;)V
 
@@ -7829,23 +7899,23 @@
 .method public setFftStart(J)V
     .locals 1
 
-    .line 1273
+    .line 1286
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->fftStart:J
 
-    .line 1274
+    .line 1287
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updateWindowTitle()V
 
     const/16 v0, 0x12e
 
-    .line 1275
+    .line 1288
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
-    .line 1276
+    .line 1289
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
 
-    const/16 p2, 0x2f09
+    const/16 p2, 0x3109
 
     invoke-virtual {p0, p2, p1}, Lcom/rigol/scope/data/MathParam;->syncData(ILjava/lang/Object;)V
 
@@ -7855,12 +7925,12 @@
 .method public setFftUnitIndex(Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;)V
     .locals 0
 
-    .line 1397
+    .line 1410
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->fftUnitIndex:Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;
 
     const/16 p1, 0x12f
 
-    .line 1398
+    .line 1411
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -7869,12 +7939,12 @@
 .method public setFftWindowIndex(Lcom/rigol/scope/cil/ServiceEnum$fftWindow;)V
     .locals 0
 
-    .line 1000
+    .line 1002
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->fftWindowIndex:Lcom/rigol/scope/cil/ServiceEnum$fftWindow;
 
     const/16 p1, 0x130
 
-    .line 1001
+    .line 1003
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -7883,12 +7953,12 @@
 .method public setFftZoomCenter(J)V
     .locals 0
 
-    .line 1512
+    .line 1525
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->fftZoomCenter:J
 
     const/16 p1, 0x131
 
-    .line 1513
+    .line 1526
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -7897,12 +7967,12 @@
 .method public setFftZoomEnd(J)V
     .locals 0
 
-    .line 1502
+    .line 1515
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->fftZoomEnd:J
 
     const/16 p1, 0x132
 
-    .line 1503
+    .line 1516
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -7911,18 +7981,18 @@
 .method public setFftZoomHScale(J)V
     .locals 0
 
-    .line 1491
+    .line 1504
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->fftZoomHScale:J
 
-    .line 1492
+    .line 1505
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updateFftZoomFreq()V
 
-    .line 1493
+    .line 1506
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
 
-    const/16 p2, 0x2f62
+    const/16 p2, 0x3162
 
     invoke-virtual {p0, p2, p1}, Lcom/rigol/scope/data/MathParam;->syncData(ILjava/lang/Object;)V
 
@@ -7932,12 +8002,12 @@
 .method public setFftZoomSpan(J)V
     .locals 0
 
-    .line 1522
+    .line 1535
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->fftZoomSpan:J
 
     const/16 p1, 0x133
 
-    .line 1523
+    .line 1536
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -7946,23 +8016,23 @@
 .method public setFftZoomStart(J)V
     .locals 1
 
-    .line 1480
+    .line 1493
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->fftZoomStart:J
 
-    .line 1481
+    .line 1494
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updateFftZoomFreq()V
 
     const/16 v0, 0x134
 
-    .line 1482
+    .line 1495
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
-    .line 1483
+    .line 1496
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
 
-    const/16 p2, 0x2f61
+    const/16 p2, 0x3161
 
     invoke-virtual {p0, p2, p1}, Lcom/rigol/scope/data/MathParam;->syncData(ILjava/lang/Object;)V
 
@@ -7972,12 +8042,12 @@
 .method public setFftxTypeIndex(Lcom/rigol/scope/cil/ServiceEnum$FftxType;)V
     .locals 0
 
-    .line 1419
+    .line 1432
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->fftxTypeIndex:Lcom/rigol/scope/cil/ServiceEnum$FftxType;
 
     const/16 p1, 0x135
 
-    .line 1420
+    .line 1433
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -7986,17 +8056,17 @@
 .method public setGrids(Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;)V
     .locals 1
 
-    .line 670
+    .line 672
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->grids:Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
     const/16 v0, 0x16b
 
-    .line 671
+    .line 673
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     const/16 v0, 0x1304
 
-    .line 672
+    .line 674
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MathParam;->syncData(ILjava/lang/Object;)V
 
     return-void
@@ -8005,12 +8075,12 @@
 .method public setHpFreq(J)V
     .locals 0
 
-    .line 1195
+    .line 1208
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->hpFreq:J
 
-    const/16 p1, 0x180
+    const/16 p1, 0x181
 
-    .line 1196
+    .line 1209
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -8019,12 +8089,12 @@
 .method public setIntgBias(J)V
     .locals 0
 
-    .line 1137
+    .line 1150
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->intgBias:J
 
-    const/16 p1, 0x1ba
+    const/16 p1, 0x1bb
 
-    .line 1138
+    .line 1151
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -8033,12 +8103,12 @@
 .method public setIntgBiasUnit(Lcom/rigol/scope/cil/ServiceEnum$Unit;)V
     .locals 0
 
-    .line 1147
+    .line 1160
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->intgBiasUnit:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    const/16 p1, 0x1bb
+    const/16 p1, 0x1bc
 
-    .line 1148
+    .line 1161
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -8047,12 +8117,12 @@
 .method public setInvert(Z)V
     .locals 0
 
-    .line 1024
+    .line 1026
     iput-boolean p1, p0, Lcom/rigol/scope/data/MathParam;->invert:Z
 
-    const/16 p1, 0x1bc
+    const/16 p1, 0x1bd
 
-    .line 1025
+    .line 1027
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -8061,20 +8131,20 @@
 .method public setLabel(Z)V
     .locals 1
 
-    .line 1034
+    .line 1036
     iput-boolean p1, p0, Lcom/rigol/scope/data/MathParam;->label:Z
 
-    const/16 v0, 0x1db
+    const/16 v0, 0x1dc
 
-    .line 1035
+    .line 1037
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
-    .line 1036
+    .line 1038
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object p1
 
-    const/16 v0, 0x2f2a
+    const/16 v0, 0x312a
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MathParam;->syncData(ILjava/lang/Object;)V
 
@@ -8084,17 +8154,17 @@
 .method public setLabelString(Ljava/lang/String;)V
     .locals 1
 
-    .line 646
+    .line 648
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->labelString:Ljava/lang/String;
 
-    const/16 v0, 0x1dd
+    const/16 v0, 0x1de
 
-    .line 647
+    .line 649
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
-    const/16 v0, 0x2f29
+    const/16 v0, 0x3129
 
-    .line 648
+    .line 650
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MathParam;->syncData(ILjava/lang/Object;)V
 
     return-void
@@ -8103,12 +8173,12 @@
 .method public setLineA(J)V
     .locals 0
 
-    .line 1157
+    .line 1170
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->lineA:J
 
-    const/16 p1, 0x1f5
+    const/16 p1, 0x1f6
 
-    .line 1158
+    .line 1171
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -8117,12 +8187,12 @@
 .method public setLineB(J)V
     .locals 0
 
-    .line 1167
+    .line 1180
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->lineB:J
 
-    const/16 p1, 0x1f6
+    const/16 p1, 0x1f7
 
-    .line 1168
+    .line 1181
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -8131,23 +8201,23 @@
 .method public setLogicOffset(J)V
     .locals 1
 
-    .line 742
+    .line 744
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->logicOffset:J
 
-    .line 743
+    .line 745
     invoke-direct {p0}, Lcom/rigol/scope/data/MathParam;->updeteOffsetString()V
 
-    const/16 v0, 0x1fb
+    const/16 v0, 0x1fc
 
-    .line 744
+    .line 746
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
-    .line 745
+    .line 747
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
 
-    const/16 p2, 0x2f34
+    const/16 p2, 0x3134
 
     invoke-virtual {p0, p2, p1}, Lcom/rigol/scope/data/MathParam;->syncData(ILjava/lang/Object;)V
 
@@ -8157,7 +8227,7 @@
 .method public setLogicScale(J)V
     .locals 0
 
-    .line 753
+    .line 755
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->logicScale:J
 
     return-void
@@ -8166,21 +8236,21 @@
 .method public setLogicSizeIndex(Lcom/rigol/scope/cil/ServiceEnum$LaScale;)V
     .locals 0
 
-    .line 903
+    .line 905
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->logicSizeIndex:Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
-    .line 904
+    .line 906
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updateScaleString()V
 
-    .line 905
+    .line 907
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updateLogicScale()V
 
-    .line 906
+    .line 908
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updateWindowTitle()V
 
-    const/16 p1, 0x1fc
+    const/16 p1, 0x1fd
 
-    .line 907
+    .line 909
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -8189,12 +8259,12 @@
 .method public setLpFreq(J)V
     .locals 0
 
-    .line 1185
+    .line 1198
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->lpFreq:J
 
-    const/16 p1, 0x200
+    const/16 p1, 0x201
 
-    .line 1186
+    .line 1199
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -8203,7 +8273,7 @@
 .method public setMathLogicAdapter(Lcom/rigol/scope/adapters/MathLogicAdapter;)V
     .locals 0
 
-    .line 253
+    .line 254
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->mathLogicAdapter:Lcom/rigol/scope/adapters/MathLogicAdapter;
 
     return-void
@@ -8212,23 +8282,23 @@
 .method public setOffset(J)V
     .locals 1
 
-    .line 717
+    .line 719
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->offset:J
 
-    .line 718
+    .line 720
     invoke-direct {p0}, Lcom/rigol/scope/data/MathParam;->updeteOffsetString()V
 
-    const/16 v0, 0x235
+    const/16 v0, 0x237
 
-    .line 719
+    .line 721
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
-    .line 720
+    .line 722
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
 
-    const/16 p2, 0x2f32
+    const/16 p2, 0x3132
 
     invoke-virtual {p0, p2, p1}, Lcom/rigol/scope/data/MathParam;->syncData(ILjava/lang/Object;)V
 
@@ -8238,12 +8308,12 @@
 .method public setOffsetString(Ljava/lang/String;)V
     .locals 0
 
-    .line 1460
+    .line 1473
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->offsetString:Ljava/lang/String;
 
-    const/16 p1, 0x236
+    const/16 p1, 0x238
 
-    .line 1461
+    .line 1474
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -8252,29 +8322,29 @@
 .method public setOperator(Lcom/rigol/scope/cil/ServiceEnum$MathOperator;)V
     .locals 1
 
-    .line 855
+    .line 857
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->operator:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
-    .line 856
+    .line 858
     invoke-direct {p0}, Lcom/rigol/scope/data/MathParam;->updateOperatorString()V
 
-    .line 857
+    .line 859
     invoke-direct {p0}, Lcom/rigol/scope/data/MathParam;->updeteOffsetString()V
 
-    .line 858
+    .line 860
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updateScaleString()V
 
-    .line 859
+    .line 861
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updateWindowTitle()V
 
-    const/16 v0, 0x23d
+    const/16 v0, 0x23f
 
-    .line 860
+    .line 862
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
-    const/16 v0, 0x2f02
+    const/16 v0, 0x3102
 
-    .line 861
+    .line 863
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MathParam;->syncData(ILjava/lang/Object;)V
 
     return-void
@@ -8283,12 +8353,12 @@
 .method public setOperatorString(Ljava/lang/String;)V
     .locals 0
 
-    .line 1424
+    .line 1437
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->operatorString:Ljava/lang/String;
 
-    const/16 p1, 0x23e
+    const/16 p1, 0x240
 
-    .line 1425
+    .line 1438
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -8297,15 +8367,15 @@
 .method public setPeakExcursion(J)V
     .locals 0
 
-    .line 1357
+    .line 1370
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->peakExcursion:J
 
-    .line 1358
+    .line 1371
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updatePeakExcursionStr()V
 
-    const/16 p1, 0x261
+    const/16 p1, 0x263
 
-    .line 1359
+    .line 1372
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -8314,12 +8384,12 @@
 .method public setPeakExcursionStr(Ljava/lang/String;)V
     .locals 0
 
-    .line 1368
+    .line 1381
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->peakExcursionStr:Ljava/lang/String;
 
-    const/16 p1, 0x262
+    const/16 p1, 0x264
 
-    .line 1369
+    .line 1382
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -8328,12 +8398,12 @@
 .method public setPeakNum(I)V
     .locals 0
 
-    .line 1297
+    .line 1310
     iput p1, p0, Lcom/rigol/scope/data/MathParam;->peakNum:I
 
-    const/16 p1, 0x264
+    const/16 p1, 0x266
 
-    .line 1298
+    .line 1311
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -8342,20 +8412,20 @@
 .method public setPeakSearch(Z)V
     .locals 1
 
-    .line 1045
+    .line 1058
     iput-boolean p1, p0, Lcom/rigol/scope/data/MathParam;->peakSearch:Z
 
-    const/16 v0, 0x266
+    const/16 v0, 0x268
 
-    .line 1046
+    .line 1059
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
-    .line 1047
+    .line 1060
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object p1
 
-    const/16 v0, 0x2f12
+    const/16 v0, 0x3112
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MathParam;->syncData(ILjava/lang/Object;)V
 
@@ -8365,15 +8435,15 @@
 .method public setPeakThreshold(J)V
     .locals 0
 
-    .line 1317
+    .line 1330
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->peakThreshold:J
 
-    .line 1318
+    .line 1331
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updatePeakThresholdStr()V
 
-    const/16 p1, 0x268
+    const/16 p1, 0x26a
 
-    .line 1319
+    .line 1332
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -8382,12 +8452,12 @@
 .method public setPeakThresholdStr(Ljava/lang/String;)V
     .locals 0
 
-    .line 1328
+    .line 1341
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->peakThresholdStr:Ljava/lang/String;
 
-    const/16 p1, 0x269
+    const/16 p1, 0x26b
 
-    .line 1329
+    .line 1342
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -8396,26 +8466,26 @@
 .method public setScale(J)V
     .locals 1
 
-    .line 729
+    .line 731
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->scale:J
 
-    .line 730
+    .line 732
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updateScaleString()V
 
-    .line 731
+    .line 733
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updateWindowTitle()V
 
-    const/16 v0, 0x306
+    const/16 v0, 0x30a
 
-    .line 732
+    .line 734
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
-    .line 733
+    .line 735
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
 
-    const/16 p2, 0x2f1f
+    const/16 p2, 0x311f
 
     invoke-virtual {p0, p2, p1}, Lcom/rigol/scope/data/MathParam;->syncData(ILjava/lang/Object;)V
 
@@ -8425,12 +8495,12 @@
 .method public setScaleString(Ljava/lang/String;)V
     .locals 0
 
-    .line 1439
+    .line 1452
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->scaleString:Ljava/lang/String;
 
-    const/16 p1, 0x309
+    const/16 p1, 0x30d
 
-    .line 1440
+    .line 1453
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -8439,7 +8509,7 @@
 .method public setSelectedBackground(Landroid/graphics/drawable/Drawable;)V
     .locals 0
 
-    .line 708
+    .line 710
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->selectedBackground:Landroid/graphics/drawable/Drawable;
 
     return-void
@@ -8448,12 +8518,12 @@
 .method public setSens(I)V
     .locals 0
 
-    .line 1077
+    .line 1090
     iput p1, p0, Lcom/rigol/scope/data/MathParam;->sens:I
 
-    const/16 p1, 0x31d
+    const/16 p1, 0x321
 
-    .line 1078
+    .line 1091
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -8462,12 +8532,12 @@
 .method public setShowPeakSetting(Z)V
     .locals 0
 
-    .line 1470
+    .line 1483
     iput-boolean p1, p0, Lcom/rigol/scope/data/MathParam;->showPeakSetting:Z
 
-    const/16 p1, 0x33f
+    const/16 p1, 0x343
 
-    .line 1471
+    .line 1484
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -8476,15 +8546,15 @@
 .method public setSourceArithAIndex(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
     .locals 0
 
-    .line 922
+    .line 924
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->sourceArithAIndex:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x35f
+    const/16 p1, 0x363
 
-    .line 923
+    .line 925
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
-    .line 924
+    .line 926
     invoke-direct {p0}, Lcom/rigol/scope/data/MathParam;->updateOperatorString()V
 
     return-void
@@ -8493,15 +8563,15 @@
 .method public setSourceArithBIndex(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
     .locals 0
 
-    .line 940
+    .line 942
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->sourceArithBIndex:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x360
+    const/16 p1, 0x364
 
-    .line 941
+    .line 943
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
-    .line 942
+    .line 944
     invoke-direct {p0}, Lcom/rigol/scope/data/MathParam;->updateOperatorString()V
 
     return-void
@@ -8510,15 +8580,15 @@
 .method public setSourceFftIndex(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
     .locals 0
 
-    .line 980
+    .line 982
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->sourceFftIndex:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x363
+    const/16 p1, 0x367
 
-    .line 981
+    .line 983
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
-    .line 982
+    .line 984
     invoke-direct {p0}, Lcom/rigol/scope/data/MathParam;->updateOperatorString()V
 
     return-void
@@ -8527,18 +8597,18 @@
 .method public setSourceLogicAIndex(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
     .locals 0
 
-    .line 885
+    .line 887
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->sourceLogicAIndex:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x364
-
-    .line 886
-    invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
-
-    .line 887
-    invoke-direct {p0}, Lcom/rigol/scope/data/MathParam;->updateOperatorString()V
+    const/16 p1, 0x368
 
     .line 888
+    invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
+
+    .line 889
+    invoke-direct {p0}, Lcom/rigol/scope/data/MathParam;->updateOperatorString()V
+
+    .line 890
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updateWindowTitle()V
 
     return-void
@@ -8547,18 +8617,18 @@
 .method public setSourceLogicBIndex(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
     .locals 0
 
-    .line 958
+    .line 960
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->sourceLogicBIndex:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x365
-
-    .line 959
-    invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
-
-    .line 960
-    invoke-direct {p0}, Lcom/rigol/scope/data/MathParam;->updateOperatorString()V
+    const/16 p1, 0x369
 
     .line 961
+    invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
+
+    .line 962
+    invoke-direct {p0}, Lcom/rigol/scope/data/MathParam;->updateOperatorString()V
+
+    .line 963
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updateWindowTitle()V
 
     return-void
@@ -8567,7 +8637,7 @@
 .method public setSrcSa(J)V
     .locals 0
 
-    .line 1176
+    .line 1189
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->srcSa:J
 
     return-void
@@ -8576,20 +8646,20 @@
 .method public setStatus(Z)V
     .locals 1
 
-    .line 658
+    .line 660
     iput-boolean p1, p0, Lcom/rigol/scope/data/MathParam;->status:Z
 
-    const/16 v0, 0x38d
+    const/16 v0, 0x391
 
-    .line 660
+    .line 662
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
-    .line 661
+    .line 663
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object p1
 
-    const/16 v0, 0x2f01
+    const/16 v0, 0x3101
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MathParam;->syncData(ILjava/lang/Object;)V
 
@@ -8599,12 +8669,12 @@
 .method public setThresholdCH1(J)V
     .locals 0
 
-    .line 1087
+    .line 1100
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->thresholdCH1:J
 
-    const/16 p1, 0x39c
+    const/16 p1, 0x3a0
 
-    .line 1088
+    .line 1101
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -8613,12 +8683,12 @@
 .method public setThresholdCH2(J)V
     .locals 0
 
-    .line 1117
+    .line 1130
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->thresholdCH2:J
 
-    const/16 p1, 0x39d
+    const/16 p1, 0x3a1
 
-    .line 1118
+    .line 1131
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -8627,12 +8697,12 @@
 .method public setThresholdCH3(J)V
     .locals 0
 
-    .line 1107
+    .line 1120
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->thresholdCH3:J
 
-    const/16 p1, 0x39e
+    const/16 p1, 0x3a2
 
-    .line 1108
+    .line 1121
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -8641,12 +8711,12 @@
 .method public setThresholdCH4(J)V
     .locals 0
 
-    .line 1097
+    .line 1110
     iput-wide p1, p0, Lcom/rigol/scope/data/MathParam;->thresholdCH4:J
 
-    const/16 p1, 0x39f
+    const/16 p1, 0x3a3
 
-    .line 1098
+    .line 1111
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -8655,7 +8725,7 @@
 .method public setTitle(Ljava/lang/String;)V
     .locals 0
 
-    .line 1005
+    .line 1007
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->title:Ljava/lang/String;
 
     return-void
@@ -8664,7 +8734,7 @@
 .method public setUnitIndex(Lcom/rigol/scope/cil/ServiceEnum$Unit;)V
     .locals 2
 
-    .line 1056
+    .line 1069
     iget v0, p1, Lcom/rigol/scope/cil/ServiceEnum$Unit;->value1:I
 
     iget-object v1, p0, Lcom/rigol/scope/data/MathParam;->unitIndex:Lcom/rigol/scope/cil/ServiceEnum$Unit;
@@ -8675,39 +8745,39 @@
 
     return-void
 
-    .line 1059
+    .line 1072
     :cond_0
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->unitIndex:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    const/16 v0, 0x3dc
+    const/16 v0, 0x3e0
 
-    .line 1060
+    .line 1073
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
-    const/16 v0, 0x2f4f
+    const/16 v0, 0x314f
 
-    .line 1061
+    .line 1074
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MathParam;->syncData(ILjava/lang/Object;)V
 
-    .line 1062
+    .line 1075
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updateScaleString()V
 
-    .line 1063
+    .line 1076
     invoke-direct {p0}, Lcom/rigol/scope/data/MathParam;->updeteOffsetString()V
 
-    .line 1064
+    .line 1077
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updateFftOffsetStr()V
 
-    .line 1065
+    .line 1078
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updatePeakThresholdStr()V
 
-    .line 1066
+    .line 1079
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updateFftScaleStr()V
 
-    .line 1067
+    .line 1080
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updatePeakExcursionStr()V
 
-    .line 1068
+    .line 1081
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->updateWindowTitle()V
 
     return-void
@@ -8716,17 +8786,17 @@
 .method public setWaveType(Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;)V
     .locals 1
 
-    .line 635
+    .line 637
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->waveType:Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;
 
-    const/16 v0, 0x40f
+    const/16 v0, 0x413
 
-    .line 636
+    .line 638
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
-    const/16 v0, 0x2f60
+    const/16 v0, 0x3160
 
-    .line 637
+    .line 639
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MathParam;->syncData(ILjava/lang/Object;)V
 
     return-void
@@ -8735,17 +8805,17 @@
 .method public setWindowTitleString(Ljava/lang/String;)V
     .locals 1
 
-    .line 1449
+    .line 1462
     iput-object p1, p0, Lcom/rigol/scope/data/MathParam;->windowTitleString:Ljava/lang/String;
 
-    const/16 v0, 0x436
+    const/16 v0, 0x43a
 
-    .line 1450
+    .line 1463
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
-    const/16 v0, 0x3507
+    const/16 v0, 0x3707
 
-    .line 1451
+    .line 1464
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MathParam;->syncData(ILjava/lang/Object;)V
 
     return-void
@@ -8754,12 +8824,12 @@
 .method public setZoomEn(Z)V
     .locals 0
 
-    .line 625
+    .line 627
     iput-boolean p1, p0, Lcom/rigol/scope/data/MathParam;->zoomEn:Z
 
-    const/16 p1, 0x441
+    const/16 p1, 0x445
 
-    .line 626
+    .line 628
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MathParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -8768,7 +8838,7 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 3335
+    .line 3367
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -8815,7 +8885,7 @@
 .method public updateFftOffsetStr()V
     .locals 7
 
-    .line 817
+    .line 819
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftUnitIndex()Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;
 
     move-result-object v0
@@ -8826,7 +8896,7 @@
 
     if-eq v0, v1, :cond_1
 
-    .line 819
+    .line 821
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftOffset()J
 
     move-result-wide v0
@@ -8841,7 +8911,7 @@
 
     div-double/2addr v0, v3
 
-    .line 820
+    .line 822
     invoke-static {v0, v1}, Ljava/lang/Math;->abs(D)D
 
     move-result-wide v3
@@ -8852,10 +8922,10 @@
 
     if-lez v3, :cond_0
 
-    .line 821
+    .line 823
     sget-object v0, Lcom/rigol/scope/utilities/UnitFormat$SI;->NANO:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
-    .line 822
+    .line 824
     invoke-static {v2, v0}, Lcom/rigol/scope/utilities/UnitFormat;->newBuilder(Ljava/lang/String;Lcom/rigol/scope/utilities/UnitFormat$SI;)Lcom/rigol/scope/utilities/UnitFormat;
 
     move-result-object v0
@@ -8874,7 +8944,7 @@
 
     goto :goto_0
 
-    .line 824
+    .line 826
     :cond_0
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -8906,11 +8976,11 @@
 
     goto :goto_0
 
-    .line 828
+    .line 830
     :cond_1
     sget-object v0, Lcom/rigol/scope/utilities/UnitFormat$SI;->NANO:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
-    .line 829
+    .line 831
     invoke-static {v2, v0}, Lcom/rigol/scope/utilities/UnitFormat;->newBuilder(Ljava/lang/String;Lcom/rigol/scope/utilities/UnitFormat$SI;)Lcom/rigol/scope/utilities/UnitFormat;
 
     move-result-object v0
@@ -8927,7 +8997,7 @@
 
     move-result-object v0
 
-    .line 831
+    .line 833
     :goto_0
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setFftOffsetStr(Ljava/lang/String;)V
 
@@ -8937,7 +9007,7 @@
 .method public updateFftScaleStr()V
     .locals 7
 
-    .line 836
+    .line 838
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftUnitIndex()Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;
 
     move-result-object v0
@@ -8948,7 +9018,7 @@
 
     if-eq v0, v1, :cond_1
 
-    .line 838
+    .line 840
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftScale()J
 
     move-result-wide v0
@@ -8963,7 +9033,7 @@
 
     div-double/2addr v0, v3
 
-    .line 839
+    .line 841
     invoke-static {v0, v1}, Ljava/lang/Math;->abs(D)D
 
     move-result-wide v3
@@ -8974,10 +9044,10 @@
 
     if-lez v3, :cond_0
 
-    .line 840
+    .line 842
     sget-object v0, Lcom/rigol/scope/utilities/UnitFormat$SI;->NANO:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
-    .line 841
+    .line 843
     invoke-static {v2, v0}, Lcom/rigol/scope/utilities/UnitFormat;->newBuilder(Ljava/lang/String;Lcom/rigol/scope/utilities/UnitFormat$SI;)Lcom/rigol/scope/utilities/UnitFormat;
 
     move-result-object v0
@@ -8994,7 +9064,7 @@
 
     goto :goto_0
 
-    .line 843
+    .line 845
     :cond_0
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -9024,11 +9094,11 @@
 
     goto :goto_0
 
-    .line 847
+    .line 849
     :cond_1
     sget-object v0, Lcom/rigol/scope/utilities/UnitFormat$SI;->NANO:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
-    .line 848
+    .line 850
     invoke-static {v2, v0}, Lcom/rigol/scope/utilities/UnitFormat;->newBuilder(Ljava/lang/String;Lcom/rigol/scope/utilities/UnitFormat$SI;)Lcom/rigol/scope/utilities/UnitFormat;
 
     move-result-object v0
@@ -9045,7 +9115,7 @@
 
     move-result-object v0
 
-    .line 850
+    .line 852
     :goto_0
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setFftScaleStr(Ljava/lang/String;)V
 
@@ -9055,7 +9125,7 @@
 .method public updateFftZoomFreq()V
     .locals 8
 
-    .line 1527
+    .line 1540
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftZoomStart()J
 
     move-result-wide v0
@@ -9070,10 +9140,10 @@
 
     add-long/2addr v0, v2
 
-    .line 1528
+    .line 1541
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MathParam;->setFftZoomEnd(J)V
 
-    .line 1530
+    .line 1543
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftZoomStart()J
 
     move-result-wide v0
@@ -9088,17 +9158,17 @@
 
     add-long/2addr v0, v2
 
-    .line 1531
+    .line 1544
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MathParam;->setFftZoomCenter(J)V
 
-    .line 1533
+    .line 1546
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftZoomHScale()J
 
     move-result-wide v0
 
     mul-long/2addr v0, v4
 
-    .line 1534
+    .line 1547
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MathParam;->setFftZoomSpan(J)V
 
     return-void
@@ -9107,7 +9177,7 @@
 .method public updateLogicScale()V
     .locals 4
 
-    .line 757
+    .line 759
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getLogicSizeIndex()Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
     move-result-object v0
@@ -9118,12 +9188,12 @@
 
     const-wide/32 v0, 0x1dcd6500
 
-    .line 758
+    .line 760
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MathParam;->setLogicScale(J)V
 
     goto :goto_0
 
-    .line 759
+    .line 761
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getLogicSizeIndex()Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
@@ -9135,12 +9205,12 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 760
+    .line 762
     invoke-virtual {p0, v2, v3}, Lcom/rigol/scope/data/MathParam;->setLogicScale(J)V
 
     goto :goto_0
 
-    .line 761
+    .line 763
     :cond_1
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getLogicSizeIndex()Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
@@ -9152,12 +9222,12 @@
 
     const-wide/32 v0, 0x77359400
 
-    .line 762
+    .line 764
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MathParam;->setLogicScale(J)V
 
     goto :goto_0
 
-    .line 764
+    .line 766
     :cond_2
     invoke-virtual {p0, v2, v3}, Lcom/rigol/scope/data/MathParam;->setLogicScale(J)V
 
@@ -9168,7 +9238,7 @@
 .method public updatePeakExcursionStr()V
     .locals 7
 
-    .line 1374
+    .line 1387
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftUnitIndex()Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;
 
     move-result-object v0
@@ -9179,7 +9249,7 @@
 
     if-eq v0, v1, :cond_1
 
-    .line 1376
+    .line 1389
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getPeakExcursion()J
 
     move-result-wide v0
@@ -9194,7 +9264,7 @@
 
     div-double/2addr v0, v3
 
-    .line 1377
+    .line 1390
     invoke-static {v0, v1}, Ljava/lang/Math;->abs(D)D
 
     move-result-wide v3
@@ -9205,10 +9275,10 @@
 
     if-lez v3, :cond_0
 
-    .line 1378
+    .line 1391
     sget-object v0, Lcom/rigol/scope/utilities/UnitFormat$SI;->NANO:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
-    .line 1379
+    .line 1392
     invoke-static {v2, v0}, Lcom/rigol/scope/utilities/UnitFormat;->newBuilder(Ljava/lang/String;Lcom/rigol/scope/utilities/UnitFormat$SI;)Lcom/rigol/scope/utilities/UnitFormat;
 
     move-result-object v0
@@ -9225,7 +9295,7 @@
 
     goto :goto_0
 
-    .line 1381
+    .line 1394
     :cond_0
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -9255,11 +9325,11 @@
 
     goto :goto_0
 
-    .line 1385
+    .line 1398
     :cond_1
     sget-object v0, Lcom/rigol/scope/utilities/UnitFormat$SI;->NANO:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
-    .line 1386
+    .line 1399
     invoke-static {v2, v0}, Lcom/rigol/scope/utilities/UnitFormat;->newBuilder(Ljava/lang/String;Lcom/rigol/scope/utilities/UnitFormat$SI;)Lcom/rigol/scope/utilities/UnitFormat;
 
     move-result-object v0
@@ -9276,7 +9346,7 @@
 
     move-result-object v0
 
-    .line 1388
+    .line 1401
     :goto_0
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setPeakExcursionStr(Ljava/lang/String;)V
 
@@ -9286,7 +9356,7 @@
 .method public updatePeakThresholdStr()V
     .locals 7
 
-    .line 1334
+    .line 1347
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getFftUnitIndex()Lcom/rigol/scope/cil/ServiceEnum$fftSpecUnit;
 
     move-result-object v0
@@ -9297,7 +9367,7 @@
 
     if-eq v0, v1, :cond_1
 
-    .line 1336
+    .line 1349
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getPeakThreshold()J
 
     move-result-wide v0
@@ -9312,7 +9382,7 @@
 
     div-double/2addr v0, v3
 
-    .line 1337
+    .line 1350
     invoke-static {v0, v1}, Ljava/lang/Math;->abs(D)D
 
     move-result-wide v3
@@ -9323,10 +9393,10 @@
 
     if-lez v3, :cond_0
 
-    .line 1338
+    .line 1351
     sget-object v0, Lcom/rigol/scope/utilities/UnitFormat$SI;->NANO:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
-    .line 1339
+    .line 1352
     invoke-static {v2, v0}, Lcom/rigol/scope/utilities/UnitFormat;->newBuilder(Ljava/lang/String;Lcom/rigol/scope/utilities/UnitFormat$SI;)Lcom/rigol/scope/utilities/UnitFormat;
 
     move-result-object v0
@@ -9345,7 +9415,7 @@
 
     goto :goto_0
 
-    .line 1341
+    .line 1354
     :cond_0
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -9377,11 +9447,11 @@
 
     goto :goto_0
 
-    .line 1345
+    .line 1358
     :cond_1
     sget-object v0, Lcom/rigol/scope/utilities/UnitFormat$SI;->NANO:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
-    .line 1346
+    .line 1359
     invoke-static {v2, v0}, Lcom/rigol/scope/utilities/UnitFormat;->newBuilder(Ljava/lang/String;Lcom/rigol/scope/utilities/UnitFormat$SI;)Lcom/rigol/scope/utilities/UnitFormat;
 
     move-result-object v0
@@ -9398,7 +9468,7 @@
 
     move-result-object v0
 
-    .line 1348
+    .line 1361
     :goto_0
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setPeakThresholdStr(Ljava/lang/String;)V
 
@@ -9408,7 +9478,7 @@
 .method public updateScaleString()V
     .locals 5
 
-    .line 1612
+    .line 1625
     sget-object v0, Lcom/rigol/scope/data/MathParam$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$MathOperator:[I
 
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getOperator()Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
@@ -9427,7 +9497,7 @@
 
     goto :goto_0
 
-    .line 1643
+    .line 1656
     :pswitch_0
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -9450,9 +9520,9 @@
     goto :goto_0
 
     :pswitch_1
-    const v0, 0x7f030172
+    const v0, 0x7f030174
 
-    .line 1638
+    .line 1651
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getLogicSizeIndex()Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
     move-result-object v1
@@ -9471,7 +9541,7 @@
 
     goto :goto_0
 
-    .line 1630
+    .line 1643
     :pswitch_2
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -9505,7 +9575,7 @@
 
     iput-object v0, p0, Lcom/rigol/scope/data/MathParam;->scaleString:Ljava/lang/String;
 
-    .line 1650
+    .line 1663
     :goto_0
     iget-object v0, p0, Lcom/rigol/scope/data/MathParam;->scaleString:Ljava/lang/String;
 
@@ -9542,7 +9612,7 @@
 .method public updateWindowTitle()V
     .locals 11
 
-    .line 2934
+    .line 2966
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -9567,15 +9637,15 @@
 
     move-result-object v0
 
-    .line 2937
+    .line 2969
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getOperatorString()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 2940
+    .line 2972
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->readSrcSa()V
 
-    .line 2941
+    .line 2973
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -9608,7 +9678,7 @@
 
     move-result-object v3
 
-    .line 2947
+    .line 2979
     sget-object v4, Lcom/rigol/scope/data/MathParam$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$MathOperator:[I
 
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getOperator()Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
@@ -9629,7 +9699,7 @@
 
     goto/16 :goto_1
 
-    .line 3005
+    .line 3037
     :pswitch_0
     sget-object v2, Lcom/rigol/scope/utilities/UnitFormat$SI;->MICRO:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
@@ -9647,7 +9717,7 @@
 
     move-result-object v2
 
-    .line 3006
+    .line 3038
     new-instance v7, Ljava/lang/StringBuilder;
 
     invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
@@ -9670,7 +9740,7 @@
 
     move-result-object v2
 
-    .line 3008
+    .line 3040
     sget-object v7, Lcom/rigol/scope/utilities/UnitFormat$SI;->MICRO:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
     invoke-static {v4, v7}, Lcom/rigol/scope/utilities/UnitFormat;->newBuilder(Ljava/lang/String;Lcom/rigol/scope/utilities/UnitFormat$SI;)Lcom/rigol/scope/utilities/UnitFormat;
@@ -9685,7 +9755,7 @@
 
     move-result-object v7
 
-    .line 3009
+    .line 3041
     new-instance v9, Ljava/lang/StringBuilder;
 
     invoke-direct {v9}, Ljava/lang/StringBuilder;-><init>()V
@@ -9706,14 +9776,14 @@
 
     move-result-object v7
 
-    const/16 v8, 0x2f69
+    const/16 v8, 0x3169
 
-    .line 3011
+    .line 3043
     invoke-virtual {p0, v8}, Lcom/rigol/scope/data/MathParam;->readFloat(I)F
 
     move-result v8
 
-    .line 3012
+    .line 3044
     sget-object v9, Lcom/rigol/scope/utilities/UnitFormat$SI;->NONE:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
     invoke-static {v4, v9}, Lcom/rigol/scope/utilities/UnitFormat;->newBuilder(Ljava/lang/String;Lcom/rigol/scope/utilities/UnitFormat$SI;)Lcom/rigol/scope/utilities/UnitFormat;
@@ -9728,12 +9798,12 @@
 
     const/4 v8, 0x5
 
-    .line 3013
+    .line 3045
     invoke-static {v4, v8}, Lcom/rigol/scope/utilities/ViewUtil;->subNumber(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object v4
 
-    .line 3015
+    .line 3047
     new-instance v8, Ljava/lang/StringBuilder;
 
     invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
@@ -9778,12 +9848,12 @@
 
     move-result-object v0
 
-    .line 3021
+    .line 3053
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setWindowTitleString(Ljava/lang/String;)V
 
     goto/16 :goto_1
 
-    .line 2981
+    .line 3013
     :pswitch_1
     sget-object v3, Lcom/rigol/scope/data/MathParam$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$LaScale:[I
 
@@ -9824,7 +9894,7 @@
     :cond_2
     const-string v2, "Small"
 
-    .line 2996
+    .line 3028
     :goto_0
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -9848,12 +9918,12 @@
 
     move-result-object v0
 
-    .line 2999
+    .line 3031
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setWindowTitleString(Ljava/lang/String;)V
 
     goto :goto_1
 
-    .line 2965
+    .line 2997
     :pswitch_2
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -9875,7 +9945,7 @@
 
     invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 2966
+    .line 2998
     invoke-virtual {p0}, Lcom/rigol/scope/data/MathParam;->getUnitIndex()Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     move-result-object v4
@@ -9888,7 +9958,7 @@
 
     move-result-object v2
 
-    .line 2968
+    .line 3000
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -9917,7 +9987,7 @@
 
     move-result-object v0
 
-    .line 2972
+    .line 3004
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MathParam;->setWindowTitleString(Ljava/lang/String;)V
 
     :goto_1

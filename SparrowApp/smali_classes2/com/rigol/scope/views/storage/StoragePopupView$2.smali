@@ -70,7 +70,7 @@
 
     check-cast p1, Lcom/rigol/scope/data/StorageLoadParam;
 
-    const v0, 0x7f0301cf
+    const v0, 0x7f0301d1
 
     .line 188
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;

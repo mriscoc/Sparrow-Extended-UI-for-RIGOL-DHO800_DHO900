@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/PopupviewDdrBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04cc
+    const v1, 0x7f0a04ce
 
     const/4 v2, 0x4
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewDdrBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a085a
+    const v1, 0x7f0a0866
 
     const/4 v2, 0x5
 
@@ -45,7 +45,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewDdrBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a085b
+    const v1, 0x7f0a0867
 
     const/4 v2, 0x6
 
@@ -54,7 +54,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewDdrBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0814
+    const v1, 0x7f0a0820
 
     const/4 v2, 0x7
 
@@ -63,7 +63,7 @@
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewDdrBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0816
+    const v1, 0x7f0a0822
 
     const/16 v2, 0x8
 
@@ -72,7 +72,7 @@
     .line 22
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewDdrBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0481
+    const v1, 0x7f0a0483
 
     const/16 v2, 0x9
 
@@ -81,7 +81,7 @@
     .line 23
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewDdrBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0483
+    const v1, 0x7f0a0485
 
     const/16 v2, 0xa
 
@@ -90,7 +90,7 @@
     .line 24
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewDdrBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a07cd
+    const v1, 0x7f0a07d9
 
     const/16 v2, 0xb
 
@@ -99,7 +99,7 @@
     .line 25
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewDdrBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0601
+    const v1, 0x7f0a0609
 
     const/16 v2, 0xc
 
@@ -323,7 +323,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x28e
+    const/16 v0, 0x291
 
     if-ne p2, v0, :cond_1
 
@@ -355,7 +355,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x25b
+    const/16 v0, 0x25d
 
     if-ne p2, v0, :cond_2
 
@@ -387,7 +387,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x29f
+    const/16 v0, 0x2a3
 
     if-ne p2, v0, :cond_3
 
@@ -707,7 +707,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x252
+    const/16 p1, 0x254
 
     .line 99
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewDdrBindingImpl;->notifyPropertyChanged(I)V
@@ -732,7 +732,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x252
+    const/16 v0, 0x254
 
     if-ne v0, p1, :cond_0
 

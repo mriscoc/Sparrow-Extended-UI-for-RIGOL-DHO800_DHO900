@@ -14,9 +14,9 @@
 
 
 # static fields
-.field public static final invisible:I = 0x7f0a0540
+.field public static final invisible:I = 0x7f0a0542
 
-.field public static final visible:I = 0x7f0a0b06
+.field public static final visible:I = 0x7f0a0b12
 
 
 # direct methods

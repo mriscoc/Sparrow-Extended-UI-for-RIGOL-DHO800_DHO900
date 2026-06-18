@@ -321,7 +321,7 @@
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    const/16 v2, 0x74b
+    const/16 v2, 0x74c
 
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
@@ -807,7 +807,7 @@
     .line 164
     iput-wide p1, p0, Lcom/rigol/scope/data/DvmResultParam;->limitLower:J
 
-    const/16 p1, 0x1e7
+    const/16 p1, 0x1e8
 
     .line 165
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DvmResultParam;->notifyPropertyChanged(I)V
@@ -821,7 +821,7 @@
     .line 144
     iput p1, p0, Lcom/rigol/scope/data/DvmResultParam;->limitType:I
 
-    const/16 p1, 0x1e8
+    const/16 p1, 0x1e9
 
     .line 145
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DvmResultParam;->notifyPropertyChanged(I)V
@@ -835,7 +835,7 @@
     .line 154
     iput-wide p1, p0, Lcom/rigol/scope/data/DvmResultParam;->limitUpper:J
 
-    const/16 p1, 0x1e9
+    const/16 p1, 0x1ea
 
     .line 155
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DvmResultParam;->notifyPropertyChanged(I)V

@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/VerticalParam;)V
     .locals 0
 
-    .line 798
+    .line 758
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$17;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$17;->val$param:Lcom/rigol/scope/data/VerticalParam;
@@ -49,12 +49,23 @@
 
 # virtual methods
 .method public onChanged(Ljava/lang/Boolean;)V
-    .locals 0
+    .locals 2
 
-    .line 801
+    .line 761
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$17;->val$param:Lcom/rigol/scope/data/VerticalParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->readCoupling()Lcom/rigol/scope/cil/ServiceEnum$Coupling;
+    invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->readImpedance()Lcom/rigol/scope/cil/ServiceEnum$Impedance;
+
+    .line 762
+    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$17;->val$param:Lcom/rigol/scope/data/VerticalParam;
+
+    invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->getScaleAttr()Lcom/rigol/scope/cil/MessageAttr;
+
+    move-result-object v0
+
+    const/16 v1, 0x70f
+
+    invoke-virtual {p1, v1, v0}, Lcom/rigol/scope/data/VerticalParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
     return-void
 .end method
@@ -62,7 +73,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 798
+    .line 758
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$17;->onChanged(Ljava/lang/Boolean;)V

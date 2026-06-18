@@ -118,7 +118,7 @@
 .method public doLoad()V
     .locals 2
 
-    const/16 v0, 0x4b0c
+    const/16 v0, 0x4d0c
 
     const/4 v1, 0x0
 
@@ -368,7 +368,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1011c1
+    const v1, 0x7f1011d6
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -541,7 +541,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1011c3
+    const v1, 0x7f1011d8
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -603,7 +603,7 @@
 .method public readFileName()Ljava/lang/String;
     .locals 1
 
-    const/16 v0, 0x4b2e
+    const/16 v0, 0x4d2f
 
     .line 290
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageLoadParam;->readStr(I)Ljava/lang/String;
@@ -621,7 +621,7 @@
 .method public readFileProc()Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
     .locals 1
 
-    const/16 v0, 0x4b46
+    const/16 v0, 0x4d47
 
     .line 277
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageLoadParam;->readInt(I)I
@@ -644,7 +644,7 @@
 .method public readPathName()Ljava/lang/String;
     .locals 1
 
-    const/16 v0, 0x4b2f
+    const/16 v0, 0x4d30
 
     .line 271
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageLoadParam;->readStr(I)Ljava/lang/String;
@@ -662,7 +662,7 @@
 .method public readProgress()I
     .locals 1
 
-    const/16 v0, 0x4b45
+    const/16 v0, 0x4d46
 
     .line 284
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageLoadParam;->readInt(I)I
@@ -680,7 +680,7 @@
 .method public readResult()V
     .locals 1
 
-    const/16 v0, 0x4b31
+    const/16 v0, 0x4d32
 
     .line 296
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageLoadParam;->readInt(I)I
@@ -695,7 +695,7 @@
 .method public readSetupFileType()I
     .locals 1
 
-    const/16 v0, 0x4b15
+    const/16 v0, 0x4d15
 
     .line 265
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageLoadParam;->readInt(I)I
@@ -713,7 +713,7 @@
 .method public readWaveFileType()I
     .locals 1
 
-    const/16 v0, 0x4b14
+    const/16 v0, 0x4d14
 
     .line 259
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageLoadParam;->readInt(I)I
@@ -734,7 +734,7 @@
     .line 321
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageLoadParam;->setFileName(Ljava/lang/String;)V
 
-    const/16 v0, 0x4b2e
+    const/16 v0, 0x4d2f
 
     .line 322
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/StorageLoadParam;->saveStr(ILjava/lang/String;)I
@@ -751,7 +751,7 @@
     .line 316
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->value1:I
 
-    const/16 v0, 0x4b46
+    const/16 v0, 0x4d47
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/StorageLoadParam;->saveInt(II)I
 
@@ -764,7 +764,7 @@
     .line 309
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageLoadParam;->setFileType(I)V
 
-    const/16 v0, 0x4b18
+    const/16 v0, 0x4d18
 
     .line 310
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/StorageLoadParam;->saveInt(II)I
@@ -778,7 +778,7 @@
     .line 303
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageLoadParam;->setPathName(Ljava/lang/String;)V
 
-    const/16 v0, 0x4b2f
+    const/16 v0, 0x4d30
 
     .line 304
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/StorageLoadParam;->saveStr(ILjava/lang/String;)I
@@ -857,7 +857,7 @@
     .line 143
     iput-object p1, p0, Lcom/rigol/scope/data/StorageLoadParam;->pathName:Ljava/lang/String;
 
-    const/16 p1, 0x25b
+    const/16 p1, 0x25d
 
     .line 144
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageLoadParam;->notifyPropertyChanged(I)V
@@ -871,7 +871,7 @@
     .line 184
     iput p1, p0, Lcom/rigol/scope/data/StorageLoadParam;->progress:I
 
-    const/16 p1, 0x29f
+    const/16 p1, 0x2a3
 
     .line 185
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageLoadParam;->notifyPropertyChanged(I)V
@@ -885,7 +885,7 @@
     .line 207
     iput p1, p0, Lcom/rigol/scope/data/StorageLoadParam;->result:I
 
-    const/16 v0, 0x4b46
+    const/16 v0, 0x4d47
 
     .line 211
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageLoadParam;->readInt(I)I
@@ -952,7 +952,7 @@
     .line 130
     iput p1, p0, Lcom/rigol/scope/data/StorageLoadParam;->setupFileType:I
 
-    const/16 v0, 0x32e
+    const/16 v0, 0x332
 
     .line 131
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageLoadParam;->notifyPropertyChanged(I)V
@@ -969,7 +969,7 @@
     .line 117
     iput p1, p0, Lcom/rigol/scope/data/StorageLoadParam;->waveFileType:I
 
-    const/16 v0, 0x40c
+    const/16 v0, 0x410
 
     .line 118
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageLoadParam;->notifyPropertyChanged(I)V

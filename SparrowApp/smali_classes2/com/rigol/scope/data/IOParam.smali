@@ -427,7 +427,7 @@
 .method private final readServiceName()Ljava/lang/String;
     .locals 1
 
-    const/16 v0, 0x251d
+    const/16 v0, 0x271d
 
     .line 525
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/IOParam;->readStr(I)Ljava/lang/String;
@@ -1186,7 +1186,7 @@
     .line 417
     iget-object v0, p0, Lcom/rigol/scope/data/IOParam;->gpibAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2504
+    const/16 v1, 0x2704
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/IOParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -1196,7 +1196,7 @@
 .method public final readAuto()Z
     .locals 1
 
-    const/16 v0, 0x2512
+    const/16 v0, 0x2712
 
     .line 440
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/IOParam;->readBool(I)Z
@@ -1214,7 +1214,7 @@
 .method public final readDNS()Ljava/lang/String;
     .locals 1
 
-    const/16 v0, 0x2514
+    const/16 v0, 0x2714
 
     .line 483
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/IOParam;->readStr(I)Ljava/lang/String;
@@ -1232,7 +1232,7 @@
 .method public final readDhcp()Z
     .locals 1
 
-    const/16 v0, 0x2511
+    const/16 v0, 0x2711
 
     .line 434
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/IOParam;->readBool(I)Z
@@ -1250,7 +1250,7 @@
 .method public final readGPIB()I
     .locals 1
 
-    const/16 v0, 0x2504
+    const/16 v0, 0x2704
 
     .line 516
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/IOParam;->readInt(I)I
@@ -1268,7 +1268,7 @@
 .method public final readGateWay()Ljava/lang/String;
     .locals 1
 
-    const/16 v0, 0x2513
+    const/16 v0, 0x2713
 
     .line 477
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/IOParam;->readStr(I)Ljava/lang/String;
@@ -1286,7 +1286,7 @@
 .method public final readHostName()Ljava/lang/String;
     .locals 1
 
-    const/16 v0, 0x250d
+    const/16 v0, 0x270d
 
     .line 510
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/IOParam;->readStr(I)Ljava/lang/String;
@@ -1304,7 +1304,7 @@
 .method public final readIPAddress()Ljava/lang/String;
     .locals 1
 
-    const/16 v0, 0x2518
+    const/16 v0, 0x2718
 
     .line 465
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/IOParam;->readStr(I)Ljava/lang/String;
@@ -1322,7 +1322,7 @@
 .method public final readMacAddress()Ljava/lang/String;
     .locals 1
 
-    const/16 v0, 0x2515
+    const/16 v0, 0x2715
 
     .line 422
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/IOParam;->readStr(I)Ljava/lang/String;
@@ -1340,7 +1340,7 @@
 .method public final readMask()Ljava/lang/String;
     .locals 1
 
-    const/16 v0, 0x2519
+    const/16 v0, 0x2719
 
     .line 471
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/IOParam;->readStr(I)Ljava/lang/String;
@@ -1358,7 +1358,7 @@
 .method public final readSelect()I
     .locals 1
 
-    const/16 v0, 0x2505
+    const/16 v0, 0x2705
 
     .line 459
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/IOParam;->readInt(I)I
@@ -1376,7 +1376,7 @@
 .method public final readStatic()Z
     .locals 1
 
-    const/16 v0, 0x2516
+    const/16 v0, 0x2716
 
     .line 446
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/IOParam;->readBool(I)Z
@@ -1394,7 +1394,7 @@
 .method public final readStatues()Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
     .locals 2
 
-    const/16 v0, 0x251a
+    const/16 v0, 0x271a
 
     .line 452
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/IOParam;->readInt(I)I
@@ -1421,7 +1421,7 @@
 .method public final readVISAAddress()Ljava/lang/String;
     .locals 1
 
-    const/16 v0, 0x251b
+    const/16 v0, 0x271b
 
     .line 428
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/IOParam;->readStr(I)Ljava/lang/String;
@@ -1439,7 +1439,7 @@
 .method public final readmDns()Z
     .locals 3
 
-    const/16 v0, 0x250c
+    const/16 v0, 0x270c
 
     .line 489
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/IOParam;->readBool(I)Z
@@ -1496,7 +1496,7 @@
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->setAutoSelected(Z)V
 
     :cond_0
-    const/16 p1, 0x2512
+    const/16 p1, 0x2712
 
     .line 574
     iget-boolean v0, p0, Lcom/rigol/scope/data/IOParam;->isAutoSelected:Z
@@ -1521,7 +1521,7 @@
     .line 628
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->setDns(Ljava/lang/String;)V
 
-    const/16 v0, 0x2514
+    const/16 v0, 0x2714
 
     .line 629
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/IOParam;->saveStr(ILjava/lang/String;)I
@@ -1552,7 +1552,7 @@
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->setDHCPSelected(Z)V
 
     :cond_0
-    const/16 p1, 0x2511
+    const/16 p1, 0x2711
 
     .line 556
     iget-boolean v0, p0, Lcom/rigol/scope/data/IOParam;->isDHCPSelected:Z
@@ -1573,7 +1573,7 @@
     .line 646
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->setGpib(I)V
 
-    const/16 v0, 0x2504
+    const/16 v0, 0x2704
 
     .line 647
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/IOParam;->saveInt(II)I
@@ -1591,7 +1591,7 @@
     .line 622
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->setGateway(Ljava/lang/String;)V
 
-    const/16 v0, 0x2513
+    const/16 v0, 0x2713
 
     .line 623
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/IOParam;->saveStr(ILjava/lang/String;)I
@@ -1609,7 +1609,7 @@
     .line 640
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->setHostName(Ljava/lang/String;)V
 
-    const/16 v0, 0x250d
+    const/16 v0, 0x270d
 
     .line 641
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/IOParam;->saveStr(ILjava/lang/String;)I
@@ -1627,7 +1627,7 @@
     .line 610
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->setIpAddress(Ljava/lang/String;)V
 
-    const/16 v0, 0x2518
+    const/16 v0, 0x2718
 
     .line 611
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/IOParam;->saveStr(ILjava/lang/String;)I
@@ -1645,7 +1645,7 @@
     .line 538
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->setMacAddress(Ljava/lang/String;)V
 
-    const/16 v0, 0x2515
+    const/16 v0, 0x2715
 
     .line 539
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/IOParam;->saveStr(ILjava/lang/String;)I
@@ -1663,7 +1663,7 @@
     .line 616
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->setMask(Ljava/lang/String;)V
 
-    const/16 v0, 0x2519
+    const/16 v0, 0x2719
 
     .line 617
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/IOParam;->saveStr(ILjava/lang/String;)I
@@ -1677,7 +1677,7 @@
     .line 604
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->setSelect(I)V
 
-    const/16 v0, 0x2505
+    const/16 v0, 0x2705
 
     .line 605
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/IOParam;->saveInt(II)I
@@ -1710,7 +1710,7 @@
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->setStaticSelected(Z)V
 
     :cond_0
-    const/16 p1, 0x2516
+    const/16 p1, 0x2716
 
     .line 592
     iget-boolean v0, p0, Lcom/rigol/scope/data/IOParam;->isStaticSelected:Z
@@ -1738,7 +1738,7 @@
     .line 599
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;->value1:I
 
-    const/16 v0, 0x251a
+    const/16 v0, 0x271a
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/IOParam;->saveInt(II)I
 
@@ -1751,7 +1751,7 @@
     .line 634
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->setMdns(Z)V
 
-    const/16 v0, 0x250c
+    const/16 v0, 0x270c
 
     .line 635
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/IOParam;->saveBool(IZ)I
@@ -1871,7 +1871,7 @@
     .line 267
     iget-object p1, p0, Lcom/rigol/scope/data/IOParam;->mask:Ljava/lang/String;
 
-    invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->checkIp(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->checkSubnetMask(Ljava/lang/String;)Z
 
     move-result p1
 
@@ -1933,7 +1933,7 @@
     .line 246
     iget-object p1, p0, Lcom/rigol/scope/data/IOParam;->mask:Ljava/lang/String;
 
-    invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->checkIp(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->checkSubnetMask(Ljava/lang/String;)Z
 
     move-result p1
 
@@ -2055,7 +2055,7 @@
     .line 330
     iput-object p1, p0, Lcom/rigol/scope/data/IOParam;->hostName:Ljava/lang/String;
 
-    const/16 p1, 0x17f
+    const/16 p1, 0x180
 
     .line 331
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->notifyPropertyChanged(I)V
@@ -2107,7 +2107,7 @@
 
     iput-object p1, p0, Lcom/rigol/scope/data/IOParam;->ipAddress:Ljava/lang/String;
 
-    const/16 p1, 0x1bf
+    const/16 p1, 0x1c0
 
     .line 184
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->notifyPropertyChanged(I)V
@@ -2124,7 +2124,7 @@
     .line 186
     iget-object p1, p0, Lcom/rigol/scope/data/IOParam;->mask:Ljava/lang/String;
 
-    invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->checkIp(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->checkSubnetMask(Ljava/lang/String;)Z
 
     move-result p1
 
@@ -2248,7 +2248,7 @@
 
     iput-object p1, p0, Lcom/rigol/scope/data/IOParam;->macAddress:Ljava/lang/String;
 
-    const/16 p1, 0x201
+    const/16 p1, 0x202
 
     .line 63
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->notifyPropertyChanged(I)V
@@ -2273,7 +2273,7 @@
     .line 389
     iput-object p1, p0, Lcom/rigol/scope/data/IOParam;->manufacturer:Ljava/lang/String;
 
-    const/16 p1, 0x206
+    const/16 p1, 0x207
 
     .line 390
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->notifyPropertyChanged(I)V
@@ -2316,7 +2316,7 @@
     iput-object p1, p0, Lcom/rigol/scope/data/IOParam;->mask:Ljava/lang/String;
 
     :goto_0
-    const/16 p1, 0x209
+    const/16 p1, 0x20a
 
     .line 228
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->notifyPropertyChanged(I)V
@@ -2333,7 +2333,7 @@
     .line 230
     iget-object p1, p0, Lcom/rigol/scope/data/IOParam;->mask:Ljava/lang/String;
 
-    invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->checkIp(Ljava/lang/String;)Z
+    invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->checkSubnetMask(Ljava/lang/String;)Z
 
     move-result p1
 
@@ -2382,7 +2382,7 @@
     .line 318
     iput-boolean p1, p0, Lcom/rigol/scope/data/IOParam;->mdns:Z
 
-    const/16 p1, 0x20e
+    const/16 p1, 0x20f
 
     .line 319
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->notifyPropertyChanged(I)V
@@ -2411,7 +2411,7 @@
     .line 101
     iput p1, p0, Lcom/rigol/scope/data/IOParam;->select:I
 
-    const/16 p1, 0x313
+    const/16 p1, 0x317
 
     .line 102
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->notifyPropertyChanged(I)V
@@ -2436,7 +2436,7 @@
     .line 378
     iput-object p1, p0, Lcom/rigol/scope/data/IOParam;->serviceName:Ljava/lang/String;
 
-    const/16 p1, 0x32b
+    const/16 p1, 0x32f
 
     .line 379
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->notifyPropertyChanged(I)V
@@ -2470,7 +2470,7 @@
     .line 136
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->setValid(Z)V
 
-    const/16 p1, 0x38b
+    const/16 p1, 0x38f
 
     .line 138
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->notifyPropertyChanged(I)V
@@ -2495,7 +2495,7 @@
     .line 86
     iput-object p1, p0, Lcom/rigol/scope/data/IOParam;->status:Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
 
-    const/16 p1, 0x38d
+    const/16 p1, 0x391
 
     .line 87
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->notifyPropertyChanged(I)V
@@ -2524,7 +2524,7 @@
     .line 169
     iput-boolean p1, p0, Lcom/rigol/scope/data/IOParam;->valid:Z
 
-    const/16 p1, 0x3f6
+    const/16 p1, 0x3fa
 
     .line 170
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->notifyPropertyChanged(I)V
@@ -2549,7 +2549,7 @@
     .line 74
     iput-object p1, p0, Lcom/rigol/scope/data/IOParam;->visaAddress:Ljava/lang/String;
 
-    const/16 p1, 0x40a
+    const/16 p1, 0x40e
 
     .line 75
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/IOParam;->notifyPropertyChanged(I)V

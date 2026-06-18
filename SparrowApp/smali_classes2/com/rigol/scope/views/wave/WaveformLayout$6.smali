@@ -24,7 +24,7 @@
 .method constructor <init>(Lcom/rigol/scope/views/wave/WaveformLayout;Lcom/rigol/scope/data/SharedParam;)V
     .locals 0
 
-    .line 864
+    .line 877
     iput-object p1, p0, Lcom/rigol/scope/views/wave/WaveformLayout$6;->this$0:Lcom/rigol/scope/views/wave/WaveformLayout;
 
     iput-object p2, p0, Lcom/rigol/scope/views/wave/WaveformLayout$6;->val$sharedParam:Lcom/rigol/scope/data/SharedParam;
@@ -43,7 +43,7 @@
 
     new-array p1, p1, [I
 
-    .line 868
+    .line 881
     iget-object v0, p0, Lcom/rigol/scope/views/wave/WaveformLayout$6;->this$0:Lcom/rigol/scope/views/wave/WaveformLayout;
 
     invoke-static {v0}, Lcom/rigol/scope/views/wave/WaveformLayout;->access$100(Lcom/rigol/scope/views/wave/WaveformLayout;)Lcom/rigol/scope/views/baseview/BaseWaveformView;
@@ -54,15 +54,15 @@
 
     const/4 v0, 0x0
 
-    .line 869
+    .line 882
     aget v0, p1, v0
 
     const/4 v1, 0x1
 
-    .line 870
+    .line 883
     aget p1, p1, v1
 
-    .line 871
+    .line 884
     iget-object p1, p0, Lcom/rigol/scope/views/wave/WaveformLayout$6;->this$0:Lcom/rigol/scope/views/wave/WaveformLayout;
 
     invoke-static {p1}, Lcom/rigol/scope/views/wave/WaveformLayout;->access$100(Lcom/rigol/scope/views/wave/WaveformLayout;)Lcom/rigol/scope/views/baseview/BaseWaveformView;
@@ -75,18 +75,18 @@
 
     check-cast p1, Landroid/view/View;
 
-    const/16 v2, 0x341
+    const/16 v2, 0x345
 
     if-ne p2, v2, :cond_2
 
-    .line 874
+    .line 887
     iget-object v2, p0, Lcom/rigol/scope/views/wave/WaveformLayout$6;->val$sharedParam:Lcom/rigol/scope/data/SharedParam;
 
     invoke-virtual {v2}, Lcom/rigol/scope/data/SharedParam;->getShowResultBar()Z
 
     move-result v2
 
-    .line 878
+    .line 891
     iget-object v3, p0, Lcom/rigol/scope/views/wave/WaveformLayout$6;->this$0:Lcom/rigol/scope/views/wave/WaveformLayout;
 
     invoke-static {v3}, Lcom/rigol/scope/views/wave/WaveformLayout;->access$1400(Lcom/rigol/scope/views/wave/WaveformLayout;)Lcom/rigol/scope/views/grid/GridRulerView;
@@ -95,7 +95,7 @@
 
     if-eqz v3, :cond_0
 
-    .line 879
+    .line 892
     iget-object v3, p0, Lcom/rigol/scope/views/wave/WaveformLayout$6;->this$0:Lcom/rigol/scope/views/wave/WaveformLayout;
 
     invoke-static {v3}, Lcom/rigol/scope/views/wave/WaveformLayout;->access$1400(Lcom/rigol/scope/views/wave/WaveformLayout;)Lcom/rigol/scope/views/grid/GridRulerView;
@@ -106,7 +106,7 @@
 
     invoke-virtual {v3, v4}, Lcom/rigol/scope/views/grid/GridRulerView;->setAbout(Z)V
 
-    .line 880
+    .line 893
     iget-object v3, p0, Lcom/rigol/scope/views/wave/WaveformLayout$6;->this$0:Lcom/rigol/scope/views/wave/WaveformLayout;
 
     invoke-static {v3}, Lcom/rigol/scope/views/wave/WaveformLayout;->access$1400(Lcom/rigol/scope/views/wave/WaveformLayout;)Lcom/rigol/scope/views/grid/GridRulerView;
@@ -115,7 +115,7 @@
 
     invoke-virtual {v3}, Lcom/rigol/scope/views/grid/GridRulerView;->invalidate()V
 
-    .line 882
+    .line 895
     :cond_0
     iget-object v3, p0, Lcom/rigol/scope/views/wave/WaveformLayout$6;->this$0:Lcom/rigol/scope/views/wave/WaveformLayout;
 
@@ -127,7 +127,7 @@
 
     invoke-virtual {v3, v1}, Lcom/rigol/scope/views/grid/GridRulerView;->setAbout(Z)V
 
-    .line 883
+    .line 896
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout$6;->this$0:Lcom/rigol/scope/views/wave/WaveformLayout;
 
     invoke-static {v1}, Lcom/rigol/scope/views/wave/WaveformLayout;->access$1500(Lcom/rigol/scope/views/wave/WaveformLayout;)Lcom/rigol/scope/views/grid/GridRulerView;
@@ -136,7 +136,7 @@
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/grid/GridRulerView;->invalidate()V
 
-    .line 887
+    .line 900
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout$6;->this$0:Lcom/rigol/scope/views/wave/WaveformLayout;
 
     invoke-static {v1}, Lcom/rigol/scope/views/wave/WaveformLayout;->access$100(Lcom/rigol/scope/views/wave/WaveformLayout;)Lcom/rigol/scope/views/baseview/BaseWaveformView;
@@ -169,7 +169,7 @@
 
     if-eqz v1, :cond_1
 
-    .line 888
+    .line 901
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout$6;->this$0:Lcom/rigol/scope/views/wave/WaveformLayout;
 
     invoke-static {v1}, Lcom/rigol/scope/views/wave/WaveformLayout;->access$100(Lcom/rigol/scope/views/wave/WaveformLayout;)Lcom/rigol/scope/views/baseview/BaseWaveformView;
@@ -178,7 +178,7 @@
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->setAllTag()V
 
-    .line 889
+    .line 902
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout$6;->this$0:Lcom/rigol/scope/views/wave/WaveformLayout;
 
     invoke-static {v1}, Lcom/rigol/scope/views/wave/WaveformLayout;->access$1600(Lcom/rigol/scope/views/wave/WaveformLayout;)Lcom/rigol/scope/views/baseview/BaseWaveformView;
@@ -187,7 +187,7 @@
 
     if-eqz v1, :cond_2
 
-    .line 890
+    .line 903
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout$6;->this$0:Lcom/rigol/scope/views/wave/WaveformLayout;
 
     invoke-static {v1}, Lcom/rigol/scope/views/wave/WaveformLayout;->access$1600(Lcom/rigol/scope/views/wave/WaveformLayout;)Lcom/rigol/scope/views/baseview/BaseWaveformView;
@@ -198,7 +198,7 @@
 
     goto :goto_0
 
-    .line 893
+    .line 906
     :cond_1
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout$6;->this$0:Lcom/rigol/scope/views/wave/WaveformLayout;
 
@@ -208,7 +208,7 @@
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->setresetAllTag()V
 
-    .line 894
+    .line 907
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout$6;->this$0:Lcom/rigol/scope/views/wave/WaveformLayout;
 
     invoke-static {v1}, Lcom/rigol/scope/views/wave/WaveformLayout;->access$1600(Lcom/rigol/scope/views/wave/WaveformLayout;)Lcom/rigol/scope/views/baseview/BaseWaveformView;
@@ -217,7 +217,7 @@
 
     if-eqz v1, :cond_2
 
-    .line 895
+    .line 908
     iget-object v1, p0, Lcom/rigol/scope/views/wave/WaveformLayout$6;->this$0:Lcom/rigol/scope/views/wave/WaveformLayout;
 
     invoke-static {v1}, Lcom/rigol/scope/views/wave/WaveformLayout;->access$1600(Lcom/rigol/scope/views/wave/WaveformLayout;)Lcom/rigol/scope/views/baseview/BaseWaveformView;
@@ -228,11 +228,11 @@
 
     :cond_2
     :goto_0
-    const/16 v1, 0x409
+    const/16 v1, 0x40d
 
     if-ne p2, v1, :cond_6
 
-    .line 905
+    .line 918
     iget-object p2, p0, Lcom/rigol/scope/views/wave/WaveformLayout$6;->this$0:Lcom/rigol/scope/views/wave/WaveformLayout;
 
     invoke-static {p2}, Lcom/rigol/scope/views/wave/WaveformLayout;->access$100(Lcom/rigol/scope/views/wave/WaveformLayout;)Lcom/rigol/scope/views/baseview/BaseWaveformView;
@@ -265,7 +265,7 @@
 
     if-eqz p1, :cond_4
 
-    .line 906
+    .line 919
     iget-object p1, p0, Lcom/rigol/scope/views/wave/WaveformLayout$6;->this$0:Lcom/rigol/scope/views/wave/WaveformLayout;
 
     invoke-static {p1}, Lcom/rigol/scope/views/wave/WaveformLayout;->access$1600(Lcom/rigol/scope/views/wave/WaveformLayout;)Lcom/rigol/scope/views/baseview/BaseWaveformView;
@@ -274,7 +274,7 @@
 
     if-eqz p1, :cond_3
 
-    .line 907
+    .line 920
     iget-object p1, p0, Lcom/rigol/scope/views/wave/WaveformLayout$6;->this$0:Lcom/rigol/scope/views/wave/WaveformLayout;
 
     invoke-static {p1}, Lcom/rigol/scope/views/wave/WaveformLayout;->access$1600(Lcom/rigol/scope/views/wave/WaveformLayout;)Lcom/rigol/scope/views/baseview/BaseWaveformView;
@@ -283,7 +283,7 @@
 
     invoke-virtual {p1}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->setAllTag()V
 
-    .line 909
+    .line 922
     :cond_3
     iget-object p1, p0, Lcom/rigol/scope/views/wave/WaveformLayout$6;->this$0:Lcom/rigol/scope/views/wave/WaveformLayout;
 
@@ -295,7 +295,7 @@
 
     goto :goto_1
 
-    .line 911
+    .line 924
     :cond_4
     iget-object p1, p0, Lcom/rigol/scope/views/wave/WaveformLayout$6;->this$0:Lcom/rigol/scope/views/wave/WaveformLayout;
 
@@ -305,7 +305,7 @@
 
     if-eqz p1, :cond_5
 
-    .line 912
+    .line 925
     iget-object p1, p0, Lcom/rigol/scope/views/wave/WaveformLayout$6;->this$0:Lcom/rigol/scope/views/wave/WaveformLayout;
 
     invoke-static {p1}, Lcom/rigol/scope/views/wave/WaveformLayout;->access$1600(Lcom/rigol/scope/views/wave/WaveformLayout;)Lcom/rigol/scope/views/baseview/BaseWaveformView;
@@ -314,7 +314,7 @@
 
     invoke-virtual {p1}, Lcom/rigol/scope/views/baseview/BaseWaveformView;->setresetAllTag()V
 
-    .line 914
+    .line 927
     :cond_5
     iget-object p1, p0, Lcom/rigol/scope/views/wave/WaveformLayout$6;->this$0:Lcom/rigol/scope/views/wave/WaveformLayout;
 

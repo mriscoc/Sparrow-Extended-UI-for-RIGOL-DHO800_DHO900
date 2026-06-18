@@ -22,7 +22,7 @@
 .method constructor <init>(Lcom/rigol/scope/views/probe/ProbePopupView;)V
     .locals 0
 
-    .line 98
+    .line 101
     iput-object p1, p0, Lcom/rigol/scope/views/probe/ProbePopupView$1;->this$0:Lcom/rigol/scope/views/probe/ProbePopupView;
 
     invoke-direct {p0}, Landroidx/viewpager2/widget/ViewPager2$OnPageChangeCallback;-><init>()V
@@ -35,10 +35,10 @@
 .method public onPageSelected(I)V
     .locals 2
 
-    .line 101
+    .line 104
     invoke-super {p0, p1}, Landroidx/viewpager2/widget/ViewPager2$OnPageChangeCallback;->onPageSelected(I)V
 
-    .line 102
+    .line 105
     iget-object v0, p0, Lcom/rigol/scope/views/probe/ProbePopupView$1;->this$0:Lcom/rigol/scope/views/probe/ProbePopupView;
 
     invoke-static {v0}, Lcom/rigol/scope/views/probe/ProbePopupView;->access$000(Lcom/rigol/scope/views/probe/ProbePopupView;)Lcom/rigol/scope/databinding/PopupviewProbeBinding;
@@ -61,7 +61,7 @@
 
     invoke-virtual {v0, v1}, Lcom/google/android/material/tabs/TabLayout;->selectTab(Lcom/google/android/material/tabs/TabLayout$Tab;)V
 
-    .line 103
+    .line 106
     iget-object v0, p0, Lcom/rigol/scope/views/probe/ProbePopupView$1;->this$0:Lcom/rigol/scope/views/probe/ProbePopupView;
 
     invoke-static {v0}, Lcom/rigol/scope/views/probe/ProbePopupView;->access$100(Lcom/rigol/scope/views/probe/ProbePopupView;)Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;

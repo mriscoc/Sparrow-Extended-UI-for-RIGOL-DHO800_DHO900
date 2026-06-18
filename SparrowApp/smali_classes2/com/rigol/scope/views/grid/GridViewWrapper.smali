@@ -293,7 +293,7 @@
 
     if-eqz p1, :cond_6
 
-    const/16 v0, 0x2316
+    const/16 v0, 0x2516
 
     .line 564
     invoke-virtual {p1, p3, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -335,7 +335,7 @@
 
     if-eqz p1, :cond_8
 
-    const/16 v0, 0x2317
+    const/16 v0, 0x2517
 
     .line 571
     invoke-virtual {p1, p3, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -377,7 +377,7 @@
 
     if-eqz p1, :cond_a
 
-    const/16 v0, 0x2318
+    const/16 v0, 0x2518
 
     .line 578
     invoke-virtual {p1, p3, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -419,7 +419,7 @@
 
     if-eqz p1, :cond_c
 
-    const/16 v0, 0x2319
+    const/16 v0, 0x2519
 
     .line 585
     invoke-virtual {p1, p3, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -461,7 +461,7 @@
 
     if-eqz p1, :cond_e
 
-    const/16 p3, 0x2f07
+    const/16 p3, 0x3107
 
     .line 592
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -503,7 +503,7 @@
 
     if-eqz p1, :cond_10
 
-    const/16 p3, 0x2f08
+    const/16 p3, 0x3108
 
     .line 599
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -545,7 +545,7 @@
 
     if-eqz p1, :cond_12
 
-    const/16 p3, 0x2f09
+    const/16 p3, 0x3109
 
     .line 606
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -587,7 +587,7 @@
 
     if-eqz p1, :cond_14
 
-    const/16 p3, 0x2f61
+    const/16 p3, 0x3161
 
     .line 613
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -629,7 +629,7 @@
 
     if-eqz p1, :cond_16
 
-    const/16 p3, 0x2f62
+    const/16 p3, 0x3162
 
     .line 620
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -671,7 +671,7 @@
 
     if-eqz p1, :cond_18
 
-    const/16 p3, 0x2f0a
+    const/16 p3, 0x310a
 
     .line 627
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -713,7 +713,7 @@
 
     if-eqz p1, :cond_1a
 
-    const/16 p3, 0x2f60
+    const/16 p3, 0x3160
 
     .line 634
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -755,7 +755,7 @@
 
     if-eqz p1, :cond_1c
 
-    const/16 p3, 0x2f1f
+    const/16 p3, 0x311f
 
     .line 642
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -797,7 +797,7 @@
 
     if-eqz p1, :cond_1e
 
-    const/16 p3, 0x2f32
+    const/16 p3, 0x3132
 
     .line 647
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -839,7 +839,7 @@
 
     if-eqz p1, :cond_20
 
-    const/16 p3, 0x2f33
+    const/16 p3, 0x3133
 
     .line 652
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -881,7 +881,7 @@
 
     if-eqz p1, :cond_22
 
-    const/16 p3, 0x2f0b
+    const/16 p3, 0x310b
 
     .line 657
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -923,7 +923,7 @@
 
     if-eqz p1, :cond_24
 
-    const/16 p3, 0x2f4f
+    const/16 p3, 0x314f
 
     .line 662
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -965,7 +965,7 @@
 
     if-eqz p1, :cond_26
 
-    const/16 p3, 0x2f02
+    const/16 p3, 0x3102
 
     .line 668
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;

@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 8331
+    .line 8341
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$AnalyseEthType;
 
     const-string v1, "ethernet_10_baset"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$AnalyseEthType;->ethernet_10_baset:Lcom/rigol/scope/cil/ServiceEnum$AnalyseEthType;
 
-    .line 8332
+    .line 8342
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AnalyseEthType;
 
     const-string v9, "ethernet_100_baset"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AnalyseEthType;->ethernet_100_baset:Lcom/rigol/scope/cil/ServiceEnum$AnalyseEthType;
 
-    .line 8333
+    .line 8343
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AnalyseEthType;
 
     const-string v2, "ethernet_1000_baset"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$AnalyseEthType;
 
-    .line 8329
+    .line 8339
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AnalyseEthType;->ethernet_10_baset:Lcom/rigol/scope/cil/ServiceEnum$AnalyseEthType;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 8336
+    .line 8346
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 8337
+    .line 8347
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$AnalyseEthType;->value1:I
 
-    .line 8338
+    .line 8348
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$AnalyseEthType;->value2:Ljava/lang/String;
 
-    .line 8339
+    .line 8349
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$AnalyseEthType;->pic1:Ljava/lang/String;
 
-    .line 8340
+    .line 8350
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$AnalyseEthType;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$AnalyseEthType;
     .locals 1
 
-    .line 8329
+    .line 8339
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$AnalyseEthType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$AnalyseEthType;
     .locals 1
 
-    .line 8329
+    .line 8339
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$AnalyseEthType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$AnalyseEthType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$AnalyseEthType;->clone()Ljava/lang/Object;

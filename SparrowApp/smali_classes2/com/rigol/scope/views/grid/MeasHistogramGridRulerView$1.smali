@@ -74,12 +74,12 @@
 .method public final onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1755
+    .line 1870
     iget-object p1, p0, Lcom/rigol/scope/views/grid/MeasHistogramGridRulerView$1;->this$0:Lcom/rigol/scope/views/grid/MeasHistogramGridRulerView;
 
     invoke-static {p1}, Lcom/rigol/scope/views/grid/MeasHistogramGridRulerView;->access$updateXRuler(Lcom/rigol/scope/views/grid/MeasHistogramGridRulerView;)V
 
-    .line 1756
+    .line 1871
     iget-object p1, p0, Lcom/rigol/scope/views/grid/MeasHistogramGridRulerView$1;->this$0:Lcom/rigol/scope/views/grid/MeasHistogramGridRulerView;
 
     invoke-static {p1}, Lcom/rigol/scope/views/grid/MeasHistogramGridRulerView;->access$updateYRuler(Lcom/rigol/scope/views/grid/MeasHistogramGridRulerView;)V

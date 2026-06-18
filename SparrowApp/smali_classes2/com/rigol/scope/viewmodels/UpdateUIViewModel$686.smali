@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/MeasureSettingParam;)V
     .locals 0
 
-    .line 7695
+    .line 7655
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$686;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$686;->val$param:Lcom/rigol/scope/data/MeasureSettingParam;
@@ -51,7 +51,12 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 1
 
-    .line 7698
+    .line 7658
+    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$686;->val$param:Lcom/rigol/scope/data/MeasureSettingParam;
+
+    invoke-virtual {p1}, Lcom/rigol/scope/data/MeasureSettingParam;->readSelectSourceA()Lcom/rigol/scope/cil/ServiceEnum$Chan;
+
+    .line 7659
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
@@ -64,14 +69,8 @@
 
     check-cast p1, Lcom/rigol/scope/views/measure/MeasurePopupView;
 
-    .line 7699
-    iget-object v0, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$686;->val$param:Lcom/rigol/scope/data/MeasureSettingParam;
-
-    invoke-virtual {v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readPosition()I
-
-    move-result v0
-
-    invoke-virtual {p1, v0}, Lcom/rigol/scope/views/measure/MeasurePopupView;->setPageCurrentItem(I)V
+    .line 7660
+    invoke-virtual {p1}, Lcom/rigol/scope/views/measure/MeasurePopupView;->notifyData()V
 
     return-void
 .end method
@@ -79,7 +78,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 7695
+    .line 7655
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$686;->onChanged(Ljava/lang/Boolean;)V

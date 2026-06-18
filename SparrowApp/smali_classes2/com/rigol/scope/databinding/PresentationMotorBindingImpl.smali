@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/PresentationMotorBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0912
+    const v1, 0x7f0a091e
 
     const/4 v2, 0x4
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/PresentationMotorBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a76
+    const v1, 0x7f0a0a82
 
     const/4 v2, 0x5
 
@@ -54,7 +54,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/PresentationMotorBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a75
+    const v1, 0x7f0a0a81
 
     const/4 v2, 0x7
 
@@ -72,7 +72,7 @@
     .line 22
     sget-object v0, Lcom/rigol/scope/databinding/PresentationMotorBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0471
+    const v1, 0x7f0a0473
 
     const/16 v2, 0x9
 
@@ -90,7 +90,7 @@
     .line 24
     sget-object v0, Lcom/rigol/scope/databinding/PresentationMotorBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a73
+    const v1, 0x7f0a0a7f
 
     const/16 v2, 0xb
 
@@ -99,7 +99,7 @@
     .line 25
     sget-object v0, Lcom/rigol/scope/databinding/PresentationMotorBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a74
+    const v1, 0x7f0a0a80
 
     const/16 v2, 0xc
 
@@ -108,7 +108,7 @@
     .line 26
     sget-object v0, Lcom/rigol/scope/databinding/PresentationMotorBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a72
+    const v1, 0x7f0a0a7e
 
     const/16 v2, 0xd
 
@@ -1158,7 +1158,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x252
+    const/16 p1, 0x254
 
     .line 103
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PresentationMotorBindingImpl;->notifyPropertyChanged(I)V
@@ -1183,7 +1183,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x252
+    const/16 v0, 0x254
 
     if-ne v0, p1, :cond_0
 

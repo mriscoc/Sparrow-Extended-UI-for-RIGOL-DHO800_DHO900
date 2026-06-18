@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/MathParam;)V
     .locals 0
 
-    .line 1366
+    .line 1338
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$66;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$66;->val$param:Lcom/rigol/scope/data/MathParam;
@@ -49,35 +49,86 @@
 
 # virtual methods
 .method public onChanged(Ljava/lang/Boolean;)V
-    .locals 1
+    .locals 2
 
-    .line 1369
-    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$66;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
+    .line 1341
+    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$66;->val$param:Lcom/rigol/scope/data/MathParam;
 
-    const/4 v0, 0x1
+    invoke-virtual {p1}, Lcom/rigol/scope/data/MathParam;->readOperator()Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
-    invoke-static {p1, v0}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->access$002(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Z)Z
-
-    .line 1371
-    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$66;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
-
-    invoke-static {p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->access$100(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;)Landroid/os/Handler;
+    .line 1344
+    invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
 
-    new-instance v0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$66$1;
+    const-class v0, Lcom/rigol/scope/views/math/MathPopupView;
 
-    invoke-direct {v0, p0}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$66$1;-><init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel$66;)V
+    invoke-virtual {p1, v0}, Lcom/rigol/scope/utilities/PopupViewManager;->get(Ljava/lang/Class;)Lcom/rigol/scope/views/baseview/BasePopupView;
 
-    invoke-virtual {p1, v0}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+    move-result-object p1
 
+    .line 1345
+    instance-of v0, p1, Lcom/rigol/scope/views/math/MathPopupView;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {p1}, Lcom/rigol/scope/views/baseview/BasePopupView;->isShowing()Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    .line 1346
+    check-cast p1, Lcom/rigol/scope/views/math/MathPopupView;
+
+    invoke-virtual {p1}, Lcom/rigol/scope/views/math/MathPopupView;->getMathRecyclerView()Lcom/rigol/scope/views/math/MathRecyclerView;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_1
+
+    .line 1348
+    iget-object v0, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$66;->val$param:Lcom/rigol/scope/data/MathParam;
+
+    invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getOperator()Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v0}, Lcom/rigol/scope/views/math/MathRecyclerView;->showMath(Lcom/rigol/scope/cil/ServiceEnum$MathOperator;)V
+
+    goto :goto_0
+
+    .line 1351
+    :cond_0
+    invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
+
+    move-result-object p1
+
+    iget-object v0, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$66;->val$param:Lcom/rigol/scope/data/MathParam;
+
+    invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getServiceId()I
+
+    move-result v0
+
+    const/16 v1, 0x3102
+
+    invoke-static {v0, v1}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v1, ""
+
+    invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
+
+    :cond_1
+    :goto_0
     return-void
 .end method
 
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1366
+    .line 1338
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$66;->onChanged(Ljava/lang/Boolean;)V

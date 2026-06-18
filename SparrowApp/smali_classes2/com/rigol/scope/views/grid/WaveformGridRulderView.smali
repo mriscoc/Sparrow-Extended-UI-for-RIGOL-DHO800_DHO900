@@ -119,14 +119,14 @@
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;IZ)V
-    .locals 2
+    .locals 3
 
-    .line 932
+    .line 1024
     invoke-direct {p0, p1, p2, p3}, Lcom/rigol/scope/views/grid/GridRulerViewWrapper;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     iput-boolean p4, p0, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->isZoom:Z
 
-    .line 934
+    .line 1026
     const-class p2, Lcom/rigol/scope/viewmodels/HorizontalViewModel;
 
     invoke-static {p2}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -137,7 +137,7 @@
 
     iput-object p2, p0, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->horizontalViewModel:Lcom/rigol/scope/viewmodels/HorizontalViewModel;
 
-    .line 936
+    .line 1028
     const-class p2, Lcom/rigol/scope/viewmodels/VerticalViewModel;
 
     invoke-static {p2}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -148,21 +148,21 @@
 
     iput-object p2, p0, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->verticalViewModel:Lcom/rigol/scope/viewmodels/VerticalViewModel;
 
-    .line 941
+    .line 1033
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
     move-result-object p2
 
-    const-string p3, "null cannot be cast to non-null type androidx.lifecycle.LifecycleOwner"
+    const/16 p3, 0x1a
+
+    const-string p4, "null cannot be cast to non-null type androidx.lifecycle.LifecycleOwner"
 
     if-eqz p2, :cond_1
 
-    const/16 p4, 0x1a
-
     const/16 v0, 0x1304
 
-    .line 940
-    invoke-virtual {p2, p4, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+    .line 1032
+    invoke-virtual {p2, p3, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p2
 
@@ -170,43 +170,43 @@
 
     if-eqz p1, :cond_0
 
-    .line 941
-    move-object p4, p1
+    .line 1033
+    move-object v0, p1
 
-    check-cast p4, Landroidx/lifecycle/LifecycleOwner;
+    check-cast v0, Landroidx/lifecycle/LifecycleOwner;
 
-    new-instance v0, Lcom/rigol/scope/views/grid/WaveformGridRulderView$1;
+    new-instance v1, Lcom/rigol/scope/views/grid/WaveformGridRulderView$1;
 
-    invoke-direct {v0, p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView$1;-><init>(Lcom/rigol/scope/views/grid/WaveformGridRulderView;)V
+    invoke-direct {v1, p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView$1;-><init>(Lcom/rigol/scope/views/grid/WaveformGridRulderView;)V
 
-    check-cast v0, Landroidx/lifecycle/Observer;
+    check-cast v1, Landroidx/lifecycle/Observer;
 
-    invoke-virtual {p2, p4, v0}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+    invoke-virtual {p2, v0, v1}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
     goto :goto_0
 
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
-    invoke-direct {p1, p3}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p4}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
     throw p1
 
-    .line 951
+    .line 1043
     :cond_1
     :goto_0
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
     move-result-object p2
 
-    const/16 p4, 0xa
+    const/16 v0, 0xa
 
     if-eqz p2, :cond_3
 
-    const/16 v0, 0x2316
+    const/16 v1, 0x2516
 
-    .line 950
-    invoke-virtual {p2, p4, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+    .line 1042
+    invoke-virtual {p2, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p2
 
@@ -214,29 +214,29 @@
 
     if-eqz p1, :cond_2
 
-    .line 951
-    move-object v0, p1
+    .line 1043
+    move-object v1, p1
 
-    check-cast v0, Landroidx/lifecycle/LifecycleOwner;
+    check-cast v1, Landroidx/lifecycle/LifecycleOwner;
 
-    new-instance v1, Lcom/rigol/scope/views/grid/WaveformGridRulderView$2;
+    new-instance v2, Lcom/rigol/scope/views/grid/WaveformGridRulderView$2;
 
-    invoke-direct {v1, p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView$2;-><init>(Lcom/rigol/scope/views/grid/WaveformGridRulderView;)V
+    invoke-direct {v2, p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView$2;-><init>(Lcom/rigol/scope/views/grid/WaveformGridRulderView;)V
 
-    check-cast v1, Landroidx/lifecycle/Observer;
+    check-cast v2, Landroidx/lifecycle/Observer;
 
-    invoke-virtual {p2, v0, v1}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+    invoke-virtual {p2, v1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
     goto :goto_1
 
     :cond_2
     new-instance p1, Ljava/lang/NullPointerException;
 
-    invoke-direct {p1, p3}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p4}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
     throw p1
 
-    .line 957
+    .line 1049
     :cond_3
     :goto_1
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -245,10 +245,10 @@
 
     if-eqz p2, :cond_5
 
-    const/16 v0, 0x2317
+    const/16 v1, 0x2517
 
-    .line 956
-    invoke-virtual {p2, p4, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+    .line 1048
+    invoke-virtual {p2, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p2
 
@@ -256,29 +256,29 @@
 
     if-eqz p1, :cond_4
 
-    .line 957
-    move-object v0, p1
+    .line 1049
+    move-object v1, p1
 
-    check-cast v0, Landroidx/lifecycle/LifecycleOwner;
+    check-cast v1, Landroidx/lifecycle/LifecycleOwner;
 
-    new-instance v1, Lcom/rigol/scope/views/grid/WaveformGridRulderView$3;
+    new-instance v2, Lcom/rigol/scope/views/grid/WaveformGridRulderView$3;
 
-    invoke-direct {v1, p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView$3;-><init>(Lcom/rigol/scope/views/grid/WaveformGridRulderView;)V
+    invoke-direct {v2, p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView$3;-><init>(Lcom/rigol/scope/views/grid/WaveformGridRulderView;)V
 
-    check-cast v1, Landroidx/lifecycle/Observer;
+    check-cast v2, Landroidx/lifecycle/Observer;
 
-    invoke-virtual {p2, v0, v1}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+    invoke-virtual {p2, v1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
     goto :goto_2
 
     :cond_4
     new-instance p1, Ljava/lang/NullPointerException;
 
-    invoke-direct {p1, p3}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p4}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
     throw p1
 
-    .line 963
+    .line 1055
     :cond_5
     :goto_2
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -287,10 +287,10 @@
 
     if-eqz p2, :cond_7
 
-    const/16 v0, 0x2318
+    const/16 v1, 0x2518
 
-    .line 962
-    invoke-virtual {p2, p4, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+    .line 1054
+    invoke-virtual {p2, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p2
 
@@ -298,29 +298,29 @@
 
     if-eqz p1, :cond_6
 
-    .line 963
-    move-object v0, p1
+    .line 1055
+    move-object v1, p1
 
-    check-cast v0, Landroidx/lifecycle/LifecycleOwner;
+    check-cast v1, Landroidx/lifecycle/LifecycleOwner;
 
-    new-instance v1, Lcom/rigol/scope/views/grid/WaveformGridRulderView$4;
+    new-instance v2, Lcom/rigol/scope/views/grid/WaveformGridRulderView$4;
 
-    invoke-direct {v1, p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView$4;-><init>(Lcom/rigol/scope/views/grid/WaveformGridRulderView;)V
+    invoke-direct {v2, p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView$4;-><init>(Lcom/rigol/scope/views/grid/WaveformGridRulderView;)V
 
-    check-cast v1, Landroidx/lifecycle/Observer;
+    check-cast v2, Landroidx/lifecycle/Observer;
 
-    invoke-virtual {p2, v0, v1}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+    invoke-virtual {p2, v1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
     goto :goto_3
 
     :cond_6
     new-instance p1, Ljava/lang/NullPointerException;
 
-    invoke-direct {p1, p3}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p4}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
     throw p1
 
-    .line 969
+    .line 1061
     :cond_7
     :goto_3
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -329,10 +329,10 @@
 
     if-eqz p2, :cond_9
 
-    const/16 v0, 0x2319
+    const/16 v1, 0x2519
 
-    .line 968
-    invoke-virtual {p2, p4, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+    .line 1060
+    invoke-virtual {p2, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p2
 
@@ -340,27 +340,27 @@
 
     if-eqz p1, :cond_8
 
-    .line 969
+    .line 1061
     check-cast p1, Landroidx/lifecycle/LifecycleOwner;
 
-    new-instance p4, Lcom/rigol/scope/views/grid/WaveformGridRulderView$5;
+    new-instance v0, Lcom/rigol/scope/views/grid/WaveformGridRulderView$5;
 
-    invoke-direct {p4, p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView$5;-><init>(Lcom/rigol/scope/views/grid/WaveformGridRulderView;)V
+    invoke-direct {v0, p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView$5;-><init>(Lcom/rigol/scope/views/grid/WaveformGridRulderView;)V
 
-    check-cast p4, Landroidx/lifecycle/Observer;
+    check-cast v0, Landroidx/lifecycle/Observer;
 
-    invoke-virtual {p2, p1, p4}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+    invoke-virtual {p2, p1, v0}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
     goto :goto_4
 
     :cond_8
     new-instance p1, Ljava/lang/NullPointerException;
 
-    invoke-direct {p1, p3}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p4}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
     throw p1
 
-    .line 974
+    .line 1066
     :cond_9
     :goto_4
     iget-object p1, p0, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->verticalViewModel:Lcom/rigol/scope/viewmodels/VerticalViewModel;
@@ -387,7 +387,7 @@
     :goto_5
     if-eqz p1, :cond_15
 
-    .line 975
+    .line 1067
     move-object p2, p1
 
     check-cast p2, Ljava/util/Collection;
@@ -400,7 +400,7 @@
 
     if-eqz p2, :cond_15
 
-    .line 976
+    .line 1068
     invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -419,230 +419,274 @@
 
     check-cast p2, Lcom/rigol/scope/data/VerticalParam;
 
-    .line 977
+    .line 1069
     invoke-virtual {p2}, Lcom/rigol/scope/data/VerticalParam;->getServiceId()I
 
     move-result p2
 
-    .line 981
+    .line 1073
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
-
-    move-result-object p4
-
-    if-eqz p4, :cond_d
-
-    const/16 v0, 0x70f
-
-    .line 980
-    invoke-virtual {p4, p2, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
-
-    move-result-object p4
-
-    if-eqz p4, :cond_d
-
-    .line 981
-    invoke-virtual {p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
-    if-eqz v0, :cond_c
+    if-eqz v0, :cond_d
 
-    check-cast v0, Landroidx/lifecycle/LifecycleOwner;
+    const/16 v1, 0x70f
 
-    new-instance v1, Lcom/rigol/scope/views/grid/WaveformGridRulderView$6;
+    .line 1072
+    invoke-virtual {v0, p2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
-    invoke-direct {v1, p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView$6;-><init>(Lcom/rigol/scope/views/grid/WaveformGridRulderView;)V
+    move-result-object v0
 
-    check-cast v1, Landroidx/lifecycle/Observer;
+    if-eqz v0, :cond_d
 
-    invoke-virtual {p4, v0, v1}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+    .line 1073
+    invoke-virtual {p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->getContext()Landroid/content/Context;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_c
+
+    check-cast v1, Landroidx/lifecycle/LifecycleOwner;
+
+    new-instance v2, Lcom/rigol/scope/views/grid/WaveformGridRulderView$6;
+
+    invoke-direct {v2, p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView$6;-><init>(Lcom/rigol/scope/views/grid/WaveformGridRulderView;)V
+
+    check-cast v2, Landroidx/lifecycle/Observer;
+
+    invoke-virtual {v0, v1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
     goto :goto_7
 
     :cond_c
     new-instance p1, Ljava/lang/NullPointerException;
 
-    invoke-direct {p1, p3}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p4}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
     throw p1
 
-    .line 988
+    .line 1080
     :cond_d
     :goto_7
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    move-result-object p4
+    move-result-object v0
 
-    if-eqz p4, :cond_f
+    if-eqz v0, :cond_f
 
-    const/16 v0, 0x712
+    const/16 v1, 0x712
 
-    .line 987
-    invoke-virtual {p4, p2, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
-
-    move-result-object p4
-
-    if-eqz p4, :cond_f
-
-    .line 988
-    invoke-virtual {p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->getContext()Landroid/content/Context;
+    .line 1079
+    invoke-virtual {v0, p2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v0
 
-    if-eqz v0, :cond_e
+    if-eqz v0, :cond_f
 
-    check-cast v0, Landroidx/lifecycle/LifecycleOwner;
+    .line 1080
+    invoke-virtual {p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->getContext()Landroid/content/Context;
 
-    new-instance v1, Lcom/rigol/scope/views/grid/WaveformGridRulderView$7;
+    move-result-object v1
 
-    invoke-direct {v1, p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView$7;-><init>(Lcom/rigol/scope/views/grid/WaveformGridRulderView;)V
+    if-eqz v1, :cond_e
 
-    check-cast v1, Landroidx/lifecycle/Observer;
+    check-cast v1, Landroidx/lifecycle/LifecycleOwner;
 
-    invoke-virtual {p4, v0, v1}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+    new-instance v2, Lcom/rigol/scope/views/grid/WaveformGridRulderView$7;
+
+    invoke-direct {v2, p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView$7;-><init>(Lcom/rigol/scope/views/grid/WaveformGridRulderView;)V
+
+    check-cast v2, Landroidx/lifecycle/Observer;
+
+    invoke-virtual {v0, v1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
     goto :goto_8
 
     :cond_e
     new-instance p1, Ljava/lang/NullPointerException;
 
-    invoke-direct {p1, p3}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p4}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
     throw p1
 
-    .line 995
+    .line 1087
     :cond_f
     :goto_8
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    move-result-object p4
+    move-result-object v0
 
-    if-eqz p4, :cond_11
+    if-eqz v0, :cond_11
 
-    const/16 v0, 0x700
+    const/16 v1, 0x700
 
-    .line 994
-    invoke-virtual {p4, p2, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
-
-    move-result-object p4
-
-    if-eqz p4, :cond_11
-
-    .line 995
-    invoke-virtual {p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->getContext()Landroid/content/Context;
+    .line 1086
+    invoke-virtual {v0, p2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v0
 
-    if-eqz v0, :cond_10
+    if-eqz v0, :cond_11
 
-    check-cast v0, Landroidx/lifecycle/LifecycleOwner;
+    .line 1087
+    invoke-virtual {p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->getContext()Landroid/content/Context;
 
-    new-instance v1, Lcom/rigol/scope/views/grid/WaveformGridRulderView$8;
+    move-result-object v1
 
-    invoke-direct {v1, p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView$8;-><init>(Lcom/rigol/scope/views/grid/WaveformGridRulderView;)V
+    if-eqz v1, :cond_10
 
-    check-cast v1, Landroidx/lifecycle/Observer;
+    check-cast v1, Landroidx/lifecycle/LifecycleOwner;
 
-    invoke-virtual {p4, v0, v1}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+    new-instance v2, Lcom/rigol/scope/views/grid/WaveformGridRulderView$8;
+
+    invoke-direct {v2, p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView$8;-><init>(Lcom/rigol/scope/views/grid/WaveformGridRulderView;)V
+
+    check-cast v2, Landroidx/lifecycle/Observer;
+
+    invoke-virtual {v0, v1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
     goto :goto_9
 
     :cond_10
     new-instance p1, Ljava/lang/NullPointerException;
 
-    invoke-direct {p1, p3}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p4}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
     throw p1
 
-    .line 1002
+    .line 1094
     :cond_11
     :goto_9
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    move-result-object p4
+    move-result-object v0
 
-    if-eqz p4, :cond_13
+    if-eqz v0, :cond_13
 
-    const/16 v0, 0x701
+    const/16 v1, 0x701
 
-    .line 1001
-    invoke-virtual {p4, p2, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
-
-    move-result-object p4
-
-    if-eqz p4, :cond_13
-
-    .line 1002
-    invoke-virtual {p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->getContext()Landroid/content/Context;
+    .line 1093
+    invoke-virtual {v0, p2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v0
 
-    if-eqz v0, :cond_12
+    if-eqz v0, :cond_13
 
-    check-cast v0, Landroidx/lifecycle/LifecycleOwner;
+    .line 1094
+    invoke-virtual {p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->getContext()Landroid/content/Context;
 
-    new-instance v1, Lcom/rigol/scope/views/grid/WaveformGridRulderView$9;
+    move-result-object v1
 
-    invoke-direct {v1, p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView$9;-><init>(Lcom/rigol/scope/views/grid/WaveformGridRulderView;)V
+    if-eqz v1, :cond_12
 
-    check-cast v1, Landroidx/lifecycle/Observer;
+    check-cast v1, Landroidx/lifecycle/LifecycleOwner;
 
-    invoke-virtual {p4, v0, v1}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+    new-instance v2, Lcom/rigol/scope/views/grid/WaveformGridRulderView$9;
+
+    invoke-direct {v2, p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView$9;-><init>(Lcom/rigol/scope/views/grid/WaveformGridRulderView;)V
+
+    check-cast v2, Landroidx/lifecycle/Observer;
+
+    invoke-virtual {v0, v1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
     goto :goto_a
 
     :cond_12
     new-instance p1, Ljava/lang/NullPointerException;
 
-    invoke-direct {p1, p3}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p4}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
     throw p1
 
-    .line 1009
+    .line 1101
     :cond_13
     :goto_a
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    move-result-object p4
+    move-result-object v0
 
-    if-eqz p4, :cond_b
+    if-eqz v0, :cond_b
 
-    const/16 v0, 0x707
+    const/16 v1, 0x707
 
-    .line 1008
-    invoke-virtual {p4, p2, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+    .line 1100
+    invoke-virtual {v0, p2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p2
 
     if-eqz p2, :cond_b
 
-    .line 1009
+    .line 1101
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->getContext()Landroid/content/Context;
 
-    move-result-object p4
+    move-result-object v0
 
-    if-eqz p4, :cond_14
+    if-eqz v0, :cond_14
 
-    check-cast p4, Landroidx/lifecycle/LifecycleOwner;
+    check-cast v0, Landroidx/lifecycle/LifecycleOwner;
 
-    new-instance v0, Lcom/rigol/scope/views/grid/WaveformGridRulderView$10;
+    new-instance v1, Lcom/rigol/scope/views/grid/WaveformGridRulderView$10;
 
-    invoke-direct {v0, p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView$10;-><init>(Lcom/rigol/scope/views/grid/WaveformGridRulderView;)V
+    invoke-direct {v1, p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView$10;-><init>(Lcom/rigol/scope/views/grid/WaveformGridRulderView;)V
 
-    check-cast v0, Landroidx/lifecycle/Observer;
+    check-cast v1, Landroidx/lifecycle/Observer;
 
-    invoke-virtual {p2, p4, v0}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+    invoke-virtual {p2, v0, v1}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
     goto/16 :goto_6
 
     :cond_14
     new-instance p1, Ljava/lang/NullPointerException;
 
-    invoke-direct {p1, p3}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p4}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
     throw p1
 
+    .line 1109
     :cond_15
+    invoke-virtual {p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_17
+
+    const/16 p2, 0x1307
+
+    .line 1108
+    invoke-virtual {p1, p3, p2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_17
+
+    .line 1109
+    invoke-virtual {p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->getContext()Landroid/content/Context;
+
+    move-result-object p2
+
+    if-eqz p2, :cond_16
+
+    check-cast p2, Landroidx/lifecycle/LifecycleOwner;
+
+    new-instance p3, Lcom/rigol/scope/views/grid/WaveformGridRulderView$11;
+
+    invoke-direct {p3, p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView$11;-><init>(Lcom/rigol/scope/views/grid/WaveformGridRulderView;)V
+
+    check-cast p3, Landroidx/lifecycle/Observer;
+
+    invoke-virtual {p1, p2, p3}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
+
+    goto :goto_b
+
+    :cond_16
+    new-instance p1, Ljava/lang/NullPointerException;
+
+    invoke-direct {p1, p4}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
+    :cond_17
+    :goto_b
     return-void
 .end method
 
@@ -655,7 +699,7 @@
 
     const/4 p2, 0x0
 
-    .line 929
+    .line 1021
     check-cast p2, Landroid/util/AttributeSet;
 
     :cond_0
@@ -674,7 +718,7 @@
 
     move p4, v0
 
-    .line 931
+    .line 1023
     :cond_2
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IZ)V
 
@@ -684,7 +728,7 @@
 .method public static final synthetic access$updateHorizontalRulers(Lcom/rigol/scope/views/grid/WaveformGridRulderView;)V
     .locals 0
 
-    .line 927
+    .line 1019
     invoke-direct {p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->updateHorizontalRulers()V
 
     return-void
@@ -693,7 +737,7 @@
 .method public static final synthetic access$updateVerticalRuler(Lcom/rigol/scope/views/grid/WaveformGridRulderView;)V
     .locals 0
 
-    .line 927
+    .line 1019
     invoke-direct {p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->updateVerticalRuler()V
 
     return-void
@@ -702,17 +746,17 @@
 .method private final updateHorizontalRulers()V
     .locals 2
 
-    .line 1022
+    .line 1120
     iget-object v0, p0, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->horizontalViewModel:Lcom/rigol/scope/viewmodels/HorizontalViewModel;
 
     if-eqz v0, :cond_1
 
-    .line 1023
+    .line 1121
     iget-boolean v1, p0, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->isZoom:Z
 
     if-eqz v1, :cond_0
 
-    .line 1024
+    .line 1122
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/HorizontalViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -729,7 +773,7 @@
 
     goto :goto_0
 
-    .line 1026
+    .line 1124
     :cond_0
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/HorizontalViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
@@ -745,11 +789,11 @@
 
     move-result-object v0
 
-    .line 1023
+    .line 1121
     :goto_0
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->setColumnContents([Ljava/lang/String;)V
 
-    .line 1031
+    .line 1129
     :cond_1
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->invalidate()V
 
@@ -757,9 +801,9 @@
 .end method
 
 .method private final updateVerticalRuler()V
-    .locals 2
+    .locals 3
 
-    .line 1039
+    .line 1137
     iget-object v0, p0, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->verticalViewModel:Lcom/rigol/scope/viewmodels/VerticalViewModel;
 
     if-eqz v0, :cond_0
@@ -782,18 +826,18 @@
     const/4 v0, 0x0
 
     :goto_0
-    if-eqz v0, :cond_2
+    if-eqz v0, :cond_4
 
-    .line 1040
+    .line 1138
     invoke-virtual {v0}, Ljava/util/ArrayList;->isEmpty()Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
-    goto :goto_1
+    goto :goto_3
 
-    .line 1045
+    .line 1143
     :cond_1
     check-cast v0, Ljava/util/List;
 
@@ -801,34 +845,71 @@
 
     move-result-object v1
 
-    if-eqz v1, :cond_2
+    if-eqz v1, :cond_4
 
-    .line 1048
+    .line 1146
+    invoke-virtual {p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->isMove()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_2
+
+    .line 1148
+    invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getVerticalMoveRulers(Ljava/util/List;)[Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->setRowContents([Ljava/lang/String;)V
+
+    goto :goto_1
+
+    .line 1152
+    :cond_2
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getVerticalRulers(Ljava/util/List;)[Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->setRowContents([Ljava/lang/String;)V
 
-    .line 1051
+    .line 1156
+    :goto_1
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
     invoke-virtual {v1}, Lcom/rigol/scope/data/VerticalParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    move-result-object v1
+    move-result-object v2
 
-    invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ColorUtil;->getColor(Landroid/content/Context;Lcom/rigol/scope/cil/ServiceEnum$Chan;)I
+    invoke-static {v0, v2}, Lcom/rigol/scope/utilities/ColorUtil;->getColor(Landroid/content/Context;Lcom/rigol/scope/cil/ServiceEnum$Chan;)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->setRowTextColor(I)V
 
-    .line 1054
+    .line 1159
+    invoke-virtual {p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->isMove()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_3
+
+    .line 1161
+    invoke-virtual {p0, v1}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->updateMoveOffset(Lcom/rigol/scope/data/VerticalParam;)V
+
+    goto :goto_2
+
+    :cond_3
+    const/4 v0, 0x0
+
+    .line 1165
+    invoke-virtual {p0, v0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->setMoveOffset(F)V
+
+    .line 1169
+    :goto_2
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/WaveformGridRulderView;->invalidate()V
 
-    :cond_2
-    :goto_1
+    :cond_4
+    :goto_3
     return-void
 .end method

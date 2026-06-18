@@ -131,7 +131,7 @@
 
     move-result-object v3
 
-    const/16 v4, 0x5760
+    const/16 v4, 0x5960
 
     invoke-virtual {v3, v0, v4, p1, v1}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
 
@@ -171,7 +171,7 @@
     :cond_1
     sget-object p1, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
-    invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     new-instance v0, Lcom/rigol/scope/views/power/-$$Lambda$PowerPopupView$f0rZkPNCQYOQPYmV9rAXrEPzgsc;
 
@@ -193,7 +193,7 @@
 
     move-result-object p1
 
-    const/16 v1, 0x5754
+    const/16 v1, 0x5954
 
     invoke-virtual {p1, v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
@@ -209,7 +209,7 @@
 
     move-result-object p1
 
-    const/16 v2, 0x5753
+    const/16 v2, 0x5953
 
     invoke-virtual {p1, v0, v2, v1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
@@ -236,7 +236,7 @@
 
     const/16 v2, 0xb
 
-    const/16 v3, 0x5754
+    const/16 v3, 0x5954
 
     invoke-virtual {v1, v2, v3, v0}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 

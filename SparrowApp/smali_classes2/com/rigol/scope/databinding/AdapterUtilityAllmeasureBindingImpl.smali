@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterUtilityAllmeasureBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a34
+    const v1, 0x7f0a0a40
 
     const/4 v2, 0x2
 
@@ -153,7 +153,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x20f
+    const/16 v0, 0x210
 
     if-ne p2, v0, :cond_1
 
@@ -313,7 +313,7 @@
     move-result v8
 
     :cond_2
-    const v10, 0x7f03018c
+    const v10, 0x7f03018e
 
     .line 154
     invoke-static {v10, v4}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -505,7 +505,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x252
+    const/16 p1, 0x254
 
     .line 79
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterUtilityAllmeasureBindingImpl;->notifyPropertyChanged(I)V
@@ -530,7 +530,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x252
+    const/16 v0, 0x254
 
     if-ne v0, p1, :cond_0
 

@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/PopupviewJitterBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a055b
+    const v1, 0x7f0a0563
 
     const/16 v2, 0x13
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewJitterBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a055d
+    const v1, 0x7f0a0565
 
     const/16 v2, 0x14
 
@@ -45,7 +45,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewJitterBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a055f
+    const v1, 0x7f0a0567
 
     const/16 v2, 0x15
 
@@ -54,7 +54,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewJitterBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a057e
+    const v1, 0x7f0a0586
 
     const/16 v2, 0x16
 
@@ -63,7 +63,7 @@
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewJitterBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0566
+    const v1, 0x7f0a056e
 
     const/16 v2, 0x17
 
@@ -72,7 +72,7 @@
     .line 22
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewJitterBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a056d
+    const v1, 0x7f0a0575
 
     const/16 v2, 0x18
 
@@ -81,7 +81,7 @@
     .line 23
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewJitterBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0569
+    const v1, 0x7f0a0571
 
     const/16 v2, 0x19
 
@@ -90,7 +90,7 @@
     .line 24
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewJitterBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0577
+    const v1, 0x7f0a057f
 
     const/16 v2, 0x1a
 
@@ -99,7 +99,7 @@
     .line 25
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewJitterBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0578
+    const v1, 0x7f0a0580
 
     const/16 v2, 0x1b
 
@@ -108,7 +108,7 @@
     .line 26
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewJitterBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0581
+    const v1, 0x7f0a0589
 
     const/16 v2, 0x1c
 
@@ -117,7 +117,7 @@
     .line 27
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewJitterBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0582
+    const v1, 0x7f0a058a
 
     const/16 v2, 0x1d
 
@@ -126,7 +126,7 @@
     .line 28
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewJitterBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a055c
+    const v1, 0x7f0a0564
 
     const/16 v2, 0x1e
 
@@ -135,7 +135,7 @@
     .line 29
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewJitterBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a056b
+    const v1, 0x7f0a0573
 
     const/16 v2, 0x1f
 
@@ -144,7 +144,7 @@
     .line 30
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewJitterBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a056f
+    const v1, 0x7f0a0577
 
     const/16 v2, 0x20
 
@@ -153,7 +153,7 @@
     .line 31
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewJitterBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a07a2
+    const v1, 0x7f0a07ae
 
     const/16 v2, 0x21
 
@@ -162,7 +162,7 @@
     .line 32
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewJitterBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0579
+    const v1, 0x7f0a0581
 
     const/16 v2, 0x22
 
@@ -171,7 +171,7 @@
     .line 33
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewJitterBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a057c
+    const v1, 0x7f0a0584
 
     const/16 v2, 0x23
 
@@ -616,7 +616,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x35a
+    const/16 v0, 0x35e
 
     if-ne p2, v0, :cond_2
 
@@ -680,7 +680,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x218
+    const/16 v0, 0x219
 
     if-ne p2, v0, :cond_4
 
@@ -712,7 +712,7 @@
     throw p1
 
     :cond_4
-    const/16 v0, 0x1fe
+    const/16 v0, 0x1ff
 
     if-ne p2, v0, :cond_5
 
@@ -744,7 +744,7 @@
     throw p1
 
     :cond_5
-    const/16 v0, 0x2c6
+    const/16 v0, 0x2ca
 
     if-ne p2, v0, :cond_6
 
@@ -776,7 +776,7 @@
     throw p1
 
     :cond_6
-    const/16 v0, 0x3a5
+    const/16 v0, 0x3a9
 
     if-ne p2, v0, :cond_7
 
@@ -808,7 +808,7 @@
     throw p1
 
     :cond_7
-    const/16 v0, 0x2e3
+    const/16 v0, 0x2e7
 
     if-ne p2, v0, :cond_8
 
@@ -840,7 +840,7 @@
     throw p1
 
     :cond_8
-    const/16 v0, 0x26d
+    const/16 v0, 0x270
 
     if-ne p2, v0, :cond_9
 
@@ -872,7 +872,7 @@
     throw p1
 
     :cond_9
-    const/16 v0, 0x3af
+    const/16 v0, 0x3b3
 
     if-ne p2, v0, :cond_a
 
@@ -904,7 +904,7 @@
     throw p1
 
     :cond_a
-    const/16 v0, 0x367
+    const/16 v0, 0x36b
 
     if-ne p2, v0, :cond_b
 
@@ -1000,7 +1000,7 @@
     throw p1
 
     :cond_d
-    const/16 v0, 0x358
+    const/16 v0, 0x35c
 
     if-ne p2, v0, :cond_e
 
@@ -1072,7 +1072,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -1144,7 +1144,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -1216,7 +1216,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -1288,7 +1288,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -1360,7 +1360,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -1432,7 +1432,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -1504,7 +1504,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -1574,7 +1574,7 @@
 
     cmp-long v8, v8, v4
 
-    const v9, 0x7f03014f
+    const v9, 0x7f030150
 
     const/4 v11, 0x0
 
@@ -1626,7 +1626,7 @@
 
     cmp-long v18, v18, v4
 
-    const v10, 0x7f03014b
+    const v10, 0x7f03014c
 
     if-eqz v18, :cond_2
 
@@ -1832,7 +1832,7 @@
     const/4 v13, 0x0
 
     :goto_9
-    const v15, 0x7f03014e
+    const v15, 0x7f03014f
 
     .line 489
     invoke-static {v15, v13}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -2465,7 +2465,7 @@
 
     if-eqz v53, :cond_29
 
-    const v0, 0x7f03014b
+    const v0, 0x7f03014c
 
     const/4 v4, 0x2
 
@@ -3016,7 +3016,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x252
+    const/16 p1, 0x254
 
     .line 151
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewJitterBindingImpl;->notifyPropertyChanged(I)V
@@ -3041,7 +3041,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x408
+    const/16 v0, 0x40c
 
     if-ne v0, p1, :cond_0
 
@@ -3053,7 +3053,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x252
+    const/16 v0, 0x254
 
     if-ne v0, p1, :cond_1
 

@@ -152,7 +152,7 @@
 
     const/16 v1, 0x9
 
-    const/16 v2, 0x4701
+    const/16 v2, 0x4901
 
     .line 94
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -194,7 +194,7 @@
 
     iget-object v2, p0, Lcom/rigol/scope/views/calibration/CalibrationPopupView;->binding:Lcom/rigol/scope/databinding/PopupviewCalibrationBinding;
 
-    invoke-static {v2}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     new-instance v3, Lcom/rigol/scope/views/calibration/-$$Lambda$x3-SFN7jBURcTTkXC_78xc3IbSg;
 
@@ -462,7 +462,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0a085d
+    const v0, 0x7f0a0869
 
     if-ne p1, v0, :cond_3
 
@@ -505,12 +505,12 @@
 
     if-eqz v1, :cond_0
 
-    const v1, 0x7f100748
+    const v1, 0x7f100750
 
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f100744
+    const v1, 0x7f10074c
 
     :goto_0
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V

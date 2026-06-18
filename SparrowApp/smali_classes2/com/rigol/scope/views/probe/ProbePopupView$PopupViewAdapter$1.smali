@@ -24,7 +24,7 @@
 .method constructor <init>(Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;Landroid/content/Context;Ljava/util/List;Lcom/rigol/scope/utilities/AorBManager$OnSetTextById;Lcom/rigol/scope/utilities/AorBManager$OnTextReset;I)V
     .locals 0
 
-    .line 259
+    .line 262
     iput-object p1, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter$1;->this$0:Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;
 
     iput p6, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter$1;->val$layoutPosition:I
@@ -39,7 +39,7 @@
 .method protected setSwitch_num(I)V
     .locals 3
 
-    .line 262
+    .line 265
     iget-object v0, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter$1;->this$0:Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;
 
     invoke-static {v0}, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->access$200(Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;)Ljava/util/Map;
@@ -56,15 +56,13 @@
 
     move-result-object v0
 
-    check-cast v0, Ljava/util/List;
-
     invoke-static {v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Ljava/util/List;
 
-    .line 263
+    .line 266
     iget-object v1, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter$1;->this$0:Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;
 
     invoke-static {v1}, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->access$300(Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;)Landroid/content/Context;
@@ -101,7 +99,7 @@
 .method protected setrecovery_num(I)V
     .locals 3
 
-    .line 268
+    .line 271
     iget-object v0, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter$1;->this$0:Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;
 
     invoke-static {v0}, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->access$200(Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;)Ljava/util/Map;
@@ -118,15 +116,13 @@
 
     move-result-object v0
 
-    check-cast v0, Ljava/util/List;
-
     invoke-static {v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Ljava/util/List;
 
-    .line 269
+    .line 272
     iget-object v1, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter$1;->this$0:Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;
 
     invoke-static {v1}, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->access$400(Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;)Landroid/content/Context;

@@ -185,7 +185,7 @@
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->value1:I
 
-    const v2, 0x7f030246
+    const v2, 0x7f03024a
 
     .line 2529
     invoke-static {v2, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -312,7 +312,7 @@
 
     move-result v1
 
-    const/16 v2, 0x2f5d
+    const/16 v2, 0x315d
 
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -486,7 +486,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v2, 0x7f101343
+    const v2, 0x7f101358
 
     invoke-static {v2}, Lcom/rigol/scope/utilities/ContextUtil;->getString(I)Ljava/lang/String;
 

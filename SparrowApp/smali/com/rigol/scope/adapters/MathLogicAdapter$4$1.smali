@@ -25,7 +25,7 @@
 .method constructor <init>(Lcom/rigol/scope/adapters/MathLogicAdapter$4;)V
     .locals 0
 
-    .line 312
+    .line 315
     iput-object p1, p0, Lcom/rigol/scope/adapters/MathLogicAdapter$4$1;->this$1:Lcom/rigol/scope/adapters/MathLogicAdapter$4;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +38,7 @@
 .method public onCall(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
     .locals 1
 
-    .line 322
+    .line 325
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathLogicAdapter$4$1;->this$1:Lcom/rigol/scope/adapters/MathLogicAdapter$4;
 
     iget-object v0, v0, Lcom/rigol/scope/adapters/MathLogicAdapter$4;->this$0:Lcom/rigol/scope/adapters/MathLogicAdapter;
@@ -58,7 +58,7 @@
         }
     .end annotation
 
-    .line 317
+    .line 320
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathLogicAdapter$4$1;->this$1:Lcom/rigol/scope/adapters/MathLogicAdapter$4;
 
     iget-object v0, v0, Lcom/rigol/scope/adapters/MathLogicAdapter$4;->this$0:Lcom/rigol/scope/adapters/MathLogicAdapter;

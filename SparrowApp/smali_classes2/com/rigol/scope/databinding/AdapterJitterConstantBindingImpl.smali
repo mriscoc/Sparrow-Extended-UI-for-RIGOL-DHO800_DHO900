@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterJitterConstantBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0554
+    const v1, 0x7f0a055c
 
     const/4 v2, 0x6
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterJitterConstantBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0585
+    const v1, 0x7f0a058d
 
     const/4 v2, 0x7
 
@@ -45,7 +45,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/AdapterJitterConstantBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0587
+    const v1, 0x7f0a058f
 
     const/16 v2, 0x8
 
@@ -243,7 +243,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x3d2
+    const/16 v0, 0x3d6
 
     if-ne p2, v0, :cond_1
 
@@ -347,7 +347,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -419,7 +419,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -491,7 +491,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -563,7 +563,7 @@
 
     const/4 v10, 0x2
 
-    const v11, 0x7f030149
+    const v11, 0x7f03014a
 
     if-eqz v9, :cond_0
 
@@ -827,7 +827,7 @@
 
     if-eqz v8, :cond_11
 
-    const v11, 0x7f030149
+    const v11, 0x7f03014a
 
     .line 278
     invoke-static {v11, v12}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -1123,7 +1123,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x252
+    const/16 p1, 0x254
 
     .line 91
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterJitterConstantBindingImpl;->notifyPropertyChanged(I)V
@@ -1148,7 +1148,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x252
+    const/16 v0, 0x254
 
     if-ne v0, p1, :cond_0
 

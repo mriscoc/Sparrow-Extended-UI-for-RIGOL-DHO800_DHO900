@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterItemResultItemTowviewBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0549
+    const v1, 0x7f0a0551
 
     const/4 v2, 0x1
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterItemResultItemTowviewBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0548
+    const v1, 0x7f0a054a
 
     const/4 v2, 0x2
 

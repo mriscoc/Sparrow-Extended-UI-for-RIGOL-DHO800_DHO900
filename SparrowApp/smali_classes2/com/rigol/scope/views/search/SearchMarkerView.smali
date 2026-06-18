@@ -467,7 +467,7 @@
     return-void
 
     :cond_0
-    const/16 v2, 0x456e
+    const/16 v2, 0x476e
 
     const/16 v3, 0x19
 
@@ -489,7 +489,7 @@
 
     invoke-virtual {v2, v4, v5}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    const/16 v2, 0x4501
+    const/16 v2, 0x4701
 
     .line 265
     invoke-virtual {v0, v3, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -509,7 +509,7 @@
 
     invoke-virtual {v2, v4, v5}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    const/16 v2, 0x455f
+    const/16 v2, 0x475f
 
     .line 273
     invoke-virtual {v0, v3, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;

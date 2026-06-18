@@ -556,629 +556,637 @@
 
 .field public static final msg_display_grid:I = 0x7f03010e
 
-.field public static final msg_display_palette:I = 0x7f03010f
+.field public static final msg_display_move:I = 0x7f03010f
 
-.field public static final msg_display_persistime:I = 0x7f030110
+.field public static final msg_display_palette:I = 0x7f030110
 
-.field public static final msg_display_rulers:I = 0x7f030111
+.field public static final msg_display_persistime:I = 0x7f030111
 
-.field public static final msg_display_type:I = 0x7f030112
+.field public static final msg_display_rulers:I = 0x7f030112
 
-.field public static final msg_dvm_beep_enable:I = 0x7f030113
+.field public static final msg_display_type:I = 0x7f030113
 
-.field public static final msg_dvm_enable:I = 0x7f030114
+.field public static final msg_dvm_beep_enable:I = 0x7f030114
 
-.field public static final msg_dvm_limit_type:I = 0x7f030115
+.field public static final msg_dvm_enable:I = 0x7f030115
 
-.field public static final msg_dvm_mode:I = 0x7f030116
+.field public static final msg_dvm_limit_type:I = 0x7f030116
 
-.field public static final msg_dvm_quick_popup:I = 0x7f030117
+.field public static final msg_dvm_mode:I = 0x7f030117
 
-.field public static final msg_dvm_src:I = 0x7f030118
+.field public static final msg_dvm_quick_popup:I = 0x7f030118
 
-.field public static final msg_email_attachment:I = 0x7f030119
+.field public static final msg_dvm_src:I = 0x7f030119
 
-.field public static final msg_eth_analyse_100baset_clk:I = 0x7f03011a
+.field public static final msg_email_attachment:I = 0x7f03011a
 
-.field public static final msg_eth_analyse_100baset_eyeui:I = 0x7f03011b
+.field public static final msg_eth_analyse_100baset_clk:I = 0x7f03011b
 
-.field public static final msg_eth_analyse_100baset_result_table_col:I = 0x7f03011c
+.field public static final msg_eth_analyse_100baset_eyeui:I = 0x7f03011c
 
-.field public static final msg_eth_analyse_100baset_result_table_row:I = 0x7f03011d
+.field public static final msg_eth_analyse_100baset_result_table_col:I = 0x7f03011d
 
-.field public static final msg_eth_analyse_low_full_usb_result_table_col:I = 0x7f03011e
+.field public static final msg_eth_analyse_100baset_result_table_row:I = 0x7f03011e
 
-.field public static final msg_eth_analyse_signal:I = 0x7f03011f
+.field public static final msg_eth_analyse_low_full_usb_result_table_col:I = 0x7f03011f
 
-.field public static final msg_eth_analyse_src:I = 0x7f030120
+.field public static final msg_eth_analyse_signal:I = 0x7f030120
 
-.field public static final msg_eth_analyse_usb_result_table_col:I = 0x7f030121
+.field public static final msg_eth_analyse_src:I = 0x7f030121
 
-.field public static final msg_eth_analyse_usb_result_table_row:I = 0x7f030122
+.field public static final msg_eth_analyse_usb_result_table_col:I = 0x7f030122
 
-.field public static final msg_eye_cr_freqtype:I = 0x7f030123
+.field public static final msg_eth_analyse_usb_result_table_row:I = 0x7f030123
 
-.field public static final msg_eye_cr_pllorder:I = 0x7f030124
+.field public static final msg_eye_cr_freqtype:I = 0x7f030124
 
-.field public static final msg_eye_cr_selmethod:I = 0x7f030125
+.field public static final msg_eye_cr_pllorder:I = 0x7f030125
 
-.field public static final msg_eye_external_clock_src:I = 0x7f030126
+.field public static final msg_eye_cr_selmethod:I = 0x7f030126
 
-.field public static final msg_eye_move_rate_select:I = 0x7f030127
+.field public static final msg_eye_external_clock_src:I = 0x7f030127
 
-.field public static final msg_eye_quick_popup:I = 0x7f030128
+.field public static final msg_eye_move_rate_select:I = 0x7f030128
 
-.field public static final msg_eye_source:I = 0x7f030129
+.field public static final msg_eye_quick_popup:I = 0x7f030129
 
-.field public static final msg_eye_template:I = 0x7f03012a
+.field public static final msg_eye_source:I = 0x7f03012a
 
-.field public static final msg_eye_template_status:I = 0x7f03012b
+.field public static final msg_eye_template:I = 0x7f03012b
 
-.field public static final msg_eye_thre_type:I = 0x7f03012c
+.field public static final msg_eye_template_status:I = 0x7f03012c
 
-.field public static final msg_fft_1m_unit:I = 0x7f03012d
+.field public static final msg_eye_thre_type:I = 0x7f03012d
 
-.field public static final msg_fft_list:I = 0x7f03012e
+.field public static final msg_fft_1m_unit:I = 0x7f03012e
 
-.field public static final msg_fft_module:I = 0x7f03012f
+.field public static final msg_fft_list:I = 0x7f03012f
 
-.field public static final msg_fft_peak_enable:I = 0x7f030130
+.field public static final msg_fft_module:I = 0x7f030130
 
-.field public static final msg_fft_peak_tabelorder:I = 0x7f030131
+.field public static final msg_fft_peak_enable:I = 0x7f030131
 
-.field public static final msg_fft_peak_table_en:I = 0x7f030132
+.field public static final msg_fft_peak_tabelorder:I = 0x7f030132
 
-.field public static final msg_fft_rbw_auto:I = 0x7f030133
+.field public static final msg_fft_peak_table_en:I = 0x7f030133
 
-.field public static final msg_fft_rbwlist_10g:I = 0x7f030134
+.field public static final msg_fft_rbw_auto:I = 0x7f030134
 
-.field public static final msg_fft_rbwlist_1g:I = 0x7f030135
+.field public static final msg_fft_rbwlist_10g:I = 0x7f030135
 
-.field public static final msg_fft_rbwlist_2g:I = 0x7f030136
+.field public static final msg_fft_rbwlist_1g:I = 0x7f030136
 
-.field public static final msg_fft_rbwlist_500m:I = 0x7f030137
+.field public static final msg_fft_rbwlist_2g:I = 0x7f030137
 
-.field public static final msg_fft_rbwlist_5g:I = 0x7f030138
+.field public static final msg_fft_rbwlist_500m:I = 0x7f030138
 
-.field public static final msg_fft_src:I = 0x7f030139
+.field public static final msg_fft_rbwlist_5g:I = 0x7f030139
 
-.field public static final msg_fft_unit:I = 0x7f03013a
+.field public static final msg_fft_src:I = 0x7f03013a
 
-.field public static final msg_fft_window:I = 0x7f03013b
+.field public static final msg_fft_unit:I = 0x7f03013b
 
-.field public static final msg_flex_knob_manual:I = 0x7f03013c
+.field public static final msg_fft_window:I = 0x7f03013c
 
-.field public static final msg_format:I = 0x7f03013d
+.field public static final msg_flex_knob_manual:I = 0x7f03013d
 
-.field public static final msg_histo_en:I = 0x7f03013e
+.field public static final msg_format:I = 0x7f03013e
 
-.field public static final msg_histo_quick_popup:I = 0x7f03013f
+.field public static final msg_histo_en:I = 0x7f03013f
 
-.field public static final msg_histo_source:I = 0x7f030140
+.field public static final msg_histo_quick_popup:I = 0x7f030140
 
-.field public static final msg_histo_statisen:I = 0x7f030141
+.field public static final msg_histo_source:I = 0x7f030141
 
-.field public static final msg_histo_type:I = 0x7f030142
+.field public static final msg_histo_statisen:I = 0x7f030142
 
-.field public static final msg_hor_auto_roll:I = 0x7f030143
+.field public static final msg_histo_type:I = 0x7f030143
 
-.field public static final msg_hor_expand:I = 0x7f030144
+.field public static final msg_hor_auto_roll:I = 0x7f030144
 
-.field public static final msg_hor_fine_on:I = 0x7f030145
+.field public static final msg_hor_expand:I = 0x7f030145
 
-.field public static final msg_hor_run:I = 0x7f030146
+.field public static final msg_hor_fine_on:I = 0x7f030146
 
-.field public static final msg_hor_time_mode:I = 0x7f030147
+.field public static final msg_hor_run:I = 0x7f030147
 
-.field public static final msg_hor_zoom_on:I = 0x7f030148
+.field public static final msg_hor_time_mode:I = 0x7f030148
 
-.field public static final msg_jitter_cr_freqtype:I = 0x7f030149
+.field public static final msg_hor_zoom_on:I = 0x7f030149
 
-.field public static final msg_jitter_cr_pllorder:I = 0x7f03014a
+.field public static final msg_jitter_cr_freqtype:I = 0x7f03014a
 
-.field public static final msg_jitter_cr_selmethod:I = 0x7f03014b
+.field public static final msg_jitter_cr_pllorder:I = 0x7f03014b
 
-.field public static final msg_jitter_external_clock_src:I = 0x7f03014c
+.field public static final msg_jitter_cr_selmethod:I = 0x7f03014c
 
-.field public static final msg_jitter_quick_popup:I = 0x7f03014d
+.field public static final msg_jitter_external_clock_src:I = 0x7f03014d
 
-.field public static final msg_jitter_source:I = 0x7f03014e
+.field public static final msg_jitter_quick_popup:I = 0x7f03014e
 
-.field public static final msg_jitter_tie_slope:I = 0x7f03014f
+.field public static final msg_jitter_source:I = 0x7f03014f
 
-.field public static final msg_la_auto_set:I = 0x7f030150
+.field public static final msg_jitter_tie_slope:I = 0x7f030150
 
-.field public static final msg_la_cal_status:I = 0x7f030151
+.field public static final msg_la_auto_set:I = 0x7f030151
 
-.field public static final msg_la_current_chan:I = 0x7f030152
+.field public static final msg_la_cal_status:I = 0x7f030152
 
-.field public static final msg_la_enable:I = 0x7f030153
+.field public static final msg_la_current_chan:I = 0x7f030153
 
-.field public static final msg_la_group_set:I = 0x7f030154
+.field public static final msg_la_enable:I = 0x7f030154
 
-.field public static final msg_la_high_color:I = 0x7f030155
+.field public static final msg_la_group_set:I = 0x7f030155
 
-.field public static final msg_la_label_select_chan:I = 0x7f030156
+.field public static final msg_la_high_color:I = 0x7f030156
 
-.field public static final msg_la_label_view_select:I = 0x7f030157
+.field public static final msg_la_label_select_chan:I = 0x7f030157
 
-.field public static final msg_la_settype:I = 0x7f030158
+.field public static final msg_la_label_view_select:I = 0x7f030158
 
-.field public static final msg_la_wave_size:I = 0x7f030159
+.field public static final msg_la_settype:I = 0x7f030159
 
-.field public static final msg_mask_enable:I = 0x7f03015a
+.field public static final msg_la_wave_size:I = 0x7f03015a
 
-.field public static final msg_mask_err_action:I = 0x7f03015b
+.field public static final msg_mask_enable:I = 0x7f03015b
 
-.field public static final msg_mask_operate:I = 0x7f03015c
+.field public static final msg_mask_err_action:I = 0x7f03015c
 
-.field public static final msg_mask_out_event:I = 0x7f03015d
+.field public static final msg_mask_operate:I = 0x7f03015d
 
-.field public static final msg_mask_out_hl:I = 0x7f03015e
+.field public static final msg_mask_out_event:I = 0x7f03015e
 
-.field public static final msg_mask_out_onoff:I = 0x7f03015f
+.field public static final msg_mask_out_hl:I = 0x7f03015f
 
-.field public static final msg_mask_quick_popup:I = 0x7f030160
+.field public static final msg_mask_out_onoff:I = 0x7f030160
 
-.field public static final msg_mask_range:I = 0x7f030161
+.field public static final msg_mask_quick_popup:I = 0x7f030161
 
-.field public static final msg_mask_show_stat:I = 0x7f030162
+.field public static final msg_mask_range:I = 0x7f030162
 
-.field public static final msg_mask_source:I = 0x7f030163
+.field public static final msg_mask_show_stat:I = 0x7f030163
 
-.field public static final msg_math_color_onoff:I = 0x7f030164
+.field public static final msg_mask_source:I = 0x7f030164
 
-.field public static final msg_math_en:I = 0x7f030165
+.field public static final msg_math_color_onoff:I = 0x7f030165
 
-.field public static final msg_math_expand:I = 0x7f030166
+.field public static final msg_math_disp_mode:I = 0x7f030166
 
-.field public static final msg_math_fft_dc_suppress:I = 0x7f030167
+.field public static final msg_math_en:I = 0x7f030167
 
-.field public static final msg_math_fft_peak_enable:I = 0x7f030168
+.field public static final msg_math_expand:I = 0x7f030168
 
-.field public static final msg_math_fft_peak_tabelorder:I = 0x7f030169
+.field public static final msg_math_fft_dc_suppress:I = 0x7f030169
 
-.field public static final msg_math_fft_s32scr:I = 0x7f03016a
+.field public static final msg_math_fft_peak_enable:I = 0x7f03016a
 
-.field public static final msg_math_fft_s32src:I = 0x7f03016b
+.field public static final msg_math_fft_peak_tabelorder:I = 0x7f03016b
 
-.field public static final msg_math_fft_s32unit:I = 0x7f03016c
+.field public static final msg_math_fft_s32scr:I = 0x7f03016c
 
-.field public static final msg_math_fft_s32window:I = 0x7f03016d
+.field public static final msg_math_fft_s32src:I = 0x7f03016d
 
-.field public static final msg_math_fft_x_type:I = 0x7f03016e
+.field public static final msg_math_fft_s32unit:I = 0x7f03016e
 
-.field public static final msg_math_label_index:I = 0x7f03016f
+.field public static final msg_math_fft_s32window:I = 0x7f03016f
 
-.field public static final msg_math_list:I = 0x7f030170
+.field public static final msg_math_fft_x_type:I = 0x7f030170
 
-.field public static final msg_math_list2:I = 0x7f030171
+.field public static final msg_math_label_index:I = 0x7f030171
 
-.field public static final msg_math_logic_scale:I = 0x7f030172
+.field public static final msg_math_list:I = 0x7f030172
 
-.field public static final msg_math_operator:I = 0x7f030173
+.field public static final msg_math_list2:I = 0x7f030173
 
-.field public static final msg_math_s32aritha:I = 0x7f030174
+.field public static final msg_math_logic_scale:I = 0x7f030174
 
-.field public static final msg_math_s32arithb:I = 0x7f030175
+.field public static final msg_math_operator:I = 0x7f030175
 
-.field public static final msg_math_s32invert:I = 0x7f030176
+.field public static final msg_math_s32aritha:I = 0x7f030176
 
-.field public static final msg_math_s32logica:I = 0x7f030177
+.field public static final msg_math_s32arithb:I = 0x7f030177
 
-.field public static final msg_math_s32logicb:I = 0x7f030178
+.field public static final msg_math_s32invert:I = 0x7f030178
 
-.field public static final msg_math_show_s32label:I = 0x7f030179
+.field public static final msg_math_s32logica:I = 0x7f030179
 
-.field public static final msg_math_wave_type:I = 0x7f03017a
+.field public static final msg_math_s32logicb:I = 0x7f03017a
 
-.field public static final msg_meas_quick_popup:I = 0x7f03017b
+.field public static final msg_math_show_s32label:I = 0x7f03017b
 
-.field public static final msg_navigate_enable:I = 0x7f03017c
+.field public static final msg_math_wave_type:I = 0x7f03017c
 
-.field public static final msg_navigate_framedraw_displaymode:I = 0x7f03017d
+.field public static final msg_meas_quick_popup:I = 0x7f03017d
 
-.field public static final msg_navigate_framedraw_speed:I = 0x7f03017e
+.field public static final msg_navigate_enable:I = 0x7f03017e
 
-.field public static final msg_navigate_mode:I = 0x7f03017f
+.field public static final msg_navigate_framedraw_displaymode:I = 0x7f03017f
 
-.field public static final msg_navigate_timeoffset_speed:I = 0x7f030180
+.field public static final msg_navigate_framedraw_speed:I = 0x7f030180
 
-.field public static final msg_other_fun_list:I = 0x7f030181
+.field public static final msg_navigate_mode:I = 0x7f030181
 
-.field public static final msg_printer_invert:I = 0x7f030182
+.field public static final msg_navigate_timeoffset_speed:I = 0x7f030182
 
-.field public static final msg_printer_palette:I = 0x7f030183
+.field public static final msg_other_fun_list:I = 0x7f030183
 
-.field public static final msg_printer_paper_size:I = 0x7f030184
+.field public static final msg_printer_invert:I = 0x7f030184
 
-.field public static final msg_printer_range:I = 0x7f030185
+.field public static final msg_printer_palette:I = 0x7f030185
 
-.field public static final msg_printer_vendor:I = 0x7f030186
+.field public static final msg_printer_paper_size:I = 0x7f030186
 
-.field public static final msg_quick_channel:I = 0x7f030187
+.field public static final msg_printer_range:I = 0x7f030187
 
-.field public static final msg_quick_csv_sequence:I = 0x7f030188
+.field public static final msg_printer_vendor:I = 0x7f030188
 
-.field public static final msg_quick_image_color:I = 0x7f030189
+.field public static final msg_quick_channel:I = 0x7f030189
 
-.field public static final msg_quick_image_format:I = 0x7f03018a
+.field public static final msg_quick_csv_sequence:I = 0x7f03018a
 
-.field public static final msg_quick_image_invert:I = 0x7f03018b
+.field public static final msg_quick_image_color:I = 0x7f03018b
 
-.field public static final msg_quick_meas_all_src:I = 0x7f03018c
+.field public static final msg_quick_image_format:I = 0x7f03018c
 
-.field public static final msg_quick_operation:I = 0x7f03018d
+.field public static final msg_quick_image_invert:I = 0x7f03018d
 
-.field public static final msg_quick_select_save:I = 0x7f03018e
+.field public static final msg_quick_meas_all_src:I = 0x7f03018e
 
-.field public static final msg_quick_stat_reset:I = 0x7f03018f
+.field public static final msg_quick_operation:I = 0x7f03018f
 
-.field public static final msg_quick_wave_from:I = 0x7f030190
+.field public static final msg_quick_select_save:I = 0x7f030190
 
-.field public static final msg_quick_wave_mem_format:I = 0x7f030191
+.field public static final msg_quick_stat_reset:I = 0x7f030191
 
-.field public static final msg_quick_wave_scr_format:I = 0x7f030192
+.field public static final msg_quick_wave_from:I = 0x7f030192
 
-.field public static final msg_rec_play_back:I = 0x7f030193
+.field public static final msg_quick_wave_mem_format:I = 0x7f030193
 
-.field public static final msg_rec_play_next:I = 0x7f030194
+.field public static final msg_quick_wave_scr_format:I = 0x7f030194
 
-.field public static final msg_record_beeper:I = 0x7f030195
+.field public static final msg_rec_play_back:I = 0x7f030195
 
-.field public static final msg_record_framestart:I = 0x7f030196
+.field public static final msg_rec_play_next:I = 0x7f030196
 
-.field public static final msg_record_onoff:I = 0x7f030197
+.field public static final msg_record_beeper:I = 0x7f030197
 
-.field public static final msg_record_option:I = 0x7f030198
+.field public static final msg_record_framestart:I = 0x7f030198
 
-.field public static final msg_record_play:I = 0x7f030199
+.field public static final msg_record_onoff:I = 0x7f030199
 
-.field public static final msg_record_playdir:I = 0x7f03019a
+.field public static final msg_record_option:I = 0x7f03019a
 
-.field public static final msg_record_playmode:I = 0x7f03019b
+.field public static final msg_record_play:I = 0x7f03019b
 
-.field public static final msg_record_start:I = 0x7f03019c
+.field public static final msg_record_playdir:I = 0x7f03019c
 
-.field public static final msg_ref_channel:I = 0x7f03019d
+.field public static final msg_record_playmode:I = 0x7f03019d
 
-.field public static final msg_ref_color:I = 0x7f03019e
+.field public static final msg_record_start:I = 0x7f03019e
 
-.field public static final msg_ref_disptype:I = 0x7f03019f
+.field public static final msg_ref_channel:I = 0x7f03019f
 
-.field public static final msg_ref_label_name:I = 0x7f0301a0
+.field public static final msg_ref_color:I = 0x7f0301a0
 
-.field public static final msg_ref_label_onoff:I = 0x7f0301a1
+.field public static final msg_ref_disptype:I = 0x7f0301a1
 
-.field public static final msg_ref_source:I = 0x7f0301a2
+.field public static final msg_ref_label_name:I = 0x7f0301a2
 
-.field public static final msg_search_edge_slope:I = 0x7f0301a3
+.field public static final msg_ref_label_onoff:I = 0x7f0301a3
 
-.field public static final msg_search_edge_source:I = 0x7f0301a4
+.field public static final msg_ref_source:I = 0x7f0301a4
 
-.field public static final msg_search_en:I = 0x7f0301a5
+.field public static final msg_search_edge_slope:I = 0x7f0301a5
 
-.field public static final msg_search_i2c_addrdata_bits:I = 0x7f0301a6
+.field public static final msg_search_edge_source:I = 0x7f0301a6
 
-.field public static final msg_search_i2c_addrtype:I = 0x7f0301a7
+.field public static final msg_search_en:I = 0x7f0301a7
 
-.field public static final msg_search_i2c_data:I = 0x7f0301a8
+.field public static final msg_search_i2c_addrdata_bits:I = 0x7f0301a8
 
-.field public static final msg_search_i2c_direction:I = 0x7f0301a9
+.field public static final msg_search_i2c_addrtype:I = 0x7f0301a9
 
-.field public static final msg_search_i2c_scl:I = 0x7f0301aa
+.field public static final msg_search_i2c_data:I = 0x7f0301aa
 
-.field public static final msg_search_i2c_sda:I = 0x7f0301ab
+.field public static final msg_search_i2c_direction:I = 0x7f0301ab
 
-.field public static final msg_search_i2c_when:I = 0x7f0301ac
+.field public static final msg_search_i2c_scl:I = 0x7f0301ac
 
-.field public static final msg_search_mark_tabel_en:I = 0x7f0301ad
+.field public static final msg_search_i2c_sda:I = 0x7f0301ad
 
-.field public static final msg_search_pulse_polarity:I = 0x7f0301ae
+.field public static final msg_search_i2c_when:I = 0x7f0301ae
 
-.field public static final msg_search_pulse_source:I = 0x7f0301af
+.field public static final msg_search_mark_tabel_en:I = 0x7f0301af
 
-.field public static final msg_search_pulse_when:I = 0x7f0301b0
+.field public static final msg_search_pulse_polarity:I = 0x7f0301b0
 
-.field public static final msg_search_rs232_baudrate:I = 0x7f0301b1
+.field public static final msg_search_pulse_source:I = 0x7f0301b1
 
-.field public static final msg_search_rs232_check:I = 0x7f0301b2
+.field public static final msg_search_pulse_when:I = 0x7f0301b2
 
-.field public static final msg_search_rs232_datawidth:I = 0x7f0301b3
+.field public static final msg_search_rs232_baudrate:I = 0x7f0301b3
 
-.field public static final msg_search_rs232_polarity:I = 0x7f0301b4
+.field public static final msg_search_rs232_check:I = 0x7f0301b4
 
-.field public static final msg_search_rs232_source:I = 0x7f0301b5
+.field public static final msg_search_rs232_datawidth:I = 0x7f0301b5
 
-.field public static final msg_search_rs232_stopbit:I = 0x7f0301b6
+.field public static final msg_search_rs232_polarity:I = 0x7f0301b6
 
-.field public static final msg_search_rs232_when:I = 0x7f0301b7
+.field public static final msg_search_rs232_source:I = 0x7f0301b7
 
-.field public static final msg_search_runt_polarity:I = 0x7f0301b8
+.field public static final msg_search_rs232_stopbit:I = 0x7f0301b8
 
-.field public static final msg_search_runt_qualifier:I = 0x7f0301b9
+.field public static final msg_search_rs232_when:I = 0x7f0301b9
 
-.field public static final msg_search_runt_source:I = 0x7f0301ba
+.field public static final msg_search_runt_polarity:I = 0x7f0301ba
 
-.field public static final msg_search_slope_polarity:I = 0x7f0301bb
+.field public static final msg_search_runt_qualifier:I = 0x7f0301bb
 
-.field public static final msg_search_slope_source:I = 0x7f0301bc
+.field public static final msg_search_runt_source:I = 0x7f0301bc
 
-.field public static final msg_search_slope_when:I = 0x7f0301bd
+.field public static final msg_search_slope_polarity:I = 0x7f0301bd
 
-.field public static final msg_search_spi_cs:I = 0x7f0301be
+.field public static final msg_search_slope_source:I = 0x7f0301be
 
-.field public static final msg_search_spi_csmode:I = 0x7f0301bf
+.field public static final msg_search_slope_when:I = 0x7f0301bf
 
-.field public static final msg_search_spi_data:I = 0x7f0301c0
+.field public static final msg_search_spi_cs:I = 0x7f0301c0
 
-.field public static final msg_search_spi_scl:I = 0x7f0301c1
+.field public static final msg_search_spi_csmode:I = 0x7f0301c1
 
-.field public static final msg_search_spi_sda:I = 0x7f0301c2
+.field public static final msg_search_spi_data:I = 0x7f0301c2
 
-.field public static final msg_search_spi_when:I = 0x7f0301c3
+.field public static final msg_search_spi_scl:I = 0x7f0301c3
 
-.field public static final msg_search_type:I = 0x7f0301c4
+.field public static final msg_search_spi_sda:I = 0x7f0301c4
 
-.field public static final msg_storage_channel:I = 0x7f0301c5
+.field public static final msg_search_spi_when:I = 0x7f0301c5
 
-.field public static final msg_storage_connect_state:I = 0x7f0301c6
+.field public static final msg_search_type:I = 0x7f0301c6
 
-.field public static final msg_storage_dialog_visible:I = 0x7f0301c7
+.field public static final msg_storage_channel:I = 0x7f0301c7
 
-.field public static final msg_storage_filetype:I = 0x7f0301c8
+.field public static final msg_storage_connect_state:I = 0x7f0301c8
 
-.field public static final msg_storage_image_color:I = 0x7f0301c9
+.field public static final msg_storage_dialog_visible:I = 0x7f0301c9
 
-.field public static final msg_storage_image_footer:I = 0x7f0301ca
+.field public static final msg_storage_filetype:I = 0x7f0301ca
 
-.field public static final msg_storage_image_format:I = 0x7f0301cb
+.field public static final msg_storage_image_color:I = 0x7f0301cb
 
-.field public static final msg_storage_image_header:I = 0x7f0301cc
+.field public static final msg_storage_image_footer:I = 0x7f0301cc
 
-.field public static final msg_storage_image_invert:I = 0x7f0301cd
+.field public static final msg_storage_image_format:I = 0x7f0301cd
 
-.field public static final msg_storage_load_option:I = 0x7f0301ce
+.field public static final msg_storage_image_header:I = 0x7f0301ce
 
-.field public static final msg_storage_load_setup:I = 0x7f0301cf
+.field public static final msg_storage_image_invert:I = 0x7f0301cf
 
-.field public static final msg_storage_load_wave:I = 0x7f0301d0
+.field public static final msg_storage_load_option:I = 0x7f0301d0
 
-.field public static final msg_storage_mem_csv_time:I = 0x7f0301d1
+.field public static final msg_storage_load_setup:I = 0x7f0301d1
 
-.field public static final msg_storage_operation:I = 0x7f0301d2
+.field public static final msg_storage_load_wave:I = 0x7f0301d2
 
-.field public static final msg_storage_option_parasave:I = 0x7f0301d3
+.field public static final msg_storage_mem_csv_time:I = 0x7f0301d3
 
-.field public static final msg_storage_overlay:I = 0x7f0301d4
+.field public static final msg_storage_operation:I = 0x7f0301d4
 
-.field public static final msg_storage_save_option:I = 0x7f0301d5
+.field public static final msg_storage_option_parasave:I = 0x7f0301d5
 
-.field public static final msg_storage_scr_format:I = 0x7f0301d6
+.field public static final msg_storage_overlay:I = 0x7f0301d6
 
-.field public static final msg_storage_setup_format:I = 0x7f0301d7
+.field public static final msg_storage_peak_detect:I = 0x7f0301d7
 
-.field public static final msg_storage_wave_depth:I = 0x7f0301d8
+.field public static final msg_storage_save_meas_option:I = 0x7f0301d8
 
-.field public static final msg_storage_wave_format:I = 0x7f0301d9
+.field public static final msg_storage_save_option:I = 0x7f0301d9
 
-.field public static final msg_storage_wfm_channel:I = 0x7f0301da
+.field public static final msg_storage_scr_format:I = 0x7f0301da
 
-.field public static final msg_touch_enable:I = 0x7f0301db
+.field public static final msg_storage_setup_format:I = 0x7f0301db
 
-.field public static final msg_trig_zone_a_enable:I = 0x7f0301dc
+.field public static final msg_storage_wave_depth:I = 0x7f0301dc
 
-.field public static final msg_trig_zone_a_intersect:I = 0x7f0301dd
+.field public static final msg_storage_wave_format:I = 0x7f0301dd
 
-.field public static final msg_trig_zone_a_source:I = 0x7f0301de
+.field public static final msg_storage_wfm_channel:I = 0x7f0301de
 
-.field public static final msg_trig_zone_b_enable:I = 0x7f0301df
+.field public static final msg_touch_enable:I = 0x7f0301df
 
-.field public static final msg_trig_zone_b_intersect:I = 0x7f0301e0
+.field public static final msg_trig_zone_a_enable:I = 0x7f0301e0
 
-.field public static final msg_trig_zone_b_source:I = 0x7f0301e1
+.field public static final msg_trig_zone_a_intersect:I = 0x7f0301e1
 
-.field public static final msg_trigger_1553b_data_comp:I = 0x7f0301e2
+.field public static final msg_trig_zone_a_source:I = 0x7f0301e2
 
-.field public static final msg_trigger_1553b_err_type:I = 0x7f0301e3
+.field public static final msg_trig_zone_b_enable:I = 0x7f0301e3
 
-.field public static final msg_trigger_1553b_sync_type:I = 0x7f0301e4
+.field public static final msg_trig_zone_b_intersect:I = 0x7f0301e4
 
-.field public static final msg_trigger_1553b_when:I = 0x7f0301e5
+.field public static final msg_trig_zone_b_source:I = 0x7f0301e5
 
-.field public static final msg_trigger_ab_a_type:I = 0x7f0301e6
+.field public static final msg_trigger_1553b_data_comp:I = 0x7f0301e6
 
-.field public static final msg_trigger_ab_when:I = 0x7f0301e7
+.field public static final msg_trigger_1553b_err_type:I = 0x7f0301e7
 
-.field public static final msg_trigger_can_baud:I = 0x7f0301e8
+.field public static final msg_trigger_1553b_sync_type:I = 0x7f0301e8
 
-.field public static final msg_trigger_can_define:I = 0x7f0301e9
+.field public static final msg_trigger_1553b_when:I = 0x7f0301e9
 
-.field public static final msg_trigger_can_id_extended:I = 0x7f0301ea
+.field public static final msg_trigger_ab_a_type:I = 0x7f0301ea
 
-.field public static final msg_trigger_can_id_filter:I = 0x7f0301eb
+.field public static final msg_trigger_ab_when:I = 0x7f0301eb
 
-.field public static final msg_trigger_can_singnal:I = 0x7f0301ec
+.field public static final msg_trigger_can_baud:I = 0x7f0301ec
 
-.field public static final msg_trigger_can_standard:I = 0x7f0301ed
+.field public static final msg_trigger_can_define:I = 0x7f0301ed
 
-.field public static final msg_trigger_can_when:I = 0x7f0301ee
+.field public static final msg_trigger_can_id_extended:I = 0x7f0301ee
 
-.field public static final msg_trigger_canfd_baud:I = 0x7f0301ef
+.field public static final msg_trigger_can_id_filter:I = 0x7f0301ef
 
-.field public static final msg_trigger_code:I = 0x7f0301f0
+.field public static final msg_trigger_can_singnal:I = 0x7f0301f0
 
-.field public static final msg_trigger_coupling:I = 0x7f0301f1
+.field public static final msg_trigger_can_standard:I = 0x7f0301f1
 
-.field public static final msg_trigger_delay_srca:I = 0x7f0301f2
+.field public static final msg_trigger_can_when:I = 0x7f0301f2
 
-.field public static final msg_trigger_delay_srcb:I = 0x7f0301f3
+.field public static final msg_trigger_canfd_baud:I = 0x7f0301f3
 
-.field public static final msg_trigger_delay_when:I = 0x7f0301f4
+.field public static final msg_trigger_code:I = 0x7f0301f4
 
-.field public static final msg_trigger_duration_when:I = 0x7f0301f5
+.field public static final msg_trigger_coupling:I = 0x7f0301f5
 
-.field public static final msg_trigger_edge_a:I = 0x7f0301f6
+.field public static final msg_trigger_delay_srca:I = 0x7f0301f6
 
-.field public static final msg_trigger_edge_b:I = 0x7f0301f7
+.field public static final msg_trigger_delay_srcb:I = 0x7f0301f7
 
-.field public static final msg_trigger_edgea:I = 0x7f0301f8
+.field public static final msg_trigger_delay_when:I = 0x7f0301f8
 
-.field public static final msg_trigger_edgeb:I = 0x7f0301f9
+.field public static final msg_trigger_duration_when:I = 0x7f0301f9
 
-.field public static final msg_trigger_flexray_baud:I = 0x7f0301fa
+.field public static final msg_trigger_edge_a:I = 0x7f0301fa
 
-.field public static final msg_trigger_flexray_ch_a_b:I = 0x7f0301fb
+.field public static final msg_trigger_edge_b:I = 0x7f0301fb
 
-.field public static final msg_trigger_flexray_cyc_comp:I = 0x7f0301fc
+.field public static final msg_trigger_edgea:I = 0x7f0301fc
 
-.field public static final msg_trigger_flexray_define:I = 0x7f0301fd
+.field public static final msg_trigger_edgeb:I = 0x7f0301fd
 
-.field public static final msg_trigger_flexray_error_type:I = 0x7f0301fe
+.field public static final msg_trigger_flexray_baud:I = 0x7f0301fe
 
-.field public static final msg_trigger_flexray_frame_type:I = 0x7f0301ff
+.field public static final msg_trigger_flexray_ch_a_b:I = 0x7f0301ff
 
-.field public static final msg_trigger_flexray_id_comp:I = 0x7f030200
+.field public static final msg_trigger_flexray_cyc_comp:I = 0x7f030200
 
-.field public static final msg_trigger_flexray_post_type:I = 0x7f030201
+.field public static final msg_trigger_flexray_define:I = 0x7f030201
 
-.field public static final msg_trigger_flexray_symbol_type:I = 0x7f030202
+.field public static final msg_trigger_flexray_error_type:I = 0x7f030202
 
-.field public static final msg_trigger_flexray_when:I = 0x7f030203
+.field public static final msg_trigger_flexray_frame_type:I = 0x7f030203
 
-.field public static final msg_trigger_i2c_addrdata_bits:I = 0x7f030204
+.field public static final msg_trigger_flexray_id_comp:I = 0x7f030204
 
-.field public static final msg_trigger_i2c_addrtype:I = 0x7f030205
+.field public static final msg_trigger_flexray_post_type:I = 0x7f030205
 
-.field public static final msg_trigger_i2c_data:I = 0x7f030206
+.field public static final msg_trigger_flexray_symbol_type:I = 0x7f030206
 
-.field public static final msg_trigger_i2c_direction:I = 0x7f030207
+.field public static final msg_trigger_flexray_when:I = 0x7f030207
 
-.field public static final msg_trigger_i2c_scl:I = 0x7f030208
+.field public static final msg_trigger_i2c_addrdata_bits:I = 0x7f030208
 
-.field public static final msg_trigger_i2c_sda:I = 0x7f030209
+.field public static final msg_trigger_i2c_addrtype:I = 0x7f030209
 
-.field public static final msg_trigger_i2c_when:I = 0x7f03020a
+.field public static final msg_trigger_i2c_data:I = 0x7f03020a
 
-.field public static final msg_trigger_iis_alignment:I = 0x7f03020b
+.field public static final msg_trigger_i2c_direction:I = 0x7f03020b
 
-.field public static final msg_trigger_iis_sclk:I = 0x7f03020c
+.field public static final msg_trigger_i2c_scl:I = 0x7f03020c
 
-.field public static final msg_trigger_iis_sda:I = 0x7f03020d
+.field public static final msg_trigger_i2c_sda:I = 0x7f03020d
 
-.field public static final msg_trigger_iis_slope:I = 0x7f03020e
+.field public static final msg_trigger_i2c_when:I = 0x7f03020e
 
-.field public static final msg_trigger_iis_when:I = 0x7f03020f
+.field public static final msg_trigger_iis_alignment:I = 0x7f03020f
 
-.field public static final msg_trigger_iis_ws:I = 0x7f030210
+.field public static final msg_trigger_iis_sclk:I = 0x7f030210
 
-.field public static final msg_trigger_iis_ws_low:I = 0x7f030211
+.field public static final msg_trigger_iis_sda:I = 0x7f030211
 
-.field public static final msg_trigger_levelselect:I = 0x7f030212
+.field public static final msg_trigger_iis_slope:I = 0x7f030212
 
-.field public static final msg_trigger_lin_baud:I = 0x7f030213
+.field public static final msg_trigger_iis_when:I = 0x7f030213
 
-.field public static final msg_trigger_lin_err_type:I = 0x7f030214
+.field public static final msg_trigger_iis_ws:I = 0x7f030214
 
-.field public static final msg_trigger_lin_version:I = 0x7f030215
+.field public static final msg_trigger_iis_ws_low:I = 0x7f030215
 
-.field public static final msg_trigger_lin_when:I = 0x7f030216
+.field public static final msg_trigger_levelselect:I = 0x7f030216
 
-.field public static final msg_trigger_noise:I = 0x7f030217
+.field public static final msg_trigger_lin_baud:I = 0x7f030217
 
-.field public static final msg_trigger_over_pos:I = 0x7f030218
+.field public static final msg_trigger_lin_err_type:I = 0x7f030218
 
-.field public static final msg_trigger_over_slope:I = 0x7f030219
+.field public static final msg_trigger_lin_version:I = 0x7f030219
 
-.field public static final msg_trigger_polarity:I = 0x7f03021a
+.field public static final msg_trigger_lin_when:I = 0x7f03021a
 
-.field public static final msg_trigger_pulse_when:I = 0x7f03021b
+.field public static final msg_trigger_noise:I = 0x7f03021b
 
-.field public static final msg_trigger_rs232_baudrate:I = 0x7f03021c
+.field public static final msg_trigger_over_pos:I = 0x7f03021c
 
-.field public static final msg_trigger_rs232_check:I = 0x7f03021d
+.field public static final msg_trigger_over_slope:I = 0x7f03021d
 
-.field public static final msg_trigger_rs232_datawidth:I = 0x7f03021e
+.field public static final msg_trigger_polarity:I = 0x7f03021e
 
-.field public static final msg_trigger_rs232_polarity:I = 0x7f03021f
+.field public static final msg_trigger_pulse_when:I = 0x7f03021f
 
-.field public static final msg_trigger_rs232_stopbit:I = 0x7f030220
+.field public static final msg_trigger_rs232_baudrate:I = 0x7f030220
 
-.field public static final msg_trigger_rs232_when:I = 0x7f030221
+.field public static final msg_trigger_rs232_check:I = 0x7f030221
 
-.field public static final msg_trigger_runt_when:I = 0x7f030222
+.field public static final msg_trigger_rs232_datawidth:I = 0x7f030222
 
-.field public static final msg_trigger_setup_data:I = 0x7f030223
+.field public static final msg_trigger_rs232_polarity:I = 0x7f030223
 
-.field public static final msg_trigger_setup_scl:I = 0x7f030224
+.field public static final msg_trigger_rs232_stopbit:I = 0x7f030224
 
-.field public static final msg_trigger_setup_sda:I = 0x7f030225
+.field public static final msg_trigger_rs232_when:I = 0x7f030225
 
-.field public static final msg_trigger_setup_when:I = 0x7f030226
+.field public static final msg_trigger_runt_when:I = 0x7f030226
 
-.field public static final msg_trigger_slope_polarity:I = 0x7f030227
+.field public static final msg_trigger_setup_data:I = 0x7f030227
 
-.field public static final msg_trigger_slope_when:I = 0x7f030228
+.field public static final msg_trigger_setup_scl:I = 0x7f030228
 
-.field public static final msg_trigger_source:I = 0x7f030229
+.field public static final msg_trigger_setup_sda:I = 0x7f030229
 
-.field public static final msg_trigger_source_la:I = 0x7f03022a
+.field public static final msg_trigger_setup_when:I = 0x7f03022a
 
-.field public static final msg_trigger_source_la_ext:I = 0x7f03022b
+.field public static final msg_trigger_slope_polarity:I = 0x7f03022b
 
-.field public static final msg_trigger_source_la_ext_ac:I = 0x7f03022c
+.field public static final msg_trigger_slope_when:I = 0x7f03022c
 
-.field public static final msg_trigger_spi_cs:I = 0x7f03022d
+.field public static final msg_trigger_source:I = 0x7f03022d
 
-.field public static final msg_trigger_spi_csmode:I = 0x7f03022e
+.field public static final msg_trigger_source_la:I = 0x7f03022e
 
-.field public static final msg_trigger_spi_data:I = 0x7f03022f
+.field public static final msg_trigger_source_la_ext:I = 0x7f03022f
 
-.field public static final msg_trigger_spi_scl:I = 0x7f030230
+.field public static final msg_trigger_source_la_ext_ac:I = 0x7f030230
 
-.field public static final msg_trigger_spi_sda:I = 0x7f030231
+.field public static final msg_trigger_spi_cs:I = 0x7f030231
 
-.field public static final msg_trigger_spi_when:I = 0x7f030232
+.field public static final msg_trigger_spi_csmode:I = 0x7f030232
 
-.field public static final msg_trigger_sweep:I = 0x7f030233
+.field public static final msg_trigger_spi_data:I = 0x7f030233
 
-.field public static final msg_trigger_type:I = 0x7f030234
+.field public static final msg_trigger_spi_scl:I = 0x7f030234
 
-.field public static final msg_trigger_video_standard:I = 0x7f030235
+.field public static final msg_trigger_spi_sda:I = 0x7f030235
 
-.field public static final msg_trigger_video_sync:I = 0x7f030236
+.field public static final msg_trigger_spi_when:I = 0x7f030236
 
-.field public static final msg_trigger_window_pos:I = 0x7f030237
+.field public static final msg_trigger_sweep:I = 0x7f030237
 
-.field public static final msg_upa_power_curr:I = 0x7f030238
+.field public static final msg_trigger_type:I = 0x7f030238
 
-.field public static final msg_upa_power_disp:I = 0x7f030239
+.field public static final msg_trigger_video_standard:I = 0x7f030239
 
-.field public static final msg_upa_power_fref:I = 0x7f03023a
+.field public static final msg_trigger_video_sync:I = 0x7f03023a
 
-.field public static final msg_upa_power_volt:I = 0x7f03023b
+.field public static final msg_trigger_window_pos:I = 0x7f03023b
 
-.field public static final msg_upa_refl_type:I = 0x7f03023c
+.field public static final msg_upa_power_curr:I = 0x7f03023c
 
-.field public static final msg_upa_ripple_disp:I = 0x7f03023d
+.field public static final msg_upa_power_disp:I = 0x7f03023d
 
-.field public static final msg_upa_ripple_source:I = 0x7f03023e
+.field public static final msg_upa_power_fref:I = 0x7f03023e
 
-.field public static final msg_upa_type:I = 0x7f03023f
+.field public static final msg_upa_power_volt:I = 0x7f03023f
 
-.field public static final msg_usb_analyse_diff:I = 0x7f030240
+.field public static final msg_upa_refl_type:I = 0x7f030240
 
-.field public static final msg_usb_analyse_dp:I = 0x7f030241
+.field public static final msg_upa_ripple_disp:I = 0x7f030241
 
-.field public static final msg_usb_analyse_ds:I = 0x7f030242
+.field public static final msg_upa_ripple_source:I = 0x7f030242
 
-.field public static final msg_usb_analyse_point:I = 0x7f030243
+.field public static final msg_upa_type:I = 0x7f030243
 
-.field public static final msg_usb_analyse_type:I = 0x7f030244
+.field public static final msg_usb_analyse_diff:I = 0x7f030244
 
-.field public static final tek_msg_hor_delay_sample:I = 0x7f030245
+.field public static final msg_usb_analyse_dp:I = 0x7f030245
 
-.field public static final window_type_list:I = 0x7f030246
+.field public static final msg_usb_analyse_ds:I = 0x7f030246
+
+.field public static final msg_usb_analyse_point:I = 0x7f030247
+
+.field public static final msg_usb_analyse_type:I = 0x7f030248
+
+.field public static final tek_msg_hor_delay_sample:I = 0x7f030249
+
+.field public static final window_type_list:I = 0x7f03024a
 
 
 # direct methods

@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 9722
+    .line 9732
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$ApiSweepType;
 
     const-string v1, "API_SWEEP_LINEAR"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$ApiSweepType;->API_SWEEP_LINEAR:Lcom/rigol/scope/cil/ServiceEnum$ApiSweepType;
 
-    .line 9723
+    .line 9733
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ApiSweepType;
 
     const-string v9, "API_SWEEP_LOG"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ApiSweepType;->API_SWEEP_LOG:Lcom/rigol/scope/cil/ServiceEnum$ApiSweepType;
 
-    .line 9724
+    .line 9734
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ApiSweepType;
 
     const-string v2, "API_SWEEP_STEP"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$ApiSweepType;
 
-    .line 9720
+    .line 9730
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$ApiSweepType;->API_SWEEP_LINEAR:Lcom/rigol/scope/cil/ServiceEnum$ApiSweepType;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 9727
+    .line 9737
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 9728
+    .line 9738
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$ApiSweepType;->value1:I
 
-    .line 9729
+    .line 9739
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$ApiSweepType;->value2:Ljava/lang/String;
 
-    .line 9730
+    .line 9740
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$ApiSweepType;->pic1:Ljava/lang/String;
 
-    .line 9731
+    .line 9741
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$ApiSweepType;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$ApiSweepType;
     .locals 1
 
-    .line 9720
+    .line 9730
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$ApiSweepType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$ApiSweepType;
     .locals 1
 
-    .line 9720
+    .line 9730
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$ApiSweepType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$ApiSweepType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$ApiSweepType;->clone()Ljava/lang/Object;

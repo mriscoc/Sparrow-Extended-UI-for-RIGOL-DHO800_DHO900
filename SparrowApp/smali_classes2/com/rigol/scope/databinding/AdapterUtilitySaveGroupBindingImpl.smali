@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterUtilitySaveGroupBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08b5
+    const v1, 0x7f0a08c1
 
     const/4 v2, 0x4
 
@@ -179,7 +179,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x305
+    const/16 v0, 0x309
 
     if-ne p2, v0, :cond_1
 
@@ -517,7 +517,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x252
+    const/16 p1, 0x254
 
     .line 83
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterUtilitySaveGroupBindingImpl;->notifyPropertyChanged(I)V
@@ -542,7 +542,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x252
+    const/16 v0, 0x254
 
     if-ne v0, p1, :cond_0
 

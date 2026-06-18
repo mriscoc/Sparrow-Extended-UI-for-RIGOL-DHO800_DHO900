@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/adapters/ResultListAdapter;)V
     .locals 0
 
-    .line 2242
+    .line 2202
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$162;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$162;->val$adapter:Lcom/rigol/scope/adapters/ResultListAdapter;
@@ -51,14 +51,14 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 2
 
-    .line 2245
+    .line 2205
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$162;->val$adapter:Lcom/rigol/scope/adapters/ResultListAdapter;
 
     const-class v0, Lcom/rigol/scope/views/histogram/MeasHistogramResultParam;
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/adapters/ResultListAdapter;->onItemDataChanged(Ljava/lang/Class;)V
 
-    .line 2246
+    .line 2206
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p1
@@ -69,7 +69,7 @@
 
     move-result-object v0
 
-    const-string v1, "34_8478"
+    const-string v1, "34_8990"
 
     invoke-virtual {p1, v1, v0}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
 
@@ -79,7 +79,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 2242
+    .line 2202
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$162;->onChanged(Ljava/lang/Boolean;)V

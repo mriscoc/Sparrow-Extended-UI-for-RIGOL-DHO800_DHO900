@@ -25,7 +25,7 @@
 .method constructor <init>(Lcom/rigol/scope/adapters/MathLogicAdapter$6;)V
     .locals 0
 
-    .line 378
+    .line 381
     iput-object p1, p0, Lcom/rigol/scope/adapters/MathLogicAdapter$6$1;->this$1:Lcom/rigol/scope/adapters/MathLogicAdapter$6;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +38,7 @@
 .method public onCall(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
     .locals 1
 
-    .line 403
+    .line 406
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathLogicAdapter$6$1;->this$1:Lcom/rigol/scope/adapters/MathLogicAdapter$6;
 
     iget-object v0, v0, Lcom/rigol/scope/adapters/MathLogicAdapter$6;->this$0:Lcom/rigol/scope/adapters/MathLogicAdapter;
@@ -58,7 +58,7 @@
         }
     .end annotation
 
-    .line 383
+    .line 386
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathLogicAdapter$6$1;->this$1:Lcom/rigol/scope/adapters/MathLogicAdapter$6;
 
     iget-object v0, v0, Lcom/rigol/scope/adapters/MathLogicAdapter$6;->this$0:Lcom/rigol/scope/adapters/MathLogicAdapter;
@@ -75,7 +75,7 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/data/MathParam;->saveThresholdCH1(J)V
 
-    .line 386
+    .line 389
     const-class v0, Lcom/rigol/scope/viewmodels/MathViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -86,7 +86,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 388
+    .line 391
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/MathViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -99,7 +99,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 391
+    .line 394
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -118,7 +118,7 @@
 
     check-cast v1, Lcom/rigol/scope/data/MathParam;
 
-    .line 392
+    .line 395
     invoke-virtual {v1}, Lcom/rigol/scope/data/MathParam;->getServiceId()I
 
     move-result v2
@@ -137,7 +137,7 @@
 
     if-eq v2, v3, :cond_0
 
-    .line 393
+    .line 396
     invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
 
     move-result-wide v2

@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/DvmResultParam;)V
     .locals 0
 
-    .line 6602
+    .line 6561
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$568;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$568;->val$param:Lcom/rigol/scope/data/DvmResultParam;
@@ -51,10 +51,10 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 6605
+    .line 6564
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$568;->val$param:Lcom/rigol/scope/data/DvmResultParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/DvmResultParam;->readSource()Lcom/rigol/scope/cil/ServiceEnum$Chan;
+    invoke-virtual {p1}, Lcom/rigol/scope/data/DvmResultParam;->readMode()Lcom/rigol/scope/cil/ServiceEnum$DvmMode;
 
     return-void
 .end method
@@ -62,7 +62,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 6602
+    .line 6561
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$568;->onChanged(Ljava/lang/Boolean;)V

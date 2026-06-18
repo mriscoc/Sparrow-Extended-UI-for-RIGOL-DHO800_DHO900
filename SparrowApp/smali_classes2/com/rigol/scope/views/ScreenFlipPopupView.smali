@@ -271,7 +271,7 @@
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/PopupviewScreenFlipBinding;->content:Landroid/widget/TextView;
 
-    const v0, 0x7f100795
+    const v0, 0x7f10079d
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -297,12 +297,12 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f100796
+    const p1, 0x7f10079e
 
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f100794
+    const p1, 0x7f10079c
 
     :goto_0
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setText(I)V

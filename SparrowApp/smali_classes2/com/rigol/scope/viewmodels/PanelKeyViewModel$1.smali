@@ -27,7 +27,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/PanelKeyViewModel;Landroid/os/Handler;)V
     .locals 0
 
-    .line 841
+    .line 846
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/PanelKeyViewModel$1;->this$0:Lcom/rigol/scope/viewmodels/PanelKeyViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/PanelKeyViewModel$1;->val$handler:Landroid/os/Handler;
@@ -42,10 +42,10 @@
 .method public run()V
     .locals 2
 
-    .line 844
+    .line 849
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->quickAction()V
 
-    .line 845
+    .line 850
     iget-object v0, p0, Lcom/rigol/scope/viewmodels/PanelKeyViewModel$1;->val$handler:Landroid/os/Handler;
 
     const/4 v1, 0x0

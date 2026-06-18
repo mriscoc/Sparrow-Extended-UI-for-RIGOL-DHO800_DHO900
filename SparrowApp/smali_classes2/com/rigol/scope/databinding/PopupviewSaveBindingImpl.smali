@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/PopupviewSaveBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04cc
+    const v1, 0x7f0a04ce
 
     const/4 v2, 0x4
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewSaveBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a047e
+    const v1, 0x7f0a0480
 
     const/4 v2, 0x5
 
@@ -45,7 +45,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewSaveBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0481
+    const v1, 0x7f0a0483
 
     const/4 v2, 0x6
 
@@ -54,7 +54,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewSaveBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0483
+    const v1, 0x7f0a0485
 
     const/4 v2, 0x7
 
@@ -63,7 +63,7 @@
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewSaveBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a07cd
+    const v1, 0x7f0a07d9
 
     const/16 v2, 0x8
 
@@ -283,7 +283,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x28e
+    const/16 v0, 0x291
 
     if-ne p2, v0, :cond_2
 
@@ -315,7 +315,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x25b
+    const/16 v0, 0x25d
 
     if-ne p2, v0, :cond_3
 
@@ -387,7 +387,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -488,7 +488,7 @@
     move v14, v6
 
     :goto_0
-    const v15, 0x7f0301c8
+    const v15, 0x7f0301ca
 
     .line 175
     invoke-static {v15, v14}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -755,7 +755,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x252
+    const/16 p1, 0x254
 
     .line 91
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewSaveBindingImpl;->notifyPropertyChanged(I)V
@@ -780,7 +780,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x252
+    const/16 v0, 0x254
 
     if-ne v0, p1, :cond_0
 

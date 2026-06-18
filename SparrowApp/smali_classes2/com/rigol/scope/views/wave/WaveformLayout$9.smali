@@ -25,7 +25,7 @@
 .method constructor <init>(Lcom/rigol/scope/views/wave/WaveformLayout;)V
     .locals 0
 
-    .line 1513
+    .line 1534
     iput-object p1, p0, Lcom/rigol/scope/views/wave/WaveformLayout$9;->this$0:Lcom/rigol/scope/views/wave/WaveformLayout;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +38,7 @@
 .method public onDrag(Landroid/view/View;Landroid/view/DragEvent;)Z
     .locals 3
 
-    .line 1516
+    .line 1537
     invoke-virtual {p2}, Landroid/view/DragEvent;->getAction()I
 
     move-result p1
@@ -54,7 +54,7 @@
     :pswitch_0
     return v1
 
-    .line 1543
+    .line 1564
     :goto_0
     :pswitch_1
     iget-object p1, p0, Lcom/rigol/scope/views/wave/WaveformLayout$9;->this$0:Lcom/rigol/scope/views/wave/WaveformLayout;
@@ -69,7 +69,7 @@
 
     if-ge v0, p1, :cond_1
 
-    .line 1544
+    .line 1565
     invoke-virtual {p2}, Landroid/view/DragEvent;->getY()F
 
     move-result p1
@@ -138,7 +138,7 @@
 
     if-nez p1, :cond_0
 
-    .line 1545
+    .line 1566
     iget-object p1, p0, Lcom/rigol/scope/views/wave/WaveformLayout$9;->this$0:Lcom/rigol/scope/views/wave/WaveformLayout;
 
     iput v0, p1, Lcom/rigol/scope/views/wave/WaveformLayout;->localisationnew:I
@@ -148,7 +148,7 @@
 
     goto :goto_0
 
-    .line 1549
+    .line 1570
     :cond_1
     iget-object p1, p0, Lcom/rigol/scope/views/wave/WaveformLayout$9;->this$0:Lcom/rigol/scope/views/wave/WaveformLayout;
 
@@ -188,7 +188,7 @@
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/views/la/LaLienView;->setPosition(F)V
 
-    .line 1551
+    .line 1572
     iget-object p1, p0, Lcom/rigol/scope/views/wave/WaveformLayout$9;->this$0:Lcom/rigol/scope/views/wave/WaveformLayout;
 
     invoke-static {p1}, Lcom/rigol/scope/views/wave/WaveformLayout;->access$1300(Lcom/rigol/scope/views/wave/WaveformLayout;)Ljava/util/List;
@@ -250,7 +250,7 @@
     :pswitch_2
     return v1
 
-    .line 1533
+    .line 1554
     :pswitch_3
     iget-object p1, p0, Lcom/rigol/scope/views/wave/WaveformLayout$9;->this$0:Lcom/rigol/scope/views/wave/WaveformLayout;
 
@@ -262,7 +262,7 @@
 
     iput v2, p1, Lcom/rigol/scope/views/wave/WaveformLayout;->localisation:I
 
-    .line 1534
+    .line 1555
     :goto_1
     iget-object p1, p0, Lcom/rigol/scope/views/wave/WaveformLayout$9;->this$0:Lcom/rigol/scope/views/wave/WaveformLayout;
 
@@ -276,7 +276,7 @@
 
     if-ge v0, p1, :cond_3
 
-    .line 1535
+    .line 1556
     invoke-virtual {p2}, Landroid/view/DragEvent;->getY()F
 
     move-result p1
@@ -345,7 +345,7 @@
 
     if-nez p1, :cond_2
 
-    .line 1536
+    .line 1557
     iget-object p1, p0, Lcom/rigol/scope/views/wave/WaveformLayout$9;->this$0:Lcom/rigol/scope/views/wave/WaveformLayout;
 
     iput v0, p1, Lcom/rigol/scope/views/wave/WaveformLayout;->localisationold:I

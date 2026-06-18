@@ -71,7 +71,7 @@
     .line 1472
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/TriggerLevelTag;->setTagHeight(I)V
 
-    const p1, 0x7f1019a3
+    const p1, 0x7f1019bd
 
     .line 1475
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getString(I)Ljava/lang/String;
@@ -142,7 +142,7 @@
 
     if-eqz p1, :cond_1
 
-    const/16 v1, 0x4f1c
+    const/16 v1, 0x511c
 
     .line 1496
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -181,7 +181,7 @@
     :goto_0
     if-eqz p1, :cond_3
 
-    const/16 v1, 0x4fab
+    const/16 v1, 0x51ab
 
     .line 1499
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;

@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->bind(Landroidx/lifecycle/LifecycleOwner;Lcom/rigol/scope/data/NavigateParam;)V
+    value = Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->bind(Landroidx/lifecycle/LifecycleOwner;Lcom/rigol/scope/data/DvmResultParam;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,7 +20,7 @@
     value = {
         "Ljava/lang/Object;",
         "Landroidx/lifecycle/Observer<",
-        "Ljava/lang/Object;",
+        "Ljava/lang/Boolean;",
         ">;"
     }
 .end annotation
@@ -29,13 +29,17 @@
 # instance fields
 .field final synthetic this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
+.field final synthetic val$param:Lcom/rigol/scope/data/DvmResultParam;
+
 
 # direct methods
-.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;)V
+.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/DvmResultParam;)V
     .locals 0
 
-    .line 6642
+    .line 6593
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$572;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
+
+    iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$572;->val$param:Lcom/rigol/scope/data/DvmResultParam;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -44,25 +48,24 @@
 
 
 # virtual methods
-.method public onChanged(Ljava/lang/Object;)V
-    .locals 2
+.method public onChanged(Ljava/lang/Boolean;)V
+    .locals 0
 
-    .line 6646
-    invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
+    .line 6596
+    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$572;->val$param:Lcom/rigol/scope/data/DvmResultParam;
 
-    move-result-object p1
+    invoke-virtual {p1}, Lcom/rigol/scope/data/DvmResultParam;->readEnable()Z
 
-    const/16 v0, 0x3a
+    return-void
+.end method
 
-    const/16 v1, 0x3703
+.method public bridge synthetic onChanged(Ljava/lang/Object;)V
+    .locals 0
 
-    invoke-static {v0, v1}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
+    .line 6593
+    check-cast p1, Ljava/lang/Boolean;
 
-    move-result-object v0
-
-    const-string v1, "UPDATEUI"
-
-    invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$572;->onChanged(Ljava/lang/Boolean;)V
 
     return-void
 .end method

@@ -165,7 +165,7 @@
 
     const/16 v1, 0xc
 
-    const/16 v2, 0x4b5e
+    const/16 v2, 0x4d5f
 
     .line 88
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -276,7 +276,7 @@
 
     move-result v0
 
-    const v1, 0x7f0a07f8
+    const v1, 0x7f0a0804
 
     if-ne v0, v1, :cond_0
 
@@ -295,7 +295,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/views/storage/SmbSettingPopupView;->saveParam:Lcom/rigol/scope/data/StorageSaveParam;
 
-    invoke-static {v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     new-instance v7, Lcom/rigol/scope/views/storage/-$$Lambda$UX3H1KvxnY7RO-Rr_htbdBFYvH4;
 
@@ -314,7 +314,7 @@
     goto/16 :goto_0
 
     :cond_0
-    const v1, 0x7f0a0ab0
+    const v1, 0x7f0a0abc
 
     if-ne v0, v1, :cond_1
 
@@ -333,7 +333,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/views/storage/SmbSettingPopupView;->saveParam:Lcom/rigol/scope/data/StorageSaveParam;
 
-    invoke-static {v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     new-instance v7, Lcom/rigol/scope/views/storage/-$$Lambda$9Jk1tyPPhidjWbA9ZBEZsQtxgs0;
 
@@ -352,7 +352,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0a06d9
+    const v1, 0x7f0a06e3
 
     if-ne v0, v1, :cond_2
 
@@ -371,7 +371,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/views/storage/SmbSettingPopupView;->saveParam:Lcom/rigol/scope/data/StorageSaveParam;
 
-    invoke-static {v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     new-instance v7, Lcom/rigol/scope/views/storage/-$$Lambda$KS2p3m69B3aSPP03s3QF5Mh-tI0;
 
@@ -403,7 +403,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x4b59
+    const/16 v0, 0x4d5a
 
     invoke-virtual {p1, v2, v0, v1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
@@ -419,14 +419,14 @@
 
     move-result-object p1
 
-    const/16 v0, 0x4b5a
+    const/16 v0, 0x4d5b
 
     invoke-virtual {p1, v2, v0, v1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
     goto :goto_0
 
     :cond_4
-    const p1, 0x7f0a0820
+    const p1, 0x7f0a082c
 
     if-ne v0, p1, :cond_5
 

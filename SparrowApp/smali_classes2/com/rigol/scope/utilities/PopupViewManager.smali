@@ -53,12 +53,12 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 713
+    .line 736
     const-class v0, Lcom/rigol/scope/views/horizontal/HorizontalPopupView;
 
     sput-object v0, Lcom/rigol/scope/utilities/PopupViewManager;->HORIZONTAL_CLASS:Ljava/lang/Class;
 
-    .line 714
+    .line 737
     const-class v0, Lcom/rigol/scope/views/trigger/TriggerPopupView;
 
     sput-object v0, Lcom/rigol/scope/utilities/PopupViewManager;->TRIGGER_CLASS:Ljava/lang/Class;
@@ -95,10 +95,10 @@
 .method private counterLight()V
     .locals 0
 
-    .line 1323
+    .line 1346
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->closeAllLight()V
 
-    .line 1324
+    .line 1347
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->AVerticalLight_Open()V
 
     return-void
@@ -229,13 +229,89 @@
     return v0
 .end method
 
+.method private isAllowedPopView(Lcom/rigol/scope/views/baseview/BasePopupView;)Z
+    .locals 1
+
+    .line 504
+    instance-of v0, p1, Lcom/rigol/scope/views/startMenu/StartMenuPopupView;
+
+    if-nez v0, :cond_1
+
+    instance-of v0, p1, Lcom/rigol/scope/views/storage/StoragePopupView;
+
+    if-nez v0, :cond_1
+
+    instance-of v0, p1, Lcom/rigol/scope/views/alert/RebootPopupView;
+
+    if-nez v0, :cond_1
+
+    instance-of v0, p1, Lcom/rigol/scope/views/alert/ShutDownPoupView;
+
+    if-nez v0, :cond_1
+
+    instance-of v0, p1, Lcom/rigol/scope/views/FileLoadLoading;
+
+    if-nez v0, :cond_1
+
+    instance-of v0, p1, Lcom/rigol/scope/views/UtilityPopupView;
+
+    if-nez v0, :cond_1
+
+    instance-of v0, p1, Lcom/rigol/scope/views/bode/BodePopupWin;
+
+    if-nez v0, :cond_1
+
+    instance-of p1, p1, Lcom/rigol/scope/views/bode/BodeResultPopuwin;
+
+    if-eqz p1, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p1, 0x0
+
+    goto :goto_1
+
+    :cond_1
+    :goto_0
+    const/4 p1, 0x1
+
+    :goto_1
+    return p1
+.end method
+
+.method private isBodeModuleOpen()Z
+    .locals 1
+
+    .line 494
+    const-class v0, Lcom/rigol/scope/viewmodels/BodeViewModel;
+
+    invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/rigol/scope/viewmodels/BodeViewModel;
+
+    invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/BodeViewModel;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/rigol/scope/data/BodeParam;
+
+    invoke-virtual {v0}, Lcom/rigol/scope/data/BodeParam;->getBodeEnable()Z
+
+    move-result v0
+
+    return v0
+.end method
+
 .method private upaLight()V
     .locals 0
 
-    .line 1340
+    .line 1363
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->closeAllLight()V
 
-    .line 1341
+    .line 1364
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->horizontalLight()V
 
     return-void
@@ -246,7 +322,7 @@
 .method public AHorizontalLight_Open()V
     .locals 5
 
-    .line 1023
+    .line 1046
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -257,7 +333,7 @@
 
     const/16 v2, 0xb
 
-    const/16 v3, 0x5760
+    const/16 v3, 0x5960
 
     const/4 v4, 0x1
 
@@ -269,7 +345,7 @@
 .method public AVerticalLight_Open()V
     .locals 5
 
-    .line 1032
+    .line 1055
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -280,7 +356,7 @@
 
     const/16 v2, 0xb
 
-    const/16 v3, 0x5760
+    const/16 v3, 0x5960
 
     const/4 v4, 0x1
 
@@ -292,7 +368,7 @@
 .method public BHorizontalLight_Open()V
     .locals 5
 
-    .line 1041
+    .line 1064
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -303,7 +379,7 @@
 
     const/16 v2, 0xb
 
-    const/16 v3, 0x5760
+    const/16 v3, 0x5960
 
     const/4 v4, 0x1
 
@@ -315,7 +391,7 @@
 .method public BVerticalLight_Open()V
     .locals 5
 
-    .line 1050
+    .line 1073
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -326,7 +402,7 @@
 
     const/16 v2, 0xb
 
-    const/16 v3, 0x5760
+    const/16 v3, 0x5960
 
     const/4 v4, 0x1
 
@@ -338,10 +414,10 @@
 .method public DefaultLight_Open()V
     .locals 5
 
-    .line 1060
+    .line 1083
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->closeAllLight()V
 
-    .line 1061
+    .line 1084
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -352,7 +428,7 @@
 
     const/16 v2, 0xb
 
-    const/16 v3, 0x5760
+    const/16 v3, 0x5960
 
     const/4 v4, 0x1
 
@@ -814,7 +890,7 @@
 
     new-instance v1, Lcom/rigol/scope/views/quick/QuickPopupView;
 
-    const v2, 0x7f03017b
+    const v2, 0x7f03017d
 
     invoke-direct {v1, v2}, Lcom/rigol/scope/views/quick/QuickPopupView;-><init>(I)V
 
@@ -836,7 +912,7 @@
 
     new-instance v1, Lcom/rigol/scope/views/quick/QuickPopupView;
 
-    const v2, 0x7f030117
+    const v2, 0x7f030118
 
     invoke-direct {v1, v2}, Lcom/rigol/scope/views/quick/QuickPopupView;-><init>(I)V
 
@@ -858,7 +934,7 @@
 
     new-instance v1, Lcom/rigol/scope/views/quick/QuickPopupView;
 
-    const v2, 0x7f03013f
+    const v2, 0x7f030140
 
     invoke-direct {v1, v2}, Lcom/rigol/scope/views/quick/QuickPopupView;-><init>(I)V
 
@@ -869,7 +945,7 @@
 
     new-instance v1, Lcom/rigol/scope/views/quick/QuickPopupView;
 
-    const v3, 0x7f030128
+    const v3, 0x7f030129
 
     invoke-direct {v1, v3}, Lcom/rigol/scope/views/quick/QuickPopupView;-><init>(I)V
 
@@ -880,7 +956,7 @@
 
     new-instance v1, Lcom/rigol/scope/views/quick/QuickPopupView;
 
-    const v3, 0x7f030160
+    const v3, 0x7f030161
 
     invoke-direct {v1, v3}, Lcom/rigol/scope/views/quick/QuickPopupView;-><init>(I)V
 
@@ -891,7 +967,7 @@
 
     new-instance v1, Lcom/rigol/scope/views/quick/QuickPopupView;
 
-    const v3, 0x7f03014d
+    const v3, 0x7f03014e
 
     invoke-direct {v1, v3}, Lcom/rigol/scope/views/quick/QuickPopupView;-><init>(I)V
 
@@ -1163,7 +1239,7 @@
 .method public closeAHorizontalLight()V
     .locals 5
 
-    .line 1092
+    .line 1115
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -1174,7 +1250,7 @@
 
     const/16 v2, 0xb
 
-    const/16 v3, 0x5760
+    const/16 v3, 0x5960
 
     const/4 v4, 0x0
 
@@ -1186,7 +1262,7 @@
 .method public closeAVerticalLight()V
     .locals 5
 
-    .line 1101
+    .line 1124
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -1197,7 +1273,7 @@
 
     const/16 v2, 0xb
 
-    const/16 v3, 0x5760
+    const/16 v3, 0x5960
 
     const/4 v4, 0x0
 
@@ -1209,7 +1285,7 @@
 .method public closeAllLight()V
     .locals 5
 
-    .line 1138
+    .line 1161
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -1220,13 +1296,13 @@
 
     const/16 v2, 0xb
 
-    const/16 v3, 0x5760
+    const/16 v3, 0x5960
 
     const/4 v4, 0x0
 
     invoke-virtual {v0, v2, v3, v1, v4}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
 
-    .line 1140
+    .line 1163
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -1237,7 +1313,7 @@
 
     invoke-virtual {v0, v2, v3, v1, v4}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
 
-    .line 1142
+    .line 1165
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -1248,7 +1324,7 @@
 
     invoke-virtual {v0, v2, v3, v1, v4}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
 
-    .line 1144
+    .line 1167
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -1259,7 +1335,7 @@
 
     invoke-virtual {v0, v2, v3, v1, v4}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
 
-    .line 1146
+    .line 1169
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -1276,7 +1352,7 @@
 .method public closeBHorizontalLight()V
     .locals 5
 
-    .line 1110
+    .line 1133
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -1287,7 +1363,7 @@
 
     const/16 v2, 0xb
 
-    const/16 v3, 0x5760
+    const/16 v3, 0x5960
 
     const/4 v4, 0x0
 
@@ -1299,7 +1375,7 @@
 .method public closeBVerticalLight()V
     .locals 5
 
-    .line 1119
+    .line 1142
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -1310,7 +1386,7 @@
 
     const/16 v2, 0xb
 
-    const/16 v3, 0x5760
+    const/16 v3, 0x5960
 
     const/4 v4, 0x0
 
@@ -1322,7 +1398,7 @@
 .method public closeDefaultLight()V
     .locals 5
 
-    .line 1128
+    .line 1151
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -1333,7 +1409,7 @@
 
     const/16 v2, 0xb
 
-    const/16 v3, 0x5760
+    const/16 v3, 0x5960
 
     const/4 v4, 0x0
 
@@ -1345,7 +1421,7 @@
 .method public create(Lcom/rigol/scope/cil/ServiceEnum$Function;)Lcom/rigol/scope/views/baseview/BasePopupView;
     .locals 1
 
-    .line 626
+    .line 649
     sget-object v0, Lcom/rigol/scope/utilities/PopupViewManager$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$Function:[I
 
     invoke-virtual {p1}, Lcom/rigol/scope/cil/ServiceEnum$Function;->ordinal()I
@@ -1362,7 +1438,7 @@
 
     return-object p1
 
-    .line 628
+    .line 651
     :cond_0
     new-instance p1, Lcom/rigol/scope/views/measure/MeasurePopupView;
 
@@ -1374,28 +1450,28 @@
 .method public cursorABHint()V
     .locals 4
 
-    .line 894
+    .line 917
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->isShowing()Z
 
     move-result v0
 
     const/4 v1, 0x1
 
-    .line 897
+    .line 920
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v1
 
     const/4 v2, 0x0
 
-    .line 899
+    .line 922
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v2
 
     if-nez v0, :cond_1
 
-    .line 895
+    .line 918
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object v0
@@ -1408,7 +1484,7 @@
 
     if-ne v0, v3, :cond_0
 
-    .line 896
+    .line 919
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object v0
@@ -1421,7 +1497,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 897
+    .line 920
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->getViewABkeyViewModel()Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
     move-result-object v0
@@ -1434,7 +1510,7 @@
 
     goto :goto_0
 
-    .line 899
+    .line 922
     :cond_0
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->getViewABkeyViewModel()Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
@@ -1448,7 +1524,7 @@
 
     goto :goto_0
 
-    .line 903
+    .line 926
     :cond_1
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -1460,7 +1536,7 @@
 
     if-eqz v0, :cond_5
 
-    .line 905
+    .line 928
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v3
@@ -1469,12 +1545,12 @@
 
     move-result-object v0
 
-    .line 906
+    .line 929
     instance-of v3, v0, Lcom/rigol/scope/views/knob/FlexKnobPopupView;
 
     if-eqz v3, :cond_3
 
-    .line 907
+    .line 930
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object v0
@@ -1487,7 +1563,7 @@
 
     if-ne v0, v3, :cond_2
 
-    .line 908
+    .line 931
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object v0
@@ -1500,7 +1576,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 909
+    .line 932
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->getViewABkeyViewModel()Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
     move-result-object v0
@@ -1513,7 +1589,7 @@
 
     goto :goto_0
 
-    .line 911
+    .line 934
     :cond_2
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->getViewABkeyViewModel()Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
@@ -1527,13 +1603,13 @@
 
     goto :goto_0
 
-    .line 913
+    .line 936
     :cond_3
     instance-of v0, v0, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;
 
     if-eqz v0, :cond_4
 
-    .line 914
+    .line 937
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->getViewABkeyViewModel()Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
     move-result-object v0
@@ -1546,7 +1622,7 @@
 
     goto :goto_0
 
-    .line 916
+    .line 939
     :cond_4
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->getViewABkeyViewModel()Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
@@ -1566,7 +1642,7 @@
 .method public cursorLight()V
     .locals 3
 
-    .line 1383
+    .line 1406
     const-class v0, Lcom/rigol/scope/viewmodels/CursorViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -1577,10 +1653,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 1385
+    .line 1408
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/CursorViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
-    .line 1386
+    .line 1409
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/CursorViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -1593,7 +1669,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 1387
+    .line 1410
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object v1
@@ -1606,7 +1682,7 @@
 
     if-eqz v1, :cond_0
 
-    .line 1388
+    .line 1411
     const-class v1, Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
     invoke-static {v1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -1624,13 +1700,13 @@
 .method public dVMLight()V
     .locals 0
 
-    .line 1314
+    .line 1337
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->closeAllLight()V
 
-    .line 1315
+    .line 1338
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->AVerticalLight_Open()V
 
-    .line 1316
+    .line 1339
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->BVerticalLight_Open()V
 
     return-void
@@ -1639,7 +1715,7 @@
 .method public decodeLight()V
     .locals 0
 
-    .line 1504
+    .line 1527
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->verticalLight()V
 
     return-void
@@ -1648,7 +1724,7 @@
 .method public decodeLight(I)V
     .locals 3
 
-    .line 1441
+    .line 1464
     const-class v0, Lcom/rigol/scope/viewmodels/DecodeViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -1659,10 +1735,10 @@
 
     if-eqz v0, :cond_4
 
-    .line 1443
+    .line 1466
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/DecodeViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
-    .line 1444
+    .line 1467
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/DecodeViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -1677,14 +1753,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 1446
+    .line 1469
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
     move-result v2
 
     if-le v2, p1, :cond_0
 
-    .line 1447
+    .line 1470
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object p1
@@ -1696,7 +1772,7 @@
     :cond_0
     if-eqz v1, :cond_4
 
-    .line 1449
+    .line 1472
     invoke-virtual {v1}, Lcom/rigol/scope/data/DecodeParam;->getType()Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
     move-result-object p1
@@ -1705,16 +1781,16 @@
 
     goto :goto_0
 
-    .line 1452
+    .line 1475
     :cond_1
     invoke-virtual {v1}, Lcom/rigol/scope/data/DecodeParam;->getType()Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
     move-result-object p1
 
-    .line 1453
+    .line 1476
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->closeAllLight()V
 
-    .line 1454
+    .line 1477
     sget-object v0, Lcom/rigol/scope/utilities/PopupViewManager$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$DecodeBusType:[I
 
     invoke-virtual {p1}, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;->ordinal()I
@@ -1727,31 +1803,31 @@
 
     goto :goto_0
 
-    .line 1483
+    .line 1506
     :pswitch_0
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->AVerticalLight_Open()V
 
-    .line 1484
+    .line 1507
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->BHorizontalLight_Open()V
 
     goto :goto_0
 
-    .line 1478
+    .line 1501
     :pswitch_1
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->AVerticalLight_Open()V
 
-    .line 1479
+    .line 1502
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->BVerticalLight_Open()V
 
     goto :goto_0
 
-    .line 1473
+    .line 1496
     :pswitch_2
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->AVerticalLight_Open()V
 
     goto :goto_0
 
-    .line 1464
+    .line 1487
     :pswitch_3
     invoke-virtual {v1}, Lcom/rigol/scope/data/DecodeParam;->getRs232_rx()I
 
@@ -1759,21 +1835,21 @@
 
     if-nez p1, :cond_2
 
-    .line 1465
+    .line 1488
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->AVerticalLight_Open()V
 
     goto :goto_0
 
-    .line 1467
+    .line 1490
     :cond_2
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->AVerticalLight_Open()V
 
-    .line 1468
+    .line 1491
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->BVerticalLight_Open()V
 
     goto :goto_0
 
-    .line 1456
+    .line 1479
     :pswitch_4
     invoke-virtual {v1}, Lcom/rigol/scope/data/DecodeParam;->getPal_clk()I
 
@@ -1781,16 +1857,16 @@
 
     if-nez p1, :cond_3
 
-    .line 1457
+    .line 1480
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->AVerticalLight_Open()V
 
     goto :goto_0
 
-    .line 1459
+    .line 1482
     :cond_3
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->AVerticalLight_Open()V
 
-    .line 1460
+    .line 1483
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->BVerticalLight_Open()V
 
     nop
@@ -1816,7 +1892,7 @@
 .method public decodeLightType()V
     .locals 3
 
-    .line 1249
+    .line 1272
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v0
@@ -1829,14 +1905,14 @@
 
     check-cast v0, Lcom/rigol/scope/views/decode/DecodeNewPopupView;
 
-    .line 1250
+    .line 1273
     invoke-virtual {v0}, Lcom/rigol/scope/views/decode/DecodeNewPopupView;->getDecodeParam()Lcom/rigol/scope/data/DecodeParam;
 
     move-result-object v0
 
     if-eqz v0, :cond_3
 
-    .line 1251
+    .line 1274
     invoke-virtual {v0}, Lcom/rigol/scope/data/DecodeParam;->getType()Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
     move-result-object v1
@@ -1845,16 +1921,16 @@
 
     goto :goto_0
 
-    .line 1254
+    .line 1277
     :cond_0
     invoke-virtual {v0}, Lcom/rigol/scope/data/DecodeParam;->getType()Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
     move-result-object v1
 
-    .line 1255
+    .line 1278
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->closeAllLight()V
 
-    .line 1256
+    .line 1279
     sget-object v2, Lcom/rigol/scope/utilities/PopupViewManager$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$DecodeBusType:[I
 
     invoke-virtual {v1}, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;->ordinal()I
@@ -1867,31 +1943,31 @@
 
     goto :goto_0
 
-    .line 1285
+    .line 1308
     :pswitch_0
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->AVerticalLight_Open()V
 
-    .line 1286
+    .line 1309
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->BHorizontalLight_Open()V
 
     goto :goto_0
 
-    .line 1280
+    .line 1303
     :pswitch_1
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->AVerticalLight_Open()V
 
-    .line 1281
+    .line 1304
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->BVerticalLight_Open()V
 
     goto :goto_0
 
-    .line 1275
+    .line 1298
     :pswitch_2
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->AVerticalLight_Open()V
 
     goto :goto_0
 
-    .line 1266
+    .line 1289
     :pswitch_3
     invoke-virtual {v0}, Lcom/rigol/scope/data/DecodeParam;->getRs232_rx()I
 
@@ -1899,21 +1975,21 @@
 
     if-nez v0, :cond_1
 
-    .line 1267
+    .line 1290
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->AVerticalLight_Open()V
 
     goto :goto_0
 
-    .line 1269
+    .line 1292
     :cond_1
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->AVerticalLight_Open()V
 
-    .line 1270
+    .line 1293
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->BVerticalLight_Open()V
 
     goto :goto_0
 
-    .line 1258
+    .line 1281
     :pswitch_4
     invoke-virtual {v0}, Lcom/rigol/scope/data/DecodeParam;->getPal_clk()I
 
@@ -1921,16 +1997,16 @@
 
     if-nez v0, :cond_2
 
-    .line 1259
+    .line 1282
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->AVerticalLight_Open()V
 
     goto :goto_0
 
-    .line 1261
+    .line 1284
     :cond_2
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->AVerticalLight_Open()V
 
-    .line 1262
+    .line 1285
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->BVerticalLight_Open()V
 
     :cond_3
@@ -2050,12 +2126,12 @@
 .method public dismissBasePopupView(Lcom/rigol/scope/views/baseview/BasePopupView;)V
     .locals 1
 
-    .line 873
+    .line 896
     iget-boolean v0, p0, Lcom/rigol/scope/utilities/PopupViewManager;->isTouchControlLight:Z
 
     if-eqz v0, :cond_0
 
-    .line 874
+    .line 897
     invoke-virtual {p0, p1}, Lcom/rigol/scope/utilities/PopupViewManager;->dismissCurrentWindowLight(Lcom/rigol/scope/views/baseview/BasePopupView;)V
 
     goto :goto_0
@@ -2063,18 +2139,18 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 876
+    .line 899
     iput-boolean v0, p0, Lcom/rigol/scope/utilities/PopupViewManager;->isTouchControlLight:Z
 
-    .line 877
+    .line 900
     instance-of v0, p1, Lcom/rigol/scope/views/quick/QuickPopupView;
 
     if-eqz v0, :cond_1
 
-    .line 878
+    .line 901
     invoke-virtual {p0, p1}, Lcom/rigol/scope/utilities/PopupViewManager;->dismissCurrentWindowLight(Lcom/rigol/scope/views/baseview/BasePopupView;)V
 
-    .line 881
+    .line 904
     :cond_1
     :goto_0
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->cursorABHint()V
@@ -2085,10 +2161,10 @@
 .method public dismissCurrentWindowLight(Lcom/rigol/scope/views/baseview/BasePopupView;)V
     .locals 1
 
-    .line 853
+    .line 876
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->cursorABHint()V
 
-    .line 854
+    .line 877
     instance-of v0, p1, Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
 
     if-nez v0, :cond_1
@@ -2103,7 +2179,7 @@
 
     goto :goto_0
 
-    .line 859
+    .line 882
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->isShowing()Z
 
@@ -2111,7 +2187,7 @@
 
     if-nez p1, :cond_1
 
-    .line 860
+    .line 883
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->getFlexKnobParamViewModel()Lcom/rigol/scope/viewmodels/FlexKnobParamViewModel;
 
     move-result-object p1
@@ -2137,7 +2213,7 @@
         }
     .end annotation
 
-    .line 524
+    .line 547
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewWithTag(Ljava/lang/Object;)Landroid/view/View;
 
     move-result-object p1
@@ -2148,7 +2224,7 @@
 .method public flexBeforeLight()V
     .locals 2
 
-    .line 803
+    .line 826
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v0
@@ -2159,7 +2235,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 805
+    .line 828
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v1
@@ -2168,20 +2244,20 @@
 
     move-result-object v0
 
-    .line 806
+    .line 829
     instance-of v1, v0, Lcom/rigol/scope/views/math/MathPopupView;
 
     if-eqz v1, :cond_0
 
     goto :goto_0
 
-    .line 807
+    .line 830
     :cond_0
     instance-of v1, v0, Lcom/rigol/scope/views/knob/FlexKnobPopupView;
 
     if-eqz v1, :cond_1
 
-    .line 808
+    .line 831
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object v0
@@ -2198,7 +2274,7 @@
 
     goto :goto_0
 
-    .line 810
+    .line 833
     :cond_1
     invoke-virtual {p0, v0}, Lcom/rigol/scope/utilities/PopupViewManager;->showCurrentWindowLight(Lcom/rigol/scope/views/baseview/BasePopupView;)V
 
@@ -2235,12 +2311,12 @@
 .method public getAvailableSize()J
     .locals 4
 
-    .line 1513
+    .line 1536
     invoke-static {}, Landroid/os/Environment;->getDataDirectory()Ljava/io/File;
 
     move-result-object v0
 
-    .line 1514
+    .line 1537
     new-instance v1, Landroid/os/StatFs;
 
     invoke-virtual {v0}, Ljava/io/File;->getPath()Ljava/lang/String;
@@ -2249,12 +2325,12 @@
 
     invoke-direct {v1, v0}, Landroid/os/StatFs;-><init>(Ljava/lang/String;)V
 
-    .line 1515
+    .line 1538
     invoke-virtual {v1}, Landroid/os/StatFs;->getBlockSizeLong()J
 
     move-result-wide v2
 
-    .line 1516
+    .line 1539
     invoke-virtual {v1}, Landroid/os/StatFs;->getAvailableBlocksLong()J
 
     move-result-wide v0
@@ -2263,7 +2339,7 @@
 
     const-wide/32 v0, 0xf4240
 
-    .line 1517
+    .line 1540
     div-long/2addr v2, v0
 
     return-wide v2
@@ -2332,13 +2408,13 @@
 .method public horizontalLight()V
     .locals 0
 
-    .line 1070
+    .line 1093
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->closeAllLight()V
 
-    .line 1071
+    .line 1094
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->AHorizontalLight_Open()V
 
-    .line 1072
+    .line 1095
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->BHorizontalLight_Open()V
 
     return-void
@@ -2347,7 +2423,7 @@
 .method public intensityLight()V
     .locals 1
 
-    .line 1376
+    .line 1399
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v0
@@ -2526,7 +2602,7 @@
 .method public mathLight(I)V
     .locals 2
 
-    .line 1418
+    .line 1441
     const-class v0, Lcom/rigol/scope/viewmodels/MathViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -2537,10 +2613,10 @@
 
     if-eqz v0, :cond_1
 
-    .line 1420
+    .line 1443
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/MathViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
-    .line 1421
+    .line 1444
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/MathViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -2553,28 +2629,28 @@
 
     if-eqz v0, :cond_1
 
-    .line 1422
+    .line 1445
     invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
     move-result v1
 
     if-le v1, p1, :cond_1
 
-    .line 1423
+    .line 1446
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Lcom/rigol/scope/data/MathParam;
 
-    .line 1424
+    .line 1447
     invoke-virtual {p1}, Lcom/rigol/scope/data/MathParam;->getStatus()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 1425
+    .line 1448
     invoke-virtual {p1}, Lcom/rigol/scope/data/MathParam;->getOperator()Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     move-result-object p1
@@ -2583,12 +2659,12 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 1426
+    .line 1449
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->horizontalLight()V
 
     goto :goto_0
 
-    .line 1428
+    .line 1451
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->verticalLight()V
 
@@ -2600,13 +2676,13 @@
 .method public measureLight()V
     .locals 0
 
-    .line 1305
+    .line 1328
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->closeAllLight()V
 
-    .line 1306
+    .line 1329
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->AVerticalLight_Open()V
 
-    .line 1307
+    .line 1330
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->BHorizontalLight_Open()V
 
     return-void
@@ -2617,7 +2693,7 @@
 
     const/4 v0, 0x0
 
-    .line 705
+    .line 728
     :goto_0
     iget-object v1, p0, Lcom/rigol/scope/utilities/PopupViewManager;->list:Landroidx/collection/SimpleArrayMap;
 
@@ -2627,7 +2703,7 @@
 
     if-ge v0, v1, :cond_1
 
-    .line 706
+    .line 729
     iget-object v1, p0, Lcom/rigol/scope/utilities/PopupViewManager;->list:Landroidx/collection/SimpleArrayMap;
 
     invoke-virtual {v1, v0}, Landroidx/collection/SimpleArrayMap;->valueAt(I)Ljava/lang/Object;
@@ -2638,7 +2714,7 @@
 
     if-eqz v1, :cond_0
 
-    .line 708
+    .line 731
     invoke-virtual {v1}, Lcom/rigol/scope/views/baseview/BasePopupView;->onLocaleChanged()V
 
     :cond_0
@@ -2653,10 +2729,10 @@
 .method public openMathLight(Lcom/rigol/scope/views/baseview/BasePopupView;)V
     .locals 4
 
-    .line 1153
+    .line 1176
     check-cast p1, Lcom/rigol/scope/views/math/MathPopupView;
 
-    .line 1155
+    .line 1178
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object v0
@@ -2671,17 +2747,17 @@
 
     invoke-virtual {v0, v1, v2, v3}, Lcom/rigol/scope/utilities/FunctionManager;->setFlexKnobEnum(Lcom/rigol/scope/cil/ServiceEnum$Function;IZ)V
 
-    .line 1156
+    .line 1179
     invoke-virtual {p1}, Lcom/rigol/scope/views/math/MathPopupView;->getMathParam()Lcom/rigol/scope/data/MathParam;
 
     move-result-object p1
 
-    .line 1157
+    .line 1180
     invoke-virtual {p1}, Lcom/rigol/scope/data/MathParam;->getOperator()Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     move-result-object p1
 
-    .line 1158
+    .line 1181
     sget-object v0, Lcom/rigol/scope/utilities/PopupViewManager$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$MathOperator:[I
 
     invoke-virtual {p1}, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->ordinal()I
@@ -2694,26 +2770,26 @@
 
     goto :goto_0
 
-    .line 1184
+    .line 1207
     :pswitch_0
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->closeAllLight()V
 
-    .line 1185
+    .line 1208
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->AHorizontalLight_Open()V
 
-    .line 1186
+    .line 1209
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->BHorizontalLight_Open()V
 
     goto :goto_0
 
-    .line 1179
+    .line 1202
     :pswitch_1
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->closeAllLight()V
 
-    .line 1180
+    .line 1203
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->AVerticalLight_Open()V
 
-    .line 1181
+    .line 1204
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->BVerticalLight_Open()V
 
     :goto_0
@@ -2748,13 +2824,13 @@
 .method public openRecordLight()V
     .locals 0
 
-    .line 1331
+    .line 1354
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->closeAllLight()V
 
-    .line 1332
+    .line 1355
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->AVerticalLight_Open()V
 
-    .line 1333
+    .line 1356
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->BHorizontalLight_Open()V
 
     return-void
@@ -2763,7 +2839,7 @@
 .method public refLight(I)V
     .locals 1
 
-    .line 1399
+    .line 1422
     const-class v0, Lcom/rigol/scope/viewmodels/RefViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -2774,10 +2850,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 1401
+    .line 1424
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/RefViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
-    .line 1402
+    .line 1425
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/RefViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -2790,19 +2866,19 @@
 
     if-eqz v0, :cond_0
 
-    .line 1404
+    .line 1427
     invoke-virtual {v0, p1}, Lcom/rigol/scope/data/RefParam;->getParam(I)Lcom/rigol/scope/data/RefParam$Param;
 
     move-result-object p1
 
-    .line 1405
+    .line 1428
     invoke-virtual {p1}, Lcom/rigol/scope/data/RefParam$Param;->isOnOff()Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
-    .line 1406
+    .line 1429
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->verticalLight()V
 
     :cond_0
@@ -2818,7 +2894,7 @@
 
     goto/16 :goto_0
 
-    .line 1352
+    .line 1375
     :cond_0
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -2826,7 +2902,7 @@
 
     invoke-virtual {p1}, Lcom/rigol/scope/utilities/PopupViewManager;->closeAllLight()V
 
-    .line 1354
+    .line 1377
     invoke-virtual {p2}, Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;->getAx_boolean()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
@@ -2853,14 +2929,14 @@
 
     if-nez p1, :cond_1
 
-    .line 1355
+    .line 1378
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
 
     invoke-virtual {p1}, Lcom/rigol/scope/utilities/PopupViewManager;->AVerticalLight_Open()V
 
-    .line 1358
+    .line 1381
     :cond_1
     invoke-virtual {p2}, Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;->getBx_boolean()Landroidx/lifecycle/MutableLiveData;
 
@@ -2888,14 +2964,14 @@
 
     if-nez p1, :cond_2
 
-    .line 1359
+    .line 1382
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
 
     invoke-virtual {p1}, Lcom/rigol/scope/utilities/PopupViewManager;->BVerticalLight_Open()V
 
-    .line 1363
+    .line 1386
     :cond_2
     invoke-virtual {p2}, Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;->getAy_boolean()Landroidx/lifecycle/MutableLiveData;
 
@@ -2923,14 +2999,14 @@
 
     if-nez p1, :cond_3
 
-    .line 1364
+    .line 1387
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
 
     invoke-virtual {p1}, Lcom/rigol/scope/utilities/PopupViewManager;->AHorizontalLight_Open()V
 
-    .line 1367
+    .line 1390
     :cond_3
     invoke-virtual {p2}, Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;->getBy_boolean()Landroidx/lifecycle/MutableLiveData;
 
@@ -2958,7 +3034,7 @@
 
     if-nez p1, :cond_4
 
-    .line 1368
+    .line 1391
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
@@ -2973,7 +3049,7 @@
 .method public setDefaultLight()V
     .locals 2
 
-    .line 926
+    .line 949
     const-class v0, Lcom/rigol/scope/viewmodels/CursorViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -2984,7 +3060,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 928
+    .line 951
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/CursorViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -2997,12 +3073,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 930
+    .line 953
     invoke-virtual {v0}, Lcom/rigol/scope/data/CursorResultParam;->getCursorMode()Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
 
     move-result-object v0
 
-    .line 932
+    .line 955
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->isShowing()Z
 
     move-result v1
@@ -3013,7 +3089,7 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 934
+    .line 957
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object v0
@@ -3026,7 +3102,7 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 935
+    .line 958
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->DefaultLight_Open()V
 
     :cond_0
@@ -3036,42 +3112,42 @@
 .method public setDefaultWindowLight(Lcom/rigol/scope/views/baseview/BasePopupView;)V
     .locals 1
 
-    .line 979
+    .line 1002
     instance-of v0, p1, Lcom/rigol/scope/views/vertical/VerticalPopupView;
 
     if-eqz v0, :cond_0
 
-    .line 980
+    .line 1003
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->verticalLight()V
 
     goto/16 :goto_0
 
-    .line 981
+    .line 1004
     :cond_0
     instance-of v0, p1, Lcom/rigol/scope/views/horizontal/HorizontalPopupView;
 
     if-eqz v0, :cond_1
 
-    .line 982
+    .line 1005
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->horizontalLight()V
 
     goto/16 :goto_0
 
-    .line 983
+    .line 1006
     :cond_1
     instance-of v0, p1, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;
 
     if-eqz v0, :cond_2
 
-    .line 984
+    .line 1007
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->cursorLight()V
 
-    .line 985
+    .line 1008
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->cursorABHint()V
 
     goto/16 :goto_0
 
-    .line 986
+    .line 1009
     :cond_2
     instance-of v0, p1, Lcom/rigol/scope/views/math/MathPopupView;
 
@@ -3079,29 +3155,29 @@
 
     const/4 p1, 0x0
 
-    .line 987
+    .line 1010
     invoke-virtual {p0, p1}, Lcom/rigol/scope/utilities/PopupViewManager;->mathLight(I)V
 
     goto/16 :goto_0
 
-    .line 988
+    .line 1011
     :cond_3
     instance-of v0, p1, Lcom/rigol/scope/views/trigger/TriggerPopupView;
 
     if-eqz v0, :cond_4
 
-    .line 989
+    .line 1012
     invoke-virtual {p0, p1}, Lcom/rigol/scope/utilities/PopupViewManager;->triggerLight(Lcom/rigol/scope/views/baseview/BasePopupView;)V
 
     goto/16 :goto_0
 
-    .line 990
+    .line 1013
     :cond_4
     instance-of v0, p1, Lcom/rigol/scope/views/decode/DecodeNewPopupView;
 
     if-eqz v0, :cond_5
 
-    .line 991
+    .line 1014
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
@@ -3110,98 +3186,98 @@
 
     goto :goto_0
 
-    .line 992
+    .line 1015
     :cond_5
     instance-of v0, p1, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;
 
     if-eqz v0, :cond_6
 
-    .line 993
+    .line 1016
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->measureLight()V
 
     goto :goto_0
 
-    .line 994
+    .line 1017
     :cond_6
     instance-of v0, p1, Lcom/rigol/scope/views/cursor/CounterSettingPopupView;
 
     if-eqz v0, :cond_7
 
-    .line 995
+    .line 1018
     invoke-direct {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->counterLight()V
 
     goto :goto_0
 
-    .line 996
+    .line 1019
     :cond_7
     instance-of v0, p1, Lcom/rigol/scope/views/dvm/DvmSettingPopupView;
 
     if-eqz v0, :cond_8
 
-    .line 997
+    .line 1020
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->dVMLight()V
 
     goto :goto_0
 
-    .line 998
+    .line 1021
     :cond_8
     instance-of v0, p1, Lcom/rigol/scope/views/ref/RefPopupView;
 
     if-eqz v0, :cond_9
 
-    .line 999
+    .line 1022
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->closeAllLight()V
 
     goto :goto_0
 
-    .line 1000
+    .line 1023
     :cond_9
     instance-of v0, p1, Lcom/rigol/scope/views/probe/ProbePopupView;
 
     if-eqz v0, :cond_a
 
-    .line 1001
+    .line 1024
     check-cast p1, Lcom/rigol/scope/views/probe/ProbePopupView;
 
-    .line 1002
+    .line 1025
     invoke-virtual {p1}, Lcom/rigol/scope/views/probe/ProbePopupView;->probeLight()V
 
     goto :goto_0
 
-    .line 1003
+    .line 1026
     :cond_a
     instance-of v0, p1, Lcom/rigol/scope/views/record/RecordPopupView;
 
     if-eqz v0, :cond_b
 
-    .line 1004
+    .line 1027
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->closeAllLight()V
 
     goto :goto_0
 
-    .line 1005
+    .line 1028
     :cond_b
     instance-of v0, p1, Lcom/rigol/scope/views/upa/UpaPopupview;
 
     if-eqz v0, :cond_c
 
-    .line 1006
+    .line 1029
     invoke-direct {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->upaLight()V
 
     goto :goto_0
 
-    .line 1007
+    .line 1030
     :cond_c
     instance-of v0, p1, Lcom/rigol/scope/views/search/SearchPopupView;
 
     if-eqz v0, :cond_d
 
-    .line 1008
+    .line 1031
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->closeAllLight()V
 
     goto :goto_0
 
-    .line 1009
+    .line 1032
     :cond_d
     instance-of v0, p1, Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
 
@@ -3217,7 +3293,7 @@
 
     goto :goto_0
 
-    .line 1013
+    .line 1036
     :cond_e
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->DefaultLight_Open()V
 
@@ -3231,13 +3307,13 @@
 
     if-nez p1, :cond_0
 
-    .line 950
+    .line 973
     :try_start_0
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->setWindowDefaultLight()V
 
     goto :goto_0
 
-    .line 951
+    .line 974
     :cond_0
     invoke-virtual {p1}, Lcom/rigol/scope/utilities/AorBManager;->getTextA()Landroid/widget/TextView;
 
@@ -3263,12 +3339,12 @@
 
     if-eqz v0, :cond_1
 
-    .line 952
+    .line 975
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->setWindowDefaultLight()V
 
     goto :goto_0
 
-    .line 954
+    .line 977
     :cond_1
     invoke-virtual {p1}, Lcom/rigol/scope/utilities/AorBManager;->getTextA()Landroid/widget/TextView;
 
@@ -3278,7 +3354,7 @@
 
     invoke-virtual {p1, v0, v1, v1}, Lcom/rigol/scope/utilities/AorBManager;->controlLight(Landroid/widget/TextView;ZZ)V
 
-    .line 955
+    .line 978
     invoke-virtual {p1}, Lcom/rigol/scope/utilities/AorBManager;->getTextB()Landroid/widget/TextView;
 
     move-result-object v0
@@ -3301,117 +3377,117 @@
 
     return-void
 
-    .line 823
+    .line 846
     :cond_0
     instance-of v0, p1, Lcom/rigol/scope/data/VerticalParam;
 
     if-eqz v0, :cond_1
 
-    .line 824
+    .line 847
     check-cast p1, Lcom/rigol/scope/data/VerticalParam;
 
     iput-object p2, p1, Lcom/rigol/scope/data/VerticalParam;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     goto :goto_0
 
-    .line 825
+    .line 848
     :cond_1
     instance-of v0, p1, Lcom/rigol/scope/data/HorizontalParam;
 
     if-eqz v0, :cond_2
 
-    .line 826
+    .line 849
     check-cast p1, Lcom/rigol/scope/data/HorizontalParam;
 
     iput-object p2, p1, Lcom/rigol/scope/data/HorizontalParam;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     goto :goto_0
 
-    .line 827
+    .line 850
     :cond_2
     instance-of v0, p1, Lcom/rigol/scope/data/CursorResultParam;
 
     if-eqz v0, :cond_3
 
-    .line 828
+    .line 851
     check-cast p1, Lcom/rigol/scope/data/CursorResultParam;
 
     iput-object p2, p1, Lcom/rigol/scope/data/CursorResultParam;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     goto :goto_0
 
-    .line 829
+    .line 852
     :cond_3
     instance-of v0, p1, Lcom/rigol/scope/data/MathParam;
 
     if-eqz v0, :cond_4
 
-    .line 830
+    .line 853
     check-cast p1, Lcom/rigol/scope/data/MathParam;
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/data/MathParam;->setAorBManager(Lcom/rigol/scope/utilities/AorBManager;)V
 
     goto :goto_0
 
-    .line 831
+    .line 854
     :cond_4
     instance-of v0, p1, Lcom/rigol/scope/data/TriggerParam;
 
     if-eqz v0, :cond_5
 
-    .line 832
+    .line 855
     check-cast p1, Lcom/rigol/scope/data/TriggerParam;
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setAorBManager(Lcom/rigol/scope/utilities/AorBManager;)V
 
     goto :goto_0
 
-    .line 833
+    .line 856
     :cond_5
     instance-of v0, p1, Lcom/rigol/scope/data/DecodeParam;
 
     if-eqz v0, :cond_6
 
-    .line 834
+    .line 857
     check-cast p1, Lcom/rigol/scope/data/DecodeParam;
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setAorBManager(Lcom/rigol/scope/utilities/AorBManager;)V
 
     goto :goto_0
 
-    .line 835
+    .line 858
     :cond_6
     instance-of v0, p1, Lcom/rigol/scope/data/MeasureSettingParam;
 
     if-eqz v0, :cond_7
 
-    .line 836
+    .line 859
     check-cast p1, Lcom/rigol/scope/data/MeasureSettingParam;
 
     iput-object p2, p1, Lcom/rigol/scope/data/MeasureSettingParam;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     goto :goto_0
 
-    .line 837
+    .line 860
     :cond_7
     instance-of v0, p1, Lcom/rigol/scope/data/DvmResultParam;
 
     if-eqz v0, :cond_8
 
-    .line 838
+    .line 861
     check-cast p1, Lcom/rigol/scope/data/DvmResultParam;
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/data/DvmResultParam;->setAorBManager(Lcom/rigol/scope/utilities/AorBManager;)V
 
     goto :goto_0
 
-    .line 839
+    .line 862
     :cond_8
     instance-of v0, p1, Lcom/rigol/scope/data/MaskParam;
 
     if-eqz v0, :cond_9
 
-    .line 840
+    .line 863
     check-cast p1, Lcom/rigol/scope/data/MaskParam;
 
     iput-object p2, p1, Lcom/rigol/scope/data/MaskParam;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
@@ -3433,7 +3509,7 @@
 .method public setTag(Landroid/view/View;Lcom/rigol/scope/cil/ServiceEnum$Function;)V
     .locals 1
 
-    .line 528
+    .line 551
     sget-object v0, Lcom/rigol/scope/utilities/PopupViewManager$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$Function:[I
 
     invoke-virtual {p2}, Lcom/rigol/scope/cil/ServiceEnum$Function;->ordinal()I
@@ -3470,7 +3546,7 @@
 
     goto/16 :goto_0
 
-    .line 575
+    .line 598
     :pswitch_0
     const-class p2, Lcom/rigol/scope/views/search/SearchPopupView;
 
@@ -3482,7 +3558,7 @@
 
     goto/16 :goto_0
 
-    .line 572
+    .line 595
     :pswitch_1
     const-class p2, Lcom/rigol/scope/views/mask/MaskPopupView;
 
@@ -3494,7 +3570,7 @@
 
     goto/16 :goto_0
 
-    .line 569
+    .line 592
     :pswitch_2
     const-class p2, Lcom/rigol/scope/views/busAnalyse/BusAnalysePopupView;
 
@@ -3506,7 +3582,7 @@
 
     goto/16 :goto_0
 
-    .line 564
+    .line 587
     :pswitch_3
     const-class p2, Lcom/rigol/scope/views/decode/DecodeNewPopupView;
 
@@ -3518,7 +3594,7 @@
 
     goto/16 :goto_0
 
-    .line 560
+    .line 583
     :pswitch_4
     const-class p2, Lcom/rigol/scope/views/jitter/JitterPopupView;
 
@@ -3530,7 +3606,7 @@
 
     goto/16 :goto_0
 
-    .line 557
+    .line 580
     :pswitch_5
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3542,7 +3618,7 @@
 
     goto/16 :goto_0
 
-    .line 554
+    .line 577
     :pswitch_6
     const-class p2, Lcom/rigol/scope/views/dvm/DvmSettingPopupView;
 
@@ -3554,7 +3630,7 @@
 
     goto/16 :goto_0
 
-    .line 551
+    .line 574
     :pswitch_7
     const-class p2, Lcom/rigol/scope/views/cursor/CounterSettingPopupView;
 
@@ -3566,7 +3642,7 @@
 
     goto/16 :goto_0
 
-    .line 548
+    .line 571
     :pswitch_8
     const-class p2, Lcom/rigol/scope/views/math/MathPopupView;
 
@@ -3574,7 +3650,7 @@
 
     goto :goto_0
 
-    .line 543
+    .line 566
     :pswitch_9
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3586,7 +3662,7 @@
 
     goto :goto_0
 
-    .line 540
+    .line 563
     :pswitch_a
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3598,7 +3674,7 @@
 
     goto :goto_0
 
-    .line 536
+    .line 559
     :pswitch_b
     const-class p2, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;
 
@@ -3610,7 +3686,7 @@
 
     goto :goto_0
 
-    .line 533
+    .line 556
     :pswitch_c
     const-class p2, Lcom/rigol/scope/views/histogram/HistogramSettingPopupView;
 
@@ -3622,7 +3698,7 @@
 
     goto :goto_0
 
-    .line 530
+    .line 553
     :pswitch_d
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3634,7 +3710,7 @@
 
     goto :goto_0
 
-    .line 618
+    .line 641
     :cond_0
     const-class p2, Lcom/rigol/scope/views/horizontal/HorizontalPopupView;
 
@@ -3646,7 +3722,7 @@
 
     goto :goto_0
 
-    .line 615
+    .line 638
     :cond_1
     const-class p2, Lcom/rigol/scope/views/trigger/TriggerPopupView;
 
@@ -3658,7 +3734,7 @@
 
     goto :goto_0
 
-    .line 600
+    .line 623
     :cond_2
     const-class p2, Lcom/rigol/scope/views/UtilityPopupView;
 
@@ -3670,7 +3746,7 @@
 
     goto :goto_0
 
-    .line 585
+    .line 608
     :cond_3
     const-class p2, Lcom/rigol/scope/views/display/DisplayPopupView;
 
@@ -3682,7 +3758,7 @@
 
     goto :goto_0
 
-    .line 580
+    .line 603
     :cond_4
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3738,7 +3814,7 @@
         }
     .end annotation
 
-    .line 512
+    .line 535
     invoke-virtual {p1, p2}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
     return-void
@@ -3747,19 +3823,19 @@
 .method public setWindowDefaultLight()V
     .locals 1
 
-    .line 966
+    .line 989
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->getShowingClass()Ljava/lang/Class;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 968
+    .line 991
     invoke-virtual {p0, v0}, Lcom/rigol/scope/utilities/PopupViewManager;->get(Ljava/lang/Class;)Lcom/rigol/scope/views/baseview/BasePopupView;
 
     move-result-object v0
 
-    .line 969
+    .line 992
     invoke-virtual {p0, v0}, Lcom/rigol/scope/utilities/PopupViewManager;->setDefaultWindowLight(Lcom/rigol/scope/views/baseview/BasePopupView;)V
 
     :cond_0
@@ -3854,7 +3930,7 @@
 .method public showCurrentWindowLight(Lcom/rigol/scope/views/baseview/BasePopupView;)V
     .locals 2
 
-    .line 726
+    .line 749
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->getViewABkeyViewModel()Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
     move-result-object v0
@@ -3871,12 +3947,12 @@
 
     invoke-virtual {v0, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 727
+    .line 750
     instance-of v0, p1, Lcom/rigol/scope/views/knob/FlexKnobPopupView;
 
     if-eqz v0, :cond_0
 
-    .line 728
+    .line 751
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->getFlexKnobParamViewModel()Lcom/rigol/scope/viewmodels/FlexKnobParamViewModel;
 
     move-result-object p1
@@ -3885,27 +3961,27 @@
 
     goto/16 :goto_1
 
-    .line 729
+    .line 752
     :cond_0
     instance-of v0, p1, Lcom/rigol/scope/views/vertical/VerticalPopupView;
 
     if-eqz v0, :cond_1
 
-    .line 730
+    .line 753
     check-cast p1, Lcom/rigol/scope/views/vertical/VerticalPopupView;
 
-    .line 731
+    .line 754
     invoke-virtual {p1}, Lcom/rigol/scope/views/vertical/VerticalPopupView;->verticalPopupViewLight()V
 
     goto/16 :goto_1
 
-    .line 732
+    .line 755
     :cond_1
     instance-of v0, p1, Lcom/rigol/scope/views/horizontal/HorizontalPopupView;
 
     if-eqz v0, :cond_2
 
-    .line 733
+    .line 756
     check-cast p1, Lcom/rigol/scope/views/horizontal/HorizontalPopupView;
 
     invoke-virtual {p1}, Lcom/rigol/scope/views/horizontal/HorizontalPopupView;->getAorBManager()Lcom/rigol/scope/utilities/AorBManager;
@@ -3916,49 +3992,49 @@
 
     goto/16 :goto_1
 
-    .line 734
+    .line 757
     :cond_2
     instance-of v0, p1, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;
 
     if-eqz v0, :cond_3
 
-    .line 735
+    .line 758
     check-cast p1, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;
 
-    .line 736
+    .line 759
     invoke-virtual {p1}, Lcom/rigol/scope/views/cursor/CursorSettingPopupView;->cursorSettingLight()V
 
     goto/16 :goto_1
 
-    .line 737
+    .line 760
     :cond_3
     instance-of v0, p1, Lcom/rigol/scope/views/math/MathPopupView;
 
     if-eqz v0, :cond_4
 
-    .line 738
+    .line 761
     invoke-virtual {p0, p1}, Lcom/rigol/scope/utilities/PopupViewManager;->openMathLight(Lcom/rigol/scope/views/baseview/BasePopupView;)V
 
     goto/16 :goto_1
 
-    .line 739
+    .line 762
     :cond_4
     instance-of v0, p1, Lcom/rigol/scope/views/trigger/TriggerPopupView;
 
     if-eqz v0, :cond_5
 
-    .line 740
+    .line 763
     invoke-virtual {p0, p1}, Lcom/rigol/scope/utilities/PopupViewManager;->triggerLight(Lcom/rigol/scope/views/baseview/BasePopupView;)V
 
     goto/16 :goto_1
 
-    .line 741
+    .line 764
     :cond_5
     instance-of v0, p1, Lcom/rigol/scope/views/decode/DecodeNewPopupView;
 
     if-eqz v0, :cond_6
 
-    .line 742
+    .line 765
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
@@ -3967,16 +4043,16 @@
 
     goto/16 :goto_1
 
-    .line 743
+    .line 766
     :cond_6
     instance-of v0, p1, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;
 
     if-eqz v0, :cond_7
 
-    .line 744
+    .line 767
     check-cast p1, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;
 
-    .line 745
+    .line 768
     invoke-virtual {p1}, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->getAorBManager()Lcom/rigol/scope/utilities/AorBManager;
 
     move-result-object p1
@@ -3985,144 +4061,144 @@
 
     goto/16 :goto_1
 
-    .line 746
+    .line 769
     :cond_7
     instance-of v0, p1, Lcom/rigol/scope/views/cursor/CounterSettingPopupView;
 
     if-eqz v0, :cond_8
 
-    .line 747
+    .line 770
     check-cast p1, Lcom/rigol/scope/views/cursor/CounterSettingPopupView;
 
-    .line 748
+    .line 771
     invoke-virtual {p1}, Lcom/rigol/scope/views/cursor/CounterSettingPopupView;->counterLight()V
 
     goto/16 :goto_1
 
-    .line 749
+    .line 772
     :cond_8
     instance-of v0, p1, Lcom/rigol/scope/views/dvm/DvmSettingPopupView;
 
     if-eqz v0, :cond_9
 
-    .line 750
+    .line 773
     check-cast p1, Lcom/rigol/scope/views/dvm/DvmSettingPopupView;
 
-    .line 751
+    .line 774
     invoke-virtual {p1}, Lcom/rigol/scope/views/dvm/DvmSettingPopupView;->dvmLight()V
 
     goto/16 :goto_1
 
-    .line 752
+    .line 775
     :cond_9
     instance-of v0, p1, Lcom/rigol/scope/views/ref/RefPopupView;
 
     if-eqz v0, :cond_a
 
-    .line 753
+    .line 776
     check-cast p1, Lcom/rigol/scope/views/ref/RefPopupView;
 
-    .line 754
+    .line 777
     invoke-virtual {p1}, Lcom/rigol/scope/views/ref/RefPopupView;->setRefLight()V
 
     goto/16 :goto_1
 
-    .line 755
+    .line 778
     :cond_a
     instance-of v0, p1, Lcom/rigol/scope/views/probe/ProbePopupView;
 
     if-eqz v0, :cond_b
 
-    .line 756
+    .line 779
     check-cast p1, Lcom/rigol/scope/views/probe/ProbePopupView;
 
-    .line 757
+    .line 780
     invoke-virtual {p1}, Lcom/rigol/scope/views/probe/ProbePopupView;->probeLight()V
 
     goto/16 :goto_1
 
-    .line 758
+    .line 781
     :cond_b
     instance-of v0, p1, Lcom/rigol/scope/views/record/RecordPopupView;
 
     if-eqz v0, :cond_c
 
-    .line 759
+    .line 782
     check-cast p1, Lcom/rigol/scope/views/record/RecordPopupView;
 
-    .line 760
+    .line 783
     invoke-virtual {p1}, Lcom/rigol/scope/views/record/RecordPopupView;->setRecordLight()V
 
     goto/16 :goto_1
 
-    .line 761
+    .line 784
     :cond_c
     instance-of v0, p1, Lcom/rigol/scope/views/upa/UpaPopupview;
 
     if-eqz v0, :cond_d
 
-    .line 762
+    .line 785
     check-cast p1, Lcom/rigol/scope/views/upa/UpaPopupview;
 
-    .line 763
+    .line 786
     invoke-virtual {p1}, Lcom/rigol/scope/views/upa/UpaPopupview;->upaLight()V
 
     goto/16 :goto_1
 
-    .line 764
+    .line 787
     :cond_d
     instance-of v0, p1, Lcom/rigol/scope/views/search/SearchPopupView;
 
     if-eqz v0, :cond_e
 
-    .line 765
+    .line 788
     check-cast p1, Lcom/rigol/scope/views/search/SearchPopupView;
 
-    .line 766
+    .line 789
     invoke-virtual {p1}, Lcom/rigol/scope/views/search/SearchPopupView;->searchLight()V
 
     goto/16 :goto_1
 
-    .line 767
+    .line 790
     :cond_e
     instance-of v0, p1, Lcom/rigol/scope/views/navigate/NavigatePopupView;
 
     if-eqz v0, :cond_f
 
-    .line 768
+    .line 791
     check-cast p1, Lcom/rigol/scope/views/navigate/NavigatePopupView;
 
-    .line 769
+    .line 792
     invoke-virtual {p1}, Lcom/rigol/scope/views/navigate/NavigatePopupView;->navigateLight()V
 
     goto :goto_1
 
-    .line 770
+    .line 793
     :cond_f
     instance-of v0, p1, Lcom/rigol/scope/views/mask/MaskPopupView;
 
     if-eqz v0, :cond_10
 
-    .line 771
+    .line 794
     check-cast p1, Lcom/rigol/scope/views/mask/MaskPopupView;
 
-    .line 772
+    .line 795
     invoke-virtual {p1}, Lcom/rigol/scope/views/mask/MaskPopupView;->maskLight()V
 
     goto :goto_1
 
-    .line 773
+    .line 796
     :cond_10
     instance-of v0, p1, Lcom/rigol/scope/views/la/LapopupView;
 
     if-eqz v0, :cond_11
 
-    .line 774
+    .line 797
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->verticalLight()V
 
     goto :goto_1
 
-    .line 775
+    .line 798
     :cond_11
     instance-of v0, p1, Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
 
@@ -4134,18 +4210,18 @@
 
     goto :goto_1
 
-    .line 777
+    .line 800
     :cond_12
     instance-of v0, p1, Lcom/rigol/scope/views/quick/QuickPopupView;
 
     if-eqz v0, :cond_13
 
-    .line 778
+    .line 801
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->closeAllLight()V
 
     goto :goto_1
 
-    .line 779
+    .line 802
     :cond_13
     instance-of v0, p1, Lcom/rigol/scope/views/measure/MeasurePopupView;
 
@@ -4192,12 +4268,12 @@
     :cond_14
     if-eqz p1, :cond_16
 
-    .line 792
+    .line 815
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->setDefaultLight()V
 
     goto :goto_1
 
-    .line 789
+    .line 812
     :cond_15
     :goto_0
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->closeAllLight()V
@@ -4241,37 +4317,21 @@
 
     goto :goto_0
 
-    .line 480
+    .line 482
     :cond_1
-    const-class v0, Lcom/rigol/scope/viewmodels/BodeViewModel;
-
-    invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
-
-    move-result-object v0
-
-    check-cast v0, Lcom/rigol/scope/viewmodels/BodeViewModel;
-
-    invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/BodeViewModel;->getValue()Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Lcom/rigol/scope/data/BodeParam;
-
-    invoke-virtual {v0}, Lcom/rigol/scope/data/BodeParam;->getBodeEnable()Z
+    invoke-direct {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->isBodeModuleOpen()Z
 
     move-result v0
 
     if-eqz v0, :cond_2
 
-    instance-of v0, p1, Lcom/rigol/scope/views/bode/BodePopupWin;
+    invoke-direct {p0, p1}, Lcom/rigol/scope/utilities/PopupViewManager;->isAllowedPopView(Lcom/rigol/scope/views/baseview/BasePopupView;)Z
 
-    if-nez v0, :cond_2
-
-    instance-of v0, p1, Lcom/rigol/scope/views/bode/BodeResultPopuwin;
+    move-result v0
 
     if-eqz v0, :cond_3
 
-    .line 481
+    .line 484
     :cond_2
     invoke-virtual {p1}, Lcom/rigol/scope/views/baseview/BasePopupView;->show()V
 
@@ -4294,19 +4354,19 @@
         }
     .end annotation
 
-    .line 497
+    .line 520
     invoke-virtual {p0, p1}, Lcom/rigol/scope/utilities/PopupViewManager;->isShowing(Ljava/lang/Class;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 498
+    .line 521
     invoke-virtual {p0, p1}, Lcom/rigol/scope/utilities/PopupViewManager;->dismiss(Ljava/lang/Class;)V
 
     goto :goto_0
 
-    .line 501
+    .line 524
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/utilities/PopupViewManager;->show(Ljava/lang/Class;Landroid/view/View;)V
 
@@ -4317,10 +4377,10 @@
 .method public triggerLight(Lcom/rigol/scope/views/baseview/BasePopupView;)V
     .locals 1
 
-    .line 1206
+    .line 1229
     check-cast p1, Lcom/rigol/scope/views/trigger/TriggerPopupView;
 
-    .line 1207
+    .line 1230
     invoke-virtual {p1}, Lcom/rigol/scope/views/trigger/TriggerPopupView;->getParam()Lcom/rigol/scope/data/TriggerParam;
 
     move-result-object v0
@@ -4329,7 +4389,7 @@
 
     return-void
 
-    .line 1208
+    .line 1231
     :cond_0
     invoke-virtual {p1}, Lcom/rigol/scope/views/trigger/TriggerPopupView;->getParam()Lcom/rigol/scope/data/TriggerParam;
 
@@ -4339,7 +4399,7 @@
 
     move-result-object p1
 
-    .line 1209
+    .line 1232
     sget-object v0, Lcom/rigol/scope/utilities/PopupViewManager$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$TriggerMode:[I
 
     invoke-virtual {p1}, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->ordinal()I
@@ -4352,32 +4412,32 @@
 
     goto :goto_0
 
-    .line 1237
+    .line 1260
     :pswitch_0
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->closeAllLight()V
 
-    .line 1238
+    .line 1261
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->AVerticalLight_Open()V
 
     goto :goto_0
 
-    .line 1232
+    .line 1255
     :pswitch_1
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->closeAllLight()V
 
-    .line 1233
+    .line 1256
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->verticalLight()V
 
     goto :goto_0
 
-    .line 1218
+    .line 1241
     :pswitch_2
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->closeAllLight()V
 
-    .line 1219
+    .line 1242
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->AVerticalLight_Open()V
 
-    .line 1220
+    .line 1243
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->BHorizontalLight_Open()V
 
     :goto_0
@@ -4413,13 +4473,13 @@
 .method public verticalLight()V
     .locals 0
 
-    .line 1081
+    .line 1104
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->closeAllLight()V
 
-    .line 1082
+    .line 1105
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->AVerticalLight_Open()V
 
-    .line 1083
+    .line 1106
     invoke-virtual {p0}, Lcom/rigol/scope/utilities/PopupViewManager;->BVerticalLight_Open()V
 
     return-void

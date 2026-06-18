@@ -31,12 +31,12 @@
 .method public constructor <init>(I)V
     .locals 0
 
-    .line 2363
+    .line 2369
     invoke-direct {p0, p1}, Lcom/rigol/scope/adapters/BaseAdapterDelegate;-><init>(I)V
 
     const/4 p1, -0x1
 
-    .line 2359
+    .line 2365
     iput p1, p0, Lcom/rigol/scope/adapters/ResultListAdapter$BaseMeasureAdapterDelegate;->selectedPosition:I
 
     return-void
@@ -47,7 +47,7 @@
 .method protected bridge synthetic isForViewType(Ljava/lang/Object;I)Z
     .locals 0
 
-    .line 2352
+    .line 2358
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/adapters/ResultListAdapter$BaseMeasureAdapterDelegate;->isForViewType(Ljava/util/List;I)Z
@@ -76,7 +76,7 @@
 .method protected bridge synthetic onBindViewHolder(Ljava/lang/Object;ILcom/rigol/scope/adapters/BaseViewHolder;)V
     .locals 0
 
-    .line 2352
+    .line 2358
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/rigol/scope/adapters/ResultListAdapter$BaseMeasureAdapterDelegate;->onBindViewHolder(Ljava/util/List;ILcom/rigol/scope/adapters/BaseViewHolder;)V
@@ -99,14 +99,14 @@
         }
     .end annotation
 
-    .line 2385
+    .line 2391
     invoke-virtual {p3}, Lcom/rigol/scope/adapters/BaseViewHolder;->getBinding()Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
 
     if-eqz p1, :cond_1
 
-    .line 2390
+    .line 2396
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
     move-result-object p1
@@ -132,7 +132,7 @@
 .method public setSelectedPosition(I)V
     .locals 0
 
-    .line 2373
+    .line 2379
     iput p1, p0, Lcom/rigol/scope/adapters/ResultListAdapter$BaseMeasureAdapterDelegate;->selectedPosition:I
 
     return-void

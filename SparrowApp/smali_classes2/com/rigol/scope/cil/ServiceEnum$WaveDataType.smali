@@ -54,7 +54,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 9581
+    .line 9591
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;
 
     const-string v1, "TRACE_WFM"
@@ -75,7 +75,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;->TRACE_WFM:Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;
 
-    .line 9583
+    .line 9593
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;
 
     const-string v9, "TRACE_BUS"
@@ -96,7 +96,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;->TRACE_BUS:Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;
 
-    .line 9585
+    .line 9595
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;
 
     const-string v2, "TRACE_RTSA"
@@ -117,7 +117,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;->TRACE_RTSA:Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;
 
-    .line 9587
+    .line 9597
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;
 
     const-string v9, "TRACE_SEARCH"
@@ -138,7 +138,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;->TRACE_SEARCH:Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;
 
-    .line 9589
+    .line 9599
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;
 
     const-string v2, "TRACE_HISTOGRAM"
@@ -159,7 +159,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;->TRACE_HISTOGRAM:Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;
 
-    .line 9591
+    .line 9601
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;
 
     const-string v9, "TRACE_LA"
@@ -180,7 +180,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;->TRACE_LA:Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;
 
-    .line 9593
+    .line 9603
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;
 
     const-string v2, "MEMORY_WFM"
@@ -205,7 +205,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;
 
-    .line 9578
+    .line 9588
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;->TRACE_WFM:Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;
 
     const/4 v3, 0x0
@@ -263,19 +263,19 @@
         }
     .end annotation
 
-    .line 9596
+    .line 9606
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 9597
+    .line 9607
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;->value1:I
 
-    .line 9598
+    .line 9608
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;->value2:Ljava/lang/String;
 
-    .line 9599
+    .line 9609
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;->pic1:Ljava/lang/String;
 
-    .line 9600
+    .line 9610
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;->pic2:Ljava/lang/String;
 
     return-void
@@ -284,7 +284,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;
     .locals 1
 
-    .line 9578
+    .line 9588
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -299,7 +299,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;
     .locals 1
 
-    .line 9578
+    .line 9588
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$WaveDataType;->clone()Ljava/lang/Object;

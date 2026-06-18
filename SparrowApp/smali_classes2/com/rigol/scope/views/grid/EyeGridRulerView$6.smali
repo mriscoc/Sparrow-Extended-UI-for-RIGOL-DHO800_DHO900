@@ -78,7 +78,7 @@
 .method public final onChanged(Ljava/lang/Object;)V
     .locals 2
 
-    .line 1413
+    .line 1528
     iget-object p1, p0, Lcom/rigol/scope/views/grid/EyeGridRulerView$6;->this$0:Lcom/rigol/scope/views/grid/EyeGridRulerView;
 
     invoke-static {p1}, Lcom/rigol/scope/views/grid/EyeGridRulerView;->access$getEyeParam$p(Lcom/rigol/scope/views/grid/EyeGridRulerView;)Lcom/rigol/scope/data/EyeParam;
@@ -93,7 +93,7 @@
 
     if-eqz p1, :cond_1
 
-    .line 1414
+    .line 1529
     invoke-virtual {p1}, Lcom/rigol/scope/data/BaseProperty;->getValue()Ljava/lang/Object;
 
     move-result-object v0
@@ -116,19 +116,19 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 1416
+    .line 1531
     const-class v0, Lcom/rigol/scope/viewmodels/VerticalViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
 
     move-result-object v0
 
-    .line 1415
+    .line 1530
     check-cast v0, Lcom/rigol/scope/viewmodels/VerticalViewModel;
 
     if-eqz v0, :cond_0
 
-    .line 1417
+    .line 1532
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/VerticalViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -146,11 +146,11 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 1419
+    .line 1534
     :goto_0
     check-cast v0, Ljava/util/List;
 
-    .line 1420
+    .line 1535
     invoke-virtual {p1}, Lcom/rigol/scope/data/BaseProperty;->getValue()Ljava/lang/Object;
 
     move-result-object p1
@@ -165,14 +165,14 @@
 
     move-result-object p1
 
-    .line 1418
+    .line 1533
     invoke-static {v0, p1}, Lcom/rigol/scope/utilities/ViewUtil;->getVerticalItem(Ljava/util/List;Lcom/rigol/scope/cil/ServiceEnum$Chan;)Lcom/rigol/scope/data/VerticalParam;
 
     move-result-object p1
 
     if-eqz p1, :cond_1
 
-    .line 1425
+    .line 1540
     iget-object v0, p0, Lcom/rigol/scope/views/grid/EyeGridRulerView$6;->this$0:Lcom/rigol/scope/views/grid/EyeGridRulerView;
 
     invoke-static {v0, p1}, Lcom/rigol/scope/views/grid/EyeGridRulerView;->access$updateYRuler(Lcom/rigol/scope/views/grid/EyeGridRulerView;Lcom/rigol/scope/data/VerticalParam;)V

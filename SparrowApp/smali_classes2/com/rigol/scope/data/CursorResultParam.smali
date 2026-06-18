@@ -3066,7 +3066,7 @@
     .line 185
     iput-object p1, p0, Lcom/rigol/scope/data/CursorResultParam;->unit:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    const/16 p1, 0x3db
+    const/16 p1, 0x3df
 
     .line 186
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/CursorResultParam;->notifyPropertyChanged(I)V
@@ -3087,7 +3087,7 @@
     .line 157
     iput-object p1, p0, Lcom/rigol/scope/data/CursorResultParam;->view:Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
-    const/16 p1, 0x408
+    const/16 p1, 0x40c
 
     .line 158
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/CursorResultParam;->notifyPropertyChanged(I)V

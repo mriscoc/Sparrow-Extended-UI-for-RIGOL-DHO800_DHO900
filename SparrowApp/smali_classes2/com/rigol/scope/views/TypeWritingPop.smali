@@ -297,7 +297,7 @@
 
     const-string v3, "kbd"
 
-    const v4, 0x7f1003b9
+    const v4, 0x7f1003bc
 
     if-ne v0, v1, :cond_4
 
@@ -1001,7 +1001,7 @@
 
     iput-object v0, p0, Lcom/rigol/scope/views/TypeWritingPop;->btnOk:Landroid/widget/Button;
 
-    const v0, 0x7f0a08fd
+    const v0, 0x7f0a0909
 
     .line 765
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1010,7 +1010,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const v1, 0x7f100bd3
+    const v1, 0x7f100bde
 
     .line 766
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
@@ -1197,7 +1197,7 @@
 
     invoke-virtual {v0, p0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0a03a8
+    const v0, 0x7f0a03aa
 
     .line 809
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1208,7 +1208,7 @@
 
     sput-object v0, Lcom/rigol/scope/views/TypeWritingPop;->edInputMessage:Landroid/widget/EditText;
 
-    const v0, 0x7f0a0a67
+    const v0, 0x7f0a0a73
 
     .line 810
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1495,70 +1495,70 @@
     :cond_0
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn1:Landroid/widget/Button;
 
-    const v1, 0x7f1013b5
+    const v1, 0x7f1013ca
 
     invoke-virtual {p1, v1}, Landroid/widget/Button;->setText(I)V
 
     .line 908
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn2:Landroid/widget/Button;
 
-    const v1, 0x7f101ef4
+    const v1, 0x7f101f0e
 
     invoke-virtual {p1, v1}, Landroid/widget/Button;->setText(I)V
 
     .line 909
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn3:Landroid/widget/Button;
 
-    const v1, 0x7f100361
+    const v1, 0x7f100364
 
     invoke-virtual {p1, v1}, Landroid/widget/Button;->setText(I)V
 
     .line 910
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn4:Landroid/widget/Button;
 
-    const v1, 0x7f1013e0
+    const v1, 0x7f1013f5
 
     invoke-virtual {p1, v1}, Landroid/widget/Button;->setText(I)V
 
     .line 911
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn5:Landroid/widget/Button;
 
-    const v1, 0x7f101638
+    const v1, 0x7f101652
 
     invoke-virtual {p1, v1}, Landroid/widget/Button;->setText(I)V
 
     .line 912
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn6:Landroid/widget/Button;
 
-    const v1, 0x7f101ef7
+    const v1, 0x7f101f11
 
     invoke-virtual {p1, v1}, Landroid/widget/Button;->setText(I)V
 
     .line 913
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn7:Landroid/widget/Button;
 
-    const v1, 0x7f1019a7
+    const v1, 0x7f1019c1
 
     invoke-virtual {p1, v1}, Landroid/widget/Button;->setText(I)V
 
     .line 914
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn8:Landroid/widget/Button;
 
-    const v1, 0x7f10071e
+    const v1, 0x7f100726
 
     invoke-virtual {p1, v1}, Landroid/widget/Button;->setText(I)V
 
     .line 915
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn9:Landroid/widget/Button;
 
-    const v1, 0x7f101383
+    const v1, 0x7f101398
 
     invoke-virtual {p1, v1}, Landroid/widget/Button;->setText(I)V
 
     .line 916
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn10:Landroid/widget/Button;
 
-    const v1, 0x7f101385
+    const v1, 0x7f10139a
 
     invoke-virtual {p1, v1}, Landroid/widget/Button;->setText(I)V
 
@@ -1572,70 +1572,70 @@
     .line 918
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn12:Landroid/widget/Button;
 
-    const v1, 0x7f101453
+    const v1, 0x7f101468
 
     invoke-virtual {p1, v1}, Landroid/widget/Button;->setText(I)V
 
     .line 919
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn13:Landroid/widget/Button;
 
-    const v1, 0x7f1002ca
+    const v1, 0x7f1002cb
 
     invoke-virtual {p1, v1}, Landroid/widget/Button;->setText(I)V
 
     .line 920
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn14:Landroid/widget/Button;
 
-    const v1, 0x7f100494
+    const v1, 0x7f100497
 
     invoke-virtual {p1, v1}, Landroid/widget/Button;->setText(I)V
 
     .line 921
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn15:Landroid/widget/Button;
 
-    const v1, 0x7f100533
+    const v1, 0x7f100536
 
     invoke-virtual {p1, v1}, Landroid/widget/Button;->setText(I)V
 
     .line 922
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn16:Landroid/widget/Button;
 
-    const v1, 0x7f100682
+    const v1, 0x7f100685
 
     invoke-virtual {p1, v1}, Landroid/widget/Button;->setText(I)V
 
     .line 923
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn17:Landroid/widget/Button;
 
-    const v1, 0x7f1007f5
+    const v1, 0x7f1007fd
 
     invoke-virtual {p1, v1}, Landroid/widget/Button;->setText(I)V
 
     .line 924
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn18:Landroid/widget/Button;
 
-    const v1, 0x7f10082b
+    const v1, 0x7f100833
 
     invoke-virtual {p1, v1}, Landroid/widget/Button;->setText(I)V
 
     .line 925
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn19:Landroid/widget/Button;
 
-    const v1, 0x7f10082f
+    const v1, 0x7f100837
 
     invoke-virtual {p1, v1}, Landroid/widget/Button;->setText(I)V
 
     .line 926
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn20:Landroid/widget/Button;
 
-    const v1, 0x7f101ef8
+    const v1, 0x7f101f12
 
     invoke-virtual {p1, v1}, Landroid/widget/Button;->setText(I)V
 
     .line 927
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn21:Landroid/widget/Button;
 
-    const v1, 0x7f101ef5
+    const v1, 0x7f101f0f
 
     invoke-virtual {p1, v1}, Landroid/widget/Button;->setText(I)V
 
@@ -1649,7 +1649,7 @@
     .line 929
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn23:Landroid/widget/Button;
 
-    const v1, 0x7f101aa1
+    const v1, 0x7f101abb
 
     invoke-virtual {p1, v1}, Landroid/widget/Button;->setText(I)V
 
@@ -1663,14 +1663,14 @@
     .line 931
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn25:Landroid/widget/Button;
 
-    const v1, 0x7f101362
+    const v1, 0x7f101377
 
     invoke-virtual {p1, v1}, Landroid/widget/Button;->setText(I)V
 
     .line 932
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn26:Landroid/widget/Button;
 
-    const v1, 0x7f1008bc
+    const v1, 0x7f1008c4
 
     invoke-virtual {p1, v1}, Landroid/widget/Button;->setText(I)V
 
@@ -1737,77 +1737,77 @@
     .line 957
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn1:Landroid/widget/Button;
 
-    const v0, 0x7f101384
+    const v0, 0x7f101399
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 
     .line 958
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn2:Landroid/widget/Button;
 
-    const v0, 0x7f1019a6
+    const v0, 0x7f1019c0
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 
     .line 959
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn3:Landroid/widget/Button;
 
-    const v0, 0x7f10163a
+    const v0, 0x7f101654
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 
     .line 960
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn4:Landroid/widget/Button;
 
-    const v0, 0x7f100532
+    const v0, 0x7f100535
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 
     .line 961
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn5:Landroid/widget/Button;
 
-    const v0, 0x7f100504
+    const v0, 0x7f100507
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 
     .line 962
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn6:Landroid/widget/Button;
 
-    const v0, 0x7f10152c
+    const v0, 0x7f101541
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 
     .line 963
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn7:Landroid/widget/Button;
 
-    const v0, 0x7f10152b
+    const v0, 0x7f101540
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 
     .line 964
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn8:Landroid/widget/Button;
 
-    const v0, 0x7f100362
+    const v0, 0x7f100365
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 
     .line 965
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn9:Landroid/widget/Button;
 
-    const v0, 0x7f101382
+    const v0, 0x7f101397
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 
     .line 966
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn10:Landroid/widget/Button;
 
-    const v0, 0x7f101ef9
+    const v0, 0x7f101f13
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 
     .line 967
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn11:Landroid/widget/Button;
 
-    const v0, 0x7f100534
+    const v0, 0x7f100537
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 
@@ -1821,98 +1821,98 @@
     .line 969
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn13:Landroid/widget/Button;
 
-    const v0, 0x7f10139c
+    const v0, 0x7f1013b1
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 
     .line 970
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn14:Landroid/widget/Button;
 
-    const v0, 0x7f10034c
+    const v0, 0x7f10034f
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 
     .line 971
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn15:Landroid/widget/Button;
 
-    const v0, 0x7f10138b
+    const v0, 0x7f1013a0
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 
     .line 972
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn16:Landroid/widget/Button;
 
-    const v0, 0x7f1008b0
+    const v0, 0x7f1008b8
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 
     .line 973
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn17:Landroid/widget/Button;
 
-    const v0, 0x7f101451
+    const v0, 0x7f101466
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 
     .line 974
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn18:Landroid/widget/Button;
 
-    const v0, 0x7f1019a8
+    const v0, 0x7f1019c2
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 
     .line 975
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn19:Landroid/widget/Button;
 
-    const v0, 0x7f101ef6
+    const v0, 0x7f101f10
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 
     .line 976
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn20:Landroid/widget/Button;
 
-    const v0, 0x7f1008b1
+    const v0, 0x7f1008b9
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 
     .line 977
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn21:Landroid/widget/Button;
 
-    const v0, 0x7f101452
+    const v0, 0x7f101467
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 
     .line 978
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn22:Landroid/widget/Button;
 
-    const v0, 0x7f100235
+    const v0, 0x7f100236
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 
     .line 979
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn23:Landroid/widget/Button;
 
-    const v0, 0x7f1008bd
+    const v0, 0x7f1008c5
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 
     .line 980
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn24:Landroid/widget/Button;
 
-    const v0, 0x7f100236
+    const v0, 0x7f100237
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 
     .line 981
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn25:Landroid/widget/Button;
 
-    const v0, 0x7f10034b
+    const v0, 0x7f10034e
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 
     .line 982
     iget-object p1, p0, Lcom/rigol/scope/views/TypeWritingPop;->btn26:Landroid/widget/Button;
 
-    const v0, 0x7f1013b6
+    const v0, 0x7f1013cb
 
     invoke-virtual {p1, v0}, Landroid/widget/Button;->setText(I)V
 
@@ -2876,7 +2876,7 @@
 
     const-string v2, "kbd"
 
-    const v3, 0x7f1003b9
+    const v3, 0x7f1003bc
 
     if-ne p1, v0, :cond_2b
 

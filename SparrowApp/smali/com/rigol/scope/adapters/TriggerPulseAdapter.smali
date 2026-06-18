@@ -258,7 +258,7 @@
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$TriggerSweep;->value1:I
 
-    const v2, 0x7f030233
+    const v2, 0x7f030237
 
     invoke-static {v2, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -299,7 +299,7 @@
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;->value1:I
 
-    const v2, 0x7f03021a
+    const v2, 0x7f03021e
 
     invoke-static {v2, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -475,6 +475,36 @@
     return v0
 .end method
 
+.method public synthetic lambda$null$0$TriggerPulseAdapter(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
+    .locals 0
+
+    .line 152
+    iput-object p1, p0, Lcom/rigol/scope/adapters/TriggerPulseAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
+
+    return-void
+.end method
+
+.method public synthetic lambda$null$1$TriggerPulseAdapter(ILcom/rigol/scope/data/MappingObject;)V
+    .locals 1
+
+    .line 154
+    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerPulseAdapter;->clickedView:Landroid/view/View;
+
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    move-result p1
+
+    const v0, 0x7f0a09fc
+
+    if-ne p1, v0, :cond_0
+
+    .line 155
+    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerPulseAdapter;->selectSource(Lcom/rigol/scope/data/MappingObject;)V
+
+    :cond_0
+    return-void
+.end method
+
 .method public synthetic lambda$onClick$3$TriggerPulseAdapter(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
     .locals 0
 
@@ -499,36 +529,6 @@
     .line 376
     invoke-direct {p0, p4}, Lcom/rigol/scope/adapters/TriggerPulseAdapter;->selectSource(Lcom/rigol/scope/data/MappingObject;)V
 
-    return-void
-.end method
-
-.method public synthetic lambda$onCreateViewHolder$0$TriggerPulseAdapter(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
-    .locals 0
-
-    .line 152
-    iput-object p1, p0, Lcom/rigol/scope/adapters/TriggerPulseAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
-
-    return-void
-.end method
-
-.method public synthetic lambda$onCreateViewHolder$1$TriggerPulseAdapter(ILcom/rigol/scope/data/MappingObject;)V
-    .locals 1
-
-    .line 154
-    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerPulseAdapter;->clickedView:Landroid/view/View;
-
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
-
-    move-result p1
-
-    const v0, 0x7f0a09f0
-
-    if-ne p1, v0, :cond_0
-
-    .line 155
-    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerPulseAdapter;->selectSource(Lcom/rigol/scope/data/MappingObject;)V
-
-    :cond_0
     return-void
 .end method
 
@@ -575,13 +575,13 @@
 
     iget-object v8, p0, Lcom/rigol/scope/adapters/TriggerPulseAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
 
-    new-instance v9, Lcom/rigol/scope/adapters/-$$Lambda$TriggerPulseAdapter$mfQLe08Jdj_4RHfaPac3BjX8Z28;
+    new-instance v9, Lcom/rigol/scope/adapters/-$$Lambda$TriggerPulseAdapter$w4X13SUwXa4i3HEMOhr6g477Oz4;
 
-    invoke-direct {v9, p0}, Lcom/rigol/scope/adapters/-$$Lambda$TriggerPulseAdapter$mfQLe08Jdj_4RHfaPac3BjX8Z28;-><init>(Lcom/rigol/scope/adapters/TriggerPulseAdapter;)V
+    invoke-direct {v9, p0}, Lcom/rigol/scope/adapters/-$$Lambda$TriggerPulseAdapter$w4X13SUwXa4i3HEMOhr6g477Oz4;-><init>(Lcom/rigol/scope/adapters/TriggerPulseAdapter;)V
 
-    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$TriggerPulseAdapter$AdZYhigjkMJzBwrNpp2ubQgccPs;
+    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$TriggerPulseAdapter$w3kMsXMl1YaJ2-nESX_3KEePchs;
 
-    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$TriggerPulseAdapter$AdZYhigjkMJzBwrNpp2ubQgccPs;-><init>(Lcom/rigol/scope/adapters/TriggerPulseAdapter;)V
+    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$TriggerPulseAdapter$w3kMsXMl1YaJ2-nESX_3KEePchs;-><init>(Lcom/rigol/scope/adapters/TriggerPulseAdapter;)V
 
     move-object v2, p1
 
@@ -654,7 +654,7 @@
 
     iget v0, p0, Lcom/rigol/scope/adapters/TriggerPulseAdapter;->serviceId:I
 
-    const/16 v1, 0x4f1e
+    const/16 v1, 0x511e
 
     invoke-virtual {p1, v0, v1, p2}, Lcom/rigol/scope/cil/API;->UI_PostBool(IIZ)I
 
@@ -845,14 +845,14 @@
     :sswitch_data_0
     .sparse-switch
         0x7f0a00c3 -> :sswitch_8
-        0x7f0a05f1 -> :sswitch_7
-        0x7f0a05f2 -> :sswitch_6
-        0x7f0a065d -> :sswitch_5
-        0x7f0a069b -> :sswitch_4
-        0x7f0a0718 -> :sswitch_3
-        0x7f0a0719 -> :sswitch_2
-        0x7f0a0813 -> :sswitch_1
-        0x7f0a09d5 -> :sswitch_0
+        0x7f0a05f9 -> :sswitch_7
+        0x7f0a05fa -> :sswitch_6
+        0x7f0a0665 -> :sswitch_5
+        0x7f0a06a5 -> :sswitch_4
+        0x7f0a0724 -> :sswitch_3
+        0x7f0a0725 -> :sswitch_2
+        0x7f0a081f -> :sswitch_1
+        0x7f0a09e1 -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -960,7 +960,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f03022a
+    const v0, 0x7f03022e
 
     .line 368
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1348,14 +1348,14 @@
     .sparse-switch
         0x7f0a00c3 -> :sswitch_9
         0x7f0a0190 -> :sswitch_8
-        0x7f0a051c -> :sswitch_7
-        0x7f0a060e -> :sswitch_6
-        0x7f0a069b -> :sswitch_5
-        0x7f0a0813 -> :sswitch_4
-        0x7f0a0987 -> :sswitch_3
-        0x7f0a09b8 -> :sswitch_2
-        0x7f0a09f0 -> :sswitch_1
-        0x7f0a0aac -> :sswitch_0
+        0x7f0a051e -> :sswitch_7
+        0x7f0a0616 -> :sswitch_6
+        0x7f0a06a5 -> :sswitch_5
+        0x7f0a081f -> :sswitch_4
+        0x7f0a0993 -> :sswitch_3
+        0x7f0a09c4 -> :sswitch_2
+        0x7f0a09fc -> :sswitch_1
+        0x7f0a0ab8 -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -1707,10 +1707,10 @@
 
     :sswitch_data_0
     .sparse-switch
-        0x7f0a060e -> :sswitch_3
-        0x7f0a0987 -> :sswitch_2
-        0x7f0a09b8 -> :sswitch_1
-        0x7f0a0aac -> :sswitch_0
+        0x7f0a0616 -> :sswitch_3
+        0x7f0a0993 -> :sswitch_2
+        0x7f0a09c4 -> :sswitch_1
+        0x7f0a0ab8 -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -1843,10 +1843,10 @@
 
     :sswitch_data_0
     .sparse-switch
-        0x7f0a060e -> :sswitch_3
-        0x7f0a0987 -> :sswitch_2
-        0x7f0a09b8 -> :sswitch_1
-        0x7f0a0aac -> :sswitch_0
+        0x7f0a0616 -> :sswitch_3
+        0x7f0a0993 -> :sswitch_2
+        0x7f0a09c4 -> :sswitch_1
+        0x7f0a0ab8 -> :sswitch_0
     .end sparse-switch
 .end method
 

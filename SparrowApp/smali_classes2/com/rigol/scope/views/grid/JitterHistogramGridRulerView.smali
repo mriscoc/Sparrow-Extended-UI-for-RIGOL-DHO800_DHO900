@@ -81,21 +81,21 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 0
 
-    .line 1788
+    .line 1903
     invoke-direct {p0, p1, p2, p3}, Lcom/rigol/scope/views/grid/GridRulerViewWrapper;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 1791
+    .line 1906
     invoke-direct {p0}, Lcom/rigol/scope/views/grid/JitterHistogramGridRulerView;->updateYRuler()V
 
-    .line 1792
+    .line 1907
     invoke-direct {p0}, Lcom/rigol/scope/views/grid/JitterHistogramGridRulerView;->updateXRuler()V
 
     const/4 p1, 0x1
 
-    .line 1795
+    .line 1910
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/grid/JitterHistogramGridRulerView;->setFromTop(Z)V
 
-    .line 1797
+    .line 1912
     const-class p1, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -108,16 +108,16 @@
 
     const/16 p2, 0x34
 
-    const/16 p3, 0x272e
+    const/16 p3, 0x292e
 
-    .line 1799
+    .line 1914
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
     if-eqz p1, :cond_1
 
-    .line 1800
+    .line 1915
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p2
@@ -159,7 +159,7 @@
 
     const/4 p2, 0x0
 
-    .line 1786
+    .line 1901
     check-cast p2, Landroid/util/AttributeSet;
 
     :cond_0
@@ -169,7 +169,7 @@
 
     const/4 p3, 0x0
 
-    .line 1787
+    .line 1902
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/rigol/scope/views/grid/JitterHistogramGridRulerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -179,7 +179,7 @@
 .method public static final synthetic access$updateXRuler(Lcom/rigol/scope/views/grid/JitterHistogramGridRulerView;)V
     .locals 0
 
-    .line 1784
+    .line 1899
     invoke-direct {p0}, Lcom/rigol/scope/views/grid/JitterHistogramGridRulerView;->updateXRuler()V
 
     return-void
@@ -188,7 +188,7 @@
 .method public static final synthetic access$updateYRuler(Lcom/rigol/scope/views/grid/JitterHistogramGridRulerView;)V
     .locals 0
 
-    .line 1784
+    .line 1899
     invoke-direct {p0}, Lcom/rigol/scope/views/grid/JitterHistogramGridRulerView;->updateYRuler()V
 
     return-void
@@ -197,14 +197,14 @@
 .method private final updateXRuler()V
     .locals 1
 
-    .line 1810
+    .line 1925
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->getJitterHistogramXRulers()[Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/grid/JitterHistogramGridRulerView;->setColumnContents([Ljava/lang/String;)V
 
-    .line 1813
+    .line 1928
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/JitterHistogramGridRulerView;->invalidate()V
 
     return-void
@@ -213,14 +213,14 @@
 .method private final updateYRuler()V
     .locals 1
 
-    .line 1820
+    .line 1935
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->getJitterHistogramYRulers()[Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/grid/JitterHistogramGridRulerView;->setRowContents([Ljava/lang/String;)V
 
-    .line 1823
+    .line 1938
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/JitterHistogramGridRulerView;->invalidate()V
 
     return-void

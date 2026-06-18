@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 9187
+    .line 9197
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$struExectue;
 
     const-string v1, "FUNC_ATTR_DIRECT"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$struExectue;->FUNC_ATTR_DIRECT:Lcom/rigol/scope/cil/ServiceEnum$struExectue;
 
-    .line 9188
+    .line 9198
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$struExectue;
 
     const-string v9, "FUNC_ATTR_CACHE"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$struExectue;->FUNC_ATTR_CACHE:Lcom/rigol/scope/cil/ServiceEnum$struExectue;
 
-    .line 9189
+    .line 9199
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$struExectue;
 
     const-string v2, "FUNC_ATTR_SYNC"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$struExectue;
 
-    .line 9185
+    .line 9195
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$struExectue;->FUNC_ATTR_DIRECT:Lcom/rigol/scope/cil/ServiceEnum$struExectue;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 9192
+    .line 9202
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 9193
+    .line 9203
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$struExectue;->value1:I
 
-    .line 9194
+    .line 9204
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$struExectue;->value2:Ljava/lang/String;
 
-    .line 9195
+    .line 9205
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$struExectue;->pic1:Ljava/lang/String;
 
-    .line 9196
+    .line 9206
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$struExectue;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$struExectue;
     .locals 1
 
-    .line 9185
+    .line 9195
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$struExectue;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$struExectue;
     .locals 1
 
-    .line 9185
+    .line 9195
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$struExectue;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$struExectue;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$struExectue;->clone()Ljava/lang/Object;

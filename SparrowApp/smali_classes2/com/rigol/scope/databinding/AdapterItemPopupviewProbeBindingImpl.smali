@@ -28,7 +28,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04cc
+    const v1, 0x7f0a04ce
 
     const/16 v2, 0x13
 
@@ -38,7 +38,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04d1
+    const v1, 0x7f0a04d3
 
     const/16 v2, 0x14
 
@@ -47,7 +47,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04d2
+    const v1, 0x7f0a04d4
 
     const/16 v2, 0x15
 
@@ -56,7 +56,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0734
+    const v1, 0x7f0a0740
 
     const/16 v2, 0x16
 
@@ -232,7 +232,7 @@
 
     move-object/from16 v2, p0
 
-    .line 992
+    .line 1059
     iput-wide v0, v2, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->mDirtyFlags:J
 
     const/4 v0, 0x0
@@ -362,10 +362,10 @@
 
     if-nez p2, :cond_0
 
-    .line 258
+    .line 270
     monitor-enter p0
 
-    .line 259
+    .line 271
     :try_start_0
     iget-wide p1, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->mDirtyFlags:J
 
@@ -375,7 +375,7 @@
 
     iput-wide p1, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->mDirtyFlags:J
 
-    .line 260
+    .line 272
     monitor-exit p0
 
     const/4 p1, 0x1
@@ -432,7 +432,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x29a
+    const/16 v0, 0x29e
 
     if-ne p2, v0, :cond_1
 
@@ -464,7 +464,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x296
+    const/16 v0, 0x29a
 
     if-ne p2, v0, :cond_2
 
@@ -496,7 +496,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x29e
+    const/16 v0, 0x2a2
 
     if-ne p2, v0, :cond_3
 
@@ -528,7 +528,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x299
+    const/16 v0, 0x29d
 
     if-ne p2, v0, :cond_4
 
@@ -560,7 +560,7 @@
     throw p1
 
     :cond_4
-    const/16 v0, 0x293
+    const/16 v0, 0x296
 
     if-ne p2, v0, :cond_5
 
@@ -592,7 +592,7 @@
     throw p1
 
     :cond_5
-    const/16 v0, 0x298
+    const/16 v0, 0x29f
 
     if-ne p2, v0, :cond_6
 
@@ -624,7 +624,7 @@
     throw p1
 
     :cond_6
-    const/16 v0, 0x292
+    const/16 v0, 0x297
 
     if-ne p2, v0, :cond_7
 
@@ -656,7 +656,7 @@
     throw p1
 
     :cond_7
-    const/16 v0, 0x28f
+    const/16 v0, 0x29c
 
     if-ne p2, v0, :cond_8
 
@@ -688,7 +688,7 @@
     throw p1
 
     :cond_8
-    const/16 v0, 0x290
+    const/16 v0, 0x295
 
     if-ne p2, v0, :cond_9
 
@@ -720,7 +720,7 @@
     throw p1
 
     :cond_9
-    const/16 v0, 0x294
+    const/16 v0, 0x292
 
     if-ne p2, v0, :cond_a
 
@@ -752,7 +752,7 @@
     throw p1
 
     :cond_a
-    const/16 v0, 0x297
+    const/16 v0, 0x293
 
     if-ne p2, v0, :cond_b
 
@@ -784,7 +784,7 @@
     throw p1
 
     :cond_b
-    const/16 v0, 0x29d
+    const/16 v0, 0x298
 
     if-ne p2, v0, :cond_c
 
@@ -816,7 +816,7 @@
     throw p1
 
     :cond_c
-    const/16 v0, 0x291
+    const/16 v0, 0x29b
 
     if-ne p2, v0, :cond_d
 
@@ -848,6 +848,70 @@
     throw p1
 
     :cond_d
+    const/16 v0, 0x2a1
+
+    if-ne p2, v0, :cond_e
+
+    .line 240
+    monitor-enter p0
+
+    .line 241
+    :try_start_e
+    iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->mDirtyFlags:J
+
+    const-wide/32 v2, 0x20000
+
+    or-long/2addr v0, v2
+
+    iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->mDirtyFlags:J
+
+    .line 242
+    monitor-exit p0
+
+    return p1
+
+    :catchall_e
+    move-exception p1
+
+    monitor-exit p0
+    :try_end_e
+    .catchall {:try_start_e .. :try_end_e} :catchall_e
+
+    throw p1
+
+    :cond_e
+    const/16 v0, 0x294
+
+    if-ne p2, v0, :cond_f
+
+    .line 246
+    monitor-enter p0
+
+    .line 247
+    :try_start_f
+    iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->mDirtyFlags:J
+
+    const-wide/32 v2, 0x40000
+
+    or-long/2addr v0, v2
+
+    iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->mDirtyFlags:J
+
+    .line 248
+    monitor-exit p0
+
+    return p1
+
+    :catchall_f
+    move-exception p1
+
+    monitor-exit p0
+    :try_end_f
+    .catchall {:try_start_f .. :try_end_f} :catchall_f
+
+    throw p1
+
+    :cond_f
     const/4 p1, 0x0
 
     return p1
@@ -860,10 +924,10 @@
 
     if-nez p2, :cond_0
 
-    .line 243
+    .line 255
     monitor-enter p0
 
-    .line 244
+    .line 256
     :try_start_0
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->mDirtyFlags:J
 
@@ -873,7 +937,7 @@
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->mDirtyFlags:J
 
-    .line 245
+    .line 257
     monitor-exit p0
 
     return p1
@@ -888,24 +952,24 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
-    .line 249
+    .line 261
     monitor-enter p0
 
-    .line 250
+    .line 262
     :try_start_1
     iget-wide v0, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->mDirtyFlags:J
 
-    const-wide/32 v2, 0x20000
+    const-wide/32 v2, 0x80000
 
     or-long/2addr v0, v2
 
     iput-wide v0, p0, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->mDirtyFlags:J
 
-    .line 251
+    .line 263
     monitor-exit p0
 
     return p1
@@ -928,637 +992,651 @@
 
 # virtual methods
 .method protected executeBindings()V
-    .locals 64
+    .locals 69
 
     move-object/from16 v1, p0
 
-    .line 269
+    .line 281
     monitor-enter p0
 
-    .line 270
+    .line 282
     :try_start_0
     iget-wide v2, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->mDirtyFlags:J
 
     const-wide/16 v4, 0x0
 
-    .line 271
+    .line 283
     iput-wide v4, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->mDirtyFlags:J
 
-    .line 272
+    .line 284
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 276
+    .line 289
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->mVerticalParam:Lcom/rigol/scope/data/VerticalParam;
 
-    .line 280
+    .line 293
     iget-object v6, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->mClickListener:Landroid/view/View$OnClickListener;
 
-    const-wide/32 v7, 0x7fff3
+    const-wide/32 v9, 0x1ffff3
 
-    and-long/2addr v7, v2
+    and-long/2addr v9, v2
 
-    cmp-long v7, v7, v4
+    cmp-long v9, v9, v4
 
-    const-wide/32 v8, 0x48001
+    const-wide/high16 v10, 0x100000000000000L
 
-    const-wide/32 v10, 0x42001
+    const-wide v12, 0x1000000000L
 
-    const-wide v14, 0x100000000L
+    const-wide v14, 0x2000100061L
 
-    const-wide v16, 0x200040061L
+    const-wide v16, 0x100000000L
 
-    const-wide/32 v18, 0x10000000
+    const-wide/high16 v18, 0x1000000000000000L
 
-    const-wide/32 v20, 0x40071
+    const-wide/32 v20, 0x10000000
 
-    const-wide/high16 v22, 0x100000000000000L
+    const-wide/32 v22, 0x100071
 
-    const-wide/32 v24, 0x1000000
+    const-wide/32 v24, 0x103801
 
-    const-wide/32 v26, 0x40e01
+    const-wide/32 v26, 0x180383
 
-    const/16 v28, 0x0
+    const-wide/32 v28, 0x200000
 
-    const-wide/high16 v29, 0x400000000000000L
+    const/16 v30, 0x0
 
-    const-wide/32 v31, 0x50061
+    const-wide/high16 v31, 0x4000000000000000L    # 2.0
 
-    const-wide/32 v33, 0x40261
+    const-wide/32 v33, 0x140061
 
-    const-wide/32 v35, 0x44061
+    const-wide/32 v35, 0x100861
 
-    const-wide/32 v37, 0x48061
+    const-wide/32 v37, 0x110061
 
-    const/16 v39, 0x8
+    const-wide/32 v39, 0x120061
 
-    const/4 v12, 0x1
+    const/16 v41, 0x8
 
-    const/16 v42, 0x0
+    const/16 v44, 0x0
 
-    if-eqz v7, :cond_29
+    if-eqz v9, :cond_2c
 
-    and-long v43, v2, v10
+    const-wide/32 v45, 0x108001
 
-    cmp-long v7, v43, v4
+    and-long v45, v2, v45
 
-    if-eqz v7, :cond_5
+    cmp-long v9, v45, v4
+
+    if-eqz v9, :cond_5
 
     if-eqz v0, :cond_0
 
-    .line 337
+    .line 356
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeDemagVisible()Z
 
-    move-result v43
+    move-result v45
 
     goto :goto_0
 
     :cond_0
-    move/from16 v43, v42
+    move/from16 v45, v44
 
     :goto_0
-    if-eqz v7, :cond_2
+    if-eqz v9, :cond_2
 
-    if-eqz v43, :cond_1
+    if-eqz v45, :cond_1
 
-    const-wide/high16 v44, 0x4000000000000L
+    const-wide/high16 v46, 0x40000000000000L
 
-    or-long v2, v2, v44
+    or-long v2, v2, v46
 
-    const-wide/high16 v44, 0x40000000000000L
+    const-wide/high16 v46, 0x400000000000000L
 
     goto :goto_1
 
     :cond_1
-    const-wide/high16 v44, 0x2000000000000L
+    const-wide/high16 v46, 0x20000000000000L
 
-    or-long v2, v2, v44
+    or-long v2, v2, v46
 
-    const-wide/high16 v44, 0x20000000000000L
+    const-wide/high16 v46, 0x200000000000000L
 
     :goto_1
-    or-long v2, v2, v44
+    or-long v2, v2, v46
 
     :cond_2
-    if-eqz v43, :cond_3
+    if-eqz v45, :cond_3
 
-    move/from16 v7, v42
+    move/from16 v9, v44
 
     goto :goto_2
 
     :cond_3
-    move/from16 v7, v39
+    move/from16 v9, v41
 
     :goto_2
-    if-eqz v43, :cond_4
+    if-eqz v45, :cond_4
 
-    const/16 v43, 0x4
+    const/16 v45, 0x4
 
     goto :goto_3
 
     :cond_4
-    move/from16 v43, v39
+    move/from16 v45, v41
 
     goto :goto_3
 
     :cond_5
-    move/from16 v7, v42
+    move/from16 v9, v44
 
-    move/from16 v43, v7
+    move/from16 v45, v9
 
     :goto_3
-    and-long v44, v2, v8
+    const-wide/32 v46, 0x120001
 
-    cmp-long v44, v44, v4
+    and-long v46, v2, v46
 
-    if-eqz v44, :cond_6
+    cmp-long v46, v46, v4
+
+    if-eqz v46, :cond_6
 
     if-eqz v0, :cond_6
 
-    .line 360
+    .line 379
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeSN()Ljava/lang/String;
 
-    move-result-object v44
+    move-result-object v46
 
     goto :goto_4
 
     :cond_6
-    const/16 v44, 0x0
+    const/16 v46, 0x0
 
     :goto_4
-    const-wide/32 v45, 0x60083
+    and-long v47, v2, v26
 
-    and-long v45, v2, v45
+    cmp-long v47, v47, v4
 
-    cmp-long v45, v45, v4
-
-    if-eqz v45, :cond_9
+    if-eqz v47, :cond_b
 
     if-eqz v0, :cond_7
 
-    .line 367
+    .line 386
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeRatio()Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    move-result-object v45
+    move-result-object v48
 
-    move-object/from16 v13, v45
+    move-object/from16 v8, v48
 
     goto :goto_5
 
     :cond_7
-    const/4 v13, 0x0
+    const/4 v8, 0x0
 
     :goto_5
-    if-eqz v13, :cond_8
+    if-eqz v8, :cond_8
 
-    .line 373
-    iget v13, v13, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->value1:I
+    .line 392
+    iget v8, v8, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->value1:I
 
     goto :goto_6
 
     :cond_8
-    move/from16 v13, v42
+    move/from16 v8, v44
 
+    .line 397
     :goto_6
-    const v8, 0x7f03008d
+    sget-object v7, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_Cus:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
 
-    .line 378
-    invoke-static {v8, v13}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
+    iget v7, v7, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->value1:I
 
-    move-result-object v8
+    if-ne v8, v7, :cond_9
 
-    .line 379
-    invoke-virtual {v1, v12, v8}, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->updateRegistration(ILandroidx/databinding/Observable;)Z
-
-    if-eqz v8, :cond_9
-
-    .line 384
-    invoke-virtual {v8}, Lcom/rigol/scope/data/MappingObject;->getStr()Ljava/lang/String;
-
-    move-result-object v8
+    const/4 v7, 0x1
 
     goto :goto_7
 
     :cond_9
-    const/4 v8, 0x0
+    move/from16 v7, v44
 
     :goto_7
-    const-wide/32 v47, 0x41001
+    if-eqz v47, :cond_c
 
-    and-long v47, v2, v47
+    if-eqz v7, :cond_a
 
-    cmp-long v9, v47, v4
+    const-wide/32 v49, 0x400000
 
-    if-eqz v9, :cond_f
-
-    if-eqz v0, :cond_a
-
-    .line 391
-    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeCal()Z
-
-    move-result v13
+    or-long v2, v2, v49
 
     goto :goto_8
 
     :cond_a
-    move/from16 v13, v42
+    or-long v2, v2, v28
 
-    :goto_8
-    if-eqz v9, :cond_c
-
-    if-eqz v13, :cond_b
-
-    const-wide/32 v47, 0x40000000
-
-    or-long v2, v2, v47
-
-    const-wide v47, 0x40000000000L
-
-    goto :goto_9
+    goto :goto_8
 
     :cond_b
-    const-wide/32 v47, 0x20000000
+    move/from16 v7, v44
 
-    or-long v2, v2, v47
-
-    const-wide v47, 0x20000000000L
-
-    :goto_9
-    or-long v2, v2, v47
+    move v8, v7
 
     :cond_c
-    if-eqz v13, :cond_d
-
-    const/4 v9, 0x4
-
-    goto :goto_a
-
-    :cond_d
-    move/from16 v9, v39
-
-    :goto_a
-    if-eqz v13, :cond_e
-
-    move/from16 v47, v42
-
-    goto :goto_b
-
-    :cond_e
-    move/from16 v47, v39
-
-    .line 410
-    :goto_b
-    invoke-static {v13}, Lcom/rigol/scope/utilities/ContextUtil;->getAlpha(Z)F
-
-    move-result v48
-
-    goto :goto_c
-
-    :cond_f
-    move/from16 v48, v28
-
-    move/from16 v9, v42
-
-    move v13, v9
-
-    move/from16 v47, v13
-
-    :goto_c
-    const-wide/32 v49, 0x5c261
+    :goto_8
+    const-wide/32 v49, 0x104001
 
     and-long v49, v2, v49
 
-    cmp-long v49, v49, v4
+    cmp-long v47, v49, v4
 
-    if-eqz v49, :cond_1a
+    if-eqz v47, :cond_12
 
-    if-eqz v0, :cond_10
+    if-eqz v0, :cond_d
 
-    .line 416
-    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeInsert()Z
+    .line 411
+    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeCal()Z
 
     move-result v49
 
-    goto :goto_d
+    goto :goto_9
+
+    :cond_d
+    move/from16 v49, v44
+
+    :goto_9
+    if-eqz v47, :cond_f
+
+    if-eqz v49, :cond_e
+
+    const-wide v50, 0x400000000L
+
+    or-long v2, v2, v50
+
+    const-wide v50, 0x400000000000L
+
+    goto :goto_a
+
+    :cond_e
+    const-wide v50, 0x200000000L
+
+    or-long v2, v2, v50
+
+    const-wide v50, 0x200000000000L
+
+    :goto_a
+    or-long v2, v2, v50
+
+    :cond_f
+    if-eqz v49, :cond_10
+
+    const/16 v47, 0x4
+
+    goto :goto_b
 
     :cond_10
-    move/from16 v49, v42
+    move/from16 v47, v41
 
-    :goto_d
-    and-long v50, v2, v37
-
-    cmp-long v50, v50, v4
-
-    if-eqz v50, :cond_12
-
+    :goto_b
     if-eqz v49, :cond_11
 
-    or-long v2, v2, v24
+    move/from16 v50, v44
 
-    goto :goto_e
+    goto :goto_c
 
     :cond_11
-    const-wide/32 v50, 0x800000
+    move/from16 v50, v41
 
-    or-long v2, v2, v50
-
-    :cond_12
-    :goto_e
-    and-long v50, v2, v35
-
-    cmp-long v50, v50, v4
-
-    if-eqz v50, :cond_14
-
-    if-eqz v49, :cond_13
-
-    or-long v2, v2, v18
-
-    goto :goto_f
-
-    :cond_13
-    const-wide/32 v50, 0x8000000
-
-    or-long v2, v2, v50
-
-    :cond_14
-    :goto_f
-    and-long v50, v2, v33
-
-    cmp-long v50, v50, v4
-
-    if-eqz v50, :cond_16
-
-    if-eqz v49, :cond_15
-
-    or-long/2addr v2, v14
-
-    goto :goto_10
-
-    :cond_15
-    const-wide v50, 0x80000000L
-
-    or-long v2, v2, v50
-
-    :cond_16
-    :goto_10
-    and-long v50, v2, v16
-
-    cmp-long v50, v50, v4
-
-    if-eqz v50, :cond_18
-
-    if-eqz v49, :cond_17
-
-    const-wide/high16 v40, 0x10000000000000L
-
-    or-long v2, v2, v40
-
-    goto :goto_11
-
-    :cond_17
-    const-wide/high16 v50, 0x8000000000000L
-
-    or-long v2, v2, v50
-
-    :cond_18
-    :goto_11
-    and-long v50, v2, v31
-
-    cmp-long v50, v50, v4
-
-    if-eqz v50, :cond_1b
-
-    if-eqz v49, :cond_19
-
-    or-long v2, v2, v22
-
-    goto :goto_12
-
-    :cond_19
-    const-wide/high16 v50, 0x80000000000000L
-
-    or-long v2, v2, v50
-
-    goto :goto_12
-
-    :cond_1a
-    move/from16 v49, v42
-
-    :cond_1b
-    :goto_12
-    and-long v50, v2, v20
-
-    cmp-long v50, v50, v4
-
-    if-eqz v50, :cond_1e
-
-    if-eqz v0, :cond_1c
-
-    .line 463
-    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeRatioEnable()Z
+    .line 430
+    :goto_c
+    invoke-static/range {v49 .. v49}, Lcom/rigol/scope/utilities/ContextUtil;->getAlpha(Z)F
 
     move-result v51
 
-    goto :goto_13
+    goto :goto_d
 
-    :cond_1c
-    move/from16 v51, v42
+    :cond_12
+    move/from16 v51, v30
 
-    :goto_13
-    if-eqz v50, :cond_1f
+    move/from16 v47, v44
 
-    if-eqz v51, :cond_1d
+    move/from16 v49, v47
 
-    or-long v2, v2, v29
+    move/from16 v50, v49
 
-    goto :goto_14
-
-    :cond_1d
-    const-wide/high16 v52, 0x200000000000000L
-
-    or-long v2, v2, v52
-
-    goto :goto_14
-
-    :cond_1e
-    move/from16 v51, v42
-
-    :cond_1f
-    :goto_14
-    const-wide/32 v52, 0x50001
-
-    and-long v52, v2, v52
-
-    cmp-long v50, v52, v4
-
-    if-eqz v50, :cond_20
-
-    if-eqz v0, :cond_20
-
-    .line 478
-    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeCalTime()Ljava/lang/String;
-
-    move-result-object v50
-
-    goto :goto_15
-
-    :cond_20
-    const/16 v50, 0x0
-
-    :goto_15
-    const-wide/32 v52, 0x44001
+    :goto_d
+    const-wide/32 v52, 0x170861
 
     and-long v52, v2, v52
 
     cmp-long v52, v52, v4
 
-    if-eqz v52, :cond_21
+    if-eqz v52, :cond_1d
 
-    if-eqz v0, :cond_21
+    if-eqz v0, :cond_13
 
-    .line 485
-    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeMFR()Ljava/lang/String;
+    .line 436
+    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeInsert()Z
 
-    move-result-object v52
+    move-result v52
 
-    goto :goto_16
+    goto :goto_e
 
-    :cond_21
-    const/16 v52, 0x0
+    :cond_13
+    move/from16 v52, v44
 
-    :goto_16
-    and-long v53, v2, v26
+    :goto_e
+    and-long v53, v2, v39
 
     cmp-long v53, v53, v4
 
-    if-eqz v53, :cond_25
+    if-eqz v53, :cond_15
 
-    if-eqz v0, :cond_22
+    if-eqz v52, :cond_14
 
-    .line 492
-    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeModel()Ljava/lang/String;
+    or-long v2, v2, v20
 
-    move-result-object v54
+    goto :goto_f
 
-    move-object/from16 v10, v54
+    :cond_14
+    const-wide/32 v53, 0x8000000
 
-    goto :goto_17
+    or-long v2, v2, v53
 
-    :cond_22
-    const/4 v10, 0x0
+    :cond_15
+    :goto_f
+    and-long v53, v2, v37
 
-    :goto_17
-    if-eqz v10, :cond_23
+    cmp-long v53, v53, v4
 
-    const-string v11, "PCA"
+    if-eqz v53, :cond_17
 
-    .line 498
-    invoke-virtual {v10, v11}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+    if-eqz v52, :cond_16
 
-    move-result v11
+    or-long v2, v2, v16
 
-    goto :goto_18
+    goto :goto_10
 
-    :cond_23
-    move/from16 v11, v42
+    :cond_16
+    const-wide v53, 0x80000000L
 
-    :goto_18
-    if-eqz v53, :cond_26
+    or-long v2, v2, v53
 
-    if-eqz v11, :cond_24
+    :cond_17
+    :goto_10
+    and-long v53, v2, v35
 
-    const-wide v55, 0x400000000000L
+    cmp-long v53, v53, v4
 
-    goto :goto_19
+    if-eqz v53, :cond_19
 
-    :cond_24
-    const-wide v55, 0x200000000000L
+    if-eqz v52, :cond_18
 
-    :goto_19
+    or-long/2addr v2, v12
+
+    goto :goto_11
+
+    :cond_18
+    const-wide v53, 0x800000000L
+
+    or-long v2, v2, v53
+
+    :cond_19
+    :goto_11
+    and-long v53, v2, v14
+
+    cmp-long v53, v53, v4
+
+    if-eqz v53, :cond_1b
+
+    if-eqz v52, :cond_1a
+
+    or-long/2addr v2, v10
+
+    goto :goto_12
+
+    :cond_1a
+    const-wide/high16 v53, 0x80000000000000L
+
+    or-long v2, v2, v53
+
+    :cond_1b
+    :goto_12
+    and-long v53, v2, v33
+
+    cmp-long v53, v53, v4
+
+    if-eqz v53, :cond_1e
+
+    if-eqz v52, :cond_1c
+
+    or-long v2, v2, v18
+
+    goto :goto_13
+
+    :cond_1c
+    const-wide/high16 v53, 0x800000000000000L
+
+    or-long v2, v2, v53
+
+    goto :goto_13
+
+    :cond_1d
+    move/from16 v52, v44
+
+    :cond_1e
+    :goto_13
+    and-long v53, v2, v22
+
+    cmp-long v53, v53, v4
+
+    if-eqz v53, :cond_21
+
+    if-eqz v0, :cond_1f
+
+    .line 483
+    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeRatioEnable()Z
+
+    move-result v54
+
+    goto :goto_14
+
+    :cond_1f
+    move/from16 v54, v44
+
+    :goto_14
+    if-eqz v53, :cond_22
+
+    if-eqz v54, :cond_20
+
+    or-long v2, v2, v31
+
+    goto :goto_15
+
+    :cond_20
+    const-wide/high16 v55, 0x2000000000000000L
+
     or-long v2, v2, v55
 
-    goto :goto_1a
+    goto :goto_15
 
-    :cond_25
-    move/from16 v11, v42
+    :cond_21
+    move/from16 v54, v44
 
-    const/4 v10, 0x0
-
-    :cond_26
-    :goto_1a
-    const-wide/32 v55, 0x40101
+    :cond_22
+    :goto_15
+    const-wide/32 v55, 0x140001
 
     and-long v55, v2, v55
 
     cmp-long v53, v55, v4
 
-    if-eqz v53, :cond_28
+    if-eqz v53, :cond_23
 
-    if-eqz v0, :cond_27
+    if-eqz v0, :cond_23
 
-    .line 513
-    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeDelay()J
+    .line 498
+    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeCalTime()Ljava/lang/String;
 
-    move-result-wide v55
+    move-result-object v53
 
-    move-wide/from16 v62, v55
+    goto :goto_16
 
-    move/from16 v55, v13
+    :cond_23
+    const/16 v53, 0x0
 
-    move-wide/from16 v12, v62
+    :goto_16
+    const-wide/32 v55, 0x110001
+
+    and-long v55, v2, v55
+
+    cmp-long v55, v55, v4
+
+    if-eqz v55, :cond_24
+
+    if-eqz v0, :cond_24
+
+    .line 505
+    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeMFR()Ljava/lang/String;
+
+    move-result-object v55
+
+    goto :goto_17
+
+    :cond_24
+    const/16 v55, 0x0
+
+    :goto_17
+    and-long v56, v2, v24
+
+    cmp-long v56, v56, v4
+
+    if-eqz v56, :cond_28
+
+    if-eqz v0, :cond_25
+
+    .line 512
+    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeModel()Ljava/lang/String;
+
+    move-result-object v57
+
+    move-object/from16 v10, v57
+
+    goto :goto_18
+
+    :cond_25
+    const/4 v10, 0x0
+
+    :goto_18
+    if-eqz v10, :cond_26
+
+    const-string v11, "PCA"
+
+    .line 518
+    invoke-virtual {v10, v11}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+
+    move-result v11
+
+    goto :goto_19
+
+    :cond_26
+    move/from16 v11, v44
+
+    :goto_19
+    if-eqz v56, :cond_29
+
+    if-eqz v11, :cond_27
+
+    const-wide/high16 v58, 0x4000000000000L
+
+    goto :goto_1a
+
+    :cond_27
+    const-wide/high16 v58, 0x2000000000000L
+
+    :goto_1a
+    or-long v2, v2, v58
 
     goto :goto_1b
 
-    :cond_27
-    move/from16 v55, v13
+    :cond_28
+    move/from16 v11, v44
 
-    move-wide v12, v4
+    const/4 v10, 0x0
 
-    .line 518
+    :cond_29
     :goto_1b
+    const-wide/32 v58, 0x100401
+
+    and-long v58, v2, v58
+
+    cmp-long v56, v58, v4
+
+    if-eqz v56, :cond_2b
+
+    if-eqz v0, :cond_2a
+
+    .line 533
+    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeDelay()J
+
+    move-result-wide v58
+
+    move-wide/from16 v14, v58
+
+    goto :goto_1c
+
+    :cond_2a
+    move-wide v14, v4
+
+    .line 538
+    :goto_1c
     sget-object v56, Lcom/rigol/scope/utilities/UnitFormat$SI;->FEMTO:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
     invoke-static/range {v56 .. v56}, Lcom/rigol/scope/utilities/UnitFormat;->newBuilder(Lcom/rigol/scope/utilities/UnitFormat$SI;)Lcom/rigol/scope/utilities/UnitFormat;
 
-    move-result-object v14
+    move-result-object v12
 
-    sget-object v15, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_s:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+    sget-object v13, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_s:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    invoke-virtual {v14, v12, v13, v15}, Lcom/rigol/scope/utilities/UnitFormat;->convert(JLcom/rigol/scope/cil/ServiceEnum$Unit;)Ljava/lang/String;
+    invoke-virtual {v12, v14, v15, v13}, Lcom/rigol/scope/utilities/UnitFormat;->convert(JLcom/rigol/scope/cil/ServiceEnum$Unit;)Ljava/lang/String;
 
     move-result-object v12
 
-    move/from16 v14, v43
+    move/from16 v13, v45
 
-    move/from16 v15, v47
+    move/from16 v14, v47
 
-    move/from16 v58, v48
+    move/from16 v15, v49
 
-    move/from16 v13, v55
+    move/from16 v62, v50
 
-    goto :goto_1c
+    move/from16 v63, v51
 
-    :cond_28
-    move/from16 v55, v13
+    goto :goto_1d
 
-    move/from16 v14, v43
+    :cond_2b
+    move/from16 v13, v45
 
-    move/from16 v15, v47
+    move/from16 v14, v47
 
-    move/from16 v58, v48
+    move/from16 v15, v49
+
+    move/from16 v62, v50
+
+    move/from16 v63, v51
 
     const/4 v12, 0x0
 
-    goto :goto_1c
+    goto :goto_1d
 
-    :cond_29
-    move/from16 v58, v28
+    :cond_2c
+    move/from16 v63, v30
 
-    move/from16 v7, v42
+    move/from16 v7, v44
 
-    move v9, v7
+    move v8, v7
+
+    move v9, v8
 
     move v11, v9
 
@@ -1568,72 +1646,72 @@
 
     move v15, v14
 
-    move/from16 v49, v15
+    move/from16 v52, v15
 
-    move/from16 v51, v49
+    move/from16 v54, v52
 
-    const/4 v8, 0x0
+    move/from16 v62, v54
 
     const/4 v10, 0x0
 
     const/4 v12, 0x0
 
-    const/16 v44, 0x0
+    const/16 v46, 0x0
 
-    const/16 v50, 0x0
+    const/16 v53, 0x0
 
-    const/16 v52, 0x0
-
-    :goto_1c
-    const-wide v47, 0x400600000000000L
-
-    and-long v47, v2, v47
-
-    cmp-long v43, v47, v4
-
-    if-eqz v43, :cond_3c
-
-    const-wide v47, 0x400000000000L
-
-    and-long v47, v2, v47
-
-    cmp-long v43, v47, v4
-
-    if-eqz v43, :cond_2b
-
-    if-eqz v0, :cond_2a
-
-    .line 532
-    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeCurrentBias()J
-
-    move-result-wide v47
-
-    move-object/from16 v43, v10
-
-    move-wide/from16 v4, v47
-
-    goto :goto_1d
-
-    :cond_2a
-    move-object/from16 v43, v10
+    const/16 v55, 0x0
 
     :goto_1d
+    const-wide v49, 0x4006000000600000L    # 2.7500000027939677
+
+    and-long v49, v2, v49
+
+    cmp-long v45, v49, v4
+
+    if-eqz v45, :cond_44
+
+    const-wide/high16 v49, 0x4000000000000L
+
+    and-long v49, v2, v49
+
+    cmp-long v45, v49, v4
+
+    if-eqz v45, :cond_2e
+
+    if-eqz v0, :cond_2d
+
+    .line 552
+    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeCurrentBias()J
+
+    move-result-wide v49
+
+    move-object/from16 v45, v10
+
+    move-wide/from16 v4, v49
+
+    goto :goto_1e
+
+    :cond_2d
+    move-object/from16 v45, v10
+
+    :goto_1e
     const-string v10, "#"
 
-    move-object/from16 v55, v8
+    move/from16 v47, v9
 
-    .line 537
-    sget-object v8, Lcom/rigol/scope/utilities/UnitFormat$SI;->NONE:Lcom/rigol/scope/utilities/UnitFormat$SI;
+    .line 557
+    sget-object v9, Lcom/rigol/scope/utilities/UnitFormat$SI;->NONE:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
-    invoke-static {v10, v8}, Lcom/rigol/scope/utilities/UnitFormat;->newBuilder(Ljava/lang/String;Lcom/rigol/scope/utilities/UnitFormat$SI;)Lcom/rigol/scope/utilities/UnitFormat;
+    invoke-static {v10, v9}, Lcom/rigol/scope/utilities/UnitFormat;->newBuilder(Ljava/lang/String;Lcom/rigol/scope/utilities/UnitFormat$SI;)Lcom/rigol/scope/utilities/UnitFormat;
 
-    move-result-object v8
+    move-result-object v9
 
-    invoke-virtual {v8, v4, v5}, Lcom/rigol/scope/utilities/UnitFormat;->convert(J)Ljava/lang/String;
+    invoke-virtual {v9, v4, v5}, Lcom/rigol/scope/utilities/UnitFormat;->convert(J)Ljava/lang/String;
 
     move-result-object v4
 
-    .line 541
+    .line 561
     new-instance v5, Ljava/lang/StringBuilder;
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
@@ -1650,1499 +1728,1645 @@
 
     move-result-object v4
 
-    goto :goto_1e
+    goto :goto_1f
 
-    :cond_2b
-    move-object/from16 v55, v8
+    :cond_2e
+    move/from16 v47, v9
 
-    move-object/from16 v43, v10
+    move-object/from16 v45, v10
 
     const/4 v4, 0x0
 
-    :goto_1e
-    and-long v59, v2, v29
-
-    const-wide/16 v47, 0x0
-
-    cmp-long v5, v59, v47
-
-    if-eqz v5, :cond_38
-
-    if-eqz v0, :cond_2c
-
-    .line 547
-    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeInsert()Z
-
-    move-result v49
-
-    :cond_2c
-    and-long v59, v2, v37
-
-    cmp-long v5, v59, v47
-
-    if-eqz v5, :cond_2e
-
-    if-eqz v49, :cond_2d
-
-    or-long v2, v2, v24
-
-    goto :goto_1f
-
-    :cond_2d
-    const-wide/32 v59, 0x800000
-
-    or-long v2, v2, v59
-
-    :cond_2e
     :goto_1f
-    and-long v59, v2, v35
+    const-wide/32 v9, 0x600000
 
-    cmp-long v5, v59, v47
+    and-long/2addr v9, v2
+
+    const-wide/16 v49, 0x0
+
+    cmp-long v5, v9, v49
 
     if-eqz v5, :cond_30
 
-    if-eqz v49, :cond_2f
+    if-eqz v0, :cond_2f
 
-    or-long v2, v2, v18
+    .line 567
+    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeRatioUnit()Lcom/rigol/scope/cil/ServiceEnum$Unit;
+
+    move-result-object v5
 
     goto :goto_20
 
     :cond_2f
-    const-wide/32 v59, 0x8000000
+    const/4 v5, 0x0
 
-    or-long v2, v2, v59
-
-    :cond_30
     :goto_20
-    and-long v59, v2, v33
+    and-long v9, v2, v28
 
-    cmp-long v5, v59, v47
+    cmp-long v9, v9, v49
 
-    if-eqz v5, :cond_32
+    if-eqz v9, :cond_31
 
-    if-eqz v49, :cond_31
+    if-eqz v5, :cond_31
 
-    const-wide v56, 0x100000000L
-
-    or-long v2, v2, v56
+    .line 574
+    iget-object v9, v5, Lcom/rigol/scope/cil/ServiceEnum$Unit;->value2:Ljava/lang/String;
 
     goto :goto_21
 
-    :cond_31
-    const-wide v59, 0x80000000L
+    :cond_30
+    const/4 v5, 0x0
 
-    or-long v2, v2, v59
+    :cond_31
+    const/4 v9, 0x0
+
+    :goto_21
+    and-long v64, v2, v31
+
+    cmp-long v10, v64, v49
+
+    if-eqz v10, :cond_3e
+
+    if-eqz v0, :cond_32
+
+    .line 582
+    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeInsert()Z
+
+    move-result v52
 
     :cond_32
-    :goto_21
-    and-long v59, v2, v16
+    and-long v64, v2, v39
 
-    cmp-long v5, v59, v47
+    cmp-long v10, v64, v49
 
-    if-eqz v5, :cond_34
+    if-eqz v10, :cond_34
 
-    if-eqz v49, :cond_33
+    if-eqz v52, :cond_33
 
-    const-wide/high16 v40, 0x10000000000000L
-
-    or-long v2, v2, v40
+    or-long v2, v2, v20
 
     goto :goto_22
 
     :cond_33
-    const-wide/high16 v59, 0x8000000000000L
+    const-wide/32 v64, 0x8000000
 
-    or-long v2, v2, v59
+    or-long v2, v2, v64
 
     :cond_34
     :goto_22
-    and-long v59, v2, v31
+    and-long v64, v2, v37
 
-    cmp-long v5, v59, v47
+    cmp-long v10, v64, v49
 
-    if-eqz v5, :cond_36
+    if-eqz v10, :cond_36
 
-    if-eqz v49, :cond_35
+    if-eqz v52, :cond_35
 
-    or-long v2, v2, v22
+    or-long v2, v2, v16
 
     goto :goto_23
 
     :cond_35
-    const-wide/high16 v59, 0x80000000000000L
+    const-wide v64, 0x80000000L
 
-    or-long v2, v2, v59
+    or-long v2, v2, v64
 
     :cond_36
     :goto_23
-    xor-int/lit8 v5, v49, 0x1
+    and-long v64, v2, v35
 
-    and-long v59, v2, v29
+    cmp-long v10, v64, v49
 
-    const-wide/16 v47, 0x0
+    if-eqz v10, :cond_38
 
-    cmp-long v8, v59, v47
+    if-eqz v52, :cond_37
 
-    if-eqz v8, :cond_39
+    const-wide v60, 0x1000000000L
 
-    if-eqz v5, :cond_37
-
-    const-wide v59, 0x400000000L
+    or-long v2, v2, v60
 
     goto :goto_24
 
     :cond_37
-    const-wide v59, 0x200000000L
+    const-wide v64, 0x800000000L
 
+    or-long v2, v2, v64
+
+    :cond_38
     :goto_24
-    or-long v2, v2, v59
+    const-wide v58, 0x2000100061L
+
+    and-long v64, v2, v58
+
+    cmp-long v10, v64, v49
+
+    if-eqz v10, :cond_3a
+
+    if-eqz v52, :cond_39
+
+    const-wide/high16 v56, 0x100000000000000L
+
+    or-long v2, v2, v56
 
     goto :goto_25
 
-    :cond_38
-    move/from16 v5, v42
-
     :cond_39
+    const-wide/high16 v64, 0x80000000000000L
+
+    or-long v2, v2, v64
+
+    :cond_3a
     :goto_25
-    const-wide v59, 0x200000000000L
+    and-long v64, v2, v33
 
-    and-long v59, v2, v59
+    cmp-long v10, v64, v49
 
-    const-wide/16 v47, 0x0
+    if-eqz v10, :cond_3c
 
-    cmp-long v8, v59, v47
+    if-eqz v52, :cond_3b
 
-    if-eqz v8, :cond_3b
-
-    if-eqz v0, :cond_3a
-
-    .line 606
-    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeBias()J
-
-    move-result-wide v59
-
-    move-wide/from16 v62, v2
-
-    move-wide/from16 v2, v59
-
-    move-wide/from16 v59, v62
+    or-long v2, v2, v18
 
     goto :goto_26
 
-    :cond_3a
-    move-wide/from16 v59, v2
-
-    const-wide/16 v2, 0x0
-
-    .line 611
-    :goto_26
-    sget-object v8, Lcom/rigol/scope/utilities/UnitFormat$SI;->NANO:Lcom/rigol/scope/utilities/UnitFormat$SI;
-
-    invoke-static {v8}, Lcom/rigol/scope/utilities/UnitFormat;->newBuilder(Lcom/rigol/scope/utilities/UnitFormat$SI;)Lcom/rigol/scope/utilities/UnitFormat;
-
-    move-result-object v8
-
-    sget-object v10, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_V:Lcom/rigol/scope/cil/ServiceEnum$Unit;
-
-    invoke-virtual {v8, v2, v3, v10}, Lcom/rigol/scope/utilities/UnitFormat;->convert(JLcom/rigol/scope/cil/ServiceEnum$Unit;)Ljava/lang/String;
-
-    move-result-object v2
-
-    move v8, v5
-
-    move-object v5, v4
-
-    move-object v4, v2
-
-    move-wide/from16 v2, v59
-
-    goto :goto_27
-
     :cond_3b
-    move-wide/from16 v59, v2
+    const-wide/high16 v64, 0x800000000000000L
 
-    move v8, v5
-
-    move-object v5, v4
-
-    const/4 v4, 0x0
-
-    goto :goto_27
+    or-long v2, v2, v64
 
     :cond_3c
-    move-object/from16 v55, v8
+    :goto_26
+    xor-int/lit8 v10, v52, 0x1
 
-    move-object/from16 v43, v10
+    and-long v64, v2, v31
 
-    move/from16 v8, v42
+    const-wide/16 v49, 0x0
 
-    const/4 v4, 0x0
+    cmp-long v51, v64, v49
 
-    const/4 v5, 0x0
-
-    :goto_27
-    and-long v59, v2, v26
-
-    const-wide/16 v47, 0x0
-
-    cmp-long v10, v59, v47
+    if-eqz v51, :cond_3f
 
     if-eqz v10, :cond_3d
 
-    if-eqz v11, :cond_3e
+    const-wide v64, 0x4000000000L
 
-    move-object v4, v5
+    goto :goto_27
+
+    :cond_3d
+    const-wide v64, 0x2000000000L
+
+    :goto_27
+    or-long v2, v2, v64
 
     goto :goto_28
 
-    :cond_3d
-    const/4 v4, 0x0
-
     :cond_3e
-    :goto_28
-    const-wide v10, 0x110000111000000L
+    move/from16 v10, v44
 
-    and-long/2addr v10, v2
-
-    cmp-long v5, v10, v47
-
-    if-eqz v5, :cond_4a
-
-    and-long v10, v2, v24
-
-    cmp-long v5, v10, v47
-
-    if-eqz v5, :cond_40
-
-    if-eqz v0, :cond_3f
-
-    .line 629
-    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeSN()Ljava/lang/String;
-
-    move-result-object v44
-
-    .line 634
     :cond_3f
-    invoke-static/range {v44 .. v44}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    :goto_28
+    const-wide/high16 v64, 0x2000000000000L
 
-    move-result v5
+    and-long v64, v2, v64
 
-    const/4 v10, 0x1
+    const-wide/16 v49, 0x0
 
-    xor-int/2addr v5, v10
+    cmp-long v51, v64, v49
+
+    if-eqz v51, :cond_41
+
+    if-eqz v0, :cond_40
+
+    .line 641
+    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeBias()J
+
+    move-result-wide v64
+
+    move-object/from16 v51, v9
+
+    move/from16 v56, v10
+
+    move-wide/from16 v9, v64
 
     goto :goto_29
 
     :cond_40
-    move/from16 v5, v42
+    move-object/from16 v51, v9
 
+    move/from16 v56, v10
+
+    const-wide/16 v9, 0x0
+
+    .line 646
     :goto_29
-    and-long v10, v2, v22
+    sget-object v64, Lcom/rigol/scope/utilities/UnitFormat$SI;->NANO:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
-    const-wide/16 v22, 0x0
+    move-object/from16 v65, v4
 
-    cmp-long v10, v10, v22
+    invoke-static/range {v64 .. v64}, Lcom/rigol/scope/utilities/UnitFormat;->newBuilder(Lcom/rigol/scope/utilities/UnitFormat$SI;)Lcom/rigol/scope/utilities/UnitFormat;
 
-    if-eqz v10, :cond_42
+    move-result-object v4
 
-    if-eqz v0, :cond_41
+    move/from16 v64, v13
 
-    .line 644
-    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeCalTime()Ljava/lang/String;
+    sget-object v13, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_V:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    move-result-object v50
+    invoke-virtual {v4, v9, v10, v13}, Lcom/rigol/scope/utilities/UnitFormat;->convert(JLcom/rigol/scope/cil/ServiceEnum$Unit;)Ljava/lang/String;
 
-    .line 649
-    :cond_41
-    invoke-static/range {v50 .. v50}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v10
-
-    const/4 v11, 0x1
-
-    xor-int/2addr v10, v11
+    move-result-object v4
 
     goto :goto_2a
 
-    :cond_42
-    move/from16 v10, v42
+    :cond_41
+    move-object/from16 v65, v4
+
+    move-object/from16 v51, v9
+
+    move/from16 v56, v10
+
+    move/from16 v64, v13
+
+    const/4 v4, 0x0
 
     :goto_2a
-    and-long v18, v2, v18
+    const-wide/32 v9, 0x400000
 
-    const-wide/16 v22, 0x0
+    and-long/2addr v9, v2
 
-    cmp-long v11, v18, v22
+    const-wide/16 v49, 0x0
 
-    if-eqz v11, :cond_44
+    cmp-long v9, v9, v49
 
-    if-eqz v0, :cond_43
+    if-eqz v9, :cond_43
 
-    .line 659
-    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeMFR()Ljava/lang/String;
+    if-eqz v0, :cond_42
 
-    move-result-object v52
+    .line 652
+    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeCusRatio()D
 
-    .line 664
-    :cond_43
-    invoke-static/range {v52 .. v52}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v11
-
-    const/16 v18, 0x1
-
-    xor-int/lit8 v11, v11, 0x1
+    move-result-wide v9
 
     goto :goto_2b
 
-    :cond_44
-    move/from16 v11, v42
+    :cond_42
+    const-wide/16 v9, 0x0
 
+    .line 657
     :goto_2b
-    const-wide v18, 0x100000000L
+    sget-object v13, Lcom/rigol/scope/utilities/UnitFormat$SI;->NONE:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
-    and-long v18, v2, v18
+    invoke-static {v13}, Lcom/rigol/scope/utilities/UnitFormat;->newBuilder(Lcom/rigol/scope/utilities/UnitFormat$SI;)Lcom/rigol/scope/utilities/UnitFormat;
 
-    const-wide/16 v22, 0x0
+    move-result-object v13
 
-    cmp-long v18, v18, v22
+    invoke-virtual {v13, v9, v10, v5}, Lcom/rigol/scope/utilities/UnitFormat;->convert(DLcom/rigol/scope/cil/ServiceEnum$Unit;)Ljava/lang/String;
 
-    if-eqz v18, :cond_46
+    move-result-object v5
 
-    if-eqz v0, :cond_45
+    move-object/from16 v9, v51
 
-    .line 674
-    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeModel()Ljava/lang/String;
-
-    move-result-object v18
+    move/from16 v10, v56
 
     goto :goto_2c
 
-    :cond_45
-    move-object/from16 v18, v43
+    :cond_43
+    move-object/from16 v9, v51
 
-    .line 679
-    :goto_2c
-    invoke-static/range {v18 .. v18}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v19
-
-    const/16 v22, 0x1
-
-    xor-int/lit8 v19, v19, 0x1
-
-    goto :goto_2d
-
-    :cond_46
-    const/16 v22, 0x1
-
-    move/from16 v19, v42
-
-    move-object/from16 v18, v43
-
-    :goto_2d
-    const-wide/high16 v23, 0x10000000000000L
-
-    and-long v23, v2, v23
-
-    const-wide/16 v40, 0x0
-
-    cmp-long v23, v23, v40
-
-    if-eqz v23, :cond_49
-
-    if-eqz v0, :cond_47
-
-    .line 689
-    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeType()Lcom/rigol/scope/cil/ServiceEnum$ProbeType;
-
-    move-result-object v23
-
-    move/from16 v24, v10
-
-    move-object/from16 v62, v23
-
-    move/from16 v23, v5
-
-    move-object/from16 v5, v62
-
-    goto :goto_2e
-
-    :cond_47
-    move/from16 v23, v5
-
-    move/from16 v24, v10
+    move/from16 v10, v56
 
     const/4 v5, 0x0
 
-    .line 694
+    goto :goto_2c
+
+    :cond_44
+    move/from16 v47, v9
+
+    move-object/from16 v45, v10
+
+    move/from16 v64, v13
+
+    move/from16 v10, v44
+
+    const/4 v4, 0x0
+
+    const/4 v5, 0x0
+
+    const/4 v9, 0x0
+
+    const/16 v65, 0x0
+
+    :goto_2c
+    and-long v28, v2, v28
+
+    const-wide/16 v42, 0x0
+
+    cmp-long v13, v28, v42
+
+    if-eqz v13, :cond_46
+
+    const v13, 0x7f03008d
+
+    .line 663
+    invoke-static {v13, v8}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
+
+    move-result-object v8
+
+    const/4 v13, 0x1
+
+    .line 664
+    invoke-virtual {v1, v13, v8}, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->updateRegistration(ILandroidx/databinding/Observable;)Z
+
+    if-eqz v8, :cond_45
+
+    .line 669
+    invoke-virtual {v8}, Lcom/rigol/scope/data/MappingObject;->getStr()Ljava/lang/String;
+
+    move-result-object v8
+
+    goto :goto_2d
+
+    :cond_45
+    const/4 v8, 0x0
+
+    .line 674
+    :goto_2d
+    new-instance v13, Ljava/lang/StringBuilder;
+
+    invoke-direct {v13}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v13, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v13, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v13}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v8
+
+    goto :goto_2e
+
+    :cond_46
+    const/4 v8, 0x0
+
     :goto_2e
-    sget-object v10, Lcom/rigol/scope/cil/ServiceEnum$ProbeType;->Probe_BNC:Lcom/rigol/scope/cil/ServiceEnum$ProbeType;
+    and-long v28, v2, v26
 
-    if-eq v5, v10, :cond_48
+    const-wide/16 v42, 0x0
 
-    move/from16 v10, v22
+    cmp-long v9, v28, v42
+
+    if-eqz v9, :cond_48
+
+    if-eqz v7, :cond_47
+
+    goto :goto_2f
+
+    :cond_47
+    move-object v5, v8
 
     goto :goto_2f
 
     :cond_48
-    move/from16 v10, v42
+    const/4 v5, 0x0
 
     :goto_2f
-    move-object/from16 v45, v5
+    and-long v7, v2, v24
 
-    move/from16 v25, v10
+    cmp-long v7, v7, v42
 
-    move-object/from16 v40, v44
+    if-eqz v7, :cond_49
 
-    move-object/from16 v10, v50
+    if-eqz v11, :cond_4a
 
-    move-object/from16 v5, v52
+    move-object/from16 v4, v65
 
     goto :goto_30
 
     :cond_49
-    move/from16 v23, v5
+    const/4 v4, 0x0
 
-    move/from16 v24, v10
-
-    move/from16 v25, v42
-
-    move-object/from16 v40, v44
-
-    move-object/from16 v10, v50
-
-    move-object/from16 v5, v52
-
-    const/16 v45, 0x0
-
+    :cond_4a
     :goto_30
-    move-object/from16 v62, v18
+    const-wide v7, 0x1100001110000000L
 
-    move/from16 v18, v11
+    and-long/2addr v7, v2
 
-    move-object/from16 v11, v62
+    cmp-long v7, v7, v42
+
+    if-eqz v7, :cond_56
+
+    and-long v7, v2, v20
+
+    cmp-long v7, v7, v42
+
+    if-eqz v7, :cond_4c
+
+    if-eqz v0, :cond_4b
+
+    .line 696
+    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeSN()Ljava/lang/String;
+
+    move-result-object v46
+
+    .line 701
+    :cond_4b
+    invoke-static/range {v46 .. v46}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v7
+
+    const/4 v8, 0x1
+
+    xor-int/2addr v7, v8
 
     goto :goto_31
 
-    :cond_4a
-    const/16 v22, 0x1
-
-    move/from16 v18, v42
-
-    move/from16 v19, v18
-
-    move/from16 v23, v19
-
-    move/from16 v24, v23
-
-    move/from16 v25, v24
-
-    move-object/from16 v11, v43
-
-    move-object/from16 v40, v44
-
-    move-object/from16 v10, v50
-
-    move-object/from16 v5, v52
-
-    const/16 v45, 0x0
+    :cond_4c
+    move/from16 v7, v44
 
     :goto_31
-    and-long v43, v2, v37
+    and-long v8, v2, v18
 
-    const-wide/16 v47, 0x0
+    const-wide/16 v18, 0x0
 
-    cmp-long v41, v43, v47
+    cmp-long v8, v8, v18
 
-    if-eqz v41, :cond_4d
+    if-eqz v8, :cond_4e
 
-    if-eqz v49, :cond_4b
+    if-eqz v0, :cond_4d
+
+    .line 711
+    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeCalTime()Ljava/lang/String;
+
+    move-result-object v53
+
+    .line 716
+    :cond_4d
+    invoke-static/range {v53 .. v53}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v8
+
+    const/4 v9, 0x1
+
+    xor-int/2addr v8, v9
 
     goto :goto_32
 
-    :cond_4b
-    move/from16 v23, v42
+    :cond_4e
+    move/from16 v8, v44
 
     :goto_32
-    if-eqz v41, :cond_4e
+    and-long v16, v2, v16
 
-    if-eqz v23, :cond_4c
+    const-wide/16 v18, 0x0
 
-    const-wide v43, 0x100000000000L
+    cmp-long v9, v16, v18
+
+    if-eqz v9, :cond_50
+
+    if-eqz v0, :cond_4f
+
+    .line 726
+    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeMFR()Ljava/lang/String;
+
+    move-result-object v55
+
+    .line 731
+    :cond_4f
+    invoke-static/range {v55 .. v55}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v9
+
+    const/4 v11, 0x1
+
+    xor-int/2addr v9, v11
 
     goto :goto_33
 
-    :cond_4c
-    const-wide v43, 0x80000000000L
+    :cond_50
+    move/from16 v9, v44
 
     :goto_33
-    or-long v2, v2, v43
+    const-wide v16, 0x1000000000L
+
+    and-long v16, v2, v16
+
+    const-wide/16 v18, 0x0
+
+    cmp-long v11, v16, v18
+
+    if-eqz v11, :cond_52
+
+    if-eqz v0, :cond_51
+
+    .line 741
+    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeModel()Ljava/lang/String;
+
+    move-result-object v11
 
     goto :goto_34
 
-    :cond_4d
-    move/from16 v23, v42
+    :cond_51
+    move-object/from16 v11, v45
 
-    :cond_4e
+    .line 746
     :goto_34
-    and-long v43, v2, v35
+    invoke-static {v11}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
-    const-wide/16 v47, 0x0
+    move-result v13
 
-    cmp-long v41, v43, v47
+    const/16 v16, 0x1
 
-    if-eqz v41, :cond_51
-
-    if-eqz v49, :cond_4f
+    xor-int/lit8 v13, v13, 0x1
 
     goto :goto_35
 
-    :cond_4f
-    move/from16 v18, v42
+    :cond_52
+    const/16 v16, 0x1
+
+    move/from16 v13, v44
+
+    move-object/from16 v11, v45
 
     :goto_35
-    if-eqz v41, :cond_52
+    const-wide/high16 v17, 0x100000000000000L
 
-    if-eqz v18, :cond_50
+    and-long v17, v2, v17
 
-    const-wide v43, 0x4000000000L
+    const-wide/16 v19, 0x0
+
+    cmp-long v17, v17, v19
+
+    if-eqz v17, :cond_55
+
+    if-eqz v0, :cond_53
+
+    .line 756
+    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeType()Lcom/rigol/scope/cil/ServiceEnum$ProbeType;
+
+    move-result-object v17
+
+    move/from16 v18, v8
+
+    move-object/from16 v67, v17
+
+    move/from16 v17, v7
+
+    move-object/from16 v7, v67
 
     goto :goto_36
 
-    :cond_50
-    const-wide v43, 0x2000000000L
+    :cond_53
+    move/from16 v17, v7
 
+    move/from16 v18, v8
+
+    const/4 v7, 0x0
+
+    .line 761
     :goto_36
-    or-long v2, v2, v43
+    sget-object v8, Lcom/rigol/scope/cil/ServiceEnum$ProbeType;->Probe_BNC:Lcom/rigol/scope/cil/ServiceEnum$ProbeType;
+
+    if-eq v7, v8, :cond_54
+
+    move/from16 v8, v16
 
     goto :goto_37
 
-    :cond_51
-    move/from16 v18, v42
+    :cond_54
+    move/from16 v8, v44
 
-    :cond_52
     :goto_37
-    and-long v43, v2, v33
+    move-object/from16 v48, v7
 
-    const-wide/16 v47, 0x0
+    move/from16 v19, v8
 
-    cmp-long v41, v43, v47
+    move/from16 v20, v9
 
-    if-eqz v41, :cond_55
+    move-object/from16 v7, v46
 
-    if-eqz v49, :cond_53
+    move-object/from16 v8, v53
 
-    goto :goto_38
-
-    :cond_53
-    move/from16 v19, v42
-
-    :goto_38
-    if-eqz v41, :cond_56
-
-    if-eqz v19, :cond_54
-
-    const-wide v43, 0x1000000000L
+    move-object/from16 v9, v55
 
     goto :goto_39
 
-    :cond_54
-    const-wide v43, 0x800000000L
+    :cond_55
+    move/from16 v17, v7
+
+    move/from16 v18, v8
+
+    move/from16 v20, v9
+
+    move/from16 v19, v44
+
+    goto :goto_38
+
+    :cond_56
+    const/16 v16, 0x1
+
+    move/from16 v13, v44
+
+    move/from16 v17, v13
+
+    move/from16 v18, v17
+
+    move/from16 v19, v18
+
+    move/from16 v20, v19
+
+    move-object/from16 v11, v45
+
+    :goto_38
+    move-object/from16 v7, v46
+
+    move-object/from16 v8, v53
+
+    move-object/from16 v9, v55
+
+    const/16 v48, 0x0
 
     :goto_39
-    or-long v2, v2, v43
+    and-long v28, v2, v39
+
+    const-wide/16 v42, 0x0
+
+    cmp-long v21, v28, v42
+
+    if-eqz v21, :cond_59
+
+    if-eqz v52, :cond_57
 
     goto :goto_3a
 
-    :cond_55
-    move/from16 v19, v42
-
-    :cond_56
-    :goto_3a
-    and-long v16, v2, v16
-
-    const-wide/16 v43, 0x0
-
-    cmp-long v16, v16, v43
-
-    if-eqz v16, :cond_59
-
-    if-eqz v49, :cond_57
-
-    move/from16 v16, v25
-
-    goto :goto_3b
-
     :cond_57
-    move/from16 v16, v42
+    move/from16 v17, v44
 
-    :goto_3b
-    const-wide/32 v47, 0x40061
-
-    and-long v47, v2, v47
-
-    cmp-long v17, v47, v43
+    :goto_3a
+    if-eqz v21, :cond_5a
 
     if-eqz v17, :cond_58
 
-    .line 745
-    invoke-static/range {v16 .. v16}, Lcom/rigol/scope/utilities/ContextUtil;->getAlpha(Z)F
+    const-wide/high16 v28, 0x1000000000000L
 
-    move-result v17
-
-    move/from16 v62, v17
-
-    move-object/from16 v17, v5
-
-    move/from16 v5, v62
-
-    move/from16 v63, v16
-
-    move-object/from16 v16, v11
-
-    move/from16 v11, v63
-
-    goto :goto_3c
+    goto :goto_3b
 
     :cond_58
-    move-object/from16 v17, v5
+    const-wide v28, 0x800000000000L
 
-    move/from16 v5, v28
-
-    move/from16 v62, v16
-
-    move-object/from16 v16, v11
-
-    move/from16 v11, v62
+    :goto_3b
+    or-long v2, v2, v28
 
     goto :goto_3c
 
     :cond_59
-    move-object/from16 v17, v5
+    move/from16 v17, v44
 
-    move-object/from16 v16, v11
-
-    move/from16 v5, v28
-
-    move/from16 v11, v42
-
+    :cond_5a
     :goto_3c
-    and-long v47, v2, v31
+    and-long v28, v2, v37
 
-    cmp-long v41, v47, v43
+    const-wide/16 v42, 0x0
 
-    if-eqz v41, :cond_5c
+    cmp-long v21, v28, v42
 
-    if-eqz v49, :cond_5a
+    if-eqz v21, :cond_5d
+
+    if-eqz v52, :cond_5b
 
     goto :goto_3d
 
-    :cond_5a
-    move/from16 v24, v42
+    :cond_5b
+    move/from16 v20, v44
 
     :goto_3d
-    if-eqz v41, :cond_5d
+    if-eqz v21, :cond_5e
 
-    if-eqz v24, :cond_5b
+    if-eqz v20, :cond_5c
 
-    const-wide v43, 0x10000000000L
+    const-wide v28, 0x40000000000L
 
     goto :goto_3e
 
-    :cond_5b
-    const-wide v43, 0x8000000000L
+    :cond_5c
+    const-wide v28, 0x20000000000L
 
     :goto_3e
-    or-long v2, v2, v43
+    or-long v2, v2, v28
 
     goto :goto_3f
 
-    :cond_5c
-    move/from16 v24, v42
-
     :cond_5d
-    :goto_3f
-    and-long v29, v2, v29
-
-    const-wide/16 v43, 0x0
-
-    cmp-long v29, v29, v43
-
-    if-eqz v29, :cond_5f
-
-    if-eqz v8, :cond_5e
-
-    move/from16 v8, v22
-
-    goto :goto_40
+    move/from16 v20, v44
 
     :cond_5e
-    move v8, v11
+    :goto_3f
+    and-long v28, v2, v35
+
+    const-wide/16 v42, 0x0
+
+    cmp-long v21, v28, v42
+
+    if-eqz v21, :cond_61
+
+    if-eqz v52, :cond_5f
 
     goto :goto_40
 
     :cond_5f
-    move/from16 v8, v42
+    move/from16 v13, v44
 
     :goto_40
-    and-long v29, v2, v20
+    if-eqz v21, :cond_62
 
-    cmp-long v29, v29, v43
+    if-eqz v13, :cond_60
 
-    if-eqz v29, :cond_61
-
-    if-eqz v51, :cond_60
+    const-wide v28, 0x10000000000L
 
     goto :goto_41
 
     :cond_60
-    move/from16 v8, v42
+    const-wide v28, 0x8000000000L
 
-    .line 775
     :goto_41
-    invoke-static {v8}, Lcom/rigol/scope/utilities/ContextUtil;->getAlpha(Z)F
-
-    move-result v28
-
-    move/from16 v62, v28
-
-    move/from16 v28, v8
-
-    move/from16 v8, v62
+    or-long v2, v2, v28
 
     goto :goto_42
 
     :cond_61
-    move/from16 v8, v28
-
-    move/from16 v28, v42
-
-    :goto_42
-    const-wide v29, 0x115000000000L
-
-    and-long v29, v2, v29
-
-    cmp-long v29, v29, v43
-
-    if-eqz v29, :cond_64
-
-    if-eqz v0, :cond_62
-
-    .line 783
-    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeType()Lcom/rigol/scope/cil/ServiceEnum$ProbeType;
-
-    move-result-object v45
+    move/from16 v13, v44
 
     :cond_62
-    move/from16 v29, v8
+    :goto_42
+    const-wide v28, 0x2000100061L
 
-    move-object/from16 v0, v45
+    and-long v28, v2, v28
 
-    .line 788
-    sget-object v8, Lcom/rigol/scope/cil/ServiceEnum$ProbeType;->Probe_BNC:Lcom/rigol/scope/cil/ServiceEnum$ProbeType;
+    const-wide/16 v42, 0x0
 
-    if-eq v0, v8, :cond_63
+    cmp-long v21, v28, v42
+
+    if-eqz v21, :cond_65
+
+    if-eqz v52, :cond_63
+
+    move/from16 v21, v19
 
     goto :goto_43
 
     :cond_63
-    move/from16 v22, v42
-
-    goto :goto_43
-
-    :cond_64
-    move/from16 v29, v8
-
-    move/from16 v22, v25
+    move/from16 v21, v44
 
     :goto_43
-    and-long v43, v2, v33
+    const-wide/32 v28, 0x100061
 
-    const-wide/16 v47, 0x0
+    and-long v28, v2, v28
 
-    cmp-long v0, v43, v47
+    cmp-long v28, v28, v42
 
-    if-eqz v0, :cond_69
+    if-eqz v28, :cond_64
 
-    if-eqz v19, :cond_65
+    .line 812
+    invoke-static/range {v21 .. v21}, Lcom/rigol/scope/utilities/ContextUtil;->getAlpha(Z)F
 
-    move/from16 v8, v22
+    move-result v28
+
+    move/from16 v67, v28
+
+    move-object/from16 v28, v5
+
+    move/from16 v5, v67
+
+    move/from16 v68, v21
+
+    move-object/from16 v21, v7
+
+    move/from16 v7, v68
+
+    goto :goto_44
+
+    :cond_64
+    move-object/from16 v28, v5
+
+    move/from16 v5, v30
+
+    move/from16 v67, v21
+
+    move-object/from16 v21, v7
+
+    move/from16 v7, v67
 
     goto :goto_44
 
     :cond_65
-    move/from16 v8, v42
+    move-object/from16 v28, v5
+
+    move-object/from16 v21, v7
+
+    move/from16 v5, v30
+
+    move/from16 v7, v44
 
     :goto_44
-    if-eqz v0, :cond_67
+    and-long v45, v2, v33
 
-    if-eqz v8, :cond_66
+    cmp-long v29, v45, v42
 
-    const-wide/32 v43, 0x4000000
+    if-eqz v29, :cond_68
+
+    if-eqz v52, :cond_66
 
     goto :goto_45
 
     :cond_66
-    const-wide/32 v43, 0x2000000
+    move/from16 v18, v44
 
     :goto_45
-    or-long v2, v2, v43
+    if-eqz v29, :cond_69
 
-    :cond_67
-    if-eqz v8, :cond_68
+    if-eqz v18, :cond_67
+
+    const-wide v42, 0x100000000000L
 
     goto :goto_46
 
-    :cond_68
-    move/from16 v0, v39
+    :cond_67
+    const-wide v42, 0x80000000000L
+
+    :goto_46
+    or-long v2, v2, v42
 
     goto :goto_47
 
+    :cond_68
+    move/from16 v18, v44
+
     :cond_69
-    :goto_46
-    move/from16 v0, v42
-
     :goto_47
-    and-long v43, v2, v35
+    and-long v31, v2, v31
 
-    const-wide/16 v47, 0x0
+    const-wide/16 v42, 0x0
 
-    cmp-long v8, v43, v47
+    cmp-long v29, v31, v42
 
-    if-eqz v8, :cond_6e
+    if-eqz v29, :cond_6b
 
-    if-eqz v18, :cond_6a
+    if-eqz v10, :cond_6a
 
-    move/from16 v18, v22
+    move/from16 v10, v16
 
     goto :goto_48
 
     :cond_6a
-    move/from16 v18, v42
+    move v10, v7
+
+    goto :goto_48
+
+    :cond_6b
+    move/from16 v10, v44
 
     :goto_48
-    if-eqz v8, :cond_6c
+    and-long v31, v2, v22
 
-    if-eqz v18, :cond_6b
+    cmp-long v29, v31, v42
 
-    const-wide/32 v43, 0x100000
+    if-eqz v29, :cond_6d
+
+    if-eqz v54, :cond_6c
 
     goto :goto_49
 
-    :cond_6b
-    const-wide/32 v43, 0x80000
-
-    :goto_49
-    or-long v2, v2, v43
-
     :cond_6c
-    if-eqz v18, :cond_6d
+    move/from16 v10, v44
+
+    .line 842
+    :goto_49
+    invoke-static {v10}, Lcom/rigol/scope/utilities/ContextUtil;->getAlpha(Z)F
+
+    move-result v30
+
+    move/from16 v29, v10
+
+    move/from16 v10, v30
 
     goto :goto_4a
 
     :cond_6d
-    move/from16 v8, v39
+    move/from16 v10, v30
+
+    move/from16 v29, v44
+
+    :goto_4a
+    const-wide v30, 0x1150000000000L
+
+    and-long v30, v2, v30
+
+    cmp-long v30, v30, v42
+
+    if-eqz v30, :cond_70
+
+    if-eqz v0, :cond_6e
+
+    .line 850
+    invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeType()Lcom/rigol/scope/cil/ServiceEnum$ProbeType;
+
+    move-result-object v48
+
+    :cond_6e
+    move/from16 v30, v10
+
+    move-object/from16 v0, v48
+
+    .line 855
+    sget-object v10, Lcom/rigol/scope/cil/ServiceEnum$ProbeType;->Probe_BNC:Lcom/rigol/scope/cil/ServiceEnum$ProbeType;
+
+    if-eq v0, v10, :cond_6f
 
     goto :goto_4b
 
-    :cond_6e
-    :goto_4a
-    move/from16 v8, v42
+    :cond_6f
+    move/from16 v16, v44
+
+    goto :goto_4b
+
+    :cond_70
+    move/from16 v30, v10
+
+    move/from16 v16, v19
 
     :goto_4b
-    and-long v18, v2, v31
+    and-long v31, v2, v35
 
-    const-wide/16 v43, 0x0
+    const-wide/16 v42, 0x0
 
-    cmp-long v18, v18, v43
+    cmp-long v0, v31, v42
 
-    if-eqz v18, :cond_73
+    if-eqz v0, :cond_75
 
-    if-eqz v24, :cond_6f
+    if-eqz v13, :cond_71
 
-    move/from16 v19, v22
+    move/from16 v10, v16
 
     goto :goto_4c
 
-    :cond_6f
-    move/from16 v19, v42
+    :cond_71
+    move/from16 v10, v44
 
     :goto_4c
-    if-eqz v18, :cond_71
+    if-eqz v0, :cond_73
 
-    if-eqz v19, :cond_70
+    if-eqz v10, :cond_72
 
-    const-wide/32 v24, 0x400000
+    const-wide/32 v31, 0x40000000
 
     goto :goto_4d
 
-    :cond_70
-    const-wide/32 v24, 0x200000
+    :cond_72
+    const-wide/32 v31, 0x20000000
 
     :goto_4d
-    or-long v2, v2, v24
+    or-long v2, v2, v31
 
-    :cond_71
-    if-eqz v19, :cond_72
-
-    move/from16 v18, v42
+    :cond_73
+    if-eqz v10, :cond_74
 
     goto :goto_4e
 
-    :cond_72
-    move/from16 v18, v39
-
-    :goto_4e
-    move/from16 v62, v18
-
-    move/from16 v18, v0
-
-    move/from16 v0, v62
+    :cond_74
+    move/from16 v0, v41
 
     goto :goto_4f
 
-    :cond_73
-    move/from16 v18, v0
-
-    move/from16 v0, v42
+    :cond_75
+    :goto_4e
+    move/from16 v0, v44
 
     :goto_4f
-    and-long v24, v2, v37
+    and-long v31, v2, v37
 
-    const-wide/16 v43, 0x0
+    const-wide/16 v42, 0x0
 
-    cmp-long v19, v24, v43
+    cmp-long v10, v31, v42
 
-    if-eqz v19, :cond_78
+    if-eqz v10, :cond_7a
 
-    if-eqz v23, :cond_74
+    if-eqz v20, :cond_76
+
+    move/from16 v13, v16
 
     goto :goto_50
 
-    :cond_74
-    move/from16 v22, v42
+    :cond_76
+    move/from16 v13, v44
 
     :goto_50
-    if-eqz v19, :cond_76
+    if-eqz v10, :cond_78
 
-    if-eqz v22, :cond_75
+    if-eqz v13, :cond_77
 
-    const-wide/high16 v23, 0x1000000000000L
+    const-wide/32 v19, 0x1000000
 
     goto :goto_51
 
-    :cond_75
-    const-wide v23, 0x800000000000L
+    :cond_77
+    const-wide/32 v19, 0x800000
 
     :goto_51
-    or-long v2, v2, v23
+    or-long v2, v2, v19
 
-    :cond_76
-    if-eqz v22, :cond_77
-
-    move/from16 v39, v42
-
-    :cond_77
-    move/from16 v61, v39
+    :cond_78
+    if-eqz v13, :cond_79
 
     goto :goto_52
 
-    :cond_78
-    move/from16 v61, v42
-
-    :goto_52
-    const-wide/32 v22, 0x41001
-
-    and-long v22, v2, v22
-
-    const-wide/16 v24, 0x0
-
-    cmp-long v19, v22, v24
-
-    move/from16 v22, v8
-
-    const/16 v8, 0xb
-
-    if-eqz v19, :cond_7a
-
-    move/from16 v19, v7
-
-    .line 862
-    invoke-static {}, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->getBuildSdkInt()I
-
-    move-result v7
-
-    if-lt v7, v8, :cond_79
-
-    .line 864
-    iget-object v7, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->mboundView8:Landroid/widget/TextView;
-
-    move/from16 v8, v58
-
-    invoke-virtual {v7, v8}, Landroid/widget/TextView;->setAlpha(F)V
-
-    .line 865
-    iget-object v7, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeCal:Landroid/widget/TextView;
-
-    invoke-virtual {v7, v8}, Landroid/widget/TextView;->setAlpha(F)V
-
-    .line 866
-    iget-object v7, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeCalButton:Landroid/widget/Button;
-
-    invoke-virtual {v7, v8}, Landroid/widget/Button;->setAlpha(F)V
-
-    .line 870
     :cond_79
-    iget-object v7, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->mboundView8:Landroid/widget/TextView;
-
-    invoke-virtual {v7, v13}, Landroid/widget/TextView;->setEnabled(Z)V
-
-    .line 871
-    iget-object v7, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeCal:Landroid/widget/TextView;
-
-    invoke-virtual {v7, v13}, Landroid/widget/TextView;->setEnabled(Z)V
-
-    .line 872
-    iget-object v7, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeCal:Landroid/widget/TextView;
-
-    invoke-virtual {v7, v9}, Landroid/widget/TextView;->setVisibility(I)V
-
-    .line 873
-    iget-object v7, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeCalButton:Landroid/widget/Button;
-
-    invoke-virtual {v7, v13}, Landroid/widget/Button;->setEnabled(Z)V
-
-    .line 874
-    iget-object v7, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeCalButton:Landroid/widget/Button;
-
-    invoke-virtual {v7, v15}, Landroid/widget/Button;->setVisibility(I)V
+    move/from16 v10, v41
 
     goto :goto_53
 
     :cond_7a
-    move/from16 v19, v7
+    :goto_52
+    move/from16 v10, v44
 
     :goto_53
-    const-wide/32 v7, 0x40061
+    and-long v19, v2, v33
 
-    and-long/2addr v7, v2
+    const-wide/16 v31, 0x0
 
-    const-wide/16 v24, 0x0
+    cmp-long v13, v19, v31
 
-    cmp-long v7, v7, v24
+    if-eqz v13, :cond_7f
 
-    if-eqz v7, :cond_7c
+    if-eqz v18, :cond_7b
 
-    .line 878
-    invoke-static {}, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->getBuildSdkInt()I
+    move/from16 v18, v16
 
-    move-result v7
+    goto :goto_54
 
-    const/16 v8, 0xb
-
-    if-lt v7, v8, :cond_7b
-
-    .line 880
-    iget-object v7, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeBias:Landroid/widget/TextView;
-
-    invoke-virtual {v7, v5}, Landroid/widget/TextView;->setAlpha(F)V
-
-    .line 881
-    iget-object v7, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeBiasEditText:Landroid/widget/EditText;
-
-    invoke-virtual {v7, v5}, Landroid/widget/EditText;->setAlpha(F)V
-
-    .line 885
     :cond_7b
-    iget-object v5, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeBias:Landroid/widget/TextView;
+    move/from16 v18, v44
 
-    invoke-virtual {v5, v11}, Landroid/widget/TextView;->setEnabled(Z)V
+    :goto_54
+    if-eqz v13, :cond_7d
 
-    .line 886
-    iget-object v5, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeBiasEditText:Landroid/widget/EditText;
+    if-eqz v18, :cond_7c
 
-    invoke-virtual {v5, v11}, Landroid/widget/EditText;->setEnabled(Z)V
+    const-wide/32 v19, 0x4000000
+
+    goto :goto_55
 
     :cond_7c
-    const-wide/32 v7, 0x40008
+    const-wide/32 v19, 0x2000000
 
-    and-long/2addr v7, v2
-
-    const-wide/16 v24, 0x0
-
-    cmp-long v5, v7, v24
-
-    if-eqz v5, :cond_7d
-
-    .line 891
-    iget-object v5, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeBiasEditText:Landroid/widget/EditText;
-
-    invoke-virtual {v5, v6}, Landroid/widget/EditText;->setOnClickListener(Landroid/view/View$OnClickListener;)V
-
-    .line 892
-    iget-object v5, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeCalButton:Landroid/widget/Button;
-
-    invoke-virtual {v5, v6}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
-
-    .line 893
-    iget-object v5, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeDelayEditText:Landroid/widget/EditText;
-
-    invoke-virtual {v5, v6}, Landroid/widget/EditText;->setOnClickListener(Landroid/view/View$OnClickListener;)V
-
-    .line 894
-    iget-object v5, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeDemagButton:Landroid/widget/Button;
-
-    invoke-virtual {v5, v6}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
-
-    .line 895
-    iget-object v5, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeRatioSpinner:Landroid/widget/TextView;
-
-    invoke-virtual {v5, v6}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    :goto_55
+    or-long v2, v2, v19
 
     :cond_7d
-    and-long v5, v2, v26
+    if-eqz v18, :cond_7e
 
-    const-wide/16 v7, 0x0
-
-    cmp-long v5, v5, v7
-
-    if-eqz v5, :cond_7e
-
-    .line 900
-    iget-object v5, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeBiasEditText:Landroid/widget/EditText;
-
-    invoke-static {v5, v4}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
+    goto :goto_56
 
     :cond_7e
-    const-wide/32 v4, 0x40000
+    move/from16 v13, v41
 
-    and-long/2addr v4, v2
-
-    cmp-long v4, v4, v7
-
-    if-eqz v4, :cond_7f
-
-    .line 904
-    invoke-static {}, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->getBuildSdkInt()I
-
-    move-result v4
-
-    const/16 v5, 0xb
-
-    if-lt v4, v5, :cond_7f
-
-    .line 906
-    iget-object v4, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeCalTime:Landroid/widget/TextView;
-
-    invoke-static/range {v42 .. v42}, Lcom/rigol/scope/utilities/ContextUtil;->getAlpha(Z)F
-
-    move-result v5
-
-    invoke-virtual {v4, v5}, Landroid/widget/TextView;->setAlpha(F)V
-
-    .line 907
-    iget-object v4, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeCalTimeText:Landroid/widget/TextView;
-
-    invoke-static/range {v42 .. v42}, Lcom/rigol/scope/utilities/ContextUtil;->getAlpha(Z)F
-
-    move-result v5
-
-    invoke-virtual {v4, v5}, Landroid/widget/TextView;->setAlpha(F)V
-
-    .line 908
-    iget-object v4, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeMfr:Landroid/widget/TextView;
-
-    invoke-static/range {v42 .. v42}, Lcom/rigol/scope/utilities/ContextUtil;->getAlpha(Z)F
-
-    move-result v5
-
-    invoke-virtual {v4, v5}, Landroid/widget/TextView;->setAlpha(F)V
-
-    .line 909
-    iget-object v4, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeMfrText:Landroid/widget/TextView;
-
-    invoke-static/range {v42 .. v42}, Lcom/rigol/scope/utilities/ContextUtil;->getAlpha(Z)F
-
-    move-result v5
-
-    invoke-virtual {v4, v5}, Landroid/widget/TextView;->setAlpha(F)V
-
-    .line 910
-    iget-object v4, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeModel:Landroid/widget/TextView;
-
-    invoke-static/range {v42 .. v42}, Lcom/rigol/scope/utilities/ContextUtil;->getAlpha(Z)F
-
-    move-result v5
-
-    invoke-virtual {v4, v5}, Landroid/widget/TextView;->setAlpha(F)V
-
-    .line 911
-    iget-object v4, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeModelText:Landroid/widget/TextView;
-
-    invoke-static/range {v42 .. v42}, Lcom/rigol/scope/utilities/ContextUtil;->getAlpha(Z)F
-
-    move-result v5
-
-    invoke-virtual {v4, v5}, Landroid/widget/TextView;->setAlpha(F)V
-
-    .line 912
-    iget-object v4, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeSn:Landroid/widget/TextView;
-
-    invoke-static/range {v42 .. v42}, Lcom/rigol/scope/utilities/ContextUtil;->getAlpha(Z)F
-
-    move-result v5
-
-    invoke-virtual {v4, v5}, Landroid/widget/TextView;->setAlpha(F)V
-
-    .line 913
-    iget-object v4, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeSnText:Landroid/widget/TextView;
-
-    invoke-static/range {v42 .. v42}, Lcom/rigol/scope/utilities/ContextUtil;->getAlpha(Z)F
-
-    move-result v5
-
-    invoke-virtual {v4, v5}, Landroid/widget/TextView;->setAlpha(F)V
+    goto :goto_57
 
     :cond_7f
-    and-long v4, v2, v31
+    :goto_56
+    move/from16 v13, v44
 
-    const-wide/16 v6, 0x0
+    :goto_57
+    and-long v18, v2, v39
 
-    cmp-long v4, v4, v6
+    const-wide/16 v31, 0x0
 
-    if-eqz v4, :cond_80
+    cmp-long v18, v18, v31
 
-    .line 919
-    iget-object v4, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeCalTime:Landroid/widget/TextView;
+    if-eqz v18, :cond_84
 
-    invoke-virtual {v4, v0}, Landroid/widget/TextView;->setVisibility(I)V
+    if-eqz v17, :cond_80
 
-    .line 920
-    iget-object v4, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeCalTimeText:Landroid/widget/TextView;
-
-    invoke-virtual {v4, v0}, Landroid/widget/TextView;->setVisibility(I)V
+    goto :goto_58
 
     :cond_80
-    const-wide/32 v4, 0x50001
+    move/from16 v16, v44
 
-    and-long/2addr v4, v2
+    :goto_58
+    if-eqz v18, :cond_82
 
-    cmp-long v0, v4, v6
+    if-eqz v16, :cond_81
 
-    if-eqz v0, :cond_81
+    const-wide/high16 v17, 0x10000000000000L
 
-    .line 925
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeCalTimeText:Landroid/widget/TextView;
-
-    invoke-static {v0, v10}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
+    goto :goto_59
 
     :cond_81
-    const-wide/32 v4, 0x40101
+    const-wide/high16 v17, 0x8000000000000L
 
-    and-long/2addr v4, v2
-
-    cmp-long v0, v4, v6
-
-    if-eqz v0, :cond_82
-
-    .line 930
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeDelayEditText:Landroid/widget/EditText;
-
-    invoke-static {v0, v12}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
+    :goto_59
+    or-long v2, v2, v17
 
     :cond_82
-    const-wide/32 v4, 0x42001
+    if-eqz v16, :cond_83
 
-    and-long/2addr v4, v2
+    move/from16 v41, v44
 
-    cmp-long v0, v4, v6
+    :cond_83
+    move/from16 v66, v41
 
-    if-eqz v0, :cond_83
+    goto :goto_5a
 
-    .line 935
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeDemag:Landroid/widget/TextView;
+    :cond_84
+    move/from16 v66, v44
+
+    :goto_5a
+    const-wide/32 v16, 0x104001
+
+    and-long v16, v2, v16
+
+    const-wide/16 v18, 0x0
+
+    cmp-long v16, v16, v18
+
+    move-object/from16 v17, v11
+
+    const/16 v11, 0xb
+
+    if-eqz v16, :cond_86
+
+    move/from16 v16, v0
+
+    .line 929
+    invoke-static {}, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->getBuildSdkInt()I
+
+    move-result v0
+
+    if-lt v0, v11, :cond_85
+
+    .line 931
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->mboundView8:Landroid/widget/TextView;
+
+    move/from16 v11, v63
+
+    invoke-virtual {v0, v11}, Landroid/widget/TextView;->setAlpha(F)V
+
+    .line 932
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeCal:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v11}, Landroid/widget/TextView;->setAlpha(F)V
+
+    .line 933
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeCalButton:Landroid/widget/Button;
+
+    invoke-virtual {v0, v11}, Landroid/widget/Button;->setAlpha(F)V
+
+    .line 937
+    :cond_85
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->mboundView8:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v15}, Landroid/widget/TextView;->setEnabled(Z)V
+
+    .line 938
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeCal:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v15}, Landroid/widget/TextView;->setEnabled(Z)V
+
+    .line 939
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeCal:Landroid/widget/TextView;
 
     invoke-virtual {v0, v14}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 936
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeDemagButton:Landroid/widget/Button;
+    .line 940
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeCalButton:Landroid/widget/Button;
 
-    move/from16 v4, v19
-
-    invoke-virtual {v0, v4}, Landroid/widget/Button;->setVisibility(I)V
-
-    :cond_83
-    and-long v4, v2, v35
-
-    cmp-long v0, v4, v6
-
-    if-eqz v0, :cond_84
+    invoke-virtual {v0, v15}, Landroid/widget/Button;->setEnabled(Z)V
 
     .line 941
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeMfr:Landroid/widget/TextView;
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeCalButton:Landroid/widget/Button;
 
-    move/from16 v8, v22
+    move/from16 v11, v62
 
-    invoke-virtual {v0, v8}, Landroid/widget/TextView;->setVisibility(I)V
+    invoke-virtual {v0, v11}, Landroid/widget/Button;->setVisibility(I)V
 
-    .line 942
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeMfrText:Landroid/widget/TextView;
-
-    invoke-virtual {v0, v8}, Landroid/widget/TextView;->setVisibility(I)V
-
-    :cond_84
-    const-wide/32 v4, 0x44001
-
-    and-long/2addr v4, v2
-
-    cmp-long v0, v4, v6
-
-    if-eqz v0, :cond_85
-
-    .line 947
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeMfrText:Landroid/widget/TextView;
-
-    move-object/from16 v4, v17
-
-    invoke-static {v0, v4}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
-
-    :cond_85
-    and-long v4, v2, v33
-
-    cmp-long v0, v4, v6
-
-    if-eqz v0, :cond_86
-
-    .line 952
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeModel:Landroid/widget/TextView;
-
-    move/from16 v4, v18
-
-    invoke-virtual {v0, v4}, Landroid/widget/TextView;->setVisibility(I)V
-
-    .line 953
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeModelText:Landroid/widget/TextView;
-
-    invoke-virtual {v0, v4}, Landroid/widget/TextView;->setVisibility(I)V
+    goto :goto_5b
 
     :cond_86
-    const-wide/32 v4, 0x40201
+    move/from16 v16, v0
 
-    and-long/2addr v4, v2
+    :goto_5b
+    const-wide/32 v14, 0x100061
 
-    cmp-long v0, v4, v6
+    and-long/2addr v14, v2
 
-    if-eqz v0, :cond_87
+    const-wide/16 v19, 0x0
 
-    .line 958
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeModelText:Landroid/widget/TextView;
+    cmp-long v0, v14, v19
 
-    move-object/from16 v4, v16
+    if-eqz v0, :cond_88
 
-    invoke-static {v0, v4}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
+    .line 945
+    invoke-static {}, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->getBuildSdkInt()I
 
+    move-result v0
+
+    const/16 v11, 0xb
+
+    if-lt v0, v11, :cond_87
+
+    .line 947
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeBias:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v5}, Landroid/widget/TextView;->setAlpha(F)V
+
+    .line 948
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeBiasEditText:Landroid/widget/EditText;
+
+    invoke-virtual {v0, v5}, Landroid/widget/EditText;->setAlpha(F)V
+
+    .line 952
     :cond_87
-    and-long v4, v2, v20
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeBias:Landroid/widget/TextView;
 
-    cmp-long v0, v4, v6
+    invoke-virtual {v0, v7}, Landroid/widget/TextView;->setEnabled(Z)V
+
+    .line 953
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeBiasEditText:Landroid/widget/EditText;
+
+    invoke-virtual {v0, v7}, Landroid/widget/EditText;->setEnabled(Z)V
+
+    :cond_88
+    const-wide/32 v14, 0x100008
+
+    and-long/2addr v14, v2
+
+    const-wide/16 v19, 0x0
+
+    cmp-long v0, v14, v19
 
     if-eqz v0, :cond_89
 
+    .line 958
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeBiasEditText:Landroid/widget/EditText;
+
+    invoke-virtual {v0, v6}, Landroid/widget/EditText;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    .line 959
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeCalButton:Landroid/widget/Button;
+
+    invoke-virtual {v0, v6}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    .line 960
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeDelayEditText:Landroid/widget/EditText;
+
+    invoke-virtual {v0, v6}, Landroid/widget/EditText;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    .line 961
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeDemagButton:Landroid/widget/Button;
+
+    invoke-virtual {v0, v6}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
     .line 962
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeRatioSpinner:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v6}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    :cond_89
+    and-long v5, v2, v24
+
+    const-wide/16 v14, 0x0
+
+    cmp-long v0, v5, v14
+
+    if-eqz v0, :cond_8a
+
+    .line 967
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeBiasEditText:Landroid/widget/EditText;
+
+    invoke-static {v0, v4}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
+
+    :cond_8a
+    const-wide/32 v4, 0x100000
+
+    and-long/2addr v4, v2
+
+    cmp-long v0, v4, v14
+
+    if-eqz v0, :cond_8b
+
+    .line 971
     invoke-static {}, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->getBuildSdkInt()I
 
     move-result v0
 
     const/16 v4, 0xb
 
-    if-lt v0, v4, :cond_88
+    if-lt v0, v4, :cond_8b
 
-    .line 964
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeRatio:Landroid/widget/TextView;
+    .line 973
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeCalTime:Landroid/widget/TextView;
 
-    move/from16 v4, v29
+    invoke-static/range {v44 .. v44}, Lcom/rigol/scope/utilities/ContextUtil;->getAlpha(Z)F
 
-    invoke-virtual {v0, v4}, Landroid/widget/TextView;->setAlpha(F)V
-
-    .line 965
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeRatioSpinner:Landroid/widget/TextView;
+    move-result v4
 
     invoke-virtual {v0, v4}, Landroid/widget/TextView;->setAlpha(F)V
 
-    .line 969
-    :cond_88
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeRatio:Landroid/widget/TextView;
+    .line 974
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeCalTimeText:Landroid/widget/TextView;
 
-    move/from16 v8, v28
+    invoke-static/range {v44 .. v44}, Lcom/rigol/scope/utilities/ContextUtil;->getAlpha(Z)F
 
-    invoke-virtual {v0, v8}, Landroid/widget/TextView;->setEnabled(Z)V
+    move-result v4
 
-    .line 970
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeRatioSpinner:Landroid/widget/TextView;
+    invoke-virtual {v0, v4}, Landroid/widget/TextView;->setAlpha(F)V
 
-    invoke-virtual {v0, v8}, Landroid/widget/TextView;->setEnabled(Z)V
+    .line 975
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeMfr:Landroid/widget/TextView;
 
-    :cond_89
-    const-wide/32 v4, 0x60083
+    invoke-static/range {v44 .. v44}, Lcom/rigol/scope/utilities/ContextUtil;->getAlpha(Z)F
 
-    and-long/2addr v4, v2
+    move-result v4
+
+    invoke-virtual {v0, v4}, Landroid/widget/TextView;->setAlpha(F)V
+
+    .line 976
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeMfrText:Landroid/widget/TextView;
+
+    invoke-static/range {v44 .. v44}, Lcom/rigol/scope/utilities/ContextUtil;->getAlpha(Z)F
+
+    move-result v4
+
+    invoke-virtual {v0, v4}, Landroid/widget/TextView;->setAlpha(F)V
+
+    .line 977
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeModel:Landroid/widget/TextView;
+
+    invoke-static/range {v44 .. v44}, Lcom/rigol/scope/utilities/ContextUtil;->getAlpha(Z)F
+
+    move-result v4
+
+    invoke-virtual {v0, v4}, Landroid/widget/TextView;->setAlpha(F)V
+
+    .line 978
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeModelText:Landroid/widget/TextView;
+
+    invoke-static/range {v44 .. v44}, Lcom/rigol/scope/utilities/ContextUtil;->getAlpha(Z)F
+
+    move-result v4
+
+    invoke-virtual {v0, v4}, Landroid/widget/TextView;->setAlpha(F)V
+
+    .line 979
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeSn:Landroid/widget/TextView;
+
+    invoke-static/range {v44 .. v44}, Lcom/rigol/scope/utilities/ContextUtil;->getAlpha(Z)F
+
+    move-result v4
+
+    invoke-virtual {v0, v4}, Landroid/widget/TextView;->setAlpha(F)V
+
+    .line 980
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeSnText:Landroid/widget/TextView;
+
+    invoke-static/range {v44 .. v44}, Lcom/rigol/scope/utilities/ContextUtil;->getAlpha(Z)F
+
+    move-result v4
+
+    invoke-virtual {v0, v4}, Landroid/widget/TextView;->setAlpha(F)V
+
+    :cond_8b
+    and-long v4, v2, v33
 
     const-wide/16 v6, 0x0
 
     cmp-long v0, v4, v6
 
-    if-eqz v0, :cond_8a
+    if-eqz v0, :cond_8c
 
-    .line 975
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeRatioSpinner:Landroid/widget/TextView;
+    .line 986
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeCalTime:Landroid/widget/TextView;
 
-    move-object/from16 v8, v55
+    invoke-virtual {v0, v13}, Landroid/widget/TextView;->setVisibility(I)V
+
+    .line 987
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeCalTimeText:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v13}, Landroid/widget/TextView;->setVisibility(I)V
+
+    :cond_8c
+    const-wide/32 v4, 0x140001
+
+    and-long/2addr v4, v2
+
+    cmp-long v0, v4, v6
+
+    if-eqz v0, :cond_8d
+
+    .line 992
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeCalTimeText:Landroid/widget/TextView;
 
     invoke-static {v0, v8}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
 
-    :cond_8a
+    :cond_8d
+    const-wide/32 v4, 0x100401
+
+    and-long/2addr v4, v2
+
+    cmp-long v0, v4, v6
+
+    if-eqz v0, :cond_8e
+
+    .line 997
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeDelayEditText:Landroid/widget/EditText;
+
+    invoke-static {v0, v12}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
+
+    :cond_8e
+    const-wide/32 v4, 0x108001
+
+    and-long/2addr v4, v2
+
+    cmp-long v0, v4, v6
+
+    if-eqz v0, :cond_8f
+
+    .line 1002
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeDemag:Landroid/widget/TextView;
+
+    move/from16 v4, v64
+
+    invoke-virtual {v0, v4}, Landroid/widget/TextView;->setVisibility(I)V
+
+    .line 1003
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeDemagButton:Landroid/widget/Button;
+
+    move/from16 v4, v47
+
+    invoke-virtual {v0, v4}, Landroid/widget/Button;->setVisibility(I)V
+
+    :cond_8f
     and-long v4, v2, v37
 
     cmp-long v0, v4, v6
 
-    if-eqz v0, :cond_8b
+    if-eqz v0, :cond_90
 
-    .line 980
-    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeSn:Landroid/widget/TextView;
+    .line 1008
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeMfr:Landroid/widget/TextView;
 
-    move/from16 v4, v61
+    invoke-virtual {v0, v10}, Landroid/widget/TextView;->setVisibility(I)V
+
+    .line 1009
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeMfrText:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v10}, Landroid/widget/TextView;->setVisibility(I)V
+
+    :cond_90
+    const-wide/32 v4, 0x110001
+
+    and-long/2addr v4, v2
+
+    cmp-long v0, v4, v6
+
+    if-eqz v0, :cond_91
+
+    .line 1014
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeMfrText:Landroid/widget/TextView;
+
+    invoke-static {v0, v9}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
+
+    :cond_91
+    and-long v4, v2, v35
+
+    cmp-long v0, v4, v6
+
+    if-eqz v0, :cond_92
+
+    .line 1019
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeModel:Landroid/widget/TextView;
+
+    move/from16 v4, v16
 
     invoke-virtual {v0, v4}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 981
+    .line 1020
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeModelText:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v4}, Landroid/widget/TextView;->setVisibility(I)V
+
+    :cond_92
+    const-wide/32 v4, 0x100801
+
+    and-long/2addr v4, v2
+
+    cmp-long v0, v4, v6
+
+    if-eqz v0, :cond_93
+
+    .line 1025
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeModelText:Landroid/widget/TextView;
+
+    move-object/from16 v11, v17
+
+    invoke-static {v0, v11}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
+
+    :cond_93
+    and-long v4, v2, v22
+
+    cmp-long v0, v4, v6
+
+    if-eqz v0, :cond_95
+
+    .line 1029
+    invoke-static {}, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->getBuildSdkInt()I
+
+    move-result v0
+
+    const/16 v4, 0xb
+
+    if-lt v0, v4, :cond_94
+
+    .line 1031
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeRatio:Landroid/widget/TextView;
+
+    move/from16 v4, v30
+
+    invoke-virtual {v0, v4}, Landroid/widget/TextView;->setAlpha(F)V
+
+    .line 1032
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeRatioSpinner:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v4}, Landroid/widget/TextView;->setAlpha(F)V
+
+    .line 1036
+    :cond_94
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeRatio:Landroid/widget/TextView;
+
+    move/from16 v10, v29
+
+    invoke-virtual {v0, v10}, Landroid/widget/TextView;->setEnabled(Z)V
+
+    .line 1037
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeRatioSpinner:Landroid/widget/TextView;
+
+    invoke-virtual {v0, v10}, Landroid/widget/TextView;->setEnabled(Z)V
+
+    :cond_95
+    and-long v4, v2, v26
+
+    const-wide/16 v6, 0x0
+
+    cmp-long v0, v4, v6
+
+    if-eqz v0, :cond_96
+
+    .line 1042
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeRatioSpinner:Landroid/widget/TextView;
+
+    move-object/from16 v5, v28
+
+    invoke-static {v0, v5}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
+
+    :cond_96
+    and-long v4, v2, v39
+
+    cmp-long v0, v4, v6
+
+    if-eqz v0, :cond_97
+
+    .line 1047
+    iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeSn:Landroid/widget/TextView;
+
+    move/from16 v4, v66
+
+    invoke-virtual {v0, v4}, Landroid/widget/TextView;->setVisibility(I)V
+
+    .line 1048
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeSnText:Landroid/widget/TextView;
 
     invoke-virtual {v0, v4}, Landroid/widget/TextView;->setVisibility(I)V
 
-    :cond_8b
-    const-wide/32 v4, 0x48001
+    :cond_97
+    const-wide/32 v4, 0x120001
 
     and-long/2addr v2, v4
 
     cmp-long v0, v2, v6
 
-    if-eqz v0, :cond_8c
+    if-eqz v0, :cond_98
 
-    .line 986
+    .line 1053
     iget-object v0, v1, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->probeSnText:Landroid/widget/TextView;
 
-    move-object/from16 v2, v40
+    move-object/from16 v2, v21
 
     invoke-static {v0, v2}, Landroidx/databinding/adapters/TextViewBindingAdapter;->setText(Landroid/widget/TextView;Ljava/lang/CharSequence;)V
 
-    :cond_8c
+    :cond_98
     return-void
 
     :catchall_0
     move-exception v0
 
-    .line 272
+    .line 284
     :try_start_1
     monitor-exit p0
     :try_end_1
@@ -3198,7 +3422,7 @@
     .line 87
     monitor-enter p0
 
-    const-wide/32 v0, 0x40000
+    const-wide/32 v0, 0x100000
 
     .line 88
     :try_start_0
@@ -3332,7 +3556,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x403
+    const/16 v0, 0x407
 
     if-ne v0, p1, :cond_0
 
@@ -3356,7 +3580,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0x337
+    const/16 v0, 0x33b
 
     if-ne v0, p1, :cond_2
 
@@ -3406,7 +3630,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x403
+    const/16 p1, 0x407
 
     .line 127
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBindingImpl;->notifyPropertyChanged(I)V

@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nGridRulerView.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GridRulerView.kt\ncom/rigol/scope/views/grid/EyeGridRulerView\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,1863:1\n1#2:1864\n*E\n"
+    value = "SMAP\nGridRulerView.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GridRulerView.kt\ncom/rigol/scope/views/grid/EyeGridRulerView\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,1978:1\n1#2:1979\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -97,10 +97,10 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 4
 
-    .line 1353
+    .line 1468
     invoke-direct {p0, p1, p2, p3}, Lcom/rigol/scope/views/grid/GridRulerViewWrapper;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 1354
+    .line 1469
     const-class p2, Lcom/rigol/scope/viewmodels/EyeViewModel;
 
     invoke-static {p2}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -115,7 +115,7 @@
 
     if-eqz p2, :cond_0
 
-    .line 1355
+    .line 1470
     invoke-virtual {p2}, Lcom/rigol/scope/viewmodels/EyeViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object p2
@@ -140,26 +140,26 @@
 
     const p2, 0x7f060069
 
-    .line 1359
+    .line 1474
     invoke-static {p1, p2}, Lcom/rigol/scope/utilities/ColorUtil;->getColor(Landroid/content/Context;I)I
 
     move-result p2
 
     invoke-virtual {p0, p2}, Lcom/rigol/scope/views/grid/EyeGridRulerView;->setColumnTextColor(I)V
 
-    .line 1362
+    .line 1477
     :cond_1
     iget-object p2, p0, Lcom/rigol/scope/views/grid/EyeGridRulerView;->eyeParam:Lcom/rigol/scope/data/EyeParam;
 
     if-eqz p2, :cond_2
 
-    .line 1363
+    .line 1478
     invoke-direct {p0, p2}, Lcom/rigol/scope/views/grid/EyeGridRulerView;->updateXRuler(Lcom/rigol/scope/data/EyeParam;)V
 
     :cond_2
     const/16 p2, 0x33
 
-    .line 1369
+    .line 1484
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/EyeGridRulerView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
     move-result-object v0
@@ -170,7 +170,7 @@
 
     const/16 v2, 0x1304
 
-    .line 1368
+    .line 1483
     invoke-virtual {v0, p2, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v0
@@ -179,7 +179,7 @@
 
     if-eqz p1, :cond_3
 
-    .line 1369
+    .line 1484
     move-object v2, p1
 
     check-cast v2, Landroidx/lifecycle/LifecycleOwner;
@@ -201,7 +201,7 @@
 
     throw p1
 
-    .line 1379
+    .line 1494
     :cond_4
     :goto_1
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/EyeGridRulerView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -212,7 +212,7 @@
 
     const/16 v2, 0x192a
 
-    .line 1378
+    .line 1493
     invoke-virtual {v0, p2, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v0
@@ -221,7 +221,7 @@
 
     if-eqz p1, :cond_5
 
-    .line 1379
+    .line 1494
     move-object v2, p1
 
     check-cast v2, Landroidx/lifecycle/LifecycleOwner;
@@ -243,7 +243,7 @@
 
     throw p1
 
-    .line 1387
+    .line 1502
     :cond_6
     :goto_2
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/EyeGridRulerView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -254,7 +254,7 @@
 
     const/16 v2, 0x1902
 
-    .line 1386
+    .line 1501
     invoke-virtual {v0, p2, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p2
@@ -263,7 +263,7 @@
 
     if-eqz p1, :cond_7
 
-    .line 1387
+    .line 1502
     check-cast p1, Landroidx/lifecycle/LifecycleOwner;
 
     new-instance v0, Lcom/rigol/scope/views/grid/EyeGridRulerView$5;
@@ -283,7 +283,7 @@
 
     throw p1
 
-    .line 1404
+    .line 1519
     :cond_8
     :goto_3
     const-class p1, Lcom/rigol/scope/viewmodels/VerticalViewModel;
@@ -296,7 +296,7 @@
 
     if-eqz p1, :cond_9
 
-    .line 1405
+    .line 1520
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/VerticalViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object p1
@@ -314,7 +314,7 @@
     :cond_9
     if-eqz p3, :cond_e
 
-    .line 1406
+    .line 1521
     move-object p1, p3
 
     check-cast p1, Ljava/util/Collection;
@@ -327,7 +327,7 @@
 
     if-eqz p1, :cond_e
 
-    .line 1407
+    .line 1522
     invoke-virtual {p3}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -346,12 +346,12 @@
 
     check-cast p2, Lcom/rigol/scope/data/VerticalParam;
 
-    .line 1408
+    .line 1523
     invoke-virtual {p2}, Lcom/rigol/scope/data/VerticalParam;->getServiceId()I
 
     move-result p2
 
-    .line 1412
+    .line 1527
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/EyeGridRulerView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
     move-result-object p3
@@ -360,14 +360,14 @@
 
     const/16 v0, 0x70f
 
-    .line 1411
+    .line 1526
     invoke-virtual {p3, p2, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p3
 
     if-eqz p3, :cond_c
 
-    .line 1412
+    .line 1527
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/EyeGridRulerView;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -393,7 +393,7 @@
 
     throw p1
 
-    .line 1434
+    .line 1549
     :cond_c
     :goto_5
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/EyeGridRulerView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -404,14 +404,14 @@
 
     const/16 v0, 0x712
 
-    .line 1433
+    .line 1548
     invoke-virtual {p3, p2, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p3
 
     if-eqz p3, :cond_a
 
-    .line 1434
+    .line 1549
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/EyeGridRulerView;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -450,7 +450,7 @@
 
     const/4 p2, 0x0
 
-    .line 1351
+    .line 1466
     check-cast p2, Landroid/util/AttributeSet;
 
     :cond_0
@@ -460,7 +460,7 @@
 
     const/4 p3, 0x0
 
-    .line 1352
+    .line 1467
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/rigol/scope/views/grid/EyeGridRulerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -470,7 +470,7 @@
 .method public static final synthetic access$getEyeParam$p(Lcom/rigol/scope/views/grid/EyeGridRulerView;)Lcom/rigol/scope/data/EyeParam;
     .locals 0
 
-    .line 1349
+    .line 1464
     iget-object p0, p0, Lcom/rigol/scope/views/grid/EyeGridRulerView;->eyeParam:Lcom/rigol/scope/data/EyeParam;
 
     return-object p0
@@ -479,7 +479,7 @@
 .method public static final synthetic access$updateXRuler(Lcom/rigol/scope/views/grid/EyeGridRulerView;Lcom/rigol/scope/data/EyeParam;)V
     .locals 0
 
-    .line 1349
+    .line 1464
     invoke-direct {p0, p1}, Lcom/rigol/scope/views/grid/EyeGridRulerView;->updateXRuler(Lcom/rigol/scope/data/EyeParam;)V
 
     return-void
@@ -488,7 +488,7 @@
 .method public static final synthetic access$updateYRuler(Lcom/rigol/scope/views/grid/EyeGridRulerView;Lcom/rigol/scope/data/VerticalParam;)V
     .locals 0
 
-    .line 1349
+    .line 1464
     invoke-direct {p0, p1}, Lcom/rigol/scope/views/grid/EyeGridRulerView;->updateYRuler(Lcom/rigol/scope/data/VerticalParam;)V
 
     return-void
@@ -497,14 +497,14 @@
 .method private final updateXRuler(Lcom/rigol/scope/data/EyeParam;)V
     .locals 0
 
-    .line 1461
+    .line 1576
     invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->getEyeXRulers(Lcom/rigol/scope/data/EyeParam;)[Ljava/lang/String;
 
     move-result-object p1
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/grid/EyeGridRulerView;->setColumnContents([Ljava/lang/String;)V
 
-    .line 1464
+    .line 1579
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/EyeGridRulerView;->invalidate()V
 
     return-void
@@ -513,14 +513,14 @@
 .method private final updateYRuler(Lcom/rigol/scope/data/VerticalParam;)V
     .locals 1
 
-    .line 1471
+    .line 1586
     invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->getEyeYRulers(Lcom/rigol/scope/data/VerticalParam;)[Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/grid/EyeGridRulerView;->setRowContents([Ljava/lang/String;)V
 
-    .line 1474
+    .line 1589
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/EyeGridRulerView;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -535,7 +535,7 @@
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/grid/EyeGridRulerView;->setRowTextColor(I)V
 
-    .line 1477
+    .line 1592
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/EyeGridRulerView;->invalidate()V
 
     return-void

@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterLaColorBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a05ac
+    const v1, 0x7f0a05b4
 
     const/16 v2, 0x8
 
@@ -235,7 +235,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x1d0
+    const/16 v0, 0x1d1
 
     if-ne p2, v0, :cond_1
 
@@ -267,7 +267,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x1cf
+    const/16 v0, 0x1d0
 
     if-ne p2, v0, :cond_2
 
@@ -299,7 +299,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x1b2
+    const/16 v0, 0x1b3
 
     if-ne p2, v0, :cond_3
 
@@ -331,7 +331,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x1ce
+    const/16 v0, 0x1cf
 
     if-ne p2, v0, :cond_4
 
@@ -514,7 +514,7 @@
     move v7, v0
 
     :goto_0
-    const v12, 0x7f030157
+    const v12, 0x7f030158
 
     .line 189
     invoke-static {v12, v7}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -585,7 +585,7 @@
     move-result v0
 
     :cond_4
-    const v13, 0x7f030152
+    const v13, 0x7f030153
 
     .line 218
     invoke-static {v13, v0}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -932,7 +932,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x258
+    const/16 p1, 0x25a
 
     .line 91
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterLaColorBindingImpl;->notifyPropertyChanged(I)V
@@ -957,7 +957,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x258
+    const/16 v0, 0x25a
 
     if-ne v0, p1, :cond_0
 

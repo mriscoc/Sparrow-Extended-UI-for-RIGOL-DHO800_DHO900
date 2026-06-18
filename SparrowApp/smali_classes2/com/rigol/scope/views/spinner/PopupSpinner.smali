@@ -146,7 +146,16 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->removeOnAttachStateChangeListener(Landroid/view/View$OnAttachStateChangeListener;)V
 
+    .line 265
     :cond_0
+    iget-object v0, p0, Lcom/rigol/scope/views/spinner/PopupSpinner;->binding:Lcom/rigol/scope/databinding/PopupviewSpinnerBinding;
+
+    iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewSpinnerBinding;->recyclerView:Landroidx/recyclerview/widget/RecyclerView;
+
+    const/4 v1, 0x0
+
+    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
+
     return-void
 .end method
 

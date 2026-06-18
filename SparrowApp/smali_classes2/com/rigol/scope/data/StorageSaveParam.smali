@@ -22,6 +22,8 @@
 
 .field private static final DEFAULT_OPERATION:Lcom/rigol/scope/cil/ServiceEnum$StorageOperation;
 
+.field private static final DEFAULT_PEAK_DETECT:Z = false
+
 .field private static final DEFAULT_PREFIX:Ljava/lang/String; = "RigolDS"
 
 .field private static final DEFAULT_SETUPTYPE:I
@@ -98,6 +100,8 @@
 
 .field private pathName:Ljava/lang/String;
 
+.field private peakdetectStatus:Z
+
 .field private prefix:Ljava/lang/String;
 
 .field private progress:I
@@ -131,28 +135,28 @@
 
     sput-object v0, Lcom/rigol/scope/data/StorageSaveParam;->DEFAULT_CHOOSE:Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
 
-    .line 55
+    .line 56
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->FILETYPE_PNG:Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
     iget v0, v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->value1:I
 
     sput v0, Lcom/rigol/scope/data/StorageSaveParam;->DEFAULT_IMAGETYPE:I
 
-    .line 56
+    .line 57
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->FILETYPE_BIN:Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
     iget v0, v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->value1:I
 
     sput v0, Lcom/rigol/scope/data/StorageSaveParam;->DEFAULT_WAVETYPE:I
 
-    .line 57
+    .line 58
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->FILETYPE_STP:Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
     iget v0, v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->value1:I
 
     sput v0, Lcom/rigol/scope/data/StorageSaveParam;->DEFAULT_SETUPTYPE:I
 
-    .line 58
+    .line 59
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SAVE_IMG:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     sput-object v0, Lcom/rigol/scope/data/StorageSaveParam;->DEFAULT_FILEPROC:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
@@ -165,134 +169,137 @@
 
     const/16 v0, 0xc
 
-    .line 233
+    .line 239
     invoke-direct {p0, v0}, Lcom/rigol/scope/data/BaseParam;-><init>(I)V
 
-    .line 70
+    .line 71
     sget-object v0, Lcom/rigol/scope/data/StorageSaveParam;->DEFAULT_OPERATION:Lcom/rigol/scope/cil/ServiceEnum$StorageOperation;
 
     iput-object v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->operation:Lcom/rigol/scope/cil/ServiceEnum$StorageOperation;
 
-    .line 75
+    .line 76
     sget-object v0, Lcom/rigol/scope/data/StorageSaveParam;->DEFAULT_CHOOSE:Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
 
     iput-object v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->choose:Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
 
     const/4 v0, 0x0
 
-    .line 80
+    .line 81
     iput-object v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->fileName:Ljava/lang/String;
 
     const-string v1, "/data/UserData"
 
-    .line 85
+    .line 86
     iput-object v1, p0, Lcom/rigol/scope/data/StorageSaveParam;->pathName:Ljava/lang/String;
 
     const/4 v1, 0x0
 
-    .line 90
+    .line 91
     iput v1, p0, Lcom/rigol/scope/data/StorageSaveParam;->fileType:I
 
-    .line 95
+    .line 96
     iput v1, p0, Lcom/rigol/scope/data/StorageSaveParam;->bodeFileType:I
 
-    .line 96
+    .line 97
     iput v1, p0, Lcom/rigol/scope/data/StorageSaveParam;->loadfileType:I
 
-    .line 100
+    .line 101
     iput-boolean v1, p0, Lcom/rigol/scope/data/StorageSaveParam;->autoName:Z
 
     const-string v2, "RigolDS"
 
-    .line 105
+    .line 106
     iput-object v2, p0, Lcom/rigol/scope/data/StorageSaveParam;->prefix:Ljava/lang/String;
 
-    .line 110
+    .line 111
     iput-boolean v1, p0, Lcom/rigol/scope/data/StorageSaveParam;->imageInvert:Z
 
-    .line 115
+    .line 116
     iput-boolean v1, p0, Lcom/rigol/scope/data/StorageSaveParam;->imageColor:Z
 
     const/4 v2, 0x1
 
-    .line 120
+    .line 121
     iput-boolean v2, p0, Lcom/rigol/scope/data/StorageSaveParam;->imageHeader:Z
 
-    .line 125
+    .line 126
     iput v1, p0, Lcom/rigol/scope/data/StorageSaveParam;->waveDepth:I
 
-    .line 130
+    .line 131
     sget v3, Lcom/rigol/scope/data/StorageSaveParam;->DEFAULT_IMAGETYPE:I
 
     iput v3, p0, Lcom/rigol/scope/data/StorageSaveParam;->imageFileType:I
 
-    .line 135
+    .line 136
     sget v3, Lcom/rigol/scope/data/StorageSaveParam;->DEFAULT_WAVETYPE:I
 
     iput v3, p0, Lcom/rigol/scope/data/StorageSaveParam;->waveFileType:I
 
-    .line 140
+    .line 141
     sget v3, Lcom/rigol/scope/data/StorageSaveParam;->DEFAULT_SETUPTYPE:I
 
     iput v3, p0, Lcom/rigol/scope/data/StorageSaveParam;->setupFileType:I
 
-    .line 145
+    .line 146
     sget-object v3, Lcom/rigol/scope/data/StorageSaveParam;->DEFAULT_FILEPROC:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     iput-object v3, p0, Lcom/rigol/scope/data/StorageSaveParam;->fileProc:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
-    .line 150
+    .line 151
+    iput-boolean v1, p0, Lcom/rigol/scope/data/StorageSaveParam;->peakdetectStatus:Z
+
+    .line 156
     iput v1, p0, Lcom/rigol/scope/data/StorageSaveParam;->progress:I
 
-    .line 155
+    .line 161
     iput v1, p0, Lcom/rigol/scope/data/StorageSaveParam;->channel:I
 
-    .line 160
+    .line 166
     iput v1, p0, Lcom/rigol/scope/data/StorageSaveParam;->result:I
 
-    .line 165
+    .line 171
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v3, p0, Lcom/rigol/scope/data/StorageSaveParam;->chanBit:Ljava/util/List;
 
-    .line 170
+    .line 176
     iput-boolean v2, p0, Lcom/rigol/scope/data/StorageSaveParam;->chan1:Z
 
-    .line 175
+    .line 181
     iput-boolean v1, p0, Lcom/rigol/scope/data/StorageSaveParam;->chan2:Z
 
-    .line 180
+    .line 186
     iput-boolean v1, p0, Lcom/rigol/scope/data/StorageSaveParam;->chan3:Z
 
-    .line 185
+    .line 191
     iput-boolean v1, p0, Lcom/rigol/scope/data/StorageSaveParam;->chan4:Z
 
-    .line 190
+    .line 196
     iput v1, p0, Lcom/rigol/scope/data/StorageSaveParam;->group:I
 
-    .line 195
+    .line 201
     iput-object v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->decodeDataPath:Ljava/lang/String;
 
-    .line 202
+    .line 208
     iput-boolean v1, p0, Lcom/rigol/scope/data/StorageSaveParam;->smbEn:Z
 
-    .line 207
+    .line 213
     iput-boolean v1, p0, Lcom/rigol/scope/data/StorageSaveParam;->autoConnect:Z
 
-    .line 212
+    .line 218
     iput v1, p0, Lcom/rigol/scope/data/StorageSaveParam;->connectState:I
 
     const-string v0, ""
 
-    .line 218
+    .line 224
     iput-object v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->serverPath:Ljava/lang/String;
 
-    .line 223
+    .line 229
     iput-object v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->userName:Ljava/lang/String;
 
-    .line 228
+    .line 234
     iput-object v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->password:Ljava/lang/String;
 
     return-void
@@ -301,7 +308,7 @@
 .method private handleFileName(Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/String;
     .locals 5
 
-    .line 920
+    .line 952
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->isAutoName()Z
 
     move-result v0
@@ -310,13 +317,13 @@
 
     return-object p2
 
-    .line 924
+    .line 956
     :cond_0
     invoke-static {p3}, Lcom/rigol/scope/cil/ServiceEnum;->getenFileTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
     move-result-object p3
 
-    .line 926
+    .line 958
     invoke-virtual {p2}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
     move-result-object v0
@@ -347,7 +354,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 927
+    .line 959
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -370,7 +377,7 @@
 
     goto/16 :goto_0
 
-    .line 928
+    .line 960
     :cond_1
     invoke-virtual {p2}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
@@ -398,7 +405,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 929
+    .line 961
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -421,7 +428,7 @@
 
     goto/16 :goto_0
 
-    .line 930
+    .line 962
     :cond_2
     invoke-virtual {p2}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
@@ -449,7 +456,7 @@
 
     if-eqz v0, :cond_3
 
-    .line 931
+    .line 963
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -472,7 +479,7 @@
 
     goto/16 :goto_0
 
-    .line 932
+    .line 964
     :cond_3
     invoke-virtual {p2}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
@@ -500,7 +507,7 @@
 
     if-eqz v0, :cond_4
 
-    .line 933
+    .line 965
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -523,7 +530,7 @@
 
     goto/16 :goto_0
 
-    .line 934
+    .line 966
     :cond_4
     invoke-virtual {p2}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
@@ -551,7 +558,7 @@
 
     if-eqz v0, :cond_5
 
-    .line 935
+    .line 967
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -574,7 +581,7 @@
 
     goto :goto_0
 
-    .line 936
+    .line 968
     :cond_5
     invoke-virtual {p2}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
@@ -602,7 +609,7 @@
 
     if-eqz v0, :cond_6
 
-    .line 937
+    .line 969
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -625,7 +632,7 @@
 
     goto :goto_0
 
-    .line 938
+    .line 970
     :cond_6
     invoke-virtual {p2}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
@@ -653,7 +660,7 @@
 
     if-eqz v0, :cond_7
 
-    .line 939
+    .line 971
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -674,7 +681,7 @@
 
     move-result-object p2
 
-    .line 941
+    .line 973
     :cond_7
     :goto_0
     new-instance v0, Ljava/io/File;
@@ -693,11 +700,11 @@
 .method public doSave()V
     .locals 2
 
-    const/16 v0, 0x4b0b
+    const/16 v0, 0x4d0b
 
     const/4 v1, 0x0
 
-    .line 813
+    .line 845
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/StorageSaveParam;->saveInt(II)I
 
     return-void
@@ -708,7 +715,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 537
+    .line 552
     iget-boolean v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->autoConnect:Z
 
     return v0
@@ -719,7 +726,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 282
+    .line 288
     iget v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->bodeFileType:I
 
     return v0
@@ -736,7 +743,7 @@
         }
     .end annotation
 
-    .line 503
+    .line 518
     iget-object v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->chanBit:Ljava/util/List;
 
     return-object v0
@@ -745,7 +752,7 @@
 .method public getChannel()I
     .locals 1
 
-    .line 451
+    .line 466
     iget v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->channel:I
 
     return v0
@@ -756,7 +763,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 246
+    .line 252
     iget-object v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->choose:Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
 
     return-object v0
@@ -767,7 +774,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 549
+    .line 564
     iget v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->connectState:I
 
     return v0
@@ -776,7 +783,7 @@
 .method public getDecodeDataPath()Ljava/lang/String;
     .locals 1
 
-    .line 237
+    .line 243
     iget-object v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->decodeDataPath:Ljava/lang/String;
 
     return-object v0
@@ -787,7 +794,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 256
+    .line 262
     iget-object v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->fileName:Ljava/lang/String;
 
     return-object v0
@@ -796,7 +803,7 @@
 .method public getFileProc()Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
     .locals 1
 
-    .line 400
+    .line 415
     iget-object v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->fileProc:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     return-object v0
@@ -807,7 +814,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 277
+    .line 283
     iget v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->fileType:I
 
     return v0
@@ -816,7 +823,7 @@
 .method public getGroup()I
     .locals 1
 
-    .line 511
+    .line 526
     iget v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->group:I
 
     return v0
@@ -827,7 +834,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 368
+    .line 383
     iget v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->imageFileType:I
 
     return v0
@@ -838,7 +845,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 298
+    .line 304
     iget v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->loadfileType:I
 
     return v0
@@ -849,7 +856,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 585
+    .line 600
     iget-object v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->password:Ljava/lang/String;
 
     return-object v0
@@ -860,7 +867,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 266
+    .line 272
     iget-object v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->pathName:Ljava/lang/String;
 
     return-object v0
@@ -871,7 +878,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 318
+    .line 324
     iget-object v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->prefix:Ljava/lang/String;
 
     return-object v0
@@ -882,7 +889,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 409
+    .line 424
     iget v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->progress:I
 
     return v0
@@ -891,7 +898,7 @@
 .method public getResult()I
     .locals 1
 
-    .line 418
+    .line 433
     iget v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->result:I
 
     return v0
@@ -902,7 +909,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 561
+    .line 576
     iget-object v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->serverPath:Ljava/lang/String;
 
     return-object v0
@@ -913,7 +920,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 390
+    .line 405
     iget v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->setupFileType:I
 
     return v0
@@ -924,7 +931,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 525
+    .line 540
     iget-boolean v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->smbEn:Z
 
     return v0
@@ -935,7 +942,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 573
+    .line 588
     iget-object v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->userName:Ljava/lang/String;
 
     return-object v0
@@ -946,7 +953,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 358
+    .line 373
     iget v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->waveDepth:I
 
     return v0
@@ -957,7 +964,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 379
+    .line 394
     iget v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->waveFileType:I
 
     return v0
@@ -968,7 +975,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 308
+    .line 314
     iget-boolean v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->autoName:Z
 
     return v0
@@ -979,7 +986,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 460
+    .line 475
     iget-boolean v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->chan1:Z
 
     return v0
@@ -990,7 +997,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 471
+    .line 486
     iget-boolean v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->chan2:Z
 
     return v0
@@ -1001,7 +1008,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 482
+    .line 497
     iget-boolean v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->chan3:Z
 
     return v0
@@ -1012,7 +1019,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 493
+    .line 508
     iget-boolean v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->chan4:Z
 
     return v0
@@ -1023,7 +1030,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 338
+    .line 344
     iget-boolean v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->imageColor:Z
 
     return v0
@@ -1034,7 +1041,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 348
+    .line 354
     iget-boolean v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->imageHeader:Z
 
     return v0
@@ -1045,8 +1052,19 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 328
+    .line 334
     iget-boolean v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->imageInvert:Z
+
+    return v0
+.end method
+
+.method public isPeakdetectStatus()Z
+    .locals 1
+    .annotation runtime Landroidx/databinding/Bindable;
+    .end annotation
+
+    .line 364
+    iget-boolean v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->peakdetectStatus:Z
 
     return v0
 .end method
@@ -1060,7 +1078,7 @@
 
     return v0
 
-    .line 1256
+    .line 1288
     :cond_0
     sget-object v1, Lcom/rigol/scope/data/StorageSaveParam$1;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$StorageFunc:[I
 
@@ -1101,10 +1119,10 @@
 .method public synthetic lambda$saveWaveSetting$0$StorageSaveParam(Lcom/rigol/scope/views/baseview/BasePopupView;Landroid/view/View;)V
     .locals 0
 
-    .line 981
+    .line 1013
     invoke-virtual {p1}, Lcom/rigol/scope/views/baseview/BasePopupView;->dismiss()V
 
-    .line 982
+    .line 1014
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->saveCancel()V
 
     return-void
@@ -1113,47 +1131,53 @@
 .method public readAll()V
     .locals 0
 
-    .line 604
+    .line 619
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->readFileName()Ljava/lang/String;
 
-    .line 607
+    .line 622
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->readFileType()I
 
-    .line 608
+    .line 623
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->readAutoName()Z
 
-    .line 609
+    .line 624
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->readPrefix()Ljava/lang/String;
 
-    .line 611
+    .line 626
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->readImageInvert()Z
 
-    .line 612
+    .line 627
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->readImageColor()Z
 
-    .line 613
+    .line 628
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->readImageHeader()Z
 
-    .line 615
+    .line 629
+    invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->readPeakDetect()Z
+
+    .line 631
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->readWaveDepth()I
 
-    .line 618
+    .line 634
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->readAutoConnect()Z
 
-    .line 619
+    .line 635
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->readConnectState()I
 
-    .line 620
+    .line 636
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->readConnectStateRe()I
 
-    .line 621
+    .line 637
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->readServerPath()Ljava/lang/String;
 
-    .line 622
+    .line 638
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->readUserName()Ljava/lang/String;
 
-    .line 623
+    .line 639
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->readPassword()Ljava/lang/String;
+
+    .line 640
+    invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->readImageFormat()I
 
     return-void
 .end method
@@ -1161,16 +1185,16 @@
 .method public readAutoConnect()Z
     .locals 1
 
-    const/16 v0, 0x4b5b
+    const/16 v0, 0x4d5c
 
-    .line 699
+    .line 721
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->setAutoConnect(Z)V
 
-    .line 700
+    .line 722
     iget-boolean v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->autoConnect:Z
 
     return v0
@@ -1179,16 +1203,16 @@
 .method public readAutoName()Z
     .locals 1
 
-    const/16 v0, 0x4b2c
+    const/16 v0, 0x4d2c
 
-    .line 642
+    .line 659
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->setAutoName(Z)V
 
-    .line 643
+    .line 660
     iget-boolean v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->autoName:Z
 
     return v0
@@ -1197,16 +1221,16 @@
 .method public readChannel()I
     .locals 1
 
-    const/16 v0, 0x4b17
+    const/16 v0, 0x4d17
 
-    .line 688
+    .line 710
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->setChannel(I)V
 
-    .line 689
+    .line 711
     iget v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->channel:I
 
     return v0
@@ -1215,16 +1239,16 @@
 .method public readConnectState()I
     .locals 1
 
-    const/16 v0, 0x4b5e
+    const/16 v0, 0x4d5f
 
-    .line 705
+    .line 727
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->setConnectState(I)V
 
-    .line 706
+    .line 728
     iget v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->connectState:I
 
     return v0
@@ -1233,14 +1257,14 @@
 .method public readConnectStateRe()I
     .locals 1
 
-    .line 711
+    .line 733
     iget v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->connectState:I
 
     if-nez v0, :cond_0
 
     const-string v0, "Connection Terminated"
 
-    .line 713
+    .line 735
     invoke-static {v0}, Lcom/rigol/util/ToastUtils;->showShort(Ljava/lang/CharSequence;)V
 
     goto :goto_0
@@ -1248,10 +1272,10 @@
     :cond_0
     const-string v0, "Connection Successful"
 
-    .line 716
+    .line 738
     invoke-static {v0}, Lcom/rigol/util/ToastUtils;->showShort(Ljava/lang/CharSequence;)V
 
-    .line 718
+    .line 740
     :goto_0
     iget v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->connectState:I
 
@@ -1261,16 +1285,16 @@
 .method public readFileName()Ljava/lang/String;
     .locals 1
 
-    const/16 v0, 0x4b2e
+    const/16 v0, 0x4d2f
 
-    .line 627
+    .line 644
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->readStr(I)Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->setFileName(Ljava/lang/String;)V
 
-    .line 628
+    .line 645
     iget-object v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->fileName:Ljava/lang/String;
 
     return-object v0
@@ -1279,21 +1303,21 @@
 .method public readFileProc()Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
     .locals 1
 
-    const/16 v0, 0x4b46
+    const/16 v0, 0x4d47
 
-    .line 677
+    .line 699
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->readInt(I)I
 
     move-result v0
 
-    .line 678
+    .line 700
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getStorageFuncFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->setFileProc(Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;)V
 
-    .line 679
+    .line 701
     iget-object v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->fileProc:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     return-object v0
@@ -1302,16 +1326,16 @@
 .method public readFileType()I
     .locals 1
 
-    const/16 v0, 0x4b18
+    const/16 v0, 0x4d18
 
-    .line 637
+    .line 654
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->setFileType(I)V
 
-    .line 638
+    .line 655
     iget v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->fileType:I
 
     return v0
@@ -1320,16 +1344,16 @@
 .method public readImageColor()Z
     .locals 1
 
-    const/16 v0, 0x4b0f
+    const/16 v0, 0x4d0f
 
-    .line 662
+    .line 679
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->setImageColor(Z)V
 
-    .line 663
+    .line 680
     iget-boolean v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->imageColor:Z
 
     return v0
@@ -1338,16 +1362,16 @@
 .method public readImageFormat()I
     .locals 1
 
-    const/16 v0, 0x4b0d
+    const/16 v0, 0x4d0d
 
-    .line 652
+    .line 669
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->setImageFileType(I)V
 
-    .line 653
+    .line 670
     iget v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->imageFileType:I
 
     return v0
@@ -1356,16 +1380,16 @@
 .method public readImageHeader()Z
     .locals 1
 
-    const/16 v0, 0x4b10
+    const/16 v0, 0x4d10
 
-    .line 667
+    .line 684
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->setImageHeader(Z)V
 
-    .line 668
+    .line 685
     iget-boolean v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->imageHeader:Z
 
     return v0
@@ -1374,16 +1398,16 @@
 .method public readImageInvert()Z
     .locals 1
 
-    const/16 v0, 0x4b0e
+    const/16 v0, 0x4d0e
 
-    .line 657
+    .line 674
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->setImageInvert(Z)V
 
-    .line 658
+    .line 675
     iget-boolean v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->imageInvert:Z
 
     return v0
@@ -1392,16 +1416,16 @@
 .method public readPassword()Ljava/lang/String;
     .locals 1
 
-    const/16 v0, 0x4b58
+    const/16 v0, 0x4d59
 
-    .line 735
+    .line 757
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->readStr(I)Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->setPassword(Ljava/lang/String;)V
 
-    .line 736
+    .line 758
     iget-object v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->password:Ljava/lang/String;
 
     return-object v0
@@ -1410,34 +1434,52 @@
 .method public readPathName()Ljava/lang/String;
     .locals 1
 
-    const/16 v0, 0x4b2f
+    const/16 v0, 0x4d30
 
-    .line 632
+    .line 649
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->readStr(I)Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->setPathName(Ljava/lang/String;)V
 
-    .line 633
+    .line 650
     iget-object v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->pathName:Ljava/lang/String;
 
     return-object v0
 .end method
 
+.method public readPeakDetect()Z
+    .locals 1
+
+    const/16 v0, 0x4d2d
+
+    .line 689
+    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->readBool(I)Z
+
+    move-result v0
+
+    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->setPeakdetectStatus(Z)V
+
+    .line 690
+    iget-boolean v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->peakdetectStatus:Z
+
+    return v0
+.end method
+
 .method public readPrefix()Ljava/lang/String;
     .locals 1
 
-    const/16 v0, 0x4b0a
+    const/16 v0, 0x4d0a
 
-    .line 647
+    .line 664
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->readStr(I)Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->setPrefix(Ljava/lang/String;)V
 
-    .line 648
+    .line 665
     iget-object v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->prefix:Ljava/lang/String;
 
     return-object v0
@@ -1446,16 +1488,16 @@
 .method public readProgress()I
     .locals 1
 
-    const/16 v0, 0x4b45
+    const/16 v0, 0x4d46
 
-    .line 683
+    .line 705
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->setProgress(I)V
 
-    .line 684
+    .line 706
     iget v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->progress:I
 
     return v0
@@ -1464,16 +1506,16 @@
 .method public readResult()I
     .locals 1
 
-    const/16 v0, 0x4b31
+    const/16 v0, 0x4d32
 
-    .line 746
+    .line 768
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->setResult(I)V
 
-    .line 747
+    .line 769
     iget v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->result:I
 
     return v0
@@ -1482,16 +1524,16 @@
 .method public readServerPath()Ljava/lang/String;
     .locals 1
 
-    const/16 v0, 0x4b56
+    const/16 v0, 0x4d57
 
-    .line 723
+    .line 745
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->readStr(I)Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->setServerPath(Ljava/lang/String;)V
 
-    .line 724
+    .line 746
     iget-object v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->serverPath:Ljava/lang/String;
 
     return-object v0
@@ -1500,16 +1542,16 @@
 .method public readSmbEn()Z
     .locals 1
 
-    const/16 v0, 0x4b55
+    const/16 v0, 0x4d56
 
-    .line 693
+    .line 715
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->setSmbEn(Z)V
 
-    .line 694
+    .line 716
     iget-boolean v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->smbEn:Z
 
     return v0
@@ -1518,16 +1560,16 @@
 .method public readUserName()Ljava/lang/String;
     .locals 1
 
-    const/16 v0, 0x4b57
+    const/16 v0, 0x4d58
 
-    .line 729
+    .line 751
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->readStr(I)Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->setUserName(Ljava/lang/String;)V
 
-    .line 730
+    .line 752
     iget-object v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->userName:Ljava/lang/String;
 
     return-object v0
@@ -1536,16 +1578,16 @@
 .method public readWaveDepth()I
     .locals 1
 
-    const/16 v0, 0x4b13
+    const/16 v0, 0x4d13
 
-    .line 672
+    .line 694
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->setWaveDepth(I)V
 
-    .line 673
+    .line 695
     iget v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->waveDepth:I
 
     return v0
@@ -1554,61 +1596,61 @@
 .method public reset()V
     .locals 2
 
-    .line 1296
+    .line 1328
     invoke-super {p0}, Lcom/rigol/scope/data/BaseParam;->reset()V
 
-    .line 1297
+    .line 1329
     sget-object v0, Lcom/rigol/scope/data/StorageSaveParam;->DEFAULT_CHOOSE:Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->setChoose(Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;)V
 
     const/4 v0, 0x0
 
-    .line 1298
+    .line 1330
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->setAutoName(Z)V
 
     const-string v1, "RigolDS"
 
-    .line 1299
+    .line 1331
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/StorageSaveParam;->setPrefix(Ljava/lang/String;)V
 
-    .line 1300
+    .line 1332
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->setImageInvert(Z)V
 
-    .line 1301
+    .line 1333
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->setImageColor(Z)V
 
     const/4 v1, 0x1
 
-    .line 1302
+    .line 1334
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/StorageSaveParam;->setImageHeader(Z)V
 
-    .line 1303
+    .line 1335
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->setWaveDepth(I)V
 
-    .line 1304
+    .line 1336
     sget v0, Lcom/rigol/scope/data/StorageSaveParam;->DEFAULT_IMAGETYPE:I
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->setImageFileType(I)V
 
-    .line 1305
+    .line 1337
     sget v0, Lcom/rigol/scope/data/StorageSaveParam;->DEFAULT_WAVETYPE:I
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->setWaveFileType(I)V
 
-    .line 1306
+    .line 1338
     sget v0, Lcom/rigol/scope/data/StorageSaveParam;->DEFAULT_SETUPTYPE:I
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->setSetupFileType(I)V
 
-    .line 1307
+    .line 1339
     sget-object v0, Lcom/rigol/scope/data/StorageSaveParam;->DEFAULT_FILEPROC:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->setFileProc(Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;)V
 
     const-string v0, "/data/UserData"
 
-    .line 1308
+    .line 1340
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->setPathName(Ljava/lang/String;)V
 
     return-void
@@ -1619,7 +1661,7 @@
 
     const/4 v0, 0x0
 
-    .line 598
+    .line 613
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->setFileType(I)V
 
     return-void
@@ -1628,12 +1670,12 @@
 .method public saveAutoConnect(Z)V
     .locals 1
 
-    .line 1201
+    .line 1233
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->setAutoConnect(Z)V
 
-    const/16 v0, 0x4b5b
+    const/16 v0, 0x4d5c
 
-    .line 1202
+    .line 1234
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->saveBool(IZ)I
 
     return-void
@@ -1642,12 +1684,12 @@
 .method public saveAutoName(Z)V
     .locals 1
 
-    .line 767
+    .line 794
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->setAutoName(Z)V
 
-    const/16 v0, 0x4b2c
+    const/16 v0, 0x4d2c
 
-    .line 768
+    .line 795
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->saveBool(IZ)I
 
     return-void
@@ -1656,8 +1698,167 @@
 .method public saveBODE()V
     .locals 3
 
-    .line 1163
+    .line 1195
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SAVE_BODE:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
+
+    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileProc(Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;)V
+
+    .line 1198
+    invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getPathName()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->savePathName(Ljava/lang/String;)V
+
+    .line 1201
+    iget-object v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->prefix:Ljava/lang/String;
+
+    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->savePrefix(Ljava/lang/String;)V
+
+    .line 1204
+    invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getFileType()I
+
+    move-result v0
+
+    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileType(I)V
+
+    .line 1206
+    invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getFileType()I
+
+    move-result v0
+
+    invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getenFileTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$enFileType;
+
+    move-result-object v0
+
+    if-nez v0, :cond_0
+
+    return-void
+
+    .line 1213
+    :cond_0
+    invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->readAutoName()Z
+
+    move-result v1
+
+    if-nez v1, :cond_1
+
+    .line 1214
+    new-instance v1, Ljava/io/File;
+
+    .line 1215
+    invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getPathName()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-direct {v1, v2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getPrefix()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-static {v1, v2, v0}, Lcom/rigol/scope/utilities/ViewUtil;->getNextFileName(Ljava/io/File;Ljava/lang/String;Lcom/rigol/scope/cil/ServiceEnum$enFileType;)Ljava/lang/String;
+
+    move-result-object v0
+
+    goto :goto_0
+
+    .line 1217
+    :cond_1
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getPrefix()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v2, "."
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->value2:Ljava/lang/String;
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 1219
+    :goto_0
+    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileName(Ljava/lang/String;)V
+
+    .line 1222
+    invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
+
+    move-result-object v0
+
+    const-class v1, Lcom/rigol/scope/views/FileSaveLoading;
+
+    invoke-virtual {v0, v1}, Lcom/rigol/scope/utilities/PopupViewManager;->toggle(Ljava/lang/Class;)V
+
+    return-void
+.end method
+
+.method public saveCancel()V
+    .locals 2
+
+    const/16 v0, 0x4d28
+
+    const/4 v1, 0x1
+
+    .line 849
+    invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/StorageSaveParam;->saveBool(IZ)I
+
+    return-void
+.end method
+
+.method public saveChannel(I)V
+    .locals 1
+
+    if-nez p1, :cond_0
+
+    const/4 p1, 0x1
+
+    .line 836
+    invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->setChan1(Z)V
+
+    return-void
+
+    .line 839
+    :cond_0
+    invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->setChannel(I)V
+
+    const/16 v0, 0x4d17
+
+    .line 840
+    invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->saveInt(II)I
+
+    return-void
+.end method
+
+.method public saveConnectState(I)V
+    .locals 1
+
+    .line 1239
+    invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->setConnectState(I)V
+
+    const/16 v0, 0x4d5f
+
+    .line 1240
+    invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->saveInt(II)I
+
+    return-void
+.end method
+
+.method public saveFFTSetting()V
+    .locals 3
+
+    .line 1163
+    sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SAVE_FFT:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileProc(Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;)V
 
@@ -1761,169 +1962,10 @@
     return-void
 .end method
 
-.method public saveCancel()V
-    .locals 2
-
-    const/16 v0, 0x4b28
-
-    const/4 v1, 0x1
-
-    .line 817
-    invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/StorageSaveParam;->saveBool(IZ)I
-
-    return-void
-.end method
-
-.method public saveChannel(I)V
-    .locals 1
-
-    if-nez p1, :cond_0
-
-    const/4 p1, 0x1
-
-    .line 804
-    invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->setChan1(Z)V
-
-    return-void
-
-    .line 807
-    :cond_0
-    invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->setChannel(I)V
-
-    const/16 v0, 0x4b17
-
-    .line 808
-    invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->saveInt(II)I
-
-    return-void
-.end method
-
-.method public saveConnectState(I)V
-    .locals 1
-
-    .line 1207
-    invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->setConnectState(I)V
-
-    const/16 v0, 0x4b5e
-
-    .line 1208
-    invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->saveInt(II)I
-
-    return-void
-.end method
-
-.method public saveFFTSetting()V
-    .locals 3
-
-    .line 1131
-    sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SAVE_FFT:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
-
-    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileProc(Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;)V
-
-    .line 1134
-    invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getPathName()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->savePathName(Ljava/lang/String;)V
-
-    .line 1137
-    iget-object v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->prefix:Ljava/lang/String;
-
-    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->savePrefix(Ljava/lang/String;)V
-
-    .line 1140
-    invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getFileType()I
-
-    move-result v0
-
-    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileType(I)V
-
-    .line 1142
-    invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getFileType()I
-
-    move-result v0
-
-    invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getenFileTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$enFileType;
-
-    move-result-object v0
-
-    if-nez v0, :cond_0
-
-    return-void
-
-    .line 1149
-    :cond_0
-    invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->readAutoName()Z
-
-    move-result v1
-
-    if-nez v1, :cond_1
-
-    .line 1150
-    new-instance v1, Ljava/io/File;
-
-    .line 1151
-    invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getPathName()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-direct {v1, v2}, Ljava/io/File;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getPrefix()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-static {v1, v2, v0}, Lcom/rigol/scope/utilities/ViewUtil;->getNextFileName(Ljava/io/File;Ljava/lang/String;Lcom/rigol/scope/cil/ServiceEnum$enFileType;)Ljava/lang/String;
-
-    move-result-object v0
-
-    goto :goto_0
-
-    .line 1153
-    :cond_1
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
-
-    invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getPrefix()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string v2, "."
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    iget-object v0, v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->value2:Ljava/lang/String;
-
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    .line 1155
-    :goto_0
-    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileName(Ljava/lang/String;)V
-
-    .line 1158
-    invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
-
-    move-result-object v0
-
-    const-class v1, Lcom/rigol/scope/views/FileSaveLoading;
-
-    invoke-virtual {v0, v1}, Lcom/rigol/scope/utilities/PopupViewManager;->toggle(Ljava/lang/Class;)V
-
-    return-void
-.end method
-
 .method public saveFailToast()V
     .locals 2
 
-    .line 1249
+    .line 1281
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object v0
@@ -1932,7 +1974,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f1011c1
+    const v1, 0x7f1011d6
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1946,12 +1988,12 @@
 .method public saveFileName(Ljava/lang/String;)V
     .locals 1
 
-    .line 752
+    .line 774
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->setFileName(Ljava/lang/String;)V
 
-    const/16 v0, 0x4b2e
+    const/16 v0, 0x4d2f
 
-    .line 753
+    .line 775
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->saveStr(ILjava/lang/String;)I
 
     return-void
@@ -1960,13 +2002,13 @@
 .method public saveFileProc(Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;)V
     .locals 1
 
-    .line 797
+    .line 829
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->setFileProc(Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;)V
 
-    .line 798
+    .line 830
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->value1:I
 
-    const/16 v0, 0x4b46
+    const/16 v0, 0x4d47
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->saveInt(II)I
 
@@ -1976,12 +2018,12 @@
 .method public saveFileType(I)V
     .locals 1
 
-    .line 762
+    .line 789
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->setFileType(I)V
 
-    const/16 v0, 0x4b18
+    const/16 v0, 0x4d18
 
-    .line 763
+    .line 790
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->saveInt(II)I
 
     return-void
@@ -1990,13 +2032,29 @@
 .method public saveImageColor(Z)V
     .locals 1
 
-    .line 782
+    .line 809
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->setImageColor(Z)V
 
-    const/16 v0, 0x4b0f
+    const/16 v0, 0x4d0f
 
-    .line 783
+    .line 810
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->saveBool(IZ)I
+
+    return-void
+.end method
+
+.method public saveImageFileType(I)V
+    .locals 1
+
+    .line 784
+    invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->setImageFileType(I)V
+
+    .line 785
+    iget p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->fileType:I
+
+    const/16 v0, 0x4d0d
+
+    invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->saveInt(II)I
 
     return-void
 .end method
@@ -2004,12 +2062,12 @@
 .method public saveImageHeader(Z)V
     .locals 1
 
-    .line 787
+    .line 814
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->setImageHeader(Z)V
 
-    const/16 v0, 0x4b10
+    const/16 v0, 0x4d10
 
-    .line 788
+    .line 815
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->saveBool(IZ)I
 
     return-void
@@ -2018,12 +2076,12 @@
 .method public saveImageInvert(Z)V
     .locals 1
 
-    .line 777
+    .line 804
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->setImageInvert(Z)V
 
-    const/16 v0, 0x4b0e
+    const/16 v0, 0x4d0e
 
-    .line 778
+    .line 805
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->saveBool(IZ)I
 
     return-void
@@ -2032,31 +2090,31 @@
 .method public saveMaskSetting()V
     .locals 3
 
-    .line 1096
+    .line 1128
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SAVE_MSK:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileProc(Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;)V
 
-    .line 1099
+    .line 1131
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getPathName()Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->savePathName(Ljava/lang/String;)V
 
-    .line 1102
+    .line 1134
     iget-object v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->prefix:Ljava/lang/String;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->savePrefix(Ljava/lang/String;)V
 
-    .line 1105
+    .line 1137
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getFileType()I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileType(I)V
 
-    .line 1107
+    .line 1139
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getFileType()I
 
     move-result v0
@@ -2069,7 +2127,7 @@
 
     return-void
 
-    .line 1114
+    .line 1146
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->readAutoName()Z
 
@@ -2077,10 +2135,10 @@
 
     if-nez v1, :cond_1
 
-    .line 1115
+    .line 1147
     new-instance v1, Ljava/io/File;
 
-    .line 1116
+    .line 1148
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getPathName()Ljava/lang/String;
 
     move-result-object v2
@@ -2097,7 +2155,7 @@
 
     goto :goto_0
 
-    .line 1118
+    .line 1150
     :cond_1
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -2121,11 +2179,11 @@
 
     move-result-object v0
 
-    .line 1120
+    .line 1152
     :goto_0
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileName(Ljava/lang/String;)V
 
-    .line 1123
+    .line 1155
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v0
@@ -2140,12 +2198,12 @@
 .method public savePassword(Ljava/lang/String;)V
     .locals 1
 
-    .line 1225
+    .line 1257
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->setPassword(Ljava/lang/String;)V
 
-    const/16 v0, 0x4b58
+    const/16 v0, 0x4d59
 
-    .line 1226
+    .line 1258
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->saveStr(ILjava/lang/String;)I
 
     return-void
@@ -2154,13 +2212,27 @@
 .method public savePathName(Ljava/lang/String;)V
     .locals 1
 
-    .line 757
+    .line 779
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->setPathName(Ljava/lang/String;)V
 
-    const/16 v0, 0x4b2f
+    const/16 v0, 0x4d30
 
-    .line 758
+    .line 780
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->saveStr(ILjava/lang/String;)I
+
+    return-void
+.end method
+
+.method public savePeakDetectStatus(Z)V
+    .locals 1
+
+    .line 819
+    invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->setPeakdetectStatus(Z)V
+
+    const/16 v0, 0x4d2d
+
+    .line 820
+    invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->saveBool(IZ)I
 
     return-void
 .end method
@@ -2168,12 +2240,12 @@
 .method public savePrefix(Ljava/lang/String;)V
     .locals 1
 
-    .line 772
+    .line 799
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->setPrefix(Ljava/lang/String;)V
 
-    const/16 v0, 0x4b0a
+    const/16 v0, 0x4d0a
 
-    .line 773
+    .line 800
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->saveStr(ILjava/lang/String;)I
 
     return-void
@@ -2182,31 +2254,31 @@
 .method public saveRefSetting()V
     .locals 3
 
-    .line 1061
+    .line 1093
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SAVE_REF:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileProc(Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;)V
 
-    .line 1064
+    .line 1096
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getPathName()Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->savePathName(Ljava/lang/String;)V
 
-    .line 1067
+    .line 1099
     iget-object v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->prefix:Ljava/lang/String;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->savePrefix(Ljava/lang/String;)V
 
-    .line 1070
+    .line 1102
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getFileType()I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileType(I)V
 
-    .line 1072
+    .line 1104
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getFileType()I
 
     move-result v0
@@ -2219,7 +2291,7 @@
 
     return-void
 
-    .line 1079
+    .line 1111
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->readAutoName()Z
 
@@ -2227,10 +2299,10 @@
 
     if-nez v1, :cond_1
 
-    .line 1080
+    .line 1112
     new-instance v1, Ljava/io/File;
 
-    .line 1081
+    .line 1113
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getPathName()Ljava/lang/String;
 
     move-result-object v2
@@ -2247,7 +2319,7 @@
 
     goto :goto_0
 
-    .line 1083
+    .line 1115
     :cond_1
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -2271,11 +2343,11 @@
 
     move-result-object v0
 
-    .line 1085
+    .line 1117
     :goto_0
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileName(Ljava/lang/String;)V
 
-    .line 1088
+    .line 1120
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v0
@@ -2290,12 +2362,12 @@
 .method public saveServerPath(Ljava/lang/String;)V
     .locals 1
 
-    .line 1213
+    .line 1245
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->setServerPath(Ljava/lang/String;)V
 
-    const/16 v0, 0x4b56
+    const/16 v0, 0x4d57
 
-    .line 1214
+    .line 1246
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->saveStr(ILjava/lang/String;)I
 
     return-void
@@ -2304,31 +2376,31 @@
 .method public saveSetupSetting()V
     .locals 3
 
-    .line 1008
+    .line 1040
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SAVE_STP:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileProc(Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;)V
 
-    .line 1011
+    .line 1043
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getPathName()Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->savePathName(Ljava/lang/String;)V
 
-    .line 1014
+    .line 1046
     iget-object v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->prefix:Ljava/lang/String;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->savePrefix(Ljava/lang/String;)V
 
-    .line 1017
+    .line 1049
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getSetupFileType()I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileType(I)V
 
-    .line 1019
+    .line 1051
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getSetupFileType()I
 
     move-result v0
@@ -2341,7 +2413,7 @@
 
     return-void
 
-    .line 1026
+    .line 1058
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->readAutoName()Z
 
@@ -2349,10 +2421,10 @@
 
     if-nez v1, :cond_1
 
-    .line 1027
+    .line 1059
     new-instance v1, Ljava/io/File;
 
-    .line 1028
+    .line 1060
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getPathName()Ljava/lang/String;
 
     move-result-object v2
@@ -2369,7 +2441,7 @@
 
     goto :goto_0
 
-    .line 1030
+    .line 1062
     :cond_1
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -2393,11 +2465,11 @@
 
     move-result-object v0
 
-    .line 1032
+    .line 1064
     :goto_0
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileName(Ljava/lang/String;)V
 
-    .line 1035
+    .line 1067
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v0
@@ -2412,22 +2484,22 @@
 .method public saveSetupSetting_scpi(Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
 
-    .line 1040
+    .line 1072
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SAVE_STP:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileProc(Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;)V
 
-    .line 1042
+    .line 1074
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->FILETYPE_STP:Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
     iget v0, v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->value1:I
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->setFileType(I)V
 
-    .line 1045
+    .line 1077
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->savePathName(Ljava/lang/String;)V
 
-    .line 1048
+    .line 1080
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->FILETYPE_STP:Lcom/rigol/scope/cil/ServiceEnum$enFileType;
 
     iget v0, v0, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->value1:I
@@ -2436,15 +2508,15 @@
 
     move-result-object p1
 
-    .line 1049
+    .line 1081
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileName(Ljava/lang/String;)V
 
-    .line 1051
+    .line 1083
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;->SETUP:Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->setChoose(Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;)V
 
-    .line 1053
+    .line 1085
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
@@ -2459,12 +2531,12 @@
 .method public saveSmbEn(Z)V
     .locals 1
 
-    .line 1195
+    .line 1227
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->setSmbEn(Z)V
 
-    const/16 v0, 0x4b55
+    const/16 v0, 0x4d56
 
-    .line 1196
+    .line 1228
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->saveBool(IZ)I
 
     return-void
@@ -2473,7 +2545,7 @@
 .method public saveSuccessToast()V
     .locals 3
 
-    .line 1233
+    .line 1265
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getFileType()I
 
     move-result v0
@@ -2484,7 +2556,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 1235
+    .line 1267
     iget-object v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->fileName:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -2493,7 +2565,7 @@
 
     if-nez v0, :cond_0
 
-    .line 1236
+    .line 1268
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2516,23 +2588,23 @@
 
     move-result-object v0
 
-    .line 1238
+    .line 1270
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getDiskUIPathName(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 1239
+    .line 1271
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object v1
 
-    const v2, 0x7f1011c2
+    const v2, 0x7f1011d7
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 1240
+    .line 1272
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -2554,12 +2626,12 @@
 .method public saveUserName(Ljava/lang/String;)V
     .locals 1
 
-    .line 1219
+    .line 1251
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->setUserName(Ljava/lang/String;)V
 
-    const/16 v0, 0x4b57
+    const/16 v0, 0x4d58
 
-    .line 1220
+    .line 1252
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->saveStr(ILjava/lang/String;)I
 
     return-void
@@ -2568,12 +2640,12 @@
 .method public saveWaveDepth(I)V
     .locals 1
 
-    .line 792
+    .line 824
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->setWaveDepth(I)V
 
-    const/16 v0, 0x4b13
+    const/16 v0, 0x4d13
 
-    .line 793
+    .line 825
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->saveInt(II)I
 
     return-void
@@ -2582,31 +2654,31 @@
 .method public saveWaveSetting()V
     .locals 3
 
-    .line 950
+    .line 982
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SAVE_WAV:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileProc(Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;)V
 
-    .line 953
+    .line 985
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getPathName()Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->savePathName(Ljava/lang/String;)V
 
-    .line 956
+    .line 988
     iget-object v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->prefix:Ljava/lang/String;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->savePrefix(Ljava/lang/String;)V
 
-    .line 959
+    .line 991
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getWaveFileType()I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileType(I)V
 
-    .line 961
+    .line 993
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getWaveFileType()I
 
     move-result v0
@@ -2619,7 +2691,7 @@
 
     return-void
 
-    .line 968
+    .line 1000
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->readAutoName()Z
 
@@ -2627,10 +2699,10 @@
 
     if-nez v1, :cond_1
 
-    .line 969
+    .line 1001
     new-instance v1, Ljava/io/File;
 
-    .line 970
+    .line 1002
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getPathName()Ljava/lang/String;
 
     move-result-object v2
@@ -2647,7 +2719,7 @@
 
     goto :goto_0
 
-    .line 972
+    .line 1004
     :cond_1
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -2671,11 +2743,11 @@
 
     move-result-object v0
 
-    .line 974
+    .line 1006
     :goto_0
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileName(Ljava/lang/String;)V
 
-    .line 977
+    .line 1009
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v0
@@ -2684,7 +2756,7 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/utilities/PopupViewManager;->toggle(Ljava/lang/Class;)V
 
-    .line 978
+    .line 1010
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v0
@@ -2695,7 +2767,7 @@
 
     move-result-object v0
 
-    .line 979
+    .line 1011
     move-object v1, v0
 
     check-cast v1, Lcom/rigol/scope/views/FileSaveLoading;
@@ -2712,34 +2784,34 @@
 .method public saveWaveSetting_scpi(Ljava/lang/String;Ljava/lang/String;II)V
     .locals 1
 
-    .line 988
+    .line 1020
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;->WAVE:Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->setChoose(Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;)V
 
-    .line 989
+    .line 1021
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SAVE_WAV:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileProc(Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;)V
 
-    .line 991
+    .line 1023
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->savePathName(Ljava/lang/String;)V
 
-    .line 993
+    .line 1025
     invoke-virtual {p0, p3}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileType(I)V
 
-    .line 994
+    .line 1026
     invoke-virtual {p0, p4}, Lcom/rigol/scope/data/StorageSaveParam;->saveWaveDepth(I)V
 
-    .line 996
+    .line 1028
     invoke-direct {p0, p1, p2, p3}, Lcom/rigol/scope/data/StorageSaveParam;->handleFileName(Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 997
+    .line 1029
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileName(Ljava/lang/String;)V
 
-    .line 1000
+    .line 1032
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
@@ -2754,31 +2826,31 @@
 .method public screenShotSetting()V
     .locals 3
 
-    .line 865
+    .line 897
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SAVE_IMG:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileProc(Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;)V
 
-    .line 868
+    .line 900
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getPathName()Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->savePathName(Ljava/lang/String;)V
 
-    .line 871
+    .line 903
     iget-object v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->prefix:Ljava/lang/String;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->savePrefix(Ljava/lang/String;)V
 
-    .line 874
+    .line 906
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getImageFileType()I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileType(I)V
 
-    .line 876
+    .line 908
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getImageFileType()I
 
     move-result v0
@@ -2791,7 +2863,7 @@
 
     return-void
 
-    .line 883
+    .line 915
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->readAutoName()Z
 
@@ -2799,10 +2871,10 @@
 
     if-nez v1, :cond_1
 
-    .line 884
+    .line 916
     new-instance v1, Ljava/io/File;
 
-    .line 885
+    .line 917
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getPathName()Ljava/lang/String;
 
     move-result-object v2
@@ -2819,7 +2891,7 @@
 
     goto :goto_0
 
-    .line 887
+    .line 919
     :cond_1
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -2843,18 +2915,18 @@
 
     move-result-object v0
 
-    .line 889
+    .line 921
     :goto_0
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileName(Ljava/lang/String;)V
 
-    const v1, 0x7f1011c2
+    const v1, 0x7f1011d7
 
-    .line 892
+    .line 924
     invoke-static {v1}, Lcom/blankj/utilcode/util/StringUtils;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 893
+    .line 925
     new-instance v2, Ljava/lang/StringBuilder;
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
@@ -2893,23 +2965,23 @@
 .method public screenShotSetting_scpi(Ljava/lang/String;Ljava/lang/String;I)V
     .locals 1
 
-    .line 898
+    .line 930
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SAVE_IMG:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileProc(Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;)V
 
-    .line 901
+    .line 933
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->savePathName(Ljava/lang/String;)V
 
-    .line 904
+    .line 936
     invoke-virtual {p0, p3}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileType(I)V
 
-    .line 907
+    .line 939
     invoke-direct {p0, p1, p2, p3}, Lcom/rigol/scope/data/StorageSaveParam;->handleFileName(Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 908
+    .line 940
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileName(Ljava/lang/String;)V
 
     return-void
@@ -2918,12 +2990,12 @@
 .method public setAutoConnect(Z)V
     .locals 0
 
-    .line 542
+    .line 557
     iput-boolean p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->autoConnect:Z
 
     const/16 p1, 0x3a
 
-    .line 543
+    .line 558
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2932,12 +3004,12 @@
 .method public setAutoName(Z)V
     .locals 0
 
-    .line 312
+    .line 318
     iput-boolean p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->autoName:Z
 
     const/16 p1, 0x3c
 
-    .line 313
+    .line 319
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2946,17 +3018,17 @@
 .method public setBodeFileType(I)V
     .locals 1
 
-    .line 290
+    .line 296
     iput p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->bodeFileType:I
 
     const/16 v0, 0x61
 
-    .line 291
+    .line 297
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
 
-    const/16 v0, 0x4b18
+    const/16 v0, 0x4d18
 
-    .line 292
+    .line 298
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->saveInt(II)I
 
     return-void
@@ -2965,15 +3037,15 @@
 .method public setChan1(Z)V
     .locals 0
 
-    .line 464
+    .line 479
     iput-boolean p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->chan1:Z
 
-    .line 465
+    .line 480
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->updateChanBitList()V
 
     const/16 p1, 0x99
 
-    .line 466
+    .line 481
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2982,15 +3054,15 @@
 .method public setChan2(Z)V
     .locals 0
 
-    .line 475
+    .line 490
     iput-boolean p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->chan2:Z
 
-    .line 476
+    .line 491
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->updateChanBitList()V
 
     const/16 p1, 0x9b
 
-    .line 477
+    .line 492
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2999,15 +3071,15 @@
 .method public setChan3(Z)V
     .locals 0
 
-    .line 486
+    .line 501
     iput-boolean p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->chan3:Z
 
-    .line 487
+    .line 502
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->updateChanBitList()V
 
     const/16 p1, 0x9d
 
-    .line 488
+    .line 503
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3016,15 +3088,15 @@
 .method public setChan4(Z)V
     .locals 0
 
-    .line 497
+    .line 512
     iput-boolean p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->chan4:Z
 
-    .line 498
+    .line 513
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->updateChanBitList()V
 
     const/16 p1, 0x9f
 
-    .line 499
+    .line 514
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3041,7 +3113,7 @@
         }
     .end annotation
 
-    .line 507
+    .line 522
     iput-object p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->chanBit:Ljava/util/List;
 
     return-void
@@ -3050,7 +3122,7 @@
 .method public setChannel(I)V
     .locals 0
 
-    .line 455
+    .line 470
     iput p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->channel:I
 
     return-void
@@ -3059,12 +3131,12 @@
 .method public setChoose(Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;)V
     .locals 0
 
-    .line 250
+    .line 256
     iput-object p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->choose:Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
 
     const/16 p1, 0xb2
 
-    .line 251
+    .line 257
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3073,12 +3145,12 @@
 .method public setConnectState(I)V
     .locals 0
 
-    .line 554
+    .line 569
     iput p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->connectState:I
 
     const/16 p1, 0xbc
 
-    .line 555
+    .line 570
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3087,7 +3159,7 @@
 .method public setDecodeDataPath(Ljava/lang/String;)V
     .locals 0
 
-    .line 241
+    .line 247
     iput-object p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->decodeDataPath:Ljava/lang/String;
 
     return-void
@@ -3096,12 +3168,12 @@
 .method public setFileName(Ljava/lang/String;)V
     .locals 0
 
-    .line 260
+    .line 266
     iput-object p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->fileName:Ljava/lang/String;
 
     const/16 p1, 0x136
 
-    .line 261
+    .line 267
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3110,7 +3182,7 @@
 .method public setFileProc(Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;)V
     .locals 0
 
-    .line 404
+    .line 419
     iput-object p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->fileProc:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     return-void
@@ -3119,12 +3191,12 @@
 .method public setFileType(I)V
     .locals 0
 
-    .line 286
+    .line 292
     iput p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->fileType:I
 
     const/16 p1, 0x137
 
-    .line 287
+    .line 293
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3133,7 +3205,7 @@
 .method public setGroup(I)V
     .locals 0
 
-    .line 515
+    .line 530
     iput p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->group:I
 
     return-void
@@ -3142,12 +3214,12 @@
 .method public setImageColor(Z)V
     .locals 0
 
-    .line 342
+    .line 348
     iput-boolean p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->imageColor:Z
 
-    const/16 p1, 0x1ab
+    const/16 p1, 0x1ac
 
-    .line 343
+    .line 349
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3156,15 +3228,15 @@
 .method public setImageFileType(I)V
     .locals 1
 
-    .line 372
+    .line 387
     iput p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->imageFileType:I
 
-    const/16 v0, 0x1ac
+    const/16 v0, 0x1ad
 
-    .line 373
+    .line 388
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
 
-    .line 374
+    .line 389
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileType(I)V
 
     return-void
@@ -3173,12 +3245,12 @@
 .method public setImageHeader(Z)V
     .locals 0
 
-    .line 352
+    .line 358
     iput-boolean p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->imageHeader:Z
 
-    const/16 p1, 0x1ad
+    const/16 p1, 0x1ae
 
-    .line 353
+    .line 359
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3187,12 +3259,12 @@
 .method public setImageInvert(Z)V
     .locals 0
 
-    .line 332
+    .line 338
     iput-boolean p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->imageInvert:Z
 
-    const/16 p1, 0x1ae
+    const/16 p1, 0x1af
 
-    .line 333
+    .line 339
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3201,12 +3273,12 @@
 .method public setLoadFileType(I)V
     .locals 0
 
-    .line 302
+    .line 308
     iput p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->loadfileType:I
 
-    const/16 p1, 0x1f8
+    const/16 p1, 0x1f9
 
-    .line 303
+    .line 309
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3215,12 +3287,12 @@
 .method public setPassword(Ljava/lang/String;)V
     .locals 0
 
-    .line 590
+    .line 605
     iput-object p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->password:Ljava/lang/String;
 
-    const/16 p1, 0x259
+    const/16 p1, 0x25b
 
-    .line 591
+    .line 606
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3229,19 +3301,33 @@
 .method public setPathName(Ljava/lang/String;)V
     .locals 2
 
-    .line 270
+    .line 276
     iget-object v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->pathName:Ljava/lang/String;
 
     const-string v1, "pathName"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 271
+    .line 277
     iput-object p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->pathName:Ljava/lang/String;
 
-    const/16 p1, 0x25b
+    const/16 p1, 0x25d
 
-    .line 272
+    .line 278
+    invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
+
+    return-void
+.end method
+
+.method public setPeakdetectStatus(Z)V
+    .locals 0
+
+    .line 368
+    iput-boolean p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->peakdetectStatus:Z
+
+    const/16 p1, 0x26c
+
+    .line 369
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3250,12 +3336,12 @@
 .method public setPrefix(Ljava/lang/String;)V
     .locals 0
 
-    .line 322
+    .line 328
     iput-object p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->prefix:Ljava/lang/String;
 
-    const/16 p1, 0x28e
+    const/16 p1, 0x291
 
-    .line 323
+    .line 329
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3264,12 +3350,12 @@
 .method public setProgress(I)V
     .locals 0
 
-    .line 413
+    .line 428
     iput p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->progress:I
 
-    const/16 p1, 0x29f
+    const/16 p1, 0x2a3
 
-    .line 414
+    .line 429
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3278,12 +3364,12 @@
 .method public setResult(I)V
     .locals 1
 
-    .line 422
+    .line 437
     iput p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->result:I
 
-    const/16 v0, 0x4b46
+    const/16 v0, 0x4d47
 
-    .line 426
+    .line 441
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->readInt(I)I
 
     move-result v0
@@ -3300,16 +3386,16 @@
 
     if-nez p1, :cond_0
 
-    .line 429
+    .line 444
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->saveSuccessToast()V
 
     goto :goto_0
 
-    .line 432
+    .line 447
     :cond_0
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->saveFailToast()V
 
-    .line 435
+    .line 450
     :goto_0
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -3323,17 +3409,17 @@
 
     if-eqz p1, :cond_1
 
-    .line 437
+    .line 452
     invoke-virtual {p1}, Lcom/rigol/scope/views/baseview/BasePopupView;->dismiss()V
 
-    const/16 p1, 0x4b31
+    const/16 p1, 0x4d32
 
     const/4 v0, 0x0
 
-    .line 438
+    .line 453
     invoke-virtual {p0, p1, v0}, Lcom/rigol/scope/data/StorageSaveParam;->syncData(ILjava/lang/Object;)V
 
-    .line 442
+    .line 457
     :cond_1
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getGroup()I
 
@@ -3343,10 +3429,10 @@
 
     const/4 p1, 0x0
 
-    .line 444
+    .line 459
     iput p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->group:I
 
-    .line 445
+    .line 460
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->doSaveSetup()V
 
     :cond_2
@@ -3356,12 +3442,12 @@
 .method public setServerPath(Ljava/lang/String;)V
     .locals 0
 
-    .line 566
+    .line 581
     iput-object p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->serverPath:Ljava/lang/String;
 
-    const/16 p1, 0x329
+    const/16 p1, 0x32d
 
-    .line 567
+    .line 582
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3370,15 +3456,15 @@
 .method public setSetupFileType(I)V
     .locals 1
 
-    .line 394
+    .line 409
     iput p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->setupFileType:I
 
-    const/16 v0, 0x32e
+    const/16 v0, 0x332
 
-    .line 395
+    .line 410
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
 
-    .line 396
+    .line 411
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileType(I)V
 
     return-void
@@ -3387,12 +3473,12 @@
 .method public setSmbEn(Z)V
     .locals 0
 
-    .line 530
+    .line 545
     iput-boolean p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->smbEn:Z
 
-    const/16 p1, 0x357
+    const/16 p1, 0x35b
 
-    .line 531
+    .line 546
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3401,12 +3487,12 @@
 .method public setUserName(Ljava/lang/String;)V
     .locals 0
 
-    .line 578
+    .line 593
     iput-object p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->userName:Ljava/lang/String;
 
-    const/16 p1, 0x3f4
+    const/16 p1, 0x3f8
 
-    .line 579
+    .line 594
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3415,12 +3501,12 @@
 .method public setWaveDepth(I)V
     .locals 0
 
-    .line 362
+    .line 377
     iput p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->waveDepth:I
 
-    const/16 p1, 0x40b
+    const/16 p1, 0x40f
 
-    .line 363
+    .line 378
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3429,15 +3515,15 @@
 .method public setWaveFileType(I)V
     .locals 1
 
-    .line 383
+    .line 398
     iput p1, p0, Lcom/rigol/scope/data/StorageSaveParam;->waveFileType:I
 
-    const/16 v0, 0x40c
+    const/16 v0, 0x410
 
-    .line 384
+    .line 399
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/StorageSaveParam;->notifyPropertyChanged(I)V
 
-    .line 385
+    .line 400
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileType(I)V
 
     return-void
@@ -3446,7 +3532,7 @@
 .method public toString()Ljava/lang/String;
     .locals 3
 
-    .line 1279
+    .line 1311
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -3561,7 +3647,7 @@
 .method public updateChanBitList()V
     .locals 5
 
-    .line 828
+    .line 860
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getChanBit()Ljava/util/List;
 
     move-result-object v0
@@ -3574,28 +3660,28 @@
 
     const/4 v2, 0x0
 
-    .line 836
+    .line 868
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
 
     if-eq v0, v1, :cond_0
 
-    .line 830
+    .line 862
     invoke-static {v2}, Lcom/rigol/scope/utilities/ViewUtil;->getBitsFromValue(I)Ljava/util/List;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->chanBit:Ljava/util/List;
 
-    .line 831
+    .line 863
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/ViewUtil;->checkLengthIfNotEnoughThenAdd(Ljava/util/List;I)Ljava/util/List;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->chanBit:Ljava/util/List;
 
-    .line 833
+    .line 865
     :cond_0
     iget-boolean v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->chan1:Z
 
@@ -3603,7 +3689,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 834
+    .line 866
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getChanBit()Ljava/util/List;
 
     move-result-object v0
@@ -3616,7 +3702,7 @@
 
     goto :goto_0
 
-    .line 836
+    .line 868
     :cond_1
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getChanBit()Ljava/util/List;
 
@@ -3624,7 +3710,7 @@
 
     invoke-interface {v0, v1, v3}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
-    .line 839
+    .line 871
     :goto_0
     iget-boolean v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->chan2:Z
 
@@ -3632,7 +3718,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 840
+    .line 872
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getChanBit()Ljava/util/List;
 
     move-result-object v0
@@ -3645,7 +3731,7 @@
 
     goto :goto_1
 
-    .line 842
+    .line 874
     :cond_2
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getChanBit()Ljava/util/List;
 
@@ -3653,7 +3739,7 @@
 
     invoke-interface {v0, v2, v3}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
-    .line 845
+    .line 877
     :goto_1
     iget-boolean v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->chan3:Z
 
@@ -3661,7 +3747,7 @@
 
     if-eqz v0, :cond_3
 
-    .line 846
+    .line 878
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getChanBit()Ljava/util/List;
 
     move-result-object v0
@@ -3674,7 +3760,7 @@
 
     goto :goto_2
 
-    .line 848
+    .line 880
     :cond_3
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getChanBit()Ljava/util/List;
 
@@ -3682,7 +3768,7 @@
 
     invoke-interface {v0, v2, v3}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
-    .line 851
+    .line 883
     :goto_2
     iget-boolean v0, p0, Lcom/rigol/scope/data/StorageSaveParam;->chan4:Z
 
@@ -3690,7 +3776,7 @@
 
     if-eqz v0, :cond_4
 
-    .line 852
+    .line 884
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getChanBit()Ljava/util/List;
 
     move-result-object v0
@@ -3703,7 +3789,7 @@
 
     goto :goto_3
 
-    .line 854
+    .line 886
     :cond_4
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getChanBit()Ljava/util/List;
 
@@ -3711,7 +3797,7 @@
 
     invoke-interface {v0, v2, v3}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
-    .line 857
+    .line 889
     :goto_3
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getChanBit()Ljava/util/List;
 

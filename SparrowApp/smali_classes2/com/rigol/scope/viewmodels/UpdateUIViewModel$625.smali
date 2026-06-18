@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/UtilityParam;)V
     .locals 0
 
-    .line 7139
+    .line 7086
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$625;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$625;->val$param:Lcom/rigol/scope/data/UtilityParam;
@@ -49,12 +49,107 @@
 
 # virtual methods
 .method public onChanged(Ljava/lang/Boolean;)V
-    .locals 0
+    .locals 5
 
-    .line 7142
+    .line 7089
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$625;->val$param:Lcom/rigol/scope/data/UtilityParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/UtilityParam;->readModel()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/rigol/scope/data/UtilityParam;->readLockKeyboard()Z
+
+    .line 7091
+    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$625;->val$param:Lcom/rigol/scope/data/UtilityParam;
+
+    invoke-virtual {p1}, Lcom/rigol/scope/data/UtilityParam;->getLockKeyboard()Z
+
+    move-result p1
+
+    const/4 v0, 0x0
+
+    const/16 v1, 0x5960
+
+    const/16 v2, 0xb
+
+    if-nez p1, :cond_0
+
+    .line 7092
+    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
+
+    move-result-object p1
+
+    const v3, 0x7f1007bd
+
+    invoke-virtual {p1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showShort(Ljava/lang/CharSequence;)V
+
+    .line 7093
+    invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
+
+    move-result-object p1
+
+    sget-object v3, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->TOUCH_LED_WHITE:Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
+
+    iget v3, v3, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->value1:I
+
+    invoke-virtual {p1, v2, v1, v3, v0}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
+
+    goto :goto_0
+
+    .line 7095
+    :cond_0
+    invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
+
+    move-result-object p1
+
+    sget-object v3, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->TOUCH_LED_WHITE:Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
+
+    iget v3, v3, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->value1:I
+
+    const/4 v4, 0x1
+
+    invoke-virtual {p1, v2, v1, v3, v4}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
+
+    .line 7096
+    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
+
+    move-result-object p1
+
+    const v1, 0x7f1007bc
+
+    invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showShort(Ljava/lang/CharSequence;)V
+
+    .line 7098
+    :goto_0
+    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$625;->val$param:Lcom/rigol/scope/data/UtilityParam;
+
+    invoke-virtual {p1}, Lcom/rigol/scope/data/UtilityParam;->getLockKeyboard()Z
+
+    move-result v1
+
+    invoke-virtual {p1, v1}, Lcom/rigol/scope/data/UtilityParam;->saveReadInputKeyboard(Z)V
+
+    .line 7100
+    invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
+
+    move-result-object p1
+
+    new-array v0, v0, [Ljava/lang/Class;
+
+    invoke-virtual {p1, v0}, Lcom/rigol/scope/utilities/PopupViewManager;->dismissAll([Ljava/lang/Class;)V
 
     return-void
 .end method
@@ -62,7 +157,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 7139
+    .line 7086
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$625;->onChanged(Ljava/lang/Boolean;)V

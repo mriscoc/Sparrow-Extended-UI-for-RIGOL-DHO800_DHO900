@@ -18,7 +18,7 @@
 .method public constructor <init>(I)V
     .locals 0
 
-    .line 2260
+    .line 2266
     invoke-direct {p0, p1}, Lcom/rigol/scope/adapters/ResultListAdapter$BaseMeasureAdapterDelegate;-><init>(I)V
 
     return-void
@@ -29,7 +29,7 @@
 .method protected bridge synthetic isForViewType(Ljava/lang/Object;I)Z
     .locals 0
 
-    .line 2256
+    .line 2262
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/adapters/ResultListAdapter$MaskDelegate;->isForViewType(Ljava/util/List;I)Z
@@ -50,7 +50,7 @@
         }
     .end annotation
 
-    .line 2266
+    .line 2272
     invoke-interface {p1, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p1
@@ -63,7 +63,7 @@
 .method protected bridge synthetic onBindViewHolder(Ljava/lang/Object;ILcom/rigol/scope/adapters/BaseViewHolder;)V
     .locals 0
 
-    .line 2256
+    .line 2262
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/rigol/scope/adapters/ResultListAdapter$MaskDelegate;->onBindViewHolder(Ljava/util/List;ILcom/rigol/scope/adapters/BaseViewHolder;)V
@@ -86,27 +86,27 @@
         }
     .end annotation
 
-    .line 2273
+    .line 2279
     invoke-super {p0, p1, p2, p3}, Lcom/rigol/scope/adapters/ResultListAdapter$BaseMeasureAdapterDelegate;->onBindViewHolder(Ljava/util/List;ILcom/rigol/scope/adapters/BaseViewHolder;)V
 
-    .line 2274
+    .line 2280
     invoke-virtual {p3}, Lcom/rigol/scope/adapters/BaseViewHolder;->getBinding()Landroidx/databinding/ViewDataBinding;
 
     move-result-object p3
 
     check-cast p3, Lcom/rigol/scope/databinding/AdapterItemResultMaskBinding;
 
-    .line 2275
+    .line 2281
     invoke-interface {p1, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Lcom/rigol/scope/data/MaskResultParam;
 
-    .line 2276
+    .line 2282
     invoke-virtual {p3, p1}, Lcom/rigol/scope/databinding/AdapterItemResultMaskBinding;->setParam(Lcom/rigol/scope/data/ResultParam;)V
 
-    .line 2277
+    .line 2283
     iget-object p2, p3, Lcom/rigol/scope/databinding/AdapterItemResultMaskBinding;->resultList:Lcom/rigol/scope/views/DisableTouchEventRecyclerView;
 
     invoke-virtual {p2}, Lcom/rigol/scope/views/DisableTouchEventRecyclerView;->getAdapter()Landroidx/recyclerview/widget/RecyclerView$Adapter;
@@ -117,14 +117,14 @@
 
     if-eqz p2, :cond_0
 
-    .line 2280
+    .line 2286
     invoke-virtual {p1}, Lcom/rigol/scope/data/MaskResultParam;->getData()Ljava/util/List;
 
     move-result-object p1
 
     invoke-virtual {p2, p1}, Lcom/rigol/scope/adapters/ResultListAdapter$ItemAdapter;->setItems(Ljava/util/List;)V
 
-    .line 2281
+    .line 2287
     invoke-virtual {p2}, Lcom/rigol/scope/adapters/ResultListAdapter$ItemAdapter;->notifyDataSetChanged()V
 
     :cond_0
@@ -145,19 +145,19 @@
         }
     .end annotation
 
-    .line 2290
+    .line 2296
     invoke-super {p0, p1}, Lcom/rigol/scope/adapters/ResultListAdapter$BaseMeasureAdapterDelegate;->onCreateViewHolder(Landroid/view/ViewGroup;)Lcom/rigol/scope/adapters/BaseViewHolder;
 
     move-result-object p1
 
-    .line 2292
+    .line 2298
     invoke-virtual {p1}, Lcom/rigol/scope/adapters/BaseViewHolder;->getBinding()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v0
 
     check-cast v0, Lcom/rigol/scope/databinding/AdapterItemResultMaskBinding;
 
-    .line 2294
+    .line 2300
     new-instance v1, Lcom/rigol/scope/adapters/ResultListAdapter$ItemAdapter;
 
     invoke-virtual {v0}, Lcom/rigol/scope/databinding/AdapterItemResultMaskBinding;->getRoot()Landroid/view/View;
@@ -176,7 +176,7 @@
 
     invoke-direct {v1, v2, v3, v4}, Lcom/rigol/scope/adapters/ResultListAdapter$ItemAdapter;-><init>(Landroid/content/Context;Ljava/util/List;I)V
 
-    .line 2296
+    .line 2302
     iget-object v0, v0, Lcom/rigol/scope/databinding/AdapterItemResultMaskBinding;->resultList:Lcom/rigol/scope/views/DisableTouchEventRecyclerView;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/DisableTouchEventRecyclerView;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V

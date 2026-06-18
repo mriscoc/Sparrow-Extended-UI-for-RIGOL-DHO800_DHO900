@@ -90,7 +90,7 @@
     .line 394
     iget-object v0, p1, Lcom/rigol/scope/databinding/AdapterUtilityQuickScreenshotBinding;->switchButtonImagecolor:Lcom/rigol/scope/views/SwitchButton;
 
-    const v1, 0x7f0301c9
+    const v1, 0x7f0301cb
 
     invoke-static {v1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->setSwitchButton(ILcom/rigol/scope/views/SwitchButton;)V
 
@@ -171,7 +171,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a087d
+    const v0, 0x7f0a0889
 
     if-ne p1, v0, :cond_1
 
@@ -183,7 +183,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0a087c
+    const v0, 0x7f0a0888
 
     if-ne p1, v0, :cond_2
 
@@ -200,15 +200,15 @@
 .method public onCheckedChanged(Landroid/widget/RadioGroup;I)V
     .locals 0
 
-    const p1, 0x7f0a0747
+    const p1, 0x7f0a0753
 
     if-eq p2, p1, :cond_2
 
-    const p1, 0x7f0a074a
+    const p1, 0x7f0a0756
 
     if-eq p2, p1, :cond_1
 
-    const p1, 0x7f0a0755
+    const p1, 0x7f0a0761
 
     if-eq p2, p1, :cond_0
 
@@ -222,7 +222,7 @@
 
     iget p2, p2, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->value1:I
 
-    invoke-virtual {p1, p2}, Lcom/rigol/scope/data/StorageSaveParam;->setImageFileType(I)V
+    invoke-virtual {p1, p2}, Lcom/rigol/scope/data/StorageSaveParam;->saveImageFileType(I)V
 
     goto :goto_0
 
@@ -234,7 +234,7 @@
 
     iget p2, p2, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->value1:I
 
-    invoke-virtual {p1, p2}, Lcom/rigol/scope/data/StorageSaveParam;->setImageFileType(I)V
+    invoke-virtual {p1, p2}, Lcom/rigol/scope/data/StorageSaveParam;->saveImageFileType(I)V
 
     goto :goto_0
 
@@ -246,7 +246,7 @@
 
     iget p2, p2, Lcom/rigol/scope/cil/ServiceEnum$enFileType;->value1:I
 
-    invoke-virtual {p1, p2}, Lcom/rigol/scope/data/StorageSaveParam;->setImageFileType(I)V
+    invoke-virtual {p1, p2}, Lcom/rigol/scope/data/StorageSaveParam;->saveImageFileType(I)V
 
     :goto_0
     return-void

@@ -200,128 +200,142 @@
 
     invoke-virtual {p1, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 111
+    .line 110
+    iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;->binding:Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;
+
+    iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;->peakDetectSwitch:Lcom/rigol/scope/views/SwitchButton;
+
+    invoke-virtual {p1, p0}, Lcom/rigol/scope/views/SwitchButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    .line 112
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;->binding:Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;->prefixEditText:Landroid/widget/EditText;
 
     invoke-virtual {p1, p0}, Landroid/widget/EditText;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 112
+    .line 113
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;->binding:Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;->pathNameEditText:Landroid/widget/EditText;
 
     invoke-virtual {p1, p0}, Landroid/widget/EditText;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 114
-    iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;->binding:Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;
-
-    iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;->imageInvertSwitch:Lcom/rigol/scope/views/SwitchButton;
-
-    invoke-virtual {p1, p0}, Lcom/rigol/scope/views/SwitchButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
-
     .line 115
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;->binding:Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;
 
-    iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;->imageColorSwitch:Lcom/rigol/scope/views/SwitchButton;
+    iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;->imageInvertSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     invoke-virtual {p1, p0}, Lcom/rigol/scope/views/SwitchButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 116
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;->binding:Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;
 
-    iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;->imageHeaderSwitch:Lcom/rigol/scope/views/SwitchButton;
+    iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;->imageColorSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     invoke-virtual {p1, p0}, Lcom/rigol/scope/views/SwitchButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 117
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;->binding:Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;
 
+    iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;->imageHeaderSwitch:Lcom/rigol/scope/views/SwitchButton;
+
+    invoke-virtual {p1, p0}, Lcom/rigol/scope/views/SwitchButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    .line 118
+    iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;->binding:Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;
+
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;->autoNameSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     invoke-virtual {p1, p0}, Lcom/rigol/scope/views/SwitchButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 119
+    .line 120
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;->binding:Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;->save:Landroid/widget/Button;
 
     invoke-virtual {p1, p0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 122
+    .line 123
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;->binding:Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;->checkBoxCH1:Landroid/widget/CheckBox;
 
     invoke-virtual {p1, p0}, Landroid/widget/CheckBox;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 123
+    .line 124
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;->binding:Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;->checkBoxCH2:Landroid/widget/CheckBox;
 
     invoke-virtual {p1, p0}, Landroid/widget/CheckBox;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 124
+    .line 125
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;->binding:Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;->checkBoxCH3:Landroid/widget/CheckBox;
 
     invoke-virtual {p1, p0}, Landroid/widget/CheckBox;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 125
+    .line 126
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;->binding:Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;->checkBoxCH4:Landroid/widget/CheckBox;
 
     invoke-virtual {p1, p0}, Landroid/widget/CheckBox;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 128
+    .line 129
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;->binding:Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;->smbEnSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     invoke-virtual {p1, p0}, Lcom/rigol/scope/views/SwitchButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 131
+    .line 132
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;->binding:Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;->autoNameSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->setSwitchButton(Lcom/rigol/scope/views/SwitchButton;)V
 
-    .line 132
+    .line 133
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;->binding:Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;->imageColorSwitch:Lcom/rigol/scope/views/SwitchButton;
 
-    const p2, 0x7f0301c9
+    const p2, 0x7f0301cb
 
     invoke-static {p2, p1}, Lcom/rigol/scope/utilities/ViewUtil;->setSwitchButton(ILcom/rigol/scope/views/SwitchButton;)V
 
-    .line 133
+    .line 134
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;->binding:Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;->imageHeaderSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->setSwitchButton(Lcom/rigol/scope/views/SwitchButton;)V
 
-    .line 134
+    .line 135
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;->binding:Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;->imageInvertSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->setSwitchButton(Lcom/rigol/scope/views/SwitchButton;)V
 
-    .line 135
+    .line 136
+    iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;->binding:Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;
+
+    iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;->peakDetectSwitch:Lcom/rigol/scope/views/SwitchButton;
+
+    invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->setSwitchButton(Lcom/rigol/scope/views/SwitchButton;)V
+
+    .line 137
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;->binding:Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;->smbEnSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->setSwitchButton(Lcom/rigol/scope/views/SwitchButton;)V
 
-    .line 137
+    .line 139
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     if-eqz p1, :cond_0
@@ -332,7 +346,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 139
+    .line 141
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     invoke-virtual {p1}, Lcom/rigol/scope/utilities/AorBManager;->getList_aorbParam()Ljava/util/List;
@@ -359,7 +373,7 @@
 
     invoke-interface {p1, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 140
+    .line 142
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     invoke-virtual {p1}, Lcom/rigol/scope/utilities/AorBManager;->getList_aorbParam()Ljava/util/List;
@@ -380,7 +394,7 @@
 
     invoke-interface {p1, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 141
+    .line 143
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     invoke-virtual {p1}, Lcom/rigol/scope/utilities/AorBManager;->getList_aorbParam()Ljava/util/List;
@@ -401,7 +415,7 @@
 
     invoke-interface {p1, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 142
+    .line 144
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     invoke-virtual {p1}, Lcom/rigol/scope/utilities/AorBManager;->getList_aorbParam()Ljava/util/List;
@@ -422,7 +436,7 @@
 
     invoke-interface {p1, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 143
+    .line 145
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     invoke-virtual {p1}, Lcom/rigol/scope/utilities/AorBManager;->getList_aorbParam()Ljava/util/List;
@@ -443,7 +457,7 @@
 
     invoke-interface {p1, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 144
+    .line 146
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;->onItemClickCallback:Lcom/rigol/scope/adapters/StorageViewPagerAdapter$OnItemClickCallback;
 
     if-eqz p1, :cond_0
@@ -459,12 +473,12 @@
 .method public onClick(Landroid/view/View;)V
     .locals 3
 
-    .line 150
+    .line 152
     iget-object v0, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;->onItemClickCallback:Lcom/rigol/scope/adapters/StorageViewPagerAdapter$OnItemClickCallback;
 
     if-eqz v0, :cond_0
 
-    .line 151
+    .line 153
     iget-object v1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;->binding:Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;
 
     iget-object v2, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;->param:Lcom/rigol/scope/data/StorageSaveParam;
@@ -478,14 +492,14 @@
 .method public onLocaleChanged()V
     .locals 2
 
-    .line 162
+    .line 164
     iget-object v0, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;->binding:Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f0301c9
+    const v1, 0x7f0301cb
 
-    .line 163
+    .line 165
     iget-object v0, v0, Lcom/rigol/scope/databinding/AdapterStorageSaveBinding;->imageColorSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     invoke-static {v1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->updateSwitchText(ILcom/rigol/scope/views/SwitchButton;)V
@@ -506,7 +520,7 @@
 .method public setOnItemClickCallback(Lcom/rigol/scope/adapters/StorageViewPagerAdapter$OnItemClickCallback;)V
     .locals 0
 
-    .line 158
+    .line 160
     iput-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$SaveDelegate;->onItemClickCallback:Lcom/rigol/scope/adapters/StorageViewPagerAdapter$OnItemClickCallback;
 
     return-void

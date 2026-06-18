@@ -74,7 +74,7 @@
 .method private decoder1553B(Landroid/view/KeyEvent;Lcom/rigol/scope/data/DecodeParam;Lcom/rigol/scope/cil/MessageAttr;)V
     .locals 8
 
-    .line 2115
+    .line 2120
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getKeyCode()I
 
     move-result v0
@@ -89,7 +89,7 @@
 
     goto :goto_0
 
-    .line 2117
+    .line 2122
     :pswitch_0
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getPalBusThresAttr()Lcom/rigol/scope/cil/MessageAttr;
 
@@ -103,7 +103,7 @@
 
     goto :goto_0
 
-    .line 2126
+    .line 2131
     :pswitch_1
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->get_1553b_thres1()J
 
@@ -127,7 +127,7 @@
 
     goto :goto_0
 
-    .line 2123
+    .line 2128
     :pswitch_2
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->get_1553b_thres1()J
 
@@ -151,7 +151,7 @@
 
     goto :goto_0
 
-    .line 2120
+    .line 2125
     :pswitch_3
     invoke-virtual {p2, p3}, Lcom/rigol/scope/data/DecodeParam;->getIntDef(Lcom/rigol/scope/cil/MessageAttr;)I
 
@@ -161,7 +161,7 @@
 
     goto :goto_0
 
-    .line 2132
+    .line 2137
     :pswitch_4
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getPosition()I
 
@@ -185,7 +185,7 @@
 
     goto :goto_0
 
-    .line 2129
+    .line 2134
     :pswitch_5
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getPosition()I
 
@@ -230,7 +230,7 @@
 .method private decoderCAN(Landroid/view/KeyEvent;Lcom/rigol/scope/data/DecodeParam;Lcom/rigol/scope/cil/MessageAttr;)V
     .locals 8
 
-    .line 2046
+    .line 2051
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getKeyCode()I
 
     move-result v0
@@ -245,7 +245,7 @@
 
     goto :goto_0
 
-    .line 2048
+    .line 2053
     :pswitch_0
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getCanThresAttr()Lcom/rigol/scope/cil/MessageAttr;
 
@@ -259,7 +259,7 @@
 
     goto :goto_0
 
-    .line 2057
+    .line 2062
     :pswitch_1
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getCan_threas()J
 
@@ -283,7 +283,7 @@
 
     goto :goto_0
 
-    .line 2054
+    .line 2059
     :pswitch_2
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getCan_threas()J
 
@@ -307,7 +307,7 @@
 
     goto :goto_0
 
-    .line 2051
+    .line 2056
     :pswitch_3
     invoke-virtual {p2, p3}, Lcom/rigol/scope/data/DecodeParam;->getIntDef(Lcom/rigol/scope/cil/MessageAttr;)I
 
@@ -317,7 +317,7 @@
 
     goto :goto_0
 
-    .line 2063
+    .line 2068
     :pswitch_4
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getPosition()I
 
@@ -341,7 +341,7 @@
 
     goto :goto_0
 
-    .line 2060
+    .line 2065
     :pswitch_5
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getPosition()I
 
@@ -386,7 +386,7 @@
 .method private decoderFlexRay(Landroid/view/KeyEvent;Lcom/rigol/scope/data/DecodeParam;Lcom/rigol/scope/cil/MessageAttr;)V
     .locals 8
 
-    .line 2069
+    .line 2074
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getKeyCode()I
 
     move-result v0
@@ -401,7 +401,7 @@
 
     goto :goto_0
 
-    .line 2071
+    .line 2076
     :pswitch_0
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getFlexThresAttr()Lcom/rigol/scope/cil/MessageAttr;
 
@@ -415,7 +415,7 @@
 
     goto :goto_0
 
-    .line 2080
+    .line 2085
     :pswitch_1
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getFlex_thres()J
 
@@ -439,7 +439,7 @@
 
     goto :goto_0
 
-    .line 2077
+    .line 2082
     :pswitch_2
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getFlex_thres()J
 
@@ -463,7 +463,7 @@
 
     goto :goto_0
 
-    .line 2074
+    .line 2079
     :pswitch_3
     invoke-virtual {p2, p3}, Lcom/rigol/scope/data/DecodeParam;->getIntDef(Lcom/rigol/scope/cil/MessageAttr;)I
 
@@ -473,7 +473,7 @@
 
     goto :goto_0
 
-    .line 2086
+    .line 2091
     :pswitch_4
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getPosition()I
 
@@ -497,7 +497,7 @@
 
     goto :goto_0
 
-    .line 2083
+    .line 2088
     :pswitch_5
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getPosition()I
 
@@ -542,7 +542,7 @@
 .method private decoderI2C(Landroid/view/KeyEvent;Lcom/rigol/scope/data/DecodeParam;Lcom/rigol/scope/cil/MessageAttr;)V
     .locals 8
 
-    .line 1973
+    .line 1978
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getKeyCode()I
 
     move-result v0
@@ -557,7 +557,7 @@
 
     goto :goto_0
 
-    .line 1975
+    .line 1980
     :pswitch_0
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getI2cClkThresAttr()Lcom/rigol/scope/cil/MessageAttr;
 
@@ -571,7 +571,7 @@
 
     goto :goto_0
 
-    .line 1984
+    .line 1989
     :pswitch_1
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getI2c_scl_thres()J
 
@@ -595,7 +595,7 @@
 
     goto :goto_0
 
-    .line 1981
+    .line 1986
     :pswitch_2
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getI2c_scl_thres()J
 
@@ -619,7 +619,7 @@
 
     goto :goto_0
 
-    .line 1978
+    .line 1983
     :pswitch_3
     invoke-virtual {p2, p3}, Lcom/rigol/scope/data/DecodeParam;->getIntDef(Lcom/rigol/scope/cil/MessageAttr;)I
 
@@ -629,7 +629,7 @@
 
     goto :goto_0
 
-    .line 1990
+    .line 1995
     :pswitch_4
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getPosition()I
 
@@ -653,7 +653,7 @@
 
     goto :goto_0
 
-    .line 1987
+    .line 1992
     :pswitch_5
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getPosition()I
 
@@ -698,7 +698,7 @@
 .method private decoderI2S(Landroid/view/KeyEvent;Lcom/rigol/scope/data/DecodeParam;Lcom/rigol/scope/cil/MessageAttr;)V
     .locals 7
 
-    .line 2092
+    .line 2097
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getKeyCode()I
 
     move-result v0
@@ -713,7 +713,7 @@
 
     goto :goto_0
 
-    .line 2094
+    .line 2099
     :pswitch_0
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getI2sSclkThresAttr()Lcom/rigol/scope/cil/MessageAttr;
 
@@ -727,7 +727,7 @@
 
     goto :goto_0
 
-    .line 2103
+    .line 2108
     :pswitch_1
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getI2s_sclock()I
 
@@ -753,7 +753,7 @@
 
     goto :goto_0
 
-    .line 2100
+    .line 2105
     :pswitch_2
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getI2s_sclock()I
 
@@ -779,7 +779,7 @@
 
     goto :goto_0
 
-    .line 2097
+    .line 2102
     :pswitch_3
     invoke-virtual {p2, p3}, Lcom/rigol/scope/data/DecodeParam;->getIntDef(Lcom/rigol/scope/cil/MessageAttr;)I
 
@@ -789,7 +789,7 @@
 
     goto :goto_0
 
-    .line 2109
+    .line 2114
     :pswitch_4
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getPosition()I
 
@@ -813,7 +813,7 @@
 
     goto :goto_0
 
-    .line 2106
+    .line 2111
     :pswitch_5
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getPosition()I
 
@@ -858,7 +858,7 @@
 .method private decoderLIN(Landroid/view/KeyEvent;Lcom/rigol/scope/data/DecodeParam;Lcom/rigol/scope/cil/MessageAttr;)V
     .locals 8
 
-    .line 2023
+    .line 2028
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getKeyCode()I
 
     move-result v0
@@ -873,7 +873,7 @@
 
     goto :goto_0
 
-    .line 2025
+    .line 2030
     :pswitch_0
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getLinThresAttr()Lcom/rigol/scope/cil/MessageAttr;
 
@@ -887,7 +887,7 @@
 
     goto :goto_0
 
-    .line 2034
+    .line 2039
     :pswitch_1
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getLin_thres()J
 
@@ -911,7 +911,7 @@
 
     goto :goto_0
 
-    .line 2031
+    .line 2036
     :pswitch_2
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getLin_thres()J
 
@@ -935,7 +935,7 @@
 
     goto :goto_0
 
-    .line 2028
+    .line 2033
     :pswitch_3
     invoke-virtual {p2, p3}, Lcom/rigol/scope/data/DecodeParam;->getIntDef(Lcom/rigol/scope/cil/MessageAttr;)I
 
@@ -945,7 +945,7 @@
 
     goto :goto_0
 
-    .line 2040
+    .line 2045
     :pswitch_4
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getPosition()I
 
@@ -969,7 +969,7 @@
 
     goto :goto_0
 
-    .line 2037
+    .line 2042
     :pswitch_5
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getPosition()I
 
@@ -1014,7 +1014,7 @@
 .method private decoderParallel(Landroid/view/KeyEvent;Lcom/rigol/scope/data/DecodeParam;Lcom/rigol/scope/cil/MessageAttr;)V
     .locals 8
 
-    .line 1927
+    .line 1932
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getKeyCode()I
 
     move-result v0
@@ -1029,7 +1029,7 @@
 
     goto :goto_0
 
-    .line 1929
+    .line 1934
     :pswitch_0
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getPalClkThresAttr()Lcom/rigol/scope/cil/MessageAttr;
 
@@ -1043,7 +1043,7 @@
 
     goto :goto_0
 
-    .line 1938
+    .line 1943
     :pswitch_1
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getPal_dat_thres()J
 
@@ -1067,7 +1067,7 @@
 
     goto :goto_0
 
-    .line 1935
+    .line 1940
     :pswitch_2
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getPal_dat_thres()J
 
@@ -1091,7 +1091,7 @@
 
     goto :goto_0
 
-    .line 1932
+    .line 1937
     :pswitch_3
     invoke-virtual {p2, p3}, Lcom/rigol/scope/data/DecodeParam;->getIntDef(Lcom/rigol/scope/cil/MessageAttr;)I
 
@@ -1101,7 +1101,7 @@
 
     goto :goto_0
 
-    .line 1944
+    .line 1949
     :pswitch_4
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getPosition()I
 
@@ -1125,7 +1125,7 @@
 
     goto :goto_0
 
-    .line 1941
+    .line 1946
     :pswitch_5
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getPosition()I
 
@@ -1170,7 +1170,7 @@
 .method private decoderRs232(Landroid/view/KeyEvent;Lcom/rigol/scope/data/DecodeParam;Lcom/rigol/scope/cil/MessageAttr;)V
     .locals 8
 
-    .line 1950
+    .line 1955
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getKeyCode()I
 
     move-result v0
@@ -1185,7 +1185,7 @@
 
     goto :goto_0
 
-    .line 1952
+    .line 1957
     :pswitch_0
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getTxThresAttr()Lcom/rigol/scope/cil/MessageAttr;
 
@@ -1201,7 +1201,7 @@
 
     goto :goto_0
 
-    .line 1961
+    .line 1966
     :pswitch_1
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getRs232_tx_thres()J
 
@@ -1225,7 +1225,7 @@
 
     goto :goto_0
 
-    .line 1958
+    .line 1963
     :pswitch_2
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getRs232_tx_thres()J
 
@@ -1249,7 +1249,7 @@
 
     goto :goto_0
 
-    .line 1955
+    .line 1960
     :pswitch_3
     invoke-virtual {p2, p3}, Lcom/rigol/scope/data/DecodeParam;->getIntDef(Lcom/rigol/scope/cil/MessageAttr;)I
 
@@ -1259,7 +1259,7 @@
 
     goto :goto_0
 
-    .line 1967
+    .line 1972
     :pswitch_4
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getPosition()I
 
@@ -1283,7 +1283,7 @@
 
     goto :goto_0
 
-    .line 1964
+    .line 1969
     :pswitch_5
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getPosition()I
 
@@ -1326,7 +1326,7 @@
 .method private decoderSPI(Landroid/view/KeyEvent;Lcom/rigol/scope/data/DecodeParam;Lcom/rigol/scope/cil/MessageAttr;)V
     .locals 8
 
-    .line 1996
+    .line 2001
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getKeyCode()I
 
     move-result v0
@@ -1337,13 +1337,13 @@
 
     packed-switch v0, :pswitch_data_0
 
-    const/16 p3, 0x5940
+    const/16 p3, 0x5b40
 
     packed-switch v0, :pswitch_data_1
 
     goto/16 :goto_0
 
-    .line 1998
+    .line 2003
     :pswitch_0
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getSpiClkThresAttr()Lcom/rigol/scope/cil/MessageAttr;
 
@@ -1357,7 +1357,7 @@
 
     goto/16 :goto_0
 
-    .line 2009
+    .line 2014
     :pswitch_1
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -1369,10 +1369,10 @@
 
     invoke-virtual {v0, v1, p3}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
-    .line 2010
+    .line 2015
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->readSpiClkThresAttr()V
 
-    .line 2011
+    .line 2016
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getSpi_clock_thres()J
 
     move-result-wide v3
@@ -1395,7 +1395,7 @@
 
     goto :goto_0
 
-    .line 2004
+    .line 2009
     :pswitch_2
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -1407,10 +1407,10 @@
 
     invoke-virtual {v0, v1, p3}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
-    .line 2005
+    .line 2010
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->readSpiClkThresAttr()V
 
-    .line 2006
+    .line 2011
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getSpi_clock_thres()J
 
     move-result-wide v3
@@ -1433,7 +1433,7 @@
 
     goto :goto_0
 
-    .line 2001
+    .line 2006
     :pswitch_3
     invoke-virtual {p2, p3}, Lcom/rigol/scope/data/DecodeParam;->getIntDef(Lcom/rigol/scope/cil/MessageAttr;)I
 
@@ -1443,7 +1443,7 @@
 
     goto :goto_0
 
-    .line 2017
+    .line 2022
     :pswitch_4
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getPosition()I
 
@@ -1467,7 +1467,7 @@
 
     goto :goto_0
 
-    .line 2014
+    .line 2019
     :pswitch_5
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getPosition()I
 
@@ -1512,17 +1512,17 @@
 .method private handleHorizontalMenu(Lcom/rigol/scope/data/CursorResultParam;)V
     .locals 2
 
-    .line 1027
+    .line 1032
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object v0
 
-    .line 1028
+    .line 1033
     instance-of v0, v0, Lcom/rigol/scope/MainActivity;
 
     if-eqz v0, :cond_4
 
-    .line 1030
+    .line 1035
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object v0
@@ -1531,12 +1531,12 @@
 
     move-result-object v0
 
-    .line 1032
+    .line 1037
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_TRIGGER:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     if-ne v0, v1, :cond_0
 
-    .line 1033
+    .line 1038
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
@@ -1547,13 +1547,13 @@
 
     goto :goto_1
 
-    .line 1036
+    .line 1041
     :cond_0
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_MEASURE:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     if-ne v0, v1, :cond_1
 
-    .line 1037
+    .line 1042
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
@@ -1564,13 +1564,13 @@
 
     goto :goto_1
 
-    .line 1040
+    .line 1045
     :cond_1
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Function;->FUN_CURSOR:Lcom/rigol/scope/cil/ServiceEnum$Function;
 
     if-ne v0, v1, :cond_3
 
-    .line 1041
+    .line 1046
     invoke-virtual {p1}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object v0
@@ -1591,7 +1591,7 @@
 
     goto :goto_1
 
-    .line 1045
+    .line 1050
     :cond_3
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -1609,17 +1609,17 @@
 .method private handleOffsetZ(Lcom/rigol/scope/data/HorizontalParam;)V
     .locals 4
 
-    .line 1132
+    .line 1137
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object v0
 
-    .line 1133
+    .line 1138
     instance-of v1, v0, Lcom/rigol/scope/MainActivity;
 
     if-eqz v1, :cond_3
 
-    .line 1135
+    .line 1140
     check-cast v0, Lcom/rigol/scope/MainActivity;
 
     invoke-virtual {v0}, Lcom/rigol/scope/MainActivity;->isMotorShowing()Z
@@ -1630,7 +1630,7 @@
 
     return-void
 
-    .line 1140
+    .line 1145
     :cond_0
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->isZoom()Z
 
@@ -1640,12 +1640,12 @@
 
     if-eqz v0, :cond_1
 
-    .line 1141
+    .line 1146
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/data/HorizontalParam;->moveZoomOffset(J)V
 
     goto :goto_0
 
-    .line 1146
+    .line 1151
     :cond_1
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getTimeMode()Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
@@ -1655,7 +1655,7 @@
 
     if-ne v0, v3, :cond_2
 
-    .line 1147
+    .line 1152
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getRunStop()Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
     move-result-object v0
@@ -1666,7 +1666,7 @@
 
     return-void
 
-    .line 1156
+    .line 1161
     :cond_2
     invoke-virtual {p1, v1, v2}, Lcom/rigol/scope/data/HorizontalParam;->saveMainOffset(J)V
 
@@ -1678,20 +1678,20 @@
 .method private handleScaleCCW(Lcom/rigol/scope/data/HorizontalParam;Lcom/rigol/scope/data/SearchParam;)V
     .locals 5
 
-    .line 995
+    .line 1000
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
 
     const/16 v1, 0x28
 
-    const/16 v2, 0x3919
+    const/16 v2, 0x3b19
 
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryBool(II)Z
 
     move-result v0
 
-    .line 997
+    .line 1002
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getTimeMode()Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
     move-result-object v3
@@ -1700,7 +1700,7 @@
 
     if-ne v3, v4, :cond_0
 
-    .line 998
+    .line 1003
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getRunStop()Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
     move-result-object v3
@@ -1712,7 +1712,7 @@
     :cond_0
     if-eqz v0, :cond_2
 
-    .line 999
+    .line 1004
     :cond_1
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -1724,7 +1724,7 @@
 
     invoke-virtual {v0, v1, v2, v3}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 1003
+    .line 1008
     :cond_2
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->isZoom()Z
 
@@ -1732,7 +1732,7 @@
 
     if-eqz v0, :cond_3
 
-    .line 1004
+    .line 1009
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
     move-result-wide v0
@@ -1745,7 +1745,7 @@
 
     goto :goto_0
 
-    .line 1008
+    .line 1013
     :cond_3
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
 
@@ -1757,7 +1757,7 @@
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/HorizontalParam;->saveMainScale(J)V
 
-    .line 1011
+    .line 1016
     :goto_0
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getTimeMode()Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
@@ -1777,10 +1777,10 @@
 
     const/4 p1, 0x0
 
-    .line 1013
+    .line 1018
     invoke-virtual {p2, p1}, Lcom/rigol/scope/data/SearchParam;->saveEnable(Z)V
 
-    .line 1015
+    .line 1020
     invoke-static {}, Lcom/rigol/scope/utilities/WindowHolderManager;->getInstance()Lcom/rigol/scope/utilities/WindowHolderManager;
 
     move-result-object v0
@@ -1789,17 +1789,17 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/utilities/WindowHolderManager;->remove(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)V
 
-    .line 1016
+    .line 1021
     invoke-virtual {p2, p1}, Lcom/rigol/scope/data/SearchParam;->saveMarkTableEn(Z)V
 
-    .line 1017
+    .line 1022
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p2
 
     const/16 v0, 0x19
 
-    const/16 v1, 0x450b
+    const/16 v1, 0x470b
 
     invoke-static {v0, v1}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 
@@ -1818,20 +1818,20 @@
 .method private handleScaleCW(Lcom/rigol/scope/data/HorizontalParam;)V
     .locals 5
 
-    .line 975
+    .line 980
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
 
     const/16 v1, 0x28
 
-    const/16 v2, 0x3919
+    const/16 v2, 0x3b19
 
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryBool(II)Z
 
     move-result v0
 
-    .line 977
+    .line 982
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getTimeMode()Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
     move-result-object v3
@@ -1840,7 +1840,7 @@
 
     if-ne v3, v4, :cond_0
 
-    .line 978
+    .line 983
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getRunStop()Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
     move-result-object v3
@@ -1852,7 +1852,7 @@
     :cond_0
     if-eqz v0, :cond_2
 
-    .line 979
+    .line 984
     :cond_1
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -1864,7 +1864,7 @@
 
     invoke-virtual {v0, v1, v2, v3}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 982
+    .line 987
     :cond_2
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->isZoom()Z
 
@@ -1872,7 +1872,7 @@
 
     if-eqz v0, :cond_3
 
-    .line 983
+    .line 988
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
     move-result-wide v0
@@ -1885,7 +1885,7 @@
 
     goto :goto_0
 
-    .line 987
+    .line 992
     :cond_3
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
 
@@ -1904,19 +1904,19 @@
 .method private handleScaleZ(Lcom/rigol/scope/data/HorizontalParam;)V
     .locals 1
 
-    .line 963
+    .line 968
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object v0
 
-    .line 964
+    .line 969
     instance-of v0, v0, Lcom/rigol/scope/MainActivity;
 
     if-eqz v0, :cond_0
 
-    const/16 v0, 0x2312
+    const/16 v0, 0x2512
 
-    .line 965
+    .line 970
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/HorizontalParam;->readBool(I)Z
 
     move-result v0
@@ -1925,9 +1925,9 @@
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/HorizontalParam;->saveFine(Z)V
 
-    const v0, 0x7f100f29
+    const v0, 0x7f100f39
 
-    .line 967
+    .line 972
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->isFine()Z
 
     move-result p1
@@ -1941,7 +1941,7 @@
 .method static synthetic lambda$onPanelKeyUp$0(Lcom/blankj/utilcode/util/ShellUtils$CommandResult;)V
     .locals 1
 
-    .line 567
+    .line 572
     invoke-virtual {p0}, Lcom/blankj/utilcode/util/ShellUtils$CommandResult;->toString()Ljava/lang/String;
 
     move-result-object p0
@@ -1958,7 +1958,7 @@
 .method static synthetic lambda$onPanelKeyUp$1(Lcom/blankj/utilcode/util/ShellUtils$CommandResult;)V
     .locals 1
 
-    .line 575
+    .line 580
     invoke-virtual {p0}, Lcom/blankj/utilcode/util/ShellUtils$CommandResult;->toString()Ljava/lang/String;
 
     move-result-object p0
@@ -1975,7 +1975,7 @@
 .method static synthetic lambda$onPanelKeyUp$2()V
     .locals 2
 
-    .line 590
+    .line 595
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v0
@@ -1990,25 +1990,25 @@
 .method static synthetic lambda$onPanelKeyUp$3(Lcom/rigol/scope/data/MeasureSettingParam;)V
     .locals 4
 
-    .line 608
+    .line 613
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$ThreType;->TH_TYPE_ABS:Lcom/rigol/scope/cil/ServiceEnum$ThreType;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->saveThresholdType(Lcom/rigol/scope/cil/ServiceEnum$ThreType;)V
 
-    .line 609
+    .line 614
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
 
     const/16 v1, 0x1c
 
-    const/16 v2, 0x3317
+    const/16 v2, 0x3517
 
     const/4 v3, 0x1
 
     invoke-virtual {v0, v1, v2, v3}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 611
+    .line 616
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$ThreType;->TH_TYPE_PER:Lcom/rigol/scope/cil/ServiceEnum$ThreType;
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->saveThresholdType(Lcom/rigol/scope/cil/ServiceEnum$ThreType;)V
@@ -2019,7 +2019,7 @@
 .method private onPlayKey(Lcom/rigol/scope/views/baseview/BasePopupView;I)V
     .locals 1
 
-    .line 957
+    .line 962
     invoke-virtual {p1}, Lcom/rigol/scope/views/baseview/BasePopupView;->getContentView()Landroid/view/View;
 
     move-result-object v0
@@ -2054,7 +2054,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 958
+    .line 963
     invoke-virtual {p1}, Lcom/rigol/scope/views/baseview/BasePopupView;->getContentView()Landroid/view/View;
 
     move-result-object p1
@@ -2072,7 +2072,7 @@
 .method private rollDecoder(Landroid/view/KeyEvent;Lcom/rigol/scope/data/DecodeParam;)V
     .locals 4
 
-    .line 1879
+    .line 1884
     invoke-virtual {p2}, Lcom/rigol/scope/data/DecodeParam;->getType()Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
     move-result-object v0
@@ -2081,7 +2081,7 @@
 
     return-void
 
-    .line 1883
+    .line 1888
     :cond_0
     new-instance v1, Lcom/rigol/scope/cil/MessageAttr;
 
@@ -2089,25 +2089,25 @@
 
     const/16 v2, -0xfa
 
-    .line 1884
+    .line 1889
     invoke-virtual {v1, v2}, Lcom/rigol/scope/cil/MessageAttr;->setMinValue(I)V
 
     const/16 v2, 0xfa
 
-    .line 1885
+    .line 1890
     invoke-virtual {v1, v2}, Lcom/rigol/scope/cil/MessageAttr;->setMaxValue(I)V
 
     const/4 v2, 0x0
 
-    .line 1886
+    .line 1891
     invoke-virtual {v1, v2}, Lcom/rigol/scope/cil/MessageAttr;->setDefValue(I)V
 
     const-wide/16 v2, 0x1
 
-    .line 1887
+    .line 1892
     invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/cil/MessageAttr;->setStepValue(J)V
 
-    .line 1888
+    .line 1893
     sget-object v2, Lcom/rigol/scope/viewmodels/PanelKeyViewModel$2;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$DecodeBusType:[I
 
     invoke-virtual {v0}, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;->ordinal()I
@@ -2120,55 +2120,55 @@
 
     goto :goto_0
 
-    .line 1914
+    .line 1919
     :pswitch_0
     invoke-direct {p0, p1, p2, v1}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->decoder1553B(Landroid/view/KeyEvent;Lcom/rigol/scope/data/DecodeParam;Lcom/rigol/scope/cil/MessageAttr;)V
 
     goto :goto_0
 
-    .line 1911
+    .line 1916
     :pswitch_1
     invoke-direct {p0, p1, p2, v1}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->decoderI2S(Landroid/view/KeyEvent;Lcom/rigol/scope/data/DecodeParam;Lcom/rigol/scope/cil/MessageAttr;)V
 
     goto :goto_0
 
-    .line 1908
+    .line 1913
     :pswitch_2
     invoke-direct {p0, p1, p2, v1}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->decoderFlexRay(Landroid/view/KeyEvent;Lcom/rigol/scope/data/DecodeParam;Lcom/rigol/scope/cil/MessageAttr;)V
 
     goto :goto_0
 
-    .line 1905
+    .line 1910
     :pswitch_3
     invoke-direct {p0, p1, p2, v1}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->decoderCAN(Landroid/view/KeyEvent;Lcom/rigol/scope/data/DecodeParam;Lcom/rigol/scope/cil/MessageAttr;)V
 
     goto :goto_0
 
-    .line 1902
+    .line 1907
     :pswitch_4
     invoke-direct {p0, p1, p2, v1}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->decoderLIN(Landroid/view/KeyEvent;Lcom/rigol/scope/data/DecodeParam;Lcom/rigol/scope/cil/MessageAttr;)V
 
     goto :goto_0
 
-    .line 1899
+    .line 1904
     :pswitch_5
     invoke-direct {p0, p1, p2, v1}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->decoderSPI(Landroid/view/KeyEvent;Lcom/rigol/scope/data/DecodeParam;Lcom/rigol/scope/cil/MessageAttr;)V
 
     goto :goto_0
 
-    .line 1896
+    .line 1901
     :pswitch_6
     invoke-direct {p0, p1, p2, v1}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->decoderI2C(Landroid/view/KeyEvent;Lcom/rigol/scope/data/DecodeParam;Lcom/rigol/scope/cil/MessageAttr;)V
 
     goto :goto_0
 
-    .line 1893
+    .line 1898
     :pswitch_7
     invoke-direct {p0, p1, p2, v1}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->decoderRs232(Landroid/view/KeyEvent;Lcom/rigol/scope/data/DecodeParam;Lcom/rigol/scope/cil/MessageAttr;)V
 
     goto :goto_0
 
-    .line 1890
+    .line 1895
     :pswitch_8
     invoke-direct {p0, p1, p2, v1}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->decoderParallel(Landroid/view/KeyEvent;Lcom/rigol/scope/data/DecodeParam;Lcom/rigol/scope/cil/MessageAttr;)V
 
@@ -2198,7 +2198,7 @@
 
     return-void
 
-    .line 1850
+    .line 1855
     :cond_0
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getKeyCode()I
 
@@ -2214,7 +2214,7 @@
 
     goto :goto_0
 
-    .line 1852
+    .line 1857
     :pswitch_0
     invoke-virtual {p2}, Lcom/rigol/scope/data/RefParam$Param;->getVerScaleAttr()Lcom/rigol/scope/cil/MessageAttr;
 
@@ -2228,19 +2228,19 @@
 
     goto :goto_0
 
-    .line 1861
+    .line 1866
     :pswitch_1
     invoke-virtual {p2}, Lcom/rigol/scope/data/RefParam$Param;->scaleUp()V
 
     goto :goto_0
 
-    .line 1858
+    .line 1863
     :pswitch_2
     invoke-virtual {p2}, Lcom/rigol/scope/data/RefParam$Param;->scaleDown()V
 
     goto :goto_0
 
-    .line 1855
+    .line 1860
     :pswitch_3
     invoke-virtual {p2}, Lcom/rigol/scope/data/RefParam$Param;->getVerOffsetAttr()Lcom/rigol/scope/cil/MessageAttr;
 
@@ -2254,13 +2254,13 @@
 
     goto :goto_0
 
-    .line 1867
+    .line 1872
     :pswitch_4
     invoke-virtual {p2}, Lcom/rigol/scope/data/RefParam$Param;->offsetDown()V
 
     goto :goto_0
 
-    .line 1864
+    .line 1869
     :pswitch_5
     invoke-virtual {p2}, Lcom/rigol/scope/data/RefParam$Param;->offsetUp()V
 
@@ -2319,7 +2319,7 @@
 
     const/4 v3, 0x1
 
-    .line 1399
+    .line 1404
     invoke-static {v3}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v5
@@ -2332,7 +2332,7 @@
 
     return-void
 
-    .line 1402
+    .line 1407
     :cond_0
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getKeyCode()I
 
@@ -2373,7 +2373,7 @@
 
     move-object/from16 v6, p8
 
-    .line 1410
+    .line 1415
     invoke-virtual/range {v0 .. v7}, Lcom/rigol/scope/utilities/AorBManager;->selectA(Landroid/view/View;Lcom/rigol/scope/views/spinner/PopupSpinner;Ljava/util/List;Lcom/rigol/scope/adapters/MultiItemTypeAdapter;Lcom/rigol/scope/views/keyboard/KeyboardPopupView;Lcom/rigol/scope/utilities/AorBManager$OnKeyboardItemChangeListener;Lcom/rigol/scope/utilities/AorBManager$OnSpinnerItemChangeListener;)V
 
     goto/16 :goto_0
@@ -2397,7 +2397,7 @@
 
     move-object/from16 v8, p8
 
-    .line 1407
+    .line 1412
     invoke-virtual/range {v0 .. v8}, Lcom/rigol/scope/utilities/AorBManager;->rollA(Landroid/view/KeyEvent;Landroid/view/View;Lcom/rigol/scope/views/spinner/PopupSpinner;Ljava/util/List;Lcom/rigol/scope/adapters/SpinnerAdapter;ZLcom/rigol/scope/views/keyboard/KeyboardPopupView;Lcom/rigol/scope/utilities/AorBManager$OnKeyboardItemChangeListener;)V
 
     goto/16 :goto_0
@@ -2421,7 +2421,7 @@
 
     move-object/from16 v8, p8
 
-    .line 1404
+    .line 1409
     invoke-virtual/range {v0 .. v8}, Lcom/rigol/scope/utilities/AorBManager;->rollA(Landroid/view/KeyEvent;Landroid/view/View;Lcom/rigol/scope/views/spinner/PopupSpinner;Ljava/util/List;Lcom/rigol/scope/adapters/SpinnerAdapter;ZLcom/rigol/scope/views/keyboard/KeyboardPopupView;Lcom/rigol/scope/utilities/AorBManager$OnKeyboardItemChangeListener;)V
 
     goto :goto_0
@@ -2443,7 +2443,7 @@
 
     move-object/from16 v6, p8
 
-    .line 1419
+    .line 1424
     invoke-virtual/range {v0 .. v7}, Lcom/rigol/scope/utilities/AorBManager;->selectB(Landroid/view/View;Lcom/rigol/scope/views/spinner/PopupSpinner;Ljava/util/List;Lcom/rigol/scope/adapters/MultiItemTypeAdapter;Lcom/rigol/scope/views/keyboard/KeyboardPopupView;Lcom/rigol/scope/utilities/AorBManager$OnKeyboardItemChangeListener;Lcom/rigol/scope/utilities/AorBManager$OnSpinnerItemChangeListener;)V
 
     goto :goto_0
@@ -2467,7 +2467,7 @@
 
     move-object/from16 v8, p8
 
-    .line 1416
+    .line 1421
     invoke-virtual/range {v0 .. v8}, Lcom/rigol/scope/utilities/AorBManager;->rollB(Landroid/view/KeyEvent;Landroid/view/View;Lcom/rigol/scope/views/spinner/PopupSpinner;Ljava/util/List;Lcom/rigol/scope/adapters/SpinnerAdapter;ZLcom/rigol/scope/views/keyboard/KeyboardPopupView;Lcom/rigol/scope/utilities/AorBManager$OnKeyboardItemChangeListener;)V
 
     goto :goto_0
@@ -2491,18 +2491,18 @@
 
     move-object/from16 v8, p8
 
-    .line 1413
+    .line 1418
     invoke-virtual/range {v0 .. v8}, Lcom/rigol/scope/utilities/AorBManager;->rollB(Landroid/view/KeyEvent;Landroid/view/View;Lcom/rigol/scope/views/spinner/PopupSpinner;Ljava/util/List;Lcom/rigol/scope/adapters/SpinnerAdapter;ZLcom/rigol/scope/views/keyboard/KeyboardPopupView;Lcom/rigol/scope/utilities/AorBManager$OnKeyboardItemChangeListener;)V
 
     goto :goto_0
 
-    .line 1425
+    .line 1430
     :cond_1
     invoke-virtual {p6, p1, v4}, Lcom/rigol/scope/utilities/AorBManager;->rollTrigger(Landroid/view/KeyEvent;Z)V
 
     goto :goto_0
 
-    .line 1422
+    .line 1427
     :cond_2
     invoke-virtual {p6, p1, v3}, Lcom/rigol/scope/utilities/AorBManager;->rollTrigger(Landroid/view/KeyEvent;Z)V
 
@@ -2554,7 +2554,7 @@
 
     return-void
 
-    .line 1355
+    .line 1360
     :cond_0
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getKeyCode()I
 
@@ -2595,7 +2595,7 @@
 
     move-object/from16 v7, p9
 
-    .line 1363
+    .line 1368
     invoke-virtual/range {v0 .. v7}, Lcom/rigol/scope/utilities/AorBManager;->selectA(Landroid/view/View;Lcom/rigol/scope/views/spinner/PopupSpinner;Ljava/util/List;Lcom/rigol/scope/adapters/MultiItemTypeAdapter;Lcom/rigol/scope/views/keyboard/KeyboardPopupView;Lcom/rigol/scope/utilities/AorBManager$OnKeyboardItemChangeListener;Lcom/rigol/scope/utilities/AorBManager$OnSpinnerItemChangeListener;)V
 
     goto/16 :goto_0
@@ -2619,7 +2619,7 @@
 
     move-object/from16 v8, p8
 
-    .line 1360
+    .line 1365
     invoke-virtual/range {v0 .. v8}, Lcom/rigol/scope/utilities/AorBManager;->rollA(Landroid/view/KeyEvent;Landroid/view/View;Lcom/rigol/scope/views/spinner/PopupSpinner;Ljava/util/List;Lcom/rigol/scope/adapters/SpinnerAdapter;ZLcom/rigol/scope/views/keyboard/KeyboardPopupView;Lcom/rigol/scope/utilities/AorBManager$OnKeyboardItemChangeListener;)V
 
     goto/16 :goto_0
@@ -2643,7 +2643,7 @@
 
     move-object/from16 v8, p8
 
-    .line 1357
+    .line 1362
     invoke-virtual/range {v0 .. v8}, Lcom/rigol/scope/utilities/AorBManager;->rollA(Landroid/view/KeyEvent;Landroid/view/View;Lcom/rigol/scope/views/spinner/PopupSpinner;Ljava/util/List;Lcom/rigol/scope/adapters/SpinnerAdapter;ZLcom/rigol/scope/views/keyboard/KeyboardPopupView;Lcom/rigol/scope/utilities/AorBManager$OnKeyboardItemChangeListener;)V
 
     goto :goto_0
@@ -2665,7 +2665,7 @@
 
     move-object/from16 v7, p9
 
-    .line 1372
+    .line 1377
     invoke-virtual/range {v0 .. v7}, Lcom/rigol/scope/utilities/AorBManager;->selectB(Landroid/view/View;Lcom/rigol/scope/views/spinner/PopupSpinner;Ljava/util/List;Lcom/rigol/scope/adapters/MultiItemTypeAdapter;Lcom/rigol/scope/views/keyboard/KeyboardPopupView;Lcom/rigol/scope/utilities/AorBManager$OnKeyboardItemChangeListener;Lcom/rigol/scope/utilities/AorBManager$OnSpinnerItemChangeListener;)V
 
     goto :goto_0
@@ -2689,7 +2689,7 @@
 
     move-object/from16 v8, p8
 
-    .line 1369
+    .line 1374
     invoke-virtual/range {v0 .. v8}, Lcom/rigol/scope/utilities/AorBManager;->rollB(Landroid/view/KeyEvent;Landroid/view/View;Lcom/rigol/scope/views/spinner/PopupSpinner;Ljava/util/List;Lcom/rigol/scope/adapters/SpinnerAdapter;ZLcom/rigol/scope/views/keyboard/KeyboardPopupView;Lcom/rigol/scope/utilities/AorBManager$OnKeyboardItemChangeListener;)V
 
     goto :goto_0
@@ -2713,7 +2713,7 @@
 
     move-object/from16 v8, p8
 
-    .line 1366
+    .line 1371
     invoke-virtual/range {v0 .. v8}, Lcom/rigol/scope/utilities/AorBManager;->rollB(Landroid/view/KeyEvent;Landroid/view/View;Lcom/rigol/scope/views/spinner/PopupSpinner;Ljava/util/List;Lcom/rigol/scope/adapters/SpinnerAdapter;ZLcom/rigol/scope/views/keyboard/KeyboardPopupView;Lcom/rigol/scope/utilities/AorBManager$OnKeyboardItemChangeListener;)V
 
     goto :goto_0
@@ -2721,7 +2721,7 @@
     :cond_1
     const/4 v2, 0x0
 
-    .line 1379
+    .line 1384
     invoke-virtual {p6, p1, v2}, Lcom/rigol/scope/utilities/AorBManager;->rollTrigger(Landroid/view/KeyEvent;Z)V
 
     goto :goto_0
@@ -2729,7 +2729,7 @@
     :cond_2
     const/4 v2, 0x1
 
-    .line 1376
+    .line 1381
     invoke-virtual {p6, p1, v2}, Lcom/rigol/scope/utilities/AorBManager;->rollTrigger(Landroid/view/KeyEvent;Z)V
 
     :goto_0
@@ -2779,7 +2779,7 @@
         }
     .end annotation
 
-    .line 1672
+    .line 1677
     sget-object p4, Lcom/rigol/scope/viewmodels/PanelKeyViewModel$2;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$FlexKnobEnum:[I
 
     invoke-virtual {p8}, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->ordinal()I
@@ -2800,7 +2800,7 @@
 
     goto/16 :goto_0
 
-    .line 1730
+    .line 1735
     :pswitch_0
     invoke-interface {p6, p8}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -2812,7 +2812,7 @@
 
     goto/16 :goto_0
 
-    .line 1727
+    .line 1732
     :pswitch_1
     invoke-interface {p6, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -2824,7 +2824,7 @@
 
     goto/16 :goto_0
 
-    .line 1724
+    .line 1729
     :pswitch_2
     invoke-interface {p6, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -2836,7 +2836,7 @@
 
     goto/16 :goto_0
 
-    .line 1721
+    .line 1726
     :pswitch_3
     invoke-interface {p6, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -2851,7 +2851,7 @@
     :pswitch_4
     const/16 p2, 0x9
 
-    .line 1718
+    .line 1723
     invoke-virtual {p5, p2}, Lcom/rigol/scope/data/RefParam;->getParamByValue(I)Lcom/rigol/scope/data/RefParam$Param;
 
     move-result-object p2
@@ -2863,7 +2863,7 @@
     :pswitch_5
     const/16 p2, 0x8
 
-    .line 1715
+    .line 1720
     invoke-virtual {p5, p2}, Lcom/rigol/scope/data/RefParam;->getParamByValue(I)Lcom/rigol/scope/data/RefParam$Param;
 
     move-result-object p2
@@ -2875,7 +2875,7 @@
     :pswitch_6
     const/4 p2, 0x7
 
-    .line 1712
+    .line 1717
     invoke-virtual {p5, p2}, Lcom/rigol/scope/data/RefParam;->getParamByValue(I)Lcom/rigol/scope/data/RefParam$Param;
 
     move-result-object p2
@@ -2887,7 +2887,7 @@
     :pswitch_7
     const/4 p2, 0x6
 
-    .line 1709
+    .line 1714
     invoke-virtual {p5, p2}, Lcom/rigol/scope/data/RefParam;->getParamByValue(I)Lcom/rigol/scope/data/RefParam$Param;
 
     move-result-object p2
@@ -2899,7 +2899,7 @@
     :pswitch_8
     const/4 p2, 0x5
 
-    .line 1706
+    .line 1711
     invoke-virtual {p5, p2}, Lcom/rigol/scope/data/RefParam;->getParamByValue(I)Lcom/rigol/scope/data/RefParam$Param;
 
     move-result-object p2
@@ -2911,7 +2911,7 @@
     :pswitch_9
     const/4 p2, 0x4
 
-    .line 1703
+    .line 1708
     invoke-virtual {p5, p2}, Lcom/rigol/scope/data/RefParam;->getParamByValue(I)Lcom/rigol/scope/data/RefParam$Param;
 
     move-result-object p2
@@ -2920,7 +2920,7 @@
 
     goto :goto_0
 
-    .line 1700
+    .line 1705
     :pswitch_a
     invoke-virtual {p5, p8}, Lcom/rigol/scope/data/RefParam;->getParamByValue(I)Lcom/rigol/scope/data/RefParam$Param;
 
@@ -2930,7 +2930,7 @@
 
     goto :goto_0
 
-    .line 1697
+    .line 1702
     :pswitch_b
     invoke-virtual {p5, v0}, Lcom/rigol/scope/data/RefParam;->getParamByValue(I)Lcom/rigol/scope/data/RefParam$Param;
 
@@ -2940,7 +2940,7 @@
 
     goto :goto_0
 
-    .line 1694
+    .line 1699
     :pswitch_c
     invoke-virtual {p5, v1}, Lcom/rigol/scope/data/RefParam;->getParamByValue(I)Lcom/rigol/scope/data/RefParam$Param;
 
@@ -2950,7 +2950,7 @@
 
     goto :goto_0
 
-    .line 1691
+    .line 1696
     :pswitch_d
     invoke-virtual {p5, v2}, Lcom/rigol/scope/data/RefParam;->getParamByValue(I)Lcom/rigol/scope/data/RefParam$Param;
 
@@ -2960,7 +2960,7 @@
 
     goto :goto_0
 
-    .line 1688
+    .line 1693
     :pswitch_e
     invoke-interface {p3, p8}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -2972,7 +2972,7 @@
 
     goto :goto_0
 
-    .line 1685
+    .line 1690
     :pswitch_f
     invoke-interface {p3, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -2984,7 +2984,7 @@
 
     goto :goto_0
 
-    .line 1682
+    .line 1687
     :pswitch_10
     invoke-interface {p3, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -2996,7 +2996,7 @@
 
     goto :goto_0
 
-    .line 1679
+    .line 1684
     :pswitch_11
     invoke-interface {p3, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -3008,7 +3008,7 @@
 
     goto :goto_0
 
-    .line 1674
+    .line 1679
     :pswitch_12
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
@@ -3022,7 +3022,7 @@
 
     if-eqz p3, :cond_0
 
-    .line 1675
+    .line 1680
     invoke-virtual {p0, p1, p2, p7}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->rollCursor(Landroid/view/KeyEvent;Lcom/rigol/scope/data/CursorResultParam;Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;)V
 
     :cond_0
@@ -3111,7 +3111,7 @@
         }
     .end annotation
 
-    .line 1575
+    .line 1580
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v0
@@ -3124,7 +3124,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 1576
+    .line 1581
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v0
@@ -3137,7 +3137,7 @@
 
     check-cast v0, Lcom/rigol/scope/views/knob/FlexKnobPopupView;
 
-    .line 1577
+    .line 1582
     invoke-virtual {v0}, Lcom/rigol/scope/views/knob/FlexKnobPopupView;->dismiss()V
 
     :cond_0
@@ -3159,7 +3159,7 @@
 
     move-object/from16 v8, p9
 
-    .line 1579
+    .line 1584
     invoke-virtual/range {v0 .. v8}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->manualDirection(Landroid/view/KeyEvent;Lcom/rigol/scope/data/CursorResultParam;Ljava/util/List;Lcom/rigol/scope/data/DisplayParam;Lcom/rigol/scope/data/RefParam;Ljava/util/List;Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;Lcom/rigol/scope/data/BodeParam;)V
 
     return-void
@@ -3184,7 +3184,7 @@
 
     if-eqz p1, :cond_11
 
-    .line 1272
+    .line 1277
     invoke-virtual/range {p1 .. p1}, Lcom/rigol/scope/data/HorizontalParam;->getTimeMode()Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
     move-result-object v1
@@ -3197,20 +3197,20 @@
 
     goto/16 :goto_1
 
-    .line 1275
+    .line 1280
     :cond_0
     invoke-virtual/range {p3 .. p3}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
 
-    .line 1277
+    .line 1282
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Chan;->acline:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     const-wide/16 v3, 0x0
 
     if-ne v1, v2, :cond_1
 
-    .line 1278
+    .line 1283
     invoke-virtual/range {p4 .. p4}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result v1
@@ -3219,13 +3219,13 @@
 
     goto/16 :goto_0
 
-    .line 1281
+    .line 1286
     :cond_1
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Chan;->ext:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     if-ne v1, v2, :cond_c
 
-    .line 1282
+    .line 1287
     invoke-virtual/range {p3 .. p3}, Lcom/rigol/scope/data/TriggerParam;->getLevel()J
 
     move-result-wide v1
@@ -3242,10 +3242,10 @@
 
     if-gez v10, :cond_2
 
-    .line 1286
+    .line 1291
     invoke-virtual {v0, v3, v4}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 1287
+    .line 1292
     invoke-virtual/range {p4 .. p4}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result v1
@@ -3274,7 +3274,7 @@
 
     if-gtz v7, :cond_8
 
-    .line 1289
+    .line 1294
     :cond_4
     div-long v10, v1, v8
 
@@ -3282,14 +3282,14 @@
 
     const-wide/32 v7, 0xf4240
 
-    .line 1291
+    .line 1296
     div-long/2addr v1, v7
 
     const-wide/16 v7, 0xa
 
     rem-long/2addr v1, v7
 
-    .line 1292
+    .line 1297
     invoke-virtual {v0, v10, v11}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
     cmp-long v3, v1, v3
@@ -3309,7 +3309,7 @@
 
     if-gtz v1, :cond_7
 
-    .line 1294
+    .line 1299
     :cond_6
     invoke-virtual/range {p4 .. p4}, Landroid/view/KeyEvent;->getRepeatCount()I
 
@@ -3322,7 +3322,7 @@
     :cond_7
     const-wide/32 v1, -0x1312d00
 
-    .line 1296
+    .line 1301
     invoke-virtual/range {p4 .. p4}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result v3
@@ -3351,7 +3351,7 @@
 
     if-gtz v7, :cond_b
 
-    .line 1300
+    .line 1305
     :cond_a
     invoke-virtual/range {p4 .. p4}, Landroid/view/KeyEvent;->getRepeatCount()I
 
@@ -3364,10 +3364,10 @@
     :cond_b
     const-wide v1, -0x1dcd65000L
 
-    .line 1302
+    .line 1307
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 1303
+    .line 1308
     invoke-virtual/range {p4 .. p4}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result v1
@@ -3376,7 +3376,7 @@
 
     goto/16 :goto_0
 
-    .line 1307
+    .line 1312
     :cond_c
     iget v2, v1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
@@ -3394,7 +3394,7 @@
 
     if-gt v2, v5, :cond_e
 
-    .line 1310
+    .line 1315
     invoke-virtual/range {p3 .. p3}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
@@ -3405,7 +3405,7 @@
 
     move-result-object v1
 
-    .line 1312
+    .line 1317
     invoke-virtual {v1}, Lcom/rigol/scope/data/VerticalParam;->getScale()J
 
     move-result-wide v1
@@ -3418,17 +3418,17 @@
 
     move-result-wide v1
 
-    .line 1313
+    .line 1318
     invoke-virtual/range {p3 .. p3}, Lcom/rigol/scope/data/TriggerParam;->getChanOffset()J
 
     move-result-wide v5
 
-    .line 1314
+    .line 1319
     invoke-virtual/range {p3 .. p3}, Lcom/rigol/scope/data/TriggerParam;->getChanScale()J
 
     move-result-wide v7
 
-    .line 1315
+    .line 1320
     invoke-virtual/range {p3 .. p3}, Lcom/rigol/scope/data/TriggerParam;->getLevel()J
 
     move-result-wide v9
@@ -3461,7 +3461,7 @@
 
     neg-long v1, v1
 
-    .line 1317
+    .line 1322
     invoke-virtual/range {p4 .. p4}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result v3
@@ -3473,10 +3473,10 @@
     :cond_d
     double-to-long v1, v7
 
-    .line 1319
+    .line 1324
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 1320
+    .line 1325
     invoke-virtual/range {p4 .. p4}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result v1
@@ -3485,7 +3485,7 @@
 
     goto :goto_0
 
-    .line 1322
+    .line 1327
     :cond_e
     iget v2, v1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
@@ -3505,7 +3505,7 @@
 
     const v1, -0x989680
 
-    .line 1324
+    .line 1329
     invoke-virtual/range {p3 .. p3}, Lcom/rigol/scope/data/TriggerParam;->getLevel()J
 
     move-result-wide v2
@@ -3534,7 +3534,7 @@
 
     const/4 v3, 0x1
 
-    .line 1325
+    .line 1330
     invoke-virtual/range {p3 .. p3}, Lcom/rigol/scope/data/TriggerParam;->getLevelAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v4
@@ -3554,14 +3554,14 @@
     :cond_f
     int-to-long v1, v1
 
-    .line 1326
+    .line 1331
     invoke-virtual/range {p4 .. p4}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result v3
 
     invoke-virtual {v0, v1, v2, v3}, Lcom/rigol/scope/data/TriggerParam;->saveLevel(JI)V
 
-    .line 1330
+    .line 1335
     :cond_10
     :goto_0
     invoke-virtual/range {p3 .. p4}, Lcom/rigol/scope/data/TriggerParam;->releaseCurrentKeyEvent(Landroid/view/KeyEvent;)V
@@ -3588,7 +3588,7 @@
 
     if-eqz p1, :cond_19
 
-    .line 1171
+    .line 1176
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getTimeMode()Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
     move-result-object p1
@@ -3601,20 +3601,20 @@
 
     goto/16 :goto_2
 
-    .line 1176
+    .line 1181
     :cond_0
     invoke-virtual {p3}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object p1
 
-    .line 1178
+    .line 1183
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->acline:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     const-wide/16 v1, 0x0
 
     if-ne p1, v0, :cond_1
 
-    .line 1179
+    .line 1184
     invoke-virtual {p4}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result p1
@@ -3623,13 +3623,13 @@
 
     goto/16 :goto_2
 
-    .line 1182
+    .line 1187
     :cond_1
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->ext:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     if-ne p1, v0, :cond_c
 
-    .line 1183
+    .line 1188
     invoke-virtual {p3}, Lcom/rigol/scope/data/TriggerParam;->getLevel()J
 
     move-result-wide p1
@@ -3646,10 +3646,10 @@
 
     if-gez v5, :cond_2
 
-    .line 1187
+    .line 1192
     invoke-virtual {p3, v1, v2}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 1188
+    .line 1193
     invoke-virtual {p4}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result p1
@@ -3678,7 +3678,7 @@
 
     if-gtz v0, :cond_8
 
-    .line 1190
+    .line 1195
     :cond_4
     div-long v5, p1, v3
 
@@ -3686,14 +3686,14 @@
 
     const-wide/32 v7, 0xf4240
 
-    .line 1192
+    .line 1197
     div-long/2addr p1, v7
 
     const-wide/16 v7, 0xa
 
     rem-long/2addr p1, v7
 
-    .line 1193
+    .line 1198
     invoke-virtual {p3, v5, v6}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
     cmp-long v0, p1, v1
@@ -3713,7 +3713,7 @@
 
     if-gtz p1, :cond_7
 
-    .line 1195
+    .line 1200
     :cond_6
     invoke-virtual {p4}, Landroid/view/KeyEvent;->getRepeatCount()I
 
@@ -3726,7 +3726,7 @@
     :cond_7
     const-wide/32 p1, 0x1312d00
 
-    .line 1197
+    .line 1202
     invoke-virtual {p4}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result p4
@@ -3755,7 +3755,7 @@
 
     if-gtz v0, :cond_b
 
-    .line 1200
+    .line 1205
     :cond_a
     invoke-virtual {p4}, Landroid/view/KeyEvent;->getRepeatCount()I
 
@@ -3768,10 +3768,10 @@
     :cond_b
     const-wide p1, 0x1dcd65000L
 
-    .line 1202
+    .line 1207
     invoke-virtual {p3, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 1203
+    .line 1208
     invoke-virtual {p4}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result p1
@@ -3780,7 +3780,7 @@
 
     goto/16 :goto_2
 
-    .line 1207
+    .line 1212
     :cond_c
     iget v0, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
@@ -3804,7 +3804,7 @@
 
     const/4 p1, 0x5
 
-    .line 1210
+    .line 1215
     invoke-virtual {p3}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
@@ -3821,12 +3821,12 @@
 
     aput-object p2, p1, v4
 
-    .line 1212
+    .line 1217
     invoke-static {p1}, Lcom/blankj/utilcode/util/LogUtils;->e([Ljava/lang/Object;)V
 
     return-void
 
-    .line 1216
+    .line 1221
     :cond_d
     invoke-virtual {p2}, Lcom/rigol/scope/data/VerticalParam;->getScale()J
 
@@ -3840,22 +3840,22 @@
 
     move-result-wide v3
 
-    .line 1217
+    .line 1222
     invoke-virtual {p3}, Lcom/rigol/scope/data/TriggerParam;->getChanOffset()J
 
     move-result-wide v5
 
-    .line 1218
+    .line 1223
     invoke-virtual {p3}, Lcom/rigol/scope/data/TriggerParam;->getChanScale()J
 
     move-result-wide v7
 
-    .line 1219
+    .line 1224
     invoke-virtual {p3}, Lcom/rigol/scope/data/TriggerParam;->getLevel()J
 
     move-result-wide v9
 
-    .line 1220
+    .line 1225
     invoke-virtual {p3}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
     move-result-object p2
@@ -3864,7 +3864,7 @@
 
     if-ne p2, v0, :cond_f
 
-    .line 1221
+    .line 1226
     invoke-virtual {p3}, Lcom/rigol/scope/data/TriggerParam;->getSlopeTrigger_Level_ID()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     move-result-object p2
@@ -3873,14 +3873,14 @@
 
     if-ne p2, v0, :cond_e
 
-    .line 1222
+    .line 1227
     invoke-virtual {p3}, Lcom/rigol/scope/data/TriggerParam;->getSlopelevelB()J
 
     move-result-wide v9
 
     goto/16 :goto_0
 
-    .line 1223
+    .line 1228
     :cond_e
     invoke-virtual {p3}, Lcom/rigol/scope/data/TriggerParam;->getSlopeTrigger_Level_ID()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
@@ -3890,14 +3890,14 @@
 
     if-ne p2, v0, :cond_15
 
-    .line 1224
+    .line 1229
     invoke-virtual {p3}, Lcom/rigol/scope/data/TriggerParam;->getSlopelevelA()J
 
     move-result-wide v9
 
     goto :goto_0
 
-    .line 1226
+    .line 1231
     :cond_f
     invoke-virtual {p3}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -3907,7 +3907,7 @@
 
     if-ne p2, v0, :cond_11
 
-    .line 1227
+    .line 1232
     invoke-virtual {p3}, Lcom/rigol/scope/data/TriggerParam;->getRuntTrigger_Level_ID()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     move-result-object p2
@@ -3916,14 +3916,14 @@
 
     if-ne p2, v0, :cond_10
 
-    .line 1228
+    .line 1233
     invoke-virtual {p3}, Lcom/rigol/scope/data/TriggerParam;->getRuntlevelB()J
 
     move-result-wide v9
 
     goto :goto_0
 
-    .line 1229
+    .line 1234
     :cond_10
     invoke-virtual {p3}, Lcom/rigol/scope/data/TriggerParam;->getRuntTrigger_Level_ID()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
@@ -3933,14 +3933,14 @@
 
     if-ne p2, v0, :cond_15
 
-    .line 1230
+    .line 1235
     invoke-virtual {p3}, Lcom/rigol/scope/data/TriggerParam;->getRuntlevelA()J
 
     move-result-wide v9
 
     goto :goto_0
 
-    .line 1232
+    .line 1237
     :cond_11
     invoke-virtual {p3}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -3950,7 +3950,7 @@
 
     if-ne p2, v0, :cond_13
 
-    .line 1233
+    .line 1238
     invoke-virtual {p3}, Lcom/rigol/scope/data/TriggerParam;->getOverTrigger_Level_ID()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     move-result-object p2
@@ -3959,14 +3959,14 @@
 
     if-ne p2, v0, :cond_12
 
-    .line 1234
+    .line 1239
     invoke-virtual {p3}, Lcom/rigol/scope/data/TriggerParam;->getOverlevelB()J
 
     move-result-wide v9
 
     goto :goto_0
 
-    .line 1235
+    .line 1240
     :cond_12
     invoke-virtual {p3}, Lcom/rigol/scope/data/TriggerParam;->getOverTrigger_Level_ID()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
@@ -3976,14 +3976,14 @@
 
     if-ne p2, v0, :cond_15
 
-    .line 1236
+    .line 1241
     invoke-virtual {p3}, Lcom/rigol/scope/data/TriggerParam;->getOverlevelA()J
 
     move-result-wide v9
 
     goto :goto_0
 
-    .line 1238
+    .line 1243
     :cond_13
     invoke-virtual {p3}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -3993,7 +3993,7 @@
 
     if-ne p2, v0, :cond_15
 
-    .line 1239
+    .line 1244
     invoke-virtual {p3}, Lcom/rigol/scope/data/TriggerParam;->getMilstdTrigger_Level_ID()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     move-result-object p2
@@ -4002,14 +4002,14 @@
 
     if-ne p2, v0, :cond_14
 
-    .line 1240
+    .line 1245
     invoke-virtual {p3}, Lcom/rigol/scope/data/TriggerParam;->getMilstdlevelB()J
 
     move-result-wide v9
 
     goto :goto_0
 
-    .line 1241
+    .line 1246
     :cond_14
     invoke-virtual {p3}, Lcom/rigol/scope/data/TriggerParam;->getMilstdTrigger_Level_ID()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
@@ -4019,7 +4019,7 @@
 
     if-ne p2, v0, :cond_15
 
-    .line 1242
+    .line 1247
     invoke-virtual {p3}, Lcom/rigol/scope/data/TriggerParam;->getMilstdlevelA()J
 
     move-result-wide v9
@@ -4050,7 +4050,7 @@
 
     if-gtz v0, :cond_16
 
-    .line 1247
+    .line 1252
     invoke-virtual {p4}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result p1
@@ -4062,23 +4062,23 @@
     :cond_16
     double-to-long p1, p1
 
-    .line 1249
+    .line 1254
     invoke-virtual {p3, p1, p2}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 1250
+    .line 1255
     invoke-virtual {p4}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result p1
 
     invoke-virtual {p3, v1, v2, p1}, Lcom/rigol/scope/data/TriggerParam;->saveLevel(JI)V
 
-    .line 1253
+    .line 1258
     :goto_1
     invoke-virtual {p3, p4}, Lcom/rigol/scope/data/TriggerParam;->releaseCurrentKeyEvent(Landroid/view/KeyEvent;)V
 
     goto :goto_2
 
-    .line 1254
+    .line 1259
     :cond_17
     iget p2, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
@@ -4098,7 +4098,7 @@
 
     const p1, 0x989680
 
-    .line 1256
+    .line 1261
     invoke-virtual {p3}, Lcom/rigol/scope/data/TriggerParam;->getLevel()J
 
     move-result-wide v0
@@ -4123,7 +4123,7 @@
 
     aput-object v0, p2, v4
 
-    .line 1257
+    .line 1262
     invoke-virtual {p3}, Lcom/rigol/scope/data/TriggerParam;->getLevelAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -4143,7 +4143,7 @@
     :cond_18
     int-to-long p1, p1
 
-    .line 1258
+    .line 1263
     invoke-virtual {p4}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result p4
@@ -4158,12 +4158,12 @@
 .method public handleOffsetCCW(Lcom/rigol/scope/data/HorizontalParam;I)V
     .locals 8
 
-    .line 1097
+    .line 1102
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object v0
 
-    .line 1100
+    .line 1105
     check-cast v0, Lcom/rigol/scope/MainActivity;
 
     invoke-virtual {v0}, Lcom/rigol/scope/MainActivity;->isMotorShowing()Z
@@ -4174,7 +4174,7 @@
 
     return-void
 
-    .line 1106
+    .line 1111
     :cond_0
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->isZoom()Z
 
@@ -4182,7 +4182,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 1107
+    .line 1112
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
     move-result-wide v2
@@ -4199,7 +4199,7 @@
 
     move-result-wide v0
 
-    .line 1109
+    .line 1114
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getTimeMode()Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
     move-result-object p2
@@ -4208,18 +4208,18 @@
 
     if-eq p2, v2, :cond_1
 
-    .line 1110
+    .line 1115
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/HorizontalParam;->moveZoomOffset(J)V
 
     goto :goto_0
 
-    .line 1112
+    .line 1117
     :cond_1
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/HorizontalParam;->moveZoomOffset(J)V
 
     goto :goto_0
 
-    .line 1118
+    .line 1123
     :cond_2
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getTimeMode()Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
@@ -4229,7 +4229,7 @@
 
     if-ne v0, v1, :cond_3
 
-    .line 1119
+    .line 1124
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getRunStop()Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
     move-result-object v0
@@ -4240,7 +4240,7 @@
 
     return-void
 
-    .line 1122
+    .line 1127
     :cond_3
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
 
@@ -4258,7 +4258,7 @@
 
     move-result-wide v0
 
-    .line 1123
+    .line 1128
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getTimeMode()Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
     move-result-object p2
@@ -4267,12 +4267,12 @@
 
     if-eq p2, v2, :cond_4
 
-    .line 1124
+    .line 1129
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/HorizontalParam;->moveMainOffset(J)V
 
     goto :goto_0
 
-    .line 1126
+    .line 1131
     :cond_4
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/HorizontalParam;->moveMainOffset(J)V
 
@@ -4283,12 +4283,12 @@
 .method public handleOffsetCW(Lcom/rigol/scope/data/HorizontalParam;I)V
     .locals 8
 
-    .line 1057
+    .line 1062
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object v0
 
-    .line 1059
+    .line 1064
     check-cast v0, Lcom/rigol/scope/MainActivity;
 
     invoke-virtual {v0}, Lcom/rigol/scope/MainActivity;->isMotorShowing()Z
@@ -4299,7 +4299,7 @@
 
     return-void
 
-    .line 1065
+    .line 1070
     :cond_0
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->isZoom()Z
 
@@ -4307,7 +4307,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 1066
+    .line 1071
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getZoomScale()J
 
     move-result-wide v2
@@ -4324,7 +4324,7 @@
 
     move-result-wide v0
 
-    .line 1068
+    .line 1073
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getTimeMode()Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
     move-result-object p2
@@ -4333,18 +4333,18 @@
 
     if-eq p2, v2, :cond_1
 
-    .line 1069
+    .line 1074
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/HorizontalParam;->moveZoomOffset(J)V
 
     goto :goto_0
 
-    .line 1071
+    .line 1076
     :cond_1
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/HorizontalParam;->moveZoomOffset(J)V
 
     goto :goto_0
 
-    .line 1077
+    .line 1082
     :cond_2
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getTimeMode()Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
@@ -4354,7 +4354,7 @@
 
     if-ne v0, v1, :cond_3
 
-    .line 1078
+    .line 1083
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getRunStop()Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
     move-result-object v0
@@ -4365,7 +4365,7 @@
 
     return-void
 
-    .line 1081
+    .line 1086
     :cond_3
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getMainScale()J
 
@@ -4383,7 +4383,7 @@
 
     move-result-wide v0
 
-    .line 1082
+    .line 1087
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getTimeMode()Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
     move-result-object p2
@@ -4392,12 +4392,12 @@
 
     if-eq p2, v2, :cond_4
 
-    .line 1083
+    .line 1088
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/HorizontalParam;->moveMainOffset(J)V
 
     goto :goto_0
 
-    .line 1085
+    .line 1090
     :cond_4
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/HorizontalParam;->moveMainOffset(J)V
 
@@ -4426,7 +4426,7 @@
         }
     .end annotation
 
-    .line 1594
+    .line 1599
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object v0
@@ -4435,7 +4435,7 @@
 
     move-result-object v0
 
-    .line 1595
+    .line 1600
     sget-object v1, Lcom/rigol/scope/viewmodels/PanelKeyViewModel$2;->$SwitchMap$com$rigol$scope$cil$ServiceEnum$FlexKnobEnum:[I
 
     invoke-virtual {v0}, Lcom/rigol/scope/cil/ServiceEnum$FlexKnobEnum;->ordinal()I
@@ -4456,13 +4456,13 @@
 
     goto/16 :goto_0
 
-    .line 1654
+    .line 1659
     :pswitch_0
     invoke-virtual {p0, p1, p4, p8}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->rollIntensity(Landroid/view/KeyEvent;Lcom/rigol/scope/data/DisplayParam;Lcom/rigol/scope/data/BodeParam;)V
 
     goto/16 :goto_0
 
-    .line 1651
+    .line 1656
     :pswitch_1
     invoke-interface {p6, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -4474,7 +4474,7 @@
 
     goto/16 :goto_0
 
-    .line 1648
+    .line 1653
     :pswitch_2
     invoke-interface {p6, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -4486,7 +4486,7 @@
 
     goto/16 :goto_0
 
-    .line 1645
+    .line 1650
     :pswitch_3
     invoke-interface {p6, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -4498,7 +4498,7 @@
 
     goto/16 :goto_0
 
-    .line 1642
+    .line 1647
     :pswitch_4
     invoke-interface {p6, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -4513,7 +4513,7 @@
     :pswitch_5
     const/16 p2, 0x9
 
-    .line 1639
+    .line 1644
     invoke-virtual {p5, p2}, Lcom/rigol/scope/data/RefParam;->getParamByValue(I)Lcom/rigol/scope/data/RefParam$Param;
 
     move-result-object p2
@@ -4525,7 +4525,7 @@
     :pswitch_6
     const/16 p2, 0x8
 
-    .line 1636
+    .line 1641
     invoke-virtual {p5, p2}, Lcom/rigol/scope/data/RefParam;->getParamByValue(I)Lcom/rigol/scope/data/RefParam$Param;
 
     move-result-object p2
@@ -4537,7 +4537,7 @@
     :pswitch_7
     const/4 p2, 0x7
 
-    .line 1633
+    .line 1638
     invoke-virtual {p5, p2}, Lcom/rigol/scope/data/RefParam;->getParamByValue(I)Lcom/rigol/scope/data/RefParam$Param;
 
     move-result-object p2
@@ -4549,7 +4549,7 @@
     :pswitch_8
     const/4 p2, 0x6
 
-    .line 1630
+    .line 1635
     invoke-virtual {p5, p2}, Lcom/rigol/scope/data/RefParam;->getParamByValue(I)Lcom/rigol/scope/data/RefParam$Param;
 
     move-result-object p2
@@ -4561,7 +4561,7 @@
     :pswitch_9
     const/4 p2, 0x5
 
-    .line 1627
+    .line 1632
     invoke-virtual {p5, p2}, Lcom/rigol/scope/data/RefParam;->getParamByValue(I)Lcom/rigol/scope/data/RefParam$Param;
 
     move-result-object p2
@@ -4573,7 +4573,7 @@
     :pswitch_a
     const/4 p2, 0x4
 
-    .line 1624
+    .line 1629
     invoke-virtual {p5, p2}, Lcom/rigol/scope/data/RefParam;->getParamByValue(I)Lcom/rigol/scope/data/RefParam$Param;
 
     move-result-object p2
@@ -4582,7 +4582,7 @@
 
     goto :goto_0
 
-    .line 1621
+    .line 1626
     :pswitch_b
     invoke-virtual {p5, v1}, Lcom/rigol/scope/data/RefParam;->getParamByValue(I)Lcom/rigol/scope/data/RefParam$Param;
 
@@ -4592,7 +4592,7 @@
 
     goto :goto_0
 
-    .line 1618
+    .line 1623
     :pswitch_c
     invoke-virtual {p5, v2}, Lcom/rigol/scope/data/RefParam;->getParamByValue(I)Lcom/rigol/scope/data/RefParam$Param;
 
@@ -4602,7 +4602,7 @@
 
     goto :goto_0
 
-    .line 1615
+    .line 1620
     :pswitch_d
     invoke-virtual {p5, v3}, Lcom/rigol/scope/data/RefParam;->getParamByValue(I)Lcom/rigol/scope/data/RefParam$Param;
 
@@ -4612,7 +4612,7 @@
 
     goto :goto_0
 
-    .line 1612
+    .line 1617
     :pswitch_e
     invoke-virtual {p5, v4}, Lcom/rigol/scope/data/RefParam;->getParamByValue(I)Lcom/rigol/scope/data/RefParam$Param;
 
@@ -4622,7 +4622,7 @@
 
     goto :goto_0
 
-    .line 1609
+    .line 1614
     :pswitch_f
     invoke-interface {p3, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -4634,7 +4634,7 @@
 
     goto :goto_0
 
-    .line 1606
+    .line 1611
     :pswitch_10
     invoke-interface {p3, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -4646,7 +4646,7 @@
 
     goto :goto_0
 
-    .line 1603
+    .line 1608
     :pswitch_11
     invoke-interface {p3, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -4658,7 +4658,7 @@
 
     goto :goto_0
 
-    .line 1600
+    .line 1605
     :pswitch_12
     invoke-interface {p3, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -4670,7 +4670,7 @@
 
     goto :goto_0
 
-    .line 1597
+    .line 1602
     :pswitch_13
     invoke-virtual {p0, p1, p2, p7}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->rollCursor(Landroid/view/KeyEvent;Lcom/rigol/scope/data/CursorResultParam;Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;)V
 
@@ -4705,7 +4705,7 @@
 .method public mathArithmetic(Landroid/view/KeyEvent;Lcom/rigol/scope/data/MathParam;)V
     .locals 2
 
-    .line 1763
+    .line 1768
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getKeyCode()I
 
     move-result p1
@@ -4724,37 +4724,37 @@
 
     goto :goto_0
 
-    .line 1765
+    .line 1770
     :pswitch_0
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->scaleReset()V
 
     goto :goto_0
 
-    .line 1774
+    .line 1779
     :pswitch_1
     invoke-virtual {p2, v0}, Lcom/rigol/scope/data/MathParam;->scaleRoll(Z)V
 
     goto :goto_0
 
-    .line 1771
+    .line 1776
     :pswitch_2
     invoke-virtual {p2, v1}, Lcom/rigol/scope/data/MathParam;->scaleRoll(Z)V
 
     goto :goto_0
 
-    .line 1768
+    .line 1773
     :pswitch_3
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->offsetReset()V
 
     goto :goto_0
 
-    .line 1780
+    .line 1785
     :pswitch_4
     invoke-virtual {p2, v0}, Lcom/rigol/scope/data/MathParam;->offsetRoll(Z)V
 
     goto :goto_0
 
-    .line 1777
+    .line 1782
     :pswitch_5
     invoke-virtual {p2, v1}, Lcom/rigol/scope/data/MathParam;->offsetRoll(Z)V
 
@@ -4781,7 +4781,7 @@
 .method public mathFFT(Landroid/view/KeyEvent;Lcom/rigol/scope/data/MathParam;)V
     .locals 3
 
-    .line 1786
+    .line 1791
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getKeyCode()I
 
     move-result v0
@@ -4800,37 +4800,37 @@
 
     goto :goto_0
 
-    .line 1788
+    .line 1793
     :pswitch_0
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->fftCenterReset()V
 
     goto :goto_0
 
-    .line 1797
+    .line 1802
     :pswitch_1
     invoke-virtual {p2, p1, v1}, Lcom/rigol/scope/data/MathParam;->fftCenterRoll(Landroid/view/KeyEvent;Z)V
 
     goto :goto_0
 
-    .line 1794
+    .line 1799
     :pswitch_2
     invoke-virtual {p2, p1, v2}, Lcom/rigol/scope/data/MathParam;->fftCenterRoll(Landroid/view/KeyEvent;Z)V
 
     goto :goto_0
 
-    .line 1791
+    .line 1796
     :pswitch_3
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->fftSpanReset()V
 
     goto :goto_0
 
-    .line 1803
+    .line 1808
     :pswitch_4
     invoke-virtual {p2, p1, v1}, Lcom/rigol/scope/data/MathParam;->fftSpanRoll(Landroid/view/KeyEvent;Z)V
 
     goto :goto_0
 
-    .line 1800
+    .line 1805
     :pswitch_5
     invoke-virtual {p2, p1, v2}, Lcom/rigol/scope/data/MathParam;->fftSpanRoll(Landroid/view/KeyEvent;Z)V
 
@@ -4857,7 +4857,7 @@
 .method public mathFilter(Landroid/view/KeyEvent;Lcom/rigol/scope/data/MathParam;)V
     .locals 0
 
-    .line 1838
+    .line 1843
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->mathArithmetic(Landroid/view/KeyEvent;Lcom/rigol/scope/data/MathParam;)V
 
     return-void
@@ -4866,7 +4866,7 @@
 .method public mathFun(Landroid/view/KeyEvent;Lcom/rigol/scope/data/MathParam;)V
     .locals 0
 
-    .line 1833
+    .line 1838
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->mathArithmetic(Landroid/view/KeyEvent;Lcom/rigol/scope/data/MathParam;)V
 
     return-void
@@ -4875,7 +4875,7 @@
 .method public mathLogic(Landroid/view/KeyEvent;Lcom/rigol/scope/data/MathParam;)V
     .locals 3
 
-    .line 1809
+    .line 1814
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getKeyCode()I
 
     move-result v0
@@ -4894,37 +4894,37 @@
 
     goto :goto_0
 
-    .line 1811
+    .line 1816
     :pswitch_0
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->logicScaleReset()V
 
     goto :goto_0
 
-    .line 1820
+    .line 1825
     :pswitch_1
     invoke-virtual {p2, p1, v1}, Lcom/rigol/scope/data/MathParam;->logicScaleRoll(Landroid/view/KeyEvent;Z)V
 
     goto :goto_0
 
-    .line 1817
+    .line 1822
     :pswitch_2
     invoke-virtual {p2, p1, v2}, Lcom/rigol/scope/data/MathParam;->logicScaleRoll(Landroid/view/KeyEvent;Z)V
 
     goto :goto_0
 
-    .line 1814
+    .line 1819
     :pswitch_3
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->logicOffsetReset()V
 
     goto :goto_0
 
-    .line 1826
+    .line 1831
     :pswitch_4
     invoke-virtual {p2, p1, v1}, Lcom/rigol/scope/data/MathParam;->logicOffsetRoll(Landroid/view/KeyEvent;Z)V
 
     goto :goto_0
 
-    .line 1823
+    .line 1828
     :pswitch_5
     invoke-virtual {p2, p1, v2}, Lcom/rigol/scope/data/MathParam;->logicOffsetRoll(Landroid/view/KeyEvent;Z)V
 
@@ -5001,23 +5001,23 @@
 
     move-object/from16 v6, p11
 
-    if-eqz v2, :cond_5a
+    if-eqz v2, :cond_5b
 
-    if-eqz v3, :cond_5a
+    if-eqz v3, :cond_5b
 
-    if-eqz v4, :cond_5a
+    if-eqz v4, :cond_5b
 
-    if-eqz p6, :cond_5a
+    if-eqz p6, :cond_5b
 
-    if-eqz p7, :cond_5a
+    if-eqz p7, :cond_5b
 
-    if-eqz p8, :cond_5a
+    if-eqz p8, :cond_5b
 
-    if-eqz p9, :cond_5a
+    if-eqz p9, :cond_5b
 
-    if-eqz v5, :cond_5a
+    if-eqz v5, :cond_5b
 
-    if-eqz v6, :cond_5a
+    if-eqz v6, :cond_5b
 
     if-nez p12, :cond_0
 
@@ -5026,19 +5026,19 @@
     :cond_0
     const/4 v7, 0x1
 
-    if-eq v1, v7, :cond_59
+    if-eq v1, v7, :cond_5a
 
     const/16 v8, 0x20
 
-    const v9, 0x7f100377
+    const v9, 0x7f10037a
 
     const/4 v10, 0x0
 
-    if-eq v1, v8, :cond_54
+    if-eq v1, v8, :cond_55
 
     const/16 v8, 0x29
 
-    const/16 v11, 0x5760
+    const/16 v11, 0x5960
 
     const/16 v12, 0xb
 
@@ -5068,7 +5068,7 @@
 
     goto/16 :goto_5
 
-    .line 789
+    .line 794
     :pswitch_0
     invoke-virtual/range {p3 .. p3}, Lcom/rigol/scope/data/HorizontalParam;->getTimeMode()Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
@@ -5080,7 +5080,7 @@
 
     return-void
 
-    .line 792
+    .line 797
     :cond_1
     invoke-virtual/range {p5 .. p5}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
@@ -5092,7 +5092,7 @@
 
     goto/16 :goto_5
 
-    .line 795
+    .line 800
     :cond_2
     invoke-virtual/range {p5 .. p5}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -5102,7 +5102,7 @@
 
     if-ne v1, v2, :cond_5
 
-    .line 796
+    .line 801
     invoke-virtual/range {p5 .. p5}, Lcom/rigol/scope/data/TriggerParam;->getSlopeTrigger_Level_ID()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     move-result-object v1
@@ -5111,7 +5111,7 @@
 
     if-ne v1, v2, :cond_3
 
-    .line 797
+    .line 802
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;->Trigger_Level_Low:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;->value1:I
@@ -5120,7 +5120,7 @@
 
     goto/16 :goto_5
 
-    .line 798
+    .line 803
     :cond_3
     invoke-virtual/range {p5 .. p5}, Lcom/rigol/scope/data/TriggerParam;->getSlopeTrigger_Level_ID()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
@@ -5130,7 +5130,7 @@
 
     if-ne v1, v2, :cond_4
 
-    .line 799
+    .line 804
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;->Trigger_Level_Double:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;->value1:I
@@ -5139,7 +5139,7 @@
 
     goto/16 :goto_5
 
-    .line 801
+    .line 806
     :cond_4
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;->Trigger_Level_High:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
@@ -5149,7 +5149,7 @@
 
     goto/16 :goto_5
 
-    .line 803
+    .line 808
     :cond_5
     invoke-virtual/range {p5 .. p5}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -5159,7 +5159,7 @@
 
     if-ne v1, v2, :cond_8
 
-    .line 804
+    .line 809
     invoke-virtual/range {p5 .. p5}, Lcom/rigol/scope/data/TriggerParam;->getRuntTrigger_Level_ID()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     move-result-object v1
@@ -5168,7 +5168,7 @@
 
     if-ne v1, v2, :cond_6
 
-    .line 805
+    .line 810
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;->Trigger_Level_Low:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;->value1:I
@@ -5177,7 +5177,7 @@
 
     goto/16 :goto_5
 
-    .line 806
+    .line 811
     :cond_6
     invoke-virtual/range {p5 .. p5}, Lcom/rigol/scope/data/TriggerParam;->getRuntTrigger_Level_ID()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
@@ -5187,7 +5187,7 @@
 
     if-ne v1, v2, :cond_7
 
-    .line 807
+    .line 812
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;->Trigger_Level_Double:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;->value1:I
@@ -5196,7 +5196,7 @@
 
     goto/16 :goto_5
 
-    .line 809
+    .line 814
     :cond_7
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;->Trigger_Level_High:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
@@ -5206,7 +5206,7 @@
 
     goto/16 :goto_5
 
-    .line 811
+    .line 816
     :cond_8
     invoke-virtual/range {p5 .. p5}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -5216,7 +5216,7 @@
 
     if-ne v1, v2, :cond_b
 
-    .line 812
+    .line 817
     invoke-virtual/range {p5 .. p5}, Lcom/rigol/scope/data/TriggerParam;->getOverTrigger_Level_ID()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     move-result-object v1
@@ -5225,7 +5225,7 @@
 
     if-ne v1, v2, :cond_9
 
-    .line 813
+    .line 818
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;->Trigger_Level_Low:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;->value1:I
@@ -5234,7 +5234,7 @@
 
     goto/16 :goto_5
 
-    .line 814
+    .line 819
     :cond_9
     invoke-virtual/range {p5 .. p5}, Lcom/rigol/scope/data/TriggerParam;->getOverTrigger_Level_ID()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
@@ -5244,7 +5244,7 @@
 
     if-ne v1, v2, :cond_a
 
-    .line 815
+    .line 820
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;->Trigger_Level_Double:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;->value1:I
@@ -5253,7 +5253,7 @@
 
     goto/16 :goto_5
 
-    .line 817
+    .line 822
     :cond_a
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;->Trigger_Level_High:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
@@ -5263,7 +5263,7 @@
 
     goto/16 :goto_5
 
-    .line 819
+    .line 824
     :cond_b
     invoke-virtual/range {p5 .. p5}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -5273,7 +5273,7 @@
 
     if-ne v1, v2, :cond_e
 
-    .line 820
+    .line 825
     invoke-virtual/range {p5 .. p5}, Lcom/rigol/scope/data/TriggerParam;->getMilstdTrigger_Level_ID()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     move-result-object v1
@@ -5282,7 +5282,7 @@
 
     if-ne v1, v2, :cond_c
 
-    .line 821
+    .line 826
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;->Trigger_Level_Low:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;->value1:I
@@ -5291,7 +5291,7 @@
 
     goto/16 :goto_5
 
-    .line 822
+    .line 827
     :cond_c
     invoke-virtual/range {p5 .. p5}, Lcom/rigol/scope/data/TriggerParam;->getMilstdTrigger_Level_ID()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
@@ -5301,7 +5301,7 @@
 
     if-ne v1, v2, :cond_d
 
-    .line 823
+    .line 828
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;->Trigger_Level_Double:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;->value1:I
@@ -5310,7 +5310,7 @@
 
     goto/16 :goto_5
 
-    .line 825
+    .line 830
     :cond_d
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;->Trigger_Level_High:Lcom/rigol/scope/cil/ServiceEnum$Trigger_Level_ID;
 
@@ -5320,19 +5320,19 @@
 
     goto/16 :goto_5
 
-    .line 828
+    .line 833
     :cond_e
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v1
 
-    const/16 v2, 0x4fac
+    const/16 v2, 0x51ac
 
     invoke-virtual {v1, v8, v2, v10}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
     goto/16 :goto_5
 
-    .line 731
+    .line 736
     :pswitch_1
     invoke-virtual/range {p3 .. p3}, Lcom/rigol/scope/data/HorizontalParam;->getTimeMode()Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
@@ -5344,18 +5344,18 @@
 
     return-void
 
-    .line 734
+    .line 739
     :cond_f
     invoke-virtual/range {p5 .. p5}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
 
-    .line 736
+    .line 741
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Chan;->acline:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     if-ne v1, v2, :cond_10
 
-    .line 737
+    .line 742
     invoke-virtual/range {p2 .. p2}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result v1
@@ -5364,13 +5364,13 @@
 
     goto/16 :goto_5
 
-    .line 740
+    .line 745
     :cond_10
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$Chan;->ext:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     if-ne v1, v2, :cond_1b
 
-    .line 741
+    .line 746
     invoke-virtual/range {p5 .. p5}, Lcom/rigol/scope/data/TriggerParam;->getLevel()J
 
     move-result-wide v1
@@ -5383,10 +5383,10 @@
 
     if-gez v7, :cond_11
 
-    .line 745
+    .line 750
     invoke-virtual {v4, v13, v14}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 746
+    .line 751
     invoke-virtual/range {p2 .. p2}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result v1
@@ -5411,20 +5411,20 @@
 
     if-gtz v3, :cond_17
 
-    .line 748
+    .line 753
     :cond_13
     div-long v7, v1, v11
 
     mul-long/2addr v7, v11
 
-    .line 750
+    .line 755
     div-long/2addr v1, v15
 
     const-wide/16 v9, 0xa
 
     rem-long/2addr v1, v9
 
-    .line 751
+    .line 756
     invoke-virtual {v4, v7, v8}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
     cmp-long v3, v1, v13
@@ -5444,7 +5444,7 @@
 
     if-gtz v1, :cond_16
 
-    .line 753
+    .line 758
     :cond_15
     invoke-virtual/range {p2 .. p2}, Landroid/view/KeyEvent;->getRepeatCount()I
 
@@ -5457,7 +5457,7 @@
     :cond_16
     const-wide/32 v1, -0x1312d00
 
-    .line 755
+    .line 760
     invoke-virtual/range {p2 .. p2}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result v3
@@ -5486,7 +5486,7 @@
 
     if-gtz v3, :cond_1a
 
-    .line 758
+    .line 763
     :cond_19
     invoke-virtual/range {p2 .. p2}, Landroid/view/KeyEvent;->getRepeatCount()I
 
@@ -5499,10 +5499,10 @@
     :cond_1a
     const-wide v1, -0x1dcd65000L
 
-    .line 760
+    .line 765
     invoke-virtual {v4, v1, v2}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 761
+    .line 766
     invoke-virtual/range {p2 .. p2}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result v1
@@ -5511,7 +5511,7 @@
 
     goto/16 :goto_5
 
-    .line 765
+    .line 770
     :cond_1b
     iget v2, v1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
@@ -5529,7 +5529,7 @@
 
     if-gt v2, v5, :cond_1d
 
-    .line 768
+    .line 773
     invoke-virtual/range {p5 .. p5}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v1
@@ -5538,7 +5538,7 @@
 
     move-result-object v1
 
-    .line 770
+    .line 775
     invoke-virtual {v1}, Lcom/rigol/scope/data/VerticalParam;->getScale()J
 
     move-result-wide v1
@@ -5551,17 +5551,17 @@
 
     move-result-wide v1
 
-    .line 771
+    .line 776
     invoke-virtual/range {p5 .. p5}, Lcom/rigol/scope/data/TriggerParam;->getChanOffset()J
 
     move-result-wide v5
 
-    .line 772
+    .line 777
     invoke-virtual/range {p5 .. p5}, Lcom/rigol/scope/data/TriggerParam;->getChanScale()J
 
     move-result-wide v7
 
-    .line 773
+    .line 778
     invoke-virtual/range {p5 .. p5}, Lcom/rigol/scope/data/TriggerParam;->getLevel()J
 
     move-result-wide v9
@@ -5592,7 +5592,7 @@
 
     neg-long v1, v1
 
-    .line 775
+    .line 780
     invoke-virtual/range {p2 .. p2}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result v3
@@ -5604,10 +5604,10 @@
     :cond_1c
     double-to-long v1, v7
 
-    .line 777
+    .line 782
     invoke-virtual {v4, v1, v2}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 778
+    .line 783
     invoke-virtual/range {p2 .. p2}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result v1
@@ -5616,7 +5616,7 @@
 
     goto/16 :goto_5
 
-    .line 780
+    .line 785
     :cond_1d
     iget v2, v1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
@@ -5624,7 +5624,7 @@
 
     iget v3, v3, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    if-lt v2, v3, :cond_5a
+    if-lt v2, v3, :cond_5b
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
@@ -5632,11 +5632,11 @@
 
     iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    if-gt v1, v2, :cond_5a
+    if-gt v1, v2, :cond_5b
 
     const v1, -0x989680
 
-    .line 782
+    .line 787
     invoke-virtual/range {p5 .. p5}, Lcom/rigol/scope/data/TriggerParam;->getLevel()J
 
     move-result-wide v2
@@ -5661,7 +5661,7 @@
 
     aput-object v3, v2, v10
 
-    .line 783
+    .line 788
     invoke-virtual/range {p5 .. p5}, Lcom/rigol/scope/data/TriggerParam;->getLevelAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v3
@@ -5681,7 +5681,7 @@
     :cond_1e
     int-to-long v1, v1
 
-    .line 784
+    .line 789
     invoke-virtual/range {p2 .. p2}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result v3
@@ -5690,7 +5690,7 @@
 
     goto/16 :goto_5
 
-    .line 645
+    .line 650
     :pswitch_2
     invoke-virtual/range {p5 .. p5}, Lcom/rigol/scope/data/TriggerParam;->getTrigger_Spi_CS()Lcom/rigol/scope/cil/ServiceEnum$Trigger_Spi_CS;
 
@@ -5708,7 +5708,7 @@
 
     if-ne v1, v7, :cond_21
 
-    .line 648
+    .line 653
     const-class v1, Lcom/rigol/scope/viewmodels/HorizontalViewModel;
 
     invoke-static {v1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -5717,7 +5717,7 @@
 
     check-cast v1, Lcom/rigol/scope/viewmodels/HorizontalViewModel;
 
-    .line 649
+    .line 654
     const-class v2, Lcom/rigol/scope/viewmodels/VerticalViewModel;
 
     invoke-static {v2}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -5728,17 +5728,17 @@
 
     const/4 v3, 0x0
 
-    .line 652
+    .line 657
     new-instance v5, Ljava/util/ArrayList;
 
     invoke-direct {v5}, Ljava/util/ArrayList;-><init>()V
 
     if-eqz v1, :cond_1f
 
-    .line 654
+    .line 659
     invoke-virtual {v1}, Lcom/rigol/scope/viewmodels/HorizontalViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
-    .line 655
+    .line 660
     invoke-virtual {v1}, Lcom/rigol/scope/viewmodels/HorizontalViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v1
@@ -5754,10 +5754,10 @@
     :cond_1f
     if-eqz v2, :cond_20
 
-    .line 659
+    .line 664
     invoke-virtual {v2}, Lcom/rigol/scope/viewmodels/VerticalViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
-    .line 660
+    .line 665
     invoke-virtual {v2}, Lcom/rigol/scope/viewmodels/VerticalViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v1
@@ -5773,7 +5773,7 @@
     :cond_20
     move-object/from16 v1, p2
 
-    .line 663
+    .line 668
     invoke-virtual {v0, v3, v5, v4, v1}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->handleLevelCW(Lcom/rigol/scope/data/HorizontalParam;Ljava/util/List;Lcom/rigol/scope/data/TriggerParam;Landroid/view/KeyEvent;)V
 
     return-void
@@ -5781,7 +5781,7 @@
     :cond_21
     move-object/from16 v1, p2
 
-    .line 667
+    .line 672
     invoke-virtual/range {p3 .. p3}, Lcom/rigol/scope/data/HorizontalParam;->getTimeMode()Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
     move-result-object v2
@@ -5792,18 +5792,18 @@
 
     return-void
 
-    .line 671
+    .line 676
     :cond_22
     invoke-virtual/range {p5 .. p5}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v2
 
-    .line 673
+    .line 678
     sget-object v7, Lcom/rigol/scope/cil/ServiceEnum$Chan;->acline:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     if-ne v2, v7, :cond_23
 
-    .line 675
+    .line 680
     invoke-virtual/range {p2 .. p2}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result v1
@@ -5812,13 +5812,13 @@
 
     goto/16 :goto_5
 
-    .line 678
+    .line 683
     :cond_23
     sget-object v7, Lcom/rigol/scope/cil/ServiceEnum$Chan;->ext:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     if-ne v2, v7, :cond_2e
 
-    .line 680
+    .line 685
     invoke-virtual/range {p5 .. p5}, Lcom/rigol/scope/data/TriggerParam;->getLevel()J
 
     move-result-wide v2
@@ -5831,10 +5831,10 @@
 
     if-gez v6, :cond_24
 
-    .line 684
+    .line 689
     invoke-virtual {v4, v13, v14}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 685
+    .line 690
     invoke-virtual/range {p2 .. p2}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result v1
@@ -5859,20 +5859,20 @@
 
     if-gtz v5, :cond_2a
 
-    .line 687
+    .line 692
     :cond_26
     div-long v5, v2, v11
 
     mul-long/2addr v5, v11
 
-    .line 689
+    .line 694
     div-long/2addr v2, v15
 
     const-wide/16 v7, 0xa
 
     rem-long/2addr v2, v7
 
-    .line 690
+    .line 695
     invoke-virtual {v4, v5, v6}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
     cmp-long v5, v2, v13
@@ -5892,7 +5892,7 @@
 
     if-gtz v2, :cond_29
 
-    .line 692
+    .line 697
     :cond_28
     invoke-virtual/range {p2 .. p2}, Landroid/view/KeyEvent;->getRepeatCount()I
 
@@ -5905,7 +5905,7 @@
     :cond_29
     const-wide/32 v2, 0x1312d00
 
-    .line 694
+    .line 699
     invoke-virtual/range {p2 .. p2}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result v1
@@ -5934,7 +5934,7 @@
 
     if-gtz v5, :cond_2d
 
-    .line 697
+    .line 702
     :cond_2c
     invoke-virtual/range {p2 .. p2}, Landroid/view/KeyEvent;->getRepeatCount()I
 
@@ -5947,10 +5947,10 @@
     :cond_2d
     const-wide v2, 0x1dcd65000L
 
-    .line 699
+    .line 704
     invoke-virtual {v4, v2, v3}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 700
+    .line 705
     invoke-virtual/range {p2 .. p2}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result v1
@@ -5959,7 +5959,7 @@
 
     goto/16 :goto_5
 
-    .line 704
+    .line 709
     :cond_2e
     iget v5, v2, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
@@ -5979,7 +5979,7 @@
 
     const/4 v2, 0x5
 
-    .line 708
+    .line 713
     invoke-virtual/range {p5 .. p5}, Lcom/rigol/scope/data/TriggerParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v5
@@ -5988,7 +5988,7 @@
 
     move-result-object v3
 
-    .line 710
+    .line 715
     invoke-virtual {v3}, Lcom/rigol/scope/data/VerticalParam;->getScale()J
 
     move-result-wide v5
@@ -6001,17 +6001,17 @@
 
     move-result-wide v5
 
-    .line 711
+    .line 716
     invoke-virtual/range {p5 .. p5}, Lcom/rigol/scope/data/TriggerParam;->getChanOffset()J
 
     move-result-wide v7
 
-    .line 712
+    .line 717
     invoke-virtual/range {p5 .. p5}, Lcom/rigol/scope/data/TriggerParam;->getChanScale()J
 
     move-result-wide v9
 
-    .line 713
+    .line 718
     invoke-virtual/range {p5 .. p5}, Lcom/rigol/scope/data/TriggerParam;->getLevel()J
 
     move-result-wide v11
@@ -6038,7 +6038,7 @@
 
     if-gtz v7, :cond_2f
 
-    .line 716
+    .line 721
     invoke-virtual/range {p2 .. p2}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result v1
@@ -6050,10 +6050,10 @@
     :cond_2f
     double-to-long v2, v2
 
-    .line 718
+    .line 723
     invoke-virtual {v4, v2, v3}, Lcom/rigol/scope/data/TriggerParam;->setLevel(J)V
 
-    .line 719
+    .line 724
     invoke-virtual/range {p2 .. p2}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result v1
@@ -6062,7 +6062,7 @@
 
     goto/16 :goto_5
 
-    .line 721
+    .line 726
     :cond_30
     iget v3, v2, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
@@ -6070,7 +6070,7 @@
 
     iget v5, v5, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    if-lt v3, v5, :cond_5a
+    if-lt v3, v5, :cond_5b
 
     iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
@@ -6078,11 +6078,11 @@
 
     iget v3, v3, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    if-gt v2, v3, :cond_5a
+    if-gt v2, v3, :cond_5b
 
     const v2, 0x989680
 
-    .line 723
+    .line 728
     invoke-virtual/range {p5 .. p5}, Lcom/rigol/scope/data/TriggerParam;->getLevel()J
 
     move-result-wide v5
@@ -6097,11 +6097,11 @@
 
     cmp-long v3, v5, v7
 
-    if-gtz v3, :cond_5a
+    if-gtz v3, :cond_5b
 
     int-to-long v2, v2
 
-    .line 725
+    .line 730
     invoke-virtual/range {p2 .. p2}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result v1
@@ -6404,7 +6404,7 @@
 
     move-result v1
 
-    if-nez v1, :cond_5a
+    if-nez v1, :cond_5b
 
     .line 447
     :cond_3b
@@ -6432,7 +6432,7 @@
 
     move-result v3
 
-    if-nez v3, :cond_5a
+    if-nez v3, :cond_5b
 
     .line 452
     :cond_3c
@@ -6487,7 +6487,7 @@
 
     move-result v3
 
-    if-nez v3, :cond_5a
+    if-nez v3, :cond_5b
 
     .line 461
     :cond_3e
@@ -6522,16 +6522,16 @@
 
     goto/16 :goto_5
 
-    .line 617
+    .line 622
     :pswitch_9
     sget-boolean v1, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->isPowerDown:Z
 
     if-nez v1, :cond_41
 
-    .line 618
+    .line 623
     sput-boolean v7, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->isPowerDown:Z
 
-    .line 619
+    .line 624
     const-class v1, Lcom/rigol/scope/viewmodels/WaveRecordViewModel;
 
     invoke-static {v1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -6540,12 +6540,12 @@
 
     check-cast v1, Lcom/rigol/scope/viewmodels/WaveRecordViewModel;
 
-    if-eqz v1, :cond_5a
+    if-eqz v1, :cond_5b
 
-    .line 621
+    .line 626
     invoke-virtual {v1}, Lcom/rigol/scope/viewmodels/WaveRecordViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
-    .line 622
+    .line 627
     invoke-virtual {v1}, Lcom/rigol/scope/viewmodels/WaveRecordViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v1
@@ -6556,16 +6556,16 @@
 
     check-cast v1, Lcom/rigol/scope/data/WaveRecordParam;
 
-    if-eqz v1, :cond_5a
+    if-eqz v1, :cond_5b
 
-    .line 624
+    .line 629
     invoke-virtual {v1}, Lcom/rigol/scope/data/WaveRecordParam;->isRecordPlay()Z
 
     move-result v1
 
     if-nez v1, :cond_40
 
-    .line 626
+    .line 631
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v1
@@ -6576,7 +6576,7 @@
 
     goto/16 :goto_5
 
-    .line 628
+    .line 633
     :cond_40
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
@@ -6594,22 +6594,22 @@
 
     goto/16 :goto_5
 
-    .line 633
+    .line 638
     :cond_41
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v1
 
-    const/16 v2, 0x5754
+    const/16 v2, 0x5954
 
     invoke-virtual {v1, v12, v2, v7}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 634
+    .line 639
     sput-boolean v10, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->isPowerDown:Z
 
     goto/16 :goto_5
 
-    .line 833
+    .line 838
     :pswitch_a
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
@@ -6633,18 +6633,18 @@
 
     goto/16 :goto_5
 
-    .line 839
+    .line 844
     :pswitch_c
     sget-object v1, Lcom/rigol/util/ToastUtils;->INSTANCE:Lcom/rigol/util/ToastUtils;
 
     invoke-virtual {v1}, Lcom/rigol/util/ToastUtils;->cancel()V
 
-    .line 840
+    .line 845
     new-instance v1, Landroid/os/Handler;
 
     invoke-direct {v1}, Landroid/os/Handler;-><init>()V
 
-    .line 841
+    .line 846
     new-instance v2, Lcom/rigol/scope/viewmodels/PanelKeyViewModel$1;
 
     invoke-direct {v2, v0, v1}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel$1;-><init>(Lcom/rigol/scope/viewmodels/PanelKeyViewModel;Landroid/os/Handler;)V
@@ -6655,15 +6655,13 @@
 
     goto/16 :goto_5
 
-    .line 552
+    .line 557
     :pswitch_d
     const-class v1, Lcom/rigol/scope/viewmodels/UtilityViewModel;
 
     invoke-static {v1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
 
     move-result-object v1
-
-    check-cast v1, Lcom/rigol/scope/viewmodels/UtilityViewModel;
 
     invoke-static {v1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -6679,8 +6677,6 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/rigol/scope/data/UtilityParam;
-
     invoke-static {v1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -6693,7 +6689,7 @@
 
     if-eqz v1, :cond_42
 
-    .line 560
+    .line 565
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object v2
@@ -6702,7 +6698,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1007b5
+    const v3, 0x7f1007bd
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -6710,7 +6706,7 @@
 
     invoke-static {v2}, Lcom/rigol/util/ToastUtils;->showShort(Ljava/lang/CharSequence;)V
 
-    .line 561
+    .line 566
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v2
@@ -6721,7 +6717,7 @@
 
     invoke-virtual {v2, v12, v11, v3, v10}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
 
-    .line 567
+    .line 572
     sget-object v2, Lcom/rigol/scope/viewmodels/-$$Lambda$PanelKeyViewModel$1eVsqZQMYKK3-kOA3162iNIUYHg;->INSTANCE:Lcom/rigol/scope/viewmodels/-$$Lambda$PanelKeyViewModel$1eVsqZQMYKK3-kOA3162iNIUYHg;
 
     const-string v3, "insmod /rigol/driver/focaltech_ts.ko"
@@ -6730,7 +6726,7 @@
 
     goto :goto_2
 
-    .line 569
+    .line 574
     :cond_42
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -6742,14 +6738,14 @@
 
     invoke-virtual {v2, v12, v11, v3, v7}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
 
-    .line 575
+    .line 580
     sget-object v2, Lcom/rigol/scope/viewmodels/-$$Lambda$PanelKeyViewModel$siSbSJOePjXw0lYgex3OFVgq2W0;->INSTANCE:Lcom/rigol/scope/viewmodels/-$$Lambda$PanelKeyViewModel$siSbSJOePjXw0lYgex3OFVgq2W0;
 
     const-string v3, "rmmod /rigol/driver/focaltech_ts.ko"
 
     invoke-static {v3, v7, v2}, Lcom/blankj/utilcode/util/ShellUtils;->execCmdAsync(Ljava/lang/String;ZLcom/blankj/utilcode/util/Utils$Consumer;)Lcom/blankj/utilcode/util/Utils$Task;
 
-    .line 576
+    .line 581
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object v2
@@ -6758,7 +6754,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f1007b4
+    const v3, 0x7f1007bc
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -6766,7 +6762,7 @@
 
     invoke-static {v2}, Lcom/rigol/util/ToastUtils;->showShort(Ljava/lang/CharSequence;)V
 
-    .line 579
+    .line 584
     :goto_2
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
@@ -6780,14 +6776,12 @@
 
     invoke-static {v2, v3}, Lcom/rigol/scope/utilities/ViewUtil;->lock(Landroid/view/Window;Z)V
 
-    .line 580
+    .line 585
     const-class v2, Lcom/rigol/scope/viewmodels/UtilityViewModel;
 
     invoke-static {v2}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
 
     move-result-object v2
-
-    check-cast v2, Lcom/rigol/scope/viewmodels/UtilityViewModel;
 
     invoke-static {v2}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -6803,13 +6797,9 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/rigol/scope/data/UtilityParam;
-
     invoke-static {v2}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
-
-    check-cast v2, Lcom/rigol/scope/data/UtilityParam;
 
     invoke-static {v2}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -6821,7 +6811,7 @@
 
     invoke-virtual {v2, v1}, Lcom/rigol/scope/data/UtilityParam;->saveReadInputKeyboard(Z)V
 
-    .line 581
+    .line 586
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v1
@@ -6830,7 +6820,7 @@
 
     invoke-virtual {v1, v2}, Lcom/rigol/scope/utilities/PopupViewManager;->dismiss(Ljava/lang/Class;)V
 
-    .line 582
+    .line 587
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v1
@@ -6841,7 +6831,7 @@
 
     goto/16 :goto_5
 
-    .line 904
+    .line 909
     :pswitch_e
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -6853,13 +6843,13 @@
 
     goto/16 :goto_5
 
-    .line 585
+    .line 590
     :pswitch_f
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v1
 
-    .line 587
+    .line 592
     iget-wide v3, v0, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->lastTime:J
 
     sub-long v3, v1, v3
@@ -6870,14 +6860,14 @@
 
     if-lez v3, :cond_43
 
-    .line 588
+    .line 593
     sget-object v3, Lcom/rigol/scope/viewmodels/-$$Lambda$PanelKeyViewModel$_NFAhMPlZmZu0ph9fWTLtpMsues;->INSTANCE:Lcom/rigol/scope/viewmodels/-$$Lambda$PanelKeyViewModel$_NFAhMPlZmZu0ph9fWTLtpMsues;
 
     const-wide/16 v4, 0xc8
 
     invoke-static {v3, v4, v5}, Lcom/blankj/utilcode/util/ThreadUtils;->runOnUiThreadDelayed(Ljava/lang/Runnable;J)V
 
-    .line 592
+    .line 597
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object v3
@@ -6886,7 +6876,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f10074c
+    const v4, 0x7f100754
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -6894,12 +6884,12 @@
 
     invoke-static {v3}, Lcom/rigol/util/ToastUtils;->showShort(Ljava/lang/CharSequence;)V
 
-    .line 593
+    .line 598
     iput-wide v1, v0, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->lastTime:J
 
     goto/16 :goto_5
 
-    .line 595
+    .line 600
     :cond_43
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
@@ -6909,7 +6899,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f10078e
+    const v2, 0x7f100796
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -6917,7 +6907,7 @@
 
     invoke-static {v1}, Lcom/rigol/util/ToastUtils;->showShort(Ljava/lang/CharSequence;)V
 
-    .line 596
+    .line 601
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v1
@@ -6926,25 +6916,25 @@
 
     invoke-virtual {v1, v2}, Lcom/rigol/scope/utilities/PopupViewManager;->dismiss(Ljava/lang/Class;)V
 
-    .line 597
+    .line 602
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v1
 
     const/16 v2, 0xc
 
-    const/16 v3, 0x4b37
+    const/16 v3, 0x4d38
 
     invoke-virtual {v1, v2, v3, v10}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 598
+    .line 603
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object v1
 
     const/16 v2, 0x19
 
-    const/16 v3, 0x450b
+    const/16 v3, 0x470b
 
     invoke-static {v2, v3}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 
@@ -6956,13 +6946,13 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 601
+    .line 606
     invoke-static {}, Lcom/rigol/scope/utilities/KtUtilKt;->resetAll()V
 
-    .line 602
+    .line 607
     iput-wide v13, v0, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->lastTime:J
 
-    .line 604
+    .line 609
     const-class v1, Lcom/rigol/scope/viewmodels/MeasureSettingViewModel;
 
     invoke-static {v1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -6971,9 +6961,9 @@
 
     check-cast v1, Lcom/rigol/scope/viewmodels/MeasureSettingViewModel;
 
-    if-eqz v1, :cond_5a
+    if-eqz v1, :cond_5b
 
-    .line 606
+    .line 611
     invoke-virtual {v1}, Lcom/rigol/scope/viewmodels/MeasureSettingViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v1
@@ -7014,7 +7004,7 @@
 
     goto/16 :goto_5
 
-    .line 897
+    .line 902
     :pswitch_12
     invoke-virtual/range {p3 .. p3}, Lcom/rigol/scope/data/HorizontalParam;->getTimeMode()Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
@@ -7022,9 +7012,9 @@
 
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;->Horizontal_ROLL:Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
-    if-eq v1, v2, :cond_5a
+    if-eq v1, v2, :cond_5b
 
-    .line 899
+    .line 904
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$TriggerSweep;->Trigger_Sweep_Single:Lcom/rigol/scope/cil/ServiceEnum$TriggerSweep;
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$TriggerSweep;->value1:I
@@ -7036,12 +7026,12 @@
     :pswitch_13
     move-object/from16 v1, p2
 
-    .line 537
+    .line 542
     invoke-virtual/range {p2 .. p2}, Landroid/view/KeyEvent;->getDownTime()J
 
     move-result-wide v1
 
-    .line 538
+    .line 543
     iget-wide v3, v0, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->lastDownTime:J
 
     sub-long v3, v1, v3
@@ -7052,12 +7042,12 @@
 
     if-gez v3, :cond_44
 
-    .line 539
+    .line 544
     iput-wide v1, v0, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->lastDownTime:J
 
     goto/16 :goto_5
 
-    .line 541
+    .line 546
     :cond_44
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -7073,7 +7063,7 @@
 
     if-nez v3, :cond_45
 
-    .line 543
+    .line 548
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v3
@@ -7084,7 +7074,7 @@
 
     goto :goto_3
 
-    .line 546
+    .line 551
     :cond_45
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
@@ -7094,7 +7084,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f100379
+    const v4, 0x7f10037c
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -7102,7 +7092,7 @@
 
     invoke-static {v3}, Lcom/rigol/util/ToastUtils;->showShort(Ljava/lang/CharSequence;)V
 
-    .line 548
+    .line 553
     :goto_3
     iput-wide v1, v0, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->lastDownTime:J
 
@@ -7143,10 +7133,27 @@
 
     invoke-static {v1}, Lcom/rigol/util/ToastUtils;->showShort(Ljava/lang/CharSequence;)V
 
+    .line 528
     :goto_4
-    if-eqz v6, :cond_5a
+    invoke-virtual/range {p11 .. p11}, Lcom/rigol/scope/data/MaskParam;->isEnable()Z
 
-    .line 527
+    move-result v1
+
+    if-eqz v1, :cond_47
+
+    invoke-virtual/range {p11 .. p11}, Lcom/rigol/scope/data/MaskParam;->isOperate()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_47
+
+    .line 529
+    invoke-virtual {v6, v10}, Lcom/rigol/scope/data/MaskParam;->saveOperate(Z)V
+
+    :cond_47
+    if-eqz v6, :cond_5b
+
+    .line 532
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v1
@@ -7157,19 +7164,19 @@
 
     move-result v1
 
-    if-nez v1, :cond_5a
+    if-nez v1, :cond_5b
 
-    .line 528
+    .line 533
     invoke-virtual/range {p11 .. p11}, Lcom/rigol/scope/data/MaskParam;->readForceStop()V
 
-    .line 529
+    .line 534
     invoke-virtual/range {p11 .. p11}, Lcom/rigol/scope/data/MaskParam;->getErrAction()I
 
     move-result v1
 
     const/4 v2, 0x4
 
-    if-eq v1, v2, :cond_47
+    if-eq v1, v2, :cond_48
 
     invoke-virtual/range {p11 .. p11}, Lcom/rigol/scope/data/MaskParam;->getErrAction()I
 
@@ -7177,27 +7184,27 @@
 
     const/4 v2, 0x6
 
-    if-ne v1, v2, :cond_48
+    if-ne v1, v2, :cond_49
 
-    :cond_47
+    :cond_48
     move v10, v7
 
-    .line 530
-    :cond_48
+    .line 535
+    :cond_49
     invoke-virtual/range {p11 .. p11}, Lcom/rigol/scope/data/MaskParam;->isEnable()Z
 
     move-result v1
 
-    if-eqz v1, :cond_5a
+    if-eqz v1, :cond_5b
 
-    if-eqz v10, :cond_5a
+    if-eqz v10, :cond_5b
 
-    .line 531
+    .line 536
     invoke-virtual {v6, v7}, Lcom/rigol/scope/data/MaskParam;->saveForceStop(Z)V
 
     goto/16 :goto_5
 
-    .line 639
+    .line 644
     :pswitch_15
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -7205,11 +7212,11 @@
 
     const/16 v2, 0x1a
 
-    const/16 v3, 0x1309
+    const/16 v3, 0x130a
 
     invoke-virtual {v1, v2, v3, v10}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
-    .line 640
+    .line 645
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object v1
@@ -7218,19 +7225,19 @@
 
     goto/16 :goto_5
 
-    .line 836
+    .line 841
     :pswitch_16
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v1
 
-    const/16 v2, 0x4fb1
+    const/16 v2, 0x51b1
 
     invoke-virtual {v1, v8, v2, v7}, Lcom/rigol/scope/cil/API;->UI_PostBool(IIZ)I
 
     goto/16 :goto_5
 
-    .line 850
+    .line 855
     :pswitch_17
     invoke-virtual/range {p5 .. p5}, Lcom/rigol/scope/data/TriggerParam;->getTriggerMode()Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
@@ -7238,70 +7245,24 @@
 
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;->Trigger_Edge:Lcom/rigol/scope/cil/ServiceEnum$TriggerMode;
 
-    if-ne v1, v2, :cond_5a
+    if-ne v1, v2, :cond_5b
 
-    .line 851
+    .line 856
     invoke-virtual/range {p5 .. p5}, Lcom/rigol/scope/data/TriggerParam;->getEdgeSlope()Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     move-result-object v1
 
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->Trigger_Edge_Rising:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
-    if-ne v1, v2, :cond_49
-
-    .line 852
-    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->Trigger_Edge_Falling:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
-
-    invoke-virtual {v4, v1}, Lcom/rigol/scope/data/TriggerParam;->setEdgeSlope(Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;)V
-
-    .line 853
-    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->Trigger_Edge_Falling:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
-
-    iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->value1:I
-
-    invoke-virtual {v4, v1}, Lcom/rigol/scope/data/TriggerParam;->saveEdgeSlope(I)V
-
-    .line 854
-    invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
-
-    move-result-object v1
-
-    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->SLOP1_LED_WHITE:Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
-
-    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->value1:I
-
-    invoke-virtual {v1, v12, v11, v2, v10}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
-
-    .line 855
-    invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
-
-    move-result-object v1
-
-    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->SLOP2_LED_WHITE:Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
-
-    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->value1:I
-
-    invoke-virtual {v1, v12, v11, v2, v7}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
-
-    goto/16 :goto_5
-
-    .line 856
-    :cond_49
-    invoke-virtual/range {p5 .. p5}, Lcom/rigol/scope/data/TriggerParam;->getEdgeSlope()Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
-
-    move-result-object v1
-
-    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->Trigger_Edge_Falling:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
-
     if-ne v1, v2, :cond_4a
 
     .line 857
-    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->Trigger_Edge_Any:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->Trigger_Edge_Falling:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     invoke-virtual {v4, v1}, Lcom/rigol/scope/data/TriggerParam;->setEdgeSlope(Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;)V
 
     .line 858
-    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->Trigger_Edge_Any:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->Trigger_Edge_Falling:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->value1:I
 
@@ -7316,7 +7277,7 @@
 
     iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->value1:I
 
-    invoke-virtual {v1, v12, v11, v2, v7}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
+    invoke-virtual {v1, v12, v11, v2, v10}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
 
     .line 860
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
@@ -7337,17 +7298,17 @@
 
     move-result-object v1
 
-    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->Trigger_Edge_Any:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->Trigger_Edge_Falling:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
-    if-ne v1, v2, :cond_5a
+    if-ne v1, v2, :cond_4b
 
     .line 862
-    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->Trigger_Edge_Rising:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->Trigger_Edge_Any:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     invoke-virtual {v4, v1}, Lcom/rigol/scope/data/TriggerParam;->setEdgeSlope(Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;)V
 
     .line 863
-    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->Trigger_Edge_Rising:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->Trigger_Edge_Any:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->value1:I
 
@@ -7358,13 +7319,59 @@
 
     move-result-object v1
 
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->SLOP1_LED_WHITE:Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
+
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->value1:I
+
+    invoke-virtual {v1, v12, v11, v2, v7}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
+
+    .line 865
+    invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
+
+    move-result-object v1
+
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->SLOP2_LED_WHITE:Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
+
+    iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->value1:I
+
+    invoke-virtual {v1, v12, v11, v2, v7}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
+
+    goto/16 :goto_5
+
+    .line 866
+    :cond_4b
+    invoke-virtual/range {p5 .. p5}, Lcom/rigol/scope/data/TriggerParam;->getEdgeSlope()Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
+
+    move-result-object v1
+
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->Trigger_Edge_Any:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
+
+    if-ne v1, v2, :cond_5b
+
+    .line 867
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->Trigger_Edge_Rising:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
+
+    invoke-virtual {v4, v1}, Lcom/rigol/scope/data/TriggerParam;->setEdgeSlope(Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;)V
+
+    .line 868
+    sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->Trigger_Edge_Rising:Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;
+
+    iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->value1:I
+
+    invoke-virtual {v4, v1}, Lcom/rigol/scope/data/TriggerParam;->saveEdgeSlope(I)V
+
+    .line 869
+    invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
+
+    move-result-object v1
+
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->SLOP2_LED_WHITE:Lcom/rigol/scope/cil/ServiceEnum$PanelLed;
 
     iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$PanelLed;->value1:I
 
     invoke-virtual {v1, v12, v11, v2, v10}, Lcom/rigol/scope/cil/API;->UI_PostInt32Int32(IIII)I
 
-    .line 865
+    .line 870
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v1
@@ -7377,7 +7384,7 @@
 
     goto/16 :goto_5
 
-    .line 940
+    .line 945
     :pswitch_18
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -7391,7 +7398,7 @@
 
     check-cast v1, Lcom/rigol/scope/views/navigate/NavigatePopupView;
 
-    .line 941
+    .line 946
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v2
@@ -7404,17 +7411,17 @@
 
     check-cast v2, Lcom/rigol/scope/views/record/RecordPopupView;
 
-    const v3, 0x7f0a0709
+    const v3, 0x7f0a0715
 
-    .line 942
+    .line 947
     invoke-direct {v0, v1, v3}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->onPlayKey(Lcom/rigol/scope/views/baseview/BasePopupView;I)V
 
-    const v4, 0x7f0a070d
+    const v4, 0x7f0a0719
 
-    .line 943
+    .line 948
     invoke-direct {v0, v2, v4}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->onPlayKey(Lcom/rigol/scope/views/baseview/BasePopupView;I)V
 
-    .line 944
+    .line 949
     invoke-virtual {v1}, Lcom/rigol/scope/views/navigate/NavigatePopupView;->getContentView()Landroid/view/View;
 
     move-result-object v5
@@ -7427,16 +7434,16 @@
 
     move-result v3
 
-    if-eqz v3, :cond_4b
+    if-eqz v3, :cond_4c
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/navigate/NavigatePopupView;->isShowing()Z
 
     move-result v1
 
-    if-nez v1, :cond_4c
+    if-nez v1, :cond_4d
 
-    .line 945
-    :cond_4b
+    .line 950
+    :cond_4c
     invoke-virtual {v2}, Lcom/rigol/scope/views/record/RecordPopupView;->getContentView()Landroid/view/View;
 
     move-result-object v1
@@ -7449,19 +7456,19 @@
 
     move-result v1
 
-    if-eqz v1, :cond_4d
+    if-eqz v1, :cond_4e
 
     invoke-virtual {v2}, Lcom/rigol/scope/views/record/RecordPopupView;->isShowing()Z
 
     move-result v1
 
-    if-eqz v1, :cond_4d
+    if-eqz v1, :cond_4e
 
-    :cond_4c
+    :cond_4d
     return-void
 
-    .line 948
-    :cond_4d
+    .line 953
+    :cond_4e
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object v1
@@ -7478,7 +7485,7 @@
 
     goto/16 :goto_5
 
-    .line 918
+    .line 923
     :pswitch_19
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -7492,7 +7499,7 @@
 
     check-cast v1, Lcom/rigol/scope/views/navigate/NavigatePopupView;
 
-    .line 919
+    .line 924
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v2
@@ -7505,17 +7512,17 @@
 
     check-cast v2, Lcom/rigol/scope/views/record/RecordPopupView;
 
-    const v3, 0x7f0a0707
+    const v3, 0x7f0a0713
 
-    .line 920
+    .line 925
     invoke-direct {v0, v1, v3}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->onPlayKey(Lcom/rigol/scope/views/baseview/BasePopupView;I)V
 
-    const v4, 0x7f0a0706
+    const v4, 0x7f0a0712
 
-    .line 921
+    .line 926
     invoke-direct {v0, v2, v4}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->onPlayKey(Lcom/rigol/scope/views/baseview/BasePopupView;I)V
 
-    .line 922
+    .line 927
     invoke-virtual {v1}, Lcom/rigol/scope/views/navigate/NavigatePopupView;->getContentView()Landroid/view/View;
 
     move-result-object v5
@@ -7528,16 +7535,16 @@
 
     move-result v3
 
-    if-eqz v3, :cond_4e
+    if-eqz v3, :cond_4f
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/navigate/NavigatePopupView;->isShowing()Z
 
     move-result v1
 
-    if-nez v1, :cond_4f
+    if-nez v1, :cond_50
 
-    .line 923
-    :cond_4e
+    .line 928
+    :cond_4f
     invoke-virtual {v2}, Lcom/rigol/scope/views/record/RecordPopupView;->getContentView()Landroid/view/View;
 
     move-result-object v1
@@ -7550,19 +7557,19 @@
 
     move-result v1
 
-    if-eqz v1, :cond_50
+    if-eqz v1, :cond_51
 
     invoke-virtual {v2}, Lcom/rigol/scope/views/record/RecordPopupView;->isShowing()Z
 
     move-result v1
 
-    if-eqz v1, :cond_50
+    if-eqz v1, :cond_51
 
-    :cond_4f
+    :cond_50
     return-void
 
-    .line 926
-    :cond_50
+    .line 931
+    :cond_51
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object v1
@@ -7579,7 +7586,7 @@
 
     goto/16 :goto_5
 
-    .line 929
+    .line 934
     :pswitch_1a
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -7593,7 +7600,7 @@
 
     check-cast v1, Lcom/rigol/scope/views/navigate/NavigatePopupView;
 
-    .line 930
+    .line 935
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v2
@@ -7606,17 +7613,17 @@
 
     check-cast v2, Lcom/rigol/scope/views/record/RecordPopupView;
 
-    const v3, 0x7f0a0708
+    const v3, 0x7f0a0714
 
-    .line 931
+    .line 936
     invoke-direct {v0, v1, v3}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->onPlayKey(Lcom/rigol/scope/views/baseview/BasePopupView;I)V
 
-    const v4, 0x7f0a070b
+    const v4, 0x7f0a0717
 
-    .line 932
+    .line 937
     invoke-direct {v0, v2, v4}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->onPlayKey(Lcom/rigol/scope/views/baseview/BasePopupView;I)V
 
-    .line 933
+    .line 938
     invoke-virtual {v1}, Lcom/rigol/scope/views/navigate/NavigatePopupView;->getContentView()Landroid/view/View;
 
     move-result-object v5
@@ -7629,16 +7636,16 @@
 
     move-result v3
 
-    if-eqz v3, :cond_51
+    if-eqz v3, :cond_52
 
     invoke-virtual {v1}, Lcom/rigol/scope/views/navigate/NavigatePopupView;->isShowing()Z
 
     move-result v1
 
-    if-nez v1, :cond_52
+    if-nez v1, :cond_53
 
-    .line 934
-    :cond_51
+    .line 939
+    :cond_52
     invoke-virtual {v2}, Lcom/rigol/scope/views/record/RecordPopupView;->getContentView()Landroid/view/View;
 
     move-result-object v1
@@ -7651,19 +7658,19 @@
 
     move-result v1
 
-    if-eqz v1, :cond_53
+    if-eqz v1, :cond_54
 
     invoke-virtual {v2}, Lcom/rigol/scope/views/record/RecordPopupView;->isShowing()Z
 
     move-result v1
 
-    if-eqz v1, :cond_53
+    if-eqz v1, :cond_54
 
-    :cond_52
+    :cond_53
     return-void
 
-    .line 937
-    :cond_53
+    .line 942
+    :cond_54
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object v1
@@ -7680,7 +7687,7 @@
 
     goto/16 :goto_5
 
-    .line 889
+    .line 894
     :pswitch_1b
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -7692,7 +7699,7 @@
 
     goto/16 :goto_5
 
-    .line 870
+    .line 875
     :pswitch_1c
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
@@ -7705,14 +7712,14 @@
     goto/16 :goto_5
 
     .line 470
-    :cond_54
+    :cond_55
     invoke-virtual/range {p3 .. p3}, Lcom/rigol/scope/data/HorizontalParam;->getAcquireMode()Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
 
     move-result-object v1
 
     sget-object v3, Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;->Acquire_Ultra:Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
 
-    if-ne v1, v3, :cond_55
+    if-ne v1, v3, :cond_56
 
     .line 471
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
@@ -7732,14 +7739,14 @@
     goto :goto_5
 
     .line 473
-    :cond_55
+    :cond_56
     invoke-virtual/range {p3 .. p3}, Lcom/rigol/scope/data/HorizontalParam;->getAcquireMode()Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
 
     move-result-object v1
 
     sget-object v3, Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;->Acquire_Ultra:Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
 
-    if-eq v1, v3, :cond_57
+    if-eq v1, v3, :cond_58
 
     .line 474
     invoke-virtual/range {p3 .. p3}, Lcom/rigol/scope/data/HorizontalParam;->getTimeMode()Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
@@ -7748,7 +7755,7 @@
 
     sget-object v3, Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;->Horizontal_ROLL:Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
-    if-ne v1, v3, :cond_56
+    if-ne v1, v3, :cond_57
 
     .line 475
     invoke-virtual/range {p3 .. p3}, Lcom/rigol/scope/data/HorizontalParam;->getRunStop()Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
@@ -7757,13 +7764,13 @@
 
     sget-object v3, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;->Control_Stop:Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
 
-    if-ne v1, v3, :cond_57
-
-    :cond_56
-    move v10, v7
+    if-ne v1, v3, :cond_58
 
     :cond_57
-    if-eqz v10, :cond_58
+    move v10, v7
+
+    :cond_58
+    if-eqz v10, :cond_59
 
     .line 477
     invoke-virtual/range {p3 .. p3}, Lcom/rigol/scope/data/HorizontalParam;->readZoom()Z
@@ -7777,7 +7784,7 @@
     goto :goto_5
 
     .line 479
-    :cond_58
+    :cond_59
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object v1
@@ -7795,7 +7802,7 @@
     goto :goto_5
 
     .line 490
-    :cond_59
+    :cond_5a
     const-class v1, Lcom/rigol/scope/viewmodels/RefViewModel;
 
     invoke-static {v1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -7855,9 +7862,11 @@
 
     invoke-virtual {v1, v2}, Lcom/rigol/scope/utilities/FunctionManager;->handleItemClick(Lcom/rigol/scope/cil/ServiceEnum$Function;)V
 
-    :cond_5a
+    :cond_5b
     :goto_5
     return-void
+
+    nop
 
     :pswitch_data_0
     .packed-switch 0x4
@@ -8422,7 +8431,7 @@
 
     move-result-object p3
 
-    const p5, 0x7f100764
+    const p5, 0x7f10076c
 
     invoke-virtual {p3, p5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -8450,7 +8459,7 @@
 
     packed-switch p1, :pswitch_data_3
 
-    const p3, 0x7f100377
+    const p3, 0x7f10037a
 
     packed-switch p1, :pswitch_data_4
 
@@ -8460,7 +8469,7 @@
     :pswitch_8
     invoke-virtual {v1}, Lcom/rigol/scope/data/VerticalParam;->toggleFine()V
 
-    const p1, 0x7f100cdd
+    const p1, 0x7f100ce9
 
     .line 363
     invoke-virtual {v1}, Lcom/rigol/scope/data/VerticalParam;->getFine()Z
@@ -8675,7 +8684,7 @@
 .method public rollCursor(Landroid/view/KeyEvent;Lcom/rigol/scope/data/CursorResultParam;Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;)V
     .locals 4
 
-    .line 2215
+    .line 2221
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getKeyCode()I
 
     move-result v0
@@ -8688,7 +8697,7 @@
 
     if-eq v0, v1, :cond_0
 
-    .line 2216
+    .line 2222
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getKeyCode()I
 
     move-result v0
@@ -8701,7 +8710,7 @@
 
     if-eq v0, v1, :cond_0
 
-    .line 2217
+    .line 2223
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getKeyCode()I
 
     move-result v0
@@ -8714,7 +8723,7 @@
 
     if-eq v0, v1, :cond_0
 
-    .line 2218
+    .line 2224
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getKeyCode()I
 
     move-result v0
@@ -8727,7 +8736,7 @@
 
     if-eq v0, v1, :cond_0
 
-    .line 2219
+    .line 2225
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getKeyCode()I
 
     move-result v0
@@ -8740,7 +8749,7 @@
 
     if-eq v0, v1, :cond_0
 
-    .line 2220
+    .line 2226
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getKeyCode()I
 
     move-result v0
@@ -8758,7 +8767,7 @@
 
     return-void
 
-    .line 2223
+    .line 2229
     :cond_1
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
@@ -8770,7 +8779,7 @@
 
     move-result v0
 
-    .line 2224
+    .line 2230
     invoke-virtual {p2}, Lcom/rigol/scope/data/CursorResultParam;->readMode()Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
 
     move-result-object v1
@@ -8781,7 +8790,7 @@
 
     if-nez v0, :cond_3
 
-    .line 2225
+    .line 2231
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$CursorMode;->cursor_mode_xy:Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
 
     if-ne v1, v0, :cond_2
@@ -8797,7 +8806,7 @@
     :goto_0
     move v0, v2
 
-    .line 2227
+    .line 2233
     :goto_1
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getKeyCode()I
 
@@ -8816,7 +8825,7 @@
     :pswitch_0
     if-eqz v0, :cond_5
 
-    .line 2241
+    .line 2247
     invoke-virtual {p2}, Lcom/rigol/scope/data/CursorResultParam;->readMode()Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
 
     move-result-object p1
@@ -8825,17 +8834,17 @@
 
     if-eq p1, v0, :cond_5
 
-    .line 2243
+    .line 2249
     invoke-virtual {p2, v3}, Lcom/rigol/scope/data/CursorResultParam;->saveAPosition(I)V
 
-    .line 2244
+    .line 2250
     invoke-virtual {p2}, Lcom/rigol/scope/data/CursorResultParam;->isBothAB()Z
 
     move-result p1
 
     invoke-virtual {p2, p1}, Lcom/rigol/scope/data/CursorResultParam;->saveBothAB(Z)V
 
-    .line 2245
+    .line 2251
     invoke-virtual {p2}, Lcom/rigol/scope/data/CursorResultParam;->getCursorLineAMode()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object p1
@@ -8844,12 +8853,12 @@
 
     if-ne p1, v0, :cond_4
 
-    .line 2246
+    .line 2252
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$CursorView;->cursor_view_vert:Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     invoke-virtual {p2, p1}, Lcom/rigol/scope/data/CursorResultParam;->setCursorLineAMode(Lcom/rigol/scope/cil/ServiceEnum$CursorView;)V
 
-    .line 2247
+    .line 2253
     invoke-virtual {p3}, Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;->getAy_boolean()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
@@ -8860,7 +8869,7 @@
 
     invoke-virtual {p1, v0}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 2248
+    .line 2254
     invoke-virtual {p3}, Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;->getAx_boolean()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
@@ -8873,13 +8882,13 @@
 
     goto :goto_2
 
-    .line 2252
+    .line 2258
     :cond_4
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$CursorView;->cursor_view_hori:Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     invoke-virtual {p2, p1}, Lcom/rigol/scope/data/CursorResultParam;->setCursorLineAMode(Lcom/rigol/scope/cil/ServiceEnum$CursorView;)V
 
-    .line 2253
+    .line 2259
     invoke-virtual {p3}, Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;->getAx_boolean()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
@@ -8890,7 +8899,7 @@
 
     invoke-virtual {p1, v0}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 2254
+    .line 2260
     invoke-virtual {p3}, Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;->getAy_boolean()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
@@ -8901,7 +8910,7 @@
 
     invoke-virtual {p1, v0}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 2258
+    .line 2264
     :cond_5
     :goto_2
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
@@ -8915,12 +8924,31 @@
     :pswitch_1
     if-eqz v0, :cond_8
 
-    .line 2236
+    .line 2242
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result p1
 
     neg-int p1, p1
+
+    invoke-virtual {p2, p1}, Lcom/rigol/scope/data/CursorResultParam;->saveAPosition(I)V
+
+    .line 2243
+    invoke-virtual {p2}, Lcom/rigol/scope/data/CursorResultParam;->isBothAB()Z
+
+    move-result p1
+
+    invoke-virtual {p2, p1}, Lcom/rigol/scope/data/CursorResultParam;->saveBothAB(Z)V
+
+    goto/16 :goto_4
+
+    :pswitch_2
+    if-eqz v0, :cond_8
+
+    .line 2236
+    invoke-virtual {p1}, Landroid/view/KeyEvent;->getRepeatCount()I
+
+    move-result p1
 
     invoke-virtual {p2, p1}, Lcom/rigol/scope/data/CursorResultParam;->saveAPosition(I)V
 
@@ -8933,29 +8961,10 @@
 
     goto/16 :goto_4
 
-    :pswitch_2
-    if-eqz v0, :cond_8
-
-    .line 2230
-    invoke-virtual {p1}, Landroid/view/KeyEvent;->getRepeatCount()I
-
-    move-result p1
-
-    invoke-virtual {p2, p1}, Lcom/rigol/scope/data/CursorResultParam;->saveAPosition(I)V
-
-    .line 2231
-    invoke-virtual {p2}, Lcom/rigol/scope/data/CursorResultParam;->isBothAB()Z
-
-    move-result p1
-
-    invoke-virtual {p2, p1}, Lcom/rigol/scope/data/CursorResultParam;->saveBothAB(Z)V
-
-    goto/16 :goto_4
-
     :pswitch_3
     if-eqz v0, :cond_7
 
-    .line 2273
+    .line 2279
     invoke-virtual {p2}, Lcom/rigol/scope/data/CursorResultParam;->readMode()Lcom/rigol/scope/cil/ServiceEnum$CursorMode;
 
     move-result-object p1
@@ -8964,17 +8973,17 @@
 
     if-eq p1, v0, :cond_7
 
-    .line 2274
+    .line 2280
     invoke-virtual {p2, v3}, Lcom/rigol/scope/data/CursorResultParam;->saveBPosition(I)V
 
-    .line 2275
+    .line 2281
     invoke-virtual {p2}, Lcom/rigol/scope/data/CursorResultParam;->isBothAB()Z
 
     move-result p1
 
     invoke-virtual {p2, p1}, Lcom/rigol/scope/data/CursorResultParam;->saveBothAB(Z)V
 
-    .line 2277
+    .line 2283
     invoke-virtual {p2}, Lcom/rigol/scope/data/CursorResultParam;->getCursorLineBMode()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     move-result-object p1
@@ -8983,12 +8992,12 @@
 
     if-ne p1, v0, :cond_6
 
-    .line 2278
+    .line 2284
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$CursorView;->cursor_view_vert:Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     invoke-virtual {p2, p1}, Lcom/rigol/scope/data/CursorResultParam;->setCursorLineBMode(Lcom/rigol/scope/cil/ServiceEnum$CursorView;)V
 
-    .line 2279
+    .line 2285
     invoke-virtual {p3}, Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;->getBx_boolean()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
@@ -8999,7 +9008,7 @@
 
     invoke-virtual {p1, v0}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 2280
+    .line 2286
     invoke-virtual {p3}, Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;->getBy_boolean()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
@@ -9012,13 +9021,13 @@
 
     goto :goto_3
 
-    .line 2284
+    .line 2290
     :cond_6
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$CursorView;->cursor_view_hori:Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     invoke-virtual {p2, p1}, Lcom/rigol/scope/data/CursorResultParam;->setCursorLineBMode(Lcom/rigol/scope/cil/ServiceEnum$CursorView;)V
 
-    .line 2285
+    .line 2291
     invoke-virtual {p3}, Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;->getBx_boolean()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
@@ -9029,7 +9038,7 @@
 
     invoke-virtual {p1, v0}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 2286
+    .line 2292
     invoke-virtual {p3}, Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;->getBy_boolean()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
@@ -9040,7 +9049,7 @@
 
     invoke-virtual {p1, v0}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 2290
+    .line 2296
     :cond_7
     :goto_3
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
@@ -9054,7 +9063,7 @@
     :pswitch_4
     if-eqz v0, :cond_8
 
-    .line 2268
+    .line 2274
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result p1
@@ -9063,7 +9072,7 @@
 
     invoke-virtual {p2, p1}, Lcom/rigol/scope/data/CursorResultParam;->saveBPosition(I)V
 
-    .line 2269
+    .line 2275
     invoke-virtual {p2}, Lcom/rigol/scope/data/CursorResultParam;->isBothAB()Z
 
     move-result p1
@@ -9075,14 +9084,14 @@
     :pswitch_5
     if-eqz v0, :cond_8
 
-    .line 2262
+    .line 2268
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result p1
 
     invoke-virtual {p2, p1}, Lcom/rigol/scope/data/CursorResultParam;->saveBPosition(I)V
 
-    .line 2263
+    .line 2269
     invoke-virtual {p2}, Lcom/rigol/scope/data/CursorResultParam;->isBothAB()Z
 
     move-result p1
@@ -9111,7 +9120,7 @@
 .method public rollIntensity(Landroid/view/KeyEvent;Lcom/rigol/scope/data/DisplayParam;Lcom/rigol/scope/data/BodeParam;)V
     .locals 8
 
-    .line 2144
+    .line 2149
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getKeyCode()I
 
     move-result v0
@@ -9120,7 +9129,7 @@
 
     move-result v0
 
-    const v1, 0x7f100377
+    const v1, 0x7f10037a
 
     packed-switch v0, :pswitch_data_0
 
@@ -9138,7 +9147,7 @@
 
     goto/16 :goto_1
 
-    .line 2146
+    .line 2151
     :pswitch_0
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -9160,7 +9169,7 @@
 
     goto :goto_0
 
-    .line 2149
+    .line 2154
     :cond_0
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
@@ -9176,12 +9185,12 @@
 
     invoke-virtual {p1, p3, v0}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 2150
+    .line 2155
     invoke-virtual {p2, v6}, Lcom/rigol/scope/data/DisplayParam;->saveWaveIntensity(I)V
 
     goto/16 :goto_1
 
-    .line 2147
+    .line 2152
     :cond_1
     :goto_0
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
@@ -9200,14 +9209,8 @@
 
     goto/16 :goto_1
 
-    .line 2176
+    .line 2181
     :pswitch_1
-    invoke-virtual {p3}, Lcom/rigol/scope/data/BodeParam;->getBodeEnable()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_2
-
     invoke-virtual {p3}, Lcom/rigol/scope/data/BodeParam;->getBode_resultDatalist()Ljava/util/ArrayList;
 
     move-result-object v0
@@ -9216,25 +9219,23 @@
 
     move-result v0
 
-    if-lez v0, :cond_2
-
-    invoke-virtual {p3}, Lcom/rigol/scope/data/BodeParam;->getBodeCursorPosition()I
-
-    move-result v0
-
-    invoke-virtual {p3}, Lcom/rigol/scope/data/BodeParam;->getPosition_listx()Ljava/util/ArrayList;
-
-    move-result-object v7
-
-    invoke-virtual {v7}, Ljava/util/ArrayList;->size()I
+    .line 2182
+    invoke-virtual {p3}, Lcom/rigol/scope/data/BodeParam;->getBodeEnable()Z
 
     move-result v7
 
-    add-int/lit8 v7, v7, -0x1
+    if-eqz v7, :cond_2
 
-    if-gt v0, v7, :cond_2
+    if-lez v0, :cond_2
 
-    .line 2178
+    .line 2183
+    invoke-virtual {p3}, Lcom/rigol/scope/data/BodeParam;->getBodeCursorPosition()I
+
+    move-result p1
+
+    if-lez p1, :cond_8
+
+    .line 2184
     invoke-virtual {p3}, Lcom/rigol/scope/data/BodeParam;->getBodeCursorPosition()I
 
     move-result p1
@@ -9243,7 +9244,7 @@
 
     invoke-virtual {p3, p1}, Lcom/rigol/scope/data/BodeParam;->setBodeCursorPosition(I)V
 
-    .line 2179
+    .line 2185
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p1
@@ -9260,7 +9261,7 @@
 
     goto/16 :goto_1
 
-    .line 2184
+    .line 2190
     :cond_2
     invoke-virtual {p2}, Lcom/rigol/scope/data/DisplayParam;->getPaletteEnable()Z
 
@@ -9268,7 +9269,7 @@
 
     if-eqz p3, :cond_3
 
-    .line 2185
+    .line 2191
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p1
@@ -9285,7 +9286,7 @@
 
     return-void
 
-    .line 2188
+    .line 2194
     :cond_3
     invoke-virtual {p2}, Lcom/rigol/scope/data/DisplayParam;->readWaveIntensity()I
 
@@ -9299,7 +9300,7 @@
 
     if-ltz p3, :cond_4
 
-    .line 2189
+    .line 2195
     invoke-virtual {p2}, Lcom/rigol/scope/data/DisplayParam;->readWaveIntensity()I
 
     move-result p3
@@ -9312,7 +9313,7 @@
 
     invoke-virtual {p2, p3}, Lcom/rigol/scope/data/DisplayParam;->saveWaveIntensity(I)V
 
-    .line 2190
+    .line 2196
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p3
@@ -9337,7 +9338,7 @@
 
     invoke-virtual {p3, v0, p1}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 2192
+    .line 2198
     :cond_4
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -9351,7 +9352,7 @@
 
     if-nez p1, :cond_8
 
-    .line 2193
+    .line 2199
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
@@ -9362,14 +9363,8 @@
 
     goto/16 :goto_1
 
-    .line 2155
+    .line 2159
     :pswitch_2
-    invoke-virtual {p3}, Lcom/rigol/scope/data/BodeParam;->getBodeEnable()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_5
-
     invoke-virtual {p3}, Lcom/rigol/scope/data/BodeParam;->getBode_resultDatalist()Ljava/util/ArrayList;
 
     move-result-object v0
@@ -9378,25 +9373,25 @@
 
     move-result v0
 
-    if-lez v0, :cond_5
-
-    invoke-virtual {p3}, Lcom/rigol/scope/data/BodeParam;->getBodeCursorPosition()I
-
-    move-result v0
-
-    invoke-virtual {p3}, Lcom/rigol/scope/data/BodeParam;->getPosition_listx()Ljava/util/ArrayList;
-
-    move-result-object v7
-
-    invoke-virtual {v7}, Ljava/util/ArrayList;->size()I
+    .line 2160
+    invoke-virtual {p3}, Lcom/rigol/scope/data/BodeParam;->getBodeEnable()Z
 
     move-result v7
 
-    add-int/lit8 v7, v7, -0x1
+    if-eqz v7, :cond_5
 
-    if-gt v0, v7, :cond_5
+    if-lez v0, :cond_5
 
-    .line 2157
+    .line 2161
+    invoke-virtual {p3}, Lcom/rigol/scope/data/BodeParam;->getBodeCursorPosition()I
+
+    move-result p1
+
+    add-int/lit8 v0, v0, -0x1
+
+    if-ge p1, v0, :cond_8
+
+    .line 2162
     invoke-virtual {p3}, Lcom/rigol/scope/data/BodeParam;->getBodeCursorPosition()I
 
     move-result p1
@@ -9405,7 +9400,7 @@
 
     invoke-virtual {p3, p1}, Lcom/rigol/scope/data/BodeParam;->setBodeCursorPosition(I)V
 
-    .line 2158
+    .line 2163
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p1
@@ -9422,7 +9417,7 @@
 
     goto :goto_1
 
-    .line 2162
+    .line 2167
     :cond_5
     invoke-virtual {p2}, Lcom/rigol/scope/data/DisplayParam;->getPaletteEnable()Z
 
@@ -9430,7 +9425,7 @@
 
     if-eqz p3, :cond_6
 
-    .line 2163
+    .line 2168
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p1
@@ -9447,7 +9442,7 @@
 
     return-void
 
-    .line 2166
+    .line 2171
     :cond_6
     invoke-virtual {p2}, Lcom/rigol/scope/data/DisplayParam;->readWaveIntensity()I
 
@@ -9463,7 +9458,7 @@
 
     if-gt p3, v0, :cond_7
 
-    .line 2167
+    .line 2172
     invoke-virtual {p2}, Lcom/rigol/scope/data/DisplayParam;->readWaveIntensity()I
 
     move-result p3
@@ -9476,7 +9471,7 @@
 
     invoke-virtual {p2, p3}, Lcom/rigol/scope/data/DisplayParam;->saveWaveIntensity(I)V
 
-    .line 2168
+    .line 2173
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p3
@@ -9501,7 +9496,7 @@
 
     invoke-virtual {p3, v0, p1}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 2170
+    .line 2175
     :cond_7
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -9515,7 +9510,7 @@
 
     if-nez p1, :cond_8
 
-    .line 2171
+    .line 2176
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
@@ -9526,7 +9521,7 @@
 
     goto :goto_1
 
-    .line 2200
+    .line 2206
     :pswitch_3
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
@@ -9566,7 +9561,7 @@
 .method public rollMath(Landroid/view/KeyEvent;Lcom/rigol/scope/data/MathParam;)V
     .locals 2
 
-    .line 1746
+    .line 1751
     invoke-virtual {p2}, Lcom/rigol/scope/data/MathParam;->getOperator()Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     move-result-object v0
@@ -9575,7 +9570,7 @@
 
     return-void
 
-    .line 1748
+    .line 1753
     :cond_0
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->operator_add:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
@@ -9595,18 +9590,18 @@
 
     goto :goto_2
 
-    .line 1750
+    .line 1755
     :cond_1
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->operator_fft:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
     if-ne v0, v1, :cond_2
 
-    .line 1751
+    .line 1756
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->mathFFT(Landroid/view/KeyEvent;Lcom/rigol/scope/data/MathParam;)V
 
     goto :goto_3
 
-    .line 1752
+    .line 1757
     :cond_2
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->operator_and:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
@@ -9626,7 +9621,7 @@
 
     goto :goto_1
 
-    .line 1754
+    .line 1759
     :cond_3
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->operator_intg:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
@@ -9662,7 +9657,7 @@
 
     goto :goto_0
 
-    .line 1757
+    .line 1762
     :cond_4
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->operator_lp:Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 
@@ -9680,27 +9675,27 @@
 
     if-ne v0, v1, :cond_9
 
-    .line 1758
+    .line 1763
     :cond_5
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->mathFilter(Landroid/view/KeyEvent;Lcom/rigol/scope/data/MathParam;)V
 
     goto :goto_3
 
-    .line 1756
+    .line 1761
     :cond_6
     :goto_0
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->mathFun(Landroid/view/KeyEvent;Lcom/rigol/scope/data/MathParam;)V
 
     goto :goto_3
 
-    .line 1753
+    .line 1758
     :cond_7
     :goto_1
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->mathLogic(Landroid/view/KeyEvent;Lcom/rigol/scope/data/MathParam;)V
 
     goto :goto_3
 
-    .line 1749
+    .line 1754
     :cond_8
     :goto_2
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->mathArithmetic(Landroid/view/KeyEvent;Lcom/rigol/scope/data/MathParam;)V
@@ -9713,7 +9708,7 @@
 .method public setCursor(Landroid/view/KeyEvent;Lcom/rigol/scope/data/CursorResultParam;Lcom/rigol/scope/data/DisplayParam;Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;)V
     .locals 6
 
-    .line 1435
+    .line 1440
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getKeyCode()I
 
     move-result v0
@@ -9738,7 +9733,7 @@
 
     goto/16 :goto_4
 
-    .line 1480
+    .line 1485
     :pswitch_0
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
@@ -9746,7 +9741,7 @@
 
     const/16 p3, 0xa
 
-    const/16 v0, 0x2303
+    const/16 v0, 0x2503
 
     invoke-virtual {p1, p3, v0}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
@@ -9758,7 +9753,7 @@
 
     if-ne p1, p3, :cond_0
 
-    .line 1481
+    .line 1486
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p1
@@ -9767,7 +9762,7 @@
 
     move-result-object p1
 
-    const p3, 0x7f100377
+    const p3, 0x7f10037a
 
     invoke-virtual {p1, p3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -9777,7 +9772,7 @@
 
     goto/16 :goto_0
 
-    .line 1483
+    .line 1488
     :cond_0
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
@@ -9817,7 +9812,7 @@
 
     if-ne p1, v1, :cond_3
 
-    .line 1485
+    .line 1490
     :cond_1
     invoke-virtual {p2}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
@@ -9827,15 +9822,15 @@
 
     if-ne p1, p3, :cond_2
 
-    .line 1486
+    .line 1491
     invoke-virtual {p2, v2}, Lcom/rigol/scope/data/CursorResultParam;->saveAPosition(I)V
 
-    .line 1487
+    .line 1492
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$CursorView;->cursor_view_vert:Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     invoke-virtual {p2, p1}, Lcom/rigol/scope/data/CursorResultParam;->setView(Lcom/rigol/scope/cil/ServiceEnum$CursorView;)V
 
-    .line 1488
+    .line 1493
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->getViewABkeyViewModel()Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
     move-result-object p1
@@ -9850,7 +9845,7 @@
 
     invoke-virtual {p1, p3}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 1489
+    .line 1494
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->getViewABkeyViewModel()Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
     move-result-object p1
@@ -9867,11 +9862,11 @@
 
     goto :goto_0
 
-    .line 1493
+    .line 1498
     :cond_2
     invoke-virtual {p2, v2}, Lcom/rigol/scope/data/CursorResultParam;->saveAPosition(I)V
 
-    .line 1494
+    .line 1499
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->getViewABkeyViewModel()Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
     move-result-object p1
@@ -9886,7 +9881,7 @@
 
     invoke-virtual {p1, p3}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 1495
+    .line 1500
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->getViewABkeyViewModel()Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;
 
     move-result-object p1
@@ -9901,12 +9896,12 @@
 
     invoke-virtual {p1, p3}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 1496
+    .line 1501
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$CursorView;->cursor_view_hori:Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     invoke-virtual {p2, p1}, Lcom/rigol/scope/data/CursorResultParam;->setView(Lcom/rigol/scope/cil/ServiceEnum$CursorView;)V
 
-    .line 1501
+    .line 1506
     :cond_3
     :goto_0
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
@@ -9917,7 +9912,7 @@
 
     goto/16 :goto_4
 
-    .line 1458
+    .line 1463
     :pswitch_1
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
@@ -9959,7 +9954,7 @@
 
     goto :goto_1
 
-    .line 1463
+    .line 1468
     :cond_4
     invoke-virtual {p3}, Lcom/rigol/scope/data/DisplayParam;->readWaveIntensity()I
 
@@ -9969,7 +9964,7 @@
 
     if-lez p1, :cond_5
 
-    .line 1465
+    .line 1470
     invoke-virtual {p3}, Lcom/rigol/scope/data/DisplayParam;->readWaveIntensity()I
 
     move-result p1
@@ -9978,7 +9973,7 @@
 
     invoke-virtual {p3, p1}, Lcom/rigol/scope/data/DisplayParam;->saveWaveIntensity(I)V
 
-    .line 1466
+    .line 1471
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p1
@@ -9999,7 +9994,7 @@
 
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 1468
+    .line 1473
     :cond_5
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -10013,7 +10008,7 @@
 
     if-nez p1, :cond_f
 
-    .line 1469
+    .line 1474
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
@@ -10028,7 +10023,7 @@
     :goto_1
     if-eqz p2, :cond_f
 
-    .line 1460
+    .line 1465
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result p1
@@ -10039,7 +10034,7 @@
 
     goto/16 :goto_4
 
-    .line 1440
+    .line 1445
     :pswitch_2
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
@@ -10081,7 +10076,7 @@
 
     goto :goto_2
 
-    .line 1445
+    .line 1450
     :cond_7
     invoke-virtual {p3}, Lcom/rigol/scope/data/DisplayParam;->readWaveIntensity()I
 
@@ -10093,7 +10088,7 @@
 
     if-ge p1, p2, :cond_8
 
-    .line 1446
+    .line 1451
     invoke-virtual {p3}, Lcom/rigol/scope/data/DisplayParam;->readWaveIntensity()I
 
     move-result p1
@@ -10102,7 +10097,7 @@
 
     invoke-virtual {p3, p1}, Lcom/rigol/scope/data/DisplayParam;->saveWaveIntensity(I)V
 
-    .line 1447
+    .line 1452
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p1
@@ -10123,7 +10118,7 @@
 
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
 
-    .line 1449
+    .line 1454
     :cond_8
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -10137,7 +10132,7 @@
 
     if-nez p1, :cond_f
 
-    .line 1450
+    .line 1455
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
@@ -10152,7 +10147,7 @@
     :goto_2
     if-eqz p2, :cond_f
 
-    .line 1442
+    .line 1447
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result p1
@@ -10161,7 +10156,7 @@
 
     goto/16 :goto_4
 
-    .line 1523
+    .line 1528
     :pswitch_3
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
@@ -10201,7 +10196,7 @@
 
     if-ne p1, v1, :cond_c
 
-    .line 1524
+    .line 1529
     :cond_a
     invoke-virtual {p2}, Lcom/rigol/scope/data/CursorResultParam;->getView()Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
@@ -10211,15 +10206,15 @@
 
     if-ne p1, p3, :cond_b
 
-    .line 1525
+    .line 1530
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$CursorView;->cursor_view_vert:Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     invoke-virtual {p2, p1}, Lcom/rigol/scope/data/CursorResultParam;->setView(Lcom/rigol/scope/cil/ServiceEnum$CursorView;)V
 
-    .line 1526
+    .line 1531
     invoke-virtual {p2, v2}, Lcom/rigol/scope/data/CursorResultParam;->saveBPosition(I)V
 
-    .line 1527
+    .line 1532
     invoke-virtual {p4}, Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;->getBx_boolean()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
@@ -10230,7 +10225,7 @@
 
     invoke-virtual {p1, p3}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 1528
+    .line 1533
     invoke-virtual {p4}, Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;->getBy_boolean()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
@@ -10243,16 +10238,16 @@
 
     goto :goto_3
 
-    .line 1532
+    .line 1537
     :cond_b
     invoke-virtual {p2, v2}, Lcom/rigol/scope/data/CursorResultParam;->saveBPosition(I)V
 
-    .line 1533
+    .line 1538
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$CursorView;->cursor_view_hori:Lcom/rigol/scope/cil/ServiceEnum$CursorView;
 
     invoke-virtual {p2, p1}, Lcom/rigol/scope/data/CursorResultParam;->setView(Lcom/rigol/scope/cil/ServiceEnum$CursorView;)V
 
-    .line 1535
+    .line 1540
     invoke-virtual {p4}, Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;->getBx_boolean()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
@@ -10263,7 +10258,7 @@
 
     invoke-virtual {p1, p3}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 1536
+    .line 1541
     invoke-virtual {p4}, Lcom/rigol/scope/viewmodels/ViewABkeyViewModel;->getBy_boolean()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
@@ -10274,7 +10269,7 @@
 
     invoke-virtual {p1, p3}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    .line 1540
+    .line 1545
     :cond_c
     :goto_3
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
@@ -10288,7 +10283,7 @@
     :pswitch_4
     if-eqz p2, :cond_d
 
-    .line 1514
+    .line 1519
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object p3
@@ -10301,7 +10296,7 @@
 
     if-eqz p3, :cond_d
 
-    .line 1515
+    .line 1520
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result p3
@@ -10310,7 +10305,7 @@
 
     invoke-virtual {p2, p3}, Lcom/rigol/scope/data/CursorResultParam;->saveBPosition(I)V
 
-    .line 1517
+    .line 1522
     :cond_d
     const-class p3, Lcom/rigol/scope/viewmodels/CursorViewModel;
 
@@ -10338,7 +10333,7 @@
 
     if-ne p3, v1, :cond_f
 
-    .line 1518
+    .line 1523
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result p1
@@ -10352,7 +10347,7 @@
     :pswitch_5
     if-eqz p2, :cond_e
 
-    .line 1505
+    .line 1510
     invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
 
     move-result-object p3
@@ -10365,14 +10360,14 @@
 
     if-eqz p3, :cond_e
 
-    .line 1506
+    .line 1511
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result p3
 
     invoke-virtual {p2, p3}, Lcom/rigol/scope/data/CursorResultParam;->saveBPosition(I)V
 
-    .line 1508
+    .line 1513
     :cond_e
     const-class p3, Lcom/rigol/scope/viewmodels/CursorViewModel;
 
@@ -10400,7 +10395,7 @@
 
     if-ne p3, v1, :cond_f
 
-    .line 1509
+    .line 1514
     invoke-virtual {p1}, Landroid/view/KeyEvent;->getRepeatCount()I
 
     move-result p1

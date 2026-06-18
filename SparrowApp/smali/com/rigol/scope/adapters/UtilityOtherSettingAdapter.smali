@@ -94,17 +94,13 @@
     return v0
 .end method
 
-.method static synthetic access$112(I)I
-    .locals 1
+.method static synthetic access$102(I)I
+    .locals 0
 
     .line 47
-    sget v0, Lcom/rigol/scope/adapters/UtilityOtherSettingAdapter;->hdmiId:I
+    sput p0, Lcom/rigol/scope/adapters/UtilityOtherSettingAdapter;->hdmiId:I
 
-    add-int/2addr v0, p0
-
-    sput v0, Lcom/rigol/scope/adapters/UtilityOtherSettingAdapter;->hdmiId:I
-
-    return v0
+    return p0
 .end method
 
 .method static synthetic lambda$onBindViewHolder$0(Lcom/rigol/scope/data/HorizontalParam;Landroid/widget/CompoundButton;Z)V

@@ -24,7 +24,7 @@
 .method static constructor <clinit>()V
     .locals 5
 
-    .line 2981
+    .line 3013
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$LaScale;->values()[Lcom/rigol/scope/cil/ServiceEnum$LaScale;
 
     move-result-object v0
@@ -80,7 +80,7 @@
     :try_end_2
     .catch Ljava/lang/NoSuchFieldError; {:try_start_2 .. :try_end_2} :catch_2
 
-    .line 1538
+    .line 1551
     :catch_2
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$MathOperator;->values()[Lcom/rigol/scope/cil/ServiceEnum$MathOperator;
 

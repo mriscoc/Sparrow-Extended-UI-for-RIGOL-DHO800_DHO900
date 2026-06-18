@@ -215,7 +215,7 @@
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    const v3, 0x7f030122
+    const v3, 0x7f030123
 
     .line 294
     invoke-static {v3}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -289,7 +289,7 @@
 
     const/16 v2, 0x30
 
-    const/16 v3, 0x5316
+    const/16 v3, 0x5516
 
     invoke-virtual {v0, v2, v3}, Lcom/rigol/scope/cil/API;->UI_QueryStr(II)Ljava/lang/String;
 
@@ -363,7 +363,7 @@
     goto :goto_1
 
     :cond_3
-    const v2, 0x7f030121
+    const v2, 0x7f030122
 
     .line 334
     invoke-static {v2}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -373,7 +373,7 @@
     goto :goto_2
 
     :cond_4
-    const v2, 0x7f03011e
+    const v2, 0x7f03011f
 
     .line 330
     invoke-static {v2}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -638,11 +638,11 @@
     .line 392
     iget-object v0, p0, Lcom/rigol/scope/views/analyse/AnalyseUsbResultPopupView;->param:Lcom/rigol/scope/views/busAnalyse/BusAnalyseParam;
 
-    const v1, 0x7f101308
+    const v1, 0x7f10131d
 
-    const v2, 0x7f101309
+    const v2, 0x7f10131e
 
-    const v3, 0x7f101306
+    const v3, 0x7f10131b
 
     if-eqz v0, :cond_5
 
@@ -677,7 +677,7 @@
 
     if-ne v0, v6, :cond_1
 
-    const v1, 0x7f101307
+    const v1, 0x7f10131c
 
     goto :goto_2
 

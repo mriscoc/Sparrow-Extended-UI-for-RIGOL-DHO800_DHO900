@@ -41,10 +41,10 @@
 .method public constructor <init>(ILcom/rigol/scope/data/StorageLoadParam;)V
     .locals 0
 
-    .line 175
+    .line 177
     invoke-direct {p0, p1}, Lcom/rigol/scope/adapters/BaseAdapterDelegate;-><init>(I)V
 
-    .line 176
+    .line 178
     iput-object p2, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$LoadDelegate;->param:Lcom/rigol/scope/data/StorageLoadParam;
 
     return-void
@@ -55,7 +55,7 @@
 .method public getAorBManager()Lcom/rigol/scope/utilities/AorBManager;
     .locals 1
 
-    .line 180
+    .line 182
     iget-object v0, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$LoadDelegate;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     return-object v0
@@ -64,7 +64,7 @@
 .method protected bridge synthetic isForViewType(Ljava/lang/Object;I)Z
     .locals 0
 
-    .line 168
+    .line 170
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$LoadDelegate;->isForViewType(Ljava/util/List;I)Z
@@ -85,7 +85,7 @@
         }
     .end annotation
 
-    .line 189
+    .line 191
     invoke-interface {p1, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p1
@@ -98,7 +98,7 @@
 
     return p2
 
-    .line 193
+    .line 195
     :cond_0
     invoke-virtual {p1}, Lcom/rigol/scope/data/MappingObject;->getValue()I
 
@@ -119,7 +119,7 @@
 .method protected bridge synthetic onBindViewHolder(Ljava/lang/Object;ILcom/rigol/scope/adapters/BaseViewHolder;)V
     .locals 0
 
-    .line 168
+    .line 170
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$LoadDelegate;->onBindViewHolder(Ljava/util/List;ILcom/rigol/scope/adapters/BaseViewHolder;)V
@@ -142,7 +142,7 @@
         }
     .end annotation
 
-    .line 198
+    .line 200
     invoke-virtual {p3}, Lcom/rigol/scope/adapters/BaseViewHolder;->getBinding()Landroidx/databinding/ViewDataBinding;
 
     move-result-object p1
@@ -151,47 +151,47 @@
 
     iput-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$LoadDelegate;->binding:Lcom/rigol/scope/databinding/AdapterStorageLoadBinding;
 
-    .line 199
+    .line 201
     iget-object p2, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$LoadDelegate;->param:Lcom/rigol/scope/data/StorageLoadParam;
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/databinding/AdapterStorageLoadBinding;->setParam(Lcom/rigol/scope/data/StorageLoadParam;)V
 
-    .line 203
+    .line 205
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$LoadDelegate;->binding:Lcom/rigol/scope/databinding/AdapterStorageLoadBinding;
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterStorageLoadBinding;->chooseSpinnerLoad:Landroid/widget/TextView;
 
     invoke-virtual {p1, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 204
+    .line 206
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$LoadDelegate;->binding:Lcom/rigol/scope/databinding/AdapterStorageLoadBinding;
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterStorageLoadBinding;->waveFileFormatSpinner:Landroid/widget/TextView;
 
     invoke-virtual {p1, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 205
+    .line 207
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$LoadDelegate;->binding:Lcom/rigol/scope/databinding/AdapterStorageLoadBinding;
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterStorageLoadBinding;->setupFileFormatSpinner:Landroid/widget/TextView;
 
     invoke-virtual {p1, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 207
+    .line 209
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$LoadDelegate;->binding:Lcom/rigol/scope/databinding/AdapterStorageLoadBinding;
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterStorageLoadBinding;->pathNameEditText:Landroid/widget/EditText;
 
     invoke-virtual {p1, p0}, Landroid/widget/EditText;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 209
+    .line 211
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$LoadDelegate;->binding:Lcom/rigol/scope/databinding/AdapterStorageLoadBinding;
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterStorageLoadBinding;->load:Landroid/widget/Button;
 
     invoke-virtual {p1, p0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 210
+    .line 212
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$LoadDelegate;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     if-eqz p1, :cond_0
@@ -202,7 +202,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 212
+    .line 214
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$LoadDelegate;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     invoke-virtual {p1}, Lcom/rigol/scope/utilities/AorBManager;->getList_aorbParam()Ljava/util/List;
@@ -229,7 +229,7 @@
 
     invoke-interface {p1, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 213
+    .line 215
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$LoadDelegate;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     invoke-virtual {p1}, Lcom/rigol/scope/utilities/AorBManager;->getList_aorbParam()Ljava/util/List;
@@ -250,7 +250,7 @@
 
     invoke-interface {p1, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 214
+    .line 216
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$LoadDelegate;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     invoke-virtual {p1}, Lcom/rigol/scope/utilities/AorBManager;->getList_aorbParam()Ljava/util/List;
@@ -271,7 +271,7 @@
 
     invoke-interface {p1, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 215
+    .line 217
     iget-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$LoadDelegate;->onItemClickCallback:Lcom/rigol/scope/adapters/StorageViewPagerAdapter$OnItemClickCallback;
 
     if-eqz p1, :cond_0
@@ -287,12 +287,12 @@
 .method public onClick(Landroid/view/View;)V
     .locals 3
 
-    .line 227
+    .line 229
     iget-object v0, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$LoadDelegate;->onItemClickCallback:Lcom/rigol/scope/adapters/StorageViewPagerAdapter$OnItemClickCallback;
 
     if-eqz v0, :cond_0
 
-    .line 228
+    .line 230
     iget-object v1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$LoadDelegate;->binding:Lcom/rigol/scope/databinding/AdapterStorageLoadBinding;
 
     iget-object v2, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$LoadDelegate;->param:Lcom/rigol/scope/data/StorageLoadParam;
@@ -306,7 +306,7 @@
 .method public setAorBManager(Lcom/rigol/scope/utilities/AorBManager;)V
     .locals 0
 
-    .line 184
+    .line 186
     iput-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$LoadDelegate;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     return-void
@@ -315,7 +315,7 @@
 .method public setOnItemClickCallback(Lcom/rigol/scope/adapters/StorageViewPagerAdapter$OnItemClickCallback;)V
     .locals 0
 
-    .line 222
+    .line 224
     iput-object p1, p0, Lcom/rigol/scope/adapters/StorageViewPagerAdapter$LoadDelegate;->onItemClickCallback:Lcom/rigol/scope/adapters/StorageViewPagerAdapter$OnItemClickCallback;
 
     return-void

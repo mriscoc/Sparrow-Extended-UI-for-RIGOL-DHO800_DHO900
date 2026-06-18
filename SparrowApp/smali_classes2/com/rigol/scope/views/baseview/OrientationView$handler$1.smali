@@ -65,7 +65,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 243
+    .line 235
     iget p1, p1, Landroid/os/Message;->what:I
 
     const/4 v0, 0x0
@@ -80,26 +80,26 @@
 
     goto :goto_0
 
-    .line 249
+    .line 241
     :cond_0
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView$handler$1;->this$0:Lcom/rigol/scope/views/baseview/OrientationView;
 
     invoke-virtual {p1, v1}, Lcom/rigol/scope/views/baseview/OrientationView;->setShowLine(Z)V
 
-    .line 250
+    .line 242
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView$handler$1;->this$0:Lcom/rigol/scope/views/baseview/OrientationView;
 
     invoke-virtual {p1}, Lcom/rigol/scope/views/baseview/OrientationView;->invalidate()V
 
     goto :goto_0
 
-    .line 245
+    .line 237
     :cond_1
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView$handler$1;->this$0:Lcom/rigol/scope/views/baseview/OrientationView;
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/views/baseview/OrientationView;->setShowLine(Z)V
 
-    .line 246
+    .line 238
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView$handler$1;->this$0:Lcom/rigol/scope/views/baseview/OrientationView;
 
     invoke-virtual {p1}, Lcom/rigol/scope/views/baseview/OrientationView;->invalidate()V

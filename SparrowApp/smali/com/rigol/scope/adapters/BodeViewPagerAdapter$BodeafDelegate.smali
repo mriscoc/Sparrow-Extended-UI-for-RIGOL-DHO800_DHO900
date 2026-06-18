@@ -105,7 +105,7 @@
     return-object p0
 .end method
 
-.method static synthetic lambda$onBindViewHolder$1(ILcom/rigol/scope/data/MappingObject;)V
+.method static synthetic lambda$null$1(ILcom/rigol/scope/data/MappingObject;)V
     .locals 0
 
     return-void
@@ -161,7 +161,7 @@
     return p2
 .end method
 
-.method public synthetic lambda$onBindViewHolder$0$BodeViewPagerAdapter$BodeafDelegate(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
+.method public synthetic lambda$null$0$BodeViewPagerAdapter$BodeafDelegate(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
     .locals 0
 
     .line 701
@@ -201,11 +201,11 @@
 
     iget-object v8, p0, Lcom/rigol/scope/adapters/BodeViewPagerAdapter$BodeafDelegate;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
 
-    new-instance v9, Lcom/rigol/scope/adapters/-$$Lambda$BodeViewPagerAdapter$BodeafDelegate$fsKGVgzOZipwiV3krOGOlNPfeys;
+    new-instance v9, Lcom/rigol/scope/adapters/-$$Lambda$BodeViewPagerAdapter$BodeafDelegate$ia5MkpDilnsSLfbqeM3bc1yzEE4;
 
-    invoke-direct {v9, p0}, Lcom/rigol/scope/adapters/-$$Lambda$BodeViewPagerAdapter$BodeafDelegate$fsKGVgzOZipwiV3krOGOlNPfeys;-><init>(Lcom/rigol/scope/adapters/BodeViewPagerAdapter$BodeafDelegate;)V
+    invoke-direct {v9, p0}, Lcom/rigol/scope/adapters/-$$Lambda$BodeViewPagerAdapter$BodeafDelegate$ia5MkpDilnsSLfbqeM3bc1yzEE4;-><init>(Lcom/rigol/scope/adapters/BodeViewPagerAdapter$BodeafDelegate;)V
 
-    sget-object v10, Lcom/rigol/scope/adapters/-$$Lambda$BodeViewPagerAdapter$BodeafDelegate$XxJ4FYkVRB8XMjBKvYjZPyeTsrY;->INSTANCE:Lcom/rigol/scope/adapters/-$$Lambda$BodeViewPagerAdapter$BodeafDelegate$XxJ4FYkVRB8XMjBKvYjZPyeTsrY;
+    sget-object v10, Lcom/rigol/scope/adapters/-$$Lambda$BodeViewPagerAdapter$BodeafDelegate$pkEZ3UjCk9sbyxeR6Y7XEGlNJn8;->INSTANCE:Lcom/rigol/scope/adapters/-$$Lambda$BodeViewPagerAdapter$BodeafDelegate$pkEZ3UjCk9sbyxeR6Y7XEGlNJn8;
 
     move-object v2, p1
 

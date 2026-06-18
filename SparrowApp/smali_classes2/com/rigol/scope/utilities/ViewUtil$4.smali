@@ -36,7 +36,7 @@
 .method static constructor <clinit>()V
     .locals 11
 
-    .line 4565
+    .line 4593
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;->values()[Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
 
     move-result-object v0
@@ -124,7 +124,7 @@
     :try_end_4
     .catch Ljava/lang/NoSuchFieldError; {:try_start_4 .. :try_end_4} :catch_4
 
-    .line 3725
+    .line 3751
     :catch_4
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;->values()[Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickOperationType;
 
@@ -267,7 +267,7 @@
     :try_end_d
     .catch Ljava/lang/NoSuchFieldError; {:try_start_d .. :try_end_d} :catch_d
 
-    .line 3528
+    .line 3554
     :catch_d
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$Function;->values()[Lcom/rigol/scope/cil/ServiceEnum$Function;
 

@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/CustomTimepickerDialogAntBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0530
+    const v1, 0x7f0a0532
 
     const/4 v2, 0x1
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/CustomTimepickerDialogAntBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08f7
+    const v1, 0x7f0a0903
 
     const/4 v2, 0x2
 

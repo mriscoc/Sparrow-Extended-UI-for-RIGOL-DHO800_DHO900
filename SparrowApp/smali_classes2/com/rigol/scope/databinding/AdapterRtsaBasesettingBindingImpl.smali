@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterRtsaBasesettingBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04a5
+    const v1, 0x7f0a04a7
 
     const/16 v2, 0x13
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterRtsaBasesettingBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04a6
+    const v1, 0x7f0a04a8
 
     const/16 v2, 0x14
 
@@ -45,7 +45,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/AdapterRtsaBasesettingBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0472
+    const v1, 0x7f0a0474
 
     const/16 v2, 0x15
 
@@ -54,7 +54,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/AdapterRtsaBasesettingBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0478
+    const v1, 0x7f0a047a
 
     const/16 v2, 0x16
 
@@ -63,7 +63,7 @@
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/AdapterRtsaBasesettingBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0474
+    const v1, 0x7f0a0476
 
     const/16 v2, 0x17
 
@@ -72,7 +72,7 @@
     .line 22
     sget-object v0, Lcom/rigol/scope/databinding/AdapterRtsaBasesettingBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0844
+    const v1, 0x7f0a0850
 
     const/16 v2, 0x18
 
@@ -81,7 +81,7 @@
     .line 23
     sget-object v0, Lcom/rigol/scope/databinding/AdapterRtsaBasesettingBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0846
+    const v1, 0x7f0a0852
 
     const/16 v2, 0x19
 
@@ -90,7 +90,7 @@
     .line 24
     sget-object v0, Lcom/rigol/scope/databinding/AdapterRtsaBasesettingBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0476
+    const v1, 0x7f0a0478
 
     const/16 v2, 0x1a
 
@@ -117,7 +117,7 @@
     .line 27
     sget-object v0, Lcom/rigol/scope/databinding/AdapterRtsaBasesettingBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0766
+    const v1, 0x7f0a0772
 
     const/16 v2, 0x1d
 
@@ -126,7 +126,7 @@
     .line 28
     sget-object v0, Lcom/rigol/scope/databinding/AdapterRtsaBasesettingBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0767
+    const v1, 0x7f0a0773
 
     const/16 v2, 0x1e
 
@@ -135,7 +135,7 @@
     .line 29
     sget-object v0, Lcom/rigol/scope/databinding/AdapterRtsaBasesettingBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b29
+    const v1, 0x7f0a0b35
 
     const/16 v2, 0x1f
 
@@ -162,7 +162,7 @@
     .line 32
     sget-object v0, Lcom/rigol/scope/databinding/AdapterRtsaBasesettingBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a88
+    const v1, 0x7f0a0a94
 
     const/16 v2, 0x22
 
@@ -171,7 +171,7 @@
     .line 33
     sget-object v0, Lcom/rigol/scope/databinding/AdapterRtsaBasesettingBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a082e
+    const v1, 0x7f0a083a
 
     const/16 v2, 0x23
 
@@ -180,7 +180,7 @@
     .line 34
     sget-object v0, Lcom/rigol/scope/databinding/AdapterRtsaBasesettingBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a06fb
+    const v1, 0x7f0a0707
 
     const/16 v2, 0x24
 
@@ -599,7 +599,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x2f8
+    const/16 v0, 0x2fc
 
     if-ne p2, v0, :cond_1
 
@@ -703,7 +703,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x384
+    const/16 v0, 0x388
 
     if-ne p2, v0, :cond_2
 
@@ -767,7 +767,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x366
+    const/16 v0, 0x36a
 
     if-ne p2, v0, :cond_4
 
@@ -799,7 +799,7 @@
     throw p1
 
     :cond_4
-    const/16 v0, 0x2ae
+    const/16 v0, 0x2b2
 
     if-ne p2, v0, :cond_5
 
@@ -863,7 +863,7 @@
     throw p1
 
     :cond_6
-    const/16 v0, 0x433
+    const/16 v0, 0x437
 
     if-ne p2, v0, :cond_7
 
@@ -895,7 +895,7 @@
     throw p1
 
     :cond_7
-    const/16 v0, 0x3db
+    const/16 v0, 0x3df
 
     if-ne p2, v0, :cond_8
 
@@ -927,7 +927,7 @@
     throw p1
 
     :cond_8
-    const/16 v0, 0x2cf
+    const/16 v0, 0x2d3
 
     if-ne p2, v0, :cond_9
 
@@ -959,7 +959,7 @@
     throw p1
 
     :cond_9
-    const/16 v0, 0x308
+    const/16 v0, 0x30c
 
     if-ne p2, v0, :cond_a
 
@@ -991,7 +991,7 @@
     throw p1
 
     :cond_a
-    const/16 v0, 0x380
+    const/16 v0, 0x384
 
     if-ne p2, v0, :cond_b
 
@@ -1023,7 +1023,7 @@
     throw p1
 
     :cond_b
-    const/16 v0, 0x26c
+    const/16 v0, 0x26f
 
     if-ne p2, v0, :cond_c
 
@@ -1480,7 +1480,7 @@
     move v12, v9
 
     :goto_7
-    const v13, 0x7f03013b
+    const v13, 0x7f03013c
 
     .line 449
     invoke-static {v13, v12}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -1717,7 +1717,7 @@
     const/4 v5, 0x0
 
     :goto_10
-    const v10, 0x7f030110
+    const v10, 0x7f030111
 
     .line 530
     invoke-static {v10, v5}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -1797,7 +1797,7 @@
     const/4 v14, 0x0
 
     :goto_14
-    const v15, 0x7f03013a
+    const v15, 0x7f03013b
 
     .line 561
     invoke-static {v15, v14}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -1896,7 +1896,7 @@
     const/4 v4, 0x0
 
     :goto_18
-    const v5, 0x7f030139
+    const v5, 0x7f03013a
 
     .line 592
     invoke-static {v5, v4}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -2828,7 +2828,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x17b
+    const/16 p1, 0x17c
 
     .line 159
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterRtsaBasesettingBindingImpl;->notifyPropertyChanged(I)V
@@ -2879,7 +2879,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x252
+    const/16 p1, 0x254
 
     .line 150
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterRtsaBasesettingBindingImpl;->notifyPropertyChanged(I)V
@@ -2904,7 +2904,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x252
+    const/16 v0, 0x254
 
     if-ne v0, p1, :cond_0
 
@@ -2916,7 +2916,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x17b
+    const/16 v0, 0x17c
 
     if-ne v0, p1, :cond_1
 

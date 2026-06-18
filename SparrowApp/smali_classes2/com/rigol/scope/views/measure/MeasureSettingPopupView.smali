@@ -447,7 +447,7 @@
 
     if-eqz v0, :cond_4
 
-    const/16 v2, 0x3323
+    const/16 v2, 0x3523
 
     .line 170
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -467,7 +467,7 @@
     invoke-virtual {v2, v4, v5}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
     :cond_4
-    const/16 v2, 0x33d7
+    const/16 v2, 0x35d7
 
     .line 175
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -486,7 +486,7 @@
 
     invoke-virtual {v2, v4, v5}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    const/16 v2, 0x333e
+    const/16 v2, 0x353e
 
     .line 186
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -1227,7 +1227,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f101059
+    const p2, 0x7f10106a
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1291,7 +1291,7 @@
 
     const/4 v2, 0x1
 
-    const/16 v3, 0x3317
+    const/16 v3, 0x3517
 
     const/16 v4, 0x1c
 
@@ -1627,71 +1627,6 @@
     return-object v0
 .end method
 
-.method public synthetic lambda$new$0$MeasureSettingPopupView(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
-    .locals 0
-
-    .line 137
-    iput-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
-
-    return-void
-.end method
-
-.method public synthetic lambda$new$1$MeasureSettingPopupView(ILcom/rigol/scope/data/MappingObject;)V
-    .locals 2
-
-    .line 139
-    iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->clickedView:Landroid/view/View;
-
-    invoke-virtual {v0}, Landroid/view/View;->getId()I
-
-    move-result v0
-
-    const v1, 0x7f0a08f2
-
-    if-ne v0, v1, :cond_0
-
-    .line 140
-    invoke-direct {p0, p2}, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->selectThresholdSource(Lcom/rigol/scope/data/MappingObject;)V
-
-    goto :goto_0
-
-    .line 141
-    :cond_0
-    iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->clickedView:Landroid/view/View;
-
-    invoke-virtual {v0}, Landroid/view/View;->getId()I
-
-    move-result v0
-
-    const v1, 0x7f0a079c
-
-    if-ne v0, v1, :cond_1
-
-    .line 142
-    invoke-direct {p0, p1, p2}, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->selectRegion(ILcom/rigol/scope/data/MappingObject;)V
-
-    goto :goto_0
-
-    .line 143
-    :cond_1
-    iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->clickedView:Landroid/view/View;
-
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
-
-    move-result p1
-
-    const v0, 0x7f0a063e
-
-    if-ne p1, v0, :cond_2
-
-    .line 144
-    invoke-direct {p0, p2}, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->selectThresholdSource(Lcom/rigol/scope/data/MappingObject;)V
-
-    :cond_2
-    :goto_0
-    return-void
-.end method
-
 .method public synthetic lambda$new$10$MeasureSettingPopupView(Landroid/widget/CompoundButton;Z)V
     .locals 1
 
@@ -1906,11 +1841,9 @@
 
     goto :goto_0
 
-    .line 328
     :cond_1
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$ThreType;->TH_TYPE_PER:Lcom/rigol/scope/cil/ServiceEnum$ThreType;
 
-    .line 327
     :goto_0
     invoke-virtual {p2, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveThresholdType(Lcom/rigol/scope/cil/ServiceEnum$ThreType;)V
 
@@ -2104,13 +2037,13 @@
 
     iget-object v8, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
 
-    new-instance v9, Lcom/rigol/scope/views/measure/-$$Lambda$MeasureSettingPopupView$btcwpOveVWcLhevUpK1T0g2U23k;
+    new-instance v9, Lcom/rigol/scope/views/measure/-$$Lambda$MeasureSettingPopupView$cQuODDYO-H5Q-lwGgrcNbvzdev0;
 
-    invoke-direct {v9, p0}, Lcom/rigol/scope/views/measure/-$$Lambda$MeasureSettingPopupView$btcwpOveVWcLhevUpK1T0g2U23k;-><init>(Lcom/rigol/scope/views/measure/MeasureSettingPopupView;)V
+    invoke-direct {v9, p0}, Lcom/rigol/scope/views/measure/-$$Lambda$MeasureSettingPopupView$cQuODDYO-H5Q-lwGgrcNbvzdev0;-><init>(Lcom/rigol/scope/views/measure/MeasureSettingPopupView;)V
 
-    new-instance v10, Lcom/rigol/scope/views/measure/-$$Lambda$MeasureSettingPopupView$r8LmezDpj8Ct2kYrmbJy94pTWAY;
+    new-instance v10, Lcom/rigol/scope/views/measure/-$$Lambda$MeasureSettingPopupView$XcxJxNeiBPSNdF3esr0dtY4s9fs;
 
-    invoke-direct {v10, p0}, Lcom/rigol/scope/views/measure/-$$Lambda$MeasureSettingPopupView$r8LmezDpj8Ct2kYrmbJy94pTWAY;-><init>(Lcom/rigol/scope/views/measure/MeasureSettingPopupView;)V
+    invoke-direct {v10, p0}, Lcom/rigol/scope/views/measure/-$$Lambda$MeasureSettingPopupView$XcxJxNeiBPSNdF3esr0dtY4s9fs;-><init>(Lcom/rigol/scope/views/measure/MeasureSettingPopupView;)V
 
     move-object v2, p1
 
@@ -2306,6 +2239,71 @@
     return-void
 .end method
 
+.method public synthetic lambda$null$0$MeasureSettingPopupView(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
+    .locals 0
+
+    .line 137
+    iput-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
+
+    return-void
+.end method
+
+.method public synthetic lambda$null$1$MeasureSettingPopupView(ILcom/rigol/scope/data/MappingObject;)V
+    .locals 2
+
+    .line 139
+    iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->clickedView:Landroid/view/View;
+
+    invoke-virtual {v0}, Landroid/view/View;->getId()I
+
+    move-result v0
+
+    const v1, 0x7f0a08fe
+
+    if-ne v0, v1, :cond_0
+
+    .line 140
+    invoke-direct {p0, p2}, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->selectThresholdSource(Lcom/rigol/scope/data/MappingObject;)V
+
+    goto :goto_0
+
+    .line 141
+    :cond_0
+    iget-object v0, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->clickedView:Landroid/view/View;
+
+    invoke-virtual {v0}, Landroid/view/View;->getId()I
+
+    move-result v0
+
+    const v1, 0x7f0a07a8
+
+    if-ne v0, v1, :cond_1
+
+    .line 142
+    invoke-direct {p0, p1, p2}, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->selectRegion(ILcom/rigol/scope/data/MappingObject;)V
+
+    goto :goto_0
+
+    .line 143
+    :cond_1
+    iget-object p1, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->clickedView:Landroid/view/View;
+
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    move-result p1
+
+    const v0, 0x7f0a0646
+
+    if-ne p1, v0, :cond_2
+
+    .line 144
+    invoke-direct {p0, p2}, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->selectThresholdSource(Lcom/rigol/scope/data/MappingObject;)V
+
+    :cond_2
+    :goto_0
+    return-void
+.end method
+
 .method public synthetic lambda$onClick$20$MeasureSettingPopupView(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
     .locals 0
 
@@ -2403,7 +2401,7 @@
 .method public onCheckedChanged(Landroid/widget/RadioGroup;I)V
     .locals 0
 
-    const p1, 0x7f0a069b
+    const p1, 0x7f0a06a5
 
     if-ne p2, p1, :cond_0
 
@@ -2417,7 +2415,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0a072a
+    const p1, 0x7f0a0736
 
     if-ne p2, p1, :cond_1
 
@@ -2444,7 +2442,7 @@
 
     move-result v0
 
-    const v2, 0x7f0a04e8
+    const v2, 0x7f0a04ea
 
     if-ne v0, v2, :cond_1
 
@@ -2495,9 +2493,9 @@
 
     move-result-wide v5
 
-    .line 506
     iget-object v7, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
+    .line 506
     invoke-virtual {v7}, Lcom/rigol/scope/data/MeasureSettingParam;->getThresholdType()Lcom/rigol/scope/cil/ServiceEnum$ThreType;
 
     move-result-object v7
@@ -2549,7 +2547,7 @@
     goto/16 :goto_3
 
     :cond_1
-    const v2, 0x7f0a0645
+    const v2, 0x7f0a064d
 
     if-ne v0, v2, :cond_3
 
@@ -2600,9 +2598,9 @@
 
     move-result-wide v5
 
-    .line 528
     iget-object v7, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
+    .line 528
     invoke-virtual {v7}, Lcom/rigol/scope/data/MeasureSettingParam;->getThresholdType()Lcom/rigol/scope/cil/ServiceEnum$ThreType;
 
     move-result-object v7
@@ -2654,7 +2652,7 @@
     goto/16 :goto_3
 
     :cond_3
-    const v2, 0x7f0a0609
+    const v2, 0x7f0a0611
 
     if-ne v0, v2, :cond_5
 
@@ -2705,9 +2703,9 @@
 
     move-result-wide v5
 
-    .line 550
     iget-object v7, p0, Lcom/rigol/scope/views/measure/MeasureSettingPopupView;->param:Lcom/rigol/scope/data/MeasureSettingParam;
 
+    .line 550
     invoke-virtual {v7}, Lcom/rigol/scope/data/MeasureSettingParam;->getThresholdType()Lcom/rigol/scope/cil/ServiceEnum$ThreType;
 
     move-result-object v7
@@ -2759,7 +2757,7 @@
     goto/16 :goto_3
 
     :cond_5
-    const v2, 0x7f0a0864
+    const v2, 0x7f0a0870
 
     if-ne v0, v2, :cond_6
 
@@ -2831,7 +2829,7 @@
     goto/16 :goto_3
 
     :cond_6
-    const v2, 0x7f0a08ec
+    const v2, 0x7f0a08f8
 
     const/4 v3, 0x1
 
@@ -2844,14 +2842,14 @@
 
     move-result-object v0
 
-    const/16 v1, 0x3317
+    const/16 v1, 0x3517
 
     invoke-virtual {v0, v4, v1, v3}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
     goto/16 :goto_3
 
     :cond_7
-    const v2, 0x7f0a0866
+    const v2, 0x7f0a0872
 
     if-ne v0, v2, :cond_8
 
@@ -2860,14 +2858,14 @@
 
     move-result-object v0
 
-    const/16 v1, 0x3325
+    const/16 v1, 0x3525
 
     invoke-virtual {v0, v4, v1, v3}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
     goto/16 :goto_3
 
     :cond_8
-    const v2, 0x7f0a079c
+    const v2, 0x7f0a07a8
 
     if-ne v0, v2, :cond_9
 
@@ -3039,7 +3037,7 @@
     goto :goto_3
 
     :cond_b
-    const v2, 0x7f0a08f2
+    const v2, 0x7f0a08fe
 
     if-ne v0, v2, :cond_c
 
@@ -3071,7 +3069,7 @@
     goto :goto_3
 
     :cond_c
-    const v2, 0x7f0a063e
+    const v2, 0x7f0a0646
 
     if-ne v0, v2, :cond_d
 
@@ -3419,10 +3417,10 @@
     .sparse-switch
         0x7f0a0220 -> :sswitch_5
         0x7f0a0226 -> :sswitch_4
-        0x7f0a04e8 -> :sswitch_3
-        0x7f0a0609 -> :sswitch_2
-        0x7f0a0645 -> :sswitch_1
-        0x7f0a0864 -> :sswitch_0
+        0x7f0a04ea -> :sswitch_3
+        0x7f0a0611 -> :sswitch_2
+        0x7f0a064d -> :sswitch_1
+        0x7f0a0870 -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -3708,9 +3706,9 @@
     .sparse-switch
         0x7f0a0220 -> :sswitch_5
         0x7f0a0226 -> :sswitch_4
-        0x7f0a04e8 -> :sswitch_3
-        0x7f0a0609 -> :sswitch_2
-        0x7f0a0645 -> :sswitch_1
-        0x7f0a0864 -> :sswitch_0
+        0x7f0a04ea -> :sswitch_3
+        0x7f0a0611 -> :sswitch_2
+        0x7f0a064d -> :sswitch_1
+        0x7f0a0870 -> :sswitch_0
     .end sparse-switch
 .end method

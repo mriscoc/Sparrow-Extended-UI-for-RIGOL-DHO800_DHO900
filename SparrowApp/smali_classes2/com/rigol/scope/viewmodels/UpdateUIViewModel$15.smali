@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->bindAll(Lcom/rigol/scope/BaseActivity;Landroidx/lifecycle/ViewModelProvider;)V
+    value = Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->bind(Landroidx/lifecycle/LifecycleOwner;Ljava/util/List;I)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -29,17 +29,21 @@
 # instance fields
 .field final synthetic this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
-.field final synthetic val$optionParam:Lcom/rigol/scope/data/OptionParam;
+.field final synthetic val$param:Lcom/rigol/scope/data/VerticalParam;
+
+.field final synthetic val$verticalParamList:Ljava/util/List;
 
 
 # direct methods
-.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/OptionParam;)V
+.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/VerticalParam;Ljava/util/List;)V
     .locals 0
 
-    .line 723
+    .line 741
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$15;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
-    iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$15;->val$optionParam:Lcom/rigol/scope/data/OptionParam;
+    iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$15;->val$param:Lcom/rigol/scope/data/VerticalParam;
+
+    iput-object p3, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$15;->val$verticalParamList:Ljava/util/List;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -49,24 +53,29 @@
 
 # virtual methods
 .method public onChanged(Ljava/lang/Boolean;)V
-    .locals 0
+    .locals 1
 
-    .line 726
-    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$15;->val$optionParam:Lcom/rigol/scope/data/OptionParam;
+    .line 744
+    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$15;->val$param:Lcom/rigol/scope/data/VerticalParam;
 
-    if-eqz p1, :cond_0
+    const/16 v0, 0x703
 
-    .line 727
-    invoke-virtual {p1}, Lcom/rigol/scope/data/OptionParam;->readAll()V
+    invoke-virtual {p1, v0}, Lcom/rigol/scope/data/VerticalParam;->readInt(I)I
 
-    :cond_0
+    move-result p1
+
+    .line 745
+    iget-object v0, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$15;->val$verticalParamList:Ljava/util/List;
+
+    invoke-static {v0, p1}, Lcom/rigol/scope/utilities/ViewUtil;->updateStatus(Ljava/util/List;I)V
+
     return-void
 .end method
 
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 723
+    .line 741
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$15;->onChanged(Ljava/lang/Boolean;)V

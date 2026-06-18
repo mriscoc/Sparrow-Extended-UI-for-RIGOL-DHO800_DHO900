@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/VerticalParam;)V
     .locals 0
 
-    .line 879
+    .line 840
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$26;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$26;->val$param:Lcom/rigol/scope/data/VerticalParam;
@@ -49,23 +49,12 @@
 
 # virtual methods
 .method public onChanged(Ljava/lang/Boolean;)V
-    .locals 1
+    .locals 0
 
-    .line 882
+    .line 843
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$26;->val$param:Lcom/rigol/scope/data/VerticalParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->readFine()Z
-
-    .line 883
-    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$26;->val$param:Lcom/rigol/scope/data/VerticalParam;
-
-    invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->getFine()Z
-
-    move-result p1
-
-    const v0, 0x7f100f29
-
-    invoke-static {v0, p1}, Lcom/rigol/scope/utilities/ViewUtil;->switchToast(IZ)V
+    invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->readLabel()Ljava/lang/String;
 
     return-void
 .end method
@@ -73,7 +62,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 879
+    .line 840
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$26;->onChanged(Ljava/lang/Boolean;)V

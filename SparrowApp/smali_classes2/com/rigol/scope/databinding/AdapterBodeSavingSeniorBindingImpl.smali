@@ -28,7 +28,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterBodeSavingSeniorBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04cc
+    const v1, 0x7f0a04ce
 
     const/16 v2, 0xf
 
@@ -407,7 +407,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x28e
+    const/16 v0, 0x291
 
     if-ne p2, v0, :cond_2
 
@@ -439,7 +439,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x25b
+    const/16 v0, 0x25d
 
     if-ne p2, v0, :cond_3
 
@@ -543,7 +543,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x25b
+    const/16 v0, 0x25d
 
     if-ne p2, v0, :cond_2
 
@@ -615,7 +615,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -687,7 +687,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -763,7 +763,7 @@
 
     cmp-long v9, v9, v4
 
-    const v10, 0x7f0301c8
+    const v10, 0x7f0301ca
 
     const-wide/16 v11, 0x2041
 
@@ -1457,7 +1457,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x252
+    const/16 p1, 0x254
 
     .line 122
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterBodeSavingSeniorBindingImpl;->notifyPropertyChanged(I)V
@@ -1508,7 +1508,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x392
+    const/16 p1, 0x396
 
     .line 113
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterBodeSavingSeniorBindingImpl;->notifyPropertyChanged(I)V
@@ -1533,7 +1533,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x392
+    const/16 v0, 0x396
 
     if-ne v0, p1, :cond_0
 
@@ -1545,7 +1545,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x252
+    const/16 v0, 0x254
 
     if-ne v0, p1, :cond_1
 

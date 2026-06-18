@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/AfgParam;)V
     .locals 0
 
-    .line 9021
+    .line 8982
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$842;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$842;->val$afgParam:Lcom/rigol/scope/data/AfgParam;
@@ -51,10 +51,10 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 9025
+    .line 8986
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$842;->val$afgParam:Lcom/rigol/scope/data/AfgParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/AfgParam;->readServiceOutputEnable()Z
+    invoke-virtual {p1}, Lcom/rigol/scope/data/AfgParam;->readAfgWaveFmShape()I
 
     return-void
 .end method
@@ -62,7 +62,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 9021
+    .line 8982
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$842;->onChanged(Ljava/lang/Boolean;)V

@@ -193,7 +193,7 @@
 
     move-result v0
 
-    const v1, 0x7f0a085b
+    const v1, 0x7f0a0867
 
     if-ne v0, v1, :cond_0
 
@@ -227,7 +227,7 @@
     goto/16 :goto_0
 
     :cond_0
-    const v1, 0x7f0a0816
+    const v1, 0x7f0a0822
 
     if-ne v0, v1, :cond_1
 
@@ -261,7 +261,7 @@
     goto/16 :goto_0
 
     :cond_1
-    const p1, 0x7f0a0482
+    const p1, 0x7f0a0484
 
     if-ne v0, p1, :cond_2
 
@@ -282,7 +282,7 @@
 
     iget-object p1, p0, Lcom/rigol/scope/views/ddrDebug/DdrDebugPopupView;->param:Lcom/rigol/scope/data/StorageSaveParam;
 
-    invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     new-instance v5, Lcom/rigol/scope/views/ddrDebug/-$$Lambda$i9NRwQVRXRz5denMFitBirafr2w;
 
@@ -299,7 +299,7 @@
     goto/16 :goto_0
 
     :cond_2
-    const p1, 0x7f0a0484
+    const p1, 0x7f0a0486
 
     if-ne v0, p1, :cond_3
 
@@ -314,7 +314,7 @@
 
     iget-object v1, p0, Lcom/rigol/scope/views/ddrDebug/DdrDebugPopupView;->param:Lcom/rigol/scope/data/StorageSaveParam;
 
-    invoke-static {v1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     new-instance v2, Lcom/rigol/scope/views/ddrDebug/-$$Lambda$FtnkS5Qj29C5AJZD93PQtkUcPos;
 
@@ -325,7 +325,7 @@
     goto :goto_0
 
     :cond_3
-    const p1, 0x7f0a07cd
+    const p1, 0x7f0a07d9
 
     if-ne v0, p1, :cond_4
 
@@ -334,7 +334,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x4b47
+    const/16 v0, 0x4d48
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/ddrDebug/DdrDebugPopupView;->getStartAddr()I
 
@@ -349,7 +349,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x4b48
+    const/16 v0, 0x4d49
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/ddrDebug/DdrDebugPopupView;->getSize()I
 
@@ -409,7 +409,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x4b04
+    const/16 v0, 0x4d04
 
     const/4 v1, 0x1
 

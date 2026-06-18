@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nGridRulerView.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GridRulerView.kt\ncom/rigol/scope/views/grid/MathGridRulerView\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,1863:1\n1#2:1864\n*E\n"
+    value = "SMAP\nGridRulerView.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GridRulerView.kt\ncom/rigol/scope/views/grid/MathGridRulerView\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,1978:1\n1#2:1979\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -134,10 +134,10 @@
 .method public constructor <init>(Landroid/content/Context;ILandroid/util/AttributeSet;I)V
     .locals 2
 
-    .line 1171
+    .line 1286
     invoke-direct {p0, p1, p3, p4}, Lcom/rigol/scope/views/grid/GridRulerViewWrapper;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 1173
+    .line 1288
     const-class p3, Lcom/rigol/scope/viewmodels/HorizontalViewModel;
 
     invoke-static {p3}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -152,7 +152,7 @@
 
     if-eqz p3, :cond_0
 
-    .line 1174
+    .line 1289
     invoke-virtual {p3}, Lcom/rigol/scope/viewmodels/HorizontalViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object p3
@@ -173,7 +173,7 @@
     :goto_0
     iput-object p3, p0, Lcom/rigol/scope/views/grid/MathGridRulerView;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
 
-    .line 1176
+    .line 1291
     const-class p3, Lcom/rigol/scope/viewmodels/MathViewModel;
 
     invoke-static {p3}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -188,7 +188,7 @@
 
     if-eqz p3, :cond_1
 
-    .line 1182
+    .line 1297
     invoke-virtual {p3}, Lcom/rigol/scope/viewmodels/MathViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object p3
@@ -208,14 +208,14 @@
 
     if-ltz v0, :cond_2
 
-    .line 1184
+    .line 1299
     invoke-virtual {p4}, Ljava/util/ArrayList;->size()I
 
     move-result p3
 
     if-ge v0, p3, :cond_2
 
-    .line 1185
+    .line 1300
     invoke-virtual {p4, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object p3
@@ -233,7 +233,7 @@
 
     if-eqz p1, :cond_4
 
-    .line 1190
+    .line 1305
     iget-object p4, p0, Lcom/rigol/scope/views/grid/MathGridRulerView;->mathParam:Lcom/rigol/scope/data/MathParam;
 
     if-nez p4, :cond_3
@@ -254,7 +254,7 @@
     :cond_4
     if-eqz p1, :cond_6
 
-    .line 1191
+    .line 1306
     iget-object p4, p0, Lcom/rigol/scope/views/grid/MathGridRulerView;->mathParam:Lcom/rigol/scope/data/MathParam;
 
     if-nez p4, :cond_5
@@ -272,7 +272,7 @@
 
     invoke-virtual {p0, p3}, Lcom/rigol/scope/views/grid/MathGridRulerView;->setColumnTextColor(I)V
 
-    .line 1195
+    .line 1310
     :cond_6
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
@@ -284,7 +284,7 @@
 
     const/16 v0, 0x1304
 
-    .line 1194
+    .line 1309
     invoke-virtual {p3, p2, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p3
@@ -293,7 +293,7 @@
 
     if-eqz p1, :cond_7
 
-    .line 1195
+    .line 1310
     check-cast p1, Landroidx/lifecycle/LifecycleOwner;
 
     new-instance v0, Lcom/rigol/scope/views/grid/MathGridRulerView$6;
@@ -313,7 +313,7 @@
 
     throw p1
 
-    .line 1205
+    .line 1320
     :cond_8
     :goto_1
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -324,16 +324,16 @@
 
     if-eqz p1, :cond_a
 
-    const/16 v0, 0x2316
+    const/16 v0, 0x2516
 
-    .line 1204
+    .line 1319
     invoke-virtual {p1, p3, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
     if-eqz p1, :cond_a
 
-    .line 1205
+    .line 1320
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -359,7 +359,7 @@
 
     throw p1
 
-    .line 1212
+    .line 1327
     :cond_a
     :goto_2
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -368,16 +368,16 @@
 
     if-eqz p1, :cond_c
 
-    const/16 v0, 0x2317
+    const/16 v0, 0x2517
 
-    .line 1211
+    .line 1326
     invoke-virtual {p1, p3, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
     if-eqz p1, :cond_c
 
-    .line 1212
+    .line 1327
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -403,7 +403,7 @@
 
     throw p1
 
-    .line 1219
+    .line 1334
     :cond_c
     :goto_3
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -412,16 +412,16 @@
 
     if-eqz p1, :cond_e
 
-    const/16 v0, 0x2318
+    const/16 v0, 0x2518
 
-    .line 1218
+    .line 1333
     invoke-virtual {p1, p3, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
     if-eqz p1, :cond_e
 
-    .line 1219
+    .line 1334
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -447,7 +447,7 @@
 
     throw p1
 
-    .line 1226
+    .line 1341
     :cond_e
     :goto_4
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -456,16 +456,16 @@
 
     if-eqz p1, :cond_10
 
-    const/16 v0, 0x2319
+    const/16 v0, 0x2519
 
-    .line 1225
+    .line 1340
     invoke-virtual {p1, p3, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
     if-eqz p1, :cond_10
 
-    .line 1226
+    .line 1341
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->getContext()Landroid/content/Context;
 
     move-result-object p3
@@ -491,7 +491,7 @@
 
     throw p1
 
-    .line 1233
+    .line 1348
     :cond_10
     :goto_5
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -500,16 +500,16 @@
 
     if-eqz p1, :cond_12
 
-    const/16 p3, 0x2f07
+    const/16 p3, 0x3107
 
-    .line 1232
+    .line 1347
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
     if-eqz p1, :cond_12
 
-    .line 1233
+    .line 1348
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->getContext()Landroid/content/Context;
 
     move-result-object p3
@@ -535,7 +535,7 @@
 
     throw p1
 
-    .line 1240
+    .line 1355
     :cond_12
     :goto_6
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -544,16 +544,16 @@
 
     if-eqz p1, :cond_14
 
-    const/16 p3, 0x2f08
+    const/16 p3, 0x3108
 
-    .line 1239
+    .line 1354
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
     if-eqz p1, :cond_14
 
-    .line 1240
+    .line 1355
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->getContext()Landroid/content/Context;
 
     move-result-object p3
@@ -579,7 +579,7 @@
 
     throw p1
 
-    .line 1247
+    .line 1362
     :cond_14
     :goto_7
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -588,16 +588,16 @@
 
     if-eqz p1, :cond_16
 
-    const/16 p3, 0x2f09
+    const/16 p3, 0x3109
 
-    .line 1246
+    .line 1361
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
     if-eqz p1, :cond_16
 
-    .line 1247
+    .line 1362
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->getContext()Landroid/content/Context;
 
     move-result-object p3
@@ -623,7 +623,7 @@
 
     throw p1
 
-    .line 1254
+    .line 1369
     :cond_16
     :goto_8
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -632,16 +632,16 @@
 
     if-eqz p1, :cond_18
 
-    const/16 p3, 0x2f61
+    const/16 p3, 0x3161
 
-    .line 1253
+    .line 1368
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
     if-eqz p1, :cond_18
 
-    .line 1254
+    .line 1369
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->getContext()Landroid/content/Context;
 
     move-result-object p3
@@ -667,7 +667,7 @@
 
     throw p1
 
-    .line 1261
+    .line 1376
     :cond_18
     :goto_9
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -676,16 +676,16 @@
 
     if-eqz p1, :cond_1a
 
-    const/16 p3, 0x2f62
+    const/16 p3, 0x3162
 
-    .line 1260
+    .line 1375
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
     if-eqz p1, :cond_1a
 
-    .line 1261
+    .line 1376
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->getContext()Landroid/content/Context;
 
     move-result-object p3
@@ -711,7 +711,7 @@
 
     throw p1
 
-    .line 1268
+    .line 1383
     :cond_1a
     :goto_a
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -720,16 +720,16 @@
 
     if-eqz p1, :cond_1c
 
-    const/16 p3, 0x2f0a
+    const/16 p3, 0x310a
 
-    .line 1267
+    .line 1382
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
     if-eqz p1, :cond_1c
 
-    .line 1268
+    .line 1383
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->getContext()Landroid/content/Context;
 
     move-result-object p3
@@ -755,7 +755,7 @@
 
     throw p1
 
-    .line 1275
+    .line 1390
     :cond_1c
     :goto_b
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -764,16 +764,16 @@
 
     if-eqz p1, :cond_1e
 
-    const/16 p3, 0x2f60
+    const/16 p3, 0x3160
 
-    .line 1274
+    .line 1389
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
     if-eqz p1, :cond_1e
 
-    .line 1275
+    .line 1390
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->getContext()Landroid/content/Context;
 
     move-result-object p3
@@ -799,7 +799,7 @@
 
     throw p1
 
-    .line 1283
+    .line 1398
     :cond_1e
     :goto_c
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -808,16 +808,16 @@
 
     if-eqz p1, :cond_20
 
-    const/16 p3, 0x2f1f
+    const/16 p3, 0x311f
 
-    .line 1282
+    .line 1397
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
     if-eqz p1, :cond_20
 
-    .line 1283
+    .line 1398
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->getContext()Landroid/content/Context;
 
     move-result-object p3
@@ -843,7 +843,7 @@
 
     throw p1
 
-    .line 1288
+    .line 1403
     :cond_20
     :goto_d
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -852,16 +852,16 @@
 
     if-eqz p1, :cond_22
 
-    const/16 p3, 0x2f32
+    const/16 p3, 0x3132
 
-    .line 1287
+    .line 1402
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
     if-eqz p1, :cond_22
 
-    .line 1288
+    .line 1403
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->getContext()Landroid/content/Context;
 
     move-result-object p3
@@ -887,7 +887,7 @@
 
     throw p1
 
-    .line 1293
+    .line 1408
     :cond_22
     :goto_e
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -896,16 +896,16 @@
 
     if-eqz p1, :cond_24
 
-    const/16 p3, 0x2f33
+    const/16 p3, 0x3133
 
-    .line 1292
+    .line 1407
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
     if-eqz p1, :cond_24
 
-    .line 1293
+    .line 1408
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->getContext()Landroid/content/Context;
 
     move-result-object p3
@@ -931,7 +931,7 @@
 
     throw p1
 
-    .line 1298
+    .line 1413
     :cond_24
     :goto_f
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -940,16 +940,16 @@
 
     if-eqz p1, :cond_26
 
-    const/16 p3, 0x2f0b
+    const/16 p3, 0x310b
 
-    .line 1297
+    .line 1412
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
     if-eqz p1, :cond_26
 
-    .line 1298
+    .line 1413
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->getContext()Landroid/content/Context;
 
     move-result-object p3
@@ -975,7 +975,7 @@
 
     throw p1
 
-    .line 1303
+    .line 1418
     :cond_26
     :goto_10
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -984,16 +984,16 @@
 
     if-eqz p1, :cond_28
 
-    const/16 p3, 0x2f4f
+    const/16 p3, 0x314f
 
-    .line 1302
+    .line 1417
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
     if-eqz p1, :cond_28
 
-    .line 1303
+    .line 1418
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->getContext()Landroid/content/Context;
 
     move-result-object p3
@@ -1019,7 +1019,7 @@
 
     throw p1
 
-    .line 1309
+    .line 1424
     :cond_28
     :goto_11
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -1028,16 +1028,16 @@
 
     if-eqz p1, :cond_2a
 
-    const/16 p3, 0x2f02
+    const/16 p3, 0x3102
 
-    .line 1308
+    .line 1423
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
     if-eqz p1, :cond_2a
 
-    .line 1309
+    .line 1424
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->getContext()Landroid/content/Context;
 
     move-result-object p2
@@ -1086,7 +1086,7 @@
 
     const/4 p3, 0x0
 
-    .line 1169
+    .line 1284
     check-cast p3, Landroid/util/AttributeSet;
 
     :cond_1
@@ -1096,7 +1096,7 @@
 
     move p4, v0
 
-    .line 1170
+    .line 1285
     :cond_2
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/rigol/scope/views/grid/MathGridRulerView;-><init>(Landroid/content/Context;ILandroid/util/AttributeSet;I)V
 
@@ -1106,7 +1106,7 @@
 .method public static final synthetic access$getHorizontalParam$p(Lcom/rigol/scope/views/grid/MathGridRulerView;)Lcom/rigol/scope/data/HorizontalParam;
     .locals 0
 
-    .line 1166
+    .line 1281
     iget-object p0, p0, Lcom/rigol/scope/views/grid/MathGridRulerView;->horizontalParam:Lcom/rigol/scope/data/HorizontalParam;
 
     return-object p0
@@ -1115,7 +1115,7 @@
 .method public static final synthetic access$getMathParam$p(Lcom/rigol/scope/views/grid/MathGridRulerView;)Lcom/rigol/scope/data/MathParam;
     .locals 1
 
-    .line 1166
+    .line 1281
     iget-object p0, p0, Lcom/rigol/scope/views/grid/MathGridRulerView;->mathParam:Lcom/rigol/scope/data/MathParam;
 
     if-nez p0, :cond_0
@@ -1131,7 +1131,7 @@
 .method public static final synthetic access$setMathParam$p(Lcom/rigol/scope/views/grid/MathGridRulerView;Lcom/rigol/scope/data/MathParam;)V
     .locals 0
 
-    .line 1166
+    .line 1281
     iput-object p1, p0, Lcom/rigol/scope/views/grid/MathGridRulerView;->mathParam:Lcom/rigol/scope/data/MathParam;
 
     return-void
@@ -1140,7 +1140,7 @@
 .method public static final synthetic access$updateXRuler(Lcom/rigol/scope/views/grid/MathGridRulerView;Lcom/rigol/scope/data/MathParam;Lcom/rigol/scope/data/HorizontalParam;)V
     .locals 0
 
-    .line 1166
+    .line 1281
     invoke-direct {p0, p1, p2}, Lcom/rigol/scope/views/grid/MathGridRulerView;->updateXRuler(Lcom/rigol/scope/data/MathParam;Lcom/rigol/scope/data/HorizontalParam;)V
 
     return-void
@@ -1149,7 +1149,7 @@
 .method public static final synthetic access$updateYRuler(Lcom/rigol/scope/views/grid/MathGridRulerView;Lcom/rigol/scope/data/MathParam;)V
     .locals 0
 
-    .line 1166
+    .line 1281
     invoke-direct {p0, p1}, Lcom/rigol/scope/views/grid/MathGridRulerView;->updateYRuler(Lcom/rigol/scope/data/MathParam;)V
 
     return-void
@@ -1158,7 +1158,7 @@
 .method private final updateXRuler(Lcom/rigol/scope/data/MathParam;Lcom/rigol/scope/data/HorizontalParam;)V
     .locals 2
 
-    .line 1321
+    .line 1436
     invoke-virtual {p1}, Lcom/rigol/scope/data/MathParam;->getWaveType()Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;
 
     move-result-object v0
@@ -1167,24 +1167,24 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 1322
+    .line 1437
     invoke-static {p1, p2}, Lcom/rigol/scope/utilities/ViewUtil;->getMathXMainRulers(Lcom/rigol/scope/data/MathParam;Lcom/rigol/scope/data/HorizontalParam;)[Ljava/lang/String;
 
     move-result-object p1
 
     goto :goto_0
 
-    .line 1324
+    .line 1439
     :cond_0
     invoke-static {p1, p2}, Lcom/rigol/scope/utilities/ViewUtil;->getMathXZoomRulers(Lcom/rigol/scope/data/MathParam;Lcom/rigol/scope/data/HorizontalParam;)[Ljava/lang/String;
 
     move-result-object p1
 
-    .line 1321
+    .line 1436
     :goto_0
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/grid/MathGridRulerView;->setColumnContents([Ljava/lang/String;)V
 
-    .line 1328
+    .line 1443
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p1
@@ -1201,14 +1201,14 @@
 
     if-lez p1, :cond_1
 
-    .line 1329
+    .line 1444
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p1
 
     iput-wide p1, p0, Lcom/rigol/scope/views/grid/MathGridRulerView;->long_time:J
 
-    .line 1330
+    .line 1445
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->postInvalidate()V
 
     :cond_1
@@ -1218,14 +1218,14 @@
 .method private final updateYRuler(Lcom/rigol/scope/data/MathParam;)V
     .locals 0
 
-    .line 1338
+    .line 1453
     invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->getMathYRulers(Lcom/rigol/scope/data/MathParam;)[Ljava/lang/String;
 
     move-result-object p1
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/grid/MathGridRulerView;->setRowContents([Ljava/lang/String;)V
 
-    .line 1341
+    .line 1456
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->invalidate()V
 
     return-void

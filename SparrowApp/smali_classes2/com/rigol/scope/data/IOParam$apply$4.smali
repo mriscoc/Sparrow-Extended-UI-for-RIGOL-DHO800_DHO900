@@ -83,36 +83,11 @@
 
     goto :goto_0
 
-    .line 847
+    .line 855
     :cond_0
-    iget-object v0, p0, Lcom/rigol/scope/data/IOParam$apply$4;->this$0:Lcom/rigol/scope/data/IOParam;
-
-    invoke-virtual {v0}, Lcom/rigol/scope/data/IOParam;->getIpAddress()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v0}, Lcom/rigol/util/EthernetUtil;->checkInvalid(Ljava/lang/String;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_1
-
-    .line 849
     new-instance v0, Lcom/rigol/scope/data/IOParam$apply$4$2;
 
     invoke-direct {v0, p0}, Lcom/rigol/scope/data/IOParam$apply$4$2;-><init>(Lcom/rigol/scope/data/IOParam$apply$4;)V
-
-    check-cast v0, Ljava/lang/Runnable;
-
-    invoke-static {v0}, Lcom/blankj/utilcode/util/ThreadUtils;->runOnUiThread(Ljava/lang/Runnable;)V
-
-    goto :goto_0
-
-    .line 855
-    :cond_1
-    new-instance v0, Lcom/rigol/scope/data/IOParam$apply$4$3;
-
-    invoke-direct {v0, p0}, Lcom/rigol/scope/data/IOParam$apply$4$3;-><init>(Lcom/rigol/scope/data/IOParam$apply$4;)V
 
     check-cast v0, Ljava/lang/Runnable;
 
@@ -125,12 +100,12 @@
 
     move-result v0
 
-    if-eqz v0, :cond_2
+    if-eqz v0, :cond_1
 
     .line 867
-    new-instance v0, Lcom/rigol/scope/data/IOParam$apply$4$4;
+    new-instance v0, Lcom/rigol/scope/data/IOParam$apply$4$3;
 
-    invoke-direct {v0, p0}, Lcom/rigol/scope/data/IOParam$apply$4$4;-><init>(Lcom/rigol/scope/data/IOParam$apply$4;)V
+    invoke-direct {v0, p0}, Lcom/rigol/scope/data/IOParam$apply$4$3;-><init>(Lcom/rigol/scope/data/IOParam$apply$4;)V
 
     check-cast v0, Ljava/lang/Runnable;
 
@@ -141,7 +116,7 @@
     goto :goto_0
 
     .line 882
-    :cond_2
+    :cond_1
     iget-object v0, p0, Lcom/rigol/scope/data/IOParam$apply$4;->this$0:Lcom/rigol/scope/data/IOParam;
 
     const/4 v1, 0x0

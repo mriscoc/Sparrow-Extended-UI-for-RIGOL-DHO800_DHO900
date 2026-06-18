@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterSearchEdgeBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a03b8
+    const v1, 0x7f0a03ba
 
     const/16 v2, 0xa
 
@@ -261,7 +261,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -333,7 +333,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -405,7 +405,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -573,7 +573,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x399
+    const/16 v0, 0x39d
 
     if-ne p2, v0, :cond_4
 
@@ -755,7 +755,7 @@
     move/from16 v0, v23
 
     :goto_2
-    const v11, 0x7f0301a4
+    const v11, 0x7f0301a6
 
     .line 296
     invoke-static {v11, v0}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -1601,7 +1601,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x252
+    const/16 p1, 0x254
 
     .line 113
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterSearchEdgeBindingImpl;->notifyPropertyChanged(I)V
@@ -1638,7 +1638,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x252
+    const/16 v0, 0x254
 
     if-ne v0, p1, :cond_1
 

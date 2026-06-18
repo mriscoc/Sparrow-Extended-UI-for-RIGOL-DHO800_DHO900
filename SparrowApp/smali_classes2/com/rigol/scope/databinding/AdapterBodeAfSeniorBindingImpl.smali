@@ -36,7 +36,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterBodeAfSeniorBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a05e9
+    const v1, 0x7f0a05f1
 
     const/16 v2, 0x13
 
@@ -46,7 +46,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterBodeAfSeniorBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a05ea
+    const v1, 0x7f0a05f2
 
     const/16 v2, 0x14
 
@@ -55,7 +55,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/AdapterBodeAfSeniorBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a05eb
+    const v1, 0x7f0a05f3
 
     const/16 v2, 0x15
 
@@ -64,7 +64,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/AdapterBodeAfSeniorBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a05ec
+    const v1, 0x7f0a05f4
 
     const/16 v2, 0x16
 
@@ -2713,7 +2713,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x252
+    const/16 p1, 0x254
 
     .line 129
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterBodeAfSeniorBindingImpl;->notifyPropertyChanged(I)V
@@ -2738,7 +2738,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x252
+    const/16 v0, 0x254
 
     if-ne v0, p1, :cond_0
 

@@ -161,7 +161,7 @@
 
     const/16 v1, 0xc
 
-    const/16 v2, 0x4b31
+    const/16 v2, 0x4d32
 
     .line 157
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -224,7 +224,7 @@
 
     iget-object v1, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->context:Landroid/content/Context;
 
-    const v2, 0x7f0301d2
+    const v2, 0x7f0301d4
 
     invoke-static {v2}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
 
@@ -282,7 +282,7 @@
 
     if-eqz p1, :cond_1
 
-    .line 484
+    .line 487
     invoke-virtual {p1}, Ljava/io/File;->getPath()Ljava/lang/String;
 
     move-result-object v0
@@ -330,19 +330,19 @@
 .method static synthetic lambda$onSaveItemClick$14(Lcom/rigol/scope/data/StorageSaveParam;Ljava/io/File;)Z
     .locals 2
 
-    .line 345
+    .line 348
     invoke-virtual {p1}, Ljava/io/File;->isDirectory()Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 346
+    .line 349
     invoke-virtual {p1}, Ljava/io/File;->getName()Ljava/lang/String;
 
     move-result-object p1
 
-    const v0, 0x7f0301cb
+    const v0, 0x7f0301cd
 
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getImageFileType()I
 
@@ -388,19 +388,19 @@
 .method static synthetic lambda$onSaveItemClick$15(Lcom/rigol/scope/data/StorageSaveParam;Ljava/io/File;)Z
     .locals 2
 
-    .line 349
+    .line 352
     invoke-virtual {p1}, Ljava/io/File;->isDirectory()Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 350
+    .line 353
     invoke-virtual {p1}, Ljava/io/File;->getName()Ljava/lang/String;
 
     move-result-object p1
 
-    const v0, 0x7f0301d9
+    const v0, 0x7f0301dd
 
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getWaveFileType()I
 
@@ -446,19 +446,19 @@
 .method static synthetic lambda$onSaveItemClick$16(Lcom/rigol/scope/data/StorageSaveParam;Ljava/io/File;)Z
     .locals 2
 
-    .line 353
+    .line 356
     invoke-virtual {p1}, Ljava/io/File;->isDirectory()Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 354
+    .line 357
     invoke-virtual {p1}, Ljava/io/File;->getName()Ljava/lang/String;
 
     move-result-object p1
 
-    const v0, 0x7f0301d7
+    const v0, 0x7f0301db
 
     invoke-virtual {p0}, Lcom/rigol/scope/data/StorageSaveParam;->getSetupFileType()I
 
@@ -506,7 +506,7 @@
 
     if-eqz p0, :cond_1
 
-    .line 576
+    .line 579
     invoke-virtual {p0}, Ljava/io/File;->getPath()Ljava/lang/String;
 
     move-result-object v0
@@ -540,7 +540,7 @@
 .method static synthetic lambda$onUpgradeItemClick$25(Landroid/view/View;Ljava/lang/String;)V
     .locals 2
 
-    .line 582
+    .line 585
     move-object v0, p0
 
     check-cast v0, Landroid/widget/TextView;
@@ -551,7 +551,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 584
+    .line 587
     invoke-virtual {p0, p1}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
     return-void
@@ -562,14 +562,14 @@
 
     if-eqz p1, :cond_2
 
-    .line 508
+    .line 511
     iget-object v0, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->storageLoadParam:Lcom/rigol/scope/data/StorageLoadParam;
 
     if-nez v0, :cond_0
 
     goto :goto_0
 
-    .line 512
+    .line 515
     :cond_0
     invoke-virtual {p1}, Lcom/rigol/scope/data/MappingObject;->getValue()I
 
@@ -579,20 +579,20 @@
 
     move-result-object p1
 
-    .line 513
+    .line 516
     invoke-virtual {v0, p1}, Lcom/rigol/scope/data/StorageLoadParam;->setChoose(Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;)V
 
-    .line 515
+    .line 518
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;->WAVE:Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
 
     if-ne p1, v1, :cond_1
 
-    .line 516
+    .line 519
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_LOAD_WAV:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     invoke-virtual {v0, p1}, Lcom/rigol/scope/data/StorageLoadParam;->saveFileProc(Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;)V
 
-    .line 517
+    .line 520
     invoke-virtual {v0}, Lcom/rigol/scope/data/StorageLoadParam;->getWaveFileType()I
 
     move-result p1
@@ -601,18 +601,18 @@
 
     goto :goto_0
 
-    .line 518
+    .line 521
     :cond_1
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;->SETUP:Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
 
     if-ne p1, v1, :cond_2
 
-    .line 519
+    .line 522
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_LOAD_STP:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     invoke-virtual {v0, p1}, Lcom/rigol/scope/data/StorageLoadParam;->saveFileProc(Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;)V
 
-    .line 520
+    .line 523
     invoke-virtual {v0}, Lcom/rigol/scope/data/StorageLoadParam;->getSetupFileType()I
 
     move-result p1
@@ -629,14 +629,14 @@
 
     if-eqz p1, :cond_1
 
-    .line 492
+    .line 495
     iget-object v0, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->storageLoadParam:Lcom/rigol/scope/data/StorageLoadParam;
 
     if-nez v0, :cond_0
 
     goto :goto_0
 
-    .line 495
+    .line 498
     :cond_0
     invoke-virtual {p1}, Lcom/rigol/scope/data/MappingObject;->getValue()I
 
@@ -654,14 +654,14 @@
 
     if-eqz p1, :cond_1
 
-    .line 500
+    .line 503
     iget-object v0, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->storageLoadParam:Lcom/rigol/scope/data/StorageLoadParam;
 
     if-nez v0, :cond_0
 
     goto :goto_0
 
-    .line 503
+    .line 506
     :cond_0
     invoke-virtual {p1}, Lcom/rigol/scope/data/MappingObject;->getValue()I
 
@@ -679,14 +679,14 @@
 
     if-eqz p1, :cond_4
 
-    .line 405
+    .line 408
     iget-object v0, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->storageSaveParam:Lcom/rigol/scope/data/StorageSaveParam;
 
     if-nez v0, :cond_0
 
     goto :goto_1
 
-    .line 411
+    .line 414
     :cond_0
     invoke-virtual {p1}, Lcom/rigol/scope/data/MappingObject;->getValue()I
 
@@ -696,17 +696,17 @@
 
     move-result-object p1
 
-    .line 414
+    .line 417
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;->IMAGE:Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
 
     if-ne p1, v1, :cond_1
 
-    .line 415
+    .line 418
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SAVE_IMG:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileProc(Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;)V
 
-    .line 416
+    .line 419
     invoke-virtual {v0}, Lcom/rigol/scope/data/StorageSaveParam;->getImageFileType()I
 
     move-result v1
@@ -715,18 +715,18 @@
 
     goto :goto_0
 
-    .line 417
+    .line 420
     :cond_1
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;->WAVE:Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
 
     if-ne p1, v1, :cond_2
 
-    .line 418
+    .line 421
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SAVE_WAV:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileProc(Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;)V
 
-    .line 419
+    .line 422
     invoke-virtual {v0}, Lcom/rigol/scope/data/StorageSaveParam;->getWaveFileType()I
 
     move-result v1
@@ -735,25 +735,25 @@
 
     goto :goto_0
 
-    .line 420
+    .line 423
     :cond_2
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;->SETUP:Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
 
     if-ne p1, v1, :cond_3
 
-    .line 421
+    .line 424
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SAVE_STP:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/StorageSaveParam;->saveFileProc(Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;)V
 
-    .line 422
+    .line 425
     invoke-virtual {v0}, Lcom/rigol/scope/data/StorageSaveParam;->getSetupFileType()I
 
     move-result v1
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/data/StorageSaveParam;->setFileType(I)V
 
-    .line 424
+    .line 427
     :cond_3
     :goto_0
     invoke-virtual {v0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->setChoose(Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;)V
@@ -768,20 +768,20 @@
 
     if-eqz p1, :cond_1
 
-    .line 397
+    .line 400
     iget-object v0, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->storageSaveParam:Lcom/rigol/scope/data/StorageSaveParam;
 
     if-nez v0, :cond_0
 
     goto :goto_0
 
-    .line 400
+    .line 403
     :cond_0
     invoke-virtual {p1}, Lcom/rigol/scope/data/MappingObject;->getValue()I
 
     move-result p1
 
-    invoke-virtual {v0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->setImageFileType(I)V
+    invoke-virtual {v0, p1}, Lcom/rigol/scope/data/StorageSaveParam;->saveImageFileType(I)V
 
     :cond_1
     :goto_0
@@ -793,14 +793,14 @@
 
     if-eqz p1, :cond_1
 
-    .line 381
+    .line 384
     iget-object v0, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->storageSaveParam:Lcom/rigol/scope/data/StorageSaveParam;
 
     if-nez v0, :cond_0
 
     goto :goto_0
 
-    .line 384
+    .line 387
     :cond_0
     invoke-virtual {p1}, Lcom/rigol/scope/data/MappingObject;->getValue()I
 
@@ -818,14 +818,14 @@
 
     if-eqz p1, :cond_1
 
-    .line 389
+    .line 392
     iget-object v0, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->storageSaveParam:Lcom/rigol/scope/data/StorageSaveParam;
 
     if-nez v0, :cond_0
 
     goto :goto_0
 
-    .line 392
+    .line 395
     :cond_0
     invoke-virtual {p1}, Lcom/rigol/scope/data/MappingObject;->getValue()I
 
@@ -843,14 +843,14 @@
 
     if-eqz p2, :cond_1
 
-    .line 364
+    .line 367
     iget-object v0, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->storageSaveParam:Lcom/rigol/scope/data/StorageSaveParam;
 
     if-nez v0, :cond_0
 
     goto :goto_0
 
-    .line 367
+    .line 370
     :cond_0
     invoke-virtual {p2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
 
@@ -860,23 +860,23 @@
 
     if-nez p1, :cond_1
 
-    .line 370
+    .line 373
     iget-object p1, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->storageSaveParam:Lcom/rigol/scope/data/StorageSaveParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/StorageSaveParam;->getWaveFileType()I
 
     move-result p1
 
-    const p2, 0x7f0301d9
+    const p2, 0x7f0301dd
 
-    .line 372
+    .line 375
     invoke-static {p2}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
 
     move-result-object p2
 
     const/4 v0, 0x0
 
-    .line 373
+    .line 376
     invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v1
@@ -903,7 +903,7 @@
 
     if-eq p1, v1, :cond_1
 
-    .line 374
+    .line 377
     invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p1
@@ -919,7 +919,93 @@
 
 
 # virtual methods
-.method public synthetic lambda$new$0$StoragePopupView(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
+.method public synthetic lambda$new$2$StoragePopupView(Landroid/view/KeyEvent;)V
+    .locals 11
+
+    .line 118
+    invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
+
+    move-result-object v0
+
+    const-class v1, Lcom/rigol/scope/views/storage/StoragePopupView;
+
+    invoke-virtual {v0, v1}, Lcom/rigol/scope/utilities/PopupViewManager;->isShowing(Ljava/lang/Class;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    .line 119
+    iget-object v1, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->panelKeyViewModel:Lcom/rigol/scope/viewmodels/PanelKeyViewModel;
+
+    iget-object v3, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->clickedView:Landroid/view/View;
+
+    iget-object v4, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
+
+    iget-object v5, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->mappingObjects:Ljava/util/List;
+
+    iget-object v6, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
+
+    iget-object v7, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
+
+    iget-object v8, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
+
+    new-instance v9, Lcom/rigol/scope/views/storage/-$$Lambda$StoragePopupView$qgIK6fU4f7vQa6ZG4q6_ombM284;
+
+    invoke-direct {v9, p0}, Lcom/rigol/scope/views/storage/-$$Lambda$StoragePopupView$qgIK6fU4f7vQa6ZG4q6_ombM284;-><init>(Lcom/rigol/scope/views/storage/StoragePopupView;)V
+
+    new-instance v10, Lcom/rigol/scope/views/storage/-$$Lambda$StoragePopupView$tfGnv0CCwm8sgdqSkUsq0nL0F68;
+
+    invoke-direct {v10, p0}, Lcom/rigol/scope/views/storage/-$$Lambda$StoragePopupView$tfGnv0CCwm8sgdqSkUsq0nL0F68;-><init>(Lcom/rigol/scope/views/storage/StoragePopupView;)V
+
+    move-object v2, p1
+
+    invoke-virtual/range {v1 .. v10}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->abSwitch(Landroid/view/KeyEvent;Landroid/view/View;Lcom/rigol/scope/views/spinner/PopupSpinner;Ljava/util/List;Lcom/rigol/scope/adapters/SpinnerAdapter;Lcom/rigol/scope/utilities/AorBManager;Lcom/rigol/scope/views/keyboard/KeyboardPopupView;Lcom/rigol/scope/utilities/AorBManager$OnKeyboardItemChangeListener;Lcom/rigol/scope/utilities/AorBManager$OnSpinnerItemChangeListener;)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public synthetic lambda$new$3$StoragePopupView(Ljava/lang/Object;)V
+    .locals 3
+
+    .line 159
+    iget-object p1, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->binding:Lcom/rigol/scope/databinding/PopupviewStorageBinding;
+
+    iget-object p1, p1, Lcom/rigol/scope/databinding/PopupviewStorageBinding;->tvMem:Landroid/widget/TextView;
+
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Lcom/rigol/scope/utilities/PopupViewManager;->getAvailableSize()J
+
+    move-result-wide v1
+
+    invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+
+    const-string v1, "MB"
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    return-void
+.end method
+
+.method public synthetic lambda$null$0$StoragePopupView(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
     .locals 0
 
     .line 120
@@ -928,7 +1014,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$new$1$StoragePopupView(ILcom/rigol/scope/data/MappingObject;)V
+.method public synthetic lambda$null$1$StoragePopupView(ILcom/rigol/scope/data/MappingObject;)V
     .locals 1
 
     .line 122
@@ -1003,114 +1089,28 @@
     .sparse-switch
         0x7f0a01ec -> :sswitch_7
         0x7f0a01ed -> :sswitch_6
-        0x7f0a0525 -> :sswitch_5
-        0x7f0a0801 -> :sswitch_4
-        0x7f0a0803 -> :sswitch_3
-        0x7f0a0b11 -> :sswitch_2
-        0x7f0a0b13 -> :sswitch_1
-        0x7f0a0b16 -> :sswitch_0
+        0x7f0a0527 -> :sswitch_5
+        0x7f0a080d -> :sswitch_4
+        0x7f0a080f -> :sswitch_3
+        0x7f0a0b1d -> :sswitch_2
+        0x7f0a0b1f -> :sswitch_1
+        0x7f0a0b22 -> :sswitch_0
     .end sparse-switch
-.end method
-
-.method public synthetic lambda$new$2$StoragePopupView(Landroid/view/KeyEvent;)V
-    .locals 11
-
-    .line 118
-    invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
-
-    move-result-object v0
-
-    const-class v1, Lcom/rigol/scope/views/storage/StoragePopupView;
-
-    invoke-virtual {v0, v1}, Lcom/rigol/scope/utilities/PopupViewManager;->isShowing(Ljava/lang/Class;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    .line 119
-    iget-object v1, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->panelKeyViewModel:Lcom/rigol/scope/viewmodels/PanelKeyViewModel;
-
-    iget-object v3, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->clickedView:Landroid/view/View;
-
-    iget-object v4, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
-
-    iget-object v5, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->mappingObjects:Ljava/util/List;
-
-    iget-object v6, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
-
-    iget-object v7, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
-
-    iget-object v8, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
-
-    new-instance v9, Lcom/rigol/scope/views/storage/-$$Lambda$StoragePopupView$iEcGA0ikRig_y9qxFTnGPTkl3XA;
-
-    invoke-direct {v9, p0}, Lcom/rigol/scope/views/storage/-$$Lambda$StoragePopupView$iEcGA0ikRig_y9qxFTnGPTkl3XA;-><init>(Lcom/rigol/scope/views/storage/StoragePopupView;)V
-
-    new-instance v10, Lcom/rigol/scope/views/storage/-$$Lambda$StoragePopupView$kS_lXdztgEdQnVgPbccgBUeo8pA;
-
-    invoke-direct {v10, p0}, Lcom/rigol/scope/views/storage/-$$Lambda$StoragePopupView$kS_lXdztgEdQnVgPbccgBUeo8pA;-><init>(Lcom/rigol/scope/views/storage/StoragePopupView;)V
-
-    move-object v2, p1
-
-    invoke-virtual/range {v1 .. v10}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->abSwitch(Landroid/view/KeyEvent;Landroid/view/View;Lcom/rigol/scope/views/spinner/PopupSpinner;Ljava/util/List;Lcom/rigol/scope/adapters/SpinnerAdapter;Lcom/rigol/scope/utilities/AorBManager;Lcom/rigol/scope/views/keyboard/KeyboardPopupView;Lcom/rigol/scope/utilities/AorBManager$OnKeyboardItemChangeListener;Lcom/rigol/scope/utilities/AorBManager$OnSpinnerItemChangeListener;)V
-
-    :cond_0
-    return-void
-.end method
-
-.method public synthetic lambda$new$3$StoragePopupView(Ljava/lang/Object;)V
-    .locals 3
-
-    .line 159
-    iget-object p1, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->binding:Lcom/rigol/scope/databinding/PopupviewStorageBinding;
-
-    iget-object p1, p1, Lcom/rigol/scope/databinding/PopupviewStorageBinding;->tvMem:Landroid/widget/TextView;
-
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
-
-    invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Lcom/rigol/scope/utilities/PopupViewManager;->getAvailableSize()J
-
-    move-result-wide v1
-
-    invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
-
-    const-string v1, "MB"
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
-
-    return-void
 .end method
 
 .method public synthetic lambda$onLoadItemClick$17$StoragePopupView(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
     .locals 0
 
-    .line 435
+    .line 438
     iput-object p1, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
 
-    .line 436
+    .line 439
     iput-object p2, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
 
-    .line 437
+    .line 440
     iput-object p3, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->mappingObjects:Ljava/util/List;
 
-    .line 438
+    .line 441
     iput-object p4, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->clickedView:Landroid/view/View;
 
     return-void
@@ -1119,7 +1119,7 @@
 .method public synthetic lambda$onLoadItemClick$18$StoragePopupView(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
     .locals 0
 
-    .line 440
+    .line 443
     invoke-direct {p0, p4}, Lcom/rigol/scope/views/storage/StoragePopupView;->selectLoadChoose(Lcom/rigol/scope/data/MappingObject;)V
 
     return-void
@@ -1128,16 +1128,16 @@
 .method public synthetic lambda$onLoadItemClick$19$StoragePopupView(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
     .locals 0
 
-    .line 445
+    .line 448
     iput-object p1, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
 
-    .line 446
+    .line 449
     iput-object p2, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
 
-    .line 447
+    .line 450
     iput-object p3, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->mappingObjects:Ljava/util/List;
 
-    .line 448
+    .line 451
     iput-object p4, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->clickedView:Landroid/view/View;
 
     return-void
@@ -1146,7 +1146,7 @@
 .method public synthetic lambda$onLoadItemClick$20$StoragePopupView(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
     .locals 0
 
-    .line 450
+    .line 453
     invoke-direct {p0, p4}, Lcom/rigol/scope/views/storage/StoragePopupView;->selectLoadWaveFileFormat(Lcom/rigol/scope/data/MappingObject;)V
 
     return-void
@@ -1155,16 +1155,16 @@
 .method public synthetic lambda$onLoadItemClick$21$StoragePopupView(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
     .locals 0
 
-    .line 456
+    .line 459
     iput-object p1, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
 
-    .line 457
+    .line 460
     iput-object p2, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
 
-    .line 458
+    .line 461
     iput-object p3, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->mappingObjects:Ljava/util/List;
 
-    .line 459
+    .line 462
     iput-object p4, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->clickedView:Landroid/view/View;
 
     return-void
@@ -1173,7 +1173,7 @@
 .method public synthetic lambda$onLoadItemClick$22$StoragePopupView(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
     .locals 0
 
-    .line 461
+    .line 464
     invoke-direct {p0, p4}, Lcom/rigol/scope/views/storage/StoragePopupView;->selectLoadSetUpFileFormat(Lcom/rigol/scope/data/MappingObject;)V
 
     return-void
@@ -1317,7 +1317,7 @@
 .method public onClick(Landroid/view/View;)V
     .locals 1
 
-    .line 597
+    .line 600
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
     move-result p1
@@ -1326,15 +1326,15 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 599
+    .line 602
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->showDiskManage()V
 
     :cond_0
-    const v0, 0x7f0a0827
+    const v0, 0x7f0a0833
 
     if-ne p1, v0, :cond_1
 
-    .line 603
+    .line 606
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
@@ -1350,9 +1350,9 @@
 .method public onConfigureTab(Lcom/google/android/material/tabs/TabLayout$Tab;I)V
     .locals 1
 
-    const v0, 0x7f0301d2
+    const v0, 0x7f0301d4
 
-    .line 627
+    .line 630
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getArray(I)Landroidx/collection/SparseArrayCompat;
 
     move-result-object v0
@@ -1363,7 +1363,7 @@
 
     check-cast p2, Lcom/rigol/scope/data/MappingObject;
 
-    .line 629
+    .line 632
     invoke-virtual {p2}, Lcom/rigol/scope/data/MappingObject;->getStr()Ljava/lang/String;
 
     move-result-object p2
@@ -1376,26 +1376,26 @@
 .method public onLoadItemClick(Lcom/rigol/scope/databinding/AdapterStorageLoadBinding;Lcom/rigol/scope/data/StorageLoadParam;Landroid/view/View;)V
     .locals 2
 
-    .line 429
+    .line 432
     invoke-virtual {p3}, Landroid/view/View;->getId()I
 
     move-result p1
 
-    .line 430
+    .line 433
     iput-object p2, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->storageLoadParam:Lcom/rigol/scope/data/StorageLoadParam;
 
     const v0, 0x7f0a01ec
 
     if-ne p1, v0, :cond_0
 
-    const p1, 0x7f0301ce
+    const p1, 0x7f0301d0
 
-    .line 432
+    .line 435
     invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
 
     move-result-object p1
 
-    .line 433
+    .line 436
     iget-object p2, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->anchor:Landroid/view/View;
 
     new-instance v0, Lcom/rigol/scope/views/storage/-$$Lambda$StoragePopupView$Oi_lOl4SJCRxnx6NrBlGrSeCeW4;
@@ -1411,18 +1411,18 @@
     goto/16 :goto_1
 
     :cond_0
-    const v0, 0x7f0a0b13
+    const v0, 0x7f0a0b1f
 
     if-ne p1, v0, :cond_1
 
-    const p1, 0x7f0301d0
+    const p1, 0x7f0301d2
 
-    .line 442
+    .line 445
     invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
 
     move-result-object p1
 
-    .line 443
+    .line 446
     iget-object p2, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->anchor:Landroid/view/View;
 
     new-instance v0, Lcom/rigol/scope/views/storage/-$$Lambda$StoragePopupView$IY18TT0KiotA7Hf5ZnxRaiOEruY;
@@ -1438,18 +1438,18 @@
     goto :goto_1
 
     :cond_1
-    const v0, 0x7f0a0801
+    const v0, 0x7f0a080d
 
     if-ne p1, v0, :cond_2
 
-    const p1, 0x7f0301cf
+    const p1, 0x7f0301d1
 
-    .line 452
+    .line 455
     invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
 
     move-result-object p1
 
-    .line 454
+    .line 457
     iget-object p2, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->anchor:Landroid/view/View;
 
     new-instance v0, Lcom/rigol/scope/views/storage/-$$Lambda$StoragePopupView$EjtPh92MYqlyT8uJ7yfcSNu-GWA;
@@ -1465,11 +1465,11 @@
     goto :goto_1
 
     :cond_2
-    const p3, 0x7f0a0600
+    const p3, 0x7f0a0608
 
     if-ne p1, p3, :cond_5
 
-    .line 466
+    .line 469
     invoke-virtual {p2}, Lcom/rigol/scope/data/StorageLoadParam;->getChoose()Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
 
     move-result-object p1
@@ -1478,12 +1478,12 @@
 
     if-ne p1, p3, :cond_3
 
-    .line 467
+    .line 470
     invoke-virtual {p2}, Lcom/rigol/scope/data/StorageLoadParam;->loadWaveSetting()V
 
     goto :goto_0
 
-    .line 468
+    .line 471
     :cond_3
     invoke-virtual {p2}, Lcom/rigol/scope/data/StorageLoadParam;->getChoose()Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
 
@@ -1493,10 +1493,10 @@
 
     if-ne p1, p3, :cond_4
 
-    .line 469
+    .line 472
     invoke-virtual {p2}, Lcom/rigol/scope/data/StorageLoadParam;->loadSetupSetting()V
 
-    .line 472
+    .line 475
     :cond_4
     :goto_0
     invoke-virtual {p2}, Lcom/rigol/scope/data/StorageLoadParam;->doLoad()V
@@ -1504,13 +1504,13 @@
     goto :goto_1
 
     :cond_5
-    const p3, 0x7f0a06e1
+    const p3, 0x7f0a06eb
 
     if-ne p1, p3, :cond_7
 
     const/4 p1, 0x0
 
-    .line 480
+    .line 483
     invoke-virtual {p2}, Lcom/rigol/scope/data/StorageLoadParam;->getFileType()I
 
     move-result p3
@@ -1521,12 +1521,12 @@
 
     if-eqz p3, :cond_6
 
-    .line 483
+    .line 486
     new-instance p1, Lcom/rigol/scope/views/storage/-$$Lambda$StoragePopupView$i5UpXllL_ALx2p4qMuHEH5pJny0;
 
     invoke-direct {p1, p3}, Lcom/rigol/scope/views/storage/-$$Lambda$StoragePopupView$i5UpXllL_ALx2p4qMuHEH5pJny0;-><init>(Lcom/rigol/scope/cil/ServiceEnum$enFileType;)V
 
-    .line 486
+    .line 489
     :cond_6
     invoke-virtual {p2}, Lcom/rigol/scope/data/StorageLoadParam;->getPathName()Ljava/lang/String;
 
@@ -1534,7 +1534,7 @@
 
     sget-object v0, Lcom/rigol/scope/data/DiskManageParam$SelectionMode;->FILE:Lcom/rigol/scope/data/DiskManageParam$SelectionMode;
 
-    invoke-static {p2}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     new-instance v1, Lcom/rigol/scope/views/storage/-$$Lambda$gdWAoUf1TpGS31Lcs9y1uuv3718;
 
@@ -1550,18 +1550,18 @@
 .method public onLocaleChanged()V
     .locals 2
 
-    .line 609
+    .line 612
     invoke-super {p0}, Lcom/rigol/scope/views/baseview/BasePopupView;->onLocaleChanged()V
 
-    .line 610
+    .line 613
     iget-object v0, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->adapter:Lcom/rigol/scope/adapters/StorageViewPagerAdapter;
 
     if-eqz v0, :cond_0
 
-    .line 611
+    .line 614
     invoke-virtual {v0}, Lcom/rigol/scope/adapters/StorageViewPagerAdapter;->onLocaleChanged()V
 
-    .line 615
+    .line 618
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->binding:Lcom/rigol/scope/databinding/PopupviewStorageBinding;
 
@@ -1569,7 +1569,7 @@
 
     const/4 v0, 0x0
 
-    .line 616
+    .line 619
     :goto_0
     iget-object v1, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->binding:Lcom/rigol/scope/databinding/PopupviewStorageBinding;
 
@@ -1581,7 +1581,7 @@
 
     if-ge v0, v1, :cond_2
 
-    .line 617
+    .line 620
     iget-object v1, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->binding:Lcom/rigol/scope/databinding/PopupviewStorageBinding;
 
     iget-object v1, v1, Lcom/rigol/scope/databinding/PopupviewStorageBinding;->tabs:Lcom/google/android/material/tabs/TabLayout;
@@ -1592,7 +1592,7 @@
 
     if-eqz v1, :cond_1
 
-    .line 619
+    .line 622
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/views/storage/StoragePopupView;->onConfigureTab(Lcom/google/android/material/tabs/TabLayout$Tab;I)V
 
     :cond_1
@@ -1607,7 +1607,7 @@
 .method public onManagerCall(Lcom/rigol/scope/utilities/AorBManager;)V
     .locals 0
 
-    .line 592
+    .line 595
     iput-object p1, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     return-void
@@ -1628,7 +1628,7 @@
 
     if-ne p1, v0, :cond_0
 
-    const p1, 0x7f0301d5
+    const p1, 0x7f0301d9
 
     .line 227
     invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1651,11 +1651,11 @@
     goto/16 :goto_2
 
     :cond_0
-    const v0, 0x7f0a0525
+    const v0, 0x7f0a0527
 
     if-ne p1, v0, :cond_1
 
-    const p1, 0x7f0301cb
+    const p1, 0x7f0301cd
 
     .line 239
     invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1678,7 +1678,7 @@
     goto/16 :goto_2
 
     :cond_1
-    const v0, 0x7f0a0b16
+    const v0, 0x7f0a0b22
 
     if-ne p1, v0, :cond_3
 
@@ -1689,7 +1689,7 @@
 
     if-nez p1, :cond_2
 
-    const p1, 0x7f0301d6
+    const p1, 0x7f0301da
 
     .line 256
     invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1699,7 +1699,7 @@
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f0301d9
+    const p1, 0x7f0301dd
 
     .line 259
     invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1723,11 +1723,11 @@
     goto/16 :goto_2
 
     :cond_3
-    const v0, 0x7f0a0803
+    const v0, 0x7f0a080f
 
     if-ne p1, v0, :cond_4
 
-    const p1, 0x7f0301d7
+    const p1, 0x7f0301db
 
     .line 273
     invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1750,11 +1750,11 @@
     goto/16 :goto_2
 
     :cond_4
-    const v0, 0x7f0a0b11
+    const v0, 0x7f0a0b1d
 
     if-ne p1, v0, :cond_5
 
-    const p1, 0x7f0301d8
+    const p1, 0x7f0301dc
 
     .line 285
     invoke-static {p1}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1777,7 +1777,7 @@
     goto/16 :goto_2
 
     :cond_5
-    const v0, 0x7f0a0529
+    const v0, 0x7f0a052b
 
     if-ne p1, v0, :cond_6
 
@@ -1793,7 +1793,7 @@
     goto/16 :goto_2
 
     :cond_6
-    const v0, 0x7f0a0523
+    const v0, 0x7f0a0525
 
     if-ne p1, v0, :cond_7
 
@@ -1809,7 +1809,7 @@
     goto/16 :goto_2
 
     :cond_7
-    const v0, 0x7f0a0527
+    const v0, 0x7f0a0529
 
     if-ne p1, v0, :cond_8
 
@@ -1841,11 +1841,27 @@
     goto/16 :goto_2
 
     :cond_9
-    const v0, 0x7f0a01cd
+    const v0, 0x7f0a06ee
 
     if-ne p1, v0, :cond_a
 
-    .line 308
+    .line 306
+    invoke-virtual {p2}, Lcom/rigol/scope/data/StorageSaveParam;->isPeakdetectStatus()Z
+
+    move-result p1
+
+    xor-int/lit8 p1, p1, 0x1
+
+    invoke-virtual {p2, p1}, Lcom/rigol/scope/data/StorageSaveParam;->savePeakDetectStatus(Z)V
+
+    goto/16 :goto_2
+
+    :cond_a
+    const v0, 0x7f0a01cd
+
+    if-ne p1, v0, :cond_b
+
+    .line 311
     invoke-virtual {p2}, Lcom/rigol/scope/data/StorageSaveParam;->isChan1()Z
 
     move-result p1
@@ -1856,12 +1872,12 @@
 
     goto/16 :goto_2
 
-    :cond_a
+    :cond_b
     const v0, 0x7f0a01ce
 
-    if-ne p1, v0, :cond_b
+    if-ne p1, v0, :cond_c
 
-    .line 310
+    .line 313
     invoke-virtual {p2}, Lcom/rigol/scope/data/StorageSaveParam;->isChan2()Z
 
     move-result p1
@@ -1872,12 +1888,12 @@
 
     goto/16 :goto_2
 
-    :cond_b
+    :cond_c
     const v0, 0x7f0a01cf
 
-    if-ne p1, v0, :cond_c
+    if-ne p1, v0, :cond_d
 
-    .line 312
+    .line 315
     invoke-virtual {p2}, Lcom/rigol/scope/data/StorageSaveParam;->isChan3()Z
 
     move-result p1
@@ -1888,12 +1904,12 @@
 
     goto/16 :goto_2
 
-    :cond_c
+    :cond_d
     const v0, 0x7f0a01d0
 
-    if-ne p1, v0, :cond_d
+    if-ne p1, v0, :cond_e
 
-    .line 314
+    .line 317
     invoke-virtual {p2}, Lcom/rigol/scope/data/StorageSaveParam;->isChan4()Z
 
     move-result p1
@@ -1904,12 +1920,12 @@
 
     goto/16 :goto_2
 
-    :cond_d
-    const v0, 0x7f0a072c
+    :cond_e
+    const v0, 0x7f0a0738
 
-    if-ne p1, v0, :cond_e
+    if-ne p1, v0, :cond_f
 
-    .line 318
+    .line 321
     iget-object v1, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->context:Landroid/content/Context;
 
     iget-object v2, p0, Lcom/rigol/scope/views/storage/StoragePopupView;->anchor:Landroid/view/View;
@@ -1920,7 +1936,7 @@
 
     move-result-object v5
 
-    invoke-static {p2}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     new-instance v6, Lcom/rigol/scope/views/storage/-$$Lambda$i9NRwQVRXRz5denMFitBirafr2w;
 
@@ -1938,21 +1954,21 @@
 
     goto/16 :goto_2
 
-    :cond_e
-    const p3, 0x7f0a07cc
+    :cond_f
+    const p3, 0x7f0a07d8
 
-    if-ne p1, p3, :cond_11
+    if-ne p1, p3, :cond_12
 
-    .line 322
+    .line 325
     invoke-virtual {p2}, Lcom/rigol/scope/data/StorageSaveParam;->getChoose()Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
 
     move-result-object p1
 
     sget-object p3, Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;->IMAGE:Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
 
-    if-ne p1, p3, :cond_f
+    if-ne p1, p3, :cond_10
 
-    .line 323
+    .line 326
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
@@ -1963,29 +1979,11 @@
 
     invoke-virtual {p1, p3}, Lcom/rigol/scope/utilities/PopupViewManager;->dismissAll([Ljava/lang/Class;)V
 
-    .line 324
+    .line 327
     invoke-virtual {p2}, Lcom/rigol/scope/data/StorageSaveParam;->screenShotSetting()V
 
-    .line 325
-    invoke-static {p2}, Lcom/rigol/scope/utilities/ImageUtil;->save(Lcom/rigol/scope/data/StorageSaveParam;)V
-
-    goto :goto_2
-
-    .line 326
-    :cond_f
-    invoke-virtual {p2}, Lcom/rigol/scope/data/StorageSaveParam;->getChoose()Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
-
-    move-result-object p1
-
-    sget-object p3, Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;->WAVE:Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
-
-    if-ne p1, p3, :cond_10
-
-    .line 327
-    invoke-virtual {p2}, Lcom/rigol/scope/data/StorageSaveParam;->saveWaveSetting()V
-
     .line 328
-    invoke-virtual {p2}, Lcom/rigol/scope/data/StorageSaveParam;->doSave()V
+    invoke-static {p2}, Lcom/rigol/scope/utilities/ImageUtil;->save(Lcom/rigol/scope/data/StorageSaveParam;)V
 
     goto :goto_2
 
@@ -1995,24 +1993,42 @@
 
     move-result-object p1
 
-    sget-object p3, Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;->SETUP:Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
+    sget-object p3, Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;->WAVE:Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
 
-    if-ne p1, p3, :cond_15
+    if-ne p1, p3, :cond_11
 
     .line 330
-    invoke-virtual {p2}, Lcom/rigol/scope/data/StorageSaveParam;->saveSetupSetting()V
+    invoke-virtual {p2}, Lcom/rigol/scope/data/StorageSaveParam;->saveWaveSetting()V
 
     .line 331
     invoke-virtual {p2}, Lcom/rigol/scope/data/StorageSaveParam;->doSave()V
 
     goto :goto_2
 
+    .line 332
     :cond_11
-    const p3, 0x7f0a0826
+    invoke-virtual {p2}, Lcom/rigol/scope/data/StorageSaveParam;->getChoose()Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
 
-    if-ne p1, p3, :cond_12
+    move-result-object p1
 
-    .line 337
+    sget-object p3, Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;->SETUP:Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
+
+    if-ne p1, p3, :cond_16
+
+    .line 333
+    invoke-virtual {p2}, Lcom/rigol/scope/data/StorageSaveParam;->saveSetupSetting()V
+
+    .line 334
+    invoke-virtual {p2}, Lcom/rigol/scope/data/StorageSaveParam;->doSave()V
+
+    goto :goto_2
+
+    :cond_12
+    const p3, 0x7f0a0832
+
+    if-ne p1, p3, :cond_13
+
+    .line 340
     invoke-virtual {p2}, Lcom/rigol/scope/data/StorageSaveParam;->getSmbEn()Z
 
     move-result p1
@@ -2023,51 +2039,51 @@
 
     goto :goto_2
 
-    :cond_12
-    const p3, 0x7f0a06e1
+    :cond_13
+    const p3, 0x7f0a06eb
 
-    if-ne p1, p3, :cond_15
+    if-ne p1, p3, :cond_16
 
-    .line 343
+    .line 346
     invoke-virtual {p2}, Lcom/rigol/scope/data/StorageSaveParam;->getChoose()Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
 
     move-result-object p1
 
     sget-object p3, Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;->IMAGE:Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
 
-    if-ne p1, p3, :cond_13
+    if-ne p1, p3, :cond_14
 
-    .line 344
+    .line 347
     new-instance p1, Lcom/rigol/scope/views/storage/-$$Lambda$StoragePopupView$jNIGuV_qbBjtMU7ypx9due3Dt_U;
 
     invoke-direct {p1, p2}, Lcom/rigol/scope/views/storage/-$$Lambda$StoragePopupView$jNIGuV_qbBjtMU7ypx9due3Dt_U;-><init>(Lcom/rigol/scope/data/StorageSaveParam;)V
 
     goto :goto_1
 
-    .line 347
-    :cond_13
+    .line 350
+    :cond_14
     invoke-virtual {p2}, Lcom/rigol/scope/data/StorageSaveParam;->getChoose()Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
 
     move-result-object p1
 
     sget-object p3, Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;->WAVE:Lcom/rigol/scope/cil/ServiceEnum$StorageOperationChoose;
 
-    if-ne p1, p3, :cond_14
+    if-ne p1, p3, :cond_15
 
-    .line 348
+    .line 351
     new-instance p1, Lcom/rigol/scope/views/storage/-$$Lambda$StoragePopupView$XtAJOvNW1fqQsftsdlmGo0_TqJY;
 
     invoke-direct {p1, p2}, Lcom/rigol/scope/views/storage/-$$Lambda$StoragePopupView$XtAJOvNW1fqQsftsdlmGo0_TqJY;-><init>(Lcom/rigol/scope/data/StorageSaveParam;)V
 
     goto :goto_1
 
-    .line 352
-    :cond_14
+    .line 355
+    :cond_15
     new-instance p1, Lcom/rigol/scope/views/storage/-$$Lambda$StoragePopupView$dXoK9OCdfmKWxxatfE8Zwyl4NzI;
 
     invoke-direct {p1, p2}, Lcom/rigol/scope/views/storage/-$$Lambda$StoragePopupView$dXoK9OCdfmKWxxatfE8Zwyl4NzI;-><init>(Lcom/rigol/scope/data/StorageSaveParam;)V
 
-    .line 358
+    .line 361
     :goto_1
     invoke-virtual {p2}, Lcom/rigol/scope/data/StorageSaveParam;->getPathName()Ljava/lang/String;
 
@@ -2075,7 +2091,7 @@
 
     sget-object v0, Lcom/rigol/scope/data/DiskManageParam$SelectionMode;->DIR:Lcom/rigol/scope/data/DiskManageParam$SelectionMode;
 
-    invoke-static {p2}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     new-instance v1, Lcom/rigol/scope/views/storage/-$$Lambda$FtnkS5Qj29C5AJZD93PQtkUcPos;
 
@@ -2083,7 +2099,7 @@
 
     invoke-static {p3, v0, p1, v1}, Lcom/rigol/scope/utilities/ViewUtil;->showDiskManage(Ljava/lang/String;Lcom/rigol/scope/data/DiskManageParam$SelectionMode;Ljava/io/FileFilter;Lcom/rigol/scope/views/diskManage/DiskManagePopupView$Callback;)V
 
-    :cond_15
+    :cond_16
     :goto_2
     return-void
 .end method
@@ -2091,16 +2107,16 @@
 .method public onUpgradeItemClick(Lcom/rigol/scope/databinding/AdapterStorageUpgradeBinding;Landroid/view/View;)V
     .locals 4
 
-    .line 526
+    .line 529
     invoke-virtual {p2}, Landroid/view/View;->getId()I
 
     move-result v0
 
-    const v1, 0x7f0a0aa7
+    const v1, 0x7f0a0ab3
 
     if-ne v0, v1, :cond_3
 
-    .line 529
+    .line 532
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p2
@@ -2115,14 +2131,14 @@
 
     if-gez p2, :cond_0
 
-    const p1, 0x7f1007c0
+    const p1, 0x7f1007c8
 
-    .line 530
+    .line 533
     invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showShort(I)V
 
     return-void
 
-    .line 533
+    .line 536
     :cond_0
     iget-object p2, p1, Lcom/rigol/scope/databinding/AdapterStorageUpgradeBinding;->pathNameEditText:Landroid/widget/EditText;
 
@@ -2136,7 +2152,7 @@
 
     const-string v0, "DHO800_DHO900"
 
-    .line 534
+    .line 537
     invoke-virtual {p2, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result p2
@@ -2145,7 +2161,7 @@
 
     return-void
 
-    .line 539
+    .line 542
     :cond_1
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterStorageUpgradeBinding;->pathNameEditText:Landroid/widget/EditText;
 
@@ -2157,24 +2173,24 @@
 
     return-void
 
-    .line 547
+    .line 550
     :cond_2
     invoke-virtual {p0}, Lcom/rigol/scope/views/storage/StoragePopupView;->dismiss()V
 
-    .line 550
+    .line 553
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p2
 
     const/16 v0, 0xb
 
-    const/16 v1, 0x5712
+    const/16 v1, 0x5912
 
     const/4 v2, 0x0
 
     invoke-virtual {p2, v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_PostBool(IIZ)I
 
-    .line 553
+    .line 556
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p2
@@ -2183,30 +2199,30 @@
 
     invoke-virtual {p2, v0}, Lcom/rigol/scope/utilities/PopupViewManager;->show(Ljava/lang/Class;)V
 
-    .line 556
+    .line 559
     new-instance p2, Lcom/rigol/scope/views/storage/StoragePopupView$3;
 
     invoke-direct {p2, p0, p1}, Lcom/rigol/scope/views/storage/StoragePopupView$3;-><init>(Lcom/rigol/scope/views/storage/StoragePopupView;Ljava/lang/Object;)V
 
-    .line 570
+    .line 573
     invoke-virtual {p2}, Lcom/rigol/scope/views/storage/StoragePopupView$3;->start()V
 
     goto :goto_0
 
     :cond_3
-    const p1, 0x7f0a06e1
+    const p1, 0x7f0a06eb
 
     if-ne v0, p1, :cond_4
 
-    .line 574
+    .line 577
     instance-of p1, p2, Landroid/widget/TextView;
 
     if-eqz p1, :cond_4
 
-    .line 576
+    .line 579
     sget-object p1, Lcom/rigol/scope/views/storage/-$$Lambda$StoragePopupView$usTa4b4kUx2c8_6IYtjUWMLq7qo;->INSTANCE:Lcom/rigol/scope/views/storage/-$$Lambda$StoragePopupView$usTa4b4kUx2c8_6IYtjUWMLq7qo;
 
-    .line 579
+    .line 582
     move-object v0, p2
 
     check-cast v0, Landroid/widget/TextView;

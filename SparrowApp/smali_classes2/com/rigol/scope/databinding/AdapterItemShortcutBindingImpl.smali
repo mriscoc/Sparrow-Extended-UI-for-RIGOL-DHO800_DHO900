@@ -144,7 +144,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x3f7
+    const/16 v0, 0x3fb
 
     if-ne p2, v0, :cond_1
 
@@ -176,7 +176,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x27e
+    const/16 v0, 0x281
 
     if-ne p2, v0, :cond_2
 
@@ -248,7 +248,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -589,7 +589,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x233
+    const/16 p1, 0x235
 
     .line 85
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterItemShortcutBindingImpl;->notifyPropertyChanged(I)V
@@ -626,7 +626,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x233
+    const/16 v0, 0x235
 
     if-ne v0, p1, :cond_1
 

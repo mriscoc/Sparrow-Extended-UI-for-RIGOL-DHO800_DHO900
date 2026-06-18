@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->bind(Landroidx/lifecycle/LifecycleOwner;Lcom/rigol/scope/data/DisplayParam;)V
+    value = Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->bind(Landroidx/lifecycle/LifecycleOwner;Lcom/rigol/scope/data/NavigateParam;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,7 +20,7 @@
     value = {
         "Ljava/lang/Object;",
         "Landroidx/lifecycle/Observer<",
-        "Ljava/lang/Boolean;",
+        "Ljava/lang/Object;",
         ">;"
     }
 .end annotation
@@ -29,17 +29,17 @@
 # instance fields
 .field final synthetic this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
-.field final synthetic val$param:Lcom/rigol/scope/data/DisplayParam;
+.field final synthetic val$param:Lcom/rigol/scope/data/NavigateParam;
 
 
 # direct methods
-.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/DisplayParam;)V
+.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/NavigateParam;)V
     .locals 0
 
-    .line 6765
+    .line 6703
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$584;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
-    iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$584;->val$param:Lcom/rigol/scope/data/DisplayParam;
+    iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$584;->val$param:Lcom/rigol/scope/data/NavigateParam;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -48,24 +48,44 @@
 
 
 # virtual methods
-.method public onChanged(Ljava/lang/Boolean;)V
-    .locals 0
+.method public onChanged(Ljava/lang/Object;)V
+    .locals 1
 
-    .line 6768
-    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$584;->val$param:Lcom/rigol/scope/data/DisplayParam;
+    .line 6706
+    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$584;->val$param:Lcom/rigol/scope/data/NavigateParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/DisplayParam;->readType()Lcom/rigol/scope/cil/ServiceEnum$EWaveFormat;
+    invoke-virtual {p1}, Lcom/rigol/scope/data/NavigateParam;->readNavEnable()Z
 
-    return-void
-.end method
+    move-result p1
 
-.method public bridge synthetic onChanged(Ljava/lang/Object;)V
-    .locals 0
+    if-eqz p1, :cond_0
 
-    .line 6765
-    check-cast p1, Ljava/lang/Boolean;
+    .line 6707
+    invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
-    invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$584;->onChanged(Ljava/lang/Boolean;)V
+    move-result-object p1
 
+    const-class v0, Lcom/rigol/scope/views/navigate/NavigatePopupView;
+
+    invoke-virtual {p1, v0}, Lcom/rigol/scope/utilities/PopupViewManager;->get(Ljava/lang/Class;)Lcom/rigol/scope/views/baseview/BasePopupView;
+
+    move-result-object p1
+
+    .line 6708
+    invoke-virtual {p1}, Lcom/rigol/scope/views/baseview/BasePopupView;->show()V
+
+    goto :goto_0
+
+    .line 6710
+    :cond_0
+    invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
+
+    move-result-object p1
+
+    const-class v0, Lcom/rigol/scope/views/navigate/NavigatePopupView;
+
+    invoke-virtual {p1, v0}, Lcom/rigol/scope/utilities/PopupViewManager;->dismiss(Ljava/lang/Class;)V
+
+    :goto_0
     return-void
 .end method

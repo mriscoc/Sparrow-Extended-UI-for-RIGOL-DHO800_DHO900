@@ -258,7 +258,7 @@
     return-void
 
     :pswitch_data_0
-    .packed-switch 0x7f0a03d5
+    .packed-switch 0x7f0a03d7
         :pswitch_2
         :pswitch_1
         :pswitch_2

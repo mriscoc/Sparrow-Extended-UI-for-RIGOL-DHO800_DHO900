@@ -74,7 +74,7 @@
 .method public final onChanged(Ljava/lang/Object;)V
     .locals 2
 
-    .line 1370
+    .line 1485
     iget-object p1, p0, Lcom/rigol/scope/views/grid/EyeGridRulerView$3;->this$0:Lcom/rigol/scope/views/grid/EyeGridRulerView;
 
     invoke-static {p1}, Lcom/rigol/scope/views/grid/EyeGridRulerView;->access$getEyeParam$p(Lcom/rigol/scope/views/grid/EyeGridRulerView;)Lcom/rigol/scope/data/EyeParam;
@@ -83,7 +83,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 1372
+    .line 1487
     iget-object p1, p0, Lcom/rigol/scope/views/grid/EyeGridRulerView$3;->this$0:Lcom/rigol/scope/views/grid/EyeGridRulerView;
 
     invoke-static {p1}, Lcom/rigol/scope/views/grid/EyeGridRulerView;->access$getEyeParam$p(Lcom/rigol/scope/views/grid/EyeGridRulerView;)Lcom/rigol/scope/data/EyeParam;
@@ -114,7 +114,7 @@
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/views/grid/EyeGridRulerView;->setType(Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;)V
 
-    .line 1373
+    .line 1488
     iget-object p1, p0, Lcom/rigol/scope/views/grid/EyeGridRulerView$3;->this$0:Lcom/rigol/scope/views/grid/EyeGridRulerView;
 
     invoke-virtual {p1}, Lcom/rigol/scope/views/grid/EyeGridRulerView;->invalidate()V

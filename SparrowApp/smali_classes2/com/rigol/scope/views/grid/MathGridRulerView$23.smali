@@ -74,7 +74,7 @@
 .method public final onChanged(Ljava/lang/Object;)V
     .locals 2
 
-    .line 1310
+    .line 1425
     iget-object p1, p0, Lcom/rigol/scope/views/grid/MathGridRulerView$23;->this$0:Lcom/rigol/scope/views/grid/MathGridRulerView;
 
     invoke-static {p1}, Lcom/rigol/scope/views/grid/MathGridRulerView;->access$getMathParam$p(Lcom/rigol/scope/views/grid/MathGridRulerView;)Lcom/rigol/scope/data/MathParam;
@@ -83,7 +83,7 @@
 
     invoke-static {p1, v0}, Lcom/rigol/scope/views/grid/MathGridRulerView;->access$updateYRuler(Lcom/rigol/scope/views/grid/MathGridRulerView;Lcom/rigol/scope/data/MathParam;)V
 
-    .line 1311
+    .line 1426
     iget-object p1, p0, Lcom/rigol/scope/views/grid/MathGridRulerView$23;->this$0:Lcom/rigol/scope/views/grid/MathGridRulerView;
 
     invoke-static {p1}, Lcom/rigol/scope/views/grid/MathGridRulerView;->access$getHorizontalParam$p(Lcom/rigol/scope/views/grid/MathGridRulerView;)Lcom/rigol/scope/data/HorizontalParam;
@@ -92,7 +92,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 1312
+    .line 1427
     iget-object p1, p0, Lcom/rigol/scope/views/grid/MathGridRulerView$23;->this$0:Lcom/rigol/scope/views/grid/MathGridRulerView;
 
     invoke-static {p1}, Lcom/rigol/scope/views/grid/MathGridRulerView;->access$getMathParam$p(Lcom/rigol/scope/views/grid/MathGridRulerView;)Lcom/rigol/scope/data/MathParam;

@@ -39,7 +39,7 @@
 
     if-eq p2, p1, :cond_0
 
-    const/16 p1, 0x23c
+    const/16 p1, 0x23e
 
     if-ne p2, p1, :cond_2
 

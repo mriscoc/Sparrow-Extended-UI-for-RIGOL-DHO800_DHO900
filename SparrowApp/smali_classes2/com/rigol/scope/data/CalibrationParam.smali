@@ -196,7 +196,7 @@
 
     const/16 v1, 0xc
 
-    const/16 v2, 0x4b37
+    const/16 v2, 0x4d38
 
     const/4 v3, 0x0
 
@@ -205,7 +205,7 @@
     .line 180
     invoke-static {}, Lcom/rigol/scope/utilities/KtUtilKt;->resetAll()V
 
-    const/16 v0, 0x4702
+    const/16 v0, 0x4902
 
     .line 182
     invoke-virtual {p0, v0, v3}, Lcom/rigol/scope/data/CalibrationParam;->saveInt(II)I
@@ -226,7 +226,7 @@
 
     const/16 v1, 0xc
 
-    const/16 v2, 0x4b37
+    const/16 v2, 0x4d38
 
     const/4 v3, 0x0
 
@@ -238,7 +238,7 @@
     .line 168
     iget v0, p0, Lcom/rigol/scope/data/CalibrationParam;->itemBits:I
 
-    const/16 v1, 0x4701
+    const/16 v1, 0x4901
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/CalibrationParam;->saveInt(II)I
 
@@ -268,7 +268,7 @@
 .method public final readDate()Ljava/lang/String;
     .locals 1
 
-    const/16 v0, 0x4710
+    const/16 v0, 0x4910
 
     .line 124
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/CalibrationParam;->readStr(I)Ljava/lang/String;
@@ -286,7 +286,7 @@
 .method public final readDetail()Ljava/lang/String;
     .locals 1
 
-    const/16 v0, 0x4713
+    const/16 v0, 0x4913
 
     .line 114
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/CalibrationParam;->readStr(I)Ljava/lang/String;
@@ -304,7 +304,7 @@
 .method public final readItemBits()I
     .locals 1
 
-    const/16 v0, 0x4707
+    const/16 v0, 0x4907
 
     .line 134
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/CalibrationParam;->readInt(I)I
@@ -322,7 +322,7 @@
 .method public final readProgressNow()I
     .locals 1
 
-    const/16 v0, 0x470d
+    const/16 v0, 0x490d
 
     .line 129
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/CalibrationParam;->readInt(I)I
@@ -340,7 +340,7 @@
 .method public final readResult()Ljava/lang/String;
     .locals 1
 
-    const/16 v0, 0x4708
+    const/16 v0, 0x4908
 
     .line 119
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/CalibrationParam;->readStr(I)Ljava/lang/String;
@@ -358,7 +358,7 @@
 .method public final saveItems(I)V
     .locals 1
 
-    const/16 v0, 0x4707
+    const/16 v0, 0x4907
 
     .line 143
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/CalibrationParam;->saveInt(II)I
@@ -404,7 +404,7 @@
     .line 99
     iput p1, p0, Lcom/rigol/scope/data/CalibrationParam;->itemBits:I
 
-    const/16 p1, 0x1c2
+    const/16 p1, 0x1c3
 
     .line 100
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/CalibrationParam;->notifyPropertyChanged(I)V
@@ -418,7 +418,7 @@
     .line 58
     iput-object p1, p0, Lcom/rigol/scope/data/CalibrationParam;->lastDate:Ljava/lang/String;
 
-    const/16 p1, 0x1df
+    const/16 p1, 0x1e0
 
     .line 59
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/CalibrationParam;->notifyPropertyChanged(I)V
@@ -432,7 +432,7 @@
     .line 68
     iput p1, p0, Lcom/rigol/scope/data/CalibrationParam;->progressNow:I
 
-    const/16 p1, 0x2a3
+    const/16 p1, 0x2a7
 
     .line 69
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/CalibrationParam;->notifyPropertyChanged(I)V
@@ -446,7 +446,7 @@
     .line 48
     iput-object p1, p0, Lcom/rigol/scope/data/CalibrationParam;->result:Ljava/lang/String;
 
-    const/16 p1, 0x2e3
+    const/16 p1, 0x2e7
 
     .line 49
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/CalibrationParam;->notifyPropertyChanged(I)V
@@ -460,7 +460,7 @@
     .line 78
     iput-boolean p1, p0, Lcom/rigol/scope/data/CalibrationParam;->isShowDetail:Z
 
-    const/16 p1, 0x33b
+    const/16 p1, 0x33f
 
     .line 79
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/CalibrationParam;->notifyPropertyChanged(I)V
@@ -474,7 +474,7 @@
     .line 88
     iput-boolean p1, p0, Lcom/rigol/scope/data/CalibrationParam;->isStarted:Z
 
-    const/16 p1, 0x385
+    const/16 p1, 0x389
 
     .line 89
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/CalibrationParam;->notifyPropertyChanged(I)V

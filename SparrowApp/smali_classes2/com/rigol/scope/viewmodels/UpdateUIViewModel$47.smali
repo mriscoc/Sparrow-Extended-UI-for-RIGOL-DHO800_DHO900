@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/HorizontalParam;)V
     .locals 0
 
-    .line 1134
+    .line 1106
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$47;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$47;->val$param:Lcom/rigol/scope/data/HorizontalParam;
@@ -49,27 +49,12 @@
 
 # virtual methods
 .method public onChanged(Ljava/lang/Boolean;)V
-    .locals 1
+    .locals 0
 
-    .line 1137
-    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$47;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
+    .line 1109
+    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$47;->val$param:Lcom/rigol/scope/data/HorizontalParam;
 
-    const/4 v0, 0x1
-
-    invoke-static {p1, v0}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->access$002(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Z)Z
-
-    .line 1139
-    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$47;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
-
-    invoke-static {p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->access$100(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;)Landroid/os/Handler;
-
-    move-result-object p1
-
-    new-instance v0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$47$1;
-
-    invoke-direct {v0, p0}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$47$1;-><init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel$47;)V
-
-    invoke-virtual {p1, v0}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->readAvgTimes()I
 
     return-void
 .end method
@@ -77,7 +62,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1134
+    .line 1106
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$47;->onChanged(Ljava/lang/Boolean;)V

@@ -536,7 +536,7 @@
 
     move-result v0
 
-    const/16 v1, 0x5908
+    const/16 v1, 0x5b08
 
     .line 104
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -549,7 +549,7 @@
 
     invoke-virtual {v1, p1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    const/16 v1, 0x5909
+    const/16 v1, 0x5b09
 
     .line 109
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -562,7 +562,7 @@
 
     invoke-virtual {v1, p1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    const/16 v1, 0x5927
+    const/16 v1, 0x5b27
 
     .line 119
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -575,7 +575,7 @@
 
     invoke-virtual {v1, p1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    const/16 v1, 0x5928
+    const/16 v1, 0x5b28
 
     .line 122
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -588,7 +588,7 @@
 
     invoke-virtual {v1, p1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    const/16 v1, 0x5933
+    const/16 v1, 0x5b33
 
     .line 125
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -601,7 +601,7 @@
 
     invoke-virtual {v1, p1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    const/16 v1, 0x5934    # 3.2E-41f
+    const/16 v1, 0x5b34
 
     .line 128
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -614,7 +614,7 @@
 
     invoke-virtual {v1, p1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    const/16 v1, 0x594a
+    const/16 v1, 0x5b4a
 
     .line 131
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -627,7 +627,7 @@
 
     invoke-virtual {v1, p1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    const/16 v1, 0x5953
+    const/16 v1, 0x5b53
 
     .line 134
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -640,7 +640,7 @@
 
     invoke-virtual {v1, p1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    const/16 v1, 0x5959
+    const/16 v1, 0x5b59
 
     .line 137
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -653,7 +653,7 @@
 
     invoke-virtual {v1, p1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    const/16 v1, 0x5964
+    const/16 v1, 0x5b64
 
     .line 140
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -666,7 +666,7 @@
 
     invoke-virtual {v1, p1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    const/16 v1, 0x5966
+    const/16 v1, 0x5b66
 
     .line 143
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -679,7 +679,7 @@
 
     invoke-virtual {v1, p1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    const/16 v1, 0x5965
+    const/16 v1, 0x5b65
 
     .line 146
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -692,7 +692,7 @@
 
     invoke-virtual {v1, p1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    const/16 v1, 0x5940
+    const/16 v1, 0x5b40
 
     .line 149
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -705,7 +705,7 @@
 
     invoke-virtual {v1, p1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    const/16 v1, 0x5941
+    const/16 v1, 0x5b41
 
     .line 152
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -718,7 +718,7 @@
 
     invoke-virtual {v1, p1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    const/16 v1, 0x5942
+    const/16 v1, 0x5b42
 
     .line 155
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -731,7 +731,7 @@
 
     invoke-virtual {v1, p1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    const/16 v1, 0x593f
+    const/16 v1, 0x5b3f
 
     .line 158
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -744,7 +744,7 @@
 
     invoke-virtual {v1, p1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    const/16 v1, 0x5971
+    const/16 v1, 0x5b71
 
     .line 161
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -757,7 +757,7 @@
 
     invoke-virtual {v1, p1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    const/16 v1, 0x5972
+    const/16 v1, 0x5b72
 
     .line 164
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -770,7 +770,7 @@
 
     invoke-virtual {v1, p1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    const/16 v1, 0x59d0
+    const/16 v1, 0x5bd0
 
     .line 167
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -783,7 +783,7 @@
 
     invoke-virtual {v1, p1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    const/16 v1, 0x59cf
+    const/16 v1, 0x5bcf
 
     .line 170
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -796,7 +796,7 @@
 
     invoke-virtual {v1, p1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    const/16 v1, 0x59b9
+    const/16 v1, 0x5bb9
 
     .line 173
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -809,7 +809,7 @@
 
     invoke-virtual {v1, p1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    const/16 v1, 0x59c3
+    const/16 v1, 0x5bc3
 
     .line 176
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -822,7 +822,7 @@
 
     invoke-virtual {v1, p1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    const/16 v1, 0x59d7
+    const/16 v1, 0x5bd7
 
     .line 179
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -835,7 +835,7 @@
 
     invoke-virtual {v1, p1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    const/16 v1, 0x59d8
+    const/16 v1, 0x5bd8
 
     .line 182
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -848,7 +848,7 @@
 
     invoke-virtual {v1, p1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    const/16 v1, 0x59da
+    const/16 v1, 0x5bda
 
     .line 185
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -861,7 +861,7 @@
 
     invoke-virtual {v1, p1, v2}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    const/16 v1, 0x59db
+    const/16 v1, 0x5bdb
 
     .line 188
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -894,7 +894,7 @@
 
     move-result v0
 
-    const/16 v1, 0x4511
+    const/16 v1, 0x4711
 
     .line 87
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;

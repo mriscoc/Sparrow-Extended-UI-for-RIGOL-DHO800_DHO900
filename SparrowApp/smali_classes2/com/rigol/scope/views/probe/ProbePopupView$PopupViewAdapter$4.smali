@@ -27,7 +27,7 @@
 .method constructor <init>(Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;Lcom/rigol/scope/data/VerticalParam;)V
     .locals 0
 
-    .line 394
+    .line 446
     iput-object p1, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter$4;->this$0:Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;
 
     iput-object p2, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter$4;->val$param:Lcom/rigol/scope/data/VerticalParam;
@@ -42,7 +42,7 @@
 .method public onCall(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
     .locals 1
 
-    .line 402
+    .line 454
     iget-object v0, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter$4;->this$0:Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;
 
     invoke-static {v0, p1}, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->access$502(Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
@@ -51,7 +51,7 @@
 .end method
 
 .method public resultMinUnitValueListener(Ljava/lang/Object;)V
-    .locals 3
+    .locals 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -60,7 +60,7 @@
         }
     .end annotation
 
-    .line 397
+    .line 449
     iget-object v0, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter$4;->val$param:Lcom/rigol/scope/data/VerticalParam;
 
     check-cast p1, Ljava/lang/Long;
@@ -69,7 +69,11 @@
 
     move-result-wide v1
 
-    invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/data/VerticalParam;->saveProbeBias(J)V
+    const-wide/32 v3, 0x3b9aca00
+
+    mul-long/2addr v1, v3
+
+    invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/data/VerticalParam;->saveProbeCurrentBias(J)V
 
     return-void
 .end method

@@ -173,9 +173,9 @@
     :sswitch_data_0
     .sparse-switch
         0x7f0a0381 -> :sswitch_4
-        0x7f0a04eb -> :sswitch_3
-        0x7f0a05f0 -> :sswitch_2
-        0x7f0a0610 -> :sswitch_1
-        0x7f0a07b5 -> :sswitch_0
+        0x7f0a04ed -> :sswitch_3
+        0x7f0a05f8 -> :sswitch_2
+        0x7f0a0618 -> :sswitch_1
+        0x7f0a07c1 -> :sswitch_0
     .end sparse-switch
 .end method

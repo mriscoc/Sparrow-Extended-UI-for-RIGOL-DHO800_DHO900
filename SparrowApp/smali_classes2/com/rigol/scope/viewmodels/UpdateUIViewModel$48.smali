@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/HorizontalParam;)V
     .locals 0
 
-    .line 1154
+    .line 1114
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$48;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$48;->val$param:Lcom/rigol/scope/data/HorizontalParam;
@@ -51,10 +51,10 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 1157
+    .line 1117
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$48;->val$param:Lcom/rigol/scope/data/HorizontalParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->readAvgTimes()I
+    invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->readAntiAliasing()Z
 
     return-void
 .end method
@@ -62,7 +62,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1154
+    .line 1114
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$48;->onChanged(Ljava/lang/Boolean;)V

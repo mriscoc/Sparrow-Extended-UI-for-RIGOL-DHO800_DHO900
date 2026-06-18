@@ -148,7 +148,7 @@
     return p1
 .end method
 
-.method public synthetic lambda$onBindViewHolder$10$BodeViewPagerAdapter$BodeasicDelegate(ILcom/rigol/scope/data/MappingObject;)V
+.method public synthetic lambda$null$10$BodeViewPagerAdapter$BodeasicDelegate(ILcom/rigol/scope/data/MappingObject;)V
     .locals 1
 
     .line 271
@@ -274,7 +274,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a0665
+    const v0, 0x7f0a066f
 
     if-ne p1, v0, :cond_4
 
@@ -289,6 +289,15 @@
 
     :cond_4
     :goto_0
+    return-void
+.end method
+
+.method public synthetic lambda$null$9$BodeViewPagerAdapter$BodeasicDelegate(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
+    .locals 0
+
+    .line 270
+    iput-object p1, p0, Lcom/rigol/scope/adapters/BodeViewPagerAdapter$BodeasicDelegate;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
+
     return-void
 .end method
 
@@ -323,13 +332,13 @@
 
     iget-object v8, p0, Lcom/rigol/scope/adapters/BodeViewPagerAdapter$BodeasicDelegate;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
 
-    new-instance v9, Lcom/rigol/scope/adapters/-$$Lambda$BodeViewPagerAdapter$BodeasicDelegate$4Ug3Ljge0wqVo37F6vus7pkCONM;
+    new-instance v9, Lcom/rigol/scope/adapters/-$$Lambda$BodeViewPagerAdapter$BodeasicDelegate$sIGMMwGMgmNQKh_BSy3K8lRRPuw;
 
-    invoke-direct {v9, p0}, Lcom/rigol/scope/adapters/-$$Lambda$BodeViewPagerAdapter$BodeasicDelegate$4Ug3Ljge0wqVo37F6vus7pkCONM;-><init>(Lcom/rigol/scope/adapters/BodeViewPagerAdapter$BodeasicDelegate;)V
+    invoke-direct {v9, p0}, Lcom/rigol/scope/adapters/-$$Lambda$BodeViewPagerAdapter$BodeasicDelegate$sIGMMwGMgmNQKh_BSy3K8lRRPuw;-><init>(Lcom/rigol/scope/adapters/BodeViewPagerAdapter$BodeasicDelegate;)V
 
-    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$BodeViewPagerAdapter$BodeasicDelegate$LvSmUr7hb2IF55Pi03gJl6fRf58;
+    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$BodeViewPagerAdapter$BodeasicDelegate$f_Nh-e33CBS1Q9xqO_l4Pa45-HI;
 
-    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$BodeViewPagerAdapter$BodeasicDelegate$LvSmUr7hb2IF55Pi03gJl6fRf58;-><init>(Lcom/rigol/scope/adapters/BodeViewPagerAdapter$BodeasicDelegate;)V
+    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$BodeViewPagerAdapter$BodeasicDelegate$f_Nh-e33CBS1Q9xqO_l4Pa45-HI;-><init>(Lcom/rigol/scope/adapters/BodeViewPagerAdapter$BodeasicDelegate;)V
 
     move-object v2, p1
 
@@ -348,15 +357,6 @@
     const/4 v0, 0x0
 
     invoke-virtual {p1, v0}, Lcom/rigol/scope/data/BodeParam;->setBodeEnable1(Z)V
-
-    return-void
-.end method
-
-.method public synthetic lambda$onBindViewHolder$9$BodeViewPagerAdapter$BodeasicDelegate(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
-    .locals 0
-
-    .line 270
-    iput-object p1, p0, Lcom/rigol/scope/adapters/BodeViewPagerAdapter$BodeasicDelegate;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
 
     return-void
 .end method
@@ -882,7 +882,7 @@
 
     if-eq p1, v0, :cond_4
 
-    const v0, 0x7f0a080f
+    const v0, 0x7f0a081b
 
     if-eq p1, v0, :cond_1
 
@@ -1153,9 +1153,9 @@
         0x7f0a0104 -> :sswitch_5
         0x7f0a0109 -> :sswitch_4
         0x7f0a010c -> :sswitch_3
-        0x7f0a0665 -> :sswitch_2
-        0x7f0a06ba -> :sswitch_1
-        0x7f0a08fc -> :sswitch_0
+        0x7f0a066f -> :sswitch_2
+        0x7f0a06c4 -> :sswitch_1
+        0x7f0a0908 -> :sswitch_0
     .end sparse-switch
 .end method
 

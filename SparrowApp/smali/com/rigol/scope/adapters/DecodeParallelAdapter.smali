@@ -380,7 +380,7 @@
     return v0
 .end method
 
-.method public synthetic lambda$onBindViewHolder$0$DecodeParallelAdapter(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
+.method public synthetic lambda$null$0$DecodeParallelAdapter(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
     .locals 0
 
     .line 161
@@ -389,7 +389,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$onBindViewHolder$1$DecodeParallelAdapter(ILcom/rigol/scope/data/MappingObject;)V
+.method public synthetic lambda$null$1$DecodeParallelAdapter(ILcom/rigol/scope/data/MappingObject;)V
     .locals 0
 
     .line 163
@@ -498,13 +498,13 @@
 
     iget-object v9, p0, Lcom/rigol/scope/adapters/DecodeParallelAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
 
-    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$DecodeParallelAdapter$15DmdTznIM867YGL0lNFv94UipU;
+    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$DecodeParallelAdapter$uUcbqP06zcfu-XBOam9UA_iC968;
 
-    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeParallelAdapter$15DmdTznIM867YGL0lNFv94UipU;-><init>(Lcom/rigol/scope/adapters/DecodeParallelAdapter;)V
+    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeParallelAdapter$uUcbqP06zcfu-XBOam9UA_iC968;-><init>(Lcom/rigol/scope/adapters/DecodeParallelAdapter;)V
 
-    new-instance v11, Lcom/rigol/scope/adapters/-$$Lambda$DecodeParallelAdapter$CNYW0DjyKC02NgzagzZrZN_etlA;
+    new-instance v11, Lcom/rigol/scope/adapters/-$$Lambda$DecodeParallelAdapter$CCZkM3YtV-TYd2bg63WHnB6SglE;
 
-    invoke-direct {v11, p0}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeParallelAdapter$CNYW0DjyKC02NgzagzZrZN_etlA;-><init>(Lcom/rigol/scope/adapters/DecodeParallelAdapter;)V
+    invoke-direct {v11, p0}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeParallelAdapter$CCZkM3YtV-TYd2bg63WHnB6SglE;-><init>(Lcom/rigol/scope/adapters/DecodeParallelAdapter;)V
 
     move-object v3, p1
 
@@ -822,7 +822,7 @@
 
     move-result p2
 
-    const/16 v0, 0x5908
+    const/16 v0, 0x5b08
 
     invoke-virtual {p1, p2, v0}, Lcom/rigol/scope/data/DecodeParam;->getDecodeThres(II)J
 
@@ -851,7 +851,7 @@
 
     move-result p2
 
-    const/16 v0, 0x5909
+    const/16 v0, 0x5b09
 
     invoke-virtual {p1, p2, v0}, Lcom/rigol/scope/data/DecodeParam;->getDecodeThres(II)J
 

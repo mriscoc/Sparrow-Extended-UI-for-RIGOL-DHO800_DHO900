@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/DecodeParam;)V
     .locals 0
 
-    .line 5846
+    .line 5804
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$494;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$494;->val$param:Lcom/rigol/scope/data/DecodeParam;
@@ -51,10 +51,10 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 5849
+    .line 5807
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$494;->val$param:Lcom/rigol/scope/data/DecodeParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/DecodeParam;->readFlex_source()V
+    invoke-virtual {p1}, Lcom/rigol/scope/data/DecodeParam;->readCan_samp()V
 
     return-void
 .end method
@@ -62,7 +62,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 5846
+    .line 5804
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$494;->onChanged(Ljava/lang/Boolean;)V

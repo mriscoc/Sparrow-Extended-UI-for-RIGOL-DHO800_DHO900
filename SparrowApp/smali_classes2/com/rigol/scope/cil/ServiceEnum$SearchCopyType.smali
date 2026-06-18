@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 1722
+    .line 1724
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$SearchCopyType;
 
     const-string v1, "SEARCH_TO_TRIGGER"
@@ -65,7 +65,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$SearchCopyType;->SEARCH_TO_TRIGGER:Lcom/rigol/scope/cil/ServiceEnum$SearchCopyType;
 
-    .line 1723
+    .line 1725
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$SearchCopyType;
 
     const-string v9, "TRIGGER_TO_SEARCH"
@@ -90,7 +90,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$SearchCopyType;
 
-    .line 1720
+    .line 1722
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$SearchCopyType;->SEARCH_TO_TRIGGER:Lcom/rigol/scope/cil/ServiceEnum$SearchCopyType;
 
     aput-object v2, v1, v3
@@ -116,19 +116,19 @@
         }
     .end annotation
 
-    .line 1726
+    .line 1728
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 1727
+    .line 1729
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$SearchCopyType;->value1:I
 
-    .line 1728
+    .line 1730
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$SearchCopyType;->value2:Ljava/lang/String;
 
-    .line 1729
+    .line 1731
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$SearchCopyType;->pic1:Ljava/lang/String;
 
-    .line 1730
+    .line 1732
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$SearchCopyType;->pic2:Ljava/lang/String;
 
     return-void
@@ -137,7 +137,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$SearchCopyType;
     .locals 1
 
-    .line 1720
+    .line 1722
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$SearchCopyType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -152,7 +152,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$SearchCopyType;
     .locals 1
 
-    .line 1720
+    .line 1722
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$SearchCopyType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$SearchCopyType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$SearchCopyType;->clone()Ljava/lang/Object;

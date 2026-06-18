@@ -22,7 +22,7 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 1256
+    .line 1288
     invoke-static {}, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->values()[Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     move-result-object v0

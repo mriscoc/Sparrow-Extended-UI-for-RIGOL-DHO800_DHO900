@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/TriggerParam;)V
     .locals 0
 
-    .line 4184
+    .line 4144
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$332;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$332;->val$param:Lcom/rigol/scope/data/TriggerParam;
@@ -51,10 +51,10 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 4187
+    .line 4147
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$332;->val$param:Lcom/rigol/scope/data/TriggerParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->readCanFdBaud()V
+    invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->readCanBaud()V
 
     return-void
 .end method
@@ -62,7 +62,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 4184
+    .line 4144
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$332;->onChanged(Ljava/lang/Boolean;)V

@@ -1,4 +1,4 @@
-.class Lcom/rigol/lib/data/Firmware$1;
+.class final Lcom/rigol/lib/data/Firmware$1;
 .super Ljava/lang/Object;
 .source "Firmware.java"
 
@@ -12,7 +12,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x0
+    accessFlags = 0x8
     name = null
 .end annotation
 

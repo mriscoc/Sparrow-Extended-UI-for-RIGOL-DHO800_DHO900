@@ -97,7 +97,7 @@
 
     iget v0, v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->value1:I
 
-    const v1, 0x7f030246
+    const v1, 0x7f03024a
 
     .line 119
     invoke-static {v1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -195,7 +195,7 @@
 
     const/16 v0, 0xa
 
-    const/16 v1, 0x2344
+    const/16 v1, 0x2544
 
     .line 138
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -341,7 +341,7 @@
 
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;->Horizontal_ROLL:Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
-    const v2, 0x7f030246
+    const v2, 0x7f03024a
 
     const-string v3, "binding.title"
 

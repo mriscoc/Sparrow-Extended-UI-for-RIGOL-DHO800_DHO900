@@ -158,7 +158,7 @@
 
     const/16 v1, 0xb
 
-    const/16 v2, 0x5729
+    const/16 v2, 0x5929
 
     .line 167
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -177,7 +177,7 @@
 
     const/16 v1, 0x24
 
-    const/16 v2, 0x2b07
+    const/16 v2, 0x2d07
 
     .line 175
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -312,7 +312,7 @@
     return v0
 .end method
 
-.method static synthetic lambda$setUtilsTitleRecycler$4(Ljava/util/List;Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)V
+.method static synthetic lambda$null$4(Ljava/util/List;Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)V
     .locals 0
 
     .line 396
@@ -720,7 +720,7 @@
 
     invoke-virtual {p4, v0}, Lcom/rigol/scope/data/UtilityParam;->saveProjectMode(Z)V
 
-    const v0, 0x7f100c81
+    const v0, 0x7f100c8d
 
     .line 267
     invoke-virtual {p4}, Lcom/rigol/scope/data/UtilityParam;->getProjectMode()Z
@@ -845,9 +845,9 @@
     invoke-direct {p3, p0, p4, p2, p5}, Lcom/rigol/scope/views/UtilityPopupView$2;-><init>(Lcom/rigol/scope/views/UtilityPopupView;Landroid/content/Context;Ljava/util/List;I)V
 
     .line 393
-    new-instance p4, Lcom/rigol/scope/views/-$$Lambda$UtilityPopupView$P3jtWbe6VHARREfXZO54hY2ORA4;
+    new-instance p4, Lcom/rigol/scope/views/-$$Lambda$UtilityPopupView$FYel_ELDSDozRiZi9N-btzU1cAM;
 
-    invoke-direct {p4, p2}, Lcom/rigol/scope/views/-$$Lambda$UtilityPopupView$P3jtWbe6VHARREfXZO54hY2ORA4;-><init>(Ljava/util/List;)V
+    invoke-direct {p4, p2}, Lcom/rigol/scope/views/-$$Lambda$UtilityPopupView$FYel_ELDSDozRiZi9N-btzU1cAM;-><init>(Ljava/util/List;)V
 
     invoke-virtual {p3, p4}, Lcom/rigol/scope/adapters/BaseAdapter;->setOnItemClickListener(Lcom/rigol/scope/adapters/OnItemClickListener;)V
 

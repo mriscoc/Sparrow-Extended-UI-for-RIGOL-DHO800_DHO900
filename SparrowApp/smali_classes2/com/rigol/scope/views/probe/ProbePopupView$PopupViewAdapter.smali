@@ -90,17 +90,17 @@
 .method public constructor <init>(Landroid/content/Context;I)V
     .locals 1
 
-    .line 207
+    .line 210
     invoke-direct {p0, p1, p2}, Lcom/rigol/scope/adapters/BaseAdapter;-><init>(Landroid/content/Context;I)V
 
-    .line 173
+    .line 176
     new-instance p1, Ljava/util/HashMap;
 
     invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
 
     iput-object p1, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->mapManager:Ljava/util/Map;
 
-    .line 174
+    .line 177
     new-instance p1, Ljava/util/HashMap;
 
     invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
@@ -111,10 +111,10 @@
 
     new-array p1, p1, [Z
 
-    .line 175
+    .line 178
     iput-object p1, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->adapterInitArr:[Z
 
-    .line 209
+    .line 212
     const-class p1, Lcom/rigol/scope/viewmodels/SharedViewModel;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -125,7 +125,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 211
+    .line 214
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/SharedViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object p1
@@ -149,7 +149,7 @@
 .method static synthetic access$200(Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;)Ljava/util/Map;
     .locals 0
 
-    .line 171
+    .line 174
     iget-object p0, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->mapList:Ljava/util/Map;
 
     return-object p0
@@ -158,7 +158,7 @@
 .method static synthetic access$300(Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;)Landroid/content/Context;
     .locals 0
 
-    .line 171
+    .line 174
     iget-object p0, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->context:Landroid/content/Context;
 
     return-object p0
@@ -167,7 +167,7 @@
 .method static synthetic access$400(Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;)Landroid/content/Context;
     .locals 0
 
-    .line 171
+    .line 174
     iget-object p0, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->context:Landroid/content/Context;
 
     return-object p0
@@ -176,7 +176,7 @@
 .method static synthetic access$502(Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
     .locals 0
 
-    .line 171
+    .line 174
     iput-object p1, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
 
     return-object p1
@@ -185,7 +185,7 @@
 .method private selectProbeRatio(Lcom/rigol/scope/data/MappingObject;)V
     .locals 1
 
-    .line 305
+    .line 308
     invoke-virtual {p1}, Lcom/rigol/scope/data/MappingObject;->getValue()I
 
     move-result p1
@@ -196,7 +196,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 308
+    .line 311
     iget-object v0, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeRatioEnable()Z
@@ -205,7 +205,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 309
+    .line 312
     iget-object v0, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {v0, p1}, Lcom/rigol/scope/data/VerticalParam;->saveProbeRatio(Lcom/rigol/scope/cil/ServiceEnum$ProbeX;)V
@@ -231,14 +231,14 @@
         }
     .end annotation
 
-    .line 220
+    .line 223
     invoke-virtual {p1}, Lcom/rigol/scope/adapters/BaseViewHolder;->getBinding()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v0
 
     check-cast v0, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBinding;
 
-    .line 221
+    .line 224
     invoke-interface {p2, p3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p2
@@ -247,12 +247,12 @@
 
     invoke-virtual {v0, p2}, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBinding;->setVerticalParam(Lcom/rigol/scope/data/VerticalParam;)V
 
-    .line 222
+    .line 225
     iget-object p2, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->sharedParam:Lcom/rigol/scope/data/SharedParam;
 
     invoke-virtual {v0, p2}, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBinding;->setSharedParam(Lcom/rigol/scope/data/SharedParam;)V
 
-    .line 223
+    .line 226
     iget-object p2, v0, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBinding;->probeRatioSpinner:Landroid/widget/TextView;
 
     invoke-static {p3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -261,7 +261,7 @@
 
     invoke-virtual {p2, v1}, Landroid/widget/TextView;->setTag(Ljava/lang/Object;)V
 
-    .line 224
+    .line 227
     iget-object p2, v0, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBinding;->probeDelayEditText:Landroid/widget/EditText;
 
     invoke-static {p3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -270,7 +270,7 @@
 
     invoke-virtual {p2, v1}, Landroid/widget/EditText;->setTag(Ljava/lang/Object;)V
 
-    .line 225
+    .line 228
     iget-object p2, v0, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBinding;->probeBiasEditText:Landroid/widget/EditText;
 
     invoke-static {p3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -279,7 +279,7 @@
 
     invoke-virtual {p2, v1}, Landroid/widget/EditText;->setTag(Ljava/lang/Object;)V
 
-    .line 226
+    .line 229
     iget-object p2, v0, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBinding;->probeCalButton:Landroid/widget/Button;
 
     invoke-static {p3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -288,7 +288,7 @@
 
     invoke-virtual {p2, v1}, Landroid/widget/Button;->setTag(Ljava/lang/Object;)V
 
-    .line 227
+    .line 230
     iget-object p2, v0, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBinding;->probeDemagButton:Landroid/widget/Button;
 
     invoke-static {p3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -297,7 +297,7 @@
 
     invoke-virtual {p2, p3}, Landroid/widget/Button;->setTag(Ljava/lang/Object;)V
 
-    .line 228
+    .line 231
     invoke-virtual {p1}, Lcom/rigol/scope/adapters/BaseViewHolder;->getLayoutPosition()I
 
     move-result p2
@@ -326,7 +326,7 @@
 
     move-object/from16 v7, p0
 
-    .line 249
+    .line 252
     invoke-virtual/range {p1 .. p1}, Lcom/rigol/scope/adapters/BaseViewHolder;->getBinding()Landroidx/databinding/ViewDataBinding;
 
     move-result-object v0
@@ -335,12 +335,12 @@
 
     check-cast v8, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBinding;
 
-    .line 250
+    .line 253
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
-    .line 252
+    .line 255
     new-instance v0, Lcom/rigol/scope/data/AorBParam;
 
     iget-object v10, v8, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBinding;->probeDelayEditText:Landroid/widget/EditText;
@@ -359,7 +359,7 @@
 
     invoke-interface {v3, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 253
+    .line 256
     new-instance v0, Lcom/rigol/scope/data/AorBParam;
 
     iget-object v1, v8, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBinding;->probeBiasEditText:Landroid/widget/EditText;
@@ -380,7 +380,7 @@
 
     invoke-interface {v3, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 255
+    .line 258
     new-instance v0, Lcom/rigol/scope/data/AorBParam;
 
     iget-object v10, v8, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBinding;->probeRatioSpinner:Landroid/widget/TextView;
@@ -397,7 +397,7 @@
 
     invoke-interface {v3, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 257
+    .line 260
     iget-object v0, v7, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->mapList:Ljava/util/Map;
 
     invoke-static/range {p2 .. p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -406,7 +406,7 @@
 
     invoke-interface {v0, v1, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 259
+    .line 262
     new-instance v9, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter$1;
 
     iget-object v2, v7, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->context:Landroid/content/Context;
@@ -423,7 +423,7 @@
 
     invoke-direct/range {v0 .. v6}, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter$1;-><init>(Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;Landroid/content/Context;Ljava/util/List;Lcom/rigol/scope/utilities/AorBManager$OnSetTextById;Lcom/rigol/scope/utilities/AorBManager$OnTextReset;I)V
 
-    .line 273
+    .line 276
     iget-object v0, v7, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->context:Landroid/content/Context;
 
     iget-object v1, v8, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBinding;->probeDelayEditText:Landroid/widget/EditText;
@@ -434,7 +434,7 @@
 
     invoke-virtual {v9, v0, v1, v2, v3}, Lcom/rigol/scope/utilities/AorBManager;->showKey(Landroid/content/Context;Landroid/widget/EditText;ZLjava/lang/String;)V
 
-    .line 275
+    .line 278
     iget-object v0, v7, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->context:Landroid/content/Context;
 
     iget-object v1, v8, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBinding;->probeBiasEditText:Landroid/widget/EditText;
@@ -443,7 +443,7 @@
 
     invoke-virtual {v9, v0, v1, v2, v3}, Lcom/rigol/scope/utilities/AorBManager;->showKey(Landroid/content/Context;Landroid/widget/EditText;ZLjava/lang/String;)V
 
-    .line 277
+    .line 280
     iget-object v0, v7, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->mapManager:Ljava/util/Map;
 
     invoke-static/range {p2 .. p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -452,7 +452,7 @@
 
     invoke-interface {v0, v1, v9}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 278
+    .line 281
     iget-object v0, v7, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->adapterInitArr:[Z
 
     aput-boolean v2, v0, p2
@@ -460,49 +460,370 @@
     return-object v9
 .end method
 
+.method public getList(Ljava/util/List;Ljava/lang/String;)Ljava/util/List;
+    .locals 7
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "Lcom/rigol/scope/data/MappingObject;",
+            ">;",
+            "Ljava/lang/String;",
+            ")",
+            "Ljava/util/List<",
+            "Lcom/rigol/scope/data/MappingObject;",
+            ">;"
+        }
+    .end annotation
+
+    .line 324
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    .line 325
+    iget-object v1, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
+
+    invoke-virtual {v1}, Lcom/rigol/scope/data/VerticalParam;->getProbeRatioUnit()Lcom/rigol/scope/cil/ServiceEnum$Unit;
+
+    move-result-object v1
+
+    .line 326
+    invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+
+    move-result-object p1
+
+    :goto_0
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_4
+
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Lcom/rigol/scope/data/MappingObject;
+
+    .line 328
+    sget-object v3, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_VdivA:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+
+    if-ne v1, v3, :cond_0
+
+    invoke-virtual {v2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
+
+    move-result v3
+
+    sget-object v4, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_10X:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
+
+    iget v4, v4, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->value1:I
+
+    if-le v3, v4, :cond_0
+
+    invoke-virtual {v2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
+
+    move-result v3
+
+    sget-object v4, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_Cus:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
+
+    iget v4, v4, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->value1:I
+
+    if-ge v3, v4, :cond_0
+
+    goto :goto_0
+
+    .line 332
+    :cond_0
+    invoke-virtual {v2}, Lcom/rigol/scope/data/MappingObject;->getStr()Ljava/lang/String;
+
+    move-result-object v3
+
+    .line 333
+    sget-object v4, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_X:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+
+    iget-object v4, v4, Lcom/rigol/scope/cil/ServiceEnum$Unit;->value2:Ljava/lang/String;
+
+    invoke-virtual {v3, v4}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+
+    move-result v4
+
+    const-string v5, ""
+
+    if-eqz v4, :cond_1
+
+    .line 334
+    sget-object v4, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_X:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+
+    iget-object v4, v4, Lcom/rigol/scope/cil/ServiceEnum$Unit;->value2:Ljava/lang/String;
+
+    invoke-virtual {v3, v4, v5}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+
+    move-result-object v3
+
+    goto :goto_1
+
+    .line 335
+    :cond_1
+    sget-object v4, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_VdivA:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+
+    iget-object v4, v4, Lcom/rigol/scope/cil/ServiceEnum$Unit;->value2:Ljava/lang/String;
+
+    invoke-virtual {v3, v4}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+
+    move-result v4
+
+    if-eqz v4, :cond_2
+
+    .line 336
+    sget-object v4, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_VdivA:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+
+    iget-object v4, v4, Lcom/rigol/scope/cil/ServiceEnum$Unit;->value2:Ljava/lang/String;
+
+    invoke-virtual {v3, v4, v5}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+
+    move-result-object v3
+
+    .line 338
+    :cond_2
+    :goto_1
+    invoke-virtual {v2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
+
+    move-result v4
+
+    sget-object v5, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_Cus:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
+
+    iget v5, v5, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->value1:I
+
+    if-eq v4, v5, :cond_3
+
+    .line 339
+    new-instance v4, Ljava/lang/StringBuilder;
+
+    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v4, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-virtual {v2, v4}, Lcom/rigol/scope/data/MappingObject;->setStr(Ljava/lang/String;)V
+
+    const/4 v4, 0x1
+
+    new-array v4, v4, [Ljava/lang/Object;
+
+    const/4 v5, 0x0
+
+    .line 340
+    new-instance v6, Ljava/lang/StringBuilder;
+
+    invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v6, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v6, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v3
+
+    aput-object v3, v4, v5
+
+    invoke-static {v4}, Lcom/blankj/utilcode/util/LogUtils;->e([Ljava/lang/Object;)V
+
+    .line 343
+    :cond_3
+    invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    goto/16 :goto_0
+
+    :cond_4
+    return-object v0
+.end method
+
 .method public synthetic lambda$new$3$ProbePopupView$PopupViewAdapter(Lcom/rigol/scope/data/SharedParam;)V
     .locals 0
 
-    .line 212
+    .line 215
     iput-object p1, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->sharedParam:Lcom/rigol/scope/data/SharedParam;
 
+    return-void
+.end method
+
+.method public synthetic lambda$null$0$ProbePopupView$PopupViewAdapter(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
+    .locals 0
+
+    .line 193
+    iput-object p1, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
+
+    return-void
+.end method
+
+.method public synthetic lambda$null$1$ProbePopupView$PopupViewAdapter(ILcom/rigol/scope/data/MappingObject;)V
+    .locals 1
+
+    .line 195
+    iget-object p1, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->clickedView:Landroid/view/View;
+
+    if-nez p1, :cond_0
+
+    return-void
+
+    .line 196
+    :cond_0
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    move-result p1
+
+    const v0, 0x7f0a0749
+
+    if-eq p1, v0, :cond_1
+
+    goto :goto_0
+
+    .line 198
+    :cond_1
+    invoke-direct {p0, p2}, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->selectProbeRatio(Lcom/rigol/scope/data/MappingObject;)V
+
+    :goto_0
     return-void
 .end method
 
 .method public synthetic lambda$onClick$5$ProbePopupView$PopupViewAdapter(Lcom/rigol/scope/data/VerticalParam;Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
     .locals 0
 
-    .line 334
+    .line 375
     iput-object p2, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
 
-    .line 335
+    .line 376
     iput-object p3, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
 
-    .line 336
+    .line 377
     iput-object p4, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->mappingObjects:Ljava/util/List;
 
-    .line 337
+    .line 378
     iput-object p5, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->clickedView:Landroid/view/View;
 
-    .line 338
+    .line 379
     invoke-virtual {p1, p2}, Lcom/rigol/scope/data/VerticalParam;->setPopupSpinner(Lcom/rigol/scope/views/spinner/PopupSpinner;)V
 
     return-void
 .end method
 
-.method public synthetic lambda$onClick$6$ProbePopupView$PopupViewAdapter(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
-    .locals 0
+.method public synthetic lambda$onClick$6$ProbePopupView$PopupViewAdapter(Lcom/rigol/scope/data/VerticalParam;Landroid/view/View;Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
+    .locals 16
 
-    .line 341
-    invoke-direct {p0, p4}, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->selectProbeRatio(Lcom/rigol/scope/data/MappingObject;)V
+    move-object/from16 v0, p0
 
+    move-object/from16 v1, p1
+
+    .line 382
+    invoke-virtual/range {p6 .. p6}, Lcom/rigol/scope/data/MappingObject;->getValue()I
+
+    move-result v2
+
+    sget-object v3, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->Probe_Cus:Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
+
+    iget v3, v3, Lcom/rigol/scope/cil/ServiceEnum$ProbeX;->value1:I
+
+    if-ne v2, v3, :cond_0
+
+    .line 383
+    invoke-virtual/range {p1 .. p1}, Lcom/rigol/scope/data/VerticalParam;->getProbeRatio()Lcom/rigol/scope/cil/ServiceEnum$ProbeX;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Lcom/rigol/scope/data/VerticalParam;->setProbeRatio(Lcom/rigol/scope/cil/ServiceEnum$ProbeX;)V
+
+    .line 385
+    invoke-virtual/range {p1 .. p1}, Lcom/rigol/scope/data/VerticalParam;->readProbeCusRatioAttr()V
+
+    .line 387
+    iget-object v3, v0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->anchor:Landroid/view/View;
+
+    invoke-virtual/range {p1 .. p1}, Lcom/rigol/scope/data/VerticalParam;->getProbeRatioUnit()Lcom/rigol/scope/cil/ServiceEnum$Unit;
+
+    move-result-object v5
+
+    .line 388
+    invoke-virtual/range {p1 .. p1}, Lcom/rigol/scope/data/VerticalParam;->getProbeCusRatioAttr()Lcom/rigol/scope/cil/MessageAttr;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Lcom/rigol/scope/cil/MessageAttr;->getMaxLongValue()J
+
+    move-result-wide v6
+
+    .line 389
+    invoke-virtual/range {p1 .. p1}, Lcom/rigol/scope/data/VerticalParam;->getProbeCusRatioAttr()Lcom/rigol/scope/cil/MessageAttr;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Lcom/rigol/scope/cil/MessageAttr;->getMinLongValue()J
+
+    move-result-wide v8
+
+    .line 390
+    invoke-virtual/range {p1 .. p1}, Lcom/rigol/scope/data/VerticalParam;->getProbeCusRatioAttr()Lcom/rigol/scope/cil/MessageAttr;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Lcom/rigol/scope/cil/MessageAttr;->getDefLongValue()J
+
+    move-result-wide v10
+
+    .line 391
+    invoke-virtual/range {p1 .. p1}, Lcom/rigol/scope/data/VerticalParam;->getProbeCusRatio()D
+
+    move-result-wide v12
+
+    const-wide/high16 v14, 0x4024000000000000L    # 10.0
+
+    move-wide/from16 p3, v10
+
+    const-wide/high16 v10, 0x4022000000000000L    # 9.0
+
+    invoke-static {v14, v15, v10, v11}, Ljava/lang/Math;->pow(DD)D
+
+    move-result-wide v10
+
+    mul-double/2addr v12, v10
+
+    double-to-long v12, v12
+
+    sget-object v14, Lcom/rigol/scope/utilities/UnitFormat$SI;->NANO:Lcom/rigol/scope/utilities/UnitFormat$SI;
+
+    new-instance v15, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter$2;
+
+    invoke-direct {v15, v0, v1}, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter$2;-><init>(Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;Lcom/rigol/scope/data/VerticalParam;)V
+
+    move-object/from16 v4, p2
+
+    move-wide/from16 v10, p3
+
+    .line 387
+    invoke-static/range {v3 .. v15}, Lcom/rigol/scope/utilities/ViewUtil;->showKeyboard(Landroid/view/View;Landroid/view/View;Lcom/rigol/scope/cil/ServiceEnum$Unit;JJJJLcom/rigol/scope/utilities/UnitFormat$SI;Lcom/rigol/scope/views/keyboard/KeyboardListener;)V
+
+    goto :goto_0
+
+    :cond_0
+    move-object/from16 v1, p6
+
+    .line 411
+    invoke-direct {v0, v1}, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->selectProbeRatio(Lcom/rigol/scope/data/MappingObject;)V
+
+    :goto_0
     return-void
 .end method
 
 .method public synthetic lambda$setCurrentItemForce$4$ProbePopupView$PopupViewAdapter(I)V
     .locals 1
 
-    .line 290
+    .line 293
     iget-object v0, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->mapManager:Ljava/util/Map;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -520,49 +841,10 @@
     return-void
 .end method
 
-.method public synthetic lambda$setPanelKeyViewModel$0$ProbePopupView$PopupViewAdapter(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
-    .locals 0
-
-    .line 190
-    iput-object p1, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
-
-    return-void
-.end method
-
-.method public synthetic lambda$setPanelKeyViewModel$1$ProbePopupView$PopupViewAdapter(ILcom/rigol/scope/data/MappingObject;)V
-    .locals 1
-
-    .line 192
-    iget-object p1, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->clickedView:Landroid/view/View;
-
-    if-nez p1, :cond_0
-
-    return-void
-
-    .line 193
-    :cond_0
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
-
-    move-result p1
-
-    const v0, 0x7f0a073d
-
-    if-eq p1, v0, :cond_1
-
-    goto :goto_0
-
-    .line 195
-    :cond_1
-    invoke-direct {p0, p2}, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->selectProbeRatio(Lcom/rigol/scope/data/MappingObject;)V
-
-    :goto_0
-    return-void
-.end method
-
 .method public synthetic lambda$setPanelKeyViewModel$2$ProbePopupView$PopupViewAdapter(Lcom/rigol/scope/viewmodels/PanelKeyViewModel;Landroid/view/KeyEvent;)V
     .locals 11
 
-    .line 189
+    .line 192
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v0
@@ -575,7 +857,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 190
+    .line 193
     iget-object v3, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->clickedView:Landroid/view/View;
 
     iget-object v4, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
@@ -588,13 +870,13 @@
 
     iget-object v8, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
 
-    new-instance v9, Lcom/rigol/scope/views/probe/-$$Lambda$ProbePopupView$PopupViewAdapter$ae0FoVf18XQ8WJaqG0EfnDPzPnI;
+    new-instance v9, Lcom/rigol/scope/views/probe/-$$Lambda$ProbePopupView$PopupViewAdapter$Ilj_HpXsLLTZAzo7EKsS9kCj0V8;
 
-    invoke-direct {v9, p0}, Lcom/rigol/scope/views/probe/-$$Lambda$ProbePopupView$PopupViewAdapter$ae0FoVf18XQ8WJaqG0EfnDPzPnI;-><init>(Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;)V
+    invoke-direct {v9, p0}, Lcom/rigol/scope/views/probe/-$$Lambda$ProbePopupView$PopupViewAdapter$Ilj_HpXsLLTZAzo7EKsS9kCj0V8;-><init>(Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;)V
 
-    new-instance v10, Lcom/rigol/scope/views/probe/-$$Lambda$ProbePopupView$PopupViewAdapter$nvExGISCszZF4YJEByXBHSDK6ms;
+    new-instance v10, Lcom/rigol/scope/views/probe/-$$Lambda$ProbePopupView$PopupViewAdapter$rsg5BgYuwSf6RcG40WgdgrIhm4w;
 
-    invoke-direct {v10, p0}, Lcom/rigol/scope/views/probe/-$$Lambda$ProbePopupView$PopupViewAdapter$nvExGISCszZF4YJEByXBHSDK6ms;-><init>(Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;)V
+    invoke-direct {v10, p0}, Lcom/rigol/scope/views/probe/-$$Lambda$ProbePopupView$PopupViewAdapter$rsg5BgYuwSf6RcG40WgdgrIhm4w;-><init>(Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;)V
 
     move-object v1, p1
 
@@ -607,11 +889,13 @@
 .end method
 
 .method public onClick(Landroid/view/View;)V
-    .locals 17
+    .locals 16
 
     move-object/from16 v0, p0
 
-    .line 317
+    move-object/from16 v2, p1
+
+    .line 352
     invoke-virtual/range {p1 .. p1}, Landroid/view/View;->getTag()Ljava/lang/Object;
 
     move-result-object v1
@@ -622,12 +906,12 @@
 
     move-result v1
 
-    .line 320
+    .line 355
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->getItems()Ljava/util/List;
 
-    move-result-object v2
+    move-result-object v3
 
-    invoke-interface {v2, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    invoke-interface {v3, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -637,272 +921,314 @@
 
     return-void
 
-    .line 327
+    .line 362
     :cond_0
     invoke-virtual/range {p1 .. p1}, Landroid/view/View;->getId()I
 
-    move-result v2
+    move-result v3
 
-    const v3, 0x7f0a073d
+    const v4, 0x7f0a0749
 
-    if-ne v2, v3, :cond_1
+    if-ne v3, v4, :cond_1
 
-    const v2, 0x7f03008d
+    .line 367
+    invoke-virtual {v1}, Lcom/rigol/scope/data/VerticalParam;->getProbeRatioUnit()Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    .line 331
-    invoke-static {v2}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
+    move-result-object v3
 
-    move-result-object v2
+    iget-object v3, v3, Lcom/rigol/scope/cil/ServiceEnum$Unit;->value2:Ljava/lang/String;
 
-    .line 332
-    iget-object v3, v0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->anchor:Landroid/view/View;
+    const v4, 0x7f03008d
 
-    new-instance v4, Lcom/rigol/scope/views/probe/-$$Lambda$ProbePopupView$PopupViewAdapter$gNGA0cjCYFvqkUrXDMVyn2JgEPU;
+    .line 369
+    invoke-static {v4}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
 
-    invoke-direct {v4, v0, v1}, Lcom/rigol/scope/views/probe/-$$Lambda$ProbePopupView$PopupViewAdapter$gNGA0cjCYFvqkUrXDMVyn2JgEPU;-><init>(Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;Lcom/rigol/scope/data/VerticalParam;)V
+    move-result-object v4
 
-    new-instance v1, Lcom/rigol/scope/views/probe/-$$Lambda$ProbePopupView$PopupViewAdapter$09F49SvkBQUP1J9eUn3XJns2Uo8;
+    .line 372
+    invoke-virtual {v0, v4, v3}, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->getList(Ljava/util/List;Ljava/lang/String;)Ljava/util/List;
 
-    invoke-direct {v1, v0}, Lcom/rigol/scope/views/probe/-$$Lambda$ProbePopupView$PopupViewAdapter$09F49SvkBQUP1J9eUn3XJns2Uo8;-><init>(Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;)V
+    move-result-object v3
 
-    move-object/from16 v6, p1
+    .line 373
+    iget-object v4, v0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->anchor:Landroid/view/View;
 
-    invoke-static {v3, v6, v2, v4, v1}, Lcom/rigol/scope/utilities/ViewUtil;->showSpinner(Landroid/view/View;Landroid/view/View;Ljava/util/List;Lcom/rigol/scope/utilities/AorBManager$OnSpinnerAdapterListener;Lcom/rigol/scope/views/spinner/PopupSpinner$OnItemClickListener;)V
+    new-instance v5, Lcom/rigol/scope/views/probe/-$$Lambda$ProbePopupView$PopupViewAdapter$gNGA0cjCYFvqkUrXDMVyn2JgEPU;
+
+    invoke-direct {v5, v0, v1}, Lcom/rigol/scope/views/probe/-$$Lambda$ProbePopupView$PopupViewAdapter$gNGA0cjCYFvqkUrXDMVyn2JgEPU;-><init>(Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;Lcom/rigol/scope/data/VerticalParam;)V
+
+    new-instance v6, Lcom/rigol/scope/views/probe/-$$Lambda$ProbePopupView$PopupViewAdapter$yyKgKSQoHptP59oS5AUEhbsRR9w;
+
+    invoke-direct {v6, v0, v1, v2}, Lcom/rigol/scope/views/probe/-$$Lambda$ProbePopupView$PopupViewAdapter$yyKgKSQoHptP59oS5AUEhbsRR9w;-><init>(Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;Lcom/rigol/scope/data/VerticalParam;Landroid/view/View;)V
+
+    invoke-static {v4, v2, v3, v5, v6}, Lcom/rigol/scope/utilities/ViewUtil;->showSpinner(Landroid/view/View;Landroid/view/View;Ljava/util/List;Lcom/rigol/scope/utilities/AorBManager$OnSpinnerAdapterListener;Lcom/rigol/scope/views/spinner/PopupSpinner$OnItemClickListener;)V
 
     goto/16 :goto_0
 
     :cond_1
-    move-object/from16 v6, p1
+    const v4, 0x7f0a0741
 
-    const v3, 0x7f0a0735
+    if-ne v3, v4, :cond_2
 
-    if-ne v2, v3, :cond_2
+    .line 417
+    iget-object v4, v0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
-    .line 346
-    iget-object v3, v0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
+    invoke-virtual {v4, v3}, Lcom/rigol/scope/utilities/AorBManager;->setClick_showab(I)Z
 
-    invoke-virtual {v3, v2}, Lcom/rigol/scope/utilities/AorBManager;->setClick_showab(I)Z
+    move-result v3
 
-    move-result v2
+    if-eqz v3, :cond_6
 
-    if-eqz v2, :cond_6
-
-    .line 347
+    .line 418
     invoke-virtual {v1}, Lcom/rigol/scope/data/VerticalParam;->readProbeDelayAttr()V
 
-    .line 348
-    iget-object v5, v0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->anchor:Landroid/view/View;
+    .line 419
+    iget-object v3, v0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->anchor:Landroid/view/View;
 
-    sget-object v7, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_s:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+    sget-object v4, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_s:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    .line 349
+    .line 420
     invoke-virtual {v1}, Lcom/rigol/scope/data/VerticalParam;->getProbeDelayAttr()Lcom/rigol/scope/cil/MessageAttr;
 
-    move-result-object v2
+    move-result-object v5
 
-    invoke-virtual {v2}, Lcom/rigol/scope/cil/MessageAttr;->getMaxLongValue()J
+    invoke-virtual {v5}, Lcom/rigol/scope/cil/MessageAttr;->getMaxLongValue()J
 
-    move-result-wide v8
+    move-result-wide v5
 
-    .line 350
+    .line 421
     invoke-virtual {v1}, Lcom/rigol/scope/data/VerticalParam;->getProbeDelayAttr()Lcom/rigol/scope/cil/MessageAttr;
 
-    move-result-object v2
+    move-result-object v7
 
-    invoke-virtual {v2}, Lcom/rigol/scope/cil/MessageAttr;->getMinLongValue()J
+    invoke-virtual {v7}, Lcom/rigol/scope/cil/MessageAttr;->getMinLongValue()J
 
-    move-result-wide v10
+    move-result-wide v7
 
-    .line 351
+    .line 422
     invoke-virtual {v1}, Lcom/rigol/scope/data/VerticalParam;->getProbeDelayAttr()Lcom/rigol/scope/cil/MessageAttr;
 
-    move-result-object v2
+    move-result-object v9
 
-    invoke-virtual {v2}, Lcom/rigol/scope/cil/MessageAttr;->getDefLongValue()J
+    invoke-virtual {v9}, Lcom/rigol/scope/cil/MessageAttr;->getDefLongValue()J
 
-    move-result-wide v12
+    move-result-wide v9
 
-    .line 352
+    .line 423
     invoke-virtual {v1}, Lcom/rigol/scope/data/VerticalParam;->getProbeDelay()J
 
-    move-result-wide v14
+    move-result-wide v11
 
-    new-instance v2, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter$2;
+    new-instance v13, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter$3;
 
-    invoke-direct {v2, v0, v1}, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter$2;-><init>(Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;Lcom/rigol/scope/data/VerticalParam;)V
+    invoke-direct {v13, v0, v1}, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter$3;-><init>(Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;Lcom/rigol/scope/data/VerticalParam;)V
 
-    move-object/from16 v6, p1
+    move-object v1, v3
 
-    move-object/from16 v16, v2
+    move-object/from16 v2, p1
 
-    .line 348
-    invoke-static/range {v5 .. v16}, Lcom/rigol/scope/utilities/ViewUtil;->showKeyboard(Landroid/view/View;Landroid/view/View;Lcom/rigol/scope/cil/ServiceEnum$Unit;JJJJLcom/rigol/scope/views/keyboard/KeyboardListener;)V
+    move-object v3, v4
+
+    move-wide v4, v5
+
+    move-wide v6, v7
+
+    move-wide v8, v9
+
+    move-wide v10, v11
+
+    move-object v12, v13
+
+    .line 419
+    invoke-static/range {v1 .. v12}, Lcom/rigol/scope/utilities/ViewUtil;->showKeyboard(Landroid/view/View;Landroid/view/View;Lcom/rigol/scope/cil/ServiceEnum$Unit;JJJJLcom/rigol/scope/views/keyboard/KeyboardListener;)V
 
     goto/16 :goto_0
 
     :cond_2
-    const v3, 0x7f0a072f
+    const v4, 0x7f0a073b
 
-    if-ne v2, v3, :cond_4
+    if-ne v3, v4, :cond_4
 
-    .line 368
+    .line 439
     invoke-virtual {v1}, Lcom/rigol/scope/data/VerticalParam;->getProbeModel()Ljava/lang/String;
 
-    move-result-object v3
+    move-result-object v4
 
-    const-string v4, "PCA"
+    const-string v5, "PCA"
 
-    invoke-virtual {v3, v4}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+    invoke-virtual {v4, v5}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+
+    move-result v4
+
+    if-eqz v4, :cond_3
+
+    .line 440
+    iget-object v4, v0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
+
+    invoke-virtual {v4, v3}, Lcom/rigol/scope/utilities/AorBManager;->setClick_showab(I)Z
 
     move-result v3
 
-    if-eqz v3, :cond_3
+    if-eqz v3, :cond_6
 
-    .line 369
-    iget-object v3, v0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
+    .line 441
+    iget-object v3, v0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->anchor:Landroid/view/View;
 
-    invoke-virtual {v3, v2}, Lcom/rigol/scope/utilities/AorBManager;->setClick_showab(I)Z
+    sget-object v4, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_percent:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    move-result v2
-
-    if-eqz v2, :cond_6
-
-    .line 370
-    iget-object v5, v0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->anchor:Landroid/view/View;
-
-    sget-object v7, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_percent:Lcom/rigol/scope/cil/ServiceEnum$Unit;
-
-    .line 371
+    .line 442
     invoke-virtual {v1}, Lcom/rigol/scope/data/VerticalParam;->getProbeBiasAttr()Lcom/rigol/scope/cil/MessageAttr;
 
-    move-result-object v2
+    move-result-object v5
 
-    invoke-virtual {v2}, Lcom/rigol/scope/cil/MessageAttr;->getMaxLongValue()J
+    invoke-virtual {v5}, Lcom/rigol/scope/cil/MessageAttr;->getMaxLongValue()J
 
-    move-result-wide v2
+    move-result-wide v5
 
-    const-wide/32 v8, 0x3b9aca00
+    const-wide/32 v7, 0x3b9aca00
 
-    div-long/2addr v2, v8
+    div-long/2addr v5, v7
 
-    .line 372
+    .line 443
     invoke-virtual {v1}, Lcom/rigol/scope/data/VerticalParam;->getProbeBiasAttr()Lcom/rigol/scope/cil/MessageAttr;
 
-    move-result-object v4
+    move-result-object v9
 
-    invoke-virtual {v4}, Lcom/rigol/scope/cil/MessageAttr;->getMinLongValue()J
+    invoke-virtual {v9}, Lcom/rigol/scope/cil/MessageAttr;->getMinLongValue()J
 
-    move-result-wide v10
+    move-result-wide v9
 
-    div-long/2addr v10, v8
+    div-long/2addr v9, v7
 
-    .line 373
+    .line 444
     invoke-virtual {v1}, Lcom/rigol/scope/data/VerticalParam;->getProbeBiasAttr()Lcom/rigol/scope/cil/MessageAttr;
 
-    move-result-object v4
+    move-result-object v11
 
-    invoke-virtual {v4}, Lcom/rigol/scope/cil/MessageAttr;->getDefLongValue()J
+    invoke-virtual {v11}, Lcom/rigol/scope/cil/MessageAttr;->getDefLongValue()J
 
-    move-result-wide v12
+    move-result-wide v11
 
-    div-long/2addr v12, v8
+    div-long/2addr v11, v7
 
-    .line 374
+    .line 445
     invoke-virtual {v1}, Lcom/rigol/scope/data/VerticalParam;->getProbeCurrentBias()J
 
-    move-result-wide v14
+    move-result-wide v13
 
-    new-instance v4, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter$3;
+    new-instance v15, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter$4;
 
-    invoke-direct {v4, v0, v1}, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter$3;-><init>(Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;Lcom/rigol/scope/data/VerticalParam;)V
+    invoke-direct {v15, v0, v1}, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter$4;-><init>(Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;Lcom/rigol/scope/data/VerticalParam;)V
 
-    move-object/from16 v6, p1
+    move-object v1, v3
 
-    move-wide v8, v2
+    move-object/from16 v2, p1
 
-    move-object/from16 v16, v4
+    move-object v3, v4
 
-    .line 370
-    invoke-static/range {v5 .. v16}, Lcom/rigol/scope/utilities/ViewUtil;->showKeyboard(Landroid/view/View;Landroid/view/View;Lcom/rigol/scope/cil/ServiceEnum$Unit;JJJJLcom/rigol/scope/views/keyboard/KeyboardListener;)V
+    move-wide v4, v5
+
+    move-wide v6, v9
+
+    move-wide v8, v11
+
+    move-wide v10, v13
+
+    move-object v12, v15
+
+    .line 441
+    invoke-static/range {v1 .. v12}, Lcom/rigol/scope/utilities/ViewUtil;->showKeyboard(Landroid/view/View;Landroid/view/View;Lcom/rigol/scope/cil/ServiceEnum$Unit;JJJJLcom/rigol/scope/views/keyboard/KeyboardListener;)V
 
     goto :goto_0
 
-    .line 388
+    .line 459
     :cond_3
-    iget-object v3, v0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
+    iget-object v4, v0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
-    invoke-virtual {v3, v2}, Lcom/rigol/scope/utilities/AorBManager;->setClick_showab(I)Z
+    invoke-virtual {v4, v3}, Lcom/rigol/scope/utilities/AorBManager;->setClick_showab(I)Z
 
-    move-result v2
+    move-result v3
 
-    if-eqz v2, :cond_6
+    if-eqz v3, :cond_6
 
-    .line 389
-    iget-object v5, v0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->anchor:Landroid/view/View;
+    .line 460
+    iget-object v3, v0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->anchor:Landroid/view/View;
 
-    sget-object v7, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_V:Lcom/rigol/scope/cil/ServiceEnum$Unit;
+    sget-object v4, Lcom/rigol/scope/cil/ServiceEnum$Unit;->Unit_V:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    .line 390
+    .line 461
     invoke-virtual {v1}, Lcom/rigol/scope/data/VerticalParam;->getProbeBiasAttr()Lcom/rigol/scope/cil/MessageAttr;
 
-    move-result-object v2
+    move-result-object v5
 
-    invoke-virtual {v2}, Lcom/rigol/scope/cil/MessageAttr;->getMaxLongValue()J
+    invoke-virtual {v5}, Lcom/rigol/scope/cil/MessageAttr;->getMaxLongValue()J
 
-    move-result-wide v8
+    move-result-wide v5
 
-    .line 391
+    .line 462
     invoke-virtual {v1}, Lcom/rigol/scope/data/VerticalParam;->getProbeBiasAttr()Lcom/rigol/scope/cil/MessageAttr;
 
-    move-result-object v2
+    move-result-object v7
 
-    invoke-virtual {v2}, Lcom/rigol/scope/cil/MessageAttr;->getMinLongValue()J
+    invoke-virtual {v7}, Lcom/rigol/scope/cil/MessageAttr;->getMinLongValue()J
 
-    move-result-wide v10
+    move-result-wide v7
 
-    .line 392
+    .line 463
     invoke-virtual {v1}, Lcom/rigol/scope/data/VerticalParam;->getProbeBiasAttr()Lcom/rigol/scope/cil/MessageAttr;
 
-    move-result-object v2
+    move-result-object v9
 
-    invoke-virtual {v2}, Lcom/rigol/scope/cil/MessageAttr;->getDefLongValue()J
+    invoke-virtual {v9}, Lcom/rigol/scope/cil/MessageAttr;->getDefLongValue()J
 
-    move-result-wide v12
+    move-result-wide v9
 
-    .line 393
+    .line 464
     invoke-virtual {v1}, Lcom/rigol/scope/data/VerticalParam;->getProbeBias()J
 
-    move-result-wide v14
+    move-result-wide v11
 
-    new-instance v2, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter$4;
+    new-instance v13, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter$5;
 
-    invoke-direct {v2, v0, v1}, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter$4;-><init>(Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;Lcom/rigol/scope/data/VerticalParam;)V
+    invoke-direct {v13, v0, v1}, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter$5;-><init>(Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;Lcom/rigol/scope/data/VerticalParam;)V
 
-    move-object/from16 v6, p1
+    move-object v1, v3
 
-    move-object/from16 v16, v2
+    move-object/from16 v2, p1
 
-    .line 389
-    invoke-static/range {v5 .. v16}, Lcom/rigol/scope/utilities/ViewUtil;->showKeyboard(Landroid/view/View;Landroid/view/View;Lcom/rigol/scope/cil/ServiceEnum$Unit;JJJJLcom/rigol/scope/views/keyboard/KeyboardListener;)V
+    move-object v3, v4
+
+    move-wide v4, v5
+
+    move-wide v6, v7
+
+    move-wide v8, v9
+
+    move-wide v10, v11
+
+    move-object v12, v13
+
+    .line 460
+    invoke-static/range {v1 .. v12}, Lcom/rigol/scope/utilities/ViewUtil;->showKeyboard(Landroid/view/View;Landroid/view/View;Lcom/rigol/scope/cil/ServiceEnum$Unit;JJJJLcom/rigol/scope/views/keyboard/KeyboardListener;)V
 
     goto :goto_0
 
     :cond_4
-    const v3, 0x7f0a0731
+    const v2, 0x7f0a073d
 
-    if-ne v2, v3, :cond_5
+    if-ne v3, v2, :cond_5
 
-    .line 410
+    .line 481
     invoke-virtual {v1}, Lcom/rigol/scope/data/VerticalParam;->probeCal()V
 
     goto :goto_0
 
     :cond_5
-    const v3, 0x7f0a0737
+    const v2, 0x7f0a0743
 
-    if-ne v2, v3, :cond_6
+    if-ne v3, v2, :cond_6
 
-    .line 414
+    .line 485
     invoke-virtual {v1}, Lcom/rigol/scope/data/VerticalParam;->probeDemag()V
 
     :cond_6
@@ -913,7 +1239,7 @@
 .method public bridge synthetic onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
     .locals 0
 
-    .line 171
+    .line 174
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->onCreateViewHolder(Landroid/view/ViewGroup;I)Lcom/rigol/scope/adapters/BaseViewHolder;
 
     move-result-object p1
@@ -935,19 +1261,19 @@
         }
     .end annotation
 
-    .line 236
+    .line 239
     invoke-super {p0, p1, p2}, Lcom/rigol/scope/adapters/BaseAdapter;->onCreateViewHolder(Landroid/view/ViewGroup;I)Lcom/rigol/scope/adapters/BaseViewHolder;
 
     move-result-object p1
 
-    .line 239
+    .line 242
     invoke-virtual {p1}, Lcom/rigol/scope/adapters/BaseViewHolder;->getBinding()Landroidx/databinding/ViewDataBinding;
 
     move-result-object p2
 
     check-cast p2, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBinding;
 
-    .line 240
+    .line 243
     invoke-virtual {p2, p0}, Lcom/rigol/scope/databinding/AdapterItemPopupviewProbeBinding;->setClickListener(Landroid/view/View$OnClickListener;)V
 
     return-object p1
@@ -956,7 +1282,7 @@
 .method public onResetDefault(I)V
     .locals 3
 
-    .line 440
+    .line 511
     iget-object v0, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     if-nez v0, :cond_0
@@ -964,17 +1290,17 @@
     return-void
 
     :cond_0
-    const v1, 0x7f0a072f
+    const v1, 0x7f0a073b
 
     if-eq p1, v1, :cond_2
 
-    const v0, 0x7f0a0735
+    const v0, 0x7f0a0741
 
     if-eq p1, v0, :cond_1
 
     goto :goto_0
 
-    .line 443
+    .line 514
     :cond_1
     new-instance p1, Lcom/rigol/scope/cil/MessageAttr;
 
@@ -982,25 +1308,25 @@
 
     const v0, -0x5f5e100
 
-    .line 444
+    .line 515
     invoke-virtual {p1, v0}, Lcom/rigol/scope/cil/MessageAttr;->setMinValue(I)V
 
     const v0, 0x5f5e100
 
-    .line 445
+    .line 516
     invoke-virtual {p1, v0}, Lcom/rigol/scope/cil/MessageAttr;->setMaxValue(I)V
 
     const/4 v0, 0x0
 
-    .line 446
+    .line 517
     invoke-virtual {p1, v0}, Lcom/rigol/scope/cil/MessageAttr;->setDefValue(I)V
 
     const-wide/16 v0, 0x2710
 
-    .line 447
+    .line 518
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/cil/MessageAttr;->setStepValue(J)V
 
-    .line 448
+    .line 519
     iget-object v0, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {v0, p1}, Lcom/rigol/scope/data/VerticalParam;->getLongDef(Lcom/rigol/scope/cil/MessageAttr;)J
@@ -1011,7 +1337,7 @@
 
     goto :goto_0
 
-    .line 451
+    .line 522
     :cond_2
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeInsert()Z
 
@@ -1029,7 +1355,7 @@
 
     if-eq p1, v0, :cond_3
 
-    .line 452
+    .line 523
     iget-object p1, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->getOffsetAttr()Lcom/rigol/scope/cil/MessageAttr;
@@ -1050,7 +1376,7 @@
 .method public onViewIdCallback(Landroid/view/KeyEvent;IZ)V
     .locals 7
 
-    .line 420
+    .line 491
     iget-object v0, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     if-nez v0, :cond_0
@@ -1058,17 +1384,17 @@
     return-void
 
     :cond_0
-    const v1, 0x7f0a072f
+    const v1, 0x7f0a073b
 
     if-eq p2, v1, :cond_2
 
-    const v0, 0x7f0a0735
+    const v0, 0x7f0a0741
 
     if-eq p2, v0, :cond_1
 
     goto :goto_0
 
-    .line 423
+    .line 494
     :cond_1
     new-instance v4, Lcom/rigol/scope/cil/MessageAttr;
 
@@ -1076,25 +1402,25 @@
 
     const p2, -0x5f5e100
 
-    .line 424
+    .line 495
     invoke-virtual {v4, p2}, Lcom/rigol/scope/cil/MessageAttr;->setMinValue(I)V
 
     const p2, 0x5f5e100
 
-    .line 425
+    .line 496
     invoke-virtual {v4, p2}, Lcom/rigol/scope/cil/MessageAttr;->setMaxValue(I)V
 
     const/4 p2, 0x0
 
-    .line 426
+    .line 497
     invoke-virtual {v4, p2}, Lcom/rigol/scope/cil/MessageAttr;->setDefValue(I)V
 
     const-wide/16 v0, 0x2710
 
-    .line 427
+    .line 498
     invoke-virtual {v4, v0, v1}, Lcom/rigol/scope/cil/MessageAttr;->setStepValue(J)V
 
-    .line 428
+    .line 499
     iget-object p2, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {p2}, Lcom/rigol/scope/data/VerticalParam;->getProbeDelay()J
@@ -1115,7 +1441,7 @@
 
     goto :goto_0
 
-    .line 431
+    .line 502
     :cond_2
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeInsert()Z
 
@@ -1133,7 +1459,7 @@
 
     if-eq p2, v0, :cond_3
 
-    .line 432
+    .line 503
     iget-object p2, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {p2}, Lcom/rigol/scope/data/VerticalParam;->getProbeCurrentBias()J
@@ -1166,7 +1492,7 @@
 .method public setAnchor(Landroid/view/View;)V
     .locals 0
 
-    .line 245
+    .line 248
     iput-object p1, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->anchor:Landroid/view/View;
 
     return-void
@@ -1175,13 +1501,13 @@
 .method public setCurrentItemForce(I)V
     .locals 4
 
-    .line 284
+    .line 287
     invoke-super {p0, p1}, Lcom/rigol/scope/adapters/BaseAdapter;->setCurrentItem(I)V
 
-    .line 285
+    .line 288
     iput p1, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->currentPosition:I
 
-    .line 286
+    .line 289
     iget-object v0, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->adapterInitArr:[Z
 
     aget-boolean v0, v0, p1
@@ -1200,7 +1526,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 287
+    .line 290
     iget-object v0, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->mapManager:Ljava/util/Map;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -1217,7 +1543,7 @@
 
     goto :goto_0
 
-    .line 290
+    .line 293
     :cond_0
     new-instance v0, Landroid/os/Handler;
 
@@ -1231,7 +1557,7 @@
 
     invoke-virtual {v0, v1, v2, v3}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 292
+    .line 295
     :goto_0
     invoke-virtual {p0}, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->getItems()Ljava/util/List;
 
@@ -1243,10 +1569,10 @@
 
     check-cast p1, Lcom/rigol/scope/data/VerticalParam;
 
-    .line 293
+    .line 296
     iput-object p1, p0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->param:Lcom/rigol/scope/data/VerticalParam;
 
-    .line 296
+    .line 299
     invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->getProbeInsert()Z
 
     move-result v0
@@ -1261,7 +1587,7 @@
 
     if-eq p1, v0, :cond_1
 
-    .line 297
+    .line 300
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
@@ -1270,7 +1596,7 @@
 
     goto :goto_1
 
-    .line 299
+    .line 302
     :cond_1
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -1287,7 +1613,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 188
+    .line 191
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->getOnKeyUpData()Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v0

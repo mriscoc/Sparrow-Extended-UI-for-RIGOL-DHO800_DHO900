@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterTypeCheckboxItemBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08a5
+    const v1, 0x7f0a08b1
 
     const/4 v2, 0x1
 

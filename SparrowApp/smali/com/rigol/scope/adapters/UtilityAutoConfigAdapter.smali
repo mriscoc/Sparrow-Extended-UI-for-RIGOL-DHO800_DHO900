@@ -124,7 +124,7 @@
     .line 247
     iget-object v0, p0, Lcom/rigol/scope/adapters/UtilityAutoConfigAdapter;->context:Landroid/content/Context;
 
-    const v2, 0x7f100f0d
+    const v2, 0x7f100f1a
 
     invoke-virtual {v0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -380,7 +380,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f10037c
+    const p2, 0x7f10037f
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -440,7 +440,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a0889
+    const v0, 0x7f0a0895
 
     if-ne p1, v0, :cond_2
 
@@ -460,7 +460,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0a088b
+    const v0, 0x7f0a0897
 
     if-ne p1, v0, :cond_3
 
@@ -480,7 +480,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0a088e
+    const v0, 0x7f0a089a
 
     if-ne p1, v0, :cond_4
 
@@ -500,7 +500,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0a088c
+    const v0, 0x7f0a0898
 
     if-ne p1, v0, :cond_5
 
@@ -804,7 +804,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1003c2
+    const v0, 0x7f1003c5
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -855,7 +855,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f100402
+    const v0, 0x7f100405
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -928,12 +928,12 @@
         0x7f0a00c4 -> :sswitch_8
         0x7f0a01cb -> :sswitch_7
         0x7f0a01ff -> :sswitch_6
-        0x7f0a03bd -> :sswitch_5
-        0x7f0a03c2 -> :sswitch_4
-        0x7f0a03c3 -> :sswitch_3
-        0x7f0a058b -> :sswitch_2
-        0x7f0a0605 -> :sswitch_1
-        0x7f0a06c8 -> :sswitch_0
+        0x7f0a03bf -> :sswitch_5
+        0x7f0a03c4 -> :sswitch_4
+        0x7f0a03c5 -> :sswitch_3
+        0x7f0a0593 -> :sswitch_2
+        0x7f0a060d -> :sswitch_1
+        0x7f0a06d2 -> :sswitch_0
     .end sparse-switch
 .end method
 

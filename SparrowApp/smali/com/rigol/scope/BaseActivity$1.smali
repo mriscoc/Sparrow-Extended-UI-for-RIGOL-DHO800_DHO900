@@ -25,7 +25,7 @@
 .method constructor <init>(Lcom/rigol/scope/BaseActivity;)V
     .locals 0
 
-    .line 260
+    .line 261
     iput-object p1, p0, Lcom/rigol/scope/BaseActivity$1;->this$0:Lcom/rigol/scope/BaseActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +38,7 @@
 .method public onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
     .locals 3
 
-    .line 265
+    .line 266
     iget-object v0, p0, Lcom/rigol/scope/BaseActivity$1;->this$0:Lcom/rigol/scope/BaseActivity;
 
     invoke-virtual {v0}, Lcom/rigol/scope/BaseActivity;->getDelegate()Landroidx/appcompat/app/AppCompatDelegate;
@@ -53,7 +53,7 @@
 
     const-string p3, "skin_tag"
 
-    .line 267
+    .line 268
     invoke-interface {p4, p2, p3}, Landroid/util/AttributeSet;->getAttributeValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
@@ -62,12 +62,12 @@
 
     const-string v0, "text"
 
-    .line 268
+    .line 269
     invoke-interface {p4, p3, v0}, Landroid/util/AttributeSet;->getAttributeValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 269
+    .line 270
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -84,7 +84,7 @@
 
     if-eqz v1, :cond_0
 
-    .line 270
+    .line 271
     invoke-virtual {v0, v2}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object v0
@@ -93,7 +93,7 @@
 
     move-result v0
 
-    .line 275
+    .line 276
     iget-object v1, p0, Lcom/rigol/scope/BaseActivity$1;->this$0:Lcom/rigol/scope/BaseActivity;
 
     invoke-static {v1}, Lcom/rigol/scope/BaseActivity;->access$000(Lcom/rigol/scope/BaseActivity;)Ljava/util/HashMap;
@@ -106,7 +106,7 @@
 
     invoke-virtual {v1, p1, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 281
+    .line 282
     :cond_0
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -116,12 +116,12 @@
 
     const-string v0, "id"
 
-    .line 282
+    .line 283
     invoke-interface {p4, p3, v0}, Landroid/util/AttributeSet;->getAttributeValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p3
 
-    .line 283
+    .line 284
     iget-object p4, p0, Lcom/rigol/scope/BaseActivity$1;->this$0:Lcom/rigol/scope/BaseActivity;
 
     invoke-static {p4}, Lcom/rigol/scope/BaseActivity;->access$100(Lcom/rigol/scope/BaseActivity;)Landroid/util/SparseArray;

@@ -1056,7 +1056,7 @@
 
     move-result-object v13
 
-    const/16 v10, 0x3507
+    const/16 v10, 0x3707
 
     const-string v11, ""
 

@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/HorizontalParam;)V
     .locals 0
 
-    .line 1073
+    .line 1036
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$41;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$41;->val$param:Lcom/rigol/scope/data/HorizontalParam;
@@ -51,29 +51,41 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 2
 
-    .line 1076
-    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$41;->val$param:Lcom/rigol/scope/data/HorizontalParam;
-
-    invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->readAcquireMode()Lcom/rigol/scope/cil/ServiceEnum$AcquireMode;
-
-    .line 1077
+    .line 1039
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$41;->val$param:Lcom/rigol/scope/data/HorizontalParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->readMainScale()J
 
-    .line 1078
+    .line 1040
+    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$41;->val$param:Lcom/rigol/scope/data/HorizontalParam;
+
+    invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->readMainScaleAttr()V
+
+    .line 1041
+    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$41;->val$param:Lcom/rigol/scope/data/HorizontalParam;
+
+    invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->getRunStop()Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
+
+    move-result-object p1
+
+    sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$ControlAction;->Control_Run:Lcom/rigol/scope/cil/ServiceEnum$ControlAction;
+
+    if-ne p1, v0, :cond_0
+
+    .line 1042
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$41;->val$param:Lcom/rigol/scope/data/HorizontalParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->readTimeMode()Lcom/rigol/scope/cil/ServiceEnum$HoriTimeMode;
 
-    .line 1079
+    .line 1045
+    :cond_0
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
     move-result-object p1
 
     const/16 v0, 0xa
 
-    const/16 v1, 0x2343
+    const/16 v1, 0x2543
 
     invoke-static {v0, v1}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 
@@ -89,7 +101,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1073
+    .line 1036
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$41;->onChanged(Ljava/lang/Boolean;)V

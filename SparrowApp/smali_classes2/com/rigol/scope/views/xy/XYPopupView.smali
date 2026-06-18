@@ -146,14 +146,12 @@
 
     iget-object v2, p0, Lcom/rigol/scope/views/xy/XYPopupView;->binding:Lcom/rigol/scope/databinding/PopupviewXyBinding;
 
-    .line 97
-    invoke-static {v2}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     new-instance v3, Lcom/rigol/scope/views/xy/-$$Lambda$_0QeRX0vch7CFVSHbB1IMNlAUx4;
 
     invoke-direct {v3, v2}, Lcom/rigol/scope/views/xy/-$$Lambda$_0QeRX0vch7CFVSHbB1IMNlAUx4;-><init>(Lcom/rigol/scope/databinding/PopupviewXyBinding;)V
 
-    .line 96
     invoke-virtual {v0, v1, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
     .line 100
@@ -168,7 +166,7 @@
 
     if-eqz v0, :cond_2
 
-    const/16 v1, 0x3912
+    const/16 v1, 0x3b12
 
     const/16 v2, 0x28
 
@@ -189,7 +187,7 @@
 
     invoke-virtual {v1, v3, v4}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    const/16 v1, 0x3913
+    const/16 v1, 0x3b13
 
     .line 112
     invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -208,7 +206,7 @@
 
     invoke-virtual {v1, v3, v4}, Landroidx/lifecycle/MutableLiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    const/16 v1, 0x391b
+    const/16 v1, 0x3b1b
 
     .line 122
     invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -702,55 +700,6 @@
     return-object v0
 .end method
 
-.method public synthetic lambda$initPopWindow$4$XYPopupView(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
-    .locals 0
-
-    .line 193
-    iput-object p1, p0, Lcom/rigol/scope/views/xy/XYPopupView;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
-
-    return-void
-.end method
-
-.method public synthetic lambda$initPopWindow$5$XYPopupView(ILcom/rigol/scope/data/MappingObject;)V
-    .locals 1
-
-    .line 195
-    iget-object p1, p0, Lcom/rigol/scope/views/xy/XYPopupView;->clickedView:Landroid/view/View;
-
-    if-nez p1, :cond_0
-
-    return-void
-
-    .line 196
-    :cond_0
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
-
-    move-result p1
-
-    const v0, 0x7f0a0834
-
-    if-eq p1, v0, :cond_2
-
-    const v0, 0x7f0a0836
-
-    if-eq p1, v0, :cond_1
-
-    goto :goto_0
-
-    .line 201
-    :cond_1
-    invoke-direct {p0, p2}, Lcom/rigol/scope/views/xy/XYPopupView;->selectSourceY(Lcom/rigol/scope/data/MappingObject;)V
-
-    goto :goto_0
-
-    .line 198
-    :cond_2
-    invoke-direct {p0, p2}, Lcom/rigol/scope/views/xy/XYPopupView;->selectSourceX(Lcom/rigol/scope/data/MappingObject;)V
-
-    :goto_0
-    return-void
-.end method
-
 .method public synthetic lambda$initPopWindow$6$XYPopupView(Landroid/view/KeyEvent;)V
     .locals 11
 
@@ -786,13 +735,13 @@
 
     iget-object v8, p0, Lcom/rigol/scope/views/xy/XYPopupView;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
 
-    new-instance v9, Lcom/rigol/scope/views/xy/-$$Lambda$XYPopupView$jTYZ0nWe0L7RH0v4YGRgMnr52lI;
+    new-instance v9, Lcom/rigol/scope/views/xy/-$$Lambda$XYPopupView$b-pbg4ik28YxNopScG7ZSMqRaLI;
 
-    invoke-direct {v9, p0}, Lcom/rigol/scope/views/xy/-$$Lambda$XYPopupView$jTYZ0nWe0L7RH0v4YGRgMnr52lI;-><init>(Lcom/rigol/scope/views/xy/XYPopupView;)V
+    invoke-direct {v9, p0}, Lcom/rigol/scope/views/xy/-$$Lambda$XYPopupView$b-pbg4ik28YxNopScG7ZSMqRaLI;-><init>(Lcom/rigol/scope/views/xy/XYPopupView;)V
 
-    new-instance v10, Lcom/rigol/scope/views/xy/-$$Lambda$XYPopupView$xZ5idq6dPKjQB0D1cJ6xoyxhQKA;
+    new-instance v10, Lcom/rigol/scope/views/xy/-$$Lambda$XYPopupView$Udtog2tGzrGi23oBlqdeO0saJdA;
 
-    invoke-direct {v10, p0}, Lcom/rigol/scope/views/xy/-$$Lambda$XYPopupView$xZ5idq6dPKjQB0D1cJ6xoyxhQKA;-><init>(Lcom/rigol/scope/views/xy/XYPopupView;)V
+    invoke-direct {v10, p0}, Lcom/rigol/scope/views/xy/-$$Lambda$XYPopupView$Udtog2tGzrGi23oBlqdeO0saJdA;-><init>(Lcom/rigol/scope/views/xy/XYPopupView;)V
 
     move-object v2, p1
 
@@ -942,6 +891,55 @@
     return-void
 .end method
 
+.method public synthetic lambda$null$4$XYPopupView(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
+    .locals 0
+
+    .line 193
+    iput-object p1, p0, Lcom/rigol/scope/views/xy/XYPopupView;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
+
+    return-void
+.end method
+
+.method public synthetic lambda$null$5$XYPopupView(ILcom/rigol/scope/data/MappingObject;)V
+    .locals 1
+
+    .line 195
+    iget-object p1, p0, Lcom/rigol/scope/views/xy/XYPopupView;->clickedView:Landroid/view/View;
+
+    if-nez p1, :cond_0
+
+    return-void
+
+    .line 196
+    :cond_0
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    move-result p1
+
+    const v0, 0x7f0a0840
+
+    if-eq p1, v0, :cond_2
+
+    const v0, 0x7f0a0842
+
+    if-eq p1, v0, :cond_1
+
+    goto :goto_0
+
+    .line 201
+    :cond_1
+    invoke-direct {p0, p2}, Lcom/rigol/scope/views/xy/XYPopupView;->selectSourceY(Lcom/rigol/scope/data/MappingObject;)V
+
+    goto :goto_0
+
+    .line 198
+    :cond_2
+    invoke-direct {p0, p2}, Lcom/rigol/scope/views/xy/XYPopupView;->selectSourceX(Lcom/rigol/scope/data/MappingObject;)V
+
+    :goto_0
+    return-void
+.end method
+
 .method public synthetic lambda$onClick$10$XYPopupView(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
     .locals 0
 
@@ -1022,7 +1020,7 @@
     return-void
 
     :cond_1
-    const v1, 0x7f0a07fb
+    const v1, 0x7f0a0807
 
     if-ne v0, v1, :cond_2
 
@@ -1071,7 +1069,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f0a04a8
+    const v0, 0x7f0a04aa
 
     if-ne p2, v0, :cond_1
 
@@ -1093,7 +1091,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0a04db
+    const v0, 0x7f0a04dd
 
     if-ne p2, v0, :cond_2
 
@@ -1115,7 +1113,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0a0699
+    const v0, 0x7f0a06a3
 
     if-ne p2, v0, :cond_3
 
@@ -1155,7 +1153,7 @@
     return-void
 
     :cond_0
-    const v1, 0x7f0a0834
+    const v1, 0x7f0a0840
 
     const v2, 0x7f03008b
 
@@ -1217,7 +1215,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f0a0836
+    const v1, 0x7f0a0842
 
     if-ne v0, v1, :cond_2
 
@@ -1334,7 +1332,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0a0b24
+    const v0, 0x7f0a0b30
 
     if-ne p1, v0, :cond_4
 
@@ -1352,7 +1350,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0a053c
+    const v0, 0x7f0a053e
 
     if-ne p1, v0, :cond_5
 
@@ -1370,7 +1368,7 @@
     goto :goto_0
 
     :cond_5
-    const v0, 0x7f0a07c8
+    const v0, 0x7f0a07d4
 
     if-ne p1, v0, :cond_6
 

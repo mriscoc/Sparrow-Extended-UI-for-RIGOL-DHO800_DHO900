@@ -3,12 +3,12 @@
 .source "AfgAwgViewPagerAdapter.java"
 
 # interfaces
-.implements Lcom/rigol/scope/views/keyboard/KeyboardListener;
+.implements Landroid/text/TextWatcher;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate;->onClick(Landroid/view/View;)V
+    value = Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate;->initializeTextWatcher()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -25,7 +25,7 @@
 .method constructor <init>(Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate;)V
     .locals 0
 
-    .line 247
+    .line 201
     iput-object p1, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate$1;->this$0:Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -35,34 +35,30 @@
 
 
 # virtual methods
-.method public onCall(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
+.method public afterTextChanged(Landroid/text/Editable;)V
+    .locals 1
+
+    .line 210
+    iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate$1;->this$0:Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate;
+
+    invoke-static {v0, p1}, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate;->access$002(Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate;Landroid/text/Editable;)Landroid/text/Editable;
+
+    .line 212
+    iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate$1;->this$0:Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate;
+
+    invoke-virtual {v0, p1}, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate;->applyTextStyling(Landroid/text/Editable;)V
+
+    return-void
+.end method
+
+.method public beforeTextChanged(Ljava/lang/CharSequence;III)V
     .locals 0
 
     return-void
 .end method
 
-.method public resultMinUnitValueListener(Ljava/lang/Object;)V
-    .locals 3
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<T:",
-            "Ljava/lang/Object;",
-            ">(TT;)V"
-        }
-    .end annotation
-
-    .line 252
-    iget-object v0, p0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate$1;->this$0:Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate;
-
-    iget-object v0, v0, Lcom/rigol/scope/adapters/AfgAwgViewPagerAdapter$AfgBasicDelegate;->afgParam:Lcom/rigol/scope/data/AfgParam;
-
-    check-cast p1, Ljava/lang/Long;
-
-    invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
-
-    move-result-wide v1
-
-    invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/data/AfgParam;->saveBasicFreq(J)V
+.method public onTextChanged(Ljava/lang/CharSequence;III)V
+    .locals 0
 
     return-void
 .end method

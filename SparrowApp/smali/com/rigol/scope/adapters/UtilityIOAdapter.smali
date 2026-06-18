@@ -1134,6 +1134,21 @@
     return-void
 .end method
 
+.method public synthetic lambda$null$2$UtilityIOAdapter(Ljava/lang/String;)V
+    .locals 1
+
+    .line 102
+    iget-object v0, p0, Lcom/rigol/scope/adapters/UtilityIOAdapter;->ioParam:Lcom/rigol/scope/data/IOParam;
+
+    if-eqz v0, :cond_0
+
+    .line 103
+    invoke-virtual {v0, p1}, Lcom/rigol/scope/data/IOParam;->saveHostName(Ljava/lang/String;)V
+
+    :cond_0
+    return-void
+.end method
+
 .method public synthetic lambda$onBindViewHolder$1$UtilityIOAdapter(Landroid/widget/CompoundButton;Z)V
     .locals 0
 
@@ -1163,21 +1178,6 @@
     return-void
 .end method
 
-.method public synthetic lambda$onBindViewHolder$2$UtilityIOAdapter(Ljava/lang/String;)V
-    .locals 1
-
-    .line 102
-    iget-object v0, p0, Lcom/rigol/scope/adapters/UtilityIOAdapter;->ioParam:Lcom/rigol/scope/data/IOParam;
-
-    if-eqz v0, :cond_0
-
-    .line 103
-    invoke-virtual {v0, p1}, Lcom/rigol/scope/data/IOParam;->saveHostName(Ljava/lang/String;)V
-
-    :cond_0
-    return-void
-.end method
-
 .method public synthetic lambda$onBindViewHolder$3$UtilityIOAdapter(Lcom/rigol/scope/adapters/UtilityIOAdapter$LanViewHolder;Landroid/view/View;)V
     .locals 2
 
@@ -1197,9 +1197,9 @@
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemBinding;->edtHostNameValue:Landroid/widget/EditText;
 
-    new-instance v1, Lcom/rigol/scope/adapters/-$$Lambda$UtilityIOAdapter$F4P_WRriAR_-2LCoaZgZwljIpbI;
+    new-instance v1, Lcom/rigol/scope/adapters/-$$Lambda$UtilityIOAdapter$3oM3aFWHdAYrytuFtyCMZji0qYg;
 
-    invoke-direct {v1, p0}, Lcom/rigol/scope/adapters/-$$Lambda$UtilityIOAdapter$F4P_WRriAR_-2LCoaZgZwljIpbI;-><init>(Lcom/rigol/scope/adapters/UtilityIOAdapter;)V
+    invoke-direct {v1, p0}, Lcom/rigol/scope/adapters/-$$Lambda$UtilityIOAdapter$3oM3aFWHdAYrytuFtyCMZji0qYg;-><init>(Lcom/rigol/scope/adapters/UtilityIOAdapter;)V
 
     .line 99
     invoke-static {p2, v0, p1, v1}, Lcom/rigol/scope/utilities/ViewUtil;->showPinyinKeyboard(Landroid/content/Context;Landroid/view/View;Landroid/view/View;Lcom/rigol/pinyinkeyboard/ExternalInterface;)V
@@ -1320,16 +1320,6 @@
     cmp-long p1, v0, v2
 
     if-lez p1, :cond_3
-
-    iget-object p1, p0, Lcom/rigol/scope/adapters/UtilityIOAdapter;->ioParam:Lcom/rigol/scope/data/IOParam;
-
-    invoke-virtual {p1}, Lcom/rigol/scope/data/IOParam;->getStatus()Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
-
-    move-result-object p1
-
-    sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;->NET_STATUS_CONNECTED:Lcom/rigol/scope/cil/ServiceEnum$tagNET_STATUS_EN;
-
-    if-ne p1, v0, :cond_3
 
     .line 145
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J

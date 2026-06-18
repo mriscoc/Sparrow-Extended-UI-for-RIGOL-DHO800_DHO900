@@ -131,7 +131,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f0a046a
+    const v0, 0x7f0a046c
 
     if-ne p2, v0, :cond_1
 
@@ -151,7 +151,7 @@
     goto :goto_0
 
     :cond_1
-    const v0, 0x7f0a046e
+    const v0, 0x7f0a0470
 
     if-ne p2, v0, :cond_2
 
@@ -171,7 +171,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0a046c
+    const v0, 0x7f0a046e
 
     if-ne p2, v0, :cond_3
 
@@ -211,7 +211,7 @@
 
     move-result v1
 
-    const v2, 0x7f0a0440
+    const v2, 0x7f0a0442
 
     if-ne v1, v2, :cond_1
 
@@ -345,7 +345,7 @@
     .line 65
     iget-object p1, p0, Lcom/rigol/scope/adapters/EyeConstantAdapter;->binding:Lcom/rigol/scope/databinding/AdapterEyeConstantBinding;
 
-    const p2, 0x7f030123
+    const p2, 0x7f030124
 
     invoke-static {p2, v0}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 

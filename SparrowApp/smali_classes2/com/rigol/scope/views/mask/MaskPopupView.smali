@@ -258,7 +258,7 @@
 
     iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$MaskRange;->value1:I
 
-    const v3, 0x7f030161
+    const v3, 0x7f030162
 
     invoke-static {v3, v2}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -286,7 +286,7 @@
 
     iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$MaskActionEvent;->value1:I
 
-    const v3, 0x7f03015d
+    const v3, 0x7f03015e
 
     invoke-static {v3, v2}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -314,7 +314,7 @@
 
     iget v2, v2, Lcom/rigol/scope/cil/ServiceEnum$MaskPolarity;->value1:I
 
-    const v3, 0x7f03015e
+    const v3, 0x7f03015f
 
     invoke-static {v3, v2}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -468,7 +468,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0a081c
+    const v2, 0x7f0a0828
 
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -788,42 +788,6 @@
     return-void
 .end method
 
-.method public synthetic lambda$new$4$MaskPopupView(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
-    .locals 0
-
-    .line 228
-    iput-object p1, p0, Lcom/rigol/scope/views/mask/MaskPopupView;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
-
-    return-void
-.end method
-
-.method public synthetic lambda$new$5$MaskPopupView(ILcom/rigol/scope/data/MappingObject;)V
-    .locals 1
-
-    .line 230
-    iget-object p1, p0, Lcom/rigol/scope/views/mask/MaskPopupView;->clickedView:Landroid/view/View;
-
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
-
-    move-result p1
-
-    const v0, 0x7f0a083d
-
-    if-ne p1, v0, :cond_0
-
-    .line 231
-    iget-object p1, p0, Lcom/rigol/scope/views/mask/MaskPopupView;->param:Lcom/rigol/scope/data/MaskParam;
-
-    invoke-virtual {p2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
-
-    move-result p2
-
-    invoke-virtual {p1, p2}, Lcom/rigol/scope/data/MaskParam;->saveSource(I)V
-
-    :cond_0
-    return-void
-.end method
-
 .method public synthetic lambda$new$6$MaskPopupView(Landroid/view/KeyEvent;)V
     .locals 11
 
@@ -855,17 +819,53 @@
 
     iget-object v8, p0, Lcom/rigol/scope/views/mask/MaskPopupView;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
 
-    new-instance v9, Lcom/rigol/scope/views/mask/-$$Lambda$MaskPopupView$rXWWaecXi4XGzhGGg3JxAW48hbM;
+    new-instance v9, Lcom/rigol/scope/views/mask/-$$Lambda$MaskPopupView$t_yrWiEJVGLA4nOPrBNclc1W9m4;
 
-    invoke-direct {v9, p0}, Lcom/rigol/scope/views/mask/-$$Lambda$MaskPopupView$rXWWaecXi4XGzhGGg3JxAW48hbM;-><init>(Lcom/rigol/scope/views/mask/MaskPopupView;)V
+    invoke-direct {v9, p0}, Lcom/rigol/scope/views/mask/-$$Lambda$MaskPopupView$t_yrWiEJVGLA4nOPrBNclc1W9m4;-><init>(Lcom/rigol/scope/views/mask/MaskPopupView;)V
 
-    new-instance v10, Lcom/rigol/scope/views/mask/-$$Lambda$MaskPopupView$ZLsS7ewWTxJ2Qz68EcJH3hZHFms;
+    new-instance v10, Lcom/rigol/scope/views/mask/-$$Lambda$MaskPopupView$HdX6IS4tp5nBtpOFsx_O2xqPxG0;
 
-    invoke-direct {v10, p0}, Lcom/rigol/scope/views/mask/-$$Lambda$MaskPopupView$ZLsS7ewWTxJ2Qz68EcJH3hZHFms;-><init>(Lcom/rigol/scope/views/mask/MaskPopupView;)V
+    invoke-direct {v10, p0}, Lcom/rigol/scope/views/mask/-$$Lambda$MaskPopupView$HdX6IS4tp5nBtpOFsx_O2xqPxG0;-><init>(Lcom/rigol/scope/views/mask/MaskPopupView;)V
 
     move-object v2, p1
 
     invoke-virtual/range {v1 .. v10}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->abSwitch(Landroid/view/KeyEvent;Landroid/view/View;Lcom/rigol/scope/views/spinner/PopupSpinner;Ljava/util/List;Lcom/rigol/scope/adapters/SpinnerAdapter;Lcom/rigol/scope/utilities/AorBManager;Lcom/rigol/scope/views/keyboard/KeyboardPopupView;Lcom/rigol/scope/utilities/AorBManager$OnKeyboardItemChangeListener;Lcom/rigol/scope/utilities/AorBManager$OnSpinnerItemChangeListener;)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public synthetic lambda$null$4$MaskPopupView(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
+    .locals 0
+
+    .line 228
+    iput-object p1, p0, Lcom/rigol/scope/views/mask/MaskPopupView;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
+
+    return-void
+.end method
+
+.method public synthetic lambda$null$5$MaskPopupView(ILcom/rigol/scope/data/MappingObject;)V
+    .locals 1
+
+    .line 230
+    iget-object p1, p0, Lcom/rigol/scope/views/mask/MaskPopupView;->clickedView:Landroid/view/View;
+
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    move-result p1
+
+    const v0, 0x7f0a0849
+
+    if-ne p1, v0, :cond_0
+
+    .line 231
+    iget-object p1, p0, Lcom/rigol/scope/views/mask/MaskPopupView;->param:Lcom/rigol/scope/data/MaskParam;
+
+    invoke-virtual {p2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
+
+    move-result p2
+
+    invoke-virtual {p1, p2}, Lcom/rigol/scope/data/MaskParam;->saveSource(I)V
 
     :cond_0
     return-void
@@ -965,7 +965,7 @@
     return-void
 
     :cond_0
-    const p1, 0x7f0a03ce
+    const p1, 0x7f0a03d0
 
     if-ne v0, p1, :cond_1
 
@@ -995,7 +995,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f100377
+    const p2, 0x7f10037a
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1006,7 +1006,7 @@
     goto/16 :goto_0
 
     :cond_1
-    const p1, 0x7f0a087f
+    const p1, 0x7f0a088b
 
     if-ne v0, p1, :cond_2
 
@@ -1209,7 +1209,7 @@
     return-void
 
     :pswitch_data_0
-    .packed-switch 0x7f0a074c
+    .packed-switch 0x7f0a0758
         :pswitch_5
         :pswitch_4
         :pswitch_3
@@ -1229,11 +1229,11 @@
 
     move-result v1
 
-    const v2, 0x7f0a083d
+    const v2, 0x7f0a0849
 
     if-ne v1, v2, :cond_0
 
-    const v0, 0x7f030163
+    const v0, 0x7f030164
 
     .line 339
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1260,7 +1260,7 @@
     goto/16 :goto_0
 
     :cond_0
-    const v2, 0x7f0a06ba
+    const v2, 0x7f0a06c4
 
     const/4 v3, 0x1
 
@@ -1280,7 +1280,7 @@
     goto/16 :goto_0
 
     :cond_1
-    const v2, 0x7f0a0ace
+    const v2, 0x7f0a0ada
 
     if-ne v1, v2, :cond_2
 
@@ -1382,7 +1382,7 @@
     goto/16 :goto_0
 
     :cond_2
-    const v2, 0x7f0a0acd
+    const v2, 0x7f0a0ad9
 
     if-ne v1, v2, :cond_3
 
@@ -1484,7 +1484,7 @@
     goto/16 :goto_0
 
     :cond_3
-    const v2, 0x7f0a0acc
+    const v2, 0x7f0a0ad8
 
     if-ne v1, v2, :cond_4
 
@@ -1559,7 +1559,7 @@
     goto/16 :goto_0
 
     :cond_4
-    const p1, 0x7f0a0517
+    const p1, 0x7f0a0519
 
     if-ne v1, p1, :cond_5
 
@@ -1601,7 +1601,7 @@
     goto/16 :goto_0
 
     :cond_5
-    const p1, 0x7f0a0516
+    const p1, 0x7f0a0518
 
     if-ne v1, p1, :cond_6
 
@@ -1643,7 +1643,7 @@
     goto/16 :goto_0
 
     :cond_6
-    const p1, 0x7f0a0514
+    const p1, 0x7f0a0516
 
     if-ne v1, p1, :cond_7
 
@@ -1685,7 +1685,7 @@
     goto/16 :goto_0
 
     :cond_7
-    const p1, 0x7f0a0515
+    const p1, 0x7f0a0517
 
     if-ne v1, p1, :cond_8
 
@@ -1727,7 +1727,7 @@
     goto/16 :goto_0
 
     :cond_8
-    const p1, 0x7f0a07a1
+    const p1, 0x7f0a07ad
 
     if-ne v1, p1, :cond_9
 
@@ -1750,7 +1750,7 @@
 
     const/16 v0, 0x2e
 
-    const/16 v1, 0x2d09
+    const/16 v1, 0x2f09
 
     invoke-virtual {p1, v0, v1, v3}, Lcom/rigol/scope/cil/API;->UI_PostBool(IIZ)I
 
@@ -1827,7 +1827,7 @@
     goto :goto_0
 
     :cond_c
-    const p1, 0x7f0a081c
+    const p1, 0x7f0a0828
 
     if-ne v1, p1, :cond_e
 
@@ -2179,7 +2179,7 @@
     return-void
 
     :pswitch_data_0
-    .packed-switch 0x7f0a0acc
+    .packed-switch 0x7f0a0ad8
         :pswitch_2
         :pswitch_1
         :pswitch_0
@@ -2267,7 +2267,7 @@
     nop
 
     :pswitch_data_0
-    .packed-switch 0x7f0a0acc
+    .packed-switch 0x7f0a0ad8
         :pswitch_2
         :pswitch_1
         :pswitch_0

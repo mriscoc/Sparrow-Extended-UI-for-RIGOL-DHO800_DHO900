@@ -258,28 +258,28 @@
 
     const-string v0, ""
 
-    .line 177
+    .line 169
     sput-object v0, Lcom/rigol/scope/views/baseview/OrientationView;->strThresholdLow:Ljava/lang/String;
 
-    .line 178
+    .line 170
     sput-object v0, Lcom/rigol/scope/views/baseview/OrientationView;->strThresholdMiddle:Ljava/lang/String;
 
-    .line 179
+    .line 171
     sput-object v0, Lcom/rigol/scope/views/baseview/OrientationView;->strThresholdHigh:Ljava/lang/String;
 
-    .line 183
+    .line 175
     sput-object v0, Lcom/rigol/scope/views/baseview/OrientationView;->drawType:Ljava/lang/String;
 
-    .line 184
+    .line 176
     sput-object v0, Lcom/rigol/scope/views/baseview/OrientationView;->sourceA:Ljava/lang/String;
 
-    .line 185
+    .line 177
     sput-object v0, Lcom/rigol/scope/views/baseview/OrientationView;->sourceB:Ljava/lang/String;
 
-    .line 186
+    .line 178
     sput-object v0, Lcom/rigol/scope/views/baseview/OrientationView;->sourceAMiddle:Ljava/lang/String;
 
-    .line 187
+    .line 179
     sput-object v0, Lcom/rigol/scope/views/baseview/OrientationView;->sourceBMiddle:Ljava/lang/String;
 
     return-void
@@ -288,144 +288,144 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 2
 
-    .line 68
+    .line 60
     invoke-direct {p0, p1, p2}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     const/high16 p1, 0x41200000    # 10.0f
 
-    .line 78
+    .line 70
     iput p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->tagAlphaLine:F
 
     const-string p1, "25"
 
-    .line 105
+    .line 97
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_Vupper:Ljava/lang/String;
 
     const-string p1, "26"
 
-    .line 106
+    .line 98
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_Vmid:Ljava/lang/String;
 
     const-string p1, "27"
 
-    .line 107
+    .line 99
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_Vlower:Ljava/lang/String;
 
     const-string p1, "38"
 
-    .line 108
+    .line 100
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_DelayRR:Ljava/lang/String;
 
     const-string p1, "39"
 
-    .line 109
+    .line 101
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_DelayRF:Ljava/lang/String;
 
     const-string p1, "40"
 
-    .line 110
+    .line 102
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_DelayFR:Ljava/lang/String;
 
     const-string p1, "41"
 
-    .line 111
+    .line 103
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_DelayFF:Ljava/lang/String;
 
     const-string p1, "42"
 
-    .line 112
+    .line 104
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_PhaseRR:Ljava/lang/String;
 
     const-string p1, "43"
 
-    .line 113
+    .line 105
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_PhaseRF:Ljava/lang/String;
 
     const-string p1, "44"
 
-    .line 114
+    .line 106
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_PhaseFR:Ljava/lang/String;
 
     const-string p1, "45"
 
-    .line 115
+    .line 107
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_PhaseFF:Ljava/lang/String;
 
     const-string p1, "2"
 
-    .line 116
+    .line 108
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_Freq:Ljava/lang/String;
 
     const-string p1, "1"
 
-    .line 117
+    .line 109
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_Period:Ljava/lang/String;
 
     const-string p1, "3"
 
-    .line 118
+    .line 110
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_RiseTime:Ljava/lang/String;
 
     const-string p1, "4"
 
-    .line 119
+    .line 111
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_FallTime:Ljava/lang/String;
 
     const-string p1, "9"
 
-    .line 120
+    .line 112
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_PPulses:Ljava/lang/String;
 
     const-string p1, "10"
 
-    .line 121
+    .line 113
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_NPulses:Ljava/lang/String;
 
     const-string p1, "11"
 
-    .line 122
+    .line 114
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_PEdges:Ljava/lang/String;
 
     const-string p1, "12"
 
-    .line 123
+    .line 115
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_NEdges:Ljava/lang/String;
 
     const-string p1, "15"
 
-    .line 124
+    .line 116
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_Pslew_rate:Ljava/lang/String;
 
     const-string p1, "16"
 
-    .line 125
+    .line 117
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_Nslew_rate:Ljava/lang/String;
 
-    .line 130
+    .line 122
     new-instance p1, Landroid/graphics/Path;
 
     invoke-direct {p1}, Landroid/graphics/Path;-><init>()V
 
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->path:Landroid/graphics/Path;
 
-    .line 135
+    .line 127
     new-instance p1, Landroid/graphics/Paint;
 
     const/4 p2, 0x1
 
     invoke-direct {p1, p2}, Landroid/graphics/Paint;-><init>(I)V
 
-    .line 138
+    .line 130
     sget-object v0, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
     const/high16 v0, 0x40000000    # 2.0f
 
-    .line 141
+    .line 133
     invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 144
+    .line 136
     new-instance v0, Landroid/graphics/PathEffect;
 
     invoke-direct {v0}, Landroid/graphics/PathEffect;-><init>()V
@@ -434,47 +434,47 @@
 
     const/4 v0, -0x1
 
-    .line 147
+    .line 139
     invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 148
+    .line 140
     sget-object v1, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
 
-    .line 135
+    .line 127
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->linePaint:Landroid/graphics/Paint;
 
-    .line 153
+    .line 145
     new-instance p1, Landroid/graphics/Paint;
 
     invoke-direct {p1, p2}, Landroid/graphics/Paint;-><init>(I)V
 
-    .line 156
+    .line 148
     sget-object p2, Landroid/graphics/Typeface;->DEFAULT_BOLD:Landroid/graphics/Typeface;
 
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
 
-    .line 159
+    .line 151
     new-instance p2, Landroid/graphics/PathEffect;
 
     invoke-direct {p2}, Landroid/graphics/PathEffect;-><init>()V
 
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setPathEffect(Landroid/graphics/PathEffect;)Landroid/graphics/PathEffect;
 
-    .line 162
+    .line 154
     invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setColor(I)V
 
     const/high16 p2, 0x41900000    # 18.0f
 
-    .line 165
+    .line 157
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setTextSize(F)V
 
-    .line 166
+    .line 158
     sget-object p2, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
 
-    .line 153
+    .line 145
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->textPaint:Landroid/graphics/Paint;
 
-    .line 191
+    .line 183
     const-class p1, Lcom/rigol/scope/viewmodels/MeasureSettingViewModel;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -491,7 +491,7 @@
 
     if-eqz p1, :cond_1
 
-    .line 192
+    .line 184
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p2
@@ -500,19 +500,19 @@
 
     check-cast p2, Landroidx/lifecycle/LifecycleOwner;
 
-    .line 193
+    .line 185
     new-instance v0, Lcom/rigol/scope/views/baseview/OrientationView$1;
 
     invoke-direct {v0, p0}, Lcom/rigol/scope/views/baseview/OrientationView$1;-><init>(Lcom/rigol/scope/views/baseview/OrientationView;)V
 
     check-cast v0, Landroidx/lifecycle/Observer;
 
-    .line 191
+    .line 183
     invoke-virtual {p1, p2, v0}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
     goto :goto_0
 
-    .line 192
+    .line 184
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
@@ -526,10 +526,10 @@
     :goto_0
     const-string p1, "top"
 
-    .line 199
+    .line 191
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->meaType:Ljava/lang/String;
 
-    .line 242
+    .line 234
     new-instance p1, Lcom/rigol/scope/utilities/WeakRefHandler;
 
     new-instance p2, Lcom/rigol/scope/views/baseview/OrientationView$handler$1;
@@ -548,7 +548,7 @@
 .method public static final synthetic access$getDrawType$cp()Ljava/lang/String;
     .locals 1
 
-    .line 68
+    .line 60
     sget-object v0, Lcom/rigol/scope/views/baseview/OrientationView;->drawType:Ljava/lang/String;
 
     return-object v0
@@ -557,7 +557,7 @@
 .method public static final synthetic access$getMeasureSettingParam$p(Lcom/rigol/scope/views/baseview/OrientationView;)Lcom/rigol/scope/data/MeasureSettingParam;
     .locals 1
 
-    .line 68
+    .line 60
     iget-object p0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->measureSettingParam:Lcom/rigol/scope/data/MeasureSettingParam;
 
     if-nez p0, :cond_0
@@ -573,7 +573,7 @@
 .method public static final synthetic access$getSourceA$cp()Ljava/lang/String;
     .locals 1
 
-    .line 68
+    .line 60
     sget-object v0, Lcom/rigol/scope/views/baseview/OrientationView;->sourceA:Ljava/lang/String;
 
     return-object v0
@@ -582,7 +582,7 @@
 .method public static final synthetic access$getSourceAMiddle$cp()Ljava/lang/String;
     .locals 1
 
-    .line 68
+    .line 60
     sget-object v0, Lcom/rigol/scope/views/baseview/OrientationView;->sourceAMiddle:Ljava/lang/String;
 
     return-object v0
@@ -591,7 +591,7 @@
 .method public static final synthetic access$getSourceB$cp()Ljava/lang/String;
     .locals 1
 
-    .line 68
+    .line 60
     sget-object v0, Lcom/rigol/scope/views/baseview/OrientationView;->sourceB:Ljava/lang/String;
 
     return-object v0
@@ -600,7 +600,7 @@
 .method public static final synthetic access$getSourceBMiddle$cp()Ljava/lang/String;
     .locals 1
 
-    .line 68
+    .line 60
     sget-object v0, Lcom/rigol/scope/views/baseview/OrientationView;->sourceBMiddle:Ljava/lang/String;
 
     return-object v0
@@ -609,7 +609,7 @@
 .method public static final synthetic access$getStrThresholdHigh$cp()Ljava/lang/String;
     .locals 1
 
-    .line 68
+    .line 60
     sget-object v0, Lcom/rigol/scope/views/baseview/OrientationView;->strThresholdHigh:Ljava/lang/String;
 
     return-object v0
@@ -618,7 +618,7 @@
 .method public static final synthetic access$getStrThresholdLow$cp()Ljava/lang/String;
     .locals 1
 
-    .line 68
+    .line 60
     sget-object v0, Lcom/rigol/scope/views/baseview/OrientationView;->strThresholdLow:Ljava/lang/String;
 
     return-object v0
@@ -627,7 +627,7 @@
 .method public static final synthetic access$getStrThresholdMiddle$cp()Ljava/lang/String;
     .locals 1
 
-    .line 68
+    .line 60
     sget-object v0, Lcom/rigol/scope/views/baseview/OrientationView;->strThresholdMiddle:Ljava/lang/String;
 
     return-object v0
@@ -636,7 +636,7 @@
 .method public static final synthetic access$isShowThreshold$cp()Z
     .locals 1
 
-    .line 68
+    .line 60
     sget-boolean v0, Lcom/rigol/scope/views/baseview/OrientationView;->isShowThreshold:Z
 
     return v0
@@ -645,7 +645,7 @@
 .method public static final synthetic access$setDrawType$cp(Ljava/lang/String;)V
     .locals 0
 
-    .line 68
+    .line 60
     sput-object p0, Lcom/rigol/scope/views/baseview/OrientationView;->drawType:Ljava/lang/String;
 
     return-void
@@ -654,7 +654,7 @@
 .method public static final synthetic access$setMeasureSettingParam$p(Lcom/rigol/scope/views/baseview/OrientationView;Lcom/rigol/scope/data/MeasureSettingParam;)V
     .locals 0
 
-    .line 68
+    .line 60
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->measureSettingParam:Lcom/rigol/scope/data/MeasureSettingParam;
 
     return-void
@@ -663,7 +663,7 @@
 .method public static final synthetic access$setShowThreshold$cp(Z)V
     .locals 0
 
-    .line 68
+    .line 60
     sput-boolean p0, Lcom/rigol/scope/views/baseview/OrientationView;->isShowThreshold:Z
 
     return-void
@@ -672,7 +672,7 @@
 .method public static final synthetic access$setSourceA$cp(Ljava/lang/String;)V
     .locals 0
 
-    .line 68
+    .line 60
     sput-object p0, Lcom/rigol/scope/views/baseview/OrientationView;->sourceA:Ljava/lang/String;
 
     return-void
@@ -681,7 +681,7 @@
 .method public static final synthetic access$setSourceAMiddle$cp(Ljava/lang/String;)V
     .locals 0
 
-    .line 68
+    .line 60
     sput-object p0, Lcom/rigol/scope/views/baseview/OrientationView;->sourceAMiddle:Ljava/lang/String;
 
     return-void
@@ -690,7 +690,7 @@
 .method public static final synthetic access$setSourceB$cp(Ljava/lang/String;)V
     .locals 0
 
-    .line 68
+    .line 60
     sput-object p0, Lcom/rigol/scope/views/baseview/OrientationView;->sourceB:Ljava/lang/String;
 
     return-void
@@ -699,7 +699,7 @@
 .method public static final synthetic access$setSourceBMiddle$cp(Ljava/lang/String;)V
     .locals 0
 
-    .line 68
+    .line 60
     sput-object p0, Lcom/rigol/scope/views/baseview/OrientationView;->sourceBMiddle:Ljava/lang/String;
 
     return-void
@@ -708,7 +708,7 @@
 .method public static final synthetic access$setStrThresholdHigh$cp(Ljava/lang/String;)V
     .locals 0
 
-    .line 68
+    .line 60
     sput-object p0, Lcom/rigol/scope/views/baseview/OrientationView;->strThresholdHigh:Ljava/lang/String;
 
     return-void
@@ -717,7 +717,7 @@
 .method public static final synthetic access$setStrThresholdLow$cp(Ljava/lang/String;)V
     .locals 0
 
-    .line 68
+    .line 60
     sput-object p0, Lcom/rigol/scope/views/baseview/OrientationView;->strThresholdLow:Ljava/lang/String;
 
     return-void
@@ -726,7 +726,7 @@
 .method public static final synthetic access$setStrThresholdMiddle$cp(Ljava/lang/String;)V
     .locals 0
 
-    .line 68
+    .line 60
     sput-object p0, Lcom/rigol/scope/views/baseview/OrientationView;->strThresholdMiddle:Ljava/lang/String;
 
     return-void
@@ -735,20 +735,20 @@
 .method private final drawLine(IILandroid/graphics/Canvas;)V
     .locals 4
 
-    .line 276
+    .line 268
     iget-boolean v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->isShowLine:Z
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 281
+    .line 273
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->path:Landroid/graphics/Path;
 
     invoke-virtual {v0}, Landroid/graphics/Path;->reset()V
 
-    .line 284
+    .line 276
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->linePaint:Landroid/graphics/Paint;
 
     invoke-virtual {v0}, Landroid/graphics/Paint;->getStrokeWidth()F
@@ -761,14 +761,14 @@
 
     div-float/2addr v0, v1
 
-    .line 287
+    .line 279
     iget v1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->orientation:I
 
     const/4 v2, 0x0
 
-    if-nez v1, :cond_2
+    if-nez v1, :cond_3
 
-    .line 288
+    .line 280
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/OrientationView;->linePaint:Landroid/graphics/Paint;
 
     invoke-virtual {p2}, Landroid/graphics/Paint;->getPathEffect()Landroid/graphics/PathEffect;
@@ -783,10 +783,43 @@
 
     if-eqz p2, :cond_1
 
-    .line 289
+    .line 281
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/OrientationView;->path:Landroid/graphics/Path;
 
     int-to-float p1, p1
+
+    invoke-virtual {p2, v2, p1}, Landroid/graphics/Path;->moveTo(FF)V
+
+    .line 282
+    iget-object p2, p0, Lcom/rigol/scope/views/baseview/OrientationView;->path:Landroid/graphics/Path;
+
+    invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/OrientationView;->getWidth()I
+
+    move-result v0
+
+    int-to-float v0, v0
+
+    invoke-virtual {p2, v0, p1}, Landroid/graphics/Path;->lineTo(FF)V
+
+    goto :goto_2
+
+    :cond_1
+    int-to-float p1, p1
+
+    add-float/2addr v0, p1
+
+    cmpg-float p2, p1, v0
+
+    if-gez p2, :cond_2
+
+    goto :goto_0
+
+    :cond_2
+    move p1, v0
+
+    .line 289
+    :goto_0
+    iget-object p2, p0, Lcom/rigol/scope/views/baseview/OrientationView;->path:Landroid/graphics/Path;
 
     invoke-virtual {p2, v2, p1}, Landroid/graphics/Path;->moveTo(FF)V
 
@@ -801,33 +834,10 @@
 
     invoke-virtual {p2, v0, p1}, Landroid/graphics/Path;->lineTo(FF)V
 
-    goto :goto_0
-
-    .line 292
-    :cond_1
-    iget-object p2, p0, Lcom/rigol/scope/views/baseview/OrientationView;->path:Landroid/graphics/Path;
-
-    int-to-float p1, p1
-
-    add-float/2addr p1, v0
-
-    invoke-virtual {p2, v2, p1}, Landroid/graphics/Path;->moveTo(FF)V
+    goto :goto_2
 
     .line 293
-    iget-object p2, p0, Lcom/rigol/scope/views/baseview/OrientationView;->path:Landroid/graphics/Path;
-
-    invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/OrientationView;->getWidth()I
-
-    move-result v0
-
-    int-to-float v0, v0
-
-    invoke-virtual {p2, v0, p1}, Landroid/graphics/Path;->lineTo(FF)V
-
-    goto :goto_0
-
-    .line 296
-    :cond_2
+    :cond_3
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->linePaint:Landroid/graphics/Paint;
 
     invoke-virtual {p1}, Landroid/graphics/Paint;->getPathEffect()Landroid/graphics/PathEffect;
@@ -840,16 +850,16 @@
 
     move-result p1
 
-    if-eqz p1, :cond_3
+    if-eqz p1, :cond_4
 
-    .line 297
+    .line 294
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->path:Landroid/graphics/Path;
 
     int-to-float p2, p2
 
     invoke-virtual {p1, p2, v2}, Landroid/graphics/Path;->moveTo(FF)V
 
-    .line 298
+    .line 295
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->path:Landroid/graphics/Path;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/OrientationView;->getHeight()I
@@ -860,20 +870,30 @@
 
     invoke-virtual {p1, p2, v0}, Landroid/graphics/Path;->lineTo(FF)V
 
-    goto :goto_0
+    goto :goto_2
 
-    .line 300
-    :cond_3
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->path:Landroid/graphics/Path;
+    :cond_4
+    int-to-float p1, p2
 
-    int-to-float p2, p2
+    add-float/2addr v0, p1
 
-    add-float/2addr p2, v0
+    cmpg-float p2, p1, v0
 
-    invoke-virtual {p1, p2, v2}, Landroid/graphics/Path;->moveTo(FF)V
+    if-gez p2, :cond_5
 
-    .line 301
-    iget-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->path:Landroid/graphics/Path;
+    goto :goto_1
+
+    :cond_5
+    move p1, v0
+
+    .line 302
+    :goto_1
+    iget-object p2, p0, Lcom/rigol/scope/views/baseview/OrientationView;->path:Landroid/graphics/Path;
+
+    invoke-virtual {p2, p1, v2}, Landroid/graphics/Path;->moveTo(FF)V
+
+    .line 303
+    iget-object p2, p0, Lcom/rigol/scope/views/baseview/OrientationView;->path:Landroid/graphics/Path;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/OrientationView;->getHeight()I
 
@@ -881,17 +901,17 @@
 
     int-to-float v0, v0
 
-    invoke-virtual {p1, p2, v0}, Landroid/graphics/Path;->lineTo(FF)V
+    invoke-virtual {p2, p1, v0}, Landroid/graphics/Path;->lineTo(FF)V
 
-    .line 306
-    :goto_0
+    .line 308
+    :goto_2
     sget-boolean p1, Lcom/rigol/scope/views/baseview/OrientationView;->isShowThreshold:Z
 
-    if-eqz p1, :cond_16
+    if-eqz p1, :cond_18
 
     iget p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->orientation:I
 
-    if-nez p1, :cond_16
+    if-nez p1, :cond_18
 
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->linePaint:Landroid/graphics/Paint;
 
@@ -901,9 +921,9 @@
 
     const/16 p2, -0x72b9
 
-    if-ne p1, p2, :cond_16
+    if-ne p1, p2, :cond_18
 
-    .line 307
+    .line 309
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_Vlower:Ljava/lang/String;
 
     sget-object p2, Lcom/rigol/scope/views/baseview/OrientationView;->drawType:Ljava/lang/String;
@@ -916,7 +936,7 @@
 
     const/high16 v0, 0x42200000    # 40.0f
 
-    if-nez p1, :cond_15
+    if-nez p1, :cond_17
 
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->drawType:Ljava/lang/String;
 
@@ -926,12 +946,12 @@
 
     move-result p1
 
-    if-eqz p1, :cond_4
+    if-eqz p1, :cond_6
 
-    goto/16 :goto_5
+    goto/16 :goto_7
 
-    .line 313
-    :cond_4
+    .line 315
+    :cond_6
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_FallTime:Ljava/lang/String;
 
     sget-object v1, Lcom/rigol/scope/views/baseview/OrientationView;->drawType:Ljava/lang/String;
@@ -944,7 +964,7 @@
 
     const-string v2, "top"
 
-    if-nez p1, :cond_13
+    if-nez p1, :cond_15
 
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->drawType:Ljava/lang/String;
 
@@ -954,7 +974,7 @@
 
     move-result p1
 
-    if-nez p1, :cond_13
+    if-nez p1, :cond_15
 
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_PPulses:Ljava/lang/String;
 
@@ -964,7 +984,7 @@
 
     move-result p1
 
-    if-nez p1, :cond_13
+    if-nez p1, :cond_15
 
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->drawType:Ljava/lang/String;
 
@@ -974,7 +994,7 @@
 
     move-result p1
 
-    if-nez p1, :cond_13
+    if-nez p1, :cond_15
 
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_NPulses:Ljava/lang/String;
 
@@ -984,7 +1004,7 @@
 
     move-result p1
 
-    if-nez p1, :cond_13
+    if-nez p1, :cond_15
 
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->drawType:Ljava/lang/String;
 
@@ -994,7 +1014,7 @@
 
     move-result p1
 
-    if-nez p1, :cond_13
+    if-nez p1, :cond_15
 
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_PEdges:Ljava/lang/String;
 
@@ -1004,7 +1024,7 @@
 
     move-result p1
 
-    if-nez p1, :cond_13
+    if-nez p1, :cond_15
 
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->drawType:Ljava/lang/String;
 
@@ -1014,7 +1034,7 @@
 
     move-result p1
 
-    if-nez p1, :cond_13
+    if-nez p1, :cond_15
 
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_NEdges:Ljava/lang/String;
 
@@ -1024,7 +1044,7 @@
 
     move-result p1
 
-    if-nez p1, :cond_13
+    if-nez p1, :cond_15
 
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->drawType:Ljava/lang/String;
 
@@ -1034,7 +1054,7 @@
 
     move-result p1
 
-    if-nez p1, :cond_13
+    if-nez p1, :cond_15
 
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_Nslew_rate:Ljava/lang/String;
 
@@ -1044,7 +1064,7 @@
 
     move-result p1
 
-    if-nez p1, :cond_13
+    if-nez p1, :cond_15
 
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->drawType:Ljava/lang/String;
 
@@ -1054,12 +1074,12 @@
 
     move-result p1
 
-    if-eqz p1, :cond_5
+    if-eqz p1, :cond_7
 
-    goto/16 :goto_4
+    goto/16 :goto_6
 
-    .line 320
-    :cond_5
+    .line 322
+    :cond_7
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_RiseTime:Ljava/lang/String;
 
     sget-object v3, Lcom/rigol/scope/views/baseview/OrientationView;->drawType:Ljava/lang/String;
@@ -1068,7 +1088,7 @@
 
     move-result p1
 
-    if-nez p1, :cond_11
+    if-nez p1, :cond_13
 
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->drawType:Ljava/lang/String;
 
@@ -1078,7 +1098,7 @@
 
     move-result p1
 
-    if-nez p1, :cond_11
+    if-nez p1, :cond_13
 
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_Pslew_rate:Ljava/lang/String;
 
@@ -1088,7 +1108,7 @@
 
     move-result p1
 
-    if-nez p1, :cond_11
+    if-nez p1, :cond_13
 
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->drawType:Ljava/lang/String;
 
@@ -1098,12 +1118,12 @@
 
     move-result p1
 
-    if-eqz p1, :cond_6
+    if-eqz p1, :cond_8
 
-    goto/16 :goto_3
+    goto/16 :goto_5
 
-    .line 326
-    :cond_6
+    .line 328
+    :cond_8
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_Vupper:Ljava/lang/String;
 
     sget-object v1, Lcom/rigol/scope/views/baseview/OrientationView;->drawType:Ljava/lang/String;
@@ -1112,7 +1132,7 @@
 
     move-result p1
 
-    if-nez p1, :cond_10
+    if-nez p1, :cond_12
 
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->drawType:Ljava/lang/String;
 
@@ -1122,12 +1142,12 @@
 
     move-result p1
 
-    if-eqz p1, :cond_7
+    if-eqz p1, :cond_9
 
-    goto/16 :goto_2
+    goto/16 :goto_4
 
-    .line 333
-    :cond_7
+    .line 335
+    :cond_9
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_DelayRR:Ljava/lang/String;
 
     sget-object v1, Lcom/rigol/scope/views/baseview/OrientationView;->drawType:Ljava/lang/String;
@@ -1136,7 +1156,7 @@
 
     move-result p1
 
-    if-nez p1, :cond_a
+    if-nez p1, :cond_c
 
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_PhaseFF:Ljava/lang/String;
 
@@ -1146,7 +1166,7 @@
 
     move-result p1
 
-    if-nez p1, :cond_a
+    if-nez p1, :cond_c
 
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_DelayRF:Ljava/lang/String;
 
@@ -1156,7 +1176,7 @@
 
     move-result p1
 
-    if-nez p1, :cond_a
+    if-nez p1, :cond_c
 
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_DelayFR:Ljava/lang/String;
 
@@ -1166,7 +1186,7 @@
 
     move-result p1
 
-    if-nez p1, :cond_a
+    if-nez p1, :cond_c
 
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_DelayFF:Ljava/lang/String;
 
@@ -1176,7 +1196,7 @@
 
     move-result p1
 
-    if-nez p1, :cond_a
+    if-nez p1, :cond_c
 
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_PhaseRR:Ljava/lang/String;
 
@@ -1186,7 +1206,7 @@
 
     move-result p1
 
-    if-nez p1, :cond_a
+    if-nez p1, :cond_c
 
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_PhaseRF:Ljava/lang/String;
 
@@ -1196,7 +1216,7 @@
 
     move-result p1
 
-    if-nez p1, :cond_a
+    if-nez p1, :cond_c
 
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_PhaseFR:Ljava/lang/String;
 
@@ -1206,7 +1226,7 @@
 
     move-result p1
 
-    if-nez p1, :cond_a
+    if-nez p1, :cond_c
 
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->drawType:Ljava/lang/String;
 
@@ -1216,7 +1236,7 @@
 
     move-result p1
 
-    if-nez p1, :cond_a
+    if-nez p1, :cond_c
 
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->drawType:Ljava/lang/String;
 
@@ -1226,7 +1246,7 @@
 
     move-result p1
 
-    if-nez p1, :cond_a
+    if-nez p1, :cond_c
 
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->drawType:Ljava/lang/String;
 
@@ -1236,7 +1256,7 @@
 
     move-result p1
 
-    if-nez p1, :cond_a
+    if-nez p1, :cond_c
 
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->drawType:Ljava/lang/String;
 
@@ -1246,7 +1266,7 @@
 
     move-result p1
 
-    if-nez p1, :cond_a
+    if-nez p1, :cond_c
 
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->drawType:Ljava/lang/String;
 
@@ -1256,7 +1276,7 @@
 
     move-result p1
 
-    if-nez p1, :cond_a
+    if-nez p1, :cond_c
 
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->drawType:Ljava/lang/String;
 
@@ -1266,7 +1286,7 @@
 
     move-result p1
 
-    if-nez p1, :cond_a
+    if-nez p1, :cond_c
 
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->drawType:Ljava/lang/String;
 
@@ -1276,7 +1296,7 @@
 
     move-result p1
 
-    if-nez p1, :cond_a
+    if-nez p1, :cond_c
 
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->drawType:Ljava/lang/String;
 
@@ -1286,12 +1306,12 @@
 
     move-result p1
 
-    if-eqz p1, :cond_8
+    if-eqz p1, :cond_a
 
-    goto :goto_1
+    goto :goto_3
 
-    .line 348
-    :cond_8
+    .line 350
+    :cond_a
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_Vmid:Ljava/lang/String;
 
     sget-object v1, Lcom/rigol/scope/views/baseview/OrientationView;->drawType:Ljava/lang/String;
@@ -1300,7 +1320,7 @@
 
     move-result p1
 
-    if-nez p1, :cond_9
+    if-nez p1, :cond_b
 
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->drawType:Ljava/lang/String;
 
@@ -1310,7 +1330,7 @@
 
     move-result p1
 
-    if-nez p1, :cond_9
+    if-nez p1, :cond_b
 
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_Freq:Ljava/lang/String;
 
@@ -1320,7 +1340,7 @@
 
     move-result p1
 
-    if-nez p1, :cond_9
+    if-nez p1, :cond_b
 
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->drawType:Ljava/lang/String;
 
@@ -1330,7 +1350,7 @@
 
     move-result p1
 
-    if-nez p1, :cond_9
+    if-nez p1, :cond_b
 
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_Period:Ljava/lang/String;
 
@@ -1340,7 +1360,7 @@
 
     move-result p1
 
-    if-nez p1, :cond_9
+    if-nez p1, :cond_b
 
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->drawType:Ljava/lang/String;
 
@@ -1350,10 +1370,10 @@
 
     move-result p1
 
-    if-eqz p1, :cond_16
+    if-eqz p1, :cond_18
 
-    .line 349
-    :cond_9
+    .line 351
+    :cond_b
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->strThresholdMiddle:Ljava/lang/String;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/OrientationView;->getHeight()I
@@ -1370,11 +1390,11 @@
 
     invoke-virtual {p3, p1, v0, v1, p2}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto/16 :goto_6
+    goto/16 :goto_8
 
-    .line 334
-    :cond_a
-    :goto_1
+    .line 336
+    :cond_c
+    :goto_3
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->linePaint:Landroid/graphics/Paint;
 
     invoke-virtual {p1}, Landroid/graphics/Paint;->getPathEffect()Landroid/graphics/PathEffect;
@@ -1389,16 +1409,16 @@
 
     const-string v1, "measureSettingParam"
 
-    if-eqz p1, :cond_d
+    if-eqz p1, :cond_f
 
-    .line 335
+    .line 337
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->measureSettingParam:Lcom/rigol/scope/data/MeasureSettingParam;
 
-    if-nez p1, :cond_b
+    if-nez p1, :cond_d
 
     invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
 
-    :cond_b
+    :cond_d
     invoke-virtual {p1}, Lcom/rigol/scope/data/MeasureSettingParam;->readThresholdSource()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object p1
@@ -1415,9 +1435,9 @@
 
     move-result p1
 
-    if-eqz p1, :cond_c
+    if-eqz p1, :cond_e
 
-    .line 336
+    .line 338
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->strThresholdMiddle:Ljava/lang/String;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/OrientationView;->getHeight()I
@@ -1434,10 +1454,10 @@
 
     invoke-virtual {p3, p1, v0, v1, p2}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto/16 :goto_6
+    goto/16 :goto_8
 
-    .line 338
-    :cond_c
+    .line 340
+    :cond_e
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->sourceAMiddle:Ljava/lang/String;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/OrientationView;->getHeight()I
@@ -1454,17 +1474,17 @@
 
     invoke-virtual {p3, p1, v0, v1, p2}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto/16 :goto_6
+    goto/16 :goto_8
 
-    .line 341
-    :cond_d
+    .line 343
+    :cond_f
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->measureSettingParam:Lcom/rigol/scope/data/MeasureSettingParam;
 
-    if-nez p1, :cond_e
+    if-nez p1, :cond_10
 
     invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
 
-    :cond_e
+    :cond_10
     invoke-virtual {p1}, Lcom/rigol/scope/data/MeasureSettingParam;->readThresholdSource()Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object p1
@@ -1481,9 +1501,9 @@
 
     move-result p1
 
-    if-eqz p1, :cond_f
+    if-eqz p1, :cond_11
 
-    .line 342
+    .line 344
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->strThresholdMiddle:Ljava/lang/String;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/OrientationView;->getHeight()I
@@ -1500,10 +1520,10 @@
 
     invoke-virtual {p3, p1, v0, v1, p2}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto/16 :goto_6
+    goto/16 :goto_8
 
-    .line 344
-    :cond_f
+    .line 346
+    :cond_11
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->sourceBMiddle:Ljava/lang/String;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/OrientationView;->getHeight()I
@@ -1520,11 +1540,11 @@
 
     invoke-virtual {p3, p1, v0, v1, p2}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto/16 :goto_6
+    goto/16 :goto_8
 
-    .line 327
-    :cond_10
-    :goto_2
+    .line 329
+    :cond_12
+    :goto_4
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->strThresholdHigh:Ljava/lang/String;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/OrientationView;->getHeight()I
@@ -1541,74 +1561,11 @@
 
     invoke-virtual {p3, p1, v0, v1, p2}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto/16 :goto_6
-
-    .line 321
-    :cond_11
-    :goto_3
-    invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/OrientationView;->getMeaType()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    move-result p1
-
-    if-eqz p1, :cond_12
-
-    .line 322
-    sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->strThresholdLow:Ljava/lang/String;
-
-    invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/OrientationView;->getHeight()I
-
-    move-result v1
-
-    int-to-float v1, v1
-
-    int-to-float p2, p2
-
-    sub-float/2addr v1, p2
-
-    iget-object p2, p0, Lcom/rigol/scope/views/baseview/OrientationView;->textPaint:Landroid/graphics/Paint;
-
-    invoke-virtual {p3, p1, v0, v1, p2}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
-
-    goto :goto_6
+    goto/16 :goto_8
 
     .line 323
-    :cond_12
-    invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/OrientationView;->getMeaType()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    move-result p1
-
-    if-eqz p1, :cond_16
-
-    .line 324
-    sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->strThresholdHigh:Ljava/lang/String;
-
-    invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/OrientationView;->getHeight()I
-
-    move-result v1
-
-    int-to-float v1, v1
-
-    int-to-float p2, p2
-
-    sub-float/2addr v1, p2
-
-    iget-object p2, p0, Lcom/rigol/scope/views/baseview/OrientationView;->textPaint:Landroid/graphics/Paint;
-
-    invoke-virtual {p3, p1, v0, v1, p2}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
-
-    goto :goto_6
-
-    .line 314
     :cond_13
-    :goto_4
+    :goto_5
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/OrientationView;->getMeaType()Ljava/lang/String;
 
     move-result-object p1
@@ -1619,7 +1576,38 @@
 
     if-eqz p1, :cond_14
 
-    .line 315
+    .line 324
+    sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->strThresholdLow:Ljava/lang/String;
+
+    invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/OrientationView;->getHeight()I
+
+    move-result v1
+
+    int-to-float v1, v1
+
+    int-to-float p2, p2
+
+    sub-float/2addr v1, p2
+
+    iget-object p2, p0, Lcom/rigol/scope/views/baseview/OrientationView;->textPaint:Landroid/graphics/Paint;
+
+    invoke-virtual {p3, p1, v0, v1, p2}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
+
+    goto :goto_8
+
+    .line 325
+    :cond_14
+    invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/OrientationView;->getMeaType()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_18
+
+    .line 326
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->strThresholdHigh:Ljava/lang/String;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/OrientationView;->getHeight()I
@@ -1636,10 +1624,42 @@
 
     invoke-virtual {p3, p1, v0, v1, p2}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto :goto_6
+    goto :goto_8
 
     .line 316
-    :cond_14
+    :cond_15
+    :goto_6
+    invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/OrientationView;->getMeaType()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-static {p1, v2}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_16
+
+    .line 317
+    sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->strThresholdHigh:Ljava/lang/String;
+
+    invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/OrientationView;->getHeight()I
+
+    move-result v1
+
+    int-to-float v1, v1
+
+    int-to-float p2, p2
+
+    sub-float/2addr v1, p2
+
+    iget-object p2, p0, Lcom/rigol/scope/views/baseview/OrientationView;->textPaint:Landroid/graphics/Paint;
+
+    invoke-virtual {p3, p1, v0, v1, p2}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
+
+    goto :goto_8
+
+    .line 318
+    :cond_16
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/OrientationView;->getMeaType()Ljava/lang/String;
 
     move-result-object p1
@@ -1648,9 +1668,9 @@
 
     move-result p1
 
-    if-eqz p1, :cond_16
+    if-eqz p1, :cond_18
 
-    .line 317
+    .line 319
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->strThresholdLow:Ljava/lang/String;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/OrientationView;->getHeight()I
@@ -1667,11 +1687,11 @@
 
     invoke-virtual {p3, p1, v0, v1, p2}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    goto :goto_6
+    goto :goto_8
 
-    .line 308
-    :cond_15
-    :goto_5
+    .line 310
+    :cond_17
+    :goto_7
     sget-object p1, Lcom/rigol/scope/views/baseview/OrientationView;->strThresholdLow:Ljava/lang/String;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/OrientationView;->getHeight()I
@@ -1688,18 +1708,18 @@
 
     invoke-virtual {p3, p1, v0, v1, p2}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    .line 352
-    :cond_16
-    :goto_6
+    .line 354
+    :cond_18
+    :goto_8
     iget p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->tagAlphaLine:F
 
     const/high16 p2, 0x41200000    # 10.0f
 
     cmpg-float p2, p1, p2
 
-    if-eqz p2, :cond_17
+    if-eqz p2, :cond_19
 
-    .line 353
+    .line 355
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/OrientationView;->linePaint:Landroid/graphics/Paint;
 
     const/16 v0, 0xff
@@ -1712,8 +1732,8 @@
 
     invoke-virtual {p2, p1}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 356
-    :cond_17
+    .line 358
+    :cond_19
     iget-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->path:Landroid/graphics/Path;
 
     iget-object p2, p0, Lcom/rigol/scope/views/baseview/OrientationView;->linePaint:Landroid/graphics/Paint;
@@ -1734,7 +1754,7 @@
 .method public getMeaType()Ljava/lang/String;
     .locals 1
 
-    .line 199
+    .line 191
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->meaType:Ljava/lang/String;
 
     return-object v0
@@ -1743,7 +1763,7 @@
 .method public final getMeas_DelayFF()Ljava/lang/String;
     .locals 1
 
-    .line 111
+    .line 103
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_DelayFF:Ljava/lang/String;
 
     return-object v0
@@ -1752,7 +1772,7 @@
 .method public final getMeas_DelayFR()Ljava/lang/String;
     .locals 1
 
-    .line 110
+    .line 102
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_DelayFR:Ljava/lang/String;
 
     return-object v0
@@ -1761,7 +1781,7 @@
 .method public final getMeas_DelayRF()Ljava/lang/String;
     .locals 1
 
-    .line 109
+    .line 101
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_DelayRF:Ljava/lang/String;
 
     return-object v0
@@ -1770,7 +1790,7 @@
 .method public final getMeas_DelayRR()Ljava/lang/String;
     .locals 1
 
-    .line 108
+    .line 100
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_DelayRR:Ljava/lang/String;
 
     return-object v0
@@ -1779,7 +1799,7 @@
 .method public final getMeas_FallTime()Ljava/lang/String;
     .locals 1
 
-    .line 119
+    .line 111
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_FallTime:Ljava/lang/String;
 
     return-object v0
@@ -1788,7 +1808,7 @@
 .method public final getMeas_Freq()Ljava/lang/String;
     .locals 1
 
-    .line 116
+    .line 108
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_Freq:Ljava/lang/String;
 
     return-object v0
@@ -1797,7 +1817,7 @@
 .method public final getMeas_NEdges()Ljava/lang/String;
     .locals 1
 
-    .line 123
+    .line 115
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_NEdges:Ljava/lang/String;
 
     return-object v0
@@ -1806,7 +1826,7 @@
 .method public final getMeas_NPulses()Ljava/lang/String;
     .locals 1
 
-    .line 121
+    .line 113
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_NPulses:Ljava/lang/String;
 
     return-object v0
@@ -1815,7 +1835,7 @@
 .method public final getMeas_Nslew_rate()Ljava/lang/String;
     .locals 1
 
-    .line 125
+    .line 117
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_Nslew_rate:Ljava/lang/String;
 
     return-object v0
@@ -1824,7 +1844,7 @@
 .method public final getMeas_PEdges()Ljava/lang/String;
     .locals 1
 
-    .line 122
+    .line 114
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_PEdges:Ljava/lang/String;
 
     return-object v0
@@ -1833,7 +1853,7 @@
 .method public final getMeas_PPulses()Ljava/lang/String;
     .locals 1
 
-    .line 120
+    .line 112
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_PPulses:Ljava/lang/String;
 
     return-object v0
@@ -1842,7 +1862,7 @@
 .method public final getMeas_Period()Ljava/lang/String;
     .locals 1
 
-    .line 117
+    .line 109
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_Period:Ljava/lang/String;
 
     return-object v0
@@ -1851,7 +1871,7 @@
 .method public final getMeas_PhaseFF()Ljava/lang/String;
     .locals 1
 
-    .line 115
+    .line 107
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_PhaseFF:Ljava/lang/String;
 
     return-object v0
@@ -1860,7 +1880,7 @@
 .method public final getMeas_PhaseFR()Ljava/lang/String;
     .locals 1
 
-    .line 114
+    .line 106
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_PhaseFR:Ljava/lang/String;
 
     return-object v0
@@ -1869,7 +1889,7 @@
 .method public final getMeas_PhaseRF()Ljava/lang/String;
     .locals 1
 
-    .line 113
+    .line 105
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_PhaseRF:Ljava/lang/String;
 
     return-object v0
@@ -1878,7 +1898,7 @@
 .method public final getMeas_PhaseRR()Ljava/lang/String;
     .locals 1
 
-    .line 112
+    .line 104
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_PhaseRR:Ljava/lang/String;
 
     return-object v0
@@ -1887,7 +1907,7 @@
 .method public final getMeas_Pslew_rate()Ljava/lang/String;
     .locals 1
 
-    .line 124
+    .line 116
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_Pslew_rate:Ljava/lang/String;
 
     return-object v0
@@ -1896,7 +1916,7 @@
 .method public final getMeas_RiseTime()Ljava/lang/String;
     .locals 1
 
-    .line 118
+    .line 110
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_RiseTime:Ljava/lang/String;
 
     return-object v0
@@ -1905,7 +1925,7 @@
 .method public final getMeas_Vlower()Ljava/lang/String;
     .locals 1
 
-    .line 107
+    .line 99
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_Vlower:Ljava/lang/String;
 
     return-object v0
@@ -1914,7 +1934,7 @@
 .method public final getMeas_Vmid()Ljava/lang/String;
     .locals 1
 
-    .line 106
+    .line 98
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_Vmid:Ljava/lang/String;
 
     return-object v0
@@ -1923,7 +1943,7 @@
 .method public final getMeas_Vupper()Ljava/lang/String;
     .locals 1
 
-    .line 105
+    .line 97
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_Vupper:Ljava/lang/String;
 
     return-object v0
@@ -1932,7 +1952,7 @@
 .method public final getOrientation()I
     .locals 1
 
-    .line 73
+    .line 65
     iget v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->orientation:I
 
     return v0
@@ -1941,7 +1961,7 @@
 .method public final getPath()Landroid/graphics/Path;
     .locals 1
 
-    .line 130
+    .line 122
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->path:Landroid/graphics/Path;
 
     return-object v0
@@ -1950,7 +1970,7 @@
 .method public getPosition()I
     .locals 1
 
-    .line 85
+    .line 77
     iget v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->position:I
 
     return v0
@@ -1959,7 +1979,7 @@
 .method public final getTagAlphaLine()F
     .locals 1
 
-    .line 78
+    .line 70
     iget v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->tagAlphaLine:F
 
     return v0
@@ -1968,14 +1988,14 @@
 .method public final hideLineDelay(J)V
     .locals 2
 
-    .line 226
+    .line 218
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->handler:Lcom/rigol/scope/utilities/WeakRefHandler;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/utilities/WeakRefHandler;->removeMessages(I)V
 
-    .line 227
+    .line 219
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->handler:Lcom/rigol/scope/utilities/WeakRefHandler;
 
     invoke-virtual {v0, v1, p1, p2}, Lcom/rigol/scope/utilities/WeakRefHandler;->sendEmptyMessageDelayed(IJ)Z
@@ -1986,7 +2006,7 @@
 .method public final isShowLine()Z
     .locals 1
 
-    .line 171
+    .line 163
     iget-boolean v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->isShowLine:Z
 
     return v0
@@ -1999,24 +2019,24 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 259
+    .line 251
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 262
+    .line 254
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/OrientationView;->getHeight()I
 
     move-result v0
 
     shr-int/lit8 v0, v0, 0x1
 
-    .line 264
+    .line 256
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/OrientationView;->getWidth()I
 
     move-result v1
 
     shr-int/lit8 v1, v1, 0x1
 
-    .line 267
+    .line 259
     invoke-direct {p0, v0, v1, p1}, Lcom/rigol/scope/views/baseview/OrientationView;->drawLine(IILandroid/graphics/Canvas;)V
 
     return-void
@@ -2025,7 +2045,7 @@
 .method public final setLineColor(I)V
     .locals 1
 
-    .line 210
+    .line 202
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->linePaint:Landroid/graphics/Paint;
 
     invoke-virtual {v0, p1}, Landroid/graphics/Paint;->setColor(I)V
@@ -2036,7 +2056,7 @@
 .method public final setLinePathEffect(Landroid/graphics/PathEffect;)V
     .locals 1
 
-    .line 236
+    .line 228
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->linePaint:Landroid/graphics/Paint;
 
     invoke-virtual {v0, p1}, Landroid/graphics/Paint;->setPathEffect(Landroid/graphics/PathEffect;)Landroid/graphics/PathEffect;
@@ -2051,7 +2071,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 201
+    .line 193
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->meaType:Ljava/lang/String;
 
     return-void
@@ -2064,7 +2084,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 111
+    .line 103
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_DelayFF:Ljava/lang/String;
 
     return-void
@@ -2077,7 +2097,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 110
+    .line 102
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_DelayFR:Ljava/lang/String;
 
     return-void
@@ -2090,7 +2110,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 109
+    .line 101
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_DelayRF:Ljava/lang/String;
 
     return-void
@@ -2103,7 +2123,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 108
+    .line 100
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_DelayRR:Ljava/lang/String;
 
     return-void
@@ -2116,7 +2136,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 119
+    .line 111
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_FallTime:Ljava/lang/String;
 
     return-void
@@ -2129,7 +2149,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 116
+    .line 108
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_Freq:Ljava/lang/String;
 
     return-void
@@ -2142,7 +2162,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 123
+    .line 115
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_NEdges:Ljava/lang/String;
 
     return-void
@@ -2155,7 +2175,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 121
+    .line 113
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_NPulses:Ljava/lang/String;
 
     return-void
@@ -2168,7 +2188,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 125
+    .line 117
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_Nslew_rate:Ljava/lang/String;
 
     return-void
@@ -2181,7 +2201,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 122
+    .line 114
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_PEdges:Ljava/lang/String;
 
     return-void
@@ -2194,7 +2214,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 120
+    .line 112
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_PPulses:Ljava/lang/String;
 
     return-void
@@ -2207,7 +2227,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 117
+    .line 109
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_Period:Ljava/lang/String;
 
     return-void
@@ -2220,7 +2240,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 115
+    .line 107
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_PhaseFF:Ljava/lang/String;
 
     return-void
@@ -2233,7 +2253,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 114
+    .line 106
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_PhaseFR:Ljava/lang/String;
 
     return-void
@@ -2246,7 +2266,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 113
+    .line 105
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_PhaseRF:Ljava/lang/String;
 
     return-void
@@ -2259,7 +2279,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 112
+    .line 104
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_PhaseRR:Ljava/lang/String;
 
     return-void
@@ -2272,7 +2292,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 124
+    .line 116
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_Pslew_rate:Ljava/lang/String;
 
     return-void
@@ -2285,7 +2305,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 118
+    .line 110
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_RiseTime:Ljava/lang/String;
 
     return-void
@@ -2298,7 +2318,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 107
+    .line 99
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_Vlower:Ljava/lang/String;
 
     return-void
@@ -2311,7 +2331,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 106
+    .line 98
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_Vmid:Ljava/lang/String;
 
     return-void
@@ -2324,7 +2344,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 105
+    .line 97
     iput-object p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->Meas_Vupper:Ljava/lang/String;
 
     return-void
@@ -2333,7 +2353,7 @@
 .method public final setOrientation(I)V
     .locals 0
 
-    .line 73
+    .line 65
     iput p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->orientation:I
 
     return-void
@@ -2342,25 +2362,25 @@
 .method public setPosition(I)V
     .locals 2
 
-    .line 87
+    .line 79
     iput p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->position:I
 
-    .line 89
+    .line 81
     invoke-virtual {p0}, Lcom/rigol/scope/views/baseview/OrientationView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object p1
 
-    .line 92
+    .line 84
     instance-of v0, p1, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;
 
     if-eqz v0, :cond_1
 
-    .line 93
+    .line 85
     iget v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->orientation:I
 
     if-nez v0, :cond_0
 
-    .line 95
+    .line 87
     move-object v0, p1
 
     check-cast v0, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;
@@ -2373,7 +2393,7 @@
 
     goto :goto_0
 
-    .line 98
+    .line 90
     :cond_0
     move-object v0, p1
 
@@ -2385,7 +2405,7 @@
 
     iput v1, v0, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;->startMargin:I
 
-    .line 102
+    .line 94
     :cond_1
     :goto_0
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/baseview/OrientationView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
@@ -2396,7 +2416,7 @@
 .method public final setShowLine(Z)V
     .locals 0
 
-    .line 171
+    .line 163
     iput-boolean p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->isShowLine:Z
 
     return-void
@@ -2405,7 +2425,7 @@
 .method public final setTagAlphaLine(F)V
     .locals 0
 
-    .line 78
+    .line 70
     iput p1, p0, Lcom/rigol/scope/views/baseview/OrientationView;->tagAlphaLine:F
 
     return-void
@@ -2414,7 +2434,7 @@
 .method public final showLine()V
     .locals 2
 
-    .line 217
+    .line 209
     iget-object v0, p0, Lcom/rigol/scope/views/baseview/OrientationView;->handler:Lcom/rigol/scope/utilities/WeakRefHandler;
 
     const/4 v1, 0x2

@@ -100,7 +100,7 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/rigol/scope/views/grid/EyeGridRulerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILkotlin/jvm/internal/DefaultConstructorMarker;)V
 
-    const v0, 0x7f0a0b30
+    const v0, 0x7f0a0b3c
 
     .line 204
     invoke-virtual {p1, v0}, Lcom/rigol/scope/views/grid/EyeGridRulerView;->setId(I)V
@@ -191,7 +191,7 @@
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->value1:I
 
-    const v2, 0x7f030246
+    const v2, 0x7f03024a
 
     .line 220
     invoke-static {v2, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -316,7 +316,7 @@
 
     if-eqz p1, :cond_3
 
-    const/16 v1, 0x3507
+    const/16 v1, 0x3707
 
     .line 251
     invoke-virtual {p1, p2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -571,7 +571,7 @@
 
     move-result v1
 
-    const v2, 0x7f0a0b2f
+    const v2, 0x7f0a0b3b
 
     if-eqz v1, :cond_0
 
@@ -690,7 +690,7 @@
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/WindowSimpleBinding;->status:Landroid/widget/TextView;
 
-    const v1, 0x7f100757
+    const v1, 0x7f10075f
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

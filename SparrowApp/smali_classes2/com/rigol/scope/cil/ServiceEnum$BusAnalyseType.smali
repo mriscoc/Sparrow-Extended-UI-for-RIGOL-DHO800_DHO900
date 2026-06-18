@@ -44,7 +44,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 8299
+    .line 8309
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$BusAnalyseType;
 
     const-string v1, "AnalyseUsb"
@@ -65,7 +65,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$BusAnalyseType;->AnalyseUsb:Lcom/rigol/scope/cil/ServiceEnum$BusAnalyseType;
 
-    .line 8301
+    .line 8311
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$BusAnalyseType;
 
     const-string v9, "AnalyseEth"
@@ -90,7 +90,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$BusAnalyseType;
 
-    .line 8296
+    .line 8306
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$BusAnalyseType;->AnalyseUsb:Lcom/rigol/scope/cil/ServiceEnum$BusAnalyseType;
 
     aput-object v2, v1, v3
@@ -116,19 +116,19 @@
         }
     .end annotation
 
-    .line 8304
+    .line 8314
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 8305
+    .line 8315
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$BusAnalyseType;->value1:I
 
-    .line 8306
+    .line 8316
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$BusAnalyseType;->value2:Ljava/lang/String;
 
-    .line 8307
+    .line 8317
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$BusAnalyseType;->pic1:Ljava/lang/String;
 
-    .line 8308
+    .line 8318
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$BusAnalyseType;->pic2:Ljava/lang/String;
 
     return-void
@@ -137,7 +137,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$BusAnalyseType;
     .locals 1
 
-    .line 8296
+    .line 8306
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$BusAnalyseType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -152,7 +152,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$BusAnalyseType;
     .locals 1
 
-    .line 8296
+    .line 8306
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$BusAnalyseType;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$BusAnalyseType;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$BusAnalyseType;->clone()Ljava/lang/Object;

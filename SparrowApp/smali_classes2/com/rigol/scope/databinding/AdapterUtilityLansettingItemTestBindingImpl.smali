@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0af0
+    const v1, 0x7f0a0afc
 
     const/4 v2, 0x2
 
@@ -45,7 +45,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0545
+    const v1, 0x7f0a0547
 
     const/4 v2, 0x3
 
@@ -54,7 +54,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0542
+    const v1, 0x7f0a0544
 
     const/4 v2, 0x4
 
@@ -63,7 +63,7 @@
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0541
+    const v1, 0x7f0a0543
 
     const/4 v2, 0x5
 
@@ -72,7 +72,7 @@
     .line 22
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0544
+    const v1, 0x7f0a0546
 
     const/4 v2, 0x6
 
@@ -81,7 +81,7 @@
     .line 23
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0543
+    const v1, 0x7f0a0545
 
     const/4 v2, 0x7
 
@@ -90,7 +90,7 @@
     .line 24
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08b9
+    const v1, 0x7f0a08c5
 
     const/16 v2, 0x8
 
@@ -99,7 +99,7 @@
     .line 25
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a03ca
+    const v1, 0x7f0a03cc
 
     const/16 v2, 0x9
 
@@ -108,7 +108,7 @@
     .line 26
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0871
+    const v1, 0x7f0a087d
 
     const/16 v2, 0xa
 
@@ -117,7 +117,7 @@
     .line 27
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08b2
+    const v1, 0x7f0a08be
 
     const/16 v2, 0xb
 
@@ -126,7 +126,7 @@
     .line 28
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a03cb
+    const v1, 0x7f0a03cd
 
     const/16 v2, 0xc
 
@@ -135,7 +135,7 @@
     .line 29
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04af
+    const v1, 0x7f0a04b1
 
     const/16 v2, 0xd
 
@@ -144,7 +144,7 @@
     .line 30
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08b3
+    const v1, 0x7f0a08bf
 
     const/16 v2, 0xe
 
@@ -153,7 +153,7 @@
     .line 31
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a03c8
+    const v1, 0x7f0a03ca
 
     const/16 v2, 0xf
 
@@ -171,7 +171,7 @@
     .line 33
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0392
+    const v1, 0x7f0a0394
 
     const/16 v2, 0x11
 
@@ -180,7 +180,7 @@
     .line 34
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a03c9
+    const v1, 0x7f0a03cb
 
     const/16 v2, 0x12
 
@@ -189,7 +189,7 @@
     .line 35
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0ae6
+    const v1, 0x7f0a0af2
 
     const/16 v2, 0x13
 
@@ -198,7 +198,7 @@
     .line 36
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0614
+    const v1, 0x7f0a061c
 
     const/16 v2, 0x14
 
@@ -207,7 +207,7 @@
     .line 37
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a088d
+    const v1, 0x7f0a0899
 
     const/16 v2, 0x15
 
@@ -216,7 +216,7 @@
     .line 38
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a063b
+    const v1, 0x7f0a0643
 
     const/16 v2, 0x16
 
@@ -225,7 +225,7 @@
     .line 39
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0506
+    const v1, 0x7f0a0508
 
     const/16 v2, 0x17
 
@@ -234,7 +234,7 @@
     .line 40
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08bb
+    const v1, 0x7f0a08c7
 
     const/16 v2, 0x18
 
@@ -243,7 +243,7 @@
     .line 41
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a03c1
+    const v1, 0x7f0a03c3
 
     const/16 v2, 0x19
 
@@ -252,7 +252,7 @@
     .line 42
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04bb
+    const v1, 0x7f0a04bd
 
     const/16 v2, 0x1a
 
@@ -261,7 +261,7 @@
     .line 43
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08bc
+    const v1, 0x7f0a08c8
 
     const/16 v2, 0x1b
 
@@ -270,7 +270,7 @@
     .line 44
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a6e
+    const v1, 0x7f0a0a7a
 
     const/16 v2, 0x1c
 
@@ -279,7 +279,7 @@
     .line 45
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0aec
+    const v1, 0x7f0a0af8
 
     const/16 v2, 0x1d
 
@@ -288,7 +288,7 @@
     .line 46
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b05
+    const v1, 0x7f0a0b11
 
     const/16 v2, 0x1e
 
@@ -297,7 +297,7 @@
     .line 47
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08b8
+    const v1, 0x7f0a08c4
 
     const/16 v2, 0x1f
 
@@ -306,7 +306,7 @@
     .line 48
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a71
+    const v1, 0x7f0a0a7d
 
     const/16 v2, 0x20
 
@@ -315,7 +315,7 @@
     .line 49
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0615
+    const v1, 0x7f0a061d
 
     const/16 v2, 0x21
 
@@ -324,7 +324,7 @@
     .line 50
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08b6
+    const v1, 0x7f0a08c2
 
     const/16 v2, 0x22
 
@@ -333,7 +333,7 @@
     .line 51
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a6f
+    const v1, 0x7f0a0a7b
 
     const/16 v2, 0x23
 
@@ -351,7 +351,7 @@
     .line 53
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08b4
+    const v1, 0x7f0a08c0
 
     const/16 v2, 0x25
 
@@ -360,7 +360,7 @@
     .line 54
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemTestBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a70
+    const v1, 0x7f0a0a7c
 
     const/16 v2, 0x26
 

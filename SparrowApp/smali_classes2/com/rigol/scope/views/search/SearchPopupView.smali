@@ -482,7 +482,7 @@
 
     if-eqz v0, :cond_0
 
-    const/16 v1, 0x450b
+    const/16 v1, 0x470b
 
     const/16 v2, 0x19
 
@@ -504,7 +504,7 @@
     .line 188
     iget-object v0, p0, Lcom/rigol/scope/views/search/SearchPopupView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 v1, 0x450a
+    const/16 v1, 0x470a
 
     invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -524,7 +524,7 @@
     .line 197
     iget-object v0, p0, Lcom/rigol/scope/views/search/SearchPopupView;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 v1, 0x4501
+    const/16 v1, 0x4701
 
     invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -670,24 +670,6 @@
     return-void
 .end method
 
-.method public synthetic lambda$new$1$SearchPopupView(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
-    .locals 0
-
-    .line 154
-    iput-object p1, p0, Lcom/rigol/scope/views/search/SearchPopupView;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
-
-    return-void
-.end method
-
-.method public synthetic lambda$new$2$SearchPopupView(ILcom/rigol/scope/data/MappingObject;)V
-    .locals 0
-
-    .line 154
-    invoke-direct {p0, p2}, Lcom/rigol/scope/views/search/SearchPopupView;->selectAdapter(Lcom/rigol/scope/data/MappingObject;)V
-
-    return-void
-.end method
-
 .method public synthetic lambda$new$3$SearchPopupView(Landroid/view/KeyEvent;)V
     .locals 11
 
@@ -735,19 +717,37 @@
 
     iget-object v8, p0, Lcom/rigol/scope/views/search/SearchPopupView;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
 
-    new-instance v9, Lcom/rigol/scope/views/search/-$$Lambda$SearchPopupView$XCw6OlJJ6kQwPUF3yps-VV6OZDU;
+    new-instance v9, Lcom/rigol/scope/views/search/-$$Lambda$SearchPopupView$iR5fKr6XkHDcryuCKvCyb1bDp14;
 
-    invoke-direct {v9, p0}, Lcom/rigol/scope/views/search/-$$Lambda$SearchPopupView$XCw6OlJJ6kQwPUF3yps-VV6OZDU;-><init>(Lcom/rigol/scope/views/search/SearchPopupView;)V
+    invoke-direct {v9, p0}, Lcom/rigol/scope/views/search/-$$Lambda$SearchPopupView$iR5fKr6XkHDcryuCKvCyb1bDp14;-><init>(Lcom/rigol/scope/views/search/SearchPopupView;)V
 
-    new-instance v10, Lcom/rigol/scope/views/search/-$$Lambda$SearchPopupView$v3BRBfCQjJ823F5gVNJPDQToT0I;
+    new-instance v10, Lcom/rigol/scope/views/search/-$$Lambda$SearchPopupView$5msQQxG91svWTJUXVRZbIaBunNA;
 
-    invoke-direct {v10, p0}, Lcom/rigol/scope/views/search/-$$Lambda$SearchPopupView$v3BRBfCQjJ823F5gVNJPDQToT0I;-><init>(Lcom/rigol/scope/views/search/SearchPopupView;)V
+    invoke-direct {v10, p0}, Lcom/rigol/scope/views/search/-$$Lambda$SearchPopupView$5msQQxG91svWTJUXVRZbIaBunNA;-><init>(Lcom/rigol/scope/views/search/SearchPopupView;)V
 
     move-object v2, p1
 
     invoke-virtual/range {v1 .. v10}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->abSwitch(Landroid/view/KeyEvent;Landroid/view/View;Lcom/rigol/scope/views/spinner/PopupSpinner;Ljava/util/List;Lcom/rigol/scope/adapters/SpinnerAdapter;Lcom/rigol/scope/utilities/AorBManager;Lcom/rigol/scope/views/keyboard/KeyboardPopupView;Lcom/rigol/scope/utilities/AorBManager$OnKeyboardItemChangeListener;Lcom/rigol/scope/utilities/AorBManager$OnSpinnerItemChangeListener;)V
 
     :cond_0
+    return-void
+.end method
+
+.method public synthetic lambda$null$1$SearchPopupView(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
+    .locals 0
+
+    .line 154
+    iput-object p1, p0, Lcom/rigol/scope/views/search/SearchPopupView;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
+
+    return-void
+.end method
+
+.method public synthetic lambda$null$2$SearchPopupView(ILcom/rigol/scope/data/MappingObject;)V
+    .locals 0
+
+    .line 154
+    invoke-direct {p0, p2}, Lcom/rigol/scope/views/search/SearchPopupView;->selectAdapter(Lcom/rigol/scope/data/MappingObject;)V
+
     return-void
 .end method
 
@@ -817,7 +817,7 @@
 
     move-result v0
 
-    const v1, 0x7f0a03cf
+    const v1, 0x7f0a03d1
 
     const/4 v2, 0x0
 
@@ -836,7 +836,7 @@
 
     if-eqz p1, :cond_1
 
-    const p1, 0x7f100377
+    const p1, 0x7f10037a
 
     .line 351
     invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showShort(I)V
@@ -889,7 +889,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x4501
+    const/16 v0, 0x4701
 
     invoke-static {v3, v0}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 
@@ -920,7 +920,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a0628
+    const v0, 0x7f0a0630
 
     if-ne p1, v0, :cond_6
 
@@ -993,7 +993,7 @@
 
     move-result-object p1
 
-    const/16 p2, 0x450b
+    const/16 p2, 0x470b
 
     invoke-static {v3, p2}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 
@@ -1033,11 +1033,11 @@
     .line 269
     iput-boolean v1, p0, Lcom/rigol/scope/views/search/SearchPopupView;->isEnable:Z
 
-    const v2, 0x7f0a0a83
+    const v2, 0x7f0a0a8f
 
     if-ne v0, v2, :cond_1
 
-    const v0, 0x7f0301c4
+    const v0, 0x7f0301c6
 
     .line 271
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1084,7 +1084,7 @@
     goto/16 :goto_0
 
     :cond_3
-    const p1, 0x7f0a07cd
+    const p1, 0x7f0a07d9
 
     if-ne v0, p1, :cond_6
 
@@ -1095,7 +1095,7 @@
 
     const/16 v0, 0x19
 
-    const/16 v1, 0x4560
+    const/16 v1, 0x4760
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/cil/API;->UI_QueryStr(II)Ljava/lang/String;
 
@@ -1117,7 +1117,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1011c1
+    const v0, 0x7f1011d6
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1180,7 +1180,7 @@
     goto :goto_0
 
     :cond_6
-    const p1, 0x7f0a0708
+    const p1, 0x7f0a0714
 
     if-ne v0, p1, :cond_7
 
@@ -1196,7 +1196,7 @@
     goto :goto_0
 
     :cond_7
-    const p1, 0x7f0a0713
+    const p1, 0x7f0a071f
 
     if-ne v0, p1, :cond_8
 
@@ -1212,7 +1212,7 @@
     goto :goto_0
 
     :cond_8
-    const p1, 0x7f0a068d
+    const p1, 0x7f0a0697
 
     if-ne v0, p1, :cond_9
 

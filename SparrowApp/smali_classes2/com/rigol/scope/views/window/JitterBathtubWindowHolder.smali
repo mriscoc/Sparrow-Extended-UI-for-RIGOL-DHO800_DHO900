@@ -101,7 +101,7 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/rigol/scope/views/grid/JitterBathtubCurveGridRulerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILkotlin/jvm/internal/DefaultConstructorMarker;)V
 
-    const v0, 0x7f0a0b30
+    const v0, 0x7f0a0b3c
 
     .line 3018
     invoke-virtual {p1, v0}, Lcom/rigol/scope/views/grid/JitterBathtubCurveGridRulerView;->setId(I)V
@@ -283,7 +283,7 @@
 
     if-eqz p1, :cond_3
 
-    const/16 v1, 0x2702
+    const/16 v1, 0x2902
 
     .line 3057
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -331,7 +331,7 @@
 
     if-eqz p1, :cond_5
 
-    const/16 v1, 0x2728
+    const/16 v1, 0x2928
 
     .line 3063
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -444,7 +444,7 @@
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/WindowSimpleBinding;->status:Landroid/widget/TextView;
 
-    const v1, 0x7f100762
+    const v1, 0x7f10076a
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -489,7 +489,7 @@
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v3, 0x7f030246
+    const v3, 0x7f03024a
 
     .line 3083
     sget-object v4, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_JITTER_BATHTUB_CURVE:Lcom/rigol/scope/cil/ServiceEnum$WindowType;

@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 9754
+    .line 9764
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$ApiTrigOutSource;
 
     const-string v1, "INTERNAL"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$ApiTrigOutSource;->INTERNAL:Lcom/rigol/scope/cil/ServiceEnum$ApiTrigOutSource;
 
-    .line 9755
+    .line 9765
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ApiTrigOutSource;
 
     const-string v9, "EXTERNAL"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ApiTrigOutSource;->EXTERNAL:Lcom/rigol/scope/cil/ServiceEnum$ApiTrigOutSource;
 
-    .line 9756
+    .line 9766
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ApiTrigOutSource;
 
     const-string v2, "MANNUAL"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$ApiTrigOutSource;
 
-    .line 9752
+    .line 9762
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$ApiTrigOutSource;->INTERNAL:Lcom/rigol/scope/cil/ServiceEnum$ApiTrigOutSource;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 9759
+    .line 9769
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 9760
+    .line 9770
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$ApiTrigOutSource;->value1:I
 
-    .line 9761
+    .line 9771
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$ApiTrigOutSource;->value2:Ljava/lang/String;
 
-    .line 9762
+    .line 9772
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$ApiTrigOutSource;->pic1:Ljava/lang/String;
 
-    .line 9763
+    .line 9773
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$ApiTrigOutSource;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$ApiTrigOutSource;
     .locals 1
 
-    .line 9752
+    .line 9762
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$ApiTrigOutSource;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$ApiTrigOutSource;
     .locals 1
 
-    .line 9752
+    .line 9762
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$ApiTrigOutSource;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$ApiTrigOutSource;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$ApiTrigOutSource;->clone()Ljava/lang/Object;

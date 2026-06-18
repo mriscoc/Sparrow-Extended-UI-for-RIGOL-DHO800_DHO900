@@ -46,7 +46,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 9374
+    .line 9384
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$NavigatePlayingSpeed;
 
     const-string v1, "high"
@@ -67,7 +67,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$NavigatePlayingSpeed;->high:Lcom/rigol/scope/cil/ServiceEnum$NavigatePlayingSpeed;
 
-    .line 9375
+    .line 9385
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$NavigatePlayingSpeed;
 
     const-string v9, "normal"
@@ -88,7 +88,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$NavigatePlayingSpeed;->normal:Lcom/rigol/scope/cil/ServiceEnum$NavigatePlayingSpeed;
 
-    .line 9376
+    .line 9386
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$NavigatePlayingSpeed;
 
     const-string v2, "low"
@@ -113,7 +113,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$NavigatePlayingSpeed;
 
-    .line 9372
+    .line 9382
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$NavigatePlayingSpeed;->high:Lcom/rigol/scope/cil/ServiceEnum$NavigatePlayingSpeed;
 
     const/4 v3, 0x0
@@ -147,19 +147,19 @@
         }
     .end annotation
 
-    .line 9379
+    .line 9389
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 9380
+    .line 9390
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$NavigatePlayingSpeed;->value1:I
 
-    .line 9381
+    .line 9391
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$NavigatePlayingSpeed;->value2:Ljava/lang/String;
 
-    .line 9382
+    .line 9392
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$NavigatePlayingSpeed;->pic1:Ljava/lang/String;
 
-    .line 9383
+    .line 9393
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$NavigatePlayingSpeed;->pic2:Ljava/lang/String;
 
     return-void
@@ -168,7 +168,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$NavigatePlayingSpeed;
     .locals 1
 
-    .line 9372
+    .line 9382
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$NavigatePlayingSpeed;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -183,7 +183,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$NavigatePlayingSpeed;
     .locals 1
 
-    .line 9372
+    .line 9382
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$NavigatePlayingSpeed;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$NavigatePlayingSpeed;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$NavigatePlayingSpeed;->clone()Ljava/lang/Object;

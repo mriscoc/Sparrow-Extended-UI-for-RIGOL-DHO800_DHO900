@@ -382,7 +382,7 @@
 .method private loadOtherFunInfo()V
     .locals 8
 
-    const v0, 0x7f030181
+    const v0, 0x7f030183
 
     .line 838
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -575,7 +575,7 @@
     .line 642
     iget-object v0, p0, Lcom/rigol/scope/SettingsBarFragment;->updateUIViewModel:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
-    const/16 v2, 0x5fdf
+    const/16 v2, 0x61df
 
     invoke-virtual {v0, v1, v1, v2}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->get(III)Landroidx/lifecycle/MutableLiveData;
 
@@ -592,7 +592,7 @@
     .line 649
     iget-object v0, p0, Lcom/rigol/scope/SettingsBarFragment;->updateUIViewModel:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
-    const/16 v2, 0x5fe1
+    const/16 v2, 0x61e1
 
     invoke-virtual {v0, v1, v1, v2}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->get(III)Landroidx/lifecycle/MutableLiveData;
 
@@ -668,7 +668,7 @@
 .method private showLa()V
     .locals 5
 
-    const v0, 0x7f030152
+    const v0, 0x7f030153
 
     .line 674
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1090,8 +1090,6 @@
 
     move-result-object v0
 
-    check-cast v0, Ljava/util/ArrayList;
-
     invoke-static {v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
@@ -1110,8 +1108,6 @@
     invoke-virtual {v0}, Landroidx/lifecycle/LiveData;->getValue()Ljava/lang/Object;
 
     move-result-object v0
-
-    check-cast v0, Lcom/rigol/scope/data/HorizontalParam;
 
     invoke-static {v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -1192,7 +1188,7 @@
 
     move-result v0
 
-    const v1, 0x7f0a06a3
+    const v1, 0x7f0a06ad
 
     if-eq v0, v1, :cond_0
 
@@ -1346,7 +1342,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f100764
+    const v0, 0x7f10076c
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1519,7 +1515,7 @@
 
     const/16 v0, 0x24
 
-    const/16 v1, 0x2b07
+    const/16 v1, 0x2d07
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -1538,7 +1534,7 @@
 
     const/16 v0, 0x3c
 
-    const/16 v1, 0x2901
+    const/16 v1, 0x2b01
 
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 

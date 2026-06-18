@@ -82,7 +82,7 @@
 .method public final onChanged(Ljava/lang/Object;)V
     .locals 3
 
-    .line 1552
+    .line 1667
     iget-object p1, p0, Lcom/rigol/scope/views/grid/XYGridRulderView$5;->this$0:Lcom/rigol/scope/views/grid/XYGridRulderView;
 
     invoke-virtual {p1}, Lcom/rigol/scope/views/grid/XYGridRulderView;->isShown()Z
@@ -91,7 +91,7 @@
 
     if-eqz p1, :cond_1
 
-    .line 1553
+    .line 1668
     iget-object p1, p0, Lcom/rigol/scope/views/grid/XYGridRulderView$5;->$param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->getChan()Lcom/rigol/scope/cil/ServiceEnum$Chan;
@@ -112,7 +112,7 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 1554
+    .line 1669
     iget-object p1, p0, Lcom/rigol/scope/views/grid/XYGridRulderView$5;->this$0:Lcom/rigol/scope/views/grid/XYGridRulderView;
 
     iget-object v0, p0, Lcom/rigol/scope/views/grid/XYGridRulderView$5;->$param:Lcom/rigol/scope/data/VerticalParam;
@@ -125,7 +125,7 @@
 
     invoke-static {p1, v0, v2}, Lcom/rigol/scope/views/grid/XYGridRulderView;->access$updateColumnRulers(Lcom/rigol/scope/views/grid/XYGridRulderView;Lcom/rigol/scope/data/VerticalParam;Ljava/util/List;)V
 
-    .line 1556
+    .line 1671
     :cond_0
     iget-object p1, p0, Lcom/rigol/scope/views/grid/XYGridRulderView$5;->$param:Lcom/rigol/scope/data/VerticalParam;
 
@@ -145,7 +145,7 @@
 
     if-ne p1, v0, :cond_1
 
-    .line 1557
+    .line 1672
     iget-object p1, p0, Lcom/rigol/scope/views/grid/XYGridRulderView$5;->this$0:Lcom/rigol/scope/views/grid/XYGridRulderView;
 
     iget-object v0, p0, Lcom/rigol/scope/views/grid/XYGridRulderView$5;->$param:Lcom/rigol/scope/data/VerticalParam;

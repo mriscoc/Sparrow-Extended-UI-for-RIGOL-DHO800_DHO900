@@ -35,7 +35,7 @@
 
     invoke-direct {p0}, Ljava/util/LinkedList;-><init>()V
 
-    const p1, 0x7f0a067c
+    const p1, 0x7f0a0686
 
     .line 88
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -44,7 +44,7 @@
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/multi/MultiWindow$1;->add(Ljava/lang/Object;)Z
 
-    const p1, 0x7f0a067d
+    const p1, 0x7f0a0687
 
     .line 89
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -53,7 +53,7 @@
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/multi/MultiWindow$1;->add(Ljava/lang/Object;)Z
 
-    const p1, 0x7f0a0684
+    const p1, 0x7f0a068e
 
     .line 90
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -62,7 +62,7 @@
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/multi/MultiWindow$1;->add(Ljava/lang/Object;)Z
 
-    const p1, 0x7f0a0685
+    const p1, 0x7f0a068f
 
     .line 91
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -71,7 +71,7 @@
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/multi/MultiWindow$1;->add(Ljava/lang/Object;)Z
 
-    const p1, 0x7f0a0686
+    const p1, 0x7f0a0690
 
     .line 92
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -80,7 +80,7 @@
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/multi/MultiWindow$1;->add(Ljava/lang/Object;)Z
 
-    const p1, 0x7f0a0687
+    const p1, 0x7f0a0691
 
     .line 93
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -89,7 +89,7 @@
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/multi/MultiWindow$1;->add(Ljava/lang/Object;)Z
 
-    const p1, 0x7f0a0688
+    const p1, 0x7f0a0692
 
     .line 94
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -98,7 +98,7 @@
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/multi/MultiWindow$1;->add(Ljava/lang/Object;)Z
 
-    const p1, 0x7f0a0689
+    const p1, 0x7f0a0693
 
     .line 95
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -107,7 +107,7 @@
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/multi/MultiWindow$1;->add(Ljava/lang/Object;)Z
 
-    const p1, 0x7f0a068a
+    const p1, 0x7f0a0694
 
     .line 96
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -116,7 +116,7 @@
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/multi/MultiWindow$1;->add(Ljava/lang/Object;)Z
 
-    const p1, 0x7f0a068b
+    const p1, 0x7f0a0695
 
     .line 97
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -125,7 +125,7 @@
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/multi/MultiWindow$1;->add(Ljava/lang/Object;)Z
 
-    const p1, 0x7f0a067e
+    const p1, 0x7f0a0688
 
     .line 98
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -134,7 +134,7 @@
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/multi/MultiWindow$1;->add(Ljava/lang/Object;)Z
 
-    const p1, 0x7f0a067f
+    const p1, 0x7f0a0689
 
     .line 99
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -143,7 +143,7 @@
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/multi/MultiWindow$1;->add(Ljava/lang/Object;)Z
 
-    const p1, 0x7f0a0680
+    const p1, 0x7f0a068a
 
     .line 100
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -152,7 +152,7 @@
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/multi/MultiWindow$1;->add(Ljava/lang/Object;)Z
 
-    const p1, 0x7f0a0681
+    const p1, 0x7f0a068b
 
     .line 101
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -161,7 +161,7 @@
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/multi/MultiWindow$1;->add(Ljava/lang/Object;)Z
 
-    const p1, 0x7f0a0682
+    const p1, 0x7f0a068c
 
     .line 102
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -170,7 +170,7 @@
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/multi/MultiWindow$1;->add(Ljava/lang/Object;)Z
 
-    const p1, 0x7f0a0683
+    const p1, 0x7f0a068d
 
     .line 103
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;

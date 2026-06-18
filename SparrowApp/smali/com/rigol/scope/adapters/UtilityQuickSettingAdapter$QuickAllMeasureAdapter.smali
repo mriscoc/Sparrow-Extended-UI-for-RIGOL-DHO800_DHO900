@@ -67,7 +67,7 @@
     return v0
 .end method
 
-.method public synthetic lambda$onCreateViewHolder$0$UtilityQuickSettingAdapter$QuickAllMeasureAdapter(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
+.method public synthetic lambda$null$0$UtilityQuickSettingAdapter$QuickAllMeasureAdapter(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
     .locals 0
 
     .line 615
@@ -95,7 +95,7 @@
 .method public synthetic lambda$onCreateViewHolder$1$UtilityQuickSettingAdapter$QuickAllMeasureAdapter(Landroid/view/View;)V
     .locals 3
 
-    const v0, 0x7f03018c
+    const v0, 0x7f03018e
 
     .line 612
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -109,9 +109,9 @@
     .line 613
     iget-object v1, p0, Lcom/rigol/scope/adapters/UtilityQuickSettingAdapter$QuickAllMeasureAdapter;->baseView:Landroid/view/View;
 
-    new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$UtilityQuickSettingAdapter$QuickAllMeasureAdapter$Mm2PUXgYbcTtzcg5r_PtRHVkXzI;
+    new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$UtilityQuickSettingAdapter$QuickAllMeasureAdapter$aFCTPsyU9D0ZV4fEeHzJtf8cvH8;
 
-    invoke-direct {v2, p0}, Lcom/rigol/scope/adapters/-$$Lambda$UtilityQuickSettingAdapter$QuickAllMeasureAdapter$Mm2PUXgYbcTtzcg5r_PtRHVkXzI;-><init>(Lcom/rigol/scope/adapters/UtilityQuickSettingAdapter$QuickAllMeasureAdapter;)V
+    invoke-direct {v2, p0}, Lcom/rigol/scope/adapters/-$$Lambda$UtilityQuickSettingAdapter$QuickAllMeasureAdapter$aFCTPsyU9D0ZV4fEeHzJtf8cvH8;-><init>(Lcom/rigol/scope/adapters/UtilityQuickSettingAdapter$QuickAllMeasureAdapter;)V
 
     invoke-static {v1, p1, v0, v2}, Lcom/rigol/scope/utilities/ViewUtil;->showChanSpinner(Landroid/view/View;Landroid/view/View;Ljava/util/List;Lcom/rigol/scope/views/spinner/PopupSpinner$OnItemClickListener;)V
 

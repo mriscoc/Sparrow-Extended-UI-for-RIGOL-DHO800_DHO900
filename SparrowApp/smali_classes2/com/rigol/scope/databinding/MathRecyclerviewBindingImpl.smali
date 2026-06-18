@@ -24,7 +24,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/MathRecyclerviewBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a062e
+    const v1, 0x7f0a0636
 
     const/4 v2, 0x3
 
@@ -34,7 +34,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/MathRecyclerviewBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a06bb
+    const v1, 0x7f0a06c5
 
     const/4 v2, 0x4
 
@@ -43,7 +43,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/MathRecyclerviewBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a06bd
+    const v1, 0x7f0a06c7
 
     const/4 v2, 0x5
 
@@ -52,7 +52,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/MathRecyclerviewBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0635
+    const v1, 0x7f0a063d
 
     const/4 v2, 0x6
 
@@ -216,7 +216,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x38d
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -248,7 +248,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x23d
+    const/16 v0, 0x23f
 
     if-ne p2, v0, :cond_2
 
@@ -320,7 +320,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -447,7 +447,7 @@
     move v4, v11
 
     :goto_2
-    const v12, 0x7f030173
+    const v12, 0x7f030175
 
     .line 175
     invoke-static {v12, v4}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -644,7 +644,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x252
+    const/16 p1, 0x254
 
     .line 85
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/MathRecyclerviewBindingImpl;->notifyPropertyChanged(I)V
@@ -669,7 +669,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x252
+    const/16 v0, 0x254
 
     if-ne v0, p1, :cond_0
 

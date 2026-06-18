@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->bind(Landroidx/lifecycle/LifecycleOwner;Ljava/util/List;I)V
+    value = Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->bind(Landroidx/lifecycle/LifecycleOwner;Lcom/rigol/scope/data/HorizontalParam;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -29,13 +29,17 @@
 # instance fields
 .field final synthetic this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
+.field final synthetic val$param:Lcom/rigol/scope/data/HorizontalParam;
+
 
 # direct methods
-.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;)V
+.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/HorizontalParam;)V
     .locals 0
 
-    .line 1032
+    .line 1010
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$38;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
+
+    iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$38;->val$param:Lcom/rigol/scope/data/HorizontalParam;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,30 +49,17 @@
 
 # virtual methods
 .method public onChanged(Ljava/lang/Boolean;)V
-    .locals 1
+    .locals 0
 
-    .line 1036
-    new-instance p1, Lcom/rigol/scope/data/WindowParam;
+    .line 1013
+    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$38;->val$param:Lcom/rigol/scope/data/HorizontalParam;
 
-    invoke-direct {p1}, Lcom/rigol/scope/data/WindowParam;-><init>()V
+    invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->readMaxFrame()J
 
-    .line 1037
-    sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_MAIN_WAVEFORM:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
+    .line 1014
+    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$38;->val$param:Lcom/rigol/scope/data/HorizontalParam;
 
-    invoke-virtual {p1, v0}, Lcom/rigol/scope/data/WindowParam;->setType(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)V
-
-    .line 1039
-    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
-
-    move-result-object v0
-
-    check-cast v0, Lcom/rigol/scope/MainActivity;
-
-    invoke-virtual {v0}, Lcom/rigol/scope/MainActivity;->getWaveformFragment()Lcom/rigol/scope/WaveformFragment;
-
-    move-result-object v0
-
-    invoke-virtual {v0, p1}, Lcom/rigol/scope/WaveformFragment;->addWindow(Lcom/rigol/scope/data/WindowParam;)V
+    invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->readMaxFrameAttr()V
 
     return-void
 .end method
@@ -76,7 +67,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1032
+    .line 1010
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$38;->onChanged(Ljava/lang/Boolean;)V

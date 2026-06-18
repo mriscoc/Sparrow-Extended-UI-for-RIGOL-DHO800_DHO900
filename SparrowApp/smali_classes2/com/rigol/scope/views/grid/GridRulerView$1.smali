@@ -74,7 +74,7 @@
 .method public final onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 277
+    .line 302
     iget-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView$1;->this$0:Lcom/rigol/scope/views/grid/GridRulerView;
 
     invoke-virtual {p1}, Lcom/rigol/scope/views/grid/GridRulerView;->invalidate()V

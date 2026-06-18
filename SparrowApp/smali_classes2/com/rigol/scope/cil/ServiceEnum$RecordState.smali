@@ -52,7 +52,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 7264
+    .line 7274
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$RecordState;
 
     const-string v1, "Record_disable"
@@ -73,7 +73,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$RecordState;->Record_disable:Lcom/rigol/scope/cil/ServiceEnum$RecordState;
 
-    .line 7265
+    .line 7275
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$RecordState;
 
     const-string v9, "Record_empty"
@@ -94,7 +94,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$RecordState;->Record_empty:Lcom/rigol/scope/cil/ServiceEnum$RecordState;
 
-    .line 7266
+    .line 7276
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$RecordState;
 
     const-string v2, "Record_ing"
@@ -115,7 +115,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$RecordState;->Record_ing:Lcom/rigol/scope/cil/ServiceEnum$RecordState;
 
-    .line 7267
+    .line 7277
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$RecordState;
 
     const-string v9, "Record_end"
@@ -136,7 +136,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$RecordState;->Record_end:Lcom/rigol/scope/cil/ServiceEnum$RecordState;
 
-    .line 7268
+    .line 7278
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$RecordState;
 
     const-string v2, "Play_ing"
@@ -157,7 +157,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$RecordState;->Play_ing:Lcom/rigol/scope/cil/ServiceEnum$RecordState;
 
-    .line 7269
+    .line 7279
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$RecordState;
 
     const-string v9, "Play_end"
@@ -182,7 +182,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$RecordState;
 
-    .line 7262
+    .line 7272
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$RecordState;->Record_disable:Lcom/rigol/scope/cil/ServiceEnum$RecordState;
 
     const/4 v3, 0x0
@@ -234,19 +234,19 @@
         }
     .end annotation
 
-    .line 7272
+    .line 7282
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 7273
+    .line 7283
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$RecordState;->value1:I
 
-    .line 7274
+    .line 7284
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$RecordState;->value2:Ljava/lang/String;
 
-    .line 7275
+    .line 7285
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$RecordState;->pic1:Ljava/lang/String;
 
-    .line 7276
+    .line 7286
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$RecordState;->pic2:Ljava/lang/String;
 
     return-void
@@ -255,7 +255,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$RecordState;
     .locals 1
 
-    .line 7262
+    .line 7272
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$RecordState;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -270,7 +270,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$RecordState;
     .locals 1
 
-    .line 7262
+    .line 7272
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$RecordState;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$RecordState;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$RecordState;->clone()Ljava/lang/Object;

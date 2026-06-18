@@ -73,12 +73,12 @@
 
     invoke-static {p4, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1489
+    .line 1604
     invoke-direct {p0, p1, p2, p3}, Lcom/rigol/scope/views/grid/GridRulerViewWrapper;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     iput-object p4, p0, Lcom/rigol/scope/views/grid/XYGridRulderView;->windowParam:Lcom/rigol/scope/data/WindowParam;
 
-    .line 1490
+    .line 1605
     const-class p2, Lcom/rigol/scope/viewmodels/XYViewModel;
 
     invoke-static {p2}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -89,7 +89,7 @@
 
     iput-object p2, p0, Lcom/rigol/scope/views/grid/XYGridRulderView;->xyViewModel:Lcom/rigol/scope/viewmodels/XYViewModel;
 
-    .line 1492
+    .line 1607
     const-class p2, Lcom/rigol/scope/viewmodels/VerticalViewModel;
 
     invoke-static {p2}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -102,13 +102,13 @@
 
     const/4 p2, 0x0
 
-    .line 1497
+    .line 1612
     invoke-virtual {p0, p2}, Lcom/rigol/scope/views/grid/XYGridRulderView;->setFromStart(Z)V
 
-    .line 1498
+    .line 1613
     invoke-virtual {p0, p2}, Lcom/rigol/scope/views/grid/XYGridRulderView;->setFromTop(Z)V
 
-    .line 1500
+    .line 1615
     iget-object p2, p0, Lcom/rigol/scope/views/grid/XYGridRulderView;->xyViewModel:Lcom/rigol/scope/viewmodels/XYViewModel;
 
     const-string p3, "null cannot be cast to non-null type androidx.lifecycle.LifecycleOwner"
@@ -146,7 +146,7 @@
 
     throw p1
 
-    .line 1506
+    .line 1621
     :cond_1
     :goto_0
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/XYGridRulderView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -159,7 +159,7 @@
 
     const/16 v0, 0x1304
 
-    .line 1505
+    .line 1620
     invoke-virtual {p2, p4, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p2
@@ -168,7 +168,7 @@
 
     if-eqz p1, :cond_2
 
-    .line 1506
+    .line 1621
     check-cast p1, Landroidx/lifecycle/LifecycleOwner;
 
     new-instance p4, Lcom/rigol/scope/views/grid/XYGridRulderView$2;
@@ -188,7 +188,7 @@
 
     throw p1
 
-    .line 1515
+    .line 1630
     :cond_3
     :goto_1
     iget-object p1, p0, Lcom/rigol/scope/views/grid/XYGridRulderView;->verticalViewModel:Lcom/rigol/scope/viewmodels/VerticalViewModel;
@@ -215,7 +215,7 @@
     :goto_2
     if-eqz p1, :cond_b
 
-    .line 1516
+    .line 1631
     move-object p2, p1
 
     check-cast p2, Ljava/util/Collection;
@@ -228,7 +228,7 @@
 
     if-eqz p2, :cond_b
 
-    .line 1517
+    .line 1632
     invoke-virtual {p1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
     move-result-object p2
@@ -247,12 +247,12 @@
 
     check-cast p4, Lcom/rigol/scope/data/VerticalParam;
 
-    .line 1518
+    .line 1633
     invoke-virtual {p4}, Lcom/rigol/scope/data/VerticalParam;->getServiceId()I
 
     move-result v0
 
-    .line 1525
+    .line 1640
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/XYGridRulderView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
     move-result-object v1
@@ -261,14 +261,14 @@
 
     const/16 v2, 0x70f
 
-    .line 1524
+    .line 1639
     invoke-virtual {v1, v0, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
 
     if-eqz v1, :cond_7
 
-    .line 1525
+    .line 1640
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/XYGridRulderView;->getContext()Landroid/content/Context;
 
     move-result-object v2
@@ -294,7 +294,7 @@
 
     throw p1
 
-    .line 1538
+    .line 1653
     :cond_7
     :goto_4
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/XYGridRulderView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -305,14 +305,14 @@
 
     const/16 v2, 0x712
 
-    .line 1537
+    .line 1652
     invoke-virtual {v1, v0, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v1
 
     if-eqz v1, :cond_9
 
-    .line 1538
+    .line 1653
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/XYGridRulderView;->getContext()Landroid/content/Context;
 
     move-result-object v2
@@ -338,7 +338,7 @@
 
     throw p1
 
-    .line 1551
+    .line 1666
     :cond_9
     :goto_5
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/XYGridRulderView;->getSyncDataViewModel()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
@@ -349,14 +349,14 @@
 
     const/16 v2, 0x707
 
-    .line 1550
+    .line 1665
     invoke-virtual {v1, v0, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object v0
 
     if-eqz v0, :cond_5
 
-    .line 1551
+    .line 1666
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/XYGridRulderView;->getContext()Landroid/content/Context;
 
     move-result-object v1
@@ -395,7 +395,7 @@
 
     const/4 p2, 0x0
 
-    .line 1486
+    .line 1601
     check-cast p2, Landroid/util/AttributeSet;
 
     :cond_0
@@ -405,7 +405,7 @@
 
     const/4 p3, 0x0
 
-    .line 1487
+    .line 1602
     :cond_1
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/rigol/scope/views/grid/XYGridRulderView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcom/rigol/scope/data/WindowParam;)V
 
@@ -459,7 +459,7 @@
 .method public static final synthetic access$getXyParam$p(Lcom/rigol/scope/views/grid/XYGridRulderView;)Lcom/rigol/scope/data/XYParam;
     .locals 0
 
-    .line 1484
+    .line 1599
     iget-object p0, p0, Lcom/rigol/scope/views/grid/XYGridRulderView;->xyParam:Lcom/rigol/scope/data/XYParam;
 
     return-object p0
@@ -468,7 +468,7 @@
 .method public static final synthetic access$setXyParam$p(Lcom/rigol/scope/views/grid/XYGridRulderView;Lcom/rigol/scope/data/XYParam;)V
     .locals 0
 
-    .line 1484
+    .line 1599
     iput-object p1, p0, Lcom/rigol/scope/views/grid/XYGridRulderView;->xyParam:Lcom/rigol/scope/data/XYParam;
 
     return-void
@@ -477,7 +477,7 @@
 .method public static final synthetic access$updateColumnRulers(Lcom/rigol/scope/views/grid/XYGridRulderView;Lcom/rigol/scope/data/VerticalParam;Ljava/util/List;)V
     .locals 0
 
-    .line 1484
+    .line 1599
     invoke-direct {p0, p1, p2}, Lcom/rigol/scope/views/grid/XYGridRulderView;->updateColumnRulers(Lcom/rigol/scope/data/VerticalParam;Ljava/util/List;)V
 
     return-void
@@ -486,7 +486,7 @@
 .method public static final synthetic access$updateRowRulers(Lcom/rigol/scope/views/grid/XYGridRulderView;Lcom/rigol/scope/data/VerticalParam;Ljava/util/List;)V
     .locals 0
 
-    .line 1484
+    .line 1599
     invoke-direct {p0, p1, p2}, Lcom/rigol/scope/views/grid/XYGridRulderView;->updateRowRulers(Lcom/rigol/scope/data/VerticalParam;Ljava/util/List;)V
 
     return-void
@@ -504,7 +504,7 @@
         }
     .end annotation
 
-    .line 1569
+    .line 1684
     iget-object v0, p0, Lcom/rigol/scope/views/grid/XYGridRulderView;->windowParam:Lcom/rigol/scope/data/WindowParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/WindowParam;->getSource1()Lcom/rigol/scope/cil/ServiceEnum$Chan;
@@ -519,14 +519,14 @@
 
     sub-int/2addr v0, v1
 
-    .line 1567
+    .line 1682
     invoke-static {p2, v0}, Lcom/rigol/scope/utilities/ViewUtil;->getReverseVerticalRulers(Ljava/util/List;I)[Ljava/lang/String;
 
     move-result-object p2
 
     invoke-virtual {p0, p2}, Lcom/rigol/scope/views/grid/XYGridRulderView;->setColumnContents([Ljava/lang/String;)V
 
-    .line 1573
+    .line 1688
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/XYGridRulderView;->getContext()Landroid/content/Context;
 
     move-result-object p2
@@ -541,7 +541,7 @@
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/grid/XYGridRulderView;->setColumnTextColor(I)V
 
-    .line 1576
+    .line 1691
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/XYGridRulderView;->invalidate()V
 
     return-void
@@ -559,7 +559,7 @@
         }
     .end annotation
 
-    .line 1583
+    .line 1698
     iget-object v0, p0, Lcom/rigol/scope/views/grid/XYGridRulderView;->windowParam:Lcom/rigol/scope/data/WindowParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/WindowParam;->getSource2()Lcom/rigol/scope/cil/ServiceEnum$Chan;
@@ -574,14 +574,14 @@
 
     sub-int/2addr v0, v1
 
-    .line 1581
+    .line 1696
     invoke-static {p2, v0}, Lcom/rigol/scope/utilities/ViewUtil;->getVerticalRulers(Ljava/util/List;I)[Ljava/lang/String;
 
     move-result-object p2
 
     invoke-virtual {p0, p2}, Lcom/rigol/scope/views/grid/XYGridRulderView;->setRowContents([Ljava/lang/String;)V
 
-    .line 1587
+    .line 1702
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/XYGridRulderView;->getContext()Landroid/content/Context;
 
     move-result-object p2
@@ -596,7 +596,7 @@
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/grid/XYGridRulderView;->setRowTextColor(I)V
 
-    .line 1590
+    .line 1705
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/XYGridRulderView;->invalidate()V
 
     return-void
@@ -607,7 +607,7 @@
 .method public final getWindowParam()Lcom/rigol/scope/data/WindowParam;
     .locals 1
 
-    .line 1488
+    .line 1603
     iget-object v0, p0, Lcom/rigol/scope/views/grid/XYGridRulderView;->windowParam:Lcom/rigol/scope/data/WindowParam;
 
     return-object v0
@@ -620,7 +620,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1488
+    .line 1603
     iput-object p1, p0, Lcom/rigol/scope/views/grid/XYGridRulderView;->windowParam:Lcom/rigol/scope/data/WindowParam;
 
     return-void
@@ -633,7 +633,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1595
+    .line 1710
     :try_start_0
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
@@ -645,7 +645,7 @@
 
     if-ltz p1, :cond_2
 
-    .line 1596
+    .line 1711
     iget-object v0, p0, Lcom/rigol/scope/views/grid/XYGridRulderView;->verticalViewModel:Lcom/rigol/scope/viewmodels/VerticalViewModel;
 
     const/4 v1, 0x0
@@ -688,7 +688,7 @@
 
     if-ge p1, v0, :cond_2
 
-    .line 1597
+    .line 1712
     iget-object v0, p0, Lcom/rigol/scope/views/grid/XYGridRulderView;->verticalViewModel:Lcom/rigol/scope/viewmodels/VerticalViewModel;
 
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/VerticalViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
@@ -714,7 +714,7 @@
     :cond_1
     if-eqz v1, :cond_2
 
-    .line 1600
+    .line 1715
     iget-object p1, p0, Lcom/rigol/scope/views/grid/XYGridRulderView;->verticalViewModel:Lcom/rigol/scope/viewmodels/VerticalViewModel;
 
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/VerticalViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
@@ -736,7 +736,7 @@
     :catch_0
     move-exception p1
 
-    .line 1604
+    .line 1719
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
     :cond_2
@@ -751,7 +751,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 1610
+    .line 1725
     :try_start_0
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
@@ -763,7 +763,7 @@
 
     if-ltz p1, :cond_2
 
-    .line 1611
+    .line 1726
     iget-object v0, p0, Lcom/rigol/scope/views/grid/XYGridRulderView;->verticalViewModel:Lcom/rigol/scope/viewmodels/VerticalViewModel;
 
     const/4 v1, 0x0
@@ -806,7 +806,7 @@
 
     if-ge p1, v0, :cond_2
 
-    .line 1612
+    .line 1727
     iget-object v0, p0, Lcom/rigol/scope/views/grid/XYGridRulderView;->verticalViewModel:Lcom/rigol/scope/viewmodels/VerticalViewModel;
 
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/VerticalViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
@@ -832,7 +832,7 @@
     :cond_1
     if-eqz v1, :cond_2
 
-    .line 1615
+    .line 1730
     iget-object p1, p0, Lcom/rigol/scope/views/grid/XYGridRulderView;->verticalViewModel:Lcom/rigol/scope/viewmodels/VerticalViewModel;
 
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/VerticalViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
@@ -854,7 +854,7 @@
     :catch_0
     move-exception p1
 
-    .line 1619
+    .line 1734
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
     :cond_2

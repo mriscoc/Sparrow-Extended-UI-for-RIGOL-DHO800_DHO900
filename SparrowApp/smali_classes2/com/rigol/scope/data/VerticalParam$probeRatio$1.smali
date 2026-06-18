@@ -59,12 +59,12 @@
 .method public final run()V
     .locals 1
 
-    .line 168
+    .line 173
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam$probeRatio$1;->this$0:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->readScale()J
 
-    .line 169
+    .line 174
     iget-object v0, p0, Lcom/rigol/scope/data/VerticalParam$probeRatio$1;->this$0:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->readOffset()J

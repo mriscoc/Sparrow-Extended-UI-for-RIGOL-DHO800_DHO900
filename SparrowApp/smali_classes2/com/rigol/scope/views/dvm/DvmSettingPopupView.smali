@@ -279,7 +279,7 @@
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$DvmMode;->value1:I
 
-    const v2, 0x7f030116
+    const v2, 0x7f030117
 
     invoke-static {v2, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -341,7 +341,7 @@
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->setSwitchButton(Lcom/rigol/scope/views/SwitchButton;)V
 
-    const v0, 0x7f030115
+    const v0, 0x7f030116
 
     .line 138
     iget-object v1, p0, Lcom/rigol/scope/views/dvm/DvmSettingPopupView;->binding:Lcom/rigol/scope/databinding/PopupviewResultDvmBinding;
@@ -491,15 +491,6 @@
     return-object v0
 .end method
 
-.method public synthetic lambda$new$0$DvmSettingPopupView(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
-    .locals 0
-
-    .line 99
-    iput-object p1, p0, Lcom/rigol/scope/views/dvm/DvmSettingPopupView;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
-
-    return-void
-.end method
-
 .method public synthetic lambda$new$1$DvmSettingPopupView(Landroid/view/KeyEvent;)V
     .locals 11
 
@@ -531,9 +522,9 @@
 
     iget-object v8, p0, Lcom/rigol/scope/views/dvm/DvmSettingPopupView;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
 
-    new-instance v9, Lcom/rigol/scope/views/dvm/-$$Lambda$DvmSettingPopupView$bgSan4N_l18dbXyig-BQcqXbSLE;
+    new-instance v9, Lcom/rigol/scope/views/dvm/-$$Lambda$DvmSettingPopupView$rXyVk97l0E9dz8tW3Ar3UIKGj6Y;
 
-    invoke-direct {v9, p0}, Lcom/rigol/scope/views/dvm/-$$Lambda$DvmSettingPopupView$bgSan4N_l18dbXyig-BQcqXbSLE;-><init>(Lcom/rigol/scope/views/dvm/DvmSettingPopupView;)V
+    invoke-direct {v9, p0}, Lcom/rigol/scope/views/dvm/-$$Lambda$DvmSettingPopupView$rXyVk97l0E9dz8tW3Ar3UIKGj6Y;-><init>(Lcom/rigol/scope/views/dvm/DvmSettingPopupView;)V
 
     new-instance v10, Lcom/rigol/scope/views/dvm/DvmSettingPopupView$2;
 
@@ -615,6 +606,15 @@
     return-void
 .end method
 
+.method public synthetic lambda$null$0$DvmSettingPopupView(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
+    .locals 0
+
+    .line 99
+    iput-object p1, p0, Lcom/rigol/scope/views/dvm/DvmSettingPopupView;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
+
+    return-void
+.end method
+
 .method public synthetic lambda$onClick$5$DvmSettingPopupView(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
     .locals 0
 
@@ -668,7 +668,7 @@
 
     move-result p1
 
-    const p2, 0x7f0a0650
+    const p2, 0x7f0a0658
 
     if-ne p1, p2, :cond_2
 
@@ -682,7 +682,7 @@
     goto :goto_0
 
     :cond_2
-    const p2, 0x7f0a0651
+    const p2, 0x7f0a0659
 
     if-ne p1, p2, :cond_3
 
@@ -696,7 +696,7 @@
     goto :goto_0
 
     :cond_3
-    const p2, 0x7f0a064f
+    const p2, 0x7f0a0657
 
     if-ne p1, p2, :cond_4
 
@@ -731,11 +731,11 @@
 
     move-result v0
 
-    const v1, 0x7f0a083d
+    const v1, 0x7f0a0849
 
     if-ne v0, v1, :cond_1
 
-    const v0, 0x7f030118
+    const v0, 0x7f030119
 
     .line 185
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -762,7 +762,7 @@
     goto/16 :goto_0
 
     :cond_1
-    const v1, 0x7f0a060b
+    const v1, 0x7f0a0613
 
     if-ne v0, v1, :cond_2
 
@@ -837,7 +837,7 @@
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f0a0aa9
+    const v1, 0x7f0a0ab5
 
     if-ne v0, v1, :cond_3
 
@@ -925,7 +925,7 @@
 
     if-eqz v0, :cond_0
 
-    const v1, 0x7f030115
+    const v1, 0x7f030116
 
     .line 267
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewResultDvmBinding;->limitTypeSwitch:Lcom/rigol/scope/views/SwitchButton;
@@ -947,11 +947,11 @@
     return-void
 
     :cond_0
-    const v1, 0x7f0a060b
+    const v1, 0x7f0a0613
 
     if-eq p1, v1, :cond_2
 
-    const v1, 0x7f0a0aa9
+    const v1, 0x7f0a0ab5
 
     if-eq p1, v1, :cond_1
 
@@ -1002,11 +1002,11 @@
     return-void
 
     :cond_0
-    const v1, 0x7f0a060b
+    const v1, 0x7f0a0613
 
     if-eq p2, v1, :cond_2
 
-    const v1, 0x7f0a0aa9
+    const v1, 0x7f0a0ab5
 
     if-eq p2, v1, :cond_1
 

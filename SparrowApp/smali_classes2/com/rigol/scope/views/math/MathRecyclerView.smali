@@ -117,7 +117,7 @@
 
     move-result p4
 
-    const/16 p5, 0x2f02
+    const/16 p5, 0x3102
 
     invoke-virtual {p3, p4, p5}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -500,15 +500,6 @@
 
 
 # virtual methods
-.method public synthetic lambda$mathShowView$0$MathRecyclerView(ILcom/rigol/scope/data/MappingObject;)V
-    .locals 0
-
-    .line 121
-    invoke-direct {p0, p2}, Lcom/rigol/scope/views/math/MathRecyclerView;->selectAdapter(Lcom/rigol/scope/data/MappingObject;)V
-
-    return-void
-.end method
-
 .method public synthetic lambda$mathShowView$1$MathRecyclerView(Landroid/view/KeyEvent;)V
     .locals 11
 
@@ -554,9 +545,9 @@
 
     const/4 v9, 0x0
 
-    new-instance v10, Lcom/rigol/scope/views/math/-$$Lambda$MathRecyclerView$I9aPZ28dHesHUQFC1Gn2hilSNcU;
+    new-instance v10, Lcom/rigol/scope/views/math/-$$Lambda$MathRecyclerView$H7MEJxy8qJ0EACm2xOq3PLsTxQw;
 
-    invoke-direct {v10, p0}, Lcom/rigol/scope/views/math/-$$Lambda$MathRecyclerView$I9aPZ28dHesHUQFC1Gn2hilSNcU;-><init>(Lcom/rigol/scope/views/math/MathRecyclerView;)V
+    invoke-direct {v10, p0}, Lcom/rigol/scope/views/math/-$$Lambda$MathRecyclerView$H7MEJxy8qJ0EACm2xOq3PLsTxQw;-><init>(Lcom/rigol/scope/views/math/MathRecyclerView;)V
 
     move-object v2, p1
 
@@ -587,7 +578,42 @@
     return-void
 .end method
 
-.method public synthetic lambda$mathShowView$3$MathRecyclerView(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
+.method public synthetic lambda$mathShowView$5$MathRecyclerView(Landroid/view/View;)V
+    .locals 4
+
+    const v0, 0x7f030175
+
+    .line 139
+    invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
+
+    move-result-object v0
+
+    .line 140
+    iget-object v1, p0, Lcom/rigol/scope/views/math/MathRecyclerView;->anchorview:Landroid/view/View;
+
+    new-instance v2, Lcom/rigol/scope/views/math/-$$Lambda$MathRecyclerView$mgu6H7FiM_HtrQzGNknqOP2IX6Q;
+
+    invoke-direct {v2, p0}, Lcom/rigol/scope/views/math/-$$Lambda$MathRecyclerView$mgu6H7FiM_HtrQzGNknqOP2IX6Q;-><init>(Lcom/rigol/scope/views/math/MathRecyclerView;)V
+
+    new-instance v3, Lcom/rigol/scope/views/math/-$$Lambda$MathRecyclerView$Sw-tyJlfdhyoTkAUBee_9NidTZ8;
+
+    invoke-direct {v3, p0}, Lcom/rigol/scope/views/math/-$$Lambda$MathRecyclerView$Sw-tyJlfdhyoTkAUBee_9NidTZ8;-><init>(Lcom/rigol/scope/views/math/MathRecyclerView;)V
+
+    invoke-static {v1, p1, v0, v2, v3}, Lcom/rigol/scope/utilities/ViewUtil;->showSpinner(Landroid/view/View;Landroid/view/View;Ljava/util/List;Lcom/rigol/scope/utilities/AorBManager$OnSpinnerAdapterListener;Lcom/rigol/scope/views/spinner/PopupSpinner$OnItemClickListener;)V
+
+    return-void
+.end method
+
+.method public synthetic lambda$null$0$MathRecyclerView(ILcom/rigol/scope/data/MappingObject;)V
+    .locals 0
+
+    .line 121
+    invoke-direct {p0, p2}, Lcom/rigol/scope/views/math/MathRecyclerView;->selectAdapter(Lcom/rigol/scope/data/MappingObject;)V
+
+    return-void
+.end method
+
+.method public synthetic lambda$null$3$MathRecyclerView(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
     .locals 0
 
     .line 142
@@ -605,37 +631,11 @@
     return-void
 .end method
 
-.method public synthetic lambda$mathShowView$4$MathRecyclerView(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
+.method public synthetic lambda$null$4$MathRecyclerView(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
     .locals 0
 
     .line 147
     invoke-direct {p0, p4}, Lcom/rigol/scope/views/math/MathRecyclerView;->selectAdapter(Lcom/rigol/scope/data/MappingObject;)V
-
-    return-void
-.end method
-
-.method public synthetic lambda$mathShowView$5$MathRecyclerView(Landroid/view/View;)V
-    .locals 4
-
-    const v0, 0x7f030173
-
-    .line 139
-    invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
-
-    move-result-object v0
-
-    .line 140
-    iget-object v1, p0, Lcom/rigol/scope/views/math/MathRecyclerView;->anchorview:Landroid/view/View;
-
-    new-instance v2, Lcom/rigol/scope/views/math/-$$Lambda$MathRecyclerView$86Lopuj-dfF_AumwIKh3ZG4P3NM;
-
-    invoke-direct {v2, p0}, Lcom/rigol/scope/views/math/-$$Lambda$MathRecyclerView$86Lopuj-dfF_AumwIKh3ZG4P3NM;-><init>(Lcom/rigol/scope/views/math/MathRecyclerView;)V
-
-    new-instance v3, Lcom/rigol/scope/views/math/-$$Lambda$MathRecyclerView$1qntk5eQh4V7buH0k_aFcujcwIs;
-
-    invoke-direct {v3, p0}, Lcom/rigol/scope/views/math/-$$Lambda$MathRecyclerView$1qntk5eQh4V7buH0k_aFcujcwIs;-><init>(Lcom/rigol/scope/views/math/MathRecyclerView;)V
-
-    invoke-static {v1, p1, v0, v2, v3}, Lcom/rigol/scope/utilities/ViewUtil;->showSpinner(Landroid/view/View;Landroid/view/View;Ljava/util/List;Lcom/rigol/scope/utilities/AorBManager$OnSpinnerAdapterListener;Lcom/rigol/scope/views/spinner/PopupSpinner$OnItemClickListener;)V
 
     return-void
 .end method

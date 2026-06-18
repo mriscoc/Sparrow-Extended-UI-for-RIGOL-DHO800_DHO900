@@ -85,14 +85,14 @@
 .method static constructor <clinit>()V
     .locals 5
 
-    .line 53
+    .line 54
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->chan1:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     iget v0, v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
     sput v0, Lcom/rigol/scope/data/MaskParamKt;->DEFAULT_SOURCE:I
 
-    .line 58
+    .line 59
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$MaskRange;->mask_range_screen:Lcom/rigol/scope/cil/ServiceEnum$MaskRange;
 
     sput-object v0, Lcom/rigol/scope/data/MaskParamKt;->DEFAULT_RANGE:Lcom/rigol/scope/cil/ServiceEnum$MaskRange;
@@ -105,7 +105,7 @@
 
     int-to-float v1, v1
 
-    .line 86
+    .line 87
     sget-object v2, Lcom/rigol/scope/utilities/UnitFormat$SI;->FEMTO:Lcom/rigol/scope/utilities/UnitFormat$SI;
 
     iget v2, v2, Lcom/rigol/scope/utilities/UnitFormat$SI;->scale:I
@@ -130,12 +130,12 @@
 
     sput v0, Lcom/rigol/scope/data/MaskParamKt;->DEFAULT_OUTPULSE:F
 
-    .line 91
+    .line 92
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$MaskActionEvent;->mask_action_on_fail:Lcom/rigol/scope/cil/ServiceEnum$MaskActionEvent;
 
     sput-object v0, Lcom/rigol/scope/data/MaskParamKt;->DEFAULT_OUTEVENT:Lcom/rigol/scope/cil/ServiceEnum$MaskActionEvent;
 
-    .line 96
+    .line 97
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$MaskPolarity;->mask_polarity_positive:Lcom/rigol/scope/cil/ServiceEnum$MaskPolarity;
 
     sput-object v0, Lcom/rigol/scope/data/MaskParamKt;->DEFAULT_OUTHL:Lcom/rigol/scope/cil/ServiceEnum$MaskPolarity;

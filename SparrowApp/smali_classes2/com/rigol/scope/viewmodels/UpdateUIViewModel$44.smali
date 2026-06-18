@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/HorizontalParam;)V
     .locals 0
 
-    .line 1107
+    .line 1068
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$44;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$44;->val$param:Lcom/rigol/scope/data/HorizontalParam;
@@ -51,15 +51,15 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 1110
+    .line 1071
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$44;->val$param:Lcom/rigol/scope/data/HorizontalParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->readZoomScale()J
+    invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->readZoomOffset()J
 
-    .line 1111
+    .line 1072
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$44;->val$param:Lcom/rigol/scope/data/HorizontalParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->readZoomScaleAttr()V
+    invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->readZoomOffsetAttr()V
 
     return-void
 .end method
@@ -67,7 +67,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1107
+    .line 1068
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$44;->onChanged(Ljava/lang/Boolean;)V

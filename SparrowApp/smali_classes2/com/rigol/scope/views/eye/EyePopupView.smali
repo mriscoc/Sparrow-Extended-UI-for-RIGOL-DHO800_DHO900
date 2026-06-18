@@ -124,7 +124,7 @@
     .line 75
     iget-object v0, p0, Lcom/rigol/scope/views/eye/EyePopupView;->binding:Lcom/rigol/scope/databinding/PopupviewEyeBinding;
 
-    const v1, 0x7f030125
+    const v1, 0x7f030126
 
     const/4 v2, 0x0
 
@@ -395,7 +395,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a0449
+    const v0, 0x7f0a044b
 
     if-ne p1, v0, :cond_2
 
@@ -415,7 +415,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0a0451
+    const v0, 0x7f0a0453
 
     if-ne p1, v0, :cond_3
 
@@ -435,7 +435,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0a0457
+    const v0, 0x7f0a0459
 
     if-ne p1, v0, :cond_4
 
@@ -455,7 +455,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0a0468
+    const v0, 0x7f0a046a
 
     if-ne p1, v0, :cond_5
 
@@ -497,7 +497,7 @@
     return-void
 
     :cond_0
-    const v0, 0x7f0a043c
+    const v0, 0x7f0a043e
 
     if-ne p2, v0, :cond_1
 
@@ -526,7 +526,7 @@
     goto/16 :goto_0
 
     :cond_1
-    const v0, 0x7f0a045d
+    const v0, 0x7f0a045f
 
     if-ne p2, v0, :cond_2
 
@@ -555,7 +555,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0a0446
+    const v0, 0x7f0a0448
 
     if-ne p2, v0, :cond_3
 
@@ -584,7 +584,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0a04a8
+    const v0, 0x7f0a04aa
 
     if-ne p2, v0, :cond_4
 
@@ -606,7 +606,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0a04db
+    const v0, 0x7f0a04dd
 
     if-ne p2, v0, :cond_5
 
@@ -628,7 +628,7 @@
     goto :goto_0
 
     :cond_5
-    const v0, 0x7f0a0699
+    const v0, 0x7f0a06a3
 
     if-ne p2, v0, :cond_6
 
@@ -664,7 +664,7 @@
 
     move-result v1
 
-    const v3, 0x7f0a0465
+    const v3, 0x7f0a0467
 
     if-ne v1, v3, :cond_0
 
@@ -676,7 +676,7 @@
     .line 109
     iget-object v1, v0, Lcom/rigol/scope/views/eye/EyePopupView;->anchor:Landroid/view/View;
 
-    const v3, 0x7f030129
+    const v3, 0x7f03012a
 
     new-instance v4, Lcom/rigol/scope/views/eye/-$$Lambda$EyePopupView$n5f6GPgg4zGBaNKO5taklQ0P_1E;
 
@@ -687,7 +687,7 @@
     goto/16 :goto_0
 
     :cond_0
-    const v3, 0x7f0a0469
+    const v3, 0x7f0a046b
 
     if-ne v1, v3, :cond_1
 
@@ -699,7 +699,7 @@
     .line 122
     iget-object v1, v0, Lcom/rigol/scope/views/eye/EyePopupView;->anchor:Landroid/view/View;
 
-    const v3, 0x7f03012a
+    const v3, 0x7f03012b
 
     new-instance v4, Lcom/rigol/scope/views/eye/-$$Lambda$EyePopupView$fwfNE5cDdd-JBKyHyr6PvKqaOWo;
 
@@ -710,7 +710,7 @@
     goto/16 :goto_0
 
     :cond_1
-    const v3, 0x7f0a07a2
+    const v3, 0x7f0a07ae
 
     if-ne v1, v3, :cond_2
 
@@ -732,7 +732,7 @@
     goto/16 :goto_0
 
     :cond_2
-    const v3, 0x7f0a044c
+    const v3, 0x7f0a044e
 
     if-ne v1, v3, :cond_3
 
@@ -822,7 +822,7 @@
     goto/16 :goto_0
 
     :cond_3
-    const v3, 0x7f0a0453
+    const v3, 0x7f0a0455
 
     if-ne v1, v3, :cond_4
 
@@ -912,7 +912,7 @@
     goto/16 :goto_0
 
     :cond_4
-    const v3, 0x7f0a044f
+    const v3, 0x7f0a0451
 
     if-ne v1, v3, :cond_5
 
@@ -1002,7 +1002,7 @@
     goto :goto_0
 
     :cond_5
-    const v3, 0x7f0a0455
+    const v3, 0x7f0a0457
 
     if-ne v1, v3, :cond_6
 

@@ -61,9 +61,13 @@
 
 .field public static final enum FUNC_SAVE_FFT:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
+.field public static final enum FUNC_SAVE_HISTO:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
+
 .field public static final enum FUNC_SAVE_HTML:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
 .field public static final enum FUNC_SAVE_IMG:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
+
+.field public static final enum FUNC_SAVE_MEASURE:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
 .field public static final enum FUNC_SAVE_MSK:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
@@ -94,7 +98,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 6721
+    .line 6729
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     const-string v1, "FUNC_SAVE_IMG"
@@ -115,7 +119,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SAVE_IMG:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
-    .line 6722
+    .line 6730
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     const-string v9, "FUNC_SAVE_WAV"
@@ -136,7 +140,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SAVE_WAV:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
-    .line 6723
+    .line 6731
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     const-string v2, "FUNC_SAVE_STP"
@@ -157,7 +161,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SAVE_STP:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
-    .line 6724
+    .line 6732
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     const-string v9, "FUNC_SAVE_REF"
@@ -178,7 +182,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SAVE_REF:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
-    .line 6725
+    .line 6733
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     const-string v2, "FUNC_SAVE_MSK"
@@ -199,7 +203,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SAVE_MSK:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
-    .line 6726
+    .line 6734
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     const-string v9, "FUNC_SAVE_ARB"
@@ -220,7 +224,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SAVE_ARB:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
-    .line 6727
+    .line 6735
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     const-string v2, "FUNC_SAVE_REC"
@@ -241,7 +245,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SAVE_REC:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
-    .line 6728
+    .line 6736
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     const-string v9, "FUNC_SAVE_DEC"
@@ -262,7 +266,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SAVE_DEC:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
-    .line 6729
+    .line 6737
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     const-string v2, "FUNC_SAVE_DG"
@@ -283,7 +287,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SAVE_DG:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
-    .line 6730
+    .line 6738
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     const-string v9, "FUNC_SAVE_DECDAT"
@@ -304,7 +308,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SAVE_DECDAT:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
-    .line 6731
+    .line 6739
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     const-string v2, "FUNC_SAVE_SEARCH"
@@ -325,7 +329,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SAVE_SEARCH:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
-    .line 6732
+    .line 6740
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     const-string v9, "FUNC_SAVE_FFT"
@@ -346,7 +350,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SAVE_FFT:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
-    .line 6733
+    .line 6741
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     const-string v2, "FUNC_LOAD_WAV"
@@ -367,7 +371,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_LOAD_WAV:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
-    .line 6734
+    .line 6742
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     const-string v9, "FUNC_LOAD_STP"
@@ -388,7 +392,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_LOAD_STP:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
-    .line 6735
+    .line 6743
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     const-string v2, "FUNC_LOAD_REF"
@@ -409,7 +413,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_LOAD_REF:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
-    .line 6736
+    .line 6744
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     const-string v9, "FUNC_LOAD_MSK"
@@ -430,7 +434,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_LOAD_MSK:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
-    .line 6737
+    .line 6745
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     const-string v2, "FUNC_LOAD_ARB"
@@ -451,7 +455,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_LOAD_ARB:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
-    .line 6738
+    .line 6746
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     const-string v9, "FUNC_LOAD_GEL"
@@ -472,7 +476,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_LOAD_GEL:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
-    .line 6739
+    .line 6747
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     const-string v2, "FUNC_LOAD_ATT"
@@ -493,7 +497,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_LOAD_ATT:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
-    .line 6740
+    .line 6748
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     const-string v9, "FUNC_LOAD_SCR"
@@ -514,7 +518,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_LOAD_SCR:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
-    .line 6741
+    .line 6749
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     const-string v2, "FUNC_SAVE_DDR"
@@ -535,7 +539,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SAVE_DDR:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
-    .line 6742
+    .line 6750
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     const-string v9, "FUNC_LOAD_DDR"
@@ -556,7 +560,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_LOAD_DDR:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
-    .line 6743
+    .line 6751
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     const-string v2, "FUNC_SECURITYCLEAR"
@@ -577,7 +581,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SECURITYCLEAR:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
-    .line 6744
+    .line 6752
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     const-string v9, "FUNC_SAVE_HTML"
@@ -598,7 +602,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SAVE_HTML:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
-    .line 6745
+    .line 6753
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     const-string v2, "FUNC_SAVE_BODE"
@@ -619,7 +623,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SAVE_BODE:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
-    .line 6746
+    .line 6754
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     const-string v9, "FUNC_LOAD_BODE"
@@ -640,7 +644,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_LOAD_BODE:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
-    .line 6747
+    .line 6755
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     const-string v2, "FUNC_LOAD_AFG"
@@ -661,11 +665,53 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_LOAD_AFG:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
-    const/16 v1, 0x1b
+    .line 6756
+    new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
+
+    const-string v9, "FUNC_SAVE_MEASURE"
+
+    const/16 v10, 0x1b
+
+    const/16 v11, 0x1b
+
+    const-string v12, ""
+
+    const-string v13, ""
+
+    const-string v14, ""
+
+    move-object v8, v0
+
+    invoke-direct/range {v8 .. v14}, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;-><init>(Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+
+    sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SAVE_MEASURE:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
+
+    .line 6757
+    new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
+
+    const-string v2, "FUNC_SAVE_HISTO"
+
+    const/16 v3, 0x1c
+
+    const/16 v4, 0x1c
+
+    const-string v5, ""
+
+    const-string v6, ""
+
+    const-string v7, ""
+
+    move-object v1, v0
+
+    invoke-direct/range {v1 .. v7}, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;-><init>(Ljava/lang/String;IILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+
+    sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SAVE_HISTO:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
+
+    const/16 v1, 0x1d
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
-    .line 6719
+    .line 6727
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SAVE_IMG:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     const/4 v3, 0x0
@@ -822,7 +868,19 @@
 
     aput-object v2, v1, v3
 
-    const/16 v2, 0x1a
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_LOAD_AFG:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
+
+    const/16 v3, 0x1a
+
+    aput-object v2, v1, v3
+
+    sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->FUNC_SAVE_MEASURE:Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
+
+    const/16 v3, 0x1b
+
+    aput-object v2, v1, v3
+
+    const/16 v2, 0x1c
 
     aput-object v0, v1, v2
 
@@ -843,19 +901,19 @@
         }
     .end annotation
 
-    .line 6750
+    .line 6760
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 6751
+    .line 6761
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->value1:I
 
-    .line 6752
+    .line 6762
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->value2:Ljava/lang/String;
 
-    .line 6753
+    .line 6763
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->pic1:Ljava/lang/String;
 
-    .line 6754
+    .line 6764
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->pic2:Ljava/lang/String;
 
     return-void
@@ -864,7 +922,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
     .locals 1
 
-    .line 6719
+    .line 6727
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -879,7 +937,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
     .locals 1
 
-    .line 6719
+    .line 6727
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;->clone()Ljava/lang/Object;

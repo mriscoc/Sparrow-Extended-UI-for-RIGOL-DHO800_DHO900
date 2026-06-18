@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityEmailBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a68
+    const v1, 0x7f0a0a74
 
     const/4 v2, 0x2
 
@@ -45,7 +45,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityEmailBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a03c6
+    const v1, 0x7f0a03c8
 
     const/4 v2, 0x3
 
@@ -54,7 +54,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityEmailBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a50
+    const v1, 0x7f0a0a5c
 
     const/4 v2, 0x4
 
@@ -72,7 +72,7 @@
     .line 22
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityEmailBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a03c4
+    const v1, 0x7f0a03c6
 
     const/4 v2, 0x6
 
@@ -81,7 +81,7 @@
     .line 23
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityEmailBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a052b
+    const v1, 0x7f0a052d
 
     const/4 v2, 0x7
 
@@ -90,7 +90,7 @@
     .line 24
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityEmailBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a3e
+    const v1, 0x7f0a0a4a
 
     const/16 v2, 0x8
 
@@ -99,7 +99,7 @@
     .line 25
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityEmailBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a03bf
+    const v1, 0x7f0a03c1
 
     const/16 v2, 0x9
 
@@ -108,7 +108,7 @@
     .line 26
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityEmailBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a3f
+    const v1, 0x7f0a0a4b
 
     const/16 v2, 0xa
 
@@ -117,7 +117,7 @@
     .line 27
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityEmailBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a03c0
+    const v1, 0x7f0a03c2
 
     const/16 v2, 0xb
 
@@ -135,7 +135,7 @@
     .line 29
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityEmailBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a5e
+    const v1, 0x7f0a0a6a
 
     const/16 v2, 0xd
 
@@ -144,7 +144,7 @@
     .line 30
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityEmailBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a03c5
+    const v1, 0x7f0a03c7
 
     const/16 v2, 0xe
 
@@ -153,7 +153,7 @@
     .line 31
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityEmailBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a59
+    const v1, 0x7f0a0a65
 
     const/16 v2, 0xf
 
@@ -162,7 +162,7 @@
     .line 32
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityEmailBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0884
+    const v1, 0x7f0a0890
 
     const/16 v2, 0x10
 
@@ -171,7 +171,7 @@
     .line 33
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityEmailBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a3d
+    const v1, 0x7f0a0a49
 
     const/16 v2, 0x11
 
@@ -180,7 +180,7 @@
     .line 34
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityEmailBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a03be
+    const v1, 0x7f0a03c0
 
     const/16 v2, 0x12
 
@@ -189,7 +189,7 @@
     .line 35
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityEmailBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a36
+    const v1, 0x7f0a0a42
 
     const/16 v2, 0x13
 
@@ -216,7 +216,7 @@
     .line 38
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityEmailBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a37
+    const v1, 0x7f0a0a43
 
     const/16 v2, 0x16
 
@@ -225,7 +225,7 @@
     .line 39
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityEmailBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0ae8
+    const v1, 0x7f0a0af4
 
     const/16 v2, 0x17
 
@@ -234,7 +234,7 @@
     .line 40
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityEmailBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0ae9
+    const v1, 0x7f0a0af5
 
     const/16 v2, 0x18
 

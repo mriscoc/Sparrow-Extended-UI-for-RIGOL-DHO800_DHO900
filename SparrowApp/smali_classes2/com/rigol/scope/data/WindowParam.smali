@@ -189,7 +189,7 @@
     .line 44
     iput p1, p0, Lcom/rigol/scope/data/WindowParam;->serviceID:I
 
-    const/16 p1, 0x32a
+    const/16 p1, 0x32e
 
     .line 45
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/WindowParam;->notifyPropertyChanged(I)V
@@ -207,7 +207,7 @@
     .line 51
     iput-object p1, p0, Lcom/rigol/scope/data/WindowParam;->source1:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x35b
+    const/16 p1, 0x35f
 
     .line 52
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/WindowParam;->notifyPropertyChanged(I)V
@@ -225,7 +225,7 @@
     .line 58
     iput-object p1, p0, Lcom/rigol/scope/data/WindowParam;->source2:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x35c
+    const/16 p1, 0x360
 
     .line 59
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/WindowParam;->notifyPropertyChanged(I)V
@@ -243,7 +243,7 @@
     .line 65
     iput-object p1, p0, Lcom/rigol/scope/data/WindowParam;->source3:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x35d
+    const/16 p1, 0x361
 
     .line 66
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/WindowParam;->notifyPropertyChanged(I)V
@@ -261,7 +261,7 @@
     .line 34
     iput-object p1, p0, Lcom/rigol/scope/data/WindowParam;->type:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
 
-    const/16 p1, 0x3d2
+    const/16 p1, 0x3d6
 
     .line 35
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/WindowParam;->notifyPropertyChanged(I)V

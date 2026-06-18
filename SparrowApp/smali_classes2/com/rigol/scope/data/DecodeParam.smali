@@ -1214,7 +1214,7 @@
 
     move-result v9
 
-    const/16 v12, 0x5908
+    const/16 v12, 0x5b08
 
     invoke-virtual {v8, v9, v12}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
@@ -1292,7 +1292,7 @@
 
     move-result v1
 
-    const/16 v2, 0x5909
+    const/16 v2, 0x5b09
 
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
@@ -1376,7 +1376,7 @@
 
     move-result v9
 
-    const/16 v12, 0x5927
+    const/16 v12, 0x5b27
 
     invoke-virtual {v8, v9, v12}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
@@ -1449,7 +1449,7 @@
 
     move-result v3
 
-    const/16 v6, 0x5928
+    const/16 v6, 0x5b28
 
     invoke-virtual {v2, v3, v6}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
@@ -1533,7 +1533,7 @@
 
     move-result v9
 
-    const/16 v12, 0x5933
+    const/16 v12, 0x5b33
 
     invoke-virtual {v8, v9, v12}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
@@ -1606,7 +1606,7 @@
 
     move-result v3
 
-    const/16 v6, 0x5934    # 3.2E-41f
+    const/16 v6, 0x5b34
 
     invoke-virtual {v2, v3, v6}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
@@ -1690,7 +1690,7 @@
 
     move-result v9
 
-    const/16 v12, 0x5940
+    const/16 v12, 0x5b40
 
     invoke-virtual {v8, v9, v12}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
@@ -1763,7 +1763,7 @@
 
     move-result v9
 
-    const/16 v12, 0x5941
+    const/16 v12, 0x5b41
 
     invoke-virtual {v8, v9, v12}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
@@ -1836,7 +1836,7 @@
 
     move-result v9
 
-    const/16 v12, 0x5942
+    const/16 v12, 0x5b42
 
     invoke-virtual {v8, v9, v12}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
@@ -1909,7 +1909,7 @@
 
     move-result v3
 
-    const/16 v6, 0x593f
+    const/16 v6, 0x5b3f
 
     invoke-virtual {v2, v3, v6}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
@@ -1993,7 +1993,7 @@
 
     move-result v3
 
-    const/16 v6, 0x594a
+    const/16 v6, 0x5b4a
 
     invoke-virtual {v2, v3, v6}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
@@ -2077,7 +2077,7 @@
 
     move-result v3
 
-    const/16 v6, 0x5953
+    const/16 v6, 0x5b53
 
     invoke-virtual {v2, v3, v6}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
@@ -2161,7 +2161,7 @@
 
     move-result v3
 
-    const/16 v6, 0x5959
+    const/16 v6, 0x5b59
 
     invoke-virtual {v2, v3, v6}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
@@ -2245,7 +2245,7 @@
 
     move-result v9
 
-    const/16 v12, 0x5964
+    const/16 v12, 0x5b64
 
     invoke-virtual {v8, v9, v12}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
@@ -2318,7 +2318,7 @@
 
     move-result v9
 
-    const/16 v12, 0x5966
+    const/16 v12, 0x5b66
 
     invoke-virtual {v8, v9, v12}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
@@ -2391,7 +2391,7 @@
 
     move-result v3
 
-    const/16 v6, 0x5965
+    const/16 v6, 0x5b65
 
     invoke-virtual {v2, v3, v6}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
@@ -2475,7 +2475,7 @@
 
     move-result v3
 
-    const/16 v6, 0x5971
+    const/16 v6, 0x5b71
 
     invoke-virtual {v2, v3, v6}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
@@ -2559,7 +2559,7 @@
 
     move-result v3
 
-    const/16 v6, 0x59cf
+    const/16 v6, 0x5bcf
 
     invoke-virtual {v2, v3, v6}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
@@ -2574,7 +2574,7 @@
 
     move-result v7
 
-    const/16 v8, 0x59d0
+    const/16 v8, 0x5bd0
 
     invoke-virtual {v6, v7, v8}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
@@ -2662,7 +2662,7 @@
 
     move-result v3
 
-    const/16 v6, 0x59b9
+    const/16 v6, 0x5bb9
 
     invoke-virtual {v2, v3, v6}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
@@ -2746,7 +2746,7 @@
 
     move-result v3
 
-    const/16 v6, 0x59c3
+    const/16 v6, 0x5bc3
 
     invoke-virtual {v2, v3, v6}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
@@ -2830,7 +2830,7 @@
 
     move-result v9
 
-    const/16 v12, 0x59d7
+    const/16 v12, 0x5bd7
 
     invoke-virtual {v8, v9, v12}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
@@ -2903,7 +2903,7 @@
 
     move-result v9
 
-    const/16 v12, 0x59d8
+    const/16 v12, 0x5bd8
 
     invoke-virtual {v8, v9, v12}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
@@ -2976,7 +2976,7 @@
 
     move-result v3
 
-    const/16 v6, 0x59da
+    const/16 v6, 0x5bda
 
     invoke-virtual {v2, v3, v6}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
@@ -2991,7 +2991,7 @@
 
     move-result v7
 
-    const/16 v8, 0x59db
+    const/16 v8, 0x5bdb
 
     invoke-virtual {v6, v7, v8}, Lcom/rigol/scope/cil/API;->UI_QueryInt64(II)J
 
@@ -5354,7 +5354,7 @@
 .method public readArinc429_baud()V
     .locals 1
 
-    const/16 v0, 0x59d1
+    const/16 v0, 0x5bd1
 
     .line 2925
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -5370,7 +5370,7 @@
 .method public readArinc429_byte_format()V
     .locals 1
 
-    const/16 v0, 0x59d3
+    const/16 v0, 0x5bd3
 
     .line 2965
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -5386,7 +5386,7 @@
 .method public readArinc429_down_thres()V
     .locals 2
 
-    const/16 v0, 0x59d0
+    const/16 v0, 0x5bd0
 
     .line 2905
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readLong(I)J
@@ -5402,7 +5402,7 @@
 .method public readArinc429_singal_type()V
     .locals 1
 
-    const/16 v0, 0x59d2
+    const/16 v0, 0x5bd2
 
     .line 2945
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readBool(I)Z
@@ -5418,7 +5418,7 @@
 .method public readArinc429_source()V
     .locals 1
 
-    const/16 v0, 0x59ce
+    const/16 v0, 0x5bce
 
     .line 2863
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -5434,7 +5434,7 @@
 .method public readArinc429_up_thres()V
     .locals 2
 
-    const/16 v0, 0x59cf
+    const/16 v0, 0x5bcf
 
     .line 2884
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readLong(I)J
@@ -5453,7 +5453,7 @@
     .line 3687
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->arincDownThresAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x59d0
+    const/16 v1, 0x5bd0
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -5466,7 +5466,7 @@
     .line 3683
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->arincUpThresAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x59cf
+    const/16 v1, 0x5bcf
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -5479,7 +5479,7 @@
     .line 1156
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->bus_widthAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x590b
+    const/16 v1, 0x5b0b
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -5489,7 +5489,7 @@
 .method public readBus_Evt()V
     .locals 1
 
-    const/16 v0, 0x591b
+    const/16 v0, 0x5b1b
 
     .line 861
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readBool(I)Z
@@ -5505,7 +5505,7 @@
 .method public readBus_EvtFormat()V
     .locals 1
 
-    const/16 v0, 0x591e
+    const/16 v0, 0x5b1e
 
     .line 1214
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -5521,7 +5521,7 @@
 .method public readBus_EvtView()V
     .locals 1
 
-    const/16 v0, 0x5920
+    const/16 v0, 0x5b20
 
     .line 1242
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -5537,7 +5537,7 @@
 .method public readBus_Format()V
     .locals 1
 
-    const/16 v0, 0x5917
+    const/16 v0, 0x5b17
 
     .line 926
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -5553,7 +5553,7 @@
 .method public readBus_Label()V
     .locals 1
 
-    const/16 v0, 0x5919
+    const/16 v0, 0x5b19
 
     .line 948
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readBool(I)Z
@@ -5569,7 +5569,7 @@
 .method public readBus_ONOFF()V
     .locals 1
 
-    const/16 v0, 0x5902
+    const/16 v0, 0x5b02
 
     .line 840
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readBool(I)Z
@@ -5585,7 +5585,7 @@
 .method public readBus_Pos()V
     .locals 1
 
-    const/16 v0, 0x5918
+    const/16 v0, 0x5b18
 
     .line 796
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -5604,7 +5604,7 @@
     .line 3715
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->canBaudAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x5954
+    const/16 v1, 0x5b54
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -5617,7 +5617,7 @@
     .line 3719
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->canFdBaudAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x5955
+    const/16 v1, 0x5b55
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -5630,7 +5630,7 @@
     .line 3647
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->canFdSamplePosAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x5957
+    const/16 v1, 0x5b57
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -5643,7 +5643,7 @@
     .line 3643
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->canSamplePosAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x5956
+    const/16 v1, 0x5b56
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -5656,7 +5656,7 @@
     .line 3639
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->canThresAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x5953
+    const/16 v1, 0x5b53
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -5666,7 +5666,7 @@
 .method public readCan_baud()V
     .locals 1
 
-    const/16 v0, 0x5954
+    const/16 v0, 0x5b54
 
     .line 2095
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -5682,7 +5682,7 @@
 .method public readCan_fd_baud()V
     .locals 1
 
-    const/16 v0, 0x5955
+    const/16 v0, 0x5b55
 
     .line 2115
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -5698,7 +5698,7 @@
 .method public readCan_fd_samp()V
     .locals 2
 
-    const/16 v0, 0x5957
+    const/16 v0, 0x5b57
 
     .line 2135
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -5716,7 +5716,7 @@
 .method public readCan_samp()V
     .locals 2
 
-    const/16 v0, 0x5956
+    const/16 v0, 0x5b56
 
     .line 757
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -5734,7 +5734,7 @@
 .method public readCan_singal()V
     .locals 1
 
-    const/16 v0, 0x5950
+    const/16 v0, 0x5b50
 
     .line 737
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -5750,7 +5750,7 @@
 .method public readCan_source()V
     .locals 1
 
-    const/16 v0, 0x5952
+    const/16 v0, 0x5b52
 
     .line 2054
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -5766,7 +5766,7 @@
 .method public readCan_threas()V
     .locals 2
 
-    const/16 v0, 0x5953
+    const/16 v0, 0x5b53
 
     .line 2075
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readLong(I)J
@@ -5785,7 +5785,7 @@
     .line 3655
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->flexSamplePosAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x595c
+    const/16 v1, 0x5b5c
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -5798,7 +5798,7 @@
     .line 3651
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->flexThresAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x5959
+    const/16 v1, 0x5b59
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -5808,7 +5808,7 @@
 .method public readFlex_baud()V
     .locals 1
 
-    const/16 v0, 0x595a
+    const/16 v0, 0x5b5a
 
     .line 2196
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -5824,7 +5824,7 @@
 .method public readFlex_channel()V
     .locals 1
 
-    const/16 v0, 0x595e
+    const/16 v0, 0x5b5e
 
     .line 2236
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readBool(I)Z
@@ -5840,7 +5840,7 @@
 .method public readFlex_samp()V
     .locals 2
 
-    const/16 v0, 0x595c
+    const/16 v0, 0x5b5c
 
     .line 2256
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -5858,7 +5858,7 @@
 .method public readFlex_signal()V
     .locals 1
 
-    const/16 v0, 0x595d
+    const/16 v0, 0x5b5d
 
     .line 2216
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -5874,7 +5874,7 @@
 .method public readFlex_source()V
     .locals 1
 
-    const/16 v0, 0x5958
+    const/16 v0, 0x5b58
 
     .line 2155
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -5890,7 +5890,7 @@
 .method public readFlex_thres()V
     .locals 2
 
-    const/16 v0, 0x5959
+    const/16 v0, 0x5b59
 
     .line 2176
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readLong(I)J
@@ -5909,7 +5909,7 @@
     .line 3603
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->i2cClkThresAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x5933
+    const/16 v1, 0x5b33
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -5922,7 +5922,7 @@
     .line 3607
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->i2cDataThresAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x5934    # 3.2E-41f
+    const/16 v1, 0x5b34
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -5932,7 +5932,7 @@
 .method public readI2c_exchange()V
     .locals 1
 
-    const/16 v0, 0x5935
+    const/16 v0, 0x5b35
 
     .line 1588
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readBool(I)Z
@@ -5948,7 +5948,7 @@
 .method public readI2c_read_write()V
     .locals 1
 
-    const/16 v0, 0x5936
+    const/16 v0, 0x5b36
 
     .line 1608
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readBool(I)Z
@@ -5964,7 +5964,7 @@
 .method public readI2c_scl()V
     .locals 1
 
-    const/16 v0, 0x5931
+    const/16 v0, 0x5b31
 
     .line 1506
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -5980,7 +5980,7 @@
 .method public readI2c_scl_thres()V
     .locals 2
 
-    const/16 v0, 0x5933
+    const/16 v0, 0x5b33
 
     .line 1547
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readLong(I)J
@@ -5996,7 +5996,7 @@
 .method public readI2c_sda()V
     .locals 1
 
-    const/16 v0, 0x5932
+    const/16 v0, 0x5b32
 
     .line 1526
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -6012,7 +6012,7 @@
 .method public readI2c_sda_thres()V
     .locals 2
 
-    const/16 v0, 0x5934    # 3.2E-41f
+    const/16 v0, 0x5b34
 
     .line 1568
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readLong(I)J
@@ -6031,7 +6031,7 @@
     .line 3667
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->i2sDataThresAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x5965
+    const/16 v1, 0x5b65
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -6044,7 +6044,7 @@
     .line 3675
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->i2sReceiveValueAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x5969
+    const/16 v1, 0x5b69
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -6057,7 +6057,7 @@
     .line 3659
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->i2sSclkThresAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x5964
+    const/16 v1, 0x5b64
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -6070,7 +6070,7 @@
     .line 3671
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->i2sWordValueAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x5968
+    const/16 v1, 0x5b68
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -6083,7 +6083,7 @@
     .line 3663
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->i2sWsThresAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x5966
+    const/16 v1, 0x5b66
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -6093,7 +6093,7 @@
 .method public readI2s_align()V
     .locals 1
 
-    const/16 v0, 0x596a
+    const/16 v0, 0x5b6a
 
     .line 2459
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -6109,7 +6109,7 @@
 .method public readI2s_data()V
     .locals 1
 
-    const/16 v0, 0x5963
+    const/16 v0, 0x5b63
 
     .line 2316
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -6125,7 +6125,7 @@
 .method public readI2s_data_polarity()V
     .locals 1
 
-    const/16 v0, 0x596d
+    const/16 v0, 0x5b6d
 
     .line 2519
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readBool(I)Z
@@ -6141,7 +6141,7 @@
 .method public readI2s_data_thres()V
     .locals 2
 
-    const/16 v0, 0x5965
+    const/16 v0, 0x5b65
 
     .line 2379
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readLong(I)J
@@ -6157,7 +6157,7 @@
 .method public readI2s_endian()V
     .locals 1
 
-    const/16 v0, 0x596c
+    const/16 v0, 0x5b6c
 
     .line 2499
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readBool(I)Z
@@ -6173,7 +6173,7 @@
 .method public readI2s_receive()V
     .locals 2
 
-    const/16 v0, 0x5969
+    const/16 v0, 0x5b69
 
     .line 2439
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -6191,7 +6191,7 @@
 .method public readI2s_sclock()V
     .locals 1
 
-    const/16 v0, 0x5961
+    const/16 v0, 0x5b61
 
     .line 2276
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -6207,7 +6207,7 @@
 .method public readI2s_sclock_edge()V
     .locals 1
 
-    const/16 v0, 0x5967
+    const/16 v0, 0x5b67
 
     .line 2399
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readBool(I)Z
@@ -6225,7 +6225,7 @@
 .method public readI2s_sclock_thres()V
     .locals 2
 
-    const/16 v0, 0x5964
+    const/16 v0, 0x5b64
 
     .line 2337
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readLong(I)J
@@ -6241,7 +6241,7 @@
 .method public readI2s_wave_singal_thres()V
     .locals 2
 
-    const/16 v0, 0x5966
+    const/16 v0, 0x5b66
 
     .line 2358
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readLong(I)J
@@ -6257,7 +6257,7 @@
 .method public readI2s_word()V
     .locals 2
 
-    const/16 v0, 0x5968
+    const/16 v0, 0x5b68
 
     .line 2419
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -6275,7 +6275,7 @@
 .method public readI2s_ws()V
     .locals 1
 
-    const/16 v0, 0x5962
+    const/16 v0, 0x5b62
 
     .line 2296
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -6291,7 +6291,7 @@
 .method public readI2s_ws_low()V
     .locals 1
 
-    const/16 v0, 0x596b
+    const/16 v0, 0x5b6b
 
     .line 2479
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -6310,7 +6310,7 @@
     .line 3723
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->linBaudAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x594c
+    const/16 v1, 0x5b4c
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -6323,7 +6323,7 @@
     .line 3635
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->linThresAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x594a
+    const/16 v1, 0x5b4a
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -6333,7 +6333,7 @@
 .method public readLin_baud()V
     .locals 1
 
-    const/16 v0, 0x594c
+    const/16 v0, 0x5b4c
 
     .line 1974
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -6349,7 +6349,7 @@
 .method public readLin_parity_bit()V
     .locals 1
 
-    const/16 v0, 0x594f
+    const/16 v0, 0x5b4f
 
     .line 2034
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readBool(I)Z
@@ -6365,7 +6365,7 @@
 .method public readLin_polarity()V
     .locals 1
 
-    const/16 v0, 0x594d
+    const/16 v0, 0x5b4d
 
     .line 1994
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readBool(I)Z
@@ -6381,7 +6381,7 @@
 .method public readLin_source()V
     .locals 1
 
-    const/16 v0, 0x5949
+    const/16 v0, 0x5b49
 
     .line 1933
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -6397,7 +6397,7 @@
 .method public readLin_thres()V
     .locals 2
 
-    const/16 v0, 0x594a
+    const/16 v0, 0x5b4a
 
     .line 1954
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readLong(I)J
@@ -6413,7 +6413,7 @@
 .method public readLin_version()V
     .locals 1
 
-    const/16 v0, 0x594e
+    const/16 v0, 0x5b4e
 
     .line 2014
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -6432,7 +6432,7 @@
     .line 3679
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->milstdThres1Attr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x5971
+    const/16 v1, 0x5b71
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -6445,7 +6445,7 @@
     .line 3707
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->mostThresAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x59c3
+    const/16 v1, 0x5bc3
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -6455,7 +6455,7 @@
 .method public readMost_signal_type()V
     .locals 1
 
-    const/16 v0, 0x59c4
+    const/16 v0, 0x5bc4
 
     .line 2843
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -6471,7 +6471,7 @@
 .method public readMost_source()V
     .locals 1
 
-    const/16 v0, 0x59c2
+    const/16 v0, 0x5bc2
 
     .line 2802
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -6487,7 +6487,7 @@
 .method public readMost_thres()V
     .locals 2
 
-    const/16 v0, 0x59c3
+    const/16 v0, 0x5bc3
 
     .line 2823
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readLong(I)J
@@ -6506,7 +6506,7 @@
     .line 3579
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->palBusThresAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x5909
+    const/16 v1, 0x5b09
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -6516,7 +6516,7 @@
 .method public readPalBus_bitx()V
     .locals 1
 
-    const/16 v0, 0x590c
+    const/16 v0, 0x5b0c
 
     .line 1150
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -6532,7 +6532,7 @@
 .method public readPalBus_chan()V
     .locals 1
 
-    const/16 v0, 0x590d
+    const/16 v0, 0x5b0d
 
     .line 1177
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -6548,7 +6548,7 @@
 .method public readPalBus_width()I
     .locals 1
 
-    const/16 v0, 0x590b
+    const/16 v0, 0x5b0b
 
     .line 1128
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -6567,7 +6567,7 @@
     .line 3575
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->palClkThresAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x5908
+    const/16 v1, 0x5b08
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -6577,7 +6577,7 @@
 .method public readPal_Clk()V
     .locals 1
 
-    const/16 v0, 0x5905
+    const/16 v0, 0x5b05
 
     .line 996
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -6593,7 +6593,7 @@
 .method public readPal_ClkEdge()V
     .locals 1
 
-    const/16 v0, 0x5906
+    const/16 v0, 0x5b06
 
     .line 1016
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -6609,7 +6609,7 @@
 .method public readPal_Endian()V
     .locals 1
 
-    const/16 v0, 0x590f
+    const/16 v0, 0x5b0f
 
     .line 1107
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readBool(I)Z
@@ -6625,7 +6625,7 @@
 .method public readPal_Nrj()V
     .locals 1
 
-    const/16 v0, 0x590e
+    const/16 v0, 0x5b0e
 
     .line 881
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readBool(I)Z
@@ -6641,7 +6641,7 @@
 .method public readPal_NrjTime()V
     .locals 2
 
-    const/16 v0, 0x5911
+    const/16 v0, 0x5b11
 
     .line 901
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readLong(I)J
@@ -6657,7 +6657,7 @@
 .method public readPal_Polarity()V
     .locals 1
 
-    const/16 v0, 0x5913
+    const/16 v0, 0x5b13
 
     .line 163
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readBool(I)Z
@@ -6673,7 +6673,7 @@
 .method public readPal_bus()V
     .locals 2
 
-    const/16 v0, 0x590a
+    const/16 v0, 0x5b0a
 
     .line 1081
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -6712,7 +6712,7 @@
 .method public readPal_clk_thres()V
     .locals 2
 
-    const/16 v0, 0x5908
+    const/16 v0, 0x5b08
 
     .line 1037
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readLong(I)J
@@ -6728,7 +6728,7 @@
 .method public readPal_dat_thres()V
     .locals 2
 
-    const/16 v0, 0x5909
+    const/16 v0, 0x5b09
 
     .line 1058
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readLong(I)J
@@ -6744,7 +6744,7 @@
 .method public readRate()V
     .locals 2
 
-    const/16 v0, 0x59dc
+    const/16 v0, 0x5bdc
 
     .line 3124
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readLong(I)J
@@ -6760,7 +6760,7 @@
 .method public readRejectTime()V
     .locals 2
 
-    const/16 v0, 0x5911
+    const/16 v0, 0x5b11
 
     .line 906
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readLong(I)J
@@ -6779,7 +6779,7 @@
     .line 3583
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->rejectTimeAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x5911
+    const/16 v1, 0x5b11
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -6792,7 +6792,7 @@
     .line 3711
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->rs232BaudAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x5921
+    const/16 v1, 0x5b21
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -6802,7 +6802,7 @@
 .method public readRs232_baud()V
     .locals 1
 
-    const/16 v0, 0x5921
+    const/16 v0, 0x5b21
 
     .line 1262
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -6818,7 +6818,7 @@
 .method public readRs232_endian()V
     .locals 1
 
-    const/16 v0, 0x592e
+    const/16 v0, 0x5b2e
 
     .line 1466
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readBool(I)Z
@@ -6834,7 +6834,7 @@
 .method public readRs232_package()V
     .locals 1
 
-    const/16 v0, 0x592d
+    const/16 v0, 0x5b2d
 
     .line 1446
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readBool(I)Z
@@ -6850,7 +6850,7 @@
 .method public readRs232_package_end()V
     .locals 1
 
-    const/16 v0, 0x592f
+    const/16 v0, 0x5b2f
 
     .line 1486
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -6866,7 +6866,7 @@
 .method public readRs232_parity()V
     .locals 1
 
-    const/16 v0, 0x592c
+    const/16 v0, 0x5b2c
 
     .line 1426
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -6882,7 +6882,7 @@
 .method public readRs232_pol()V
     .locals 1
 
-    const/16 v0, 0x5929
+    const/16 v0, 0x5b29
 
     .line 1366
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readBool(I)Z
@@ -6898,7 +6898,7 @@
 .method public readRs232_rx()V
     .locals 1
 
-    const/16 v0, 0x5926
+    const/16 v0, 0x5b26
 
     .line 1304
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -6914,7 +6914,7 @@
 .method public readRs232_rx_thres()V
     .locals 2
 
-    const/16 v0, 0x5928
+    const/16 v0, 0x5b28
 
     .line 1346
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readLong(I)J
@@ -6930,7 +6930,7 @@
 .method public readRs232_stop()V
     .locals 1
 
-    const/16 v0, 0x592b
+    const/16 v0, 0x5b2b
 
     .line 1406
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -6946,7 +6946,7 @@
 .method public readRs232_tx()V
     .locals 1
 
-    const/16 v0, 0x5925
+    const/16 v0, 0x5b25
 
     .line 1283
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -6962,7 +6962,7 @@
 .method public readRs232_tx_thres()V
     .locals 2
 
-    const/16 v0, 0x5927
+    const/16 v0, 0x5b27
 
     .line 1325
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readLong(I)J
@@ -6978,7 +6978,7 @@
 .method public readRs232_width()V
     .locals 1
 
-    const/16 v0, 0x592a
+    const/16 v0, 0x5b2a
 
     .line 1386
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -6997,7 +6997,7 @@
     .line 3731
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->rxThresAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x5928
+    const/16 v1, 0x5b28
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -7010,7 +7010,7 @@
     .line 3703
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->sentNibbnumAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x59b4
+    const/16 v1, 0x5bb4
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -7023,7 +7023,7 @@
     .line 3691
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->sentThresAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x59b9
+    const/16 v1, 0x5bb9
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -7036,7 +7036,7 @@
     .line 3695
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->sentTickAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x59af
+    const/16 v1, 0x5baf
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -7049,7 +7049,7 @@
     .line 3699
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->sentToleranceAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x59b5
+    const/16 v1, 0x5bb5
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -7059,7 +7059,7 @@
 .method public readSent_crc_format()V
     .locals 1
 
-    const/16 v0, 0x59b7
+    const/16 v0, 0x5bb7
 
     .line 2741
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -7075,7 +7075,7 @@
 .method public readSent_idle_state()V
     .locals 1
 
-    const/16 v0, 0x59b6
+    const/16 v0, 0x5bb6
 
     .line 2721
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -7091,7 +7091,7 @@
 .method public readSent_nibbnum()V
     .locals 2
 
-    const/16 v0, 0x59b4
+    const/16 v0, 0x5bb4
 
     .line 2641
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readLong(I)J
@@ -7107,7 +7107,7 @@
 .method public readSent_pause_plus()V
     .locals 1
 
-    const/16 v0, 0x59b8
+    const/16 v0, 0x5bb8
 
     .line 2761
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -7123,7 +7123,7 @@
 .method public readSent_signal_type()V
     .locals 1
 
-    const/16 v0, 0x59b0
+    const/16 v0, 0x5bb0
 
     .line 2661
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -7139,7 +7139,7 @@
 .method public readSent_source()V
     .locals 1
 
-    const/16 v0, 0x59b3
+    const/16 v0, 0x5bb3
 
     .line 2701
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -7155,7 +7155,7 @@
 .method public readSent_thres()V
     .locals 2
 
-    const/16 v0, 0x59b9
+    const/16 v0, 0x5bb9
 
     .line 2782
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readLong(I)J
@@ -7171,7 +7171,7 @@
 .method public readSent_tick()V
     .locals 2
 
-    const/16 v0, 0x59af
+    const/16 v0, 0x5baf
 
     .line 2681
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readLong(I)J
@@ -7187,7 +7187,7 @@
 .method public readSent_tolerance()V
     .locals 2
 
-    const/16 v0, 0x59b5
+    const/16 v0, 0x5bb5
 
     .line 2621
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readLong(I)J
@@ -7206,7 +7206,7 @@
     .line 3611
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->spiClkThresAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x5940
+    const/16 v1, 0x5b40
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -7219,7 +7219,7 @@
     .line 3623
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->spiCsThresAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x593f
+    const/16 v1, 0x5b3f
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -7232,7 +7232,7 @@
     .line 3615
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->spiMisoThresAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x5941
+    const/16 v1, 0x5b41
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -7245,7 +7245,7 @@
     .line 3619
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->spiMosiThresAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x5942
+    const/16 v1, 0x5b42
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -7258,7 +7258,7 @@
     .line 3631
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->spiTimeoutAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x5946
+    const/16 v1, 0x5b46
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -7271,7 +7271,7 @@
     .line 3627
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->spiWidthAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x5947
+    const/16 v1, 0x5b47
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -7281,7 +7281,7 @@
 .method public readSpi_clock()V
     .locals 1
 
-    const/16 v0, 0x593c
+    const/16 v0, 0x5b3c
 
     .line 1668
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -7297,7 +7297,7 @@
 .method public readSpi_clock_edge()V
     .locals 1
 
-    const/16 v0, 0x5943
+    const/16 v0, 0x5b43
 
     .line 1813
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readBool(I)Z
@@ -7313,7 +7313,7 @@
 .method public readSpi_clock_thres()V
     .locals 2
 
-    const/16 v0, 0x5940
+    const/16 v0, 0x5b40
 
     .line 1751
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readLong(I)J
@@ -7329,7 +7329,7 @@
 .method public readSpi_cs()V
     .locals 1
 
-    const/16 v0, 0x593b
+    const/16 v0, 0x5b3b
 
     .line 1628
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -7345,7 +7345,7 @@
 .method public readSpi_cs_polarity()V
     .locals 1
 
-    const/16 v0, 0x5945
+    const/16 v0, 0x5b45
 
     .line 1853
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readBool(I)Z
@@ -7361,7 +7361,7 @@
 .method public readSpi_cs_thres()V
     .locals 2
 
-    const/16 v0, 0x593f
+    const/16 v0, 0x5b3f
 
     .line 1730
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readLong(I)J
@@ -7377,7 +7377,7 @@
 .method public readSpi_data_polarity()V
     .locals 1
 
-    const/16 v0, 0x5944
+    const/16 v0, 0x5b44
 
     .line 1833
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readBool(I)Z
@@ -7393,7 +7393,7 @@
 .method public readSpi_endian()V
     .locals 1
 
-    const/16 v0, 0x5948
+    const/16 v0, 0x5b48
 
     .line 1913
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readBool(I)Z
@@ -7409,7 +7409,7 @@
 .method public readSpi_miso()V
     .locals 1
 
-    const/16 v0, 0x593d
+    const/16 v0, 0x5b3d
 
     .line 1689
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -7425,7 +7425,7 @@
 .method public readSpi_miso_thres()V
     .locals 2
 
-    const/16 v0, 0x5941
+    const/16 v0, 0x5b41
 
     .line 1772
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readLong(I)J
@@ -7441,7 +7441,7 @@
 .method public readSpi_mode()V
     .locals 1
 
-    const/16 v0, 0x593a
+    const/16 v0, 0x5b3a
 
     .line 1648
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readBool(I)Z
@@ -7457,7 +7457,7 @@
 .method public readSpi_mosi()V
     .locals 1
 
-    const/16 v0, 0x593e
+    const/16 v0, 0x5b3e
 
     .line 1709
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -7473,7 +7473,7 @@
 .method public readSpi_mosi_thres()V
     .locals 2
 
-    const/16 v0, 0x5942
+    const/16 v0, 0x5b42
 
     .line 1793
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readLong(I)J
@@ -7489,7 +7489,7 @@
 .method public readSpi_timeout()V
     .locals 2
 
-    const/16 v0, 0x5946
+    const/16 v0, 0x5b46
 
     .line 1873
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readLong(I)J
@@ -7505,7 +7505,7 @@
 .method public readSpi_width()V
     .locals 2
 
-    const/16 v0, 0x5947
+    const/16 v0, 0x5b47
 
     .line 1893
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -7526,7 +7526,7 @@
     .line 3727
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->txThresAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x5927
+    const/16 v1, 0x5b27
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -7536,7 +7536,7 @@
 .method public readType()V
     .locals 1
 
-    const/16 v0, 0x5901
+    const/16 v0, 0x5b01
 
     .line 817
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -7559,7 +7559,7 @@
     .line 3595
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->usbDiffHthresAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x59da
+    const/16 v1, 0x5bda
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -7572,7 +7572,7 @@
     .line 3599
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->usbDiffLthresAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x59db
+    const/16 v1, 0x5bdb
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -7585,7 +7585,7 @@
     .line 3587
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->usbDpThresAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x59d7
+    const/16 v1, 0x5bd7
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -7598,7 +7598,7 @@
     .line 3591
     iget-object v0, p0, Lcom/rigol/scope/data/DecodeParam;->usbDsThresAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x59d8
+    const/16 v1, 0x5bd8
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -7608,7 +7608,7 @@
 .method public readUsb_diff()V
     .locals 1
 
-    const/16 v0, 0x59d9
+    const/16 v0, 0x5bd9
 
     .line 3062
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -7624,7 +7624,7 @@
 .method public readUsb_diff_high_thres()V
     .locals 2
 
-    const/16 v0, 0x59da
+    const/16 v0, 0x5bda
 
     .line 3082
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readLong(I)J
@@ -7640,7 +7640,7 @@
 .method public readUsb_diff_low_thres()V
     .locals 2
 
-    const/16 v0, 0x59db
+    const/16 v0, 0x5bdb
 
     .line 3103
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readLong(I)J
@@ -7656,7 +7656,7 @@
 .method public readUsb_dp()V
     .locals 1
 
-    const/16 v0, 0x59d5
+    const/16 v0, 0x5bd5
 
     .line 2980
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -7672,7 +7672,7 @@
 .method public readUsb_dp_thres()V
     .locals 2
 
-    const/16 v0, 0x59d7
+    const/16 v0, 0x5bd7
 
     .line 3020
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readLong(I)J
@@ -7688,7 +7688,7 @@
 .method public readUsb_ds()V
     .locals 1
 
-    const/16 v0, 0x59d6
+    const/16 v0, 0x5bd6
 
     .line 3000
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -7704,7 +7704,7 @@
 .method public readUsb_ds_thres()V
     .locals 2
 
-    const/16 v0, 0x59d8
+    const/16 v0, 0x5bd8
 
     .line 3041
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readLong(I)J
@@ -7720,7 +7720,7 @@
 .method public read_1553b_polarity()V
     .locals 1
 
-    const/16 v0, 0x5970
+    const/16 v0, 0x5b70
 
     .line 2559
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readBool(I)Z
@@ -7736,7 +7736,7 @@
 .method public read_1553b_source()V
     .locals 1
 
-    const/16 v0, 0x596f
+    const/16 v0, 0x5b6f
 
     .line 2539
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readInt(I)I
@@ -7752,7 +7752,7 @@
 .method public read_1553b_thres1()V
     .locals 2
 
-    const/16 v0, 0x5971
+    const/16 v0, 0x5b71
 
     .line 2580
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readLong(I)J
@@ -7768,7 +7768,7 @@
 .method public read_1553b_thres2()V
     .locals 2
 
-    const/16 v0, 0x5972
+    const/16 v0, 0x5b72
 
     .line 2601
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->readLong(I)J
@@ -7812,7 +7812,7 @@
     .line 2920
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setArinc429_baud(I)V
 
-    const/16 v0, 0x59d1
+    const/16 v0, 0x5bd1
 
     .line 2921
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -7826,7 +7826,7 @@
     .line 2960
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setArinc429_byte_format(I)V
 
-    const/16 v0, 0x59d3
+    const/16 v0, 0x5bd3
 
     .line 2961
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -7840,7 +7840,7 @@
     .line 2899
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setArinc429_down_thres(J)V
 
-    const/16 v0, 0x59d0
+    const/16 v0, 0x5bd0
 
     .line 2900
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -7861,7 +7861,7 @@
     .line 2940
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setArinc429_singal_type(I)V
 
-    const/16 v0, 0x59d2
+    const/16 v0, 0x5bd2
 
     .line 2941
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -7875,7 +7875,7 @@
     .line 2858
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setArinc429_source(I)V
 
-    const/16 v0, 0x59ce
+    const/16 v0, 0x5bce
 
     .line 2859
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -7889,7 +7889,7 @@
     .line 2878
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setArinc429_up_thres(J)V
 
-    const/16 v0, 0x59cf
+    const/16 v0, 0x5bcf
 
     .line 2879
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -7910,7 +7910,7 @@
     .line 1145
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setBus_bitx(I)V
 
-    const/16 v0, 0x590c
+    const/16 v0, 0x5b0c
 
     .line 1146
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -7924,7 +7924,7 @@
     .line 1172
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setBus_chan(I)V
 
-    const/16 v0, 0x590d
+    const/16 v0, 0x5b0d
 
     .line 1173
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -7947,7 +7947,7 @@
     .line 1123
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setBus_width(I)V
 
-    const/16 v0, 0x590b
+    const/16 v0, 0x5b0b
 
     .line 1124
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -7961,7 +7961,7 @@
     .line 2090
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setCan_baud(I)V
 
-    const/16 v0, 0x5954
+    const/16 v0, 0x5b54
 
     .line 2091
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -7975,7 +7975,7 @@
     .line 2110
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setCan_fd_baud(I)V
 
-    const/16 v0, 0x5955
+    const/16 v0, 0x5b55
 
     .line 2111
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -7989,7 +7989,7 @@
     .line 2130
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setCan_fd_samp(J)V
 
-    const/16 v0, 0x5957
+    const/16 v0, 0x5b57
 
     .line 2131
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -8003,7 +8003,7 @@
     .line 752
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setCan_samp(J)V
 
-    const/16 v0, 0x5956
+    const/16 v0, 0x5b56
 
     .line 753
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -8017,7 +8017,7 @@
     .line 732
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setCan_singal(I)V
 
-    const/16 v0, 0x5950
+    const/16 v0, 0x5b50
 
     .line 733
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -8031,7 +8031,7 @@
     .line 2049
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setCan_source(I)V
 
-    const/16 v0, 0x5952
+    const/16 v0, 0x5b52
 
     .line 2050
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -8045,7 +8045,7 @@
     .line 2069
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setCan_threas(J)V
 
-    const/16 v0, 0x5953
+    const/16 v0, 0x5b53
 
     .line 2070
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -8066,7 +8066,7 @@
     .line 692
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->display:Z
 
-    const/16 v0, 0x5916
+    const/16 v0, 0x5b16
 
     .line 693
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveBool(IZ)I
@@ -8080,7 +8080,7 @@
     .line 856
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setEvent(Z)V
 
-    const/16 v0, 0x591b
+    const/16 v0, 0x5b1b
 
     .line 857
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveBool(IZ)I
@@ -8103,7 +8103,7 @@
     .line 1209
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setEvent_format(I)V
 
-    const/16 v0, 0x591e
+    const/16 v0, 0x5b1e
 
     .line 1210
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -8126,7 +8126,7 @@
     .line 1237
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setEvent_view(I)V
 
-    const/16 v0, 0x5920
+    const/16 v0, 0x5b20
 
     .line 1238
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -8140,7 +8140,7 @@
     .line 2191
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setFlex_baud(I)V
 
-    const/16 v0, 0x595a
+    const/16 v0, 0x5b5a
 
     .line 2192
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -8154,7 +8154,7 @@
     .line 2231
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setFlex_channel(Z)V
 
-    const/16 v0, 0x595e
+    const/16 v0, 0x5b5e
 
     .line 2232
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveBool(IZ)I
@@ -8168,7 +8168,7 @@
     .line 2251
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setFlex_samp(J)V
 
-    const/16 v0, 0x595c
+    const/16 v0, 0x5b5c
 
     .line 2252
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -8182,7 +8182,7 @@
     .line 2211
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setFlex_signal(I)V
 
-    const/16 v0, 0x595d
+    const/16 v0, 0x5b5d
 
     .line 2212
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -8193,7 +8193,7 @@
 .method public saveFlex_source(I)V
     .locals 1
 
-    const/16 v0, 0x5958
+    const/16 v0, 0x5b58
 
     .line 2151
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -8207,7 +8207,7 @@
     .line 2170
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setFlex_thres(J)V
 
-    const/16 v0, 0x5959
+    const/16 v0, 0x5b59
 
     .line 2171
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -8228,7 +8228,7 @@
     .line 921
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setFormat(I)V
 
-    const/16 v0, 0x5917
+    const/16 v0, 0x5b17
 
     .line 922
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -8242,7 +8242,7 @@
     .line 1583
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setI2c_exchange(Z)V
 
-    const/16 v0, 0x5935
+    const/16 v0, 0x5b35
 
     .line 1584
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveBool(IZ)I
@@ -8256,7 +8256,7 @@
     .line 1603
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setI2c_read_write(Z)V
 
-    const/16 v0, 0x5936
+    const/16 v0, 0x5b36
 
     .line 1604
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveBool(IZ)I
@@ -8270,7 +8270,7 @@
     .line 1501
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setI2c_scl(I)V
 
-    const/16 v0, 0x5931
+    const/16 v0, 0x5b31
 
     .line 1502
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -8284,7 +8284,7 @@
     .line 1541
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setI2c_scl_thres(J)V
 
-    const/16 v0, 0x5933
+    const/16 v0, 0x5b33
 
     .line 1542
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -8305,7 +8305,7 @@
     .line 1521
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setI2c_sda(I)V
 
-    const/16 v0, 0x5932
+    const/16 v0, 0x5b32
 
     .line 1522
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -8319,7 +8319,7 @@
     .line 1562
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setI2c_sda_thres(J)V
 
-    const/16 v0, 0x5934    # 3.2E-41f
+    const/16 v0, 0x5b34
 
     .line 1563
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -8340,7 +8340,7 @@
     .line 2454
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setI2s_align(I)V
 
-    const/16 v0, 0x596a
+    const/16 v0, 0x5b6a
 
     .line 2455
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -8354,7 +8354,7 @@
     .line 2311
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setI2s_data(I)V
 
-    const/16 v0, 0x5963
+    const/16 v0, 0x5b63
 
     .line 2312
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -8368,7 +8368,7 @@
     .line 2514
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setI2s_data_polarity(Z)V
 
-    const/16 v0, 0x596d
+    const/16 v0, 0x5b6d
 
     .line 2515
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveBool(IZ)I
@@ -8382,7 +8382,7 @@
     .line 2373
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setI2s_data_thres(J)V
 
-    const/16 v0, 0x5965
+    const/16 v0, 0x5b65
 
     .line 2374
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -8403,7 +8403,7 @@
     .line 2494
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setI2s_endian(Z)V
 
-    const/16 v0, 0x596c
+    const/16 v0, 0x5b6c
 
     .line 2495
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveBool(IZ)I
@@ -8417,7 +8417,7 @@
     .line 2434
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setI2s_receive(J)V
 
-    const/16 v0, 0x5969
+    const/16 v0, 0x5b69
 
     .line 2435
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -8431,7 +8431,7 @@
     .line 2271
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setI2s_sclock(I)V
 
-    const/16 v0, 0x5961
+    const/16 v0, 0x5b61
 
     .line 2272
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -8455,7 +8455,7 @@
     const/4 p1, 0x0
 
     :goto_0
-    const/16 v0, 0x5967
+    const/16 v0, 0x5b67
 
     .line 2395
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveBool(IZ)I
@@ -8469,7 +8469,7 @@
     .line 2331
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setI2s_sclock_thres(J)V
 
-    const/16 v0, 0x5964
+    const/16 v0, 0x5b64
 
     .line 2332
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -8490,7 +8490,7 @@
     .line 2352
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setI2s_wave_singal_thres(J)V
 
-    const/16 v0, 0x5966
+    const/16 v0, 0x5b66
 
     .line 2353
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -8511,7 +8511,7 @@
     .line 2414
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setI2s_word(J)V
 
-    const/16 v0, 0x5968
+    const/16 v0, 0x5b68
 
     .line 2415
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -8525,7 +8525,7 @@
     .line 2291
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setI2s_ws(I)V
 
-    const/16 v0, 0x5962
+    const/16 v0, 0x5b62
 
     .line 2292
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -8539,7 +8539,7 @@
     .line 2474
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setI2s_ws_low(I)V
 
-    const/16 v0, 0x596b
+    const/16 v0, 0x5b6b
 
     .line 2475
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -8553,7 +8553,7 @@
     .line 943
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setLabel(Z)V
 
-    const/16 v0, 0x5919
+    const/16 v0, 0x5b19
 
     .line 944
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveBool(IZ)I
@@ -8567,7 +8567,7 @@
     .line 1969
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setLin_baud(I)V
 
-    const/16 v0, 0x594c
+    const/16 v0, 0x5b4c
 
     .line 1970
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -8581,7 +8581,7 @@
     .line 2029
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setLin_parity_bit(Z)V
 
-    const/16 v0, 0x594f
+    const/16 v0, 0x5b4f
 
     .line 2030
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveBool(IZ)I
@@ -8595,7 +8595,7 @@
     .line 1989
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setLin_polarity(Z)V
 
-    const/16 v0, 0x594d
+    const/16 v0, 0x5b4d
 
     .line 1990
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveBool(IZ)I
@@ -8609,7 +8609,7 @@
     .line 1928
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setLin_source(I)V
 
-    const/16 v0, 0x5949
+    const/16 v0, 0x5b49
 
     .line 1929
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -8623,7 +8623,7 @@
     .line 1948
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setLin_thres(J)V
 
-    const/16 v0, 0x594a
+    const/16 v0, 0x5b4a
 
     .line 1949
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -8646,7 +8646,7 @@
     .line 2009
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setLin_version(I)V
 
-    const/16 v0, 0x594e
+    const/16 v0, 0x5b4e
 
     .line 2010
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -8660,7 +8660,7 @@
     .line 2838
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setMost_signal_type(I)V
 
-    const/16 v0, 0x59c4
+    const/16 v0, 0x5bc4
 
     .line 2839
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -8674,7 +8674,7 @@
     .line 2797
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setMost_source(I)V
 
-    const/16 v0, 0x59c2
+    const/16 v0, 0x5bc2
 
     .line 2798
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -8688,7 +8688,7 @@
     .line 2817
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setMost_thres(J)V
 
-    const/16 v0, 0x59c3
+    const/16 v0, 0x5bc3
 
     .line 2818
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -8709,7 +8709,7 @@
     .line 876
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setNoiseProject(Z)V
 
-    const/16 v0, 0x590e
+    const/16 v0, 0x5b0e
 
     .line 877
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveBool(IZ)I
@@ -8736,7 +8736,7 @@
     .line 834
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setOnOff(Z)V
 
-    const/16 v0, 0x5902
+    const/16 v0, 0x5b02
 
     .line 836
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveBool(IZ)I
@@ -8757,7 +8757,7 @@
     add-int/lit8 p1, p1, -0x1
 
     :cond_0
-    const/16 v0, 0x590a
+    const/16 v0, 0x5b0a
 
     .line 1077
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -8771,7 +8771,7 @@
     .line 991
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setPal_clk(I)V
 
-    const/16 v0, 0x5905
+    const/16 v0, 0x5b05
 
     .line 992
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -8785,7 +8785,7 @@
     .line 1011
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setPal_clk_edge(I)V
 
-    const/16 v0, 0x5906
+    const/16 v0, 0x5b06
 
     .line 1012
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -8808,7 +8808,7 @@
     .line 1031
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setPal_clk_thres(J)V
 
-    const/16 v0, 0x5908
+    const/16 v0, 0x5b08
 
     .line 1032
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -8838,7 +8838,7 @@
     .line 1052
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setPal_dat_thres(J)V
 
-    const/16 v0, 0x5909
+    const/16 v0, 0x5b09
 
     .line 1053
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -8859,7 +8859,7 @@
     .line 1102
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setPal_endian(Z)V
 
-    const/16 v0, 0x590f
+    const/16 v0, 0x5b0f
 
     .line 1103
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveBool(IZ)I
@@ -8873,7 +8873,7 @@
     .line 717
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setPal_parity(Z)V
 
-    const/16 v0, 0x590f
+    const/16 v0, 0x5b0f
 
     .line 718
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveBool(IZ)I
@@ -8887,7 +8887,7 @@
     .line 158
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setPolarity(Z)V
 
-    const/16 v0, 0x5913
+    const/16 v0, 0x5b13
 
     .line 159
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveBool(IZ)I
@@ -8901,7 +8901,7 @@
     .line 791
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->position:I
 
-    const/16 v0, 0x5918
+    const/16 v0, 0x5b18
 
     .line 792
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -8915,7 +8915,7 @@
     .line 896
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setRejectTime(J)V
 
-    const/16 v0, 0x5911
+    const/16 v0, 0x5b11
 
     .line 897
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -8929,7 +8929,7 @@
     .line 1257
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setRs232_baud(I)V
 
-    const/16 v0, 0x5921
+    const/16 v0, 0x5b21
 
     .line 1258
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -8943,7 +8943,7 @@
     .line 1461
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setRs232_endian(Z)V
 
-    const/16 v0, 0x592e
+    const/16 v0, 0x5b2e
 
     .line 1462
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(IZ)I
@@ -8957,7 +8957,7 @@
     .line 1441
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setRs232_package(Z)V
 
-    const/16 v0, 0x592d
+    const/16 v0, 0x5b2d
 
     .line 1442
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveBool(IZ)I
@@ -8971,7 +8971,7 @@
     .line 1481
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setRs232_package_end(I)V
 
-    const/16 v0, 0x592f
+    const/16 v0, 0x5b2f
 
     .line 1482
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -8985,7 +8985,7 @@
     .line 1421
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setRs232_parity(I)V
 
-    const/16 v0, 0x592c
+    const/16 v0, 0x5b2c
 
     .line 1422
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -8999,7 +8999,7 @@
     .line 1361
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setRs232_pol(Z)V
 
-    const/16 v0, 0x5929
+    const/16 v0, 0x5b29
 
     .line 1362
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveBool(IZ)I
@@ -9013,7 +9013,7 @@
     .line 1299
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setRs232_rx(I)V
 
-    const/16 v0, 0x5926
+    const/16 v0, 0x5b26
 
     .line 1300
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -9027,7 +9027,7 @@
     .line 1340
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setRs232_rx_thres(J)V
 
-    const/16 v0, 0x5928
+    const/16 v0, 0x5b28
 
     .line 1341
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -9048,7 +9048,7 @@
     .line 1401
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setRs232_stop(I)V
 
-    const/16 v0, 0x592b
+    const/16 v0, 0x5b2b
 
     .line 1402
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -9062,7 +9062,7 @@
     .line 1278
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setRs232_tx(I)V
 
-    const/16 v0, 0x5925
+    const/16 v0, 0x5b25
 
     .line 1279
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -9076,7 +9076,7 @@
     .line 1319
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setRs232_tx_thres(J)V
 
-    const/16 v0, 0x5927
+    const/16 v0, 0x5b27
 
     .line 1320
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -9097,7 +9097,7 @@
     .line 1381
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setRs232_width(I)V
 
-    const/16 v0, 0x592a
+    const/16 v0, 0x5b2a
 
     .line 1382
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -9111,7 +9111,7 @@
     .line 2736
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setSent_crc_format(I)V
 
-    const/16 v0, 0x59b7
+    const/16 v0, 0x5bb7
 
     .line 2737
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -9125,7 +9125,7 @@
     .line 2716
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setSent_idle_state(I)V
 
-    const/16 v0, 0x59b6
+    const/16 v0, 0x5bb6
 
     .line 2717
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -9139,7 +9139,7 @@
     .line 2636
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setSent_nibbnum(J)V
 
-    const/16 v0, 0x59b4
+    const/16 v0, 0x5bb4
 
     .line 2637
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -9153,7 +9153,7 @@
     .line 2756
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setSent_pause_plus(I)V
 
-    const/16 v0, 0x59b8
+    const/16 v0, 0x5bb8
 
     .line 2757
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -9167,7 +9167,7 @@
     .line 2656
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setSent_signal_type(I)V
 
-    const/16 v0, 0x59b0
+    const/16 v0, 0x5bb0
 
     .line 2657
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -9181,7 +9181,7 @@
     .line 2696
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setSent_source(I)V
 
-    const/16 v0, 0x59b3
+    const/16 v0, 0x5bb3
 
     .line 2697
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -9195,7 +9195,7 @@
     .line 2776
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setSent_thres(J)V
 
-    const/16 v0, 0x59b9
+    const/16 v0, 0x5bb9
 
     .line 2777
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -9216,7 +9216,7 @@
     .line 2676
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setSent_tick(J)V
 
-    const/16 v0, 0x59af
+    const/16 v0, 0x5baf
 
     .line 2677
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -9230,7 +9230,7 @@
     .line 2616
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setSent_tolerance(J)V
 
-    const/16 v0, 0x59b5
+    const/16 v0, 0x5bb5
 
     .line 2617
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -9244,7 +9244,7 @@
     .line 701
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->settings:Z
 
-    const/16 v0, 0x5915
+    const/16 v0, 0x5b15
 
     .line 702
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveBool(IZ)I
@@ -9258,7 +9258,7 @@
     .line 1663
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setSpi_clock(I)V
 
-    const/16 v0, 0x593c
+    const/16 v0, 0x5b3c
 
     .line 1664
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -9282,7 +9282,7 @@
     const/4 v0, 0x0
 
     :goto_0
-    const/16 p1, 0x5943
+    const/16 p1, 0x5b43
 
     .line 1809
     invoke-virtual {p0, p1, v0}, Lcom/rigol/scope/data/DecodeParam;->saveBool(IZ)I
@@ -9296,7 +9296,7 @@
     .line 1745
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setSpi_clock_thres(J)V
 
-    const/16 v0, 0x5940
+    const/16 v0, 0x5b40
 
     .line 1746
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -9317,7 +9317,7 @@
     .line 1623
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setSpi_cs(I)V
 
-    const/16 v0, 0x593b
+    const/16 v0, 0x5b3b
 
     .line 1624
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -9341,7 +9341,7 @@
     const/4 v0, 0x0
 
     :goto_0
-    const/16 p1, 0x5945
+    const/16 p1, 0x5b45
 
     .line 1849
     invoke-virtual {p0, p1, v0}, Lcom/rigol/scope/data/DecodeParam;->saveBool(IZ)I
@@ -9355,7 +9355,7 @@
     .line 1724
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setSpi_cs_thres(J)V
 
-    const/16 v0, 0x593f
+    const/16 v0, 0x5b3f
 
     .line 1725
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -9386,7 +9386,7 @@
     const/4 v0, 0x0
 
     :goto_0
-    const/16 p1, 0x5944
+    const/16 p1, 0x5b44
 
     .line 1829
     invoke-virtual {p0, p1, v0}, Lcom/rigol/scope/data/DecodeParam;->saveBool(IZ)I
@@ -9400,7 +9400,7 @@
     .line 1908
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setSpi_endian(Z)V
 
-    const/16 v0, 0x5948
+    const/16 v0, 0x5b48
 
     .line 1909
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveBool(IZ)I
@@ -9414,7 +9414,7 @@
     .line 1684
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setSpi_miso(I)V
 
-    const/16 v0, 0x593d
+    const/16 v0, 0x5b3d
 
     .line 1685
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -9428,7 +9428,7 @@
     .line 1766
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setSpi_miso_thres(J)V
 
-    const/16 v0, 0x5941
+    const/16 v0, 0x5b41
 
     .line 1767
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -9459,7 +9459,7 @@
     const/4 v0, 0x0
 
     :goto_0
-    const/16 p1, 0x593a
+    const/16 p1, 0x5b3a
 
     .line 1644
     invoke-virtual {p0, p1, v0}, Lcom/rigol/scope/data/DecodeParam;->saveBool(IZ)I
@@ -9473,7 +9473,7 @@
     .line 1704
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setSpi_mosi(I)V
 
-    const/16 v0, 0x593e
+    const/16 v0, 0x5b3e
 
     .line 1705
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -9487,7 +9487,7 @@
     .line 1787
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setSpi_mosi_thres(J)V
 
-    const/16 v0, 0x5942
+    const/16 v0, 0x5b42
 
     .line 1788
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -9508,7 +9508,7 @@
     .line 1868
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setSpi_timeout(J)V
 
-    const/16 v0, 0x5946
+    const/16 v0, 0x5b46
 
     .line 1869
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -9522,7 +9522,7 @@
     .line 1888
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setSpi_width(J)V
 
-    const/16 v0, 0x5947
+    const/16 v0, 0x5b47
 
     .line 1889
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -9539,7 +9539,7 @@
     .line 813
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;->value1:I
 
-    const/16 v0, 0x5901
+    const/16 v0, 0x5b01
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
 
@@ -9552,7 +9552,7 @@
     .line 3067
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setUsb_diff(I)V
 
-    const/16 v0, 0x59d9
+    const/16 v0, 0x5bd9
 
     .line 3068
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -9566,7 +9566,7 @@
     .line 3087
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setUsb_diff_high_thres(J)V
 
-    const/16 v0, 0x59da
+    const/16 v0, 0x5bda
 
     .line 3088
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -9587,7 +9587,7 @@
     .line 3108
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setUsb_diff_low_thres(J)V
 
-    const/16 v0, 0x59db
+    const/16 v0, 0x5bdb
 
     .line 3109
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -9608,7 +9608,7 @@
     .line 2985
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setUsb_dp(I)V
 
-    const/16 v0, 0x59d5
+    const/16 v0, 0x5bd5
 
     .line 2986
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -9622,7 +9622,7 @@
     .line 3025
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setUsb_dp_thres(J)V
 
-    const/16 v0, 0x59d7
+    const/16 v0, 0x5bd7
 
     .line 3026
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -9643,7 +9643,7 @@
     .line 3005
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->setUsb_ds(I)V
 
-    const/16 v0, 0x59d6
+    const/16 v0, 0x5bd6
 
     .line 3006
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -9657,7 +9657,7 @@
     .line 3046
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setUsb_ds_thres(J)V
 
-    const/16 v0, 0x59d8
+    const/16 v0, 0x5bd8
 
     .line 3047
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -9678,7 +9678,7 @@
     .line 3129
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->setUsb_rate(J)V
 
-    const/16 v0, 0x59dc
+    const/16 v0, 0x5bdc
 
     .line 3130
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -9702,7 +9702,7 @@
     const/4 v0, 0x0
 
     :goto_0
-    const/16 p1, 0x5970
+    const/16 p1, 0x5b70
 
     .line 2555
     invoke-virtual {p0, p1, v0}, Lcom/rigol/scope/data/DecodeParam;->saveBool(IZ)I
@@ -9716,7 +9716,7 @@
     .line 2534
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->set_1553b_source(I)V
 
-    const/16 v0, 0x596f
+    const/16 v0, 0x5b6f
 
     .line 2535
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->saveInt(II)I
@@ -9730,7 +9730,7 @@
     .line 2574
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->set_1553b_thres1(J)V
 
-    const/16 v0, 0x5971
+    const/16 v0, 0x5b71
 
     .line 2575
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -9751,7 +9751,7 @@
     .line 2595
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->set_1553b_thres2(J)V
 
-    const/16 v0, 0x5972
+    const/16 v0, 0x5b72
 
     .line 2596
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/DecodeParam;->saveLong(IJ)I
@@ -10056,7 +10056,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x591b
+    const/16 v0, 0x5b1b
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->syncData(ILjava/lang/Object;)V
 
@@ -10224,7 +10224,7 @@
     .line 1578
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2c_exchange:Z
 
-    const/16 p1, 0x184
+    const/16 p1, 0x185
 
     .line 1579
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10238,7 +10238,7 @@
     .line 1598
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2c_read_write:Z
 
-    const/16 p1, 0x185
+    const/16 p1, 0x186
 
     .line 1599
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10252,7 +10252,7 @@
     .line 1496
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2c_scl:I
 
-    const/16 p1, 0x186
+    const/16 p1, 0x187
 
     .line 1497
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10266,7 +10266,7 @@
     .line 1536
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2c_scl_thres:J
 
-    const/16 p1, 0x187
+    const/16 p1, 0x188
 
     .line 1537
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10280,7 +10280,7 @@
     .line 1516
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2c_sda:I
 
-    const/16 p1, 0x188
+    const/16 p1, 0x189
 
     .line 1517
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10294,7 +10294,7 @@
     .line 1557
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2c_sda_thres:J
 
-    const/16 p1, 0x189
+    const/16 p1, 0x18a
 
     .line 1558
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10308,7 +10308,7 @@
     .line 2449
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2s_align:I
 
-    const/16 p1, 0x18b
+    const/16 p1, 0x18c
 
     .line 2450
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10322,7 +10322,7 @@
     .line 2306
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2s_data:I
 
-    const/16 p1, 0x18c
+    const/16 p1, 0x18d
 
     .line 2307
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10336,7 +10336,7 @@
     .line 2509
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2s_data_polarity:Z
 
-    const/16 p1, 0x18d
+    const/16 p1, 0x18e
 
     .line 2510
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10350,7 +10350,7 @@
     .line 2368
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2s_data_thres:J
 
-    const/16 p1, 0x18e
+    const/16 p1, 0x18f
 
     .line 2369
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10364,7 +10364,7 @@
     .line 2489
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2s_endian:Z
 
-    const/16 p1, 0x18f
+    const/16 p1, 0x190
 
     .line 2490
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10378,7 +10378,7 @@
     .line 2429
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2s_receive:J
 
-    const/16 p1, 0x190
+    const/16 p1, 0x191
 
     .line 2430
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10392,7 +10392,7 @@
     .line 2266
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2s_sclock:I
 
-    const/16 p1, 0x191
+    const/16 p1, 0x192
 
     .line 2267
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10406,7 +10406,7 @@
     .line 2389
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2s_sclock_edge:I
 
-    const/16 p1, 0x192
+    const/16 p1, 0x193
 
     .line 2390
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10420,7 +10420,7 @@
     .line 2326
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2s_sclock_thres:J
 
-    const/16 p1, 0x193
+    const/16 p1, 0x194
 
     .line 2327
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10434,7 +10434,7 @@
     .line 2347
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2s_wave_singal_thres:J
 
-    const/16 p1, 0x194
+    const/16 p1, 0x195
 
     .line 2348
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10448,7 +10448,7 @@
     .line 2409
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2s_word:J
 
-    const/16 p1, 0x195
+    const/16 p1, 0x196
 
     .line 2410
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10462,7 +10462,7 @@
     .line 2286
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2s_ws:I
 
-    const/16 p1, 0x196
+    const/16 p1, 0x197
 
     .line 2287
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10476,7 +10476,7 @@
     .line 2469
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->i2s_ws_low:I
 
-    const/16 p1, 0x197
+    const/16 p1, 0x198
 
     .line 2470
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10490,7 +10490,7 @@
     .line 937
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->label:Z
 
-    const/16 v0, 0x1db
+    const/16 v0, 0x1dc
 
     .line 938
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10500,7 +10500,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x5919
+    const/16 v0, 0x5b19
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->syncData(ILjava/lang/Object;)V
 
@@ -10513,7 +10513,7 @@
     .line 1964
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->lin_baud:I
 
-    const/16 p1, 0x1ef
+    const/16 p1, 0x1f0
 
     .line 1965
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10527,7 +10527,7 @@
     .line 2024
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->lin_parity_bit:Z
 
-    const/16 p1, 0x1f0
+    const/16 p1, 0x1f1
 
     .line 2025
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10541,7 +10541,7 @@
     .line 1984
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->lin_polarity:Z
 
-    const/16 p1, 0x1f1
+    const/16 p1, 0x1f2
 
     .line 1985
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10555,7 +10555,7 @@
     .line 1923
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->lin_source:I
 
-    const/16 p1, 0x1f2
+    const/16 p1, 0x1f3
 
     .line 1924
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10569,7 +10569,7 @@
     .line 1943
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->lin_thres:J
 
-    const/16 p1, 0x1f3
+    const/16 p1, 0x1f4
 
     .line 1944
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10583,7 +10583,7 @@
     .line 2004
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->lin_version:I
 
-    const/16 p1, 0x1f4
+    const/16 p1, 0x1f5
 
     .line 2005
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10597,7 +10597,7 @@
     .line 2833
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->most_signal_type:I
 
-    const/16 p1, 0x227
+    const/16 p1, 0x228
 
     .line 2834
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10611,7 +10611,7 @@
     .line 2792
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->most_source:I
 
-    const/16 p1, 0x228
+    const/16 p1, 0x229
 
     .line 2793
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10625,7 +10625,7 @@
     .line 2812
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->most_thres:J
 
-    const/16 p1, 0x229
+    const/16 p1, 0x22a
 
     .line 2813
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10639,7 +10639,7 @@
     .line 871
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->noiseProject:Z
 
-    const/16 p1, 0x22f
+    const/16 p1, 0x231
 
     .line 872
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10653,7 +10653,7 @@
     .line 827
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->onOff:Z
 
-    const/16 v0, 0x23a
+    const/16 v0, 0x23c
 
     .line 828
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10663,7 +10663,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x5902
+    const/16 v0, 0x5b02
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->syncData(ILjava/lang/Object;)V
 
@@ -10676,7 +10676,7 @@
     .line 1068
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->pal_bus:I
 
-    const/16 p1, 0x248
+    const/16 p1, 0x24a
 
     .line 1069
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10690,7 +10690,7 @@
     .line 986
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->pal_clk:I
 
-    const/16 p1, 0x249
+    const/16 p1, 0x24b
 
     .line 987
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10704,7 +10704,7 @@
     .line 1006
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->pal_clk_edge:I
 
-    const/16 p1, 0x24a
+    const/16 p1, 0x24c
 
     .line 1007
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10718,7 +10718,7 @@
     .line 958
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->pal_clk_menu:I
 
-    const/16 p1, 0x24b
+    const/16 p1, 0x24d
 
     .line 959
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10732,7 +10732,7 @@
     .line 1026
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->pal_clk_thres:J
 
-    const/16 p1, 0x24c
+    const/16 p1, 0x24e
 
     .line 1027
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10746,7 +10746,7 @@
     .line 972
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->pal_dat_menu:I
 
-    const/16 p1, 0x24d
+    const/16 p1, 0x24f
 
     .line 973
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10760,7 +10760,7 @@
     .line 1047
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->pal_dat_thres:J
 
-    const/16 p1, 0x24e
+    const/16 p1, 0x250
 
     .line 1048
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10774,7 +10774,7 @@
     .line 1097
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->pal_endian:Z
 
-    const/16 p1, 0x24f
+    const/16 p1, 0x251
 
     .line 1098
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10788,7 +10788,7 @@
     .line 712
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->pal_parity:Z
 
-    const/16 p1, 0x250
+    const/16 p1, 0x252
 
     .line 713
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10802,7 +10802,7 @@
     .line 153
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->polarity:Z
 
-    const/16 p1, 0x282
+    const/16 p1, 0x285
 
     .line 154
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10816,7 +10816,7 @@
     .line 775
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->position:I
 
-    const/16 v0, 0x286
+    const/16 v0, 0x289
 
     .line 776
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10839,7 +10839,7 @@
 
     move-result-object v0
 
-    const/16 v1, 0x5918
+    const/16 v1, 0x5b18
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/DecodeParam;->syncData(ILjava/lang/Object;)V
 
@@ -10855,7 +10855,7 @@
     .line 891
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->rejectTime:J
 
-    const/16 p1, 0x2e0
+    const/16 p1, 0x2e4
 
     .line 892
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10869,7 +10869,7 @@
     .line 1252
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->rs232_baud:I
 
-    const/16 p1, 0x2ea
+    const/16 p1, 0x2ee
 
     .line 1253
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10883,7 +10883,7 @@
     .line 1456
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->rs232_endian:Z
 
-    const/16 p1, 0x2eb
+    const/16 p1, 0x2ef
 
     .line 1457
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10897,7 +10897,7 @@
     .line 1436
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->rs232_package:Z
 
-    const/16 p1, 0x2ec
+    const/16 p1, 0x2f0
 
     .line 1437
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10911,7 +10911,7 @@
     .line 1476
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->rs232_package_end:I
 
-    const/16 p1, 0x2ed
+    const/16 p1, 0x2f1
 
     .line 1477
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10925,7 +10925,7 @@
     .line 1416
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->rs232_parity:I
 
-    const/16 p1, 0x2ee
+    const/16 p1, 0x2f2
 
     .line 1417
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10939,7 +10939,7 @@
     .line 1356
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->rs232_pol:Z
 
-    const/16 p1, 0x2ef
+    const/16 p1, 0x2f3
 
     .line 1357
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10953,7 +10953,7 @@
     .line 1293
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->rs232_rx:I
 
-    const/16 v0, 0x2f0
+    const/16 v0, 0x2f4
 
     .line 1294
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10963,7 +10963,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x5926
+    const/16 v0, 0x5b26
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->syncData(ILjava/lang/Object;)V
 
@@ -10976,7 +10976,7 @@
     .line 1335
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->rs232_rx_thres:J
 
-    const/16 p1, 0x2f1
+    const/16 p1, 0x2f5
 
     .line 1336
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -10990,7 +10990,7 @@
     .line 1396
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->rs232_stop:I
 
-    const/16 p1, 0x2f2
+    const/16 p1, 0x2f6
 
     .line 1397
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11004,7 +11004,7 @@
     .line 1272
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->rs232_tx:I
 
-    const/16 v0, 0x2f3
+    const/16 v0, 0x2f7
 
     .line 1273
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11014,7 +11014,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x5925
+    const/16 v0, 0x5b25
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->syncData(ILjava/lang/Object;)V
 
@@ -11027,7 +11027,7 @@
     .line 1314
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->rs232_tx_thres:J
 
-    const/16 p1, 0x2f4
+    const/16 p1, 0x2f8
 
     .line 1315
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11041,7 +11041,7 @@
     .line 1376
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->rs232_width:I
 
-    const/16 p1, 0x2f5
+    const/16 p1, 0x2f9
 
     .line 1377
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11055,7 +11055,7 @@
     .line 2731
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->sent_crc_format:I
 
-    const/16 p1, 0x31e
+    const/16 p1, 0x322
 
     .line 2732
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11069,7 +11069,7 @@
     .line 2711
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->sent_idle_state:I
 
-    const/16 p1, 0x31f
+    const/16 p1, 0x323
 
     .line 2712
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11083,7 +11083,7 @@
     .line 2631
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->sent_nibbnum:J
 
-    const/16 p1, 0x320
+    const/16 p1, 0x324
 
     .line 2632
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11097,7 +11097,7 @@
     .line 2751
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->sent_pause_plus:I
 
-    const/16 p1, 0x321
+    const/16 p1, 0x325
 
     .line 2752
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11111,7 +11111,7 @@
     .line 2651
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->sent_signal_type:I
 
-    const/16 p1, 0x322
+    const/16 p1, 0x326
 
     .line 2652
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11125,7 +11125,7 @@
     .line 2691
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->sent_source:I
 
-    const/16 p1, 0x323
+    const/16 p1, 0x327
 
     .line 2692
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11139,7 +11139,7 @@
     .line 2771
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->sent_thres:J
 
-    const/16 p1, 0x324
+    const/16 p1, 0x328
 
     .line 2772
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11153,7 +11153,7 @@
     .line 2671
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->sent_tick:J
 
-    const/16 p1, 0x325
+    const/16 p1, 0x329
 
     .line 2672
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11167,7 +11167,7 @@
     .line 2611
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->sent_tolerance:J
 
-    const/16 p1, 0x326
+    const/16 p1, 0x32a
 
     .line 2612
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11181,7 +11181,7 @@
     .line 1658
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->spi_clock:I
 
-    const/16 p1, 0x36e
+    const/16 p1, 0x372
 
     .line 1659
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11195,7 +11195,7 @@
     .line 1803
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->spi_clock_edge:I
 
-    const/16 p1, 0x36f
+    const/16 p1, 0x373
 
     .line 1804
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11209,7 +11209,7 @@
     .line 1740
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->spi_clock_thres:J
 
-    const/16 p1, 0x370
+    const/16 p1, 0x374
 
     .line 1741
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11223,7 +11223,7 @@
     .line 1618
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->spi_cs:I
 
-    const/16 p1, 0x371
+    const/16 p1, 0x375
 
     .line 1619
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11237,7 +11237,7 @@
     .line 1843
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->spi_cs_polarity:I
 
-    const/16 p1, 0x372
+    const/16 p1, 0x376
 
     .line 1844
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11251,7 +11251,7 @@
     .line 1719
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->spi_cs_thres:J
 
-    const/16 p1, 0x373
+    const/16 p1, 0x377
 
     .line 1720
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11265,7 +11265,7 @@
     .line 1823
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->spi_data_polarity:I
 
-    const/16 p1, 0x374
+    const/16 p1, 0x378
 
     .line 1824
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11279,7 +11279,7 @@
     .line 1903
     iput-boolean p1, p0, Lcom/rigol/scope/data/DecodeParam;->spi_endian:Z
 
-    const/16 p1, 0x375
+    const/16 p1, 0x379
 
     .line 1904
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11293,7 +11293,7 @@
     .line 1678
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->spi_miso:I
 
-    const/16 v0, 0x376
+    const/16 v0, 0x37a
 
     .line 1679
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11303,7 +11303,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x593d
+    const/16 v0, 0x5b3d
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->syncData(ILjava/lang/Object;)V
 
@@ -11316,7 +11316,7 @@
     .line 1761
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->spi_miso_thres:J
 
-    const/16 p1, 0x377
+    const/16 p1, 0x37b
 
     .line 1762
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11330,7 +11330,7 @@
     .line 1638
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->spi_mode:I
 
-    const/16 p1, 0x378
+    const/16 p1, 0x37c
 
     .line 1639
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11344,7 +11344,7 @@
     .line 1699
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->spi_mosi:I
 
-    const/16 p1, 0x379
+    const/16 p1, 0x37d
 
     .line 1700
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11358,7 +11358,7 @@
     .line 1782
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->spi_mosi_thres:J
 
-    const/16 p1, 0x37a
+    const/16 p1, 0x37e
 
     .line 1783
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11372,7 +11372,7 @@
     .line 1863
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->spi_timeout:J
 
-    const/16 p1, 0x37b
+    const/16 p1, 0x37f
 
     .line 1864
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11386,7 +11386,7 @@
     .line 1883
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->spi_width:J
 
-    const/16 p1, 0x37c
+    const/16 p1, 0x380
 
     .line 1884
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11418,12 +11418,12 @@
     .line 806
     iput-object p1, p0, Lcom/rigol/scope/data/DecodeParam;->type:Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
 
-    const/16 v0, 0x3d2
+    const/16 v0, 0x3d6
 
     .line 807
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
 
-    const/16 v0, 0x5901
+    const/16 v0, 0x5b01
 
     .line 808
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/DecodeParam;->syncData(ILjava/lang/Object;)V
@@ -11437,7 +11437,7 @@
     .line 3057
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->usb_diff:I
 
-    const/16 p1, 0x3e7
+    const/16 p1, 0x3eb
 
     .line 3058
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11451,7 +11451,7 @@
     .line 3077
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->usb_diff_high_thres:J
 
-    const/16 p1, 0x3e8
+    const/16 p1, 0x3ec
 
     .line 3078
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11465,7 +11465,7 @@
     .line 3098
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->usb_diff_low_thres:J
 
-    const/16 p1, 0x3e9
+    const/16 p1, 0x3ed
 
     .line 3099
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11479,7 +11479,7 @@
     .line 2975
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->usb_dp:I
 
-    const/16 p1, 0x3eb
+    const/16 p1, 0x3ef
 
     .line 2976
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11493,7 +11493,7 @@
     .line 3015
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->usb_dp_thres:J
 
-    const/16 p1, 0x3ec
+    const/16 p1, 0x3f0
 
     .line 3016
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11507,7 +11507,7 @@
     .line 2995
     iput p1, p0, Lcom/rigol/scope/data/DecodeParam;->usb_ds:I
 
-    const/16 p1, 0x3ed
+    const/16 p1, 0x3f1
 
     .line 2996
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11521,7 +11521,7 @@
     .line 3036
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->usb_ds_thres:J
 
-    const/16 p1, 0x3ee
+    const/16 p1, 0x3f2
 
     .line 3037
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V
@@ -11535,7 +11535,7 @@
     .line 3119
     iput-wide p1, p0, Lcom/rigol/scope/data/DecodeParam;->usb_rate:J
 
-    const/16 p1, 0x3f0
+    const/16 p1, 0x3f4
 
     .line 3120
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/DecodeParam;->notifyPropertyChanged(I)V

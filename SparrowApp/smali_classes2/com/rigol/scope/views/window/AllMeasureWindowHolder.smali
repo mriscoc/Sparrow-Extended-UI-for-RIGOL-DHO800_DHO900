@@ -168,7 +168,7 @@
 
     if-eqz v0, :cond_1
 
-    const/16 v3, 0x333a
+    const/16 v3, 0x353a
 
     .line 2089
     invoke-virtual {v0, v1, v3}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -312,7 +312,7 @@
 
     invoke-static {v0, v3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v3, 0x7f030246
+    const v3, 0x7f03024a
 
     .line 2179
     sget-object v4, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_ALL_MEASURE:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
@@ -380,7 +380,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x330f
+    const/16 v0, 0x350f
 
     .line 2217
     invoke-virtual {p2}, Lcom/rigol/scope/data/WindowParam;->getSource1()Lcom/rigol/scope/cil/ServiceEnum$Chan;
@@ -649,7 +649,7 @@
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->value1:I
 
-    const v2, 0x7f030246
+    const v2, 0x7f03024a
 
     .line 2202
     invoke-static {v2, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;

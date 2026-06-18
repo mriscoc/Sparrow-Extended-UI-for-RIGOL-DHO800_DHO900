@@ -73,7 +73,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 173
+    .line 165
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -82,7 +82,7 @@
 .method public synthetic constructor <init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V
     .locals 0
 
-    .line 173
+    .line 165
     invoke-direct {p0}, Lcom/rigol/scope/views/baseview/OrientationView$Companion;-><init>()V
 
     return-void
@@ -93,7 +93,7 @@
 .method public final getDrawType()Ljava/lang/String;
     .locals 1
 
-    .line 183
+    .line 175
     invoke-static {}, Lcom/rigol/scope/views/baseview/OrientationView;->access$getDrawType$cp()Ljava/lang/String;
 
     move-result-object v0
@@ -104,7 +104,7 @@
 .method public final getSourceA()Ljava/lang/String;
     .locals 1
 
-    .line 184
+    .line 176
     invoke-static {}, Lcom/rigol/scope/views/baseview/OrientationView;->access$getSourceA$cp()Ljava/lang/String;
 
     move-result-object v0
@@ -115,7 +115,7 @@
 .method public final getSourceAMiddle()Ljava/lang/String;
     .locals 1
 
-    .line 186
+    .line 178
     invoke-static {}, Lcom/rigol/scope/views/baseview/OrientationView;->access$getSourceAMiddle$cp()Ljava/lang/String;
 
     move-result-object v0
@@ -126,7 +126,7 @@
 .method public final getSourceB()Ljava/lang/String;
     .locals 1
 
-    .line 185
+    .line 177
     invoke-static {}, Lcom/rigol/scope/views/baseview/OrientationView;->access$getSourceB$cp()Ljava/lang/String;
 
     move-result-object v0
@@ -137,7 +137,7 @@
 .method public final getSourceBMiddle()Ljava/lang/String;
     .locals 1
 
-    .line 187
+    .line 179
     invoke-static {}, Lcom/rigol/scope/views/baseview/OrientationView;->access$getSourceBMiddle$cp()Ljava/lang/String;
 
     move-result-object v0
@@ -148,7 +148,7 @@
 .method public final getStrThresholdHigh()Ljava/lang/String;
     .locals 1
 
-    .line 179
+    .line 171
     invoke-static {}, Lcom/rigol/scope/views/baseview/OrientationView;->access$getStrThresholdHigh$cp()Ljava/lang/String;
 
     move-result-object v0
@@ -159,7 +159,7 @@
 .method public final getStrThresholdLow()Ljava/lang/String;
     .locals 1
 
-    .line 177
+    .line 169
     invoke-static {}, Lcom/rigol/scope/views/baseview/OrientationView;->access$getStrThresholdLow$cp()Ljava/lang/String;
 
     move-result-object v0
@@ -170,7 +170,7 @@
 .method public final getStrThresholdMiddle()Ljava/lang/String;
     .locals 1
 
-    .line 178
+    .line 170
     invoke-static {}, Lcom/rigol/scope/views/baseview/OrientationView;->access$getStrThresholdMiddle$cp()Ljava/lang/String;
 
     move-result-object v0
@@ -181,7 +181,7 @@
 .method public final isShowThreshold()Z
     .locals 1
 
-    .line 182
+    .line 174
     invoke-static {}, Lcom/rigol/scope/views/baseview/OrientationView;->access$isShowThreshold$cp()Z
 
     move-result v0
@@ -196,7 +196,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 183
+    .line 175
     invoke-static {p1}, Lcom/rigol/scope/views/baseview/OrientationView;->access$setDrawType$cp(Ljava/lang/String;)V
 
     return-void
@@ -205,7 +205,7 @@
 .method public final setShowThreshold(Z)V
     .locals 0
 
-    .line 182
+    .line 174
     invoke-static {p1}, Lcom/rigol/scope/views/baseview/OrientationView;->access$setShowThreshold$cp(Z)V
 
     return-void
@@ -218,7 +218,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 184
+    .line 176
     invoke-static {p1}, Lcom/rigol/scope/views/baseview/OrientationView;->access$setSourceA$cp(Ljava/lang/String;)V
 
     return-void
@@ -231,7 +231,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 186
+    .line 178
     invoke-static {p1}, Lcom/rigol/scope/views/baseview/OrientationView;->access$setSourceAMiddle$cp(Ljava/lang/String;)V
 
     return-void
@@ -244,7 +244,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 185
+    .line 177
     invoke-static {p1}, Lcom/rigol/scope/views/baseview/OrientationView;->access$setSourceB$cp(Ljava/lang/String;)V
 
     return-void
@@ -257,7 +257,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 187
+    .line 179
     invoke-static {p1}, Lcom/rigol/scope/views/baseview/OrientationView;->access$setSourceBMiddle$cp(Ljava/lang/String;)V
 
     return-void
@@ -270,7 +270,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 179
+    .line 171
     invoke-static {p1}, Lcom/rigol/scope/views/baseview/OrientationView;->access$setStrThresholdHigh$cp(Ljava/lang/String;)V
 
     return-void
@@ -283,7 +283,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 177
+    .line 169
     invoke-static {p1}, Lcom/rigol/scope/views/baseview/OrientationView;->access$setStrThresholdLow$cp(Ljava/lang/String;)V
 
     return-void
@@ -296,7 +296,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 178
+    .line 170
     invoke-static {p1}, Lcom/rigol/scope/views/baseview/OrientationView;->access$setStrThresholdMiddle$cp(Ljava/lang/String;)V
 
     return-void

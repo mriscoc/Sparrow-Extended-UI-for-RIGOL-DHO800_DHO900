@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/TriggerParam;)V
     .locals 0
 
-    .line 3133
+    .line 3087
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$238;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$238;->val$param:Lcom/rigol/scope/data/TriggerParam;
@@ -51,10 +51,10 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 3136
+    .line 3090
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$238;->val$param:Lcom/rigol/scope/data/TriggerParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->readVideoSync()V
+    invoke-virtual {p1}, Lcom/rigol/scope/data/TriggerParam;->readVideoStandard()V
 
     return-void
 .end method
@@ -62,7 +62,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 3133
+    .line 3087
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$238;->onChanged(Ljava/lang/Boolean;)V

@@ -231,7 +231,7 @@
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    const v3, 0x7f03011d
+    const v3, 0x7f03011e
 
     .line 203
     invoke-static {v3}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -335,7 +335,7 @@
     .line 226
     invoke-static {v0, v2}, Ltimber/log/Timber;->d(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    const v2, 0x7f03011c
+    const v2, 0x7f03011d
 
     .line 229
     :try_start_0
@@ -546,7 +546,7 @@
     .line 282
     iget-object v0, p0, Lcom/rigol/scope/views/analyse/AnalyseEthResultPopupView;->param:Lcom/rigol/scope/views/busAnalyse/BusAnalyseParam;
 
-    const v1, 0x7f100e97
+    const v1, 0x7f100ea4
 
     if-eqz v0, :cond_2
 
@@ -572,12 +572,12 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f100e96
+    const v1, 0x7f100ea3
 
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f100e98
+    const v1, 0x7f100ea5
 
     :cond_2
     :goto_0

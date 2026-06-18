@@ -24,7 +24,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterItemSimple4BindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a050a
+    const v1, 0x7f0a050c
 
     const/4 v2, 0x1
 
@@ -34,7 +34,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterItemSimple4BindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08a5
+    const v1, 0x7f0a08b1
 
     const/4 v2, 0x2
 
@@ -297,7 +297,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x233
+    const/16 v0, 0x235
 
     if-ne v0, p1, :cond_0
 

@@ -103,7 +103,7 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/rigol/scope/views/grid/RtsaGridRulerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILkotlin/jvm/internal/DefaultConstructorMarker;)V
 
-    const v0, 0x7f0a0b30
+    const v0, 0x7f0a0b3c
 
     .line 455
     invoke-virtual {p1, v0}, Lcom/rigol/scope/views/grid/RtsaGridRulerView;->setId(I)V
@@ -269,7 +269,7 @@
 
     invoke-static {p2, v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v1, 0x7f030246
+    const v1, 0x7f03024a
 
     .line 601
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_FFT:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
@@ -440,7 +440,7 @@
 
     check-cast p1, Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 v1, 0x3507
+    const/16 v1, 0x3707
 
     const/16 v2, 0x32
 
@@ -527,7 +527,7 @@
 
     :cond_8
     :goto_4
-    const/16 v1, 0x2344
+    const/16 v1, 0x2544
 
     .line 644
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
@@ -695,7 +695,7 @@
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/WindowSimpleBinding;->warning:Landroid/widget/TextView;
 
-    const v1, 0x7f10078f
+    const v1, 0x7f100797
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 

@@ -137,7 +137,7 @@
 
     if-eqz p1, :cond_2
 
-    const p1, 0x7f100767
+    const p1, 0x7f10076f
 
     .line 65
     invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showShort(I)V
@@ -212,7 +212,7 @@
 
     if-eqz p1, :cond_5
 
-    const p1, 0x7f100768
+    const p1, 0x7f100770
 
     .line 75
     invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showShort(I)V
@@ -266,7 +266,7 @@
 
     const/16 v0, 0xf
 
-    const/16 v1, 0x4311
+    const/16 v1, 0x4511
 
     .line 82
     invoke-virtual {p1, v0, v1, p2}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I

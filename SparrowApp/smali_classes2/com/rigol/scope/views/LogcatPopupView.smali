@@ -363,7 +363,7 @@
 
     move-result v0
 
-    const v1, 0x7f0a04bd
+    const v1, 0x7f0a04bf
 
     if-ne v0, v1, :cond_0
 
@@ -381,7 +381,7 @@
     goto/16 :goto_0
 
     :cond_0
-    const v1, 0x7f0a048c
+    const v1, 0x7f0a048e
 
     if-ne v0, v1, :cond_1
 
@@ -422,7 +422,7 @@
 
     check-cast p1, Lcom/rigol/scope/viewmodels/UtilityViewModel;
 
-    const v0, 0x7f1011c1
+    const v0, 0x7f1011d6
 
     if-nez p1, :cond_3
 
@@ -607,7 +607,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f1011c2
+    const v2, 0x7f1011d7
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

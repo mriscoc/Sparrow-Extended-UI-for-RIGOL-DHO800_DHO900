@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/VerticalParam;)V
     .locals 0
 
-    .line 977
+    .line 937
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$34;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$34;->val$param:Lcom/rigol/scope/data/VerticalParam;
@@ -49,20 +49,49 @@
 
 # virtual methods
 .method public onChanged(Ljava/lang/Boolean;)V
-    .locals 0
+    .locals 1
 
-    .line 980
+    .line 940
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$34;->val$param:Lcom/rigol/scope/data/VerticalParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->readProbeDelay()J
+    invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->readProbeBiasAttr()V
 
+    .line 941
+    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$34;->val$param:Lcom/rigol/scope/data/VerticalParam;
+
+    invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->getProbeModel()Ljava/lang/String;
+
+    move-result-object p1
+
+    const-string v0, "PCA"
+
+    invoke-virtual {p1, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    .line 942
+    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$34;->val$param:Lcom/rigol/scope/data/VerticalParam;
+
+    invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->readProbeCurrentBias()J
+
+    goto :goto_0
+
+    .line 944
+    :cond_0
+    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$34;->val$param:Lcom/rigol/scope/data/VerticalParam;
+
+    invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->readProbeBias()J
+
+    :goto_0
     return-void
 .end method
 
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 977
+    .line 937
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$34;->onChanged(Ljava/lang/Boolean;)V

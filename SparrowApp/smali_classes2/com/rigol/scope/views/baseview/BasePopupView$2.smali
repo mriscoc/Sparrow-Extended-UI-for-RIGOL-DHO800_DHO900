@@ -45,8 +45,6 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/rigol/scope/viewmodels/UtilityViewModel;
-
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
@@ -60,8 +58,6 @@
     invoke-virtual {p1}, Landroidx/lifecycle/LiveData;->getValue()Ljava/lang/Object;
 
     move-result-object p1
-
-    check-cast p1, Lcom/rigol/scope/data/UtilityParam;
 
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 

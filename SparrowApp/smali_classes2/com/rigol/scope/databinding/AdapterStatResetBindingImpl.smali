@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterStatResetBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a61
+    const v1, 0x7f0a0a6d
 
     const/4 v2, 0x3
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterStatResetBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0862
+    const v1, 0x7f0a086e
 
     const/4 v2, 0x4
 
@@ -183,7 +183,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -255,7 +255,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -327,7 +327,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x389
+    const/16 v0, 0x38d
 
     if-ne p2, v0, :cond_1
 
@@ -783,7 +783,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x252
+    const/16 p1, 0x254
 
     .line 107
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterStatResetBindingImpl;->notifyPropertyChanged(I)V
@@ -832,7 +832,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0x252
+    const/16 v0, 0x254
 
     if-ne v0, p1, :cond_2
 

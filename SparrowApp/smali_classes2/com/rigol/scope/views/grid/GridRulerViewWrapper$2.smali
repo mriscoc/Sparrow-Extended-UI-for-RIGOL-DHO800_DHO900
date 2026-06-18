@@ -72,29 +72,25 @@
 
 # virtual methods
 .method public final onChanged(Ljava/lang/Object;)V
-    .locals 2
+    .locals 1
 
-    .line 915
-    instance-of v0, p1, Ljava/lang/Integer;
+    .line 998
+    instance-of v0, p1, Ljava/lang/Boolean;
 
     if-eqz v0, :cond_0
 
-    .line 917
+    .line 999
     iget-object v0, p0, Lcom/rigol/scope/views/grid/GridRulerViewWrapper$2;->this$0:Lcom/rigol/scope/views/grid/GridRulerViewWrapper;
 
-    check-cast p1, Ljava/lang/Number;
+    check-cast p1, Ljava/lang/Boolean;
 
-    invoke-virtual {p1}, Ljava/lang/Number;->floatValue()F
+    invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p1
 
-    const/high16 v1, 0x42c80000    # 100.0f
+    invoke-virtual {v0, p1}, Lcom/rigol/scope/views/grid/GridRulerViewWrapper;->setMove(Z)V
 
-    div-float/2addr p1, v1
-
-    invoke-virtual {v0, p1}, Lcom/rigol/scope/views/grid/GridRulerViewWrapper;->setLineAlpha(F)V
-
-    .line 918
+    .line 1001
     iget-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerViewWrapper$2;->this$0:Lcom/rigol/scope/views/grid/GridRulerViewWrapper;
 
     invoke-virtual {p1}, Lcom/rigol/scope/views/grid/GridRulerViewWrapper;->invalidate()V

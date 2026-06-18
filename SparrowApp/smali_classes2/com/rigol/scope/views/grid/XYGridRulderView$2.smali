@@ -74,12 +74,12 @@
 .method public final onChanged(Ljava/lang/Object;)V
     .locals 2
 
-    .line 1507
+    .line 1622
     instance-of v0, p1, Ljava/lang/Integer;
 
     if-eqz v0, :cond_0
 
-    .line 1509
+    .line 1624
     iget-object v0, p0, Lcom/rigol/scope/views/grid/XYGridRulderView$2;->this$0:Lcom/rigol/scope/views/grid/XYGridRulderView;
 
     check-cast p1, Ljava/lang/Number;
@@ -98,7 +98,7 @@
 
     invoke-virtual {v0, p1}, Lcom/rigol/scope/views/grid/XYGridRulderView;->setType(Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;)V
 
-    .line 1510
+    .line 1625
     iget-object p1, p0, Lcom/rigol/scope/views/grid/XYGridRulderView$2;->this$0:Lcom/rigol/scope/views/grid/XYGridRulderView;
 
     invoke-virtual {p1}, Lcom/rigol/scope/views/grid/XYGridRulderView;->invalidate()V

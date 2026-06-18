@@ -437,7 +437,7 @@
 
     iput-object v0, p0, Lcom/rigol/scope/views/histogram/HistogramResultParam;->sourceArray:Landroidx/collection/SparseArrayCompat;
 
-    const v0, 0x7f030140
+    const v0, 0x7f030141
 
     .line 665
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -491,7 +491,7 @@
     .line 329
     iget-object v0, p0, Lcom/rigol/scope/views/histogram/HistogramResultParam;->realBottomAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2117
+    const/16 v1, 0x2317
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -504,7 +504,7 @@
     .line 337
     iget-object v0, p0, Lcom/rigol/scope/views/histogram/HistogramResultParam;->realLeftAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2118
+    const/16 v1, 0x2318
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -517,7 +517,7 @@
     .line 333
     iget-object v0, p0, Lcom/rigol/scope/views/histogram/HistogramResultParam;->realRightAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2119
+    const/16 v1, 0x2319
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -530,7 +530,7 @@
     .line 341
     iget-object v0, p0, Lcom/rigol/scope/views/histogram/HistogramResultParam;->realTopAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2116
+    const/16 v1, 0x2316
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -1180,7 +1180,7 @@
 .method public final readBottomPosition()I
     .locals 1
 
-    const/16 v0, 0x210c
+    const/16 v0, 0x230c
 
     .line 413
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->readInt(I)I
@@ -1198,7 +1198,7 @@
 .method public final readEnable()Z
     .locals 1
 
-    const/16 v0, 0x2101
+    const/16 v0, 0x2301
 
     .line 375
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->readBool(I)Z
@@ -1216,7 +1216,7 @@
 .method public final readHeight()I
     .locals 1
 
-    const/16 v0, 0x2105
+    const/16 v0, 0x2305
 
     .line 393
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->readInt(I)I
@@ -1237,7 +1237,7 @@
     .line 345
     iget-object v0, p0, Lcom/rigol/scope/views/histogram/HistogramResultParam;->heightAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x2105
+    const/16 v1, 0x2305
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -1247,7 +1247,7 @@
 .method public final readLeftPosition()I
     .locals 1
 
-    const/16 v0, 0x2109
+    const/16 v0, 0x2309
 
     .line 398
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->readInt(I)I
@@ -1265,7 +1265,7 @@
 .method public final readRealBottom()J
     .locals 2
 
-    const/16 v0, 0x2117
+    const/16 v0, 0x2317
 
     .line 452
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->readLong(I)J
@@ -1286,7 +1286,7 @@
 .method public final readRealLeft()J
     .locals 2
 
-    const/16 v0, 0x2118
+    const/16 v0, 0x2318
 
     .line 422
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->readLong(I)J
@@ -1307,7 +1307,7 @@
 .method public final readRealRight()J
     .locals 2
 
-    const/16 v0, 0x2119
+    const/16 v0, 0x2319
 
     .line 432
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->readLong(I)J
@@ -1328,7 +1328,7 @@
 .method public final readRealTop()J
     .locals 2
 
-    const/16 v0, 0x2116
+    const/16 v0, 0x2316
 
     .line 442
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->readLong(I)J
@@ -1349,7 +1349,7 @@
 .method public final readRightPosition()I
     .locals 1
 
-    const/16 v0, 0x210a
+    const/16 v0, 0x230a
 
     .line 403
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->readInt(I)I
@@ -1367,7 +1367,7 @@
 .method public final readSource()Lcom/rigol/scope/cil/ServiceEnum$Chan;
     .locals 2
 
-    const/16 v0, 0x2103
+    const/16 v0, 0x2303
 
     .line 386
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->readInt(I)I
@@ -1395,7 +1395,7 @@
 .method public final readTopPosition()I
     .locals 1
 
-    const/16 v0, 0x210b
+    const/16 v0, 0x230b
 
     .line 408
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->readInt(I)I
@@ -1413,7 +1413,7 @@
 .method public final readType()Lcom/rigol/scope/cil/ServiceEnum$HistoType;
     .locals 1
 
-    const/16 v0, 0x2102
+    const/16 v0, 0x2302
 
     .line 380
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->readInt(I)I
@@ -1446,7 +1446,7 @@
 
     move-result-object v0
 
-    const/16 v1, 0x2101
+    const/16 v1, 0x2301
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->syncData(ILjava/lang/Object;)V
 
@@ -1556,7 +1556,7 @@
 .method public final resetHistoStatis()V
     .locals 2
 
-    const/16 v0, 0x2107
+    const/16 v0, 0x2307
 
     const/4 v1, 0x1
 
@@ -1579,7 +1579,7 @@
     .line 493
     iget v0, p0, Lcom/rigol/scope/views/histogram/HistogramResultParam;->height:I
 
-    const/16 v1, 0x2105
+    const/16 v1, 0x2305
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->saveInt(II)I
 
@@ -1601,7 +1601,7 @@
     .line 599
     iget-wide v0, p0, Lcom/rigol/scope/views/histogram/HistogramResultParam;->realBottom:J
 
-    const/16 v2, 0x2117
+    const/16 v2, 0x2317
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->saveLong(IJ)I
 
@@ -1646,7 +1646,7 @@
     .line 571
     iget-wide v0, p0, Lcom/rigol/scope/views/histogram/HistogramResultParam;->realLeft:J
 
-    const/16 v2, 0x2118
+    const/16 v2, 0x2318
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->saveLong(IJ)I
 
@@ -1668,7 +1668,7 @@
     .line 551
     iget-wide v0, p0, Lcom/rigol/scope/views/histogram/HistogramResultParam;->realRight:J
 
-    const/16 v2, 0x2119
+    const/16 v2, 0x2319
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->saveLong(IJ)I
 
@@ -1690,7 +1690,7 @@
     .line 585
     iget-wide v0, p0, Lcom/rigol/scope/views/histogram/HistogramResultParam;->realTop:J
 
-    const/16 v2, 0x2116
+    const/16 v2, 0x2316
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->saveLong(IJ)I
 
@@ -1711,7 +1711,7 @@
     :cond_0
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->setBottom(I)V
 
-    const/16 v0, 0x210c
+    const/16 v0, 0x230c
 
     .line 537
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->saveInt(II)I
@@ -1742,7 +1742,7 @@
     .line 464
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->setEnable(Z)V
 
-    const/16 v0, 0x2101
+    const/16 v0, 0x2301
 
     .line 465
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->saveBool(IZ)I
@@ -1756,7 +1756,7 @@
     .line 485
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->setHeight(I)V
 
-    const/16 v0, 0x2105
+    const/16 v0, 0x2305
 
     .line 487
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->saveInt(II)I
@@ -1778,7 +1778,7 @@
     :cond_0
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->setLeft(I)V
 
-    const/16 v0, 0x2109
+    const/16 v0, 0x2309
 
     .line 504
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->saveInt(II)I
@@ -1792,7 +1792,7 @@
     .line 593
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->setRealBottom(J)V
 
-    const/16 v0, 0x2117
+    const/16 v0, 0x2317
 
     .line 594
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->saveLong(IJ)I
@@ -1827,7 +1827,7 @@
 
     invoke-static {v0, v1}, Ltimber/log/Timber;->e(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    const/16 v0, 0x2118
+    const/16 v0, 0x2318
 
     .line 561
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->saveLong(IJ)I
@@ -1841,7 +1841,7 @@
     .line 545
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->setRealRight(J)V
 
-    const/16 v0, 0x2119
+    const/16 v0, 0x2319
 
     .line 546
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->saveLong(IJ)I
@@ -1855,7 +1855,7 @@
     .line 579
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->setRealTop(J)V
 
-    const/16 v0, 0x2116
+    const/16 v0, 0x2316
 
     .line 580
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->saveLong(IJ)I
@@ -1877,7 +1877,7 @@
     :cond_0
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->setRight(I)V
 
-    const/16 v0, 0x210a
+    const/16 v0, 0x230a
 
     .line 515
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->saveInt(II)I
@@ -1905,7 +1905,7 @@
     :cond_0
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->setSourceA(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
 
-    const/16 v0, 0x2103
+    const/16 v0, 0x2303
 
     .line 481
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
@@ -1929,7 +1929,7 @@
     :cond_0
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->setTop(I)V
 
-    const/16 v0, 0x210b
+    const/16 v0, 0x230b
 
     .line 526
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->saveInt(II)I
@@ -1955,7 +1955,7 @@
     :cond_0
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->setType(Lcom/rigol/scope/cil/ServiceEnum$HistoType;)V
 
-    const/16 v0, 0x2102
+    const/16 v0, 0x2302
 
     .line 473
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$HistoType;->value1:I
@@ -2346,7 +2346,7 @@
     .line 147
     iput p1, p0, Lcom/rigol/scope/views/histogram/HistogramResultParam;->left:I
 
-    const/16 p1, 0x1e2
+    const/16 p1, 0x1e3
 
     .line 148
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->notifyPropertyChanged(I)V
@@ -2414,7 +2414,7 @@
     .line 217
     iput-wide p1, p0, Lcom/rigol/scope/views/histogram/HistogramResultParam;->realBottom:J
 
-    const/16 p1, 0x2b1
+    const/16 p1, 0x2b5
 
     .line 218
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->notifyPropertyChanged(I)V
@@ -2428,7 +2428,7 @@
     .line 187
     iput-wide p1, p0, Lcom/rigol/scope/views/histogram/HistogramResultParam;->realLeft:J
 
-    const/16 p1, 0x2b2
+    const/16 p1, 0x2b6
 
     .line 188
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->notifyPropertyChanged(I)V
@@ -2442,7 +2442,7 @@
     .line 197
     iput-wide p1, p0, Lcom/rigol/scope/views/histogram/HistogramResultParam;->realRight:J
 
-    const/16 p1, 0x2b3
+    const/16 p1, 0x2b7
 
     .line 198
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->notifyPropertyChanged(I)V
@@ -2456,7 +2456,7 @@
     .line 207
     iput-wide p1, p0, Lcom/rigol/scope/views/histogram/HistogramResultParam;->realTop:J
 
-    const/16 p1, 0x2b5
+    const/16 p1, 0x2b9
 
     .line 208
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->notifyPropertyChanged(I)V
@@ -2470,7 +2470,7 @@
     .line 157
     iput p1, p0, Lcom/rigol/scope/views/histogram/HistogramResultParam;->right:I
 
-    const/16 p1, 0x2e4
+    const/16 p1, 0x2e8
 
     .line 158
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->notifyPropertyChanged(I)V
@@ -2502,7 +2502,7 @@
     .line 167
     iput p1, p0, Lcom/rigol/scope/views/histogram/HistogramResultParam;->top:I
 
-    const/16 p1, 0x3ac
+    const/16 p1, 0x3b0
 
     .line 168
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->notifyPropertyChanged(I)V
@@ -2516,7 +2516,7 @@
     .line 114
     iput-object p1, p0, Lcom/rigol/scope/views/histogram/HistogramResultParam;->type:Lcom/rigol/scope/cil/ServiceEnum$HistoType;
 
-    const/16 p1, 0x3d2
+    const/16 p1, 0x3d6
 
     .line 116
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->notifyPropertyChanged(I)V
@@ -2534,7 +2534,7 @@
     .line 238
     iput-object p1, p0, Lcom/rigol/scope/views/histogram/HistogramResultParam;->verUnit:Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
-    const/16 p1, 0x3fd
+    const/16 p1, 0x401
 
     .line 239
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/histogram/HistogramResultParam;->notifyPropertyChanged(I)V

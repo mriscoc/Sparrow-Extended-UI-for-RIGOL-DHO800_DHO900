@@ -24,7 +24,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/PopupviewLaCalibrationBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08fd
+    const v1, 0x7f0a0909
 
     const/4 v2, 0x3
 
@@ -34,7 +34,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewLaCalibrationBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04d1
+    const v1, 0x7f0a04d3
 
     const/4 v2, 0x4
 
@@ -43,7 +43,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewLaCalibrationBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04cc
+    const v1, 0x7f0a04ce
 
     const/4 v2, 0x5
 
@@ -52,7 +52,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewLaCalibrationBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a06a4
+    const v1, 0x7f0a06ae
 
     const/4 v2, 0x6
 
@@ -61,7 +61,7 @@
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewLaCalibrationBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a05cc
+    const v1, 0x7f0a05d4
 
     const/4 v2, 0x7
 
@@ -70,7 +70,7 @@
     .line 22
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewLaCalibrationBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a05cd
+    const v1, 0x7f0a05d5
 
     const/16 v2, 0x8
 
@@ -79,7 +79,7 @@
     .line 23
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewLaCalibrationBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a07a5
+    const v1, 0x7f0a07b1
 
     const/16 v2, 0x9
 
@@ -88,7 +88,7 @@
     .line 24
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewLaCalibrationBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0741
+    const v1, 0x7f0a074d
 
     const/16 v2, 0xa
 
@@ -133,7 +133,7 @@
     .line 29
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewLaCalibrationBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a038e
+    const v1, 0x7f0a0390
 
     const/16 v2, 0xf
 
@@ -142,7 +142,7 @@
     .line 30
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewLaCalibrationBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a085d
+    const v1, 0x7f0a0869
 
     const/16 v2, 0x10
 
@@ -415,7 +415,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x1d4
+    const/16 v0, 0x1d5
 
     if-ne p2, v0, :cond_1
 
@@ -447,7 +447,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x1d5
+    const/16 v0, 0x1d6
 
     if-ne p2, v0, :cond_2
 
@@ -559,7 +559,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -651,7 +651,7 @@
     move-result v4
 
     :cond_0
-    const v6, 0x7f030151
+    const v6, 0x7f030152
 
     .line 223
     invoke-static {v6, v4}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -909,7 +909,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x1c6
+    const/16 p1, 0x1c7
 
     .line 125
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewLaCalibrationBindingImpl;->notifyPropertyChanged(I)V
@@ -952,7 +952,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x239
+    const/16 v0, 0x23b
 
     if-ne v0, p1, :cond_0
 
@@ -964,7 +964,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x3f5
+    const/16 v0, 0x3f9
 
     if-ne v0, p1, :cond_1
 
@@ -976,7 +976,7 @@
     goto :goto_0
 
     :cond_1
-    const/16 v0, 0x1c1
+    const/16 v0, 0x1c2
 
     if-ne v0, p1, :cond_2
 
@@ -988,7 +988,7 @@
     goto :goto_0
 
     :cond_2
-    const/16 v0, 0x1c6
+    const/16 v0, 0x1c7
 
     if-ne v0, p1, :cond_3
 

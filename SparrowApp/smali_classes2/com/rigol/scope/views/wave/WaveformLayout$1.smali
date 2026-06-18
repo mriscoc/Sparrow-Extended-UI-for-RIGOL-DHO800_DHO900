@@ -247,7 +247,7 @@
 
     const/16 v1, 0x28
 
-    const/16 v4, 0x3903
+    const/16 v4, 0x3b03
 
     .line 249
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
@@ -324,7 +324,7 @@
 
     move-result-object p1
 
-    const v2, 0x7f10117e
+    const v2, 0x7f101191    # 1.9150004E38f
 
     invoke-virtual {p1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

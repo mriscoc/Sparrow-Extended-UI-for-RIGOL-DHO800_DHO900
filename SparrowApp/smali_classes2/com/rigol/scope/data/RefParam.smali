@@ -348,7 +348,7 @@
 
     const/16 v1, 0xa
 
-    const/16 v2, 0x2343
+    const/16 v2, 0x2543
 
     invoke-static {v1, v2}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 
@@ -428,7 +428,7 @@
 .method public readRefChan()I
     .locals 1
 
-    const/16 v0, 0x4102
+    const/16 v0, 0x4302
 
     .line 188
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/RefParam;->readInt(I)I
@@ -448,7 +448,7 @@
 .method public readShowLabel()Z
     .locals 1
 
-    const/16 v0, 0x4107
+    const/16 v0, 0x4307
 
     .line 208
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/RefParam;->readBool(I)Z
@@ -586,7 +586,7 @@
     .line 198
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/RefParam;->setRefChan(I)V
 
-    const/16 v0, 0x4102
+    const/16 v0, 0x4302
 
     .line 199
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/RefParam;->saveInt(II)I
@@ -600,7 +600,7 @@
     .line 218
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/RefParam;->setShowLabel(Z)V
 
-    const/16 v0, 0x4107
+    const/16 v0, 0x4307
 
     .line 219
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/RefParam;->saveBool(IZ)I
@@ -623,7 +623,7 @@
     .line 118
     iput-object p1, p0, Lcom/rigol/scope/data/RefParam;->param:Lcom/rigol/scope/data/RefParam$Param;
 
-    const/16 p1, 0x252
+    const/16 p1, 0x254
 
     .line 119
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/RefParam;->notifyPropertyChanged(I)V
@@ -637,7 +637,7 @@
     .line 173
     iput p1, p0, Lcom/rigol/scope/data/RefParam;->refChan:I
 
-    const/16 v0, 0x2ca
+    const/16 v0, 0x2ce
 
     .line 174
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/RefParam;->notifyPropertyChanged(I)V
@@ -647,7 +647,7 @@
 
     move-result-object v0
 
-    const/16 v1, 0x4102
+    const/16 v1, 0x4302
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/RefParam;->syncData(ILjava/lang/Object;)V
 
@@ -686,7 +686,7 @@
     .line 162
     iput-boolean p1, p0, Lcom/rigol/scope/data/RefParam;->showLabel:Z
 
-    const/16 v0, 0x33c
+    const/16 v0, 0x340
 
     .line 163
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/RefParam;->notifyPropertyChanged(I)V
@@ -696,7 +696,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x4107
+    const/16 v0, 0x4307
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/RefParam;->syncData(ILjava/lang/Object;)V
 

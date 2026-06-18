@@ -368,7 +368,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a055e
+    const v0, 0x7f0a0566
 
     if-ne p1, v0, :cond_2
 
@@ -380,7 +380,7 @@
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f0a056c
+    const v0, 0x7f0a0574
 
     if-ne p1, v0, :cond_3
 
@@ -392,7 +392,7 @@
     goto :goto_0
 
     :cond_3
-    const v0, 0x7f0a0570
+    const v0, 0x7f0a0578
 
     if-ne p1, v0, :cond_4
 
@@ -404,7 +404,7 @@
     goto :goto_0
 
     :cond_4
-    const v0, 0x7f0a057d
+    const v0, 0x7f0a0585
 
     if-ne p1, v0, :cond_5
 
@@ -416,7 +416,7 @@
     goto :goto_0
 
     :cond_5
-    const v0, 0x7f0a0583
+    const v0, 0x7f0a058b
 
     if-ne p1, v0, :cond_6
 
@@ -428,7 +428,7 @@
     goto :goto_0
 
     :cond_6
-    const v0, 0x7f0a0580
+    const v0, 0x7f0a0588
 
     if-ne p1, v0, :cond_7
 
@@ -440,7 +440,7 @@
     goto :goto_0
 
     :cond_7
-    const v0, 0x7f0a0568
+    const v0, 0x7f0a0570
 
     if-ne p1, v0, :cond_8
 
@@ -452,7 +452,7 @@
     goto :goto_0
 
     :cond_8
-    const v0, 0x7f0a0556
+    const v0, 0x7f0a055e
 
     if-ne p1, v0, :cond_9
 
@@ -469,7 +469,7 @@
 .method public onCheckedChanged(Landroid/widget/RadioGroup;I)V
     .locals 1
 
-    const p1, 0x7f0a0555
+    const p1, 0x7f0a055d
 
     if-ne p2, p1, :cond_0
 
@@ -494,7 +494,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0a0576
+    const p1, 0x7f0a057e
 
     if-ne p2, p1, :cond_1
 
@@ -519,7 +519,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f0a0561
+    const p1, 0x7f0a0569
 
     if-ne p2, p1, :cond_2
 
@@ -544,7 +544,7 @@
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f0a057a
+    const p1, 0x7f0a0582
 
     if-ne p2, p1, :cond_3
 
@@ -560,7 +560,7 @@
     goto :goto_0
 
     :cond_3
-    const p1, 0x7f0a0564
+    const p1, 0x7f0a056c
 
     if-ne p2, p1, :cond_4
 
@@ -576,7 +576,7 @@
     goto :goto_0
 
     :cond_4
-    const p1, 0x7f0a0553
+    const p1, 0x7f0a055b
 
     if-ne p2, p1, :cond_5
 
@@ -610,7 +610,7 @@
     return-void
 
     :cond_0
-    const v1, 0x7f0a057f
+    const v1, 0x7f0a0587
 
     if-ne v0, v1, :cond_2
 
@@ -625,7 +625,7 @@
     :cond_1
     iget-object v0, p0, Lcom/rigol/scope/views/jitter/JitterPopupView;->anchor:Landroid/view/View;
 
-    const v1, 0x7f03014e
+    const v1, 0x7f03014f
 
     new-instance v2, Lcom/rigol/scope/views/jitter/-$$Lambda$JitterPopupView$-rwD3FGfs9C_nOAF46p-WM5wPWE;
 
@@ -636,7 +636,7 @@
     goto/16 :goto_0
 
     :cond_2
-    const v1, 0x7f0a07a2
+    const v1, 0x7f0a07ae
 
     if-ne v0, v1, :cond_3
 
@@ -647,7 +647,7 @@
 
     const/16 v0, 0x34
 
-    const/16 v1, 0x2710
+    const/16 v1, 0x2910
 
     const/4 v2, 0x1
 
@@ -656,7 +656,7 @@
     goto/16 :goto_0
 
     :cond_3
-    const v1, 0x7f0a0567
+    const v1, 0x7f0a056f
 
     if-ne v0, v1, :cond_5
 
@@ -738,7 +738,7 @@
     goto/16 :goto_0
 
     :cond_5
-    const v1, 0x7f0a056e
+    const v1, 0x7f0a0576
 
     if-ne v0, v1, :cond_7
 
@@ -820,7 +820,7 @@
     goto :goto_0
 
     :cond_7
-    const v1, 0x7f0a056a
+    const v1, 0x7f0a0572
 
     if-ne v0, v1, :cond_9
 

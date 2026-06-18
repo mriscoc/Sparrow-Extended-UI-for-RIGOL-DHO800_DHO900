@@ -123,7 +123,7 @@
 
     if-eqz v0, :cond_1
 
-    const/16 v1, 0x4709
+    const/16 v1, 0x4909
 
     const/16 v2, 0x9
 
@@ -143,7 +143,7 @@
     .line 101
     iget-object v0, p0, Lcom/rigol/scope/adapters/UtilityCalibrationAdapter;->syncDataViewModel:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    const/16 v1, 0x4707
+    const/16 v1, 0x4907
 
     invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -725,7 +725,35 @@
     return-void
 .end method
 
-.method public synthetic lambda$new$2$UtilityCalibrationAdapter()V
+.method public synthetic lambda$new$3$UtilityCalibrationAdapter(Ljava/lang/Object;)V
+    .locals 3
+
+    .line 102
+    new-instance p1, Landroid/os/Handler;
+
+    invoke-direct {p1}, Landroid/os/Handler;-><init>()V
+
+    new-instance v0, Lcom/rigol/scope/adapters/-$$Lambda$UtilityCalibrationAdapter$juYCbGdW8N_4aaQB49lhYDbJbB4;
+
+    invoke-direct {v0, p0}, Lcom/rigol/scope/adapters/-$$Lambda$UtilityCalibrationAdapter$juYCbGdW8N_4aaQB49lhYDbJbB4;-><init>(Lcom/rigol/scope/adapters/UtilityCalibrationAdapter;)V
+
+    const-wide/16 v1, 0xc8
+
+    invoke-virtual {p1, v0, v1, v2}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
+
+    return-void
+.end method
+
+.method public synthetic lambda$new$4$UtilityCalibrationAdapter(Lcom/rigol/scope/data/CalibrationParam;)V
+    .locals 0
+
+    .line 116
+    iput-object p1, p0, Lcom/rigol/scope/adapters/UtilityCalibrationAdapter;->calibrationParam:Lcom/rigol/scope/data/CalibrationParam;
+
+    return-void
+.end method
+
+.method public synthetic lambda$null$2$UtilityCalibrationAdapter()V
     .locals 1
 
     const v0, 0x7f03007f
@@ -750,34 +778,6 @@
     invoke-virtual {v0}, Lcom/rigol/scope/adapters/BaseAdapter;->notifyDataSetChanged()V
 
     :cond_0
-    return-void
-.end method
-
-.method public synthetic lambda$new$3$UtilityCalibrationAdapter(Ljava/lang/Object;)V
-    .locals 3
-
-    .line 102
-    new-instance p1, Landroid/os/Handler;
-
-    invoke-direct {p1}, Landroid/os/Handler;-><init>()V
-
-    new-instance v0, Lcom/rigol/scope/adapters/-$$Lambda$UtilityCalibrationAdapter$mYXp24Ax10BoJBGsjkPgAT_37lw;
-
-    invoke-direct {v0, p0}, Lcom/rigol/scope/adapters/-$$Lambda$UtilityCalibrationAdapter$mYXp24Ax10BoJBGsjkPgAT_37lw;-><init>(Lcom/rigol/scope/adapters/UtilityCalibrationAdapter;)V
-
-    const-wide/16 v1, 0xc8
-
-    invoke-virtual {p1, v0, v1, v2}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
-
-    return-void
-.end method
-
-.method public synthetic lambda$new$4$UtilityCalibrationAdapter(Lcom/rigol/scope/data/CalibrationParam;)V
-    .locals 0
-
-    .line 116
-    iput-object p1, p0, Lcom/rigol/scope/adapters/UtilityCalibrationAdapter;->calibrationParam:Lcom/rigol/scope/data/CalibrationParam;
-
     return-void
 .end method
 

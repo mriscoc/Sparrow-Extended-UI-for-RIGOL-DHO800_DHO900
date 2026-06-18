@@ -827,7 +827,7 @@
     .line 453
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->statCountAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x3326
+    const/16 v1, 0x3526
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -849,21 +849,21 @@
     .line 460
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdHighAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x3331
+    const/16 v1, 0x3531
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
     .line 461
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdMiddleAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x3332
+    const/16 v1, 0x3532
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
     .line 462
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdLowAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x3333
+    const/16 v1, 0x3533
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -891,14 +891,14 @@
     .line 471
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->cursorAAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x331d
+    const/16 v1, 0x351d
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
     .line 472
     iget-object v0, p0, Lcom/rigol/scope/data/MeasureSettingParam;->cursorBAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x331e
+    const/16 v1, 0x351e
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -933,7 +933,7 @@
 
     const/16 v1, 0x1c
 
-    const/16 v2, 0x3317
+    const/16 v2, 0x3517
 
     const/4 v3, 0x1
 
@@ -951,7 +951,7 @@
 .method public final readAllItemSource()Lcom/rigol/scope/cil/ServiceEnum$Chan;
     .locals 2
 
-    const/16 v0, 0x33db
+    const/16 v0, 0x35df
 
     .line 605
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readInt(I)I
@@ -977,7 +977,7 @@
 .method public final readBaseMethod()I
     .locals 1
 
-    const/16 v0, 0x331a
+    const/16 v0, 0x351a
 
     .line 562
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readInt(I)I
@@ -995,7 +995,7 @@
 .method public final readCursorA()J
     .locals 2
 
-    const/16 v0, 0x331d
+    const/16 v0, 0x351d
 
     .line 572
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readLong(I)J
@@ -1013,7 +1013,7 @@
 .method public final readCursorB()J
     .locals 2
 
-    const/16 v0, 0x331e
+    const/16 v0, 0x351e
 
     .line 577
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readLong(I)J
@@ -1031,7 +1031,7 @@
 .method public final readCursorBothAB()J
     .locals 2
 
-    const/16 v0, 0x331f
+    const/16 v0, 0x351f
 
     .line 582
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readLong(I)J
@@ -1049,7 +1049,7 @@
 .method public final readCursorIndicator()Z
     .locals 1
 
-    const/16 v0, 0x3322
+    const/16 v0, 0x3522
 
     .line 501
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readBool(I)Z
@@ -1067,7 +1067,7 @@
 .method public final readCursorThreshold()Z
     .locals 1
 
-    const/16 v0, 0x3340
+    const/16 v0, 0x3540
 
     .line 506
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readBool(I)Z
@@ -1085,7 +1085,7 @@
 .method public final readHistoEnable()Z
     .locals 1
 
-    const/16 v0, 0x33d7
+    const/16 v0, 0x35d7
 
     .line 595
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readBool(I)Z
@@ -1103,7 +1103,7 @@
 .method public final readMeaType()I
     .locals 1
 
-    const/16 v0, 0x3394
+    const/16 v0, 0x3594
 
     .line 729
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readInt(I)I
@@ -1116,7 +1116,7 @@
 .method public final readMeasHistoWindowTitle()Ljava/lang/String;
     .locals 2
 
-    const/16 v0, 0x33d8
+    const/16 v0, 0x35d8
 
     .line 599
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readStr(I)Ljava/lang/String;
@@ -1139,7 +1139,7 @@
 .method public final readMeasureAllSrc()Lcom/rigol/scope/cil/ServiceEnum$Chan;
     .locals 2
 
-    const/16 v0, 0x330f
+    const/16 v0, 0x350f
 
     .line 491
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readInt(I)I
@@ -1165,7 +1165,7 @@
 .method public final readMethodState()Z
     .locals 1
 
-    const/16 v0, 0x3318
+    const/16 v0, 0x3518
 
     .line 552
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readBool(I)Z
@@ -1183,7 +1183,7 @@
 .method public final readMode()I
     .locals 1
 
-    const/16 v0, 0x331b
+    const/16 v0, 0x351b
 
     .line 496
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readInt(I)I
@@ -1201,7 +1201,7 @@
 .method public final readPosition()I
     .locals 1
 
-    const/16 v0, 0x3308
+    const/16 v0, 0x3508
 
     .line 487
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readInt(I)I
@@ -1214,7 +1214,7 @@
 .method public final readRegion()I
     .locals 1
 
-    const/16 v0, 0x331c
+    const/16 v0, 0x351c
 
     .line 567
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readInt(I)I
@@ -1232,7 +1232,7 @@
 .method public final readSelectSourceA()Lcom/rigol/scope/cil/ServiceEnum$Chan;
     .locals 2
 
-    const/16 v0, 0x3305
+    const/16 v0, 0x3505
 
     .line 586
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readInt(I)I
@@ -1258,7 +1258,7 @@
 .method public final readSelectSourceB()Lcom/rigol/scope/cil/ServiceEnum$Chan;
     .locals 2
 
-    const/16 v0, 0x3306
+    const/16 v0, 0x3506
 
     .line 590
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readInt(I)I
@@ -1284,7 +1284,7 @@
 .method public final readStatCount()I
     .locals 1
 
-    const/16 v0, 0x3326
+    const/16 v0, 0x3526
 
     .line 516
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readInt(I)I
@@ -1302,7 +1302,7 @@
 .method public final readStatisticState()Z
     .locals 1
 
-    const/16 v0, 0x3323
+    const/16 v0, 0x3523
 
     .line 511
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readBool(I)Z
@@ -1320,7 +1320,7 @@
 .method public final readThresholdHigh()J
     .locals 2
 
-    const/16 v0, 0x3331
+    const/16 v0, 0x3531
 
     .line 536
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readLong(I)J
@@ -1338,7 +1338,7 @@
 .method public final readThresholdLow()J
     .locals 2
 
-    const/16 v0, 0x3333
+    const/16 v0, 0x3533
 
     .line 547
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readLong(I)J
@@ -1356,7 +1356,7 @@
 .method public final readThresholdMiddle()J
     .locals 2
 
-    const/16 v0, 0x3332
+    const/16 v0, 0x3532
 
     .line 542
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readLong(I)J
@@ -1374,7 +1374,7 @@
 .method public final readThresholdSource()Lcom/rigol/scope/cil/ServiceEnum$Chan;
     .locals 2
 
-    const/16 v0, 0x3312
+    const/16 v0, 0x3512
 
     .line 531
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readInt(I)I
@@ -1400,7 +1400,7 @@
 .method public final readThresholdType()Lcom/rigol/scope/cil/ServiceEnum$ThreType;
     .locals 3
 
-    const/16 v0, 0x3313
+    const/16 v0, 0x3513
 
     .line 521
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readInt(I)I
@@ -1458,7 +1458,7 @@
 .method public final readTopMethod()I
     .locals 1
 
-    const/16 v0, 0x3319
+    const/16 v0, 0x3519
 
     .line 557
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->readInt(I)I
@@ -1587,7 +1587,7 @@
     .line 612
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    const/16 v0, 0x33db
+    const/16 v0, 0x35df
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveInt(II)I
 
@@ -1600,7 +1600,7 @@
     .line 704
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->setBaseMethod(I)V
 
-    const/16 v0, 0x331a
+    const/16 v0, 0x351a
 
     .line 705
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveInt(II)I
@@ -1614,7 +1614,7 @@
     .line 714
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MeasureSettingParam;->setCursorA(J)V
 
-    const/16 v0, 0x331d
+    const/16 v0, 0x351d
 
     .line 715
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MeasureSettingParam;->saveLong(IJ)I
@@ -1628,7 +1628,7 @@
     .line 724
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MeasureSettingParam;->setCursorBothAB(J)V
 
-    const/16 v0, 0x331f
+    const/16 v0, 0x351f
 
     .line 725
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MeasureSettingParam;->saveLong(IJ)I
@@ -1642,7 +1642,7 @@
     .line 719
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MeasureSettingParam;->setCursorB(J)V
 
-    const/16 v0, 0x331e
+    const/16 v0, 0x351e
 
     .line 720
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MeasureSettingParam;->saveLong(IJ)I
@@ -1656,7 +1656,7 @@
     .line 649
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->setCursorIndicator(Z)V
 
-    const/16 v0, 0x3322
+    const/16 v0, 0x3522
 
     .line 650
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveBool(IZ)I
@@ -1670,7 +1670,7 @@
     .line 654
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->setCursorThreshold(Z)V
 
-    const/16 v0, 0x3340
+    const/16 v0, 0x3540
 
     .line 655
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveBool(IZ)I
@@ -1687,7 +1687,7 @@
     .line 617
     iget-boolean p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->histoEnable:Z
 
-    const/16 v0, 0x33d7
+    const/16 v0, 0x35d7
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveBool(IZ)I
 
@@ -1716,7 +1716,7 @@
     .line 622
     iget-object p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->windowTitleString:Ljava/lang/String;
 
-    const/16 v0, 0x33d8
+    const/16 v0, 0x35d8
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveStr(ILjava/lang/String;)I
 
@@ -1736,7 +1736,7 @@
     .line 635
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    const/16 v0, 0x330f
+    const/16 v0, 0x350f
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveInt(II)I
 
@@ -1749,7 +1749,7 @@
     .line 694
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->setMethodState(Z)V
 
-    const/16 v0, 0x3318
+    const/16 v0, 0x3518
 
     .line 695
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveBool(IZ)I
@@ -1763,7 +1763,7 @@
     .line 644
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->setMode(I)V
 
-    const/16 v0, 0x331b
+    const/16 v0, 0x351b
 
     .line 645
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveInt(II)I
@@ -1777,7 +1777,7 @@
     .line 709
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->setRegion(I)V
 
-    const/16 v0, 0x331c
+    const/16 v0, 0x351c
 
     .line 710
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveInt(II)I
@@ -1798,7 +1798,7 @@
     .line 627
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    const/16 v0, 0x3305
+    const/16 v0, 0x3505
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveInt(II)I
 
@@ -1818,7 +1818,7 @@
     .line 631
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    const/16 v0, 0x3306
+    const/16 v0, 0x3506
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveInt(II)I
 
@@ -1831,7 +1831,7 @@
     .line 664
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->setStatCount(I)V
 
-    const/16 v0, 0x3326
+    const/16 v0, 0x3526
 
     .line 665
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveInt(II)I
@@ -1845,7 +1845,7 @@
     .line 659
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->setStatisticState(Z)V
 
-    const/16 v0, 0x3323
+    const/16 v0, 0x3523
 
     .line 660
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveBool(IZ)I
@@ -1859,7 +1859,7 @@
     .line 679
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MeasureSettingParam;->setThresholdHigh(J)V
 
-    const/16 v0, 0x3331
+    const/16 v0, 0x3531
 
     .line 680
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MeasureSettingParam;->saveLong(IJ)I
@@ -1873,7 +1873,7 @@
     .line 689
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MeasureSettingParam;->setThresholdLow(J)V
 
-    const/16 v0, 0x3333
+    const/16 v0, 0x3533
 
     .line 690
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MeasureSettingParam;->saveLong(IJ)I
@@ -1887,7 +1887,7 @@
     .line 684
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/MeasureSettingParam;->setThresholdMiddle(J)V
 
-    const/16 v0, 0x3332
+    const/16 v0, 0x3532
 
     .line 685
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/MeasureSettingParam;->saveLong(IJ)I
@@ -1908,7 +1908,7 @@
     .line 675
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    const/16 v0, 0x3312
+    const/16 v0, 0x3512
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveInt(II)I
 
@@ -1928,7 +1928,7 @@
     .line 670
     iget p1, p1, Lcom/rigol/scope/cil/ServiceEnum$ThreType;->value1:I
 
-    const/16 v0, 0x3313
+    const/16 v0, 0x3513
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveInt(II)I
 
@@ -1941,7 +1941,7 @@
     .line 699
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->setTopMethod(I)V
 
-    const/16 v0, 0x3319
+    const/16 v0, 0x3519
 
     .line 700
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->saveInt(II)I
@@ -1952,7 +1952,7 @@
 .method public final saveUpaQueryPowerData()V
     .locals 2
 
-    const/16 v0, 0x3113
+    const/16 v0, 0x3313
 
     const/4 v1, 0x0
 
@@ -2137,7 +2137,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x3322
+    const/16 v0, 0x3522
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->syncData(ILjava/lang/Object;)V
 
@@ -2177,7 +2177,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x3340
+    const/16 v0, 0x3540
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->syncData(ILjava/lang/Object;)V
 
@@ -2215,7 +2215,7 @@
     .line 132
     iput-object p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->measureAllSrc:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x211
+    const/16 p1, 0x212
 
     .line 133
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
@@ -2223,7 +2223,7 @@
     .line 134
     iget-object p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->measureAllSrc:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 v0, 0x330f
+    const/16 v0, 0x350f
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->syncData(ILjava/lang/Object;)V
 
@@ -2236,7 +2236,7 @@
     .line 314
     iput-boolean p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->methodState:Z
 
-    const/16 p1, 0x217
+    const/16 p1, 0x218
 
     .line 315
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
@@ -2265,7 +2265,7 @@
     .line 146
     iput p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->mode:I
 
-    const/16 p1, 0x220
+    const/16 p1, 0x221
 
     .line 147
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
@@ -2279,7 +2279,7 @@
     .line 355
     iput p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->region:I
 
-    const/16 p1, 0x2de
+    const/16 p1, 0x2e2
 
     .line 356
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
@@ -2308,7 +2308,7 @@
     .line 434
     iput p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->regionSelect:I
 
-    const/16 p1, 0x2df
+    const/16 p1, 0x2e3
 
     .line 435
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
@@ -2333,7 +2333,7 @@
     .line 76
     iput-object p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->selectSourceA:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x318
+    const/16 p1, 0x31c
 
     .line 77
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
@@ -2358,7 +2358,7 @@
     .line 98
     iput-object p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->selectSourceB:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x319
+    const/16 p1, 0x31d
 
     .line 99
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
@@ -2387,7 +2387,7 @@
     .line 109
     iput-boolean p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->showSelectSourceB:Z
 
-    const/16 p1, 0x342
+    const/16 p1, 0x346
 
     .line 110
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
@@ -2416,7 +2416,7 @@
     .line 120
     iput-boolean p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->showThresLine:Z
 
-    const/16 p1, 0x348
+    const/16 p1, 0x34c
 
     .line 121
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
@@ -2428,7 +2428,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x333f
+    const/16 v0, 0x353f
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->syncData(ILjava/lang/Object;)V
 
@@ -2456,7 +2456,7 @@
     .line 192
     iput p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->statCount:I
 
-    const/16 p1, 0x387
+    const/16 p1, 0x38b
 
     .line 193
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
@@ -2498,7 +2498,7 @@
     .line 181
     iput-boolean p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->statisticState:Z
 
-    const/16 p1, 0x38c
+    const/16 p1, 0x390
 
     .line 182
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
@@ -2527,7 +2527,7 @@
     .line 231
     iput-wide p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdHigh:J
 
-    const/16 v0, 0x3a0
+    const/16 v0, 0x3a4
 
     .line 232
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
@@ -2539,7 +2539,7 @@
 
     if-eq v0, v1, :cond_0
 
-    const/16 v0, 0x3331
+    const/16 v0, 0x3531
 
     .line 235
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -2548,7 +2548,7 @@
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MeasureSettingParam;->syncData(ILjava/lang/Object;)V
 
-    const/16 v0, 0x3332
+    const/16 v0, 0x3532
 
     .line 236
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -2557,7 +2557,7 @@
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MeasureSettingParam;->syncData(ILjava/lang/Object;)V
 
-    const/16 v0, 0x3333
+    const/16 v0, 0x3533
 
     .line 237
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -2615,7 +2615,7 @@
     .line 273
     iput-wide p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdLow:J
 
-    const/16 v0, 0x3a1
+    const/16 v0, 0x3a5
 
     .line 274
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
@@ -2625,7 +2625,7 @@
 
     move-result-object v0
 
-    const/16 v1, 0x3331
+    const/16 v1, 0x3531
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->syncData(ILjava/lang/Object;)V
 
@@ -2634,7 +2634,7 @@
 
     move-result-object v0
 
-    const/16 v1, 0x3332
+    const/16 v1, 0x3532
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->syncData(ILjava/lang/Object;)V
 
@@ -2643,7 +2643,7 @@
 
     move-result-object p1
 
-    const/16 p2, 0x3333
+    const/16 p2, 0x3533
 
     invoke-virtual {p0, p2, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->syncData(ILjava/lang/Object;)V
 
@@ -2695,7 +2695,7 @@
     .line 252
     iput-wide p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdMiddle:J
 
-    const/16 v0, 0x3a2
+    const/16 v0, 0x3a6
 
     .line 253
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
@@ -2707,7 +2707,7 @@
 
     if-eq v0, v1, :cond_0
 
-    const/16 v0, 0x3331
+    const/16 v0, 0x3531
 
     .line 256
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -2716,7 +2716,7 @@
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MeasureSettingParam;->syncData(ILjava/lang/Object;)V
 
-    const/16 v0, 0x3332
+    const/16 v0, 0x3532
 
     .line 257
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -2725,7 +2725,7 @@
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/MeasureSettingParam;->syncData(ILjava/lang/Object;)V
 
-    const/16 v0, 0x3333
+    const/16 v0, 0x3533
 
     .line 258
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -2779,7 +2779,7 @@
     .line 220
     iput-object p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdSource:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x3a3
+    const/16 p1, 0x3a7
 
     .line 221
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
@@ -2804,7 +2804,7 @@
     .line 207
     iput-object p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdType:Lcom/rigol/scope/cil/ServiceEnum$ThreType;
 
-    const/16 p1, 0x3a4
+    const/16 p1, 0x3a8
 
     .line 208
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
@@ -2812,7 +2812,7 @@
     .line 209
     iget-object p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->thresholdType:Lcom/rigol/scope/cil/ServiceEnum$ThreType;
 
-    const/16 v0, 0x3313
+    const/16 v0, 0x3513
 
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->syncData(ILjava/lang/Object;)V
 
@@ -2825,7 +2825,7 @@
     .line 327
     iput p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->topMethod:I
 
-    const/16 p1, 0x3ad
+    const/16 p1, 0x3b1
 
     .line 328
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V
@@ -2843,7 +2843,7 @@
     .line 379
     iput-object p1, p0, Lcom/rigol/scope/data/MeasureSettingParam;->windowTitleString:Ljava/lang/String;
 
-    const/16 p1, 0x436
+    const/16 p1, 0x43a
 
     .line 380
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/MeasureSettingParam;->notifyPropertyChanged(I)V

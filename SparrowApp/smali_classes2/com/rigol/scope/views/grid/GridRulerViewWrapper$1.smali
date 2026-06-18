@@ -74,12 +74,12 @@
 .method public final onChanged(Ljava/lang/Object;)V
     .locals 1
 
-    .line 906
+    .line 990
     instance-of v0, p1, Ljava/lang/Boolean;
 
     if-eqz v0, :cond_0
 
-    .line 907
+    .line 991
     iget-object v0, p0, Lcom/rigol/scope/views/grid/GridRulerViewWrapper$1;->this$0:Lcom/rigol/scope/views/grid/GridRulerViewWrapper;
 
     check-cast p1, Ljava/lang/Boolean;
@@ -90,7 +90,7 @@
 
     invoke-virtual {v0, p1}, Lcom/rigol/scope/views/grid/GridRulerViewWrapper;->setShowRuler(Z)V
 
-    .line 908
+    .line 992
     iget-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerViewWrapper$1;->this$0:Lcom/rigol/scope/views/grid/GridRulerViewWrapper;
 
     invoke-virtual {p1}, Lcom/rigol/scope/views/grid/GridRulerViewWrapper;->invalidate()V

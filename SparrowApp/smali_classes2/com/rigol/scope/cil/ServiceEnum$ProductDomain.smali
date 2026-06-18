@@ -56,7 +56,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 9220
+    .line 9230
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;
 
     const-string v1, "DOMAIN_DSO"
@@ -77,7 +77,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;->DOMAIN_DSO:Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;
 
-    .line 9222
+    .line 9232
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;
 
     const-string v9, "DOMAIN_MSO"
@@ -98,7 +98,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;->DOMAIN_MSO:Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;
 
-    .line 9224
+    .line 9234
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;
 
     const-string v2, "DOMAIN_HDO"
@@ -119,7 +119,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;->DOMAIN_HDO:Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;
 
-    .line 9225
+    .line 9235
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;
 
     const-string v9, "DOMAIN_DSA"
@@ -140,7 +140,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;->DOMAIN_DSA:Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;
 
-    .line 9226
+    .line 9236
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;
 
     const-string v2, "DOMAIN_RSA"
@@ -161,7 +161,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;->DOMAIN_RSA:Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;
 
-    .line 9227
+    .line 9237
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;
 
     const-string v9, "DOMAIN_AFG"
@@ -182,7 +182,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;->DOMAIN_AFG:Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;
 
-    .line 9228
+    .line 9238
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;
 
     const-string v2, "DOMAIN_AWG"
@@ -203,7 +203,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;->DOMAIN_AWG:Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;
 
-    .line 9229
+    .line 9239
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;
 
     const-string v9, "DOMAIN_MDO"
@@ -228,7 +228,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;
 
-    .line 9217
+    .line 9227
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;->DOMAIN_DSO:Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;
 
     const/4 v3, 0x0
@@ -292,19 +292,19 @@
         }
     .end annotation
 
-    .line 9232
+    .line 9242
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 9233
+    .line 9243
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;->value1:I
 
-    .line 9234
+    .line 9244
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;->value2:Ljava/lang/String;
 
-    .line 9235
+    .line 9245
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;->pic1:Ljava/lang/String;
 
-    .line 9236
+    .line 9246
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;->pic2:Ljava/lang/String;
 
     return-void
@@ -313,7 +313,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;
     .locals 1
 
-    .line 9217
+    .line 9227
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -328,7 +328,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;
     .locals 1
 
-    .line 9217
+    .line 9227
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$ProductDomain;->clone()Ljava/lang/Object;

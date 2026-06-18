@@ -29,17 +29,13 @@
 # instance fields
 .field final synthetic this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
-.field final synthetic val$param:Lcom/rigol/scope/data/NavigateParam;
-
 
 # direct methods
-.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/NavigateParam;)V
+.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;)V
     .locals 0
 
-    .line 6660
+    .line 6618
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$574;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
-
-    iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$574;->val$param:Lcom/rigol/scope/data/NavigateParam;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -49,12 +45,24 @@
 
 # virtual methods
 .method public onChanged(Ljava/lang/Object;)V
-    .locals 0
+    .locals 2
 
-    .line 6663
-    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$574;->val$param:Lcom/rigol/scope/data/NavigateParam;
+    .line 6622
+    invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/NavigateParam;->readStartFrame()J
+    move-result-object p1
+
+    const/16 v0, 0x3a
+
+    const/16 v1, 0x3903
+
+    invoke-static {v0, v1}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v1, "UPDATEUI"
+
+    invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
 
     return-void
 .end method

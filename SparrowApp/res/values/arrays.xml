@@ -556,14 +556,14 @@
         <item>{v: 1, si: usbanalyse_84}</item>
     </string-array>
     <string-array name="msg_app_display_item">
-        <item>{si: display_38}</item>
-        <item>{si: display_39}</item>
-        <item>{si: display_40}</item>
         <item>{si: display_41}</item>
         <item>{si: display_42}</item>
         <item>{si: display_43}</item>
         <item>{si: display_44}</item>
         <item>{si: display_45}</item>
+        <item>{si: display_46}</item>
+        <item>{si: display_47}</item>
+        <item>{si: display_48}</item>
     </string-array>
     <string-array name="msg_app_help_language">
         <item>{v: 0, pi: English_Language}</item>
@@ -837,72 +837,72 @@
         <item>{v: 34, si: meastype_35}</item>
     </string-array>
     <string-array name="msg_app_panel_list">
-        <item>{v: 38, pi: ic_horizontal, si: display_100}</item>
-        <item>{v: 35, pi: ic_trigger, si: display_101}</item>
-        <item>{v: 20, pi: ic_auto2, si: display_102}</item>
-        <item>{v: 44, pi: ic_zoom2, si: display_103}</item>
-        <item>{v: 1, pi: ic_measure, si: display_104}</item>
-        <item>{v: 33, pi: ic_single, si: display_105}</item>
-        <item>{v: 41, pi: ic_intensity, si: display_106}</item>
-        <item>{v: 40, pi: ic_clean2, si: display_107}</item>
-        <item>{v: 34, pi: ic_force, si: display_108}</item>
-        <item>{v: 3, pi: ic_cursor, si: display_109}</item>
-        <item>{v: 25, pi: ic_storage, si: display_110}</item>
-        <item>{v: 28, pi: ic_utility, si: display_111}</item>
-        <item>{v: 19, pi: ic_record, si: display_112}</item>
-        <item>{v: 21, pi: ic_display, si: display_114}</item>
-        <item>{v: 6, pi: ic_math, si: display_115}</item>
-        <item>{v: 16, pi: ic_mask, si: display_116}</item>
-        <item>{v: 13, pi: ic_decode, si: display_117}</item>
-        <item>{v: 7, pi: ic_ref, si: display_118}</item>
+        <item>{v: 38, pi: ic_horizontal, si: display_103}</item>
+        <item>{v: 35, pi: ic_trigger, si: display_104}</item>
+        <item>{v: 20, pi: ic_auto2, si: display_105}</item>
+        <item>{v: 44, pi: ic_zoom2, si: display_106}</item>
+        <item>{v: 1, pi: ic_measure, si: display_107}</item>
+        <item>{v: 33, pi: ic_single, si: display_108}</item>
+        <item>{v: 41, pi: ic_intensity, si: display_109}</item>
+        <item>{v: 40, pi: ic_clean2, si: display_110}</item>
+        <item>{v: 34, pi: ic_force, si: display_111}</item>
+        <item>{v: 3, pi: ic_cursor, si: display_112}</item>
+        <item>{v: 25, pi: ic_storage, si: display_113}</item>
+        <item>{v: 28, pi: ic_utility, si: display_114}</item>
+        <item>{v: 19, pi: ic_record, si: display_115}</item>
+        <item>{v: 21, pi: ic_display, si: display_117}</item>
+        <item>{v: 6, pi: ic_math, si: display_118}</item>
+        <item>{v: 16, pi: ic_mask, si: display_119}</item>
+        <item>{v: 13, pi: ic_decode, si: display_120}</item>
+        <item>{v: 7, pi: ic_ref, si: display_121}</item>
     </string-array>
     <string-array name="msg_app_shortcut">
-        <item>{v: 32, pi: ic_run_stop, si: display_48}</item>
-        <item>{v: 1, pi: ic_measure, si: display_49}</item>
-        <item>{v: 37, pi: ic_default, si: display_50}</item>
-        <item>{v: 46, pi: ic_flex_knob_intensity, si: display_52}</item>
-        <item>{v: 5, pi: ic_multi_window, si: display_54}</item>
-        <item>{v: 3, pi: ic_cursor, si: display_55}</item>
-        <item>{v: 6, pi: ic_math, si: display_56}</item>
-        <item>{v: 45, pi: ic_xy, si: display_57}</item>
-        <item>{v: 25, pi: ic_storage, si: display_59}</item>
-        <item>{v: 9, pi: ic_counter, si: display_60}</item>
-        <item>{v: 10, pi: ic_dvm, si: display_61}</item>
-        <item>{v: 13, pi: ic_decode, si: display_63}</item>
-        <item>{v: 19, pi: ic_record, si: display_64}</item>
-        <item>{v: 47, pi: ic_navigate, si: display_65}</item>
+        <item>{v: 32, pi: ic_run_stop, si: display_51}</item>
+        <item>{v: 1, pi: ic_measure, si: display_52}</item>
+        <item>{v: 37, pi: ic_default, si: display_53}</item>
+        <item>{v: 46, pi: ic_flex_knob_intensity, si: display_55}</item>
+        <item>{v: 5, pi: ic_multi_window, si: display_57}</item>
+        <item>{v: 3, pi: ic_cursor, si: display_58}</item>
+        <item>{v: 6, pi: ic_math, si: display_59}</item>
+        <item>{v: 45, pi: ic_xy, si: display_60}</item>
+        <item>{v: 25, pi: ic_storage, si: display_62}</item>
+        <item>{v: 9, pi: ic_counter, si: display_63}</item>
+        <item>{v: 10, pi: ic_dvm, si: display_64}</item>
+        <item>{v: 13, pi: ic_decode, si: display_66}</item>
+        <item>{v: 19, pi: ic_record, si: display_67}</item>
+        <item>{v: 47, pi: ic_navigate, si: display_68}</item>
     </string-array>
     <string-array name="msg_app_start_menu">
-        <item>{v: 1, si: display_67}</item>
-        <item>{v: 2, si: display_68}</item>
-        <item>{v: 3, si: display_69}</item>
-        <item>{v: 5, si: display_70}</item>
-        <item>{v: 6, si: display_71}</item>
-        <item>{v: 45, si: display_72}</item>
-        <item>{v: 7, si: display_73}</item>
-        <item>{v: 9, si: display_75}</item>
-        <item>{v: 10, si: display_76}</item>
-        <item>{v: 13, si: display_79}</item>
-        <item>{v: 14, si: display_80}</item>
-        <item>{v: 16, si: display_82}</item>
-        <item>{v: 49, si: display_83}</item>
-        <item>{v: 17, si: display_84}</item>
-        <item>{v: 19, si: display_86}</item>
-        <item>{v: 20, si: display_87}</item>
-        <item>{v: 21, si: display_88}</item>
-        <item>{v: 40, si: display_90}</item>
-        <item>{v: 23, si: display_91}</item>
-        <item>{v: 25, si: display_93}</item>
-        <item>{v: 26, si: display_94}</item>
-        <item>{v: 27, si: display_95}</item>
-        <item>{v: 28, si: display_96}</item>
-        <item>{v: 31, si: display_98}</item>
+        <item>{v: 1, si: display_70}</item>
+        <item>{v: 2, si: display_71}</item>
+        <item>{v: 3, si: display_72}</item>
+        <item>{v: 5, si: display_73}</item>
+        <item>{v: 6, si: display_74}</item>
+        <item>{v: 45, si: display_75}</item>
+        <item>{v: 7, si: display_76}</item>
+        <item>{v: 9, si: display_78}</item>
+        <item>{v: 10, si: display_79}</item>
+        <item>{v: 13, si: display_82}</item>
+        <item>{v: 14, si: display_83}</item>
+        <item>{v: 16, si: display_85}</item>
+        <item>{v: 49, si: display_86}</item>
+        <item>{v: 17, si: display_87}</item>
+        <item>{v: 19, si: display_89}</item>
+        <item>{v: 20, si: display_90}</item>
+        <item>{v: 21, si: display_91}</item>
+        <item>{v: 40, si: display_93}</item>
+        <item>{v: 23, si: display_94}</item>
+        <item>{v: 25, si: display_96}</item>
+        <item>{v: 26, si: display_97}</item>
+        <item>{v: 27, si: display_98}</item>
+        <item>{v: 28, si: display_99}</item>
+        <item>{v: 31, si: display_101}</item>
     </string-array>
     <string-array name="msg_app_start_menu1">
-        <item>{v: 10, si: display_132}</item>
-        <item>{v: 9, si: display_133}</item>
-        <item>{v: 19, si: display_134}</item>
-        <item>{v: 16, si: display_135}</item>
+        <item>{v: 10, si: display_135}</item>
+        <item>{v: 9, si: display_136}</item>
+        <item>{v: 19, si: display_137}</item>
+        <item>{v: 16, si: display_138}</item>
     </string-array>
     <string-array name="msg_app_upa_query_power_data">
         <item>{v: 48, si: meastype_79}</item>
@@ -1155,51 +1155,51 @@
         <item>{v: 2, pi: ic_coupling_gnd, si: chan1_8}</item>
     </string-array>
     <string-array name="msg_chan_fine">
-        <item>{v: 0, si: chan1_56}</item>
-        <item>{v: 1, si: chan1_57}</item>
+        <item>{v: 0, si: chan1_57}</item>
+        <item>{v: 1, si: chan1_58}</item>
     </string-array>
     <string-array name="msg_chan_impedance">
-        <item>{v: 0, si: chan1_95}</item>
-        <item>{v: 1, si: chan1_96}</item>
+        <item>{v: 0, si: chan1_96}</item>
+        <item>{v: 1, si: chan1_97}</item>
     </string-array>
     <string-array name="msg_chan_invert">
-        <item>{v: 0, si: chan1_53}</item>
-        <item>{v: 1, si: chan1_54}</item>
+        <item>{v: 0, si: chan1_54}</item>
+        <item>{v: 1, si: chan1_55}</item>
     </string-array>
     <string-array name="msg_chan_label_name">
-        <item>{v: 0, si: chan1_64}</item>
-        <item>{v: 1, si: chan1_65}</item>
-        <item>{v: 2, si: chan1_66}</item>
-        <item>{v: 3, si: chan1_67}</item>
-        <item>{v: 4, si: chan1_68}</item>
-        <item>{v: 5, si: chan1_69}</item>
-        <item>{v: 6, si: chan1_70}</item>
-        <item>{v: 7, si: chan1_71}</item>
-        <item>{v: 8, si: chan1_72}</item>
-        <item>{v: 9, si: chan1_73}</item>
-        <item>{v: 10, si: chan1_74}</item>
-        <item>{v: 11, si: chan1_75}</item>
-        <item>{v: 12, si: chan1_76}</item>
-        <item>{v: 13, si: chan1_77}</item>
-        <item>{v: 14, si: chan1_78}</item>
-        <item>{v: 15, si: chan1_79}</item>
+        <item>{v: 0, si: chan1_65}</item>
+        <item>{v: 1, si: chan1_66}</item>
+        <item>{v: 2, si: chan1_67}</item>
+        <item>{v: 3, si: chan1_68}</item>
+        <item>{v: 4, si: chan1_69}</item>
+        <item>{v: 5, si: chan1_70}</item>
+        <item>{v: 6, si: chan1_71}</item>
+        <item>{v: 7, si: chan1_72}</item>
+        <item>{v: 8, si: chan1_73}</item>
+        <item>{v: 9, si: chan1_74}</item>
+        <item>{v: 10, si: chan1_75}</item>
+        <item>{v: 11, si: chan1_76}</item>
+        <item>{v: 12, si: chan1_77}</item>
+        <item>{v: 13, si: chan1_78}</item>
+        <item>{v: 14, si: chan1_79}</item>
+        <item>{v: 15, si: chan1_80}</item>
     </string-array>
     <string-array name="msg_chan_label_show">
-        <item>{v: 0, si: chan1_61}</item>
-        <item>{v: 1, si: chan1_62}</item>
+        <item>{v: 0, si: chan1_62}</item>
+        <item>{v: 1, si: chan1_63}</item>
     </string-array>
     <string-array name="msg_chan_list">
-        <item>{v: 1, si: chan1_130}</item>
-        <item>{v: 2, si: chan1_131}</item>
-        <item>{v: 3, si: chan1_132}</item>
-        <item>{v: 4, si: chan1_133}</item>
+        <item>{v: 1, si: chan1_131}</item>
+        <item>{v: 2, si: chan1_132}</item>
+        <item>{v: 3, si: chan1_133}</item>
+        <item>{v: 4, si: chan1_134}</item>
     </string-array>
     <string-array name="msg_chan_list2">
-        <item>{v: 0, si: chan1_135}</item>
-        <item>{v: 1, si: chan1_136}</item>
-        <item>{v: 2, si: chan1_137}</item>
-        <item>{v: 3, si: chan1_138}</item>
-        <item>{v: 4, si: chan1_139}</item>
+        <item>{v: 0, si: chan1_136}</item>
+        <item>{v: 1, si: chan1_137}</item>
+        <item>{v: 2, si: chan1_138}</item>
+        <item>{v: 3, si: chan1_139}</item>
+        <item>{v: 4, si: chan1_140}</item>
     </string-array>
     <string-array name="msg_chan_probe">
         <item>{v: 3, si: chan1_19}</item>
@@ -1230,26 +1230,27 @@
         <item>{v: 28, si: chan1_44}</item>
         <item>{v: 29, si: chan1_45}</item>
         <item>{v: 30, si: chan1_46}</item>
+        <item>{v: 31, si: chan1_47}</item>
     </string-array>
     <string-array name="msg_chan_probe_model">
-        <item>{v: 0, si: chan1_88}</item>
-        <item>{v: 1, si: chan1_89}</item>
+        <item>{v: 0, si: chan1_89}</item>
+        <item>{v: 1, si: chan1_90}</item>
     </string-array>
     <string-array name="msg_chan_sparrow_list">
-        <item>{v: 1, si: chan1_162}</item>
-        <item>{v: 2, si: chan1_163}</item>
-        <item>{v: 3, si: chan1_164}</item>
-        <item>{v: 4, si: chan1_165}</item>
+        <item>{v: 1, si: chan1_164}</item>
+        <item>{v: 2, si: chan1_165}</item>
+        <item>{v: 3, si: chan1_166}</item>
+        <item>{v: 4, si: chan1_167}</item>
     </string-array>
     <string-array name="msg_chan_unit">
-        <item>{v: 1, si: chan1_48}</item>
-        <item>{v: 2, si: chan1_49}</item>
-        <item>{v: 3, si: chan1_50}</item>
-        <item>{v: 4, si: chan1_51}</item>
+        <item>{v: 1, si: chan1_49}</item>
+        <item>{v: 2, si: chan1_50}</item>
+        <item>{v: 3, si: chan1_51}</item>
+        <item>{v: 4, si: chan1_52}</item>
     </string-array>
     <string-array name="msg_chan_ver_expand">
-        <item>{v: 0, pi: gnd, si: chan1_99}</item>
-        <item>{v: 1, pi: screen, si: chan1_100}</item>
+        <item>{v: 0, pi: gnd, si: chan1_100}</item>
+        <item>{v: 1, pi: screen, si: chan1_101}</item>
     </string-array>
     <string-array name="msg_counter_1_enable">
         <item>{v: 0, si: counter_3}</item>
@@ -2321,21 +2322,25 @@
         <item>{v: 13, si: source_16}</item>
     </string-array>
     <string-array name="msg_display_10x8_10x10">
-        <item>{v: 1, si: display_27}</item>
-        <item>{v: 0, si: display_28}</item>
+        <item>{v: 1, si: display_30}</item>
+        <item>{v: 0, si: display_31}</item>
     </string-array>
     <string-array name="msg_display_freeze">
-        <item>{si: display_35}</item>
-        <item>{si: display_36}</item>
+        <item>{si: display_38}</item>
+        <item>{si: display_39}</item>
     </string-array>
     <string-array name="msg_display_grid">
         <item>{v: 0, si: display_17}</item>
         <item>{v: 1, si: display_18}</item>
         <item>{v: 2, si: display_19}</item>
     </string-array>
+    <string-array name="msg_display_move">
+        <item>{v: 0, si: display_26}</item>
+        <item>{v: 1, si: display_27}</item>
+    </string-array>
     <string-array name="msg_display_palette">
-        <item>{v: 0, si: display_31}</item>
-        <item>{v: 1, si: display_32}</item>
+        <item>{v: 0, si: display_34}</item>
+        <item>{v: 1, si: display_35}</item>
     </string-array>
     <string-array name="msg_display_persistime">
         <item>{v: 0, si: display_6}</item>
@@ -2906,6 +2911,10 @@
         <item>{v: 0, si: math_222}</item>
         <item>{v: 1, si: math_223}</item>
     </string-array>
+    <string-array name="msg_math_disp_mode">
+        <item>{v: 0, si: math_287}</item>
+        <item>{v: 1, si: math_288}</item>
+    </string-array>
     <string-array name="msg_math_en">
         <item>{v: 0, si: math_3}</item>
         <item>{v: 1, si: math_4}</item>
@@ -2982,10 +2991,10 @@
         <item>{v: 20, si: math_260}</item>
     </string-array>
     <string-array name="msg_math_list2">
-        <item>{si: math_287}</item>
-        <item>{si: math_288}</item>
-        <item>{si: math_289}</item>
         <item>{si: math_290}</item>
+        <item>{si: math_291}</item>
+        <item>{si: math_292}</item>
+        <item>{si: math_293}</item>
     </string-array>
     <string-array name="msg_math_logic_scale">
         <item>{v: 0, si: math_212}</item>
@@ -3551,8 +3560,8 @@
         <item>{v: 25, si: storage_55}</item>
     </string-array>
     <string-array name="msg_storage_connect_state">
-        <item>{v: 0, si: storage_177}</item>
-        <item>{v: 1, si: storage_178}</item>
+        <item>{v: 0, si: storage_180}</item>
+        <item>{v: 1, si: storage_181}</item>
     </string-array>
     <string-array name="msg_storage_dialog_visible">
         <item>{v: 0, si: storage_31}</item>
@@ -3601,7 +3610,7 @@
         <item>{v: 1, si: storage_23}</item>
     </string-array>
     <string-array name="msg_storage_load_option">
-        <item>{v: 2, si: storage_143}</item>
+        <item>{v: 2, si: storage_146}</item>
     </string-array>
     <string-array name="msg_storage_load_setup">
         <item>{v: 9, si: storage_10}</item>
@@ -3614,9 +3623,9 @@
         <item>{v: 1, si: storage_96}</item>
     </string-array>
     <string-array name="msg_storage_operation">
-        <item>{v: 0, si: storage_145}</item>
-        <item>{v: 1, si: storage_146}</item>
-        <item>{v: 2, si: storage_147}</item>
+        <item>{v: 0, si: storage_148}</item>
+        <item>{v: 1, si: storage_149}</item>
+        <item>{v: 2, si: storage_150}</item>
     </string-array>
     <string-array name="msg_storage_option_parasave">
         <item>{v: 0, si: storage_47}</item>
@@ -3626,17 +3635,25 @@
         <item>{v: 1, si: storage_116}</item>
         <item>{v: 0, si: storage_117}</item>
     </string-array>
+    <string-array name="msg_storage_peak_detect">
+        <item>{v: 1, si: storage_119}</item>
+        <item>{v: 0, si: storage_120}</item>
+    </string-array>
+    <string-array name="msg_storage_save_meas_option">
+        <item>{v: 3, si: storage_184}</item>
+        <item>{v: 4, si: storage_185}</item>
+    </string-array>
     <string-array name="msg_storage_save_option">
-        <item>{v: 0, si: storage_138}</item>
-        <item>{v: 1, si: storage_139}</item>
-        <item>{v: 2, si: storage_140}</item>
+        <item>{v: 0, si: storage_141}</item>
+        <item>{v: 1, si: storage_142}</item>
+        <item>{v: 2, si: storage_143}</item>
     </string-array>
     <string-array name="msg_storage_scr_format">
         <item>{v: 5, si: storage_44}</item>
         <item>{v: 6, si: storage_45}</item>
     </string-array>
     <string-array name="msg_storage_setup_format">
-        <item>{v: 9, si: storage_150}</item>
+        <item>{v: 9, si: storage_153}</item>
     </string-array>
     <string-array name="msg_storage_wave_depth">
         <item>{v: 0, si: storage_37}</item>

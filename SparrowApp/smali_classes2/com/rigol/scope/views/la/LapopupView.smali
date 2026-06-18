@@ -46,7 +46,7 @@
 
     iget-object v1, p0, Lcom/rigol/scope/views/la/LapopupView;->context:Landroid/content/Context;
 
-    const v2, 0x7f030158
+    const v2, 0x7f030159
 
     invoke-static {v2}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
 
@@ -97,7 +97,7 @@
 .method public onConfigureTab(Lcom/google/android/material/tabs/TabLayout$Tab;I)V
     .locals 1
 
-    const v0, 0x7f030158
+    const v0, 0x7f030159
 
     .line 74
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getArray(I)Landroidx/collection/SparseArrayCompat;

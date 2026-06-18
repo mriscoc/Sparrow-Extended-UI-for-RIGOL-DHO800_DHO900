@@ -38,7 +38,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewWaveRecordBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a05e9
+    const v1, 0x7f0a05f1
 
     const/16 v2, 0x24
 
@@ -47,7 +47,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewWaveRecordBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a07b0
+    const v1, 0x7f0a07bc
 
     const/16 v2, 0x25
 
@@ -56,7 +56,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewWaveRecordBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0778
+    const v1, 0x7f0a0784
 
     const/16 v2, 0x26
 
@@ -65,7 +65,7 @@
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewWaveRecordBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0779
+    const v1, 0x7f0a0785
 
     const/16 v2, 0x27
 
@@ -74,7 +74,7 @@
     .line 22
     sget-object v0, Lcom/rigol/scope/databinding/PopupviewWaveRecordBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0784
+    const v1, 0x7f0a0790
 
     const/16 v2, 0x28
 
@@ -600,7 +600,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x2f8
+    const/16 v0, 0x2fc
 
     if-ne p2, v0, :cond_1
 
@@ -672,7 +672,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x2be
+    const/16 v0, 0x2c2
 
     if-ne p2, v0, :cond_1
 
@@ -704,7 +704,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x2bf
+    const/16 v0, 0x2c3
 
     if-ne p2, v0, :cond_2
 
@@ -736,7 +736,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x2c4
+    const/16 v0, 0x2c8
 
     if-ne p2, v0, :cond_3
 
@@ -768,7 +768,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x2c0
+    const/16 v0, 0x2c4
 
     if-ne p2, v0, :cond_4
 
@@ -800,7 +800,7 @@
     throw p1
 
     :cond_4
-    const/16 v0, 0x2bb
+    const/16 v0, 0x2bf
 
     if-ne p2, v0, :cond_5
 
@@ -832,7 +832,7 @@
     throw p1
 
     :cond_5
-    const/16 v0, 0x2b8
+    const/16 v0, 0x2bc
 
     if-ne p2, v0, :cond_6
 
@@ -864,7 +864,7 @@
     throw p1
 
     :cond_6
-    const/16 v0, 0x2bd
+    const/16 v0, 0x2c1
 
     if-ne p2, v0, :cond_7
 
@@ -896,7 +896,7 @@
     throw p1
 
     :cond_7
-    const/16 v0, 0x2bc
+    const/16 v0, 0x2c0
 
     if-ne p2, v0, :cond_8
 
@@ -928,7 +928,7 @@
     throw p1
 
     :cond_8
-    const/16 v0, 0x2b6
+    const/16 v0, 0x2ba
 
     if-ne p2, v0, :cond_9
 
@@ -960,7 +960,7 @@
     throw p1
 
     :cond_9
-    const/16 v0, 0x3a6
+    const/16 v0, 0x3aa
 
     if-ne p2, v0, :cond_a
 
@@ -992,7 +992,7 @@
     throw p1
 
     :cond_a
-    const/16 v0, 0x38a
+    const/16 v0, 0x38e
 
     if-ne p2, v0, :cond_b
 
@@ -1024,7 +1024,7 @@
     throw p1
 
     :cond_b
-    const/16 v0, 0x2b7
+    const/16 v0, 0x2bb
 
     if-ne p2, v0, :cond_c
 
@@ -1056,7 +1056,7 @@
     throw p1
 
     :cond_c
-    const/16 v0, 0x2c2
+    const/16 v0, 0x2c6
 
     if-ne p2, v0, :cond_d
 
@@ -1088,7 +1088,7 @@
     throw p1
 
     :cond_d
-    const/16 v0, 0x2c5
+    const/16 v0, 0x2c9
 
     if-ne p2, v0, :cond_e
 
@@ -1120,7 +1120,7 @@
     throw p1
 
     :cond_e
-    const/16 v0, 0x2b9
+    const/16 v0, 0x2bd
 
     if-ne p2, v0, :cond_f
 
@@ -1152,7 +1152,7 @@
     throw p1
 
     :cond_f
-    const/16 v0, 0x2c3
+    const/16 v0, 0x2c7
 
     if-ne p2, v0, :cond_10
 
@@ -1184,7 +1184,7 @@
     throw p1
 
     :cond_10
-    const/16 v0, 0x2c1
+    const/16 v0, 0x2c5
 
     if-ne p2, v0, :cond_11
 
@@ -4557,7 +4557,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x17e
+    const/16 p1, 0x17f
 
     .line 168
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewWaveRecordBindingImpl;->notifyPropertyChanged(I)V
@@ -4608,7 +4608,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x252
+    const/16 p1, 0x254
 
     .line 159
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/PopupviewWaveRecordBindingImpl;->notifyPropertyChanged(I)V
@@ -4633,7 +4633,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x252
+    const/16 v0, 0x254
 
     if-ne v0, p1, :cond_0
 
@@ -4645,7 +4645,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x17e
+    const/16 v0, 0x17f
 
     if-ne v0, p1, :cond_1
 

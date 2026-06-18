@@ -169,7 +169,7 @@
     return-void
 .end method
 
-.method static synthetic lambda$onBindViewHolder$0(Z)V
+.method static synthetic lambda$null$0(Z)V
     .locals 0
 
     if-eqz p0, :cond_0
@@ -214,7 +214,7 @@
 
     iget-object v1, p0, Lcom/rigol/scope/adapters/UtilityEmailAdapter;->baseView:Landroid/view/View;
 
-    invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$UtilityEmailAdapter$W_1QDHFwQXt56TB-2R3opg3crPw;
 
@@ -235,7 +235,7 @@
     return v0
 .end method
 
-.method public synthetic lambda$onBindViewHolder$1$UtilityEmailAdapter()V
+.method public synthetic lambda$null$1$UtilityEmailAdapter()V
     .locals 3
 
     .line 93
@@ -315,9 +315,9 @@
 
     move-result-object v1
 
-    new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$UtilityEmailAdapter$9T4r55SVRLgsW4HcqK7kkP12RIo;
+    new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$UtilityEmailAdapter$GE-Nx8G9ssAnlL1JYiI9dNyIF5Y;
 
-    invoke-direct {v2, v0}, Lcom/rigol/scope/adapters/-$$Lambda$UtilityEmailAdapter$9T4r55SVRLgsW4HcqK7kkP12RIo;-><init>(Z)V
+    invoke-direct {v2, v0}, Lcom/rigol/scope/adapters/-$$Lambda$UtilityEmailAdapter$GE-Nx8G9ssAnlL1JYiI9dNyIF5Y;-><init>(Z)V
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->runOnUiThread(Ljava/lang/Runnable;)V
 
@@ -530,9 +530,9 @@
     .line 90
     new-instance p1, Ljava/lang/Thread;
 
-    new-instance p2, Lcom/rigol/scope/adapters/-$$Lambda$UtilityEmailAdapter$p3s5VGiBLS1MaYkXnDjz4HUTn_A;
+    new-instance p2, Lcom/rigol/scope/adapters/-$$Lambda$UtilityEmailAdapter$cvIbhuaY9s0S97mCNACcxmG22Rw;
 
-    invoke-direct {p2, p0}, Lcom/rigol/scope/adapters/-$$Lambda$UtilityEmailAdapter$p3s5VGiBLS1MaYkXnDjz4HUTn_A;-><init>(Lcom/rigol/scope/adapters/UtilityEmailAdapter;)V
+    invoke-direct {p2, p0}, Lcom/rigol/scope/adapters/-$$Lambda$UtilityEmailAdapter$cvIbhuaY9s0S97mCNACcxmG22Rw;-><init>(Lcom/rigol/scope/adapters/UtilityEmailAdapter;)V
 
     const-string v0, "send-email"
 
@@ -819,7 +819,7 @@
     return-void
 
     :pswitch_data_0
-    .packed-switch 0x7f0a03be
+    .packed-switch 0x7f0a03c0
         :pswitch_6
         :pswitch_5
         :pswitch_4

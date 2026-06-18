@@ -74,7 +74,7 @@
 .method public final onChanged(Ljava/lang/Object;)V
     .locals 1
 
-    .line 1289
+    .line 1404
     iget-object p1, p0, Lcom/rigol/scope/views/grid/MathGridRulerView$19;->this$0:Lcom/rigol/scope/views/grid/MathGridRulerView;
 
     invoke-static {p1}, Lcom/rigol/scope/views/grid/MathGridRulerView;->access$getMathParam$p(Lcom/rigol/scope/views/grid/MathGridRulerView;)Lcom/rigol/scope/data/MathParam;

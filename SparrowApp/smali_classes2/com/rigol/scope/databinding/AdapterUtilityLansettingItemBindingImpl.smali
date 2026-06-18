@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08b4
+    const v1, 0x7f0a08c0
 
     const/16 v2, 0x10
 
@@ -45,7 +45,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0615
+    const v1, 0x7f0a061d
 
     const/16 v2, 0x11
 
@@ -54,7 +54,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08b6
+    const v1, 0x7f0a08c2
 
     const/16 v2, 0x12
 
@@ -63,7 +63,7 @@
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0b05
+    const v1, 0x7f0a0b11
 
     const/16 v2, 0x13
 
@@ -72,7 +72,7 @@
     .line 22
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08b8
+    const v1, 0x7f0a08c4
 
     const/16 v2, 0x14
 
@@ -81,7 +81,7 @@
     .line 23
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0388
+    const v1, 0x7f0a038a
 
     const/16 v2, 0x15
 
@@ -90,7 +90,7 @@
     .line 24
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0545
+    const v1, 0x7f0a0547
 
     const/16 v2, 0x16
 
@@ -99,7 +99,7 @@
     .line 25
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0543
+    const v1, 0x7f0a0545
 
     const/16 v2, 0x17
 
@@ -108,7 +108,7 @@
     .line 26
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08d6
+    const v1, 0x7f0a08e2
 
     const/16 v2, 0x18
 
@@ -117,7 +117,7 @@
     .line 27
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0871
+    const v1, 0x7f0a087d
 
     const/16 v2, 0x19
 
@@ -126,7 +126,7 @@
     .line 28
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08b2
+    const v1, 0x7f0a08be
 
     const/16 v2, 0x1a
 
@@ -135,7 +135,7 @@
     .line 29
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04af
+    const v1, 0x7f0a04b1
 
     const/16 v2, 0x1b
 
@@ -144,7 +144,7 @@
     .line 30
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08b3
+    const v1, 0x7f0a08bf
 
     const/16 v2, 0x1c
 
@@ -162,7 +162,7 @@
     .line 32
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0392
+    const v1, 0x7f0a0394
 
     const/16 v2, 0x1e
 
@@ -171,7 +171,7 @@
     .line 33
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0389
+    const v1, 0x7f0a038b
 
     const/16 v2, 0x1f
 
@@ -180,7 +180,7 @@
     .line 34
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0614
+    const v1, 0x7f0a061c
 
     const/16 v2, 0x20
 
@@ -189,7 +189,7 @@
     .line 35
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a063b
+    const v1, 0x7f0a0643
 
     const/16 v2, 0x21
 
@@ -198,7 +198,7 @@
     .line 36
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0506
+    const v1, 0x7f0a0508
 
     const/16 v2, 0x22
 
@@ -207,7 +207,7 @@
     .line 37
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08d7
+    const v1, 0x7f0a08e3
 
     const/16 v2, 0x23
 
@@ -216,7 +216,7 @@
     .line 38
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04bb
+    const v1, 0x7f0a04bd
 
     const/16 v2, 0x24
 
@@ -225,7 +225,7 @@
     .line 39
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08d8
+    const v1, 0x7f0a08e4
 
     const/16 v2, 0x25
 
@@ -234,7 +234,7 @@
     .line 40
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a038a
+    const v1, 0x7f0a038c
 
     const/16 v2, 0x26
 
@@ -645,7 +645,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x38d
+    const/16 v0, 0x391
 
     if-ne p2, v0, :cond_1
 
@@ -677,7 +677,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x201
+    const/16 v0, 0x202
 
     if-ne p2, v0, :cond_2
 
@@ -709,7 +709,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x40a
+    const/16 v0, 0x40e
 
     if-ne p2, v0, :cond_3
 
@@ -805,7 +805,7 @@
     throw p1
 
     :cond_5
-    const/16 v0, 0x38b
+    const/16 v0, 0x38f
 
     if-ne p2, v0, :cond_6
 
@@ -837,7 +837,7 @@
     throw p1
 
     :cond_6
-    const/16 v0, 0x313
+    const/16 v0, 0x317
 
     if-ne p2, v0, :cond_7
 
@@ -869,7 +869,7 @@
     throw p1
 
     :cond_7
-    const/16 v0, 0x1bf
+    const/16 v0, 0x1c0
 
     if-ne p2, v0, :cond_8
 
@@ -901,7 +901,7 @@
     throw p1
 
     :cond_8
-    const/16 v0, 0x209
+    const/16 v0, 0x20a
 
     if-ne p2, v0, :cond_9
 
@@ -997,7 +997,7 @@
     throw p1
 
     :cond_b
-    const/16 v0, 0x20e
+    const/16 v0, 0x20f
 
     if-ne p2, v0, :cond_c
 
@@ -1029,7 +1029,7 @@
     throw p1
 
     :cond_c
-    const/16 v0, 0x17f
+    const/16 v0, 0x180
 
     if-ne p2, v0, :cond_d
 
@@ -1093,7 +1093,7 @@
     throw p1
 
     :cond_e
-    const/16 v0, 0x3f6
+    const/16 v0, 0x3fa
 
     if-ne p2, v0, :cond_f
 
@@ -2041,7 +2041,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x1be
+    const/16 p1, 0x1bf
 
     .line 151
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterUtilityLansettingItemBindingImpl;->notifyPropertyChanged(I)V
@@ -2066,7 +2066,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x1be
+    const/16 v0, 0x1bf
 
     if-ne v0, p1, :cond_0
 

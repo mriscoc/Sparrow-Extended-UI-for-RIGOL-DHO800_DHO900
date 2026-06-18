@@ -57,7 +57,7 @@
 
     invoke-direct {p0, p1, v0}, Lcom/rigol/scope/viewmodels/BaseAndroidViewModel;-><init>(Landroid/app/Application;Ljava/lang/Object;)V
 
-    const v0, 0x7f030170
+    const v0, 0x7f030172
 
     .line 32
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;

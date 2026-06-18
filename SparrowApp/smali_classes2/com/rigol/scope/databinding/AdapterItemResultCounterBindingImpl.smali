@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterItemResultCounterBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08ff
+    const v1, 0x7f0a090b
 
     const/16 v2, 0xb
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterItemResultCounterBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a07a8
+    const v1, 0x7f0a07b4
 
     const/16 v2, 0xc
 
@@ -45,7 +45,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/AdapterItemResultCounterBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a84
+    const v1, 0x7f0a0a90
 
     const/16 v2, 0xd
 
@@ -286,7 +286,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x210
+    const/16 v0, 0x211
 
     if-ne p2, v0, :cond_1
 
@@ -318,7 +318,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x3ab
+    const/16 v0, 0x3af
 
     if-ne p2, v0, :cond_2
 
@@ -350,7 +350,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x35e
+    const/16 v0, 0x362
 
     if-ne p2, v0, :cond_3
 
@@ -382,7 +382,7 @@
     throw p1
 
     :cond_3
-    const/16 v0, 0x3f7
+    const/16 v0, 0x3fb
 
     if-ne p2, v0, :cond_4
 
@@ -478,7 +478,7 @@
     throw p1
 
     :cond_6
-    const/16 v0, 0x20d
+    const/16 v0, 0x20e
 
     if-ne p2, v0, :cond_7
 
@@ -510,7 +510,7 @@
     throw p1
 
     :cond_7
-    const/16 v0, 0x21e
+    const/16 v0, 0x21f
 
     if-ne p2, v0, :cond_8
 
@@ -614,7 +614,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -1243,7 +1243,7 @@
 
     move-result-object v0
 
-    const v11, 0x7f10144c
+    const v11, 0x7f101461
 
     invoke-virtual {v0, v11}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1606,7 +1606,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x252
+    const/16 p1, 0x254
 
     .line 101
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterItemResultCounterBindingImpl;->notifyPropertyChanged(I)V
@@ -1631,7 +1631,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x252
+    const/16 v0, 0x254
 
     if-ne v0, p1, :cond_0
 

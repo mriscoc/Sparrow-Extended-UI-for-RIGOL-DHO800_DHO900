@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->bind(Landroidx/lifecycle/LifecycleOwner;Lcom/rigol/scope/data/SearchParam;)V
+    value = Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->bind(Landroidx/lifecycle/LifecycleOwner;Lcom/rigol/scope/data/MeasureSettingParam;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -29,17 +29,17 @@
 # instance fields
 .field final synthetic this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
-.field final synthetic val$param:Lcom/rigol/scope/data/SearchParam;
+.field final synthetic val$param:Lcom/rigol/scope/data/MeasureSettingParam;
 
 
 # direct methods
-.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/SearchParam;)V
+.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/MeasureSettingParam;)V
     .locals 0
 
-    .line 7741
+    .line 7679
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$689;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
-    iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$689;->val$param:Lcom/rigol/scope/data/SearchParam;
+    iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$689;->val$param:Lcom/rigol/scope/data/MeasureSettingParam;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -49,44 +49,35 @@
 
 # virtual methods
 .method public onChanged(Ljava/lang/Boolean;)V
-    .locals 2
+    .locals 3
 
-    .line 7744
-    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$689;->val$param:Lcom/rigol/scope/data/SearchParam;
+    .line 7682
+    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$689;->val$param:Lcom/rigol/scope/data/MeasureSettingParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/SearchParam;->readEnable()V
+    invoke-virtual {p1}, Lcom/rigol/scope/data/MeasureSettingParam;->readHistoEnable()Z
 
-    .line 7746
-    invoke-static {}, Lcom/rigol/scope/utilities/FunctionManager;->getInstance()Lcom/rigol/scope/utilities/FunctionManager;
+    move-result p1
 
-    move-result-object p1
-
-    iget-object v0, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$689;->val$param:Lcom/rigol/scope/data/SearchParam;
-
-    const/16 v1, 0x4501
-
-    invoke-virtual {v0, v1}, Lcom/rigol/scope/data/SearchParam;->readBool(I)Z
-
-    move-result v0
-
-    iput-boolean v0, p1, Lcom/rigol/scope/utilities/FunctionManager;->searchSwitch:Z
-
-    .line 7747
+    .line 7684
     invoke-static {}, Lcom/rigol/scope/data/MessageBus;->getInstance()Lcom/rigol/scope/data/MessageBus;
-
-    move-result-object p1
-
-    const/16 v0, 0xa
-
-    const/16 v1, 0x2343
-
-    invoke-static {v0, v1}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 
     move-result-object v0
 
-    const/4 v1, 0x0
+    const/16 v1, 0x1c
 
-    invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
+    const/16 v2, 0x35d7
+
+    invoke-static {v1, v2}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
+
+    move-result-object v1
+
+    .line 7685
+    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object p1
+
+    .line 7684
+    invoke-virtual {v0, v1, p1}, Lcom/rigol/scope/data/MessageBus;->onSyncData(Ljava/lang/String;Ljava/lang/Object;)V
 
     return-void
 .end method
@@ -94,7 +85,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 7741
+    .line 7679
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$689;->onChanged(Ljava/lang/Boolean;)V

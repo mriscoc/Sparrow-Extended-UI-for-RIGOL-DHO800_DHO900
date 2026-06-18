@@ -31,10 +31,10 @@
 
     const v0, 0x7f110045
 
-    .line 82
+    .line 85
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/baseview/BasePopupView;-><init>(I)V
 
-    .line 75
+    .line 78
     new-instance v0, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;
 
     iget-object v1, p0, Lcom/rigol/scope/views/probe/ProbePopupView;->context:Landroid/content/Context;
@@ -45,7 +45,7 @@
 
     iput-object v0, p0, Lcom/rigol/scope/views/probe/ProbePopupView;->popupViewAdapter:Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;
 
-    .line 85
+    .line 88
     iget-object v0, p0, Lcom/rigol/scope/views/probe/ProbePopupView;->context:Landroid/content/Context;
 
     invoke-static {v0}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
@@ -58,24 +58,24 @@
 
     iput-object v0, p0, Lcom/rigol/scope/views/probe/ProbePopupView;->binding:Lcom/rigol/scope/databinding/PopupviewProbeBinding;
 
-    .line 86
+    .line 89
     invoke-virtual {v0}, Lcom/rigol/scope/databinding/PopupviewProbeBinding;->getRoot()Landroid/view/View;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/probe/ProbePopupView;->setContentView(Landroid/view/View;)V
 
-    .line 87
+    .line 90
     iget-object v0, p0, Lcom/rigol/scope/views/probe/ProbePopupView;->binding:Lcom/rigol/scope/databinding/PopupviewProbeBinding;
 
     invoke-virtual {v0, p0}, Lcom/rigol/scope/databinding/PopupviewProbeBinding;->setClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 89
+    .line 92
     iget-object v0, p0, Lcom/rigol/scope/views/probe/ProbePopupView;->panelKeyViewModel:Lcom/rigol/scope/viewmodels/PanelKeyViewModel;
 
     if-nez v0, :cond_0
 
-    .line 90
+    .line 93
     const-class v0, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -86,13 +86,13 @@
 
     iput-object v0, p0, Lcom/rigol/scope/views/probe/ProbePopupView;->panelKeyViewModel:Lcom/rigol/scope/viewmodels/PanelKeyViewModel;
 
-    .line 92
+    .line 95
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/views/probe/ProbePopupView;->verticalViewModel:Lcom/rigol/scope/viewmodels/VerticalViewModel;
 
     if-nez v0, :cond_1
 
-    .line 93
+    .line 96
     const-class v0, Lcom/rigol/scope/viewmodels/VerticalViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -103,7 +103,7 @@
 
     iput-object v0, p0, Lcom/rigol/scope/views/probe/ProbePopupView;->verticalViewModel:Lcom/rigol/scope/viewmodels/VerticalViewModel;
 
-    .line 95
+    .line 98
     :cond_1
     iget-object v0, p0, Lcom/rigol/scope/views/probe/ProbePopupView;->popupViewAdapter:Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;
 
@@ -111,7 +111,7 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->setPanelKeyViewModel(Lcom/rigol/scope/viewmodels/PanelKeyViewModel;)V
 
-    .line 97
+    .line 100
     iget-object v0, p0, Lcom/rigol/scope/views/probe/ProbePopupView;->binding:Lcom/rigol/scope/databinding/PopupviewProbeBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewProbeBinding;->viewPager:Landroidx/viewpager2/widget/ViewPager2;
@@ -120,7 +120,7 @@
 
     invoke-virtual {v0, v1}, Landroidx/viewpager2/widget/ViewPager2;->setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
-    .line 98
+    .line 101
     iget-object v0, p0, Lcom/rigol/scope/views/probe/ProbePopupView;->binding:Lcom/rigol/scope/databinding/PopupviewProbeBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewProbeBinding;->viewPager:Landroidx/viewpager2/widget/ViewPager2;
@@ -131,7 +131,7 @@
 
     invoke-virtual {v0, v1}, Landroidx/viewpager2/widget/ViewPager2;->registerOnPageChangeCallback(Landroidx/viewpager2/widget/ViewPager2$OnPageChangeCallback;)V
 
-    .line 106
+    .line 109
     new-instance v0, Lcom/google/android/material/tabs/TabLayoutMediator;
 
     iget-object v1, p0, Lcom/rigol/scope/views/probe/ProbePopupView;->binding:Lcom/rigol/scope/databinding/PopupviewProbeBinding;
@@ -146,7 +146,7 @@
 
     invoke-virtual {v0}, Lcom/google/android/material/tabs/TabLayoutMediator;->attach()V
 
-    .line 109
+    .line 112
     const-class v0, Lcom/rigol/scope/viewmodels/VerticalViewModel;
 
     invoke-static {v0}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -157,7 +157,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 111
+    .line 114
     invoke-virtual {v0}, Lcom/rigol/scope/viewmodels/VerticalViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object v0
@@ -181,7 +181,7 @@
 .method static synthetic access$000(Lcom/rigol/scope/views/probe/ProbePopupView;)Lcom/rigol/scope/databinding/PopupviewProbeBinding;
     .locals 0
 
-    .line 74
+    .line 77
     iget-object p0, p0, Lcom/rigol/scope/views/probe/ProbePopupView;->binding:Lcom/rigol/scope/databinding/PopupviewProbeBinding;
 
     return-object p0
@@ -190,7 +190,7 @@
 .method static synthetic access$100(Lcom/rigol/scope/views/probe/ProbePopupView;)Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;
     .locals 0
 
-    .line 74
+    .line 77
     iget-object p0, p0, Lcom/rigol/scope/views/probe/ProbePopupView;->popupViewAdapter:Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;
 
     return-object p0
@@ -201,12 +201,12 @@
 .method public synthetic lambda$new$0$ProbePopupView(Ljava/util/ArrayList;)V
     .locals 1
 
-    .line 113
+    .line 116
     iget-object v0, p0, Lcom/rigol/scope/views/probe/ProbePopupView;->popupViewAdapter:Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;
 
     invoke-virtual {v0, p1}, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->setItems(Ljava/util/List;)V
 
-    .line 114
+    .line 117
     iget-object p1, p0, Lcom/rigol/scope/views/probe/ProbePopupView;->popupViewAdapter:Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;
 
     invoke-virtual {p1}, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->notifyDataSetChanged()V
@@ -217,16 +217,16 @@
 .method public onClick(Landroid/view/View;)V
     .locals 1
 
-    .line 144
+    .line 147
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
     move-result p1
 
-    const v0, 0x7f0a0ae2
+    const v0, 0x7f0a0aee
 
     if-ne p1, v0, :cond_0
 
-    .line 146
+    .line 149
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object p1
@@ -244,10 +244,10 @@
 
     const v0, 0x7f0d0066
 
-    .line 121
+    .line 124
     invoke-virtual {p1, v0}, Lcom/google/android/material/tabs/TabLayout$Tab;->setCustomView(I)Lcom/google/android/material/tabs/TabLayout$Tab;
 
-    .line 122
+    .line 125
     iget-object v0, p0, Lcom/rigol/scope/views/probe/ProbePopupView;->popupViewAdapter:Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;
 
     invoke-virtual {v0}, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->getItems()Ljava/util/List;
@@ -256,7 +256,7 @@
 
     if-eqz v0, :cond_2
 
-    .line 123
+    .line 126
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
 
     move-result v1
@@ -265,7 +265,7 @@
 
     goto :goto_0
 
-    .line 127
+    .line 130
     :cond_0
     invoke-interface {v0, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -275,7 +275,7 @@
 
     if-eqz p2, :cond_2
 
-    .line 129
+    .line 132
     invoke-virtual {p1}, Lcom/google/android/material/tabs/TabLayout$Tab;->getCustomView()Landroid/view/View;
 
     move-result-object p1
@@ -284,7 +284,7 @@
 
     if-eqz p1, :cond_2
 
-    .line 131
+    .line 134
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -305,7 +305,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 132
+    .line 135
     iget-object v0, p0, Lcom/rigol/scope/views/probe/ProbePopupView;->context:Landroid/content/Context;
 
     invoke-virtual {p2}, Lcom/rigol/scope/data/VerticalParam;->getServiceId()I
@@ -316,7 +316,7 @@
 
     move-result v0
 
-    .line 133
+    .line 136
     invoke-virtual {p2}, Lcom/rigol/scope/data/VerticalParam;->getServiceId()I
 
     move-result p2
@@ -325,7 +325,7 @@
 
     if-ne p2, v1, :cond_1
 
-    .line 134
+    .line 137
     iget-object p2, p0, Lcom/rigol/scope/views/probe/ProbePopupView;->context:Landroid/content/Context;
 
     const v0, 0x7f060046
@@ -338,7 +338,7 @@
 
     goto :goto_0
 
-    .line 136
+    .line 139
     :cond_1
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setTextColor(I)V
 
@@ -350,21 +350,21 @@
 .method public probeLight()V
     .locals 3
 
-    .line 151
+    .line 154
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/rigol/scope/utilities/PopupViewManager;->closeAllLight()V
 
-    .line 152
+    .line 155
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/rigol/scope/utilities/PopupViewManager;->AHorizontalLight_Open()V
 
-    .line 154
+    .line 157
     iget-object v0, p0, Lcom/rigol/scope/views/probe/ProbePopupView;->binding:Lcom/rigol/scope/databinding/PopupviewProbeBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewProbeBinding;->tabs:Lcom/google/android/material/tabs/TabLayout;
@@ -373,15 +373,15 @@
 
     move-result v0
 
-    .line 156
+    .line 159
     iget-object v1, p0, Lcom/rigol/scope/views/probe/ProbePopupView;->verticalViewModel:Lcom/rigol/scope/viewmodels/VerticalViewModel;
 
     if-eqz v1, :cond_2
 
-    .line 157
+    .line 160
     invoke-virtual {v1}, Lcom/rigol/scope/viewmodels/VerticalViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
-    .line 158
+    .line 161
     iget-object v1, p0, Lcom/rigol/scope/views/probe/ProbePopupView;->verticalViewModel:Lcom/rigol/scope/viewmodels/VerticalViewModel;
 
     invoke-virtual {v1}, Lcom/rigol/scope/viewmodels/VerticalViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
@@ -396,14 +396,14 @@
 
     if-eqz v1, :cond_0
 
-    .line 159
+    .line 162
     invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
 
     move-result v2
 
     if-lt v2, v0, :cond_0
 
-    .line 160
+    .line 163
     invoke-virtual {v1, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v0
@@ -418,7 +418,7 @@
     :goto_0
     if-eqz v0, :cond_1
 
-    .line 163
+    .line 166
     invoke-virtual {v0}, Lcom/rigol/scope/data/VerticalParam;->getProbeInsert()Z
 
     move-result v1
@@ -433,7 +433,7 @@
 
     if-eq v0, v1, :cond_1
 
-    .line 164
+    .line 167
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
     move-result-object v0
@@ -442,7 +442,7 @@
 
     goto :goto_1
 
-    .line 166
+    .line 169
     :cond_1
     invoke-static {}, Lcom/rigol/scope/utilities/PopupViewManager;->getInstance()Lcom/rigol/scope/utilities/PopupViewManager;
 
@@ -458,7 +458,7 @@
 .method public setCurrentItem(I)V
     .locals 2
 
-    .line 477
+    .line 548
     iget-object v0, p0, Lcom/rigol/scope/views/probe/ProbePopupView;->binding:Lcom/rigol/scope/databinding/PopupviewProbeBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/PopupviewProbeBinding;->viewPager:Landroidx/viewpager2/widget/ViewPager2;
@@ -473,10 +473,10 @@
 .method public showAsDropDown(Landroid/view/View;III)V
     .locals 0
 
-    .line 461
+    .line 532
     invoke-super {p0, p1, p2, p3, p4}, Lcom/rigol/scope/views/baseview/BasePopupView;->showAsDropDown(Landroid/view/View;III)V
 
-    .line 462
+    .line 533
     iget-object p2, p0, Lcom/rigol/scope/views/probe/ProbePopupView;->popupViewAdapter:Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;
 
     invoke-virtual {p2, p1}, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->setAnchor(Landroid/view/View;)V
@@ -487,10 +487,10 @@
 .method public showAtLocation(Landroid/view/View;III)V
     .locals 0
 
-    .line 467
+    .line 538
     invoke-super {p0, p1, p2, p3, p4}, Lcom/rigol/scope/views/baseview/BasePopupView;->showAtLocation(Landroid/view/View;III)V
 
-    .line 468
+    .line 539
     iget-object p2, p0, Lcom/rigol/scope/views/probe/ProbePopupView;->popupViewAdapter:Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;
 
     invoke-virtual {p2, p1}, Lcom/rigol/scope/views/probe/ProbePopupView$PopupViewAdapter;->setAnchor(Landroid/view/View;)V

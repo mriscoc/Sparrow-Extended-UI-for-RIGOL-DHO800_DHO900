@@ -29,17 +29,13 @@
 # instance fields
 .field final synthetic this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
-.field final synthetic val$param:Lcom/rigol/scope/data/VerticalParam;
-
 
 # direct methods
-.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/VerticalParam;)V
+.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;)V
     .locals 0
 
-    .line 1025
+    .line 984
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$37;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
-
-    iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$37;->val$param:Lcom/rigol/scope/data/VerticalParam;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -49,12 +45,30 @@
 
 # virtual methods
 .method public onChanged(Ljava/lang/Boolean;)V
-    .locals 0
+    .locals 1
 
-    .line 1028
-    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$37;->val$param:Lcom/rigol/scope/data/VerticalParam;
+    .line 988
+    new-instance p1, Lcom/rigol/scope/data/WindowParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->readLabel()Ljava/lang/String;
+    invoke-direct {p1}, Lcom/rigol/scope/data/WindowParam;-><init>()V
+
+    .line 989
+    sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$WindowType;->WIN_MAIN_WAVEFORM:Lcom/rigol/scope/cil/ServiceEnum$WindowType;
+
+    invoke-virtual {p1, v0}, Lcom/rigol/scope/data/WindowParam;->setType(Lcom/rigol/scope/cil/ServiceEnum$WindowType;)V
+
+    .line 991
+    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/rigol/scope/MainActivity;
+
+    invoke-virtual {v0}, Lcom/rigol/scope/MainActivity;->getWaveformFragment()Lcom/rigol/scope/WaveformFragment;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1}, Lcom/rigol/scope/WaveformFragment;->addWindow(Lcom/rigol/scope/data/WindowParam;)V
 
     return-void
 .end method
@@ -62,7 +76,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1025
+    .line 984
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$37;->onChanged(Ljava/lang/Boolean;)V

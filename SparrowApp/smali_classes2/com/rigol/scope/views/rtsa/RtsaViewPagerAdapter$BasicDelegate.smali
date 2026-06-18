@@ -273,7 +273,7 @@
 
     iget-object p1, p1, Lcom/rigol/scope/databinding/AdapterRtsaBasesettingBinding;->rbwAutoSwitch:Lcom/rigol/scope/views/SwitchButton;
 
-    const p2, 0x7f030133
+    const p2, 0x7f030134
 
     invoke-static {p2, p1}, Lcom/rigol/scope/utilities/ViewUtil;->setSwitchButton(ILcom/rigol/scope/views/SwitchButton;)V
 

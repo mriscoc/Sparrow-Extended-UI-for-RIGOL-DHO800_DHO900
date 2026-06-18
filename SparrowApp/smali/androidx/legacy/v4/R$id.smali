@@ -36,63 +36,63 @@
 
 .field public static final chronometer:I = 0x7f0a01ee
 
-.field public static final end:I = 0x7f0a03d0
+.field public static final end:I = 0x7f0a03d2
 
-.field public static final end_padder:I = 0x7f0a03d1
+.field public static final end_padder:I = 0x7f0a03d3
 
-.field public static final forever:I = 0x7f0a0497
+.field public static final forever:I = 0x7f0a0499
 
-.field public static final icon:I = 0x7f0a050a
+.field public static final icon:I = 0x7f0a050c
 
-.field public static final icon_group:I = 0x7f0a050c
+.field public static final icon_group:I = 0x7f0a050e
 
-.field public static final info:I = 0x7f0a0534
+.field public static final info:I = 0x7f0a0536
 
-.field public static final italic:I = 0x7f0a0546
+.field public static final italic:I = 0x7f0a0548
 
-.field public static final left:I = 0x7f0a05e8
+.field public static final left:I = 0x7f0a05f0
 
-.field public static final line1:I = 0x7f0a05f5
+.field public static final line1:I = 0x7f0a05fd
 
-.field public static final line3:I = 0x7f0a05f6
+.field public static final line3:I = 0x7f0a05fe
 
-.field public static final media_actions:I = 0x7f0a063f
+.field public static final media_actions:I = 0x7f0a0647
 
-.field public static final none:I = 0x7f0a0698
+.field public static final none:I = 0x7f0a06a2
 
-.field public static final normal:I = 0x7f0a069a
+.field public static final normal:I = 0x7f0a06a4
 
-.field public static final notification_background:I = 0x7f0a06a6
+.field public static final notification_background:I = 0x7f0a06b0
 
-.field public static final notification_main_column:I = 0x7f0a06a7
+.field public static final notification_main_column:I = 0x7f0a06b1
 
-.field public static final notification_main_column_container:I = 0x7f0a06a8
+.field public static final notification_main_column_container:I = 0x7f0a06b2
 
-.field public static final right:I = 0x7f0a07af
+.field public static final right:I = 0x7f0a07bb
 
-.field public static final right_icon:I = 0x7f0a07b1
+.field public static final right_icon:I = 0x7f0a07bd
 
-.field public static final right_side:I = 0x7f0a07b3
+.field public static final right_side:I = 0x7f0a07bf
 
-.field public static final start:I = 0x7f0a0853
+.field public static final start:I = 0x7f0a085f
 
-.field public static final status_bar_latest_event_content:I = 0x7f0a086d
+.field public static final status_bar_latest_event_content:I = 0x7f0a0879
 
-.field public static final tag_transition_group:I = 0x7f0a089b
+.field public static final tag_transition_group:I = 0x7f0a08a7
 
-.field public static final tag_unhandled_key_event_manager:I = 0x7f0a089c
+.field public static final tag_unhandled_key_event_manager:I = 0x7f0a08a8
 
-.field public static final tag_unhandled_key_listeners:I = 0x7f0a089d
+.field public static final tag_unhandled_key_listeners:I = 0x7f0a08a9
 
-.field public static final text:I = 0x7f0a08a4
+.field public static final text:I = 0x7f0a08b0
 
-.field public static final text2:I = 0x7f0a08a6
+.field public static final text2:I = 0x7f0a08b2
 
-.field public static final time:I = 0x7f0a08f4
+.field public static final time:I = 0x7f0a0900
 
-.field public static final title:I = 0x7f0a08fd
+.field public static final title:I = 0x7f0a0909
 
-.field public static final top:I = 0x7f0a0902
+.field public static final top:I = 0x7f0a090e
 
 
 # direct methods

@@ -29,13 +29,17 @@
 # instance fields
 .field final synthetic this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
+.field final synthetic val$optionParam:Lcom/rigol/scope/data/OptionParam;
+
 
 # direct methods
-.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;)V
+.method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/OptionParam;)V
     .locals 0
 
-    .line 714
+    .line 631
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$14;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
+
+    iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$14;->val$optionParam:Lcom/rigol/scope/data/OptionParam;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,32 +49,24 @@
 
 # virtual methods
 .method public onChanged(Ljava/lang/Boolean;)V
-    .locals 1
+    .locals 0
 
-    .line 717
-    invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
+    .line 634
+    iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$14;->val$optionParam:Lcom/rigol/scope/data/OptionParam;
 
-    move-result-object p1
+    if-eqz p1, :cond_0
 
-    invoke-virtual {p1}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
+    .line 635
+    invoke-virtual {p1}, Lcom/rigol/scope/data/OptionParam;->readAll()V
 
-    move-result-object p1
-
-    const v0, 0x7f100bbb
-
-    invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-static {p1}, Lcom/rigol/util/ToastUtils;->showShort(Ljava/lang/CharSequence;)V
-
+    :cond_0
     return-void
 .end method
 
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 714
+    .line 631
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$14;->onChanged(Ljava/lang/Boolean;)V

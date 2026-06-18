@@ -74,7 +74,7 @@
 .method public final onChanged(Ljava/lang/Object;)V
     .locals 1
 
-    .line 1388
+    .line 1503
     const-class p1, Lcom/rigol/scope/viewmodels/VerticalViewModel;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -85,7 +85,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 1389
+    .line 1504
     invoke-virtual {p1}, Lcom/rigol/scope/viewmodels/VerticalViewModel;->getLiveData()Landroidx/lifecycle/LiveData;
 
     move-result-object p1
@@ -103,11 +103,11 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 1391
+    .line 1506
     :goto_0
     check-cast p1, Ljava/util/List;
 
-    .line 1393
+    .line 1508
     iget-object v0, p0, Lcom/rigol/scope/views/grid/EyeGridRulerView$5;->this$0:Lcom/rigol/scope/views/grid/EyeGridRulerView;
 
     invoke-static {v0}, Lcom/rigol/scope/views/grid/EyeGridRulerView;->access$getEyeParam$p(Lcom/rigol/scope/views/grid/EyeGridRulerView;)Lcom/rigol/scope/data/EyeParam;
@@ -141,20 +141,20 @@
 
     iget v0, v0, Lcom/rigol/scope/cil/ServiceEnum$Chan;->value1:I
 
-    .line 1392
+    .line 1507
     :goto_1
     invoke-static {v0}, Lcom/rigol/scope/cil/ServiceEnum;->getChanFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
     move-result-object v0
 
-    .line 1390
+    .line 1505
     invoke-static {p1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->getVerticalItem(Ljava/util/List;Lcom/rigol/scope/cil/ServiceEnum$Chan;)Lcom/rigol/scope/data/VerticalParam;
 
     move-result-object p1
 
     if-eqz p1, :cond_2
 
-    .line 1399
+    .line 1514
     iget-object v0, p0, Lcom/rigol/scope/views/grid/EyeGridRulerView$5;->this$0:Lcom/rigol/scope/views/grid/EyeGridRulerView;
 
     invoke-static {v0, p1}, Lcom/rigol/scope/views/grid/EyeGridRulerView;->access$updateYRuler(Lcom/rigol/scope/views/grid/EyeGridRulerView;Lcom/rigol/scope/data/VerticalParam;)V

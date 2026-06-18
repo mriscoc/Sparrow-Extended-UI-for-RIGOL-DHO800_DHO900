@@ -160,12 +160,12 @@
 .method private selectSourceA(Lcom/rigol/scope/data/MappingObject;)V
     .locals 1
 
-    .line 416
+    .line 422
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->param:Lcom/rigol/scope/data/MathParam;
 
     if-eqz v0, :cond_0
 
-    .line 417
+    .line 423
     invoke-virtual {p1}, Lcom/rigol/scope/data/MappingObject;->getValue()I
 
     move-result p1
@@ -174,7 +174,7 @@
 
     move-result-object p1
 
-    .line 418
+    .line 424
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->param:Lcom/rigol/scope/data/MathParam;
 
     invoke-virtual {v0, p1}, Lcom/rigol/scope/data/MathParam;->saveSourceArithA(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
@@ -186,12 +186,12 @@
 .method private selectSourceB(Lcom/rigol/scope/data/MappingObject;)V
     .locals 1
 
-    .line 423
+    .line 429
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->param:Lcom/rigol/scope/data/MathParam;
 
     if-eqz v0, :cond_0
 
-    .line 424
+    .line 430
     invoke-virtual {p1}, Lcom/rigol/scope/data/MappingObject;->getValue()I
 
     move-result p1
@@ -200,7 +200,7 @@
 
     move-result-object p1
 
-    .line 425
+    .line 431
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->param:Lcom/rigol/scope/data/MathParam;
 
     invoke-virtual {v0, p1}, Lcom/rigol/scope/data/MathParam;->saveSourceArithB(Lcom/rigol/scope/cil/ServiceEnum$Chan;)V
@@ -237,7 +237,7 @@
     return v0
 .end method
 
-.method public synthetic lambda$onCreateViewHolder$0$MathArithAdapter(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
+.method public synthetic lambda$null$0$MathArithAdapter(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
     .locals 0
 
     .line 140
@@ -246,7 +246,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$onCreateViewHolder$1$MathArithAdapter(ILcom/rigol/scope/data/MappingObject;)V
+.method public synthetic lambda$null$1$MathArithAdapter(ILcom/rigol/scope/data/MappingObject;)V
     .locals 1
 
     .line 142
@@ -256,7 +256,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a0830
+    const v0, 0x7f0a083c
 
     if-ne p1, v0, :cond_0
 
@@ -273,7 +273,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a0832
+    const v0, 0x7f0a083e
 
     if-ne p1, v0, :cond_1
 
@@ -282,6 +282,71 @@
 
     :cond_1
     :goto_0
+    return-void
+.end method
+
+.method public synthetic lambda$null$19$MathArithAdapter(Ljava/lang/String;)V
+    .locals 1
+
+    .line 358
+    iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->param:Lcom/rigol/scope/data/MathParam;
+
+    invoke-virtual {v0, p1}, Lcom/rigol/scope/data/MathParam;->saveLableString(Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public synthetic lambda$null$3$MathArithAdapter(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
+    .locals 0
+
+    .line 241
+    iput-object p1, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
+
+    .line 242
+    iput-object p2, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
+
+    .line 243
+    iput-object p3, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->mappingObjects:Ljava/util/List;
+
+    .line 244
+    iput-object p4, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->clickedView:Landroid/view/View;
+
+    return-void
+.end method
+
+.method public synthetic lambda$null$4$MathArithAdapter(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
+    .locals 0
+
+    .line 246
+    invoke-direct {p0, p4}, Lcom/rigol/scope/adapters/MathArithAdapter;->selectSourceA(Lcom/rigol/scope/data/MappingObject;)V
+
+    return-void
+.end method
+
+.method public synthetic lambda$null$6$MathArithAdapter(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
+    .locals 0
+
+    .line 258
+    iput-object p1, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
+
+    .line 259
+    iput-object p2, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
+
+    .line 260
+    iput-object p3, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->mappingObjects:Ljava/util/List;
+
+    .line 261
+    iput-object p4, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->clickedView:Landroid/view/View;
+
+    return-void
+.end method
+
+.method public synthetic lambda$null$7$MathArithAdapter(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
+    .locals 0
+
+    .line 263
+    invoke-direct {p0, p4}, Lcom/rigol/scope/adapters/MathArithAdapter;->selectSourceB(Lcom/rigol/scope/data/MappingObject;)V
+
     return-void
 .end method
 
@@ -336,13 +401,13 @@
 
     iget-object v8, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
 
-    new-instance v9, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$fZ2vI3d5LZ_KiCLY-fbBnO1MTmc;
+    new-instance v9, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$y0-cJOykVmlOPwFWpLumoehNXeQ;
 
-    invoke-direct {v9, p0}, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$fZ2vI3d5LZ_KiCLY-fbBnO1MTmc;-><init>(Lcom/rigol/scope/adapters/MathArithAdapter;)V
+    invoke-direct {v9, p0}, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$y0-cJOykVmlOPwFWpLumoehNXeQ;-><init>(Lcom/rigol/scope/adapters/MathArithAdapter;)V
 
-    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$Xyb1XXTrNvW0hymfbrira_szsX4;
+    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$MyuZ9lmg9PrU8-RwFGE36bSb6A0;
 
-    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$Xyb1XXTrNvW0hymfbrira_szsX4;-><init>(Lcom/rigol/scope/adapters/MathArithAdapter;)V
+    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$MyuZ9lmg9PrU8-RwFGE36bSb6A0;-><init>(Lcom/rigol/scope/adapters/MathArithAdapter;)V
 
     move-object v2, p1
 
@@ -355,7 +420,7 @@
 .method public synthetic lambda$showMathArith$10$MathArithAdapter(Landroid/view/View;)V
     .locals 14
 
-    .line 296
+    .line 299
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
     invoke-virtual {p1}, Landroid/view/View;->getId()I
@@ -368,24 +433,24 @@
 
     if-eqz v0, :cond_0
 
-    .line 297
+    .line 300
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->param:Lcom/rigol/scope/data/MathParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->readAnaScaleAttr()V
 
-    .line 298
+    .line 301
     iget-object v1, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->anchorView:Landroid/view/View;
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->param:Lcom/rigol/scope/data/MathParam;
 
-    .line 299
+    .line 302
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getUnitIndex()Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     move-result-object v3
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->param:Lcom/rigol/scope/data/MathParam;
 
-    .line 300
+    .line 303
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getAnaScaleAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -396,7 +461,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->param:Lcom/rigol/scope/data/MathParam;
 
-    .line 301
+    .line 304
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getAnaScaleAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -407,7 +472,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->param:Lcom/rigol/scope/data/MathParam;
 
-    .line 302
+    .line 305
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getAnaScaleAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -418,7 +483,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->param:Lcom/rigol/scope/data/MathParam;
 
-    .line 303
+    .line 306
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getScale()J
 
     move-result-wide v10
@@ -431,7 +496,7 @@
 
     move-object v2, p1
 
-    .line 298
+    .line 301
     invoke-static/range {v1 .. v13}, Lcom/rigol/scope/utilities/ViewUtil;->showKeyboard(Landroid/view/View;Landroid/view/View;Lcom/rigol/scope/cil/ServiceEnum$Unit;JJJJLcom/rigol/scope/utilities/UnitFormat$SI;Lcom/rigol/scope/views/keyboard/KeyboardListener;)V
 
     :cond_0
@@ -441,7 +506,7 @@
 .method public synthetic lambda$showMathArith$11$MathArithAdapter(Landroid/view/View;)V
     .locals 0
 
-    .line 321
+    .line 324
     iget-object p1, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->param:Lcom/rigol/scope/data/MathParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/MathParam;->scaleUp()V
@@ -452,7 +517,7 @@
 .method public synthetic lambda$showMathArith$12$MathArithAdapter(Landroid/view/View;)V
     .locals 0
 
-    .line 324
+    .line 327
     iget-object p1, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->param:Lcom/rigol/scope/data/MathParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/MathParam;->scaleDown()V
@@ -463,7 +528,7 @@
 .method public synthetic lambda$showMathArith$13$MathArithAdapter(Landroid/view/View;)V
     .locals 0
 
-    .line 327
+    .line 330
     iget-object p1, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->param:Lcom/rigol/scope/data/MathParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/MathParam;->offsetUp()V
@@ -474,7 +539,7 @@
 .method public synthetic lambda$showMathArith$14$MathArithAdapter(Landroid/view/View;)V
     .locals 0
 
-    .line 330
+    .line 333
     iget-object p1, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->param:Lcom/rigol/scope/data/MathParam;
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/MathParam;->offsetDown()V
@@ -485,14 +550,14 @@
 .method public synthetic lambda$showMathArith$15$MathArithAdapter(Landroid/view/View;)V
     .locals 3
 
-    .line 333
+    .line 336
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object p1
 
     iget v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->serviceId:I
 
-    const/16 v1, 0x2f28
+    const/16 v1, 0x3128
 
     const/4 v2, 0x1
 
@@ -506,7 +571,7 @@
 
     if-eqz p2, :cond_0
 
-    .line 339
+    .line 342
     iget-object p1, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->param:Lcom/rigol/scope/data/MathParam;
 
     sget-object p2, Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;->MathWave_Zoom:Lcom/rigol/scope/cil/ServiceEnum$MathWaveType;
@@ -515,7 +580,7 @@
 
     goto :goto_0
 
-    .line 341
+    .line 344
     :cond_0
     iget-object p1, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->param:Lcom/rigol/scope/data/MathParam;
 
@@ -530,7 +595,7 @@
 .method public synthetic lambda$showMathArith$17$MathArithAdapter(Landroid/widget/CompoundButton;Z)V
     .locals 0
 
-    .line 347
+    .line 350
     iget-object p1, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->param:Lcom/rigol/scope/data/MathParam;
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/data/MathParam;->saveInvert(Z)V
@@ -541,7 +606,7 @@
 .method public synthetic lambda$showMathArith$18$MathArithAdapter(Landroid/widget/CompoundButton;Z)V
     .locals 0
 
-    .line 351
+    .line 354
     iget-object p1, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->param:Lcom/rigol/scope/data/MathParam;
 
     invoke-virtual {p1, p2}, Lcom/rigol/scope/data/MathParam;->saveLabel(Z)V
@@ -549,28 +614,17 @@
     return-void
 .end method
 
-.method public synthetic lambda$showMathArith$19$MathArithAdapter(Ljava/lang/String;)V
-    .locals 1
-
-    .line 355
-    iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->param:Lcom/rigol/scope/data/MathParam;
-
-    invoke-virtual {v0, p1}, Lcom/rigol/scope/data/MathParam;->saveLableString(Ljava/lang/String;)V
-
-    return-void
-.end method
-
 .method public synthetic lambda$showMathArith$20$MathArithAdapter(Landroid/view/View;)V
     .locals 3
 
-    .line 354
+    .line 357
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->context:Landroid/content/Context;
 
     iget-object v1, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->anchorView:Landroid/view/View;
 
-    new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$Tijij_IyAJvHESdBhvgOVRaXxkU;
+    new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$gdVRKxm5K4b-XFfVeE7TCYEgiUc;
 
-    invoke-direct {v2, p0}, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$Tijij_IyAJvHESdBhvgOVRaXxkU;-><init>(Lcom/rigol/scope/adapters/MathArithAdapter;)V
+    invoke-direct {v2, p0}, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$gdVRKxm5K4b-XFfVeE7TCYEgiUc;-><init>(Lcom/rigol/scope/adapters/MathArithAdapter;)V
 
     invoke-static {v0, v1, p1, v2}, Lcom/rigol/scope/utilities/ViewUtil;->showPinyinKeyboard(Landroid/content/Context;Landroid/view/View;Landroid/view/View;Lcom/rigol/pinyinkeyboard/ExternalInterface;)V
 
@@ -580,7 +634,18 @@
 .method public synthetic lambda$showMathArith$21$MathArithAdapter(Landroid/widget/CompoundButton;Z)V
     .locals 0
 
-    .line 361
+    .line 362
+    iget-object p1, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->param:Lcom/rigol/scope/data/MathParam;
+
+    invoke-virtual {p1, p2}, Lcom/rigol/scope/data/MathParam;->saveDisplayMode(Z)V
+
+    return-void
+.end method
+
+.method public synthetic lambda$showMathArith$22$MathArithAdapter(Landroid/widget/CompoundButton;Z)V
+    .locals 0
+
+    .line 367
     invoke-virtual {p1}, Landroid/widget/CompoundButton;->isPressed()Z
 
     move-result p1
@@ -592,7 +657,7 @@
     :cond_0
     if-eqz p2, :cond_1
 
-    .line 365
+    .line 371
     iget-object p1, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->param:Lcom/rigol/scope/data/MathParam;
 
     sget-object p2, Lcom/rigol/scope/cil/ServiceEnum$VertExpand;->vert_expand_gnd:Lcom/rigol/scope/cil/ServiceEnum$VertExpand;
@@ -603,10 +668,10 @@
     return-void
 .end method
 
-.method public synthetic lambda$showMathArith$22$MathArithAdapter(Landroid/widget/CompoundButton;Z)V
+.method public synthetic lambda$showMathArith$23$MathArithAdapter(Landroid/widget/CompoundButton;Z)V
     .locals 0
 
-    .line 372
+    .line 378
     invoke-virtual {p1}, Landroid/widget/CompoundButton;->isPressed()Z
 
     move-result p1
@@ -618,7 +683,7 @@
     :cond_0
     if-eqz p2, :cond_1
 
-    .line 376
+    .line 382
     iget-object p1, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->param:Lcom/rigol/scope/data/MathParam;
 
     sget-object p2, Lcom/rigol/scope/cil/ServiceEnum$VertExpand;->vert_expand_center:Lcom/rigol/scope/cil/ServiceEnum$VertExpand;
@@ -629,10 +694,10 @@
     return-void
 .end method
 
-.method public synthetic lambda$showMathArith$23$MathArithAdapter(Landroid/widget/CompoundButton;Z)V
+.method public synthetic lambda$showMathArith$24$MathArithAdapter(Landroid/widget/CompoundButton;Z)V
     .locals 0
 
-    .line 383
+    .line 389
     invoke-virtual {p1}, Landroid/widget/CompoundButton;->isPressed()Z
 
     move-result p1
@@ -644,7 +709,7 @@
     :cond_0
     if-eqz p2, :cond_1
 
-    .line 387
+    .line 393
     iget-object p1, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->param:Lcom/rigol/scope/data/MathParam;
 
     sget-object p2, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;->GRID_IS_FULL:Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
@@ -655,10 +720,10 @@
     return-void
 .end method
 
-.method public synthetic lambda$showMathArith$24$MathArithAdapter(Landroid/widget/CompoundButton;Z)V
+.method public synthetic lambda$showMathArith$25$MathArithAdapter(Landroid/widget/CompoundButton;Z)V
     .locals 0
 
-    .line 394
+    .line 400
     invoke-virtual {p1}, Landroid/widget/CompoundButton;->isPressed()Z
 
     move-result p1
@@ -670,7 +735,7 @@
     :cond_0
     if-eqz p2, :cond_1
 
-    .line 398
+    .line 404
     iget-object p1, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->param:Lcom/rigol/scope/data/MathParam;
 
     sget-object p2, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;->GRID_IS_HALF:Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
@@ -681,10 +746,10 @@
     return-void
 .end method
 
-.method public synthetic lambda$showMathArith$25$MathArithAdapter(Landroid/widget/CompoundButton;Z)V
+.method public synthetic lambda$showMathArith$26$MathArithAdapter(Landroid/widget/CompoundButton;Z)V
     .locals 0
 
-    .line 405
+    .line 411
     invoke-virtual {p1}, Landroid/widget/CompoundButton;->isPressed()Z
 
     move-result p1
@@ -696,7 +761,7 @@
     :cond_0
     if-eqz p2, :cond_1
 
-    .line 409
+    .line 415
     iget-object p1, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->param:Lcom/rigol/scope/data/MathParam;
 
     sget-object p2, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;->GRID_IS_NONE:Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
@@ -707,93 +772,39 @@
     return-void
 .end method
 
-.method public synthetic lambda$showMathArith$3$MathArithAdapter(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
-    .locals 0
-
-    .line 238
-    iput-object p1, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
-
-    .line 239
-    iput-object p2, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
-
-    .line 240
-    iput-object p3, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->mappingObjects:Ljava/util/List;
-
-    .line 241
-    iput-object p4, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->clickedView:Landroid/view/View;
-
-    return-void
-.end method
-
-.method public synthetic lambda$showMathArith$4$MathArithAdapter(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
-    .locals 0
-
-    .line 243
-    invoke-direct {p0, p4}, Lcom/rigol/scope/adapters/MathArithAdapter;->selectSourceA(Lcom/rigol/scope/data/MappingObject;)V
-
-    return-void
-.end method
-
 .method public synthetic lambda$showMathArith$5$MathArithAdapter(Landroid/view/View;)V
     .locals 4
 
-    .line 233
+    .line 236
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->param:Lcom/rigol/scope/data/MathParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getServiceId()I
 
     move-result v1
 
-    const v2, 0x7f030174
+    const v2, 0x7f030176
 
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/data/MathParam;->getSpinnerList(II)Ljava/util/List;
 
     move-result-object v0
 
-    .line 234
+    .line 237
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->filterChan(Ljava/util/List;)Ljava/util/List;
 
     move-result-object v0
 
-    .line 236
+    .line 239
     iget-object v1, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->anchorView:Landroid/view/View;
 
-    new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$JjAiTcXBvw7_MRlWotMIr7A_sbQ;
+    new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$dSlJ03jsGNxQdCIMrzNYBAETRRk;
 
-    invoke-direct {v2, p0}, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$JjAiTcXBvw7_MRlWotMIr7A_sbQ;-><init>(Lcom/rigol/scope/adapters/MathArithAdapter;)V
+    invoke-direct {v2, p0}, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$dSlJ03jsGNxQdCIMrzNYBAETRRk;-><init>(Lcom/rigol/scope/adapters/MathArithAdapter;)V
 
-    new-instance v3, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$xgWra86kj_dK3oVzIBpMrbVbgXU;
+    new-instance v3, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$2fXg3ewVj4WEFiKJvI7SNNTlP4o;
 
-    invoke-direct {v3, p0}, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$xgWra86kj_dK3oVzIBpMrbVbgXU;-><init>(Lcom/rigol/scope/adapters/MathArithAdapter;)V
+    invoke-direct {v3, p0}, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$2fXg3ewVj4WEFiKJvI7SNNTlP4o;-><init>(Lcom/rigol/scope/adapters/MathArithAdapter;)V
 
     invoke-static {v1, p1, v0, v2, v3}, Lcom/rigol/scope/utilities/ViewUtil;->showChanSpinner(Landroid/view/View;Landroid/view/View;Ljava/util/List;Lcom/rigol/scope/utilities/AorBManager$OnSpinnerAdapterListener;Lcom/rigol/scope/views/spinner/PopupSpinner$OnItemClickListener;)V
-
-    return-void
-.end method
-
-.method public synthetic lambda$showMathArith$6$MathArithAdapter(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
-    .locals 0
-
-    .line 255
-    iput-object p1, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
-
-    .line 256
-    iput-object p2, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
-
-    .line 257
-    iput-object p3, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->mappingObjects:Ljava/util/List;
-
-    .line 258
-    iput-object p4, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->clickedView:Landroid/view/View;
-
-    return-void
-.end method
-
-.method public synthetic lambda$showMathArith$7$MathArithAdapter(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
-    .locals 0
-
-    .line 260
-    invoke-direct {p0, p4}, Lcom/rigol/scope/adapters/MathArithAdapter;->selectSourceB(Lcom/rigol/scope/data/MappingObject;)V
 
     return-void
 .end method
@@ -801,34 +812,34 @@
 .method public synthetic lambda$showMathArith$8$MathArithAdapter(Landroid/view/View;)V
     .locals 4
 
-    .line 250
+    .line 253
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->param:Lcom/rigol/scope/data/MathParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getServiceId()I
 
     move-result v1
 
-    const v2, 0x7f030175
+    const v2, 0x7f030177
 
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/data/MathParam;->getSpinnerList(II)Ljava/util/List;
 
     move-result-object v0
 
-    .line 251
+    .line 254
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->filterChan(Ljava/util/List;)Ljava/util/List;
 
     move-result-object v0
 
-    .line 253
+    .line 256
     iget-object v1, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->anchorView:Landroid/view/View;
 
-    new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$Jg26YOQl91rXBiIu0gebgGnNX7k;
+    new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$UYLHysUUz7RsenlPK4pcMPJCmdk;
 
-    invoke-direct {v2, p0}, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$Jg26YOQl91rXBiIu0gebgGnNX7k;-><init>(Lcom/rigol/scope/adapters/MathArithAdapter;)V
+    invoke-direct {v2, p0}, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$UYLHysUUz7RsenlPK4pcMPJCmdk;-><init>(Lcom/rigol/scope/adapters/MathArithAdapter;)V
 
-    new-instance v3, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$nuk-6abHzcqkDWhin9Wnj5EWBYA;
+    new-instance v3, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$yTX-QSSCv5BO_C8P_y_su1YdmIY;
 
-    invoke-direct {v3, p0}, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$nuk-6abHzcqkDWhin9Wnj5EWBYA;-><init>(Lcom/rigol/scope/adapters/MathArithAdapter;)V
+    invoke-direct {v3, p0}, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$yTX-QSSCv5BO_C8P_y_su1YdmIY;-><init>(Lcom/rigol/scope/adapters/MathArithAdapter;)V
 
     invoke-static {v1, p1, v0, v2, v3}, Lcom/rigol/scope/utilities/ViewUtil;->showChanSpinner(Landroid/view/View;Landroid/view/View;Ljava/util/List;Lcom/rigol/scope/utilities/AorBManager$OnSpinnerAdapterListener;Lcom/rigol/scope/views/spinner/PopupSpinner$OnItemClickListener;)V
 
@@ -838,7 +849,7 @@
 .method public synthetic lambda$showMathArith$9$MathArithAdapter(Landroid/view/View;)V
     .locals 14
 
-    .line 267
+    .line 270
     :try_start_0
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->aorBManager:Lcom/rigol/scope/utilities/AorBManager;
 
@@ -852,24 +863,24 @@
 
     if-eqz v0, :cond_0
 
-    .line 268
+    .line 271
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->param:Lcom/rigol/scope/data/MathParam;
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->readAnaOffsetAttr()V
 
-    .line 269
+    .line 272
     iget-object v1, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->anchorView:Landroid/view/View;
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->param:Lcom/rigol/scope/data/MathParam;
 
-    .line 270
+    .line 273
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getUnitIndex()Lcom/rigol/scope/cil/ServiceEnum$Unit;
 
     move-result-object v3
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->param:Lcom/rigol/scope/data/MathParam;
 
-    .line 271
+    .line 274
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getAnaOffsetAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -880,7 +891,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->param:Lcom/rigol/scope/data/MathParam;
 
-    .line 272
+    .line 275
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getAnaOffsetAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -891,7 +902,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->param:Lcom/rigol/scope/data/MathParam;
 
-    .line 273
+    .line 276
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getAnaOffsetAttr()Lcom/rigol/scope/cil/MessageAttr;
 
     move-result-object v0
@@ -902,7 +913,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->param:Lcom/rigol/scope/data/MathParam;
 
-    .line 274
+    .line 277
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->getOffset()J
 
     move-result-wide v10
@@ -915,7 +926,7 @@
 
     move-object v2, p1
 
-    .line 269
+    .line 272
     invoke-static/range {v1 .. v13}, Lcom/rigol/scope/utilities/ViewUtil;->showKeyboard(Landroid/view/View;Landroid/view/View;Lcom/rigol/scope/cil/ServiceEnum$Unit;JJJJLcom/rigol/scope/utilities/UnitFormat$SI;Lcom/rigol/scope/views/keyboard/KeyboardListener;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -925,7 +936,7 @@
     :catch_0
     move-exception p1
 
-    .line 290
+    .line 293
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
     :cond_0
@@ -1203,11 +1214,11 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0a06ad
+    const v0, 0x7f0a06b7
 
     if-eq p1, v0, :cond_2
 
-    const v0, 0x7f0a07d3
+    const v0, 0x7f0a07df
 
     if-eq p1, v0, :cond_1
 
@@ -1249,11 +1260,11 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0a06ad
+    const p1, 0x7f0a06b7
 
     if-eq p2, p1, :cond_2
 
-    const p1, 0x7f0a07d3
+    const p1, 0x7f0a07df
 
     if-eq p2, p1, :cond_1
 
@@ -1290,7 +1301,7 @@
 .method public setisNowView(Z)V
     .locals 0
 
-    .line 429
+    .line 435
     iput-boolean p1, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->isNowView:Z
 
     return-void
@@ -1316,27 +1327,36 @@
     .line 213
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->binding:Lcom/rigol/scope/databinding/AdapterMathArithBinding;
 
-    iget-object v0, v0, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->waveTypeSwitch:Lcom/rigol/scope/views/SwitchButton;
+    iget-object v0, v0, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->displayModeSwitch:Lcom/rigol/scope/views/SwitchButton;
 
-    const v1, 0x7f03017a
+    const v1, 0x7f030166
 
     invoke-static {v1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->setSwitchButton(ILcom/rigol/scope/views/SwitchButton;)V
 
     .line 216
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->binding:Lcom/rigol/scope/databinding/AdapterMathArithBinding;
 
+    iget-object v0, v0, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->waveTypeSwitch:Lcom/rigol/scope/views/SwitchButton;
+
+    const v1, 0x7f03017c
+
+    invoke-static {v1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->setSwitchButton(ILcom/rigol/scope/views/SwitchButton;)V
+
+    .line 219
+    iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->binding:Lcom/rigol/scope/databinding/AdapterMathArithBinding;
+
     iget-object v1, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->param:Lcom/rigol/scope/data/MathParam;
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->setParam(Lcom/rigol/scope/data/MathParam;)V
 
-    .line 219
+    .line 222
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->binding:Lcom/rigol/scope/databinding/AdapterMathArithBinding;
 
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$VertExpand;->vert_expand_gnd:Lcom/rigol/scope/cil/ServiceEnum$VertExpand;
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$VertExpand;->value1:I
 
-    const v2, 0x7f030166
+    const v2, 0x7f030168
 
     invoke-static {v2, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -1344,7 +1364,7 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->setGndMapping(Lcom/rigol/scope/data/MappingObject;)V
 
-    .line 220
+    .line 223
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->binding:Lcom/rigol/scope/databinding/AdapterMathArithBinding;
 
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$VertExpand;->vert_expand_center:Lcom/rigol/scope/cil/ServiceEnum$VertExpand;
@@ -1357,7 +1377,7 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->setCenterMapping(Lcom/rigol/scope/data/MappingObject;)V
 
-    .line 223
+    .line 226
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->binding:Lcom/rigol/scope/databinding/AdapterMathArithBinding;
 
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;->GRID_IS_FULL:Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
@@ -1372,7 +1392,7 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->setGridFullMapping(Lcom/rigol/scope/data/MappingObject;)V
 
-    .line 224
+    .line 227
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->binding:Lcom/rigol/scope/databinding/AdapterMathArithBinding;
 
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;->GRID_IS_HALF:Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
@@ -1385,7 +1405,7 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->setGridHalfMapping(Lcom/rigol/scope/data/MappingObject;)V
 
-    .line 225
+    .line 228
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->binding:Lcom/rigol/scope/databinding/AdapterMathArithBinding;
 
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;->GRID_IS_NONE:Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
@@ -1398,7 +1418,7 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->setGridNoneMapping(Lcom/rigol/scope/data/MappingObject;)V
 
-    .line 229
+    .line 232
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->binding:Lcom/rigol/scope/databinding/AdapterMathArithBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->sourceASpinner:Landroid/widget/TextView;
@@ -1409,7 +1429,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 247
+    .line 250
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->binding:Lcom/rigol/scope/databinding/AdapterMathArithBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->sourceBSpinner:Landroid/widget/TextView;
@@ -1420,7 +1440,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 265
+    .line 268
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->binding:Lcom/rigol/scope/databinding/AdapterMathArithBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->offsetEditText:Landroid/widget/EditText;
@@ -1431,7 +1451,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/EditText;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 295
+    .line 298
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->binding:Lcom/rigol/scope/databinding/AdapterMathArithBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->scaleEditText:Landroid/widget/EditText;
@@ -1442,7 +1462,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/EditText;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 321
+    .line 324
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->binding:Lcom/rigol/scope/databinding/AdapterMathArithBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->mainScaleVertical:Landroid/widget/ImageButton;
@@ -1453,7 +1473,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 324
+    .line 327
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->binding:Lcom/rigol/scope/databinding/AdapterMathArithBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->mainScaleNomal:Landroid/widget/ImageButton;
@@ -1464,7 +1484,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 327
+    .line 330
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->binding:Lcom/rigol/scope/databinding/AdapterMathArithBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->mathOffsetUp:Landroid/widget/ImageButton;
@@ -1475,7 +1495,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 330
+    .line 333
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->binding:Lcom/rigol/scope/databinding/AdapterMathArithBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->mathOffsetDown:Landroid/widget/ImageButton;
@@ -1486,7 +1506,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 333
+    .line 336
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->binding:Lcom/rigol/scope/databinding/AdapterMathArithBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->autoSettingBtn:Landroid/widget/Button;
@@ -1497,7 +1517,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 336
+    .line 339
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->binding:Lcom/rigol/scope/databinding/AdapterMathArithBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->waveTypeSwitch:Lcom/rigol/scope/views/SwitchButton;
@@ -1508,7 +1528,7 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/SwitchButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    .line 346
+    .line 349
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->binding:Lcom/rigol/scope/databinding/AdapterMathArithBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->invertSwitch:Lcom/rigol/scope/views/SwitchButton;
@@ -1519,7 +1539,7 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/SwitchButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    .line 350
+    .line 353
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->binding:Lcom/rigol/scope/databinding/AdapterMathArithBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->labelSwitch:Lcom/rigol/scope/views/SwitchButton;
@@ -1530,7 +1550,7 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/SwitchButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    .line 354
+    .line 357
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->binding:Lcom/rigol/scope/databinding/AdapterMathArithBinding;
 
     iget-object v0, v0, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->labelEditText:Lcom/rigol/scope/views/baseview/BaseEditText;
@@ -1541,21 +1561,21 @@
 
     invoke-virtual {v0, v1}, Lcom/rigol/scope/views/baseview/BaseEditText;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 359
+    .line 361
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->binding:Lcom/rigol/scope/databinding/AdapterMathArithBinding;
 
-    iget-object v0, v0, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->gndRadioButton:Landroid/widget/RadioButton;
+    iget-object v0, v0, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->displayModeSwitch:Lcom/rigol/scope/views/SwitchButton;
 
     new-instance v1, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$oEWWZaOrqat2o9LIdpS6WQcBTV0;
 
     invoke-direct {v1, p0}, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$oEWWZaOrqat2o9LIdpS6WQcBTV0;-><init>(Lcom/rigol/scope/adapters/MathArithAdapter;)V
 
-    invoke-virtual {v0, v1}, Landroid/widget/RadioButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
+    invoke-virtual {v0, v1}, Lcom/rigol/scope/views/SwitchButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    .line 370
+    .line 365
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->binding:Lcom/rigol/scope/databinding/AdapterMathArithBinding;
 
-    iget-object v0, v0, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->centerRadioButton:Landroid/widget/RadioButton;
+    iget-object v0, v0, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->gndRadioButton:Landroid/widget/RadioButton;
 
     new-instance v1, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$8erPw6HbKBG_OuzW6QdIHkXSvD8;
 
@@ -1563,10 +1583,10 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/RadioButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    .line 381
+    .line 376
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->binding:Lcom/rigol/scope/databinding/AdapterMathArithBinding;
 
-    iget-object v0, v0, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->fullRadioButton:Landroid/widget/RadioButton;
+    iget-object v0, v0, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->centerRadioButton:Landroid/widget/RadioButton;
 
     new-instance v1, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$EWIqwob2qk5FuKM3xhRKIOjZUj8;
 
@@ -1574,10 +1594,10 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/RadioButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    .line 392
+    .line 387
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->binding:Lcom/rigol/scope/databinding/AdapterMathArithBinding;
 
-    iget-object v0, v0, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->halfRadioButton:Landroid/widget/RadioButton;
+    iget-object v0, v0, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->fullRadioButton:Landroid/widget/RadioButton;
 
     new-instance v1, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$aPCZ483Q1X8mLxfauXXcEXig6a4;
 
@@ -1585,14 +1605,25 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/RadioButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    .line 403
+    .line 398
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->binding:Lcom/rigol/scope/databinding/AdapterMathArithBinding;
 
-    iget-object v0, v0, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->noneRadioButton:Landroid/widget/RadioButton;
+    iget-object v0, v0, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->halfRadioButton:Landroid/widget/RadioButton;
 
     new-instance v1, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$jrTMpMyhEUvxzBx42EOog1w-oOc;
 
     invoke-direct {v1, p0}, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$jrTMpMyhEUvxzBx42EOog1w-oOc;-><init>(Lcom/rigol/scope/adapters/MathArithAdapter;)V
+
+    invoke-virtual {v0, v1}, Landroid/widget/RadioButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
+
+    .line 409
+    iget-object v0, p0, Lcom/rigol/scope/adapters/MathArithAdapter;->binding:Lcom/rigol/scope/databinding/AdapterMathArithBinding;
+
+    iget-object v0, v0, Lcom/rigol/scope/databinding/AdapterMathArithBinding;->noneRadioButton:Landroid/widget/RadioButton;
+
+    new-instance v1, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$oHDkptwIwLUOfATo3gCOVj8VgHE;
+
+    invoke-direct {v1, p0}, Lcom/rigol/scope/adapters/-$$Lambda$MathArithAdapter$oHDkptwIwLUOfATo3gCOVj8VgHE;-><init>(Lcom/rigol/scope/adapters/MathArithAdapter;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/RadioButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 

@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterUtilitySaveWaveBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a08b1
+    const v1, 0x7f0a08bd
 
     const/4 v2, 0x6
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilitySaveWaveBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a075c
+    const v1, 0x7f0a0768
 
     const/4 v2, 0x7
 
@@ -45,7 +45,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilitySaveWaveBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a075d
+    const v1, 0x7f0a0769
 
     const/16 v2, 0x8
 
@@ -54,7 +54,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilitySaveWaveBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a55
+    const v1, 0x7f0a0a61
 
     const/16 v2, 0x9
 
@@ -63,7 +63,7 @@
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilitySaveWaveBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a07d0
+    const v1, 0x7f0a07dc
 
     const/16 v2, 0xa
 
@@ -108,7 +108,7 @@
     .line 26
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilitySaveWaveBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a42
+    const v1, 0x7f0a0a4e
 
     const/16 v2, 0xf
 
@@ -336,7 +336,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -408,7 +408,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x40b
+    const/16 v0, 0x40f
 
     if-ne p2, v0, :cond_1
 
@@ -440,7 +440,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x40c
+    const/16 v0, 0x410
 
     if-ne p2, v0, :cond_2
 
@@ -512,7 +512,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -1052,7 +1052,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x252
+    const/16 p1, 0x254
 
     .line 111
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterUtilitySaveWaveBindingImpl;->notifyPropertyChanged(I)V
@@ -1128,7 +1128,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x252
+    const/16 v0, 0x254
 
     if-ne v0, p1, :cond_0
 

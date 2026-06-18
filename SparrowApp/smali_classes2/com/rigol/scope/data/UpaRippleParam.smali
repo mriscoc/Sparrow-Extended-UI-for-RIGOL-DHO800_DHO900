@@ -210,14 +210,14 @@
     .line 109
     iget-object v0, p0, Lcom/rigol/scope/data/UpaRippleParam;->upaRippLowAttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x5120
+    const/16 v1, 0x5320
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/UpaRippleParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
     .line 110
     iget-object v0, p0, Lcom/rigol/scope/data/UpaRippleParam;->upaCountttr:Lcom/rigol/scope/cil/MessageAttr;
 
-    const/16 v1, 0x5127
+    const/16 v1, 0x5327
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/UpaRippleParam;->readAttr(ILcom/rigol/scope/cil/MessageAttr;)I
 
@@ -227,7 +227,7 @@
 .method public final readPowerCurr()V
     .locals 1
 
-    const/16 v0, 0x5116
+    const/16 v0, 0x5316
 
     .line 80
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UpaRippleParam;->readInt(I)I
@@ -236,7 +236,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UpaRippleParam;->setRefPowerCurr(I)V
 
-    const/16 v0, 0x2d4
+    const/16 v0, 0x2d8
 
     .line 81
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UpaRippleParam;->notifyPropertyChanged(I)V
@@ -247,7 +247,7 @@
 .method public final readPowerDisp()V
     .locals 1
 
-    const/16 v0, 0x5118
+    const/16 v0, 0x5318
 
     .line 93
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UpaRippleParam;->readBool(I)Z
@@ -256,7 +256,7 @@
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UpaRippleParam;->setRefPowerDisp(Z)V
 
-    const/16 v0, 0x2d6
+    const/16 v0, 0x2da
 
     .line 95
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UpaRippleParam;->notifyPropertyChanged(I)V
@@ -267,7 +267,7 @@
 .method public final readRippleCount()I
     .locals 1
 
-    const/16 v0, 0x5127
+    const/16 v0, 0x5327
 
     .line 70
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UpaRippleParam;->readInt(I)I
@@ -299,7 +299,7 @@
 .method public final resetRippleCount()V
     .locals 1
 
-    const/16 v0, 0x5128
+    const/16 v0, 0x5328
 
     .line 76
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/UpaRippleParam;->readInt(I)I
@@ -313,7 +313,7 @@
     .line 86
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaRippleParam;->setRefPowerCurr(I)V
 
-    const/16 v0, 0x5116
+    const/16 v0, 0x5316
 
     .line 87
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/UpaRippleParam;->saveInt(II)I
@@ -327,7 +327,7 @@
     .line 100
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaRippleParam;->setRefPowerDisp(Z)V
 
-    const/16 v0, 0x5118
+    const/16 v0, 0x5318
 
     .line 102
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/UpaRippleParam;->saveBool(IZ)I
@@ -341,7 +341,7 @@
     .line 64
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaRippleParam;->setStatCounts(I)V
 
-    const/16 v0, 0x5127
+    const/16 v0, 0x5327
 
     .line 65
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/UpaRippleParam;->saveInt(II)I
@@ -379,7 +379,7 @@
     .line 50
     iput p1, p0, Lcom/rigol/scope/data/UpaRippleParam;->refPowerCurr:I
 
-    const/16 p1, 0x2d4
+    const/16 p1, 0x2d8
 
     .line 51
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaRippleParam;->notifyPropertyChanged(I)V
@@ -408,7 +408,7 @@
     .line 58
     iput-boolean p1, p0, Lcom/rigol/scope/data/UpaRippleParam;->refPowerDisp:Z
 
-    const/16 p1, 0x2d6
+    const/16 p1, 0x2da
 
     .line 59
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaRippleParam;->notifyPropertyChanged(I)V
@@ -446,7 +446,7 @@
     .line 43
     iput p1, p0, Lcom/rigol/scope/data/UpaRippleParam;->statCounts:I
 
-    const/16 p1, 0x388
+    const/16 p1, 0x38c
 
     .line 44
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/UpaRippleParam;->notifyPropertyChanged(I)V

@@ -297,7 +297,7 @@
 
     move-result-object v0
 
-    const/16 v1, 0x4f4c
+    const/16 v1, 0x514c
 
     invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
@@ -348,7 +348,7 @@
     .line 225
     sget-object v1, Lcom/rigol/scope/cil/ServiceEnum$Chan;->acline:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 v3, 0x4f4d
+    const/16 v3, 0x514d
 
     if-eq v0, v1, :cond_3
 
@@ -445,7 +445,7 @@
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$TriggerSweep;->value1:I
 
-    const v2, 0x7f030233
+    const v2, 0x7f030237
 
     invoke-static {v2, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -486,7 +486,7 @@
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$Trigger_I2C_When;->value1:I
 
-    const v2, 0x7f03020a
+    const v2, 0x7f03020e
 
     invoke-static {v2, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -753,6 +753,88 @@
     return v0
 .end method
 
+.method public synthetic lambda$null$0$TriggerI2cAdapter(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
+    .locals 0
+
+    .line 166
+    iput-object p1, p0, Lcom/rigol/scope/adapters/TriggerI2cAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
+
+    return-void
+.end method
+
+.method public synthetic lambda$null$1$TriggerI2cAdapter(ILcom/rigol/scope/data/MappingObject;)V
+    .locals 1
+
+    .line 168
+    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerI2cAdapter;->clickedView:Landroid/view/View;
+
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    move-result p1
+
+    const v0, 0x7f0a0a16
+
+    if-ne p1, v0, :cond_0
+
+    .line 169
+    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerI2cAdapter;->selectSourceScl(Lcom/rigol/scope/data/MappingObject;)V
+
+    goto :goto_0
+
+    .line 170
+    :cond_0
+    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerI2cAdapter;->clickedView:Landroid/view/View;
+
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    move-result p1
+
+    const v0, 0x7f0a0a1a
+
+    if-ne p1, v0, :cond_1
+
+    .line 171
+    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerI2cAdapter;->selectSourceSda(Lcom/rigol/scope/data/MappingObject;)V
+
+    goto :goto_0
+
+    .line 172
+    :cond_1
+    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerI2cAdapter;->clickedView:Landroid/view/View;
+
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    move-result p1
+
+    const v0, 0x7f0a099f
+
+    if-ne p1, v0, :cond_2
+
+    .line 173
+    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerI2cAdapter;->selectDirectionValue(Lcom/rigol/scope/data/MappingObject;)V
+
+    goto :goto_0
+
+    .line 174
+    :cond_2
+    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerI2cAdapter;->clickedView:Landroid/view/View;
+
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    move-result p1
+
+    const v0, 0x7f0a0951
+
+    if-ne p1, v0, :cond_3
+
+    .line 175
+    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerI2cAdapter;->selectAddressWidthValue(Lcom/rigol/scope/data/MappingObject;)V
+
+    :cond_3
+    :goto_0
+    return-void
+.end method
+
 .method public synthetic lambda$onClick$10$TriggerI2cAdapter(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
     .locals 0
 
@@ -899,88 +981,6 @@
     return-void
 .end method
 
-.method public synthetic lambda$onCreateViewHolder$0$TriggerI2cAdapter(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
-    .locals 0
-
-    .line 166
-    iput-object p1, p0, Lcom/rigol/scope/adapters/TriggerI2cAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
-
-    return-void
-.end method
-
-.method public synthetic lambda$onCreateViewHolder$1$TriggerI2cAdapter(ILcom/rigol/scope/data/MappingObject;)V
-    .locals 1
-
-    .line 168
-    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerI2cAdapter;->clickedView:Landroid/view/View;
-
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
-
-    move-result p1
-
-    const v0, 0x7f0a0a0a
-
-    if-ne p1, v0, :cond_0
-
-    .line 169
-    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerI2cAdapter;->selectSourceScl(Lcom/rigol/scope/data/MappingObject;)V
-
-    goto :goto_0
-
-    .line 170
-    :cond_0
-    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerI2cAdapter;->clickedView:Landroid/view/View;
-
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
-
-    move-result p1
-
-    const v0, 0x7f0a0a0e
-
-    if-ne p1, v0, :cond_1
-
-    .line 171
-    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerI2cAdapter;->selectSourceSda(Lcom/rigol/scope/data/MappingObject;)V
-
-    goto :goto_0
-
-    .line 172
-    :cond_1
-    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerI2cAdapter;->clickedView:Landroid/view/View;
-
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
-
-    move-result p1
-
-    const v0, 0x7f0a0993
-
-    if-ne p1, v0, :cond_2
-
-    .line 173
-    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerI2cAdapter;->selectDirectionValue(Lcom/rigol/scope/data/MappingObject;)V
-
-    goto :goto_0
-
-    .line 174
-    :cond_2
-    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerI2cAdapter;->clickedView:Landroid/view/View;
-
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
-
-    move-result p1
-
-    const v0, 0x7f0a0945
-
-    if-ne p1, v0, :cond_3
-
-    .line 175
-    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerI2cAdapter;->selectAddressWidthValue(Lcom/rigol/scope/data/MappingObject;)V
-
-    :cond_3
-    :goto_0
-    return-void
-.end method
-
 .method public synthetic lambda$onCreateViewHolder$2$TriggerI2cAdapter(Landroid/view/KeyEvent;)V
     .locals 11
 
@@ -1024,13 +1024,13 @@
 
     iget-object v8, p0, Lcom/rigol/scope/adapters/TriggerI2cAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
 
-    new-instance v9, Lcom/rigol/scope/adapters/-$$Lambda$TriggerI2cAdapter$ApeTNRS-APoJqR9z1cx07jd1cpA;
+    new-instance v9, Lcom/rigol/scope/adapters/-$$Lambda$TriggerI2cAdapter$YV5wrNsg9N5WbHf_LnPJobgm9bY;
 
-    invoke-direct {v9, p0}, Lcom/rigol/scope/adapters/-$$Lambda$TriggerI2cAdapter$ApeTNRS-APoJqR9z1cx07jd1cpA;-><init>(Lcom/rigol/scope/adapters/TriggerI2cAdapter;)V
+    invoke-direct {v9, p0}, Lcom/rigol/scope/adapters/-$$Lambda$TriggerI2cAdapter$YV5wrNsg9N5WbHf_LnPJobgm9bY;-><init>(Lcom/rigol/scope/adapters/TriggerI2cAdapter;)V
 
-    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$TriggerI2cAdapter$Wo2KWPQmfmCgjmxPTaW9o8AThIE;
+    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$TriggerI2cAdapter$KFK4YpsbB87lXsYrpQ6R3FJNrxw;
 
-    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$TriggerI2cAdapter$Wo2KWPQmfmCgjmxPTaW9o8AThIE;-><init>(Lcom/rigol/scope/adapters/TriggerI2cAdapter;)V
+    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$TriggerI2cAdapter$KFK4YpsbB87lXsYrpQ6R3FJNrxw;-><init>(Lcom/rigol/scope/adapters/TriggerI2cAdapter;)V
 
     move-object v2, p1
 
@@ -1118,7 +1118,7 @@
 
     iget v0, p0, Lcom/rigol/scope/adapters/TriggerI2cAdapter;->serviceId:I
 
-    const/16 v1, 0x4f1e
+    const/16 v1, 0x511e
 
     invoke-virtual {p1, v0, v1, p2}, Lcom/rigol/scope/cil/API;->UI_PostBool(IIZ)I
 
@@ -1330,16 +1330,16 @@
     :sswitch_data_0
     .sparse-switch
         0x7f0a00c3 -> :sswitch_a
-        0x7f0a069b -> :sswitch_9
-        0x7f0a0813 -> :sswitch_8
-        0x7f0a0989 -> :sswitch_7
-        0x7f0a098a -> :sswitch_6
-        0x7f0a098f -> :sswitch_5
-        0x7f0a0994 -> :sswitch_4
-        0x7f0a0995 -> :sswitch_3
-        0x7f0a0996 -> :sswitch_2
-        0x7f0a0997 -> :sswitch_1
-        0x7f0a09d5 -> :sswitch_0
+        0x7f0a06a5 -> :sswitch_9
+        0x7f0a081f -> :sswitch_8
+        0x7f0a0995 -> :sswitch_7
+        0x7f0a0996 -> :sswitch_6
+        0x7f0a099b -> :sswitch_5
+        0x7f0a09a0 -> :sswitch_4
+        0x7f0a09a1 -> :sswitch_3
+        0x7f0a09a2 -> :sswitch_2
+        0x7f0a09a3 -> :sswitch_1
+        0x7f0a09e1 -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -1366,7 +1366,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f030209
+    const v0, 0x7f03020d
 
     .line 430
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1402,7 +1402,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f030208
+    const v0, 0x7f03020c
 
     .line 416
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1618,7 +1618,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f030207
+    const v0, 0x7f03020b
 
     .line 444
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1893,7 +1893,7 @@
 
     if-eqz v0, :cond_1
 
-    const v0, 0x7f030204
+    const v0, 0x7f030208
 
     .line 458
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1967,7 +1967,7 @@
 
     iget v0, p0, Lcom/rigol/scope/adapters/TriggerI2cAdapter;->serviceId:I
 
-    const/16 v1, 0x4f4d
+    const/16 v1, 0x514d
 
     iget-object v2, p0, Lcom/rigol/scope/adapters/TriggerI2cAdapter;->param:Lcom/rigol/scope/data/TriggerParam;
 
@@ -2010,7 +2010,7 @@
 
     iget v0, p0, Lcom/rigol/scope/adapters/TriggerI2cAdapter;->serviceId:I
 
-    const/16 v1, 0x4f4c
+    const/16 v1, 0x514c
 
     iget-object v2, p0, Lcom/rigol/scope/adapters/TriggerI2cAdapter;->param:Lcom/rigol/scope/data/TriggerParam;
 
@@ -2058,17 +2058,17 @@
         0x7f0a00c3 -> :sswitch_d
         0x7f0a0190 -> :sswitch_c
         0x7f0a0193 -> :sswitch_b
-        0x7f0a069b -> :sswitch_a
-        0x7f0a0813 -> :sswitch_9
-        0x7f0a0945 -> :sswitch_8
-        0x7f0a098c -> :sswitch_7
-        0x7f0a098e -> :sswitch_6
-        0x7f0a0991 -> :sswitch_5
-        0x7f0a0993 -> :sswitch_4
-        0x7f0a09b8 -> :sswitch_3
-        0x7f0a09be -> :sswitch_2
-        0x7f0a0a0a -> :sswitch_1
-        0x7f0a0a0e -> :sswitch_0
+        0x7f0a06a5 -> :sswitch_a
+        0x7f0a081f -> :sswitch_9
+        0x7f0a0951 -> :sswitch_8
+        0x7f0a0998 -> :sswitch_7
+        0x7f0a099a -> :sswitch_6
+        0x7f0a099d -> :sswitch_5
+        0x7f0a099f -> :sswitch_4
+        0x7f0a09c4 -> :sswitch_3
+        0x7f0a09ca -> :sswitch_2
+        0x7f0a0a16 -> :sswitch_1
+        0x7f0a0a1a -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -2464,10 +2464,10 @@
 
     :sswitch_data_0
     .sparse-switch
-        0x7f0a098c -> :sswitch_3
-        0x7f0a098e -> :sswitch_2
-        0x7f0a09b8 -> :sswitch_1
-        0x7f0a09be -> :sswitch_0
+        0x7f0a0998 -> :sswitch_3
+        0x7f0a099a -> :sswitch_2
+        0x7f0a09c4 -> :sswitch_1
+        0x7f0a09ca -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -2599,10 +2599,10 @@
 
     :sswitch_data_0
     .sparse-switch
-        0x7f0a098c -> :sswitch_3
-        0x7f0a098e -> :sswitch_2
-        0x7f0a09b8 -> :sswitch_1
-        0x7f0a09be -> :sswitch_0
+        0x7f0a0998 -> :sswitch_3
+        0x7f0a099a -> :sswitch_2
+        0x7f0a09c4 -> :sswitch_1
+        0x7f0a09ca -> :sswitch_0
     .end sparse-switch
 .end method
 

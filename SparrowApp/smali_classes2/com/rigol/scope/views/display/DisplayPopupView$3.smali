@@ -25,7 +25,7 @@
 .method constructor <init>(Lcom/rigol/scope/views/display/DisplayPopupView;)V
     .locals 0
 
-    .line 154
+    .line 156
     iput-object p1, p0, Lcom/rigol/scope/views/display/DisplayPopupView$3;->this$0:Lcom/rigol/scope/views/display/DisplayPopupView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +38,7 @@
 .method public onProgressChanged(Landroid/widget/SeekBar;IZ)V
     .locals 0
 
-    .line 157
+    .line 159
     iget-object p1, p0, Lcom/rigol/scope/views/display/DisplayPopupView$3;->this$0:Lcom/rigol/scope/views/display/DisplayPopupView;
 
     invoke-static {p1}, Lcom/rigol/scope/views/display/DisplayPopupView;->access$200(Lcom/rigol/scope/views/display/DisplayPopupView;)Lcom/rigol/scope/data/DisplayParam;

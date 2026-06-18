@@ -57,7 +57,7 @@
 
     const/16 v0, 0x30
 
-    const/16 v1, 0x5301
+    const/16 v1, 0x5501
 
     const/4 v2, 0x0
 
@@ -282,7 +282,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f030244
+    const v1, 0x7f030248
 
     new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$BusAnalyseUsbAdapter$16HEd9g6uwGpZGgiBzNiGUhOddw;
 
@@ -298,7 +298,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x5301
+    const/16 v0, 0x5501
 
     const/4 v2, 0x1
 
@@ -478,7 +478,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f030242
+    const v1, 0x7f030246
 
     new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$BusAnalyseUsbAdapter$8gLeIAZL1wbRFLqGVbNCx154q-M;
 
@@ -496,7 +496,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f030241
+    const v1, 0x7f030245
 
     new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$BusAnalyseUsbAdapter$GcqN_caPlYpk7Vd1pbQEpVCp1d8;
 
@@ -514,7 +514,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f030243
+    const v1, 0x7f030247
 
     new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$BusAnalyseUsbAdapter$KSB6JIhEbMDLWgLlWvM1X1gLS7s;
 
@@ -532,7 +532,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f030240
+    const v1, 0x7f030244
 
     new-instance v2, Lcom/rigol/scope/adapters/-$$Lambda$BusAnalyseUsbAdapter$iwszn45sDyLkokgCgrDjKZPoFyY;
 
@@ -548,7 +548,7 @@
 
     move-result-object p1
 
-    const/16 v0, 0x5302
+    const/16 v0, 0x5502
 
     iget-object v2, p0, Lcom/rigol/scope/adapters/BusAnalyseUsbAdapter;->param:Lcom/rigol/scope/views/busAnalyse/BusAnalyseUsbParam;
 

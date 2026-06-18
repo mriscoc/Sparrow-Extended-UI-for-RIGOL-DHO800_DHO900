@@ -207,7 +207,7 @@
 
     iget v1, p0, Lcom/rigol/scope/adapters/TriggerRs232Adapter;->serviceId:I
 
-    const/16 v2, 0x503d
+    const/16 v2, 0x523d
 
     invoke-virtual {p1}, Lcom/rigol/scope/data/MappingObject;->getValue()I
 
@@ -321,7 +321,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f030220
+    const v2, 0x7f030224
 
     invoke-static {v2, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -358,7 +358,7 @@
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$TriggerSweep;->value1:I
 
-    const v2, 0x7f030233
+    const v2, 0x7f030237
 
     invoke-static {v2, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -399,7 +399,7 @@
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$TriggerPulsePolarity;->value1:I
 
-    const v2, 0x7f03021f
+    const v2, 0x7f030223
 
     invoke-static {v2, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -427,7 +427,7 @@
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_When;->value1:I
 
-    const v2, 0x7f030221
+    const v2, 0x7f030225
 
     invoke-static {v2, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -481,7 +481,7 @@
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$Trigger_RS232_Parity;->value1:I
 
-    const v2, 0x7f03021d
+    const v2, 0x7f030221
 
     invoke-static {v2, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -718,6 +718,54 @@
     return v0
 .end method
 
+.method public synthetic lambda$null$0$TriggerRs232Adapter(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
+    .locals 0
+
+    .line 149
+    iput-object p1, p0, Lcom/rigol/scope/adapters/TriggerRs232Adapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
+
+    return-void
+.end method
+
+.method public synthetic lambda$null$1$TriggerRs232Adapter(ILcom/rigol/scope/data/MappingObject;)V
+    .locals 1
+
+    .line 151
+    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerRs232Adapter;->clickedView:Landroid/view/View;
+
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    move-result p1
+
+    const v0, 0x7f0a09fc
+
+    if-ne p1, v0, :cond_0
+
+    .line 152
+    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerRs232Adapter;->selectSource(Lcom/rigol/scope/data/MappingObject;)V
+
+    goto :goto_0
+
+    .line 153
+    :cond_0
+    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerRs232Adapter;->clickedView:Landroid/view/View;
+
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    move-result p1
+
+    const v0, 0x7f0a096d
+
+    if-ne p1, v0, :cond_1
+
+    .line 154
+    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerRs232Adapter;->selectDataWidth(Lcom/rigol/scope/data/MappingObject;)V
+
+    :cond_1
+    :goto_0
+    return-void
+.end method
+
 .method public synthetic lambda$onClick$3$TriggerRs232Adapter(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
     .locals 0
 
@@ -932,54 +980,6 @@
     return-void
 .end method
 
-.method public synthetic lambda$onCreateViewHolder$0$TriggerRs232Adapter(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
-    .locals 0
-
-    .line 149
-    iput-object p1, p0, Lcom/rigol/scope/adapters/TriggerRs232Adapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
-
-    return-void
-.end method
-
-.method public synthetic lambda$onCreateViewHolder$1$TriggerRs232Adapter(ILcom/rigol/scope/data/MappingObject;)V
-    .locals 1
-
-    .line 151
-    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerRs232Adapter;->clickedView:Landroid/view/View;
-
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
-
-    move-result p1
-
-    const v0, 0x7f0a09f0
-
-    if-ne p1, v0, :cond_0
-
-    .line 152
-    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerRs232Adapter;->selectSource(Lcom/rigol/scope/data/MappingObject;)V
-
-    goto :goto_0
-
-    .line 153
-    :cond_0
-    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerRs232Adapter;->clickedView:Landroid/view/View;
-
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
-
-    move-result p1
-
-    const v0, 0x7f0a0961
-
-    if-ne p1, v0, :cond_1
-
-    .line 154
-    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerRs232Adapter;->selectDataWidth(Lcom/rigol/scope/data/MappingObject;)V
-
-    :cond_1
-    :goto_0
-    return-void
-.end method
-
 .method public synthetic lambda$onCreateViewHolder$2$TriggerRs232Adapter(Landroid/view/KeyEvent;)V
     .locals 11
 
@@ -1023,13 +1023,13 @@
 
     iget-object v8, p0, Lcom/rigol/scope/adapters/TriggerRs232Adapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
 
-    new-instance v9, Lcom/rigol/scope/adapters/-$$Lambda$TriggerRs232Adapter$gRWXWjK3Q3ORr7CvXomIjEYb1OM;
+    new-instance v9, Lcom/rigol/scope/adapters/-$$Lambda$TriggerRs232Adapter$cDJJ0qkzPqa4-fmF_4tlWBLVaYA;
 
-    invoke-direct {v9, p0}, Lcom/rigol/scope/adapters/-$$Lambda$TriggerRs232Adapter$gRWXWjK3Q3ORr7CvXomIjEYb1OM;-><init>(Lcom/rigol/scope/adapters/TriggerRs232Adapter;)V
+    invoke-direct {v9, p0}, Lcom/rigol/scope/adapters/-$$Lambda$TriggerRs232Adapter$cDJJ0qkzPqa4-fmF_4tlWBLVaYA;-><init>(Lcom/rigol/scope/adapters/TriggerRs232Adapter;)V
 
-    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$TriggerRs232Adapter$RzxU2q7CwdQTGb91f8byfaXvl3s;
+    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$TriggerRs232Adapter$TUWJA3L9QAxOzGzQoznaEkxaKsY;
 
-    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$TriggerRs232Adapter$RzxU2q7CwdQTGb91f8byfaXvl3s;-><init>(Lcom/rigol/scope/adapters/TriggerRs232Adapter;)V
+    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$TriggerRs232Adapter$TUWJA3L9QAxOzGzQoznaEkxaKsY;-><init>(Lcom/rigol/scope/adapters/TriggerRs232Adapter;)V
 
     move-object v2, p1
 
@@ -1259,7 +1259,7 @@
 
     iget v0, p0, Lcom/rigol/scope/adapters/TriggerRs232Adapter;->serviceId:I
 
-    const/16 v2, 0x4f1e
+    const/16 v2, 0x511e
 
     invoke-virtual {p1, v0, v2, p2}, Lcom/rigol/scope/cil/API;->UI_PostBool(IIZ)I
 
@@ -1375,21 +1375,21 @@
     :sswitch_data_0
     .sparse-switch
         0x7f0a00c3 -> :sswitch_f
-        0x7f0a069b -> :sswitch_e
-        0x7f0a0813 -> :sswitch_d
-        0x7f0a095a -> :sswitch_c
-        0x7f0a095c -> :sswitch_b
-        0x7f0a095d -> :sswitch_a
-        0x7f0a09d5 -> :sswitch_9
-        0x7f0a09e4 -> :sswitch_8
-        0x7f0a09e5 -> :sswitch_7
-        0x7f0a09e6 -> :sswitch_6
-        0x7f0a09e7 -> :sswitch_5
-        0x7f0a09e8 -> :sswitch_4
-        0x7f0a09e9 -> :sswitch_3
-        0x7f0a0a1d -> :sswitch_2
-        0x7f0a0a1e -> :sswitch_1
-        0x7f0a0a1f -> :sswitch_0
+        0x7f0a06a5 -> :sswitch_e
+        0x7f0a081f -> :sswitch_d
+        0x7f0a0966 -> :sswitch_c
+        0x7f0a0968 -> :sswitch_b
+        0x7f0a0969 -> :sswitch_a
+        0x7f0a09e1 -> :sswitch_9
+        0x7f0a09f0 -> :sswitch_8
+        0x7f0a09f1 -> :sswitch_7
+        0x7f0a09f2 -> :sswitch_6
+        0x7f0a09f3 -> :sswitch_5
+        0x7f0a09f4 -> :sswitch_4
+        0x7f0a09f5 -> :sswitch_3
+        0x7f0a0a29 -> :sswitch_2
+        0x7f0a0a2a -> :sswitch_1
+        0x7f0a0a2b -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -1416,7 +1416,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f03022a
+    const v0, 0x7f03022e
 
     .line 422
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1542,7 +1542,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f03021e
+    const v0, 0x7f030222
 
     .line 478
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1574,7 +1574,7 @@
 
     if-eqz v0, :cond_0
 
-    const v0, 0x7f03021c
+    const v0, 0x7f030220
 
     .line 436
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1751,12 +1751,12 @@
         0x7f0a00c3 -> :sswitch_8
         0x7f0a0190 -> :sswitch_7
         0x7f0a0244 -> :sswitch_6
-        0x7f0a069b -> :sswitch_5
-        0x7f0a0813 -> :sswitch_4
-        0x7f0a094a -> :sswitch_3
-        0x7f0a0961 -> :sswitch_2
-        0x7f0a09b8 -> :sswitch_1
-        0x7f0a09f0 -> :sswitch_0
+        0x7f0a06a5 -> :sswitch_5
+        0x7f0a081f -> :sswitch_4
+        0x7f0a0956 -> :sswitch_3
+        0x7f0a096d -> :sswitch_2
+        0x7f0a09c4 -> :sswitch_1
+        0x7f0a09fc -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -2019,7 +2019,7 @@
 
     const/4 v2, 0x1
 
-    const v3, 0x7f0a094a
+    const v3, 0x7f0a0956
 
     if-ne v1, v3, :cond_0
 
@@ -2134,7 +2134,7 @@
 
     if-eq p1, v0, :cond_2
 
-    const v0, 0x7f0a09b8
+    const v0, 0x7f0a09c4
 
     if-eq p1, v0, :cond_1
 
@@ -2196,7 +2196,7 @@
 
     if-eq p2, v0, :cond_2
 
-    const v0, 0x7f0a09b8
+    const v0, 0x7f0a09c4
 
     if-eq p2, v0, :cond_1
 

@@ -251,7 +251,7 @@
 
     move-result-object v0
 
-    const/16 v1, 0x4f37
+    const/16 v1, 0x5137
 
     invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
@@ -287,7 +287,7 @@
 
     move-result-object v0
 
-    const/16 v1, 0x4f39
+    const/16 v1, 0x5139
 
     invoke-virtual {v0, v2, v1}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
@@ -335,7 +335,7 @@
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$TriggerSweep;->value1:I
 
-    const v2, 0x7f030233
+    const v2, 0x7f030237
 
     invoke-static {v2, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -376,7 +376,7 @@
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->value1:I
 
-    const v2, 0x7f0301f8
+    const v2, 0x7f0301fc
 
     invoke-static {v2, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -404,7 +404,7 @@
 
     iget v1, v1, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->value1:I
 
-    const v2, 0x7f0301f9
+    const v2, 0x7f0301fd
 
     invoke-static {v2, v1}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -623,6 +623,54 @@
     return v0
 .end method
 
+.method public synthetic lambda$null$0$TriggerDelayAdapter(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
+    .locals 0
+
+    .line 151
+    iput-object p1, p0, Lcom/rigol/scope/adapters/TriggerDelayAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
+
+    return-void
+.end method
+
+.method public synthetic lambda$null$1$TriggerDelayAdapter(ILcom/rigol/scope/data/MappingObject;)V
+    .locals 1
+
+    .line 153
+    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerDelayAdapter;->clickedView:Landroid/view/View;
+
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    move-result p1
+
+    const v0, 0x7f0a09fd
+
+    if-ne p1, v0, :cond_0
+
+    .line 154
+    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerDelayAdapter;->selectSourceA(Lcom/rigol/scope/data/MappingObject;)V
+
+    goto :goto_0
+
+    .line 155
+    :cond_0
+    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerDelayAdapter;->clickedView:Landroid/view/View;
+
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    move-result p1
+
+    const v0, 0x7f0a09ff
+
+    if-ne p1, v0, :cond_1
+
+    .line 156
+    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerDelayAdapter;->selectSourceB(Lcom/rigol/scope/data/MappingObject;)V
+
+    :cond_1
+    :goto_0
+    return-void
+.end method
+
 .method public synthetic lambda$onClick$3$TriggerDelayAdapter(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
     .locals 0
 
@@ -677,54 +725,6 @@
     return-void
 .end method
 
-.method public synthetic lambda$onCreateViewHolder$0$TriggerDelayAdapter(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
-    .locals 0
-
-    .line 151
-    iput-object p1, p0, Lcom/rigol/scope/adapters/TriggerDelayAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
-
-    return-void
-.end method
-
-.method public synthetic lambda$onCreateViewHolder$1$TriggerDelayAdapter(ILcom/rigol/scope/data/MappingObject;)V
-    .locals 1
-
-    .line 153
-    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerDelayAdapter;->clickedView:Landroid/view/View;
-
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
-
-    move-result p1
-
-    const v0, 0x7f0a09f1
-
-    if-ne p1, v0, :cond_0
-
-    .line 154
-    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerDelayAdapter;->selectSourceA(Lcom/rigol/scope/data/MappingObject;)V
-
-    goto :goto_0
-
-    .line 155
-    :cond_0
-    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerDelayAdapter;->clickedView:Landroid/view/View;
-
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
-
-    move-result p1
-
-    const v0, 0x7f0a09f3
-
-    if-ne p1, v0, :cond_1
-
-    .line 156
-    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerDelayAdapter;->selectSourceB(Lcom/rigol/scope/data/MappingObject;)V
-
-    :cond_1
-    :goto_0
-    return-void
-.end method
-
 .method public synthetic lambda$onCreateViewHolder$2$TriggerDelayAdapter(Landroid/view/KeyEvent;)V
     .locals 11
 
@@ -768,13 +768,13 @@
 
     iget-object v8, p0, Lcom/rigol/scope/adapters/TriggerDelayAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
 
-    new-instance v9, Lcom/rigol/scope/adapters/-$$Lambda$TriggerDelayAdapter$6AsTNLyvkiriz4RxH-jRGNwnnn8;
+    new-instance v9, Lcom/rigol/scope/adapters/-$$Lambda$TriggerDelayAdapter$qRLo815NwhYTCP9U1WcfQCmCqc0;
 
-    invoke-direct {v9, p0}, Lcom/rigol/scope/adapters/-$$Lambda$TriggerDelayAdapter$6AsTNLyvkiriz4RxH-jRGNwnnn8;-><init>(Lcom/rigol/scope/adapters/TriggerDelayAdapter;)V
+    invoke-direct {v9, p0}, Lcom/rigol/scope/adapters/-$$Lambda$TriggerDelayAdapter$qRLo815NwhYTCP9U1WcfQCmCqc0;-><init>(Lcom/rigol/scope/adapters/TriggerDelayAdapter;)V
 
-    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$TriggerDelayAdapter$YW8aumfvrioIVTOzu8QLjtnG9Ho;
+    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$TriggerDelayAdapter$bjsPQmtfBK1wGHfxcQ_imT53wCg;
 
-    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$TriggerDelayAdapter$YW8aumfvrioIVTOzu8QLjtnG9Ho;-><init>(Lcom/rigol/scope/adapters/TriggerDelayAdapter;)V
+    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$TriggerDelayAdapter$bjsPQmtfBK1wGHfxcQ_imT53wCg;-><init>(Lcom/rigol/scope/adapters/TriggerDelayAdapter;)V
 
     move-object v2, p1
 
@@ -847,7 +847,7 @@
 
     iget v0, p0, Lcom/rigol/scope/adapters/TriggerDelayAdapter;->serviceId:I
 
-    const/16 v1, 0x4f1e
+    const/16 v1, 0x511e
 
     invoke-virtual {p1, v0, v1, p2}, Lcom/rigol/scope/cil/API;->UI_PostBool(IIZ)I
 
@@ -1063,17 +1063,17 @@
     :sswitch_data_0
     .sparse-switch
         0x7f0a00c3 -> :sswitch_b
-        0x7f0a03a9 -> :sswitch_a
-        0x7f0a03aa -> :sswitch_9
-        0x7f0a03ab -> :sswitch_8
-        0x7f0a03ac -> :sswitch_7
-        0x7f0a05f1 -> :sswitch_6
-        0x7f0a05f2 -> :sswitch_5
-        0x7f0a065c -> :sswitch_4
-        0x7f0a065d -> :sswitch_3
-        0x7f0a069b -> :sswitch_2
-        0x7f0a0813 -> :sswitch_1
-        0x7f0a09d5 -> :sswitch_0
+        0x7f0a03ab -> :sswitch_a
+        0x7f0a03ac -> :sswitch_9
+        0x7f0a03ad -> :sswitch_8
+        0x7f0a03ae -> :sswitch_7
+        0x7f0a05f9 -> :sswitch_6
+        0x7f0a05fa -> :sswitch_5
+        0x7f0a0664 -> :sswitch_4
+        0x7f0a0665 -> :sswitch_3
+        0x7f0a06a5 -> :sswitch_2
+        0x7f0a081f -> :sswitch_1
+        0x7f0a09e1 -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -1090,7 +1090,7 @@
 
     move-result v2
 
-    const/16 v3, 0x4f39
+    const/16 v3, 0x5139
 
     const/4 v12, 0x0
 
@@ -1185,7 +1185,7 @@
 
     if-eqz v0, :cond_3
 
-    const v0, 0x7f0301f3
+    const v0, 0x7f0301f7
 
     .line 475
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1221,7 +1221,7 @@
 
     if-eqz v0, :cond_3
 
-    const v0, 0x7f0301f2
+    const v0, 0x7f0301f6
 
     .line 461
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1826,7 +1826,7 @@
 
     iget v1, p0, Lcom/rigol/scope/adapters/TriggerDelayAdapter;->serviceId:I
 
-    const/16 v2, 0x4f37
+    const/16 v2, 0x5137
 
     iget-object v3, p0, Lcom/rigol/scope/adapters/TriggerDelayAdapter;->param:Lcom/rigol/scope/data/TriggerParam;
 
@@ -1874,16 +1874,16 @@
         0x7f0a00c3 -> :sswitch_c
         0x7f0a0190 -> :sswitch_b
         0x7f0a0191 -> :sswitch_a
-        0x7f0a051c -> :sswitch_9
-        0x7f0a060e -> :sswitch_8
-        0x7f0a069b -> :sswitch_7
-        0x7f0a0813 -> :sswitch_6
-        0x7f0a0987 -> :sswitch_5
-        0x7f0a09ae -> :sswitch_4
-        0x7f0a09b1 -> :sswitch_3
-        0x7f0a09f1 -> :sswitch_2
-        0x7f0a09f3 -> :sswitch_1
-        0x7f0a0aac -> :sswitch_0
+        0x7f0a051e -> :sswitch_9
+        0x7f0a0616 -> :sswitch_8
+        0x7f0a06a5 -> :sswitch_7
+        0x7f0a081f -> :sswitch_6
+        0x7f0a0993 -> :sswitch_5
+        0x7f0a09ba -> :sswitch_4
+        0x7f0a09bd -> :sswitch_3
+        0x7f0a09fd -> :sswitch_2
+        0x7f0a09ff -> :sswitch_1
+        0x7f0a0ab8 -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -2287,11 +2287,11 @@
 
     :sswitch_data_0
     .sparse-switch
-        0x7f0a060e -> :sswitch_4
-        0x7f0a0987 -> :sswitch_3
-        0x7f0a09ae -> :sswitch_2
-        0x7f0a09b1 -> :sswitch_1
-        0x7f0a0aac -> :sswitch_0
+        0x7f0a0616 -> :sswitch_4
+        0x7f0a0993 -> :sswitch_3
+        0x7f0a09ba -> :sswitch_2
+        0x7f0a09bd -> :sswitch_1
+        0x7f0a0ab8 -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -2452,11 +2452,11 @@
 
     :sswitch_data_0
     .sparse-switch
-        0x7f0a060e -> :sswitch_4
-        0x7f0a0987 -> :sswitch_3
-        0x7f0a09ae -> :sswitch_2
-        0x7f0a09b1 -> :sswitch_1
-        0x7f0a0aac -> :sswitch_0
+        0x7f0a0616 -> :sswitch_4
+        0x7f0a0993 -> :sswitch_3
+        0x7f0a09ba -> :sswitch_2
+        0x7f0a09bd -> :sswitch_1
+        0x7f0a0ab8 -> :sswitch_0
     .end sparse-switch
 .end method
 

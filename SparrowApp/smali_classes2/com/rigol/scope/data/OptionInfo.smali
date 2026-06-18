@@ -58,7 +58,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 115
+    .line 117
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/rigol/scope/data/OptionInfo;->id:Ljava/lang/String;
@@ -73,7 +73,7 @@
 .method public final getExp()Ljava/lang/String;
     .locals 1
 
-    .line 115
+    .line 117
     iget-object v0, p0, Lcom/rigol/scope/data/OptionInfo;->exp:Ljava/lang/String;
 
     return-object v0
@@ -82,7 +82,7 @@
 .method public final getId()Ljava/lang/String;
     .locals 1
 
-    .line 115
+    .line 117
     iget-object v0, p0, Lcom/rigol/scope/data/OptionInfo;->id:Ljava/lang/String;
 
     return-object v0
@@ -91,7 +91,7 @@
 .method public final getInfo()Ljava/lang/String;
     .locals 1
 
-    .line 116
+    .line 118
     iget-object v0, p0, Lcom/rigol/scope/data/OptionInfo;->info:Ljava/lang/String;
 
     return-object v0
@@ -100,7 +100,7 @@
 .method public final setInfo(Ljava/lang/String;)V
     .locals 0
 
-    .line 116
+    .line 118
     iput-object p1, p0, Lcom/rigol/scope/data/OptionInfo;->info:Ljava/lang/String;
 
     return-void

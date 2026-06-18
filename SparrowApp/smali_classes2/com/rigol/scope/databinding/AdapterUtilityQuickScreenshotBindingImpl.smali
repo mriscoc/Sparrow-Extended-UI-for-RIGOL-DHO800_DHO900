@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterUtilityQuickScreenshotBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a47
+    const v1, 0x7f0a0a53
 
     const/4 v2, 0x6
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityQuickScreenshotBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a075e
+    const v1, 0x7f0a076a
 
     const/4 v2, 0x7
 
@@ -45,7 +45,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityQuickScreenshotBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a053d
+    const v1, 0x7f0a053f
 
     const/16 v2, 0x8
 
@@ -54,7 +54,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityQuickScreenshotBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a49
+    const v1, 0x7f0a0a55
 
     const/16 v2, 0x9
 
@@ -72,7 +72,7 @@
     .line 22
     sget-object v0, Lcom/rigol/scope/databinding/AdapterUtilityQuickScreenshotBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a0a48
+    const v1, 0x7f0a0a54
 
     const/16 v2, 0xb
 
@@ -294,7 +294,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x1ac
+    const/16 v0, 0x1ad
 
     if-ne p2, v0, :cond_1
 
@@ -326,7 +326,7 @@
     throw p1
 
     :cond_1
-    const/16 v0, 0x1ae
+    const/16 v0, 0x1af
 
     if-ne p2, v0, :cond_2
 
@@ -358,7 +358,7 @@
     throw p1
 
     :cond_2
-    const/16 v0, 0x1ab
+    const/16 v0, 0x1ac
 
     if-ne p2, v0, :cond_3
 
@@ -750,7 +750,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x252
+    const/16 p1, 0x254
 
     .line 97
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterUtilityQuickScreenshotBindingImpl;->notifyPropertyChanged(I)V
@@ -775,7 +775,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x252
+    const/16 v0, 0x254
 
     if-ne v0, p1, :cond_0
 

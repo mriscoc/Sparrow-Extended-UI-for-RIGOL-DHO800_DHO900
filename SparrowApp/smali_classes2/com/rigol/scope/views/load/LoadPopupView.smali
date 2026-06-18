@@ -334,7 +334,7 @@
 
     move-result v0
 
-    const v1, 0x7f0a047f
+    const v1, 0x7f0a0481
 
     if-ne v0, v1, :cond_0
 
@@ -346,7 +346,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0301c8
+    const v1, 0x7f0301ca
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/views/load/LoadPopupView;->getFileTypeList(Lcom/rigol/scope/cil/ServiceEnum$StorageFunc;I)Ljava/util/List;
 
@@ -366,7 +366,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0a0484
+    const p1, 0x7f0a0486
 
     if-ne v0, p1, :cond_2
 
@@ -402,7 +402,7 @@
 
     iget-object v2, p0, Lcom/rigol/scope/views/load/LoadPopupView;->param:Lcom/rigol/scope/data/StorageLoadParam;
 
-    invoke-static {v2}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     new-instance v3, Lcom/rigol/scope/views/load/-$$Lambda$gdWAoUf1TpGS31Lcs9y1uuv3718;
 
@@ -413,7 +413,7 @@
     goto :goto_0
 
     :cond_2
-    const p1, 0x7f0a0601
+    const p1, 0x7f0a0609
 
     if-ne v0, p1, :cond_5
 

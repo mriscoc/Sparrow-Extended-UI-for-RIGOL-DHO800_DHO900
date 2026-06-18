@@ -144,7 +144,7 @@
 
     iget v0, v0, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->value1:I
 
-    const v1, 0x7f0301a3
+    const v1, 0x7f0301a5
 
     invoke-static {v1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -157,7 +157,7 @@
 
     iget v0, v0, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->value1:I
 
-    const v1, 0x7f0301f7
+    const v1, 0x7f0301fb
 
     invoke-static {v1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -376,36 +376,6 @@
     return v0
 .end method
 
-.method public synthetic lambda$initStyle$0$SearchEdgeAdapter(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
-    .locals 0
-
-    .line 140
-    iput-object p1, p0, Lcom/rigol/scope/adapters/SearchEdgeAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
-
-    return-void
-.end method
-
-.method public synthetic lambda$initStyle$1$SearchEdgeAdapter(ILcom/rigol/scope/data/MappingObject;)V
-    .locals 1
-
-    .line 142
-    iget-object p1, p0, Lcom/rigol/scope/adapters/SearchEdgeAdapter;->clickedView:Landroid/view/View;
-
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
-
-    move-result p1
-
-    const v0, 0x7f0a03ba
-
-    if-ne p1, v0, :cond_0
-
-    .line 143
-    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/SearchEdgeAdapter;->selectAdapter(Lcom/rigol/scope/data/MappingObject;)V
-
-    :cond_0
-    return-void
-.end method
-
 .method public synthetic lambda$initStyle$2$SearchEdgeAdapter(Landroid/view/KeyEvent;)V
     .locals 11
 
@@ -449,17 +419,47 @@
 
     iget-object v8, p0, Lcom/rigol/scope/adapters/SearchEdgeAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
 
-    new-instance v9, Lcom/rigol/scope/adapters/-$$Lambda$SearchEdgeAdapter$gsTQQiO60lrysSWE-rygPGnWoJY;
+    new-instance v9, Lcom/rigol/scope/adapters/-$$Lambda$SearchEdgeAdapter$U29AAkBPdASE-hZhiaxKVxeOLv8;
 
-    invoke-direct {v9, p0}, Lcom/rigol/scope/adapters/-$$Lambda$SearchEdgeAdapter$gsTQQiO60lrysSWE-rygPGnWoJY;-><init>(Lcom/rigol/scope/adapters/SearchEdgeAdapter;)V
+    invoke-direct {v9, p0}, Lcom/rigol/scope/adapters/-$$Lambda$SearchEdgeAdapter$U29AAkBPdASE-hZhiaxKVxeOLv8;-><init>(Lcom/rigol/scope/adapters/SearchEdgeAdapter;)V
 
-    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$SearchEdgeAdapter$jfCGHDF7AjFcMvZTWw-OJoTHBYs;
+    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$SearchEdgeAdapter$seyzHRI9x3j4g7PfIZrbcwsEPjg;
 
-    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$SearchEdgeAdapter$jfCGHDF7AjFcMvZTWw-OJoTHBYs;-><init>(Lcom/rigol/scope/adapters/SearchEdgeAdapter;)V
+    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$SearchEdgeAdapter$seyzHRI9x3j4g7PfIZrbcwsEPjg;-><init>(Lcom/rigol/scope/adapters/SearchEdgeAdapter;)V
 
     move-object v2, p1
 
     invoke-virtual/range {v1 .. v10}, Lcom/rigol/scope/viewmodels/PanelKeyViewModel;->abSwitch(Landroid/view/KeyEvent;Landroid/view/View;Lcom/rigol/scope/views/spinner/PopupSpinner;Ljava/util/List;Lcom/rigol/scope/adapters/SpinnerAdapter;Lcom/rigol/scope/utilities/AorBManager;Lcom/rigol/scope/views/keyboard/KeyboardPopupView;Lcom/rigol/scope/utilities/AorBManager$OnKeyboardItemChangeListener;Lcom/rigol/scope/utilities/AorBManager$OnSpinnerItemChangeListener;)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public synthetic lambda$null$0$SearchEdgeAdapter(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
+    .locals 0
+
+    .line 140
+    iput-object p1, p0, Lcom/rigol/scope/adapters/SearchEdgeAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
+
+    return-void
+.end method
+
+.method public synthetic lambda$null$1$SearchEdgeAdapter(ILcom/rigol/scope/data/MappingObject;)V
+    .locals 1
+
+    .line 142
+    iget-object p1, p0, Lcom/rigol/scope/adapters/SearchEdgeAdapter;->clickedView:Landroid/view/View;
+
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    move-result p1
+
+    const v0, 0x7f0a03bc
+
+    if-ne p1, v0, :cond_0
+
+    .line 143
+    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/SearchEdgeAdapter;->selectAdapter(Lcom/rigol/scope/data/MappingObject;)V
 
     :cond_0
     return-void
@@ -512,7 +512,7 @@
 .method public onCheckedChanged(Landroid/widget/RadioGroup;I)V
     .locals 0
 
-    const p1, 0x7f0a03b4
+    const p1, 0x7f0a03b6
 
     if-ne p2, p1, :cond_0
 
@@ -526,7 +526,7 @@
     goto :goto_0
 
     :cond_0
-    const p1, 0x7f0a03b2
+    const p1, 0x7f0a03b4
 
     if-ne p2, p1, :cond_1
 
@@ -540,7 +540,7 @@
     goto :goto_0
 
     :cond_1
-    const p1, 0x7f0a03b0
+    const p1, 0x7f0a03b2
 
     if-ne p2, p1, :cond_2
 
@@ -574,11 +574,11 @@
     return-void
 
     :cond_0
-    const v1, 0x7f0a03ba
+    const v1, 0x7f0a03bc
 
     if-ne v0, v1, :cond_1
 
-    const v0, 0x7f0301a4
+    const v0, 0x7f0301a6
 
     .line 196
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -605,7 +605,7 @@
     goto/16 :goto_0
 
     :cond_1
-    const v1, 0x7f0a03b5
+    const v1, 0x7f0a03b7
 
     if-ne v0, v1, :cond_4
 
@@ -672,7 +672,7 @@
     goto :goto_0
 
     :cond_4
-    const v1, 0x7f0a08e2
+    const v1, 0x7f0a08ee
 
     if-ne v0, v1, :cond_5
 
@@ -848,7 +848,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0a08e2
+    const v0, 0x7f0a08ee
 
     if-ne p1, v0, :cond_1
 
@@ -891,7 +891,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0a08e2
+    const v0, 0x7f0a08ee
 
     if-ne p2, v0, :cond_1
 

@@ -26,7 +26,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterLaBasicBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a05c0
+    const v1, 0x7f0a05c8
 
     const/16 v2, 0x18
 
@@ -36,7 +36,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterLaBasicBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a05b0
+    const v1, 0x7f0a05b8
 
     const/16 v2, 0x19
 
@@ -574,7 +574,7 @@
     throw p1
 
     :cond_5
-    const/16 v0, 0x1d8
+    const/16 v0, 0x1d9
 
     if-ne p2, v0, :cond_6
 
@@ -606,7 +606,7 @@
     throw p1
 
     :cond_6
-    const/16 v0, 0x1d2
+    const/16 v0, 0x1d3
 
     if-ne p2, v0, :cond_7
 
@@ -638,7 +638,7 @@
     throw p1
 
     :cond_7
-    const/16 v0, 0x1c7
+    const/16 v0, 0x1c8
 
     if-ne p2, v0, :cond_8
 
@@ -750,7 +750,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -880,7 +880,7 @@
     move v8, v6
 
     :goto_0
-    const v9, 0x7f030150
+    const v9, 0x7f030151
 
     .line 336
     invoke-static {v9, v8}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -1063,7 +1063,7 @@
     move v13, v6
 
     :goto_8
-    const v14, 0x7f030159
+    const v14, 0x7f03015a
 
     .line 401
     invoke-static {v14, v13}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -2896,7 +2896,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x258
+    const/16 p1, 0x25a
 
     .line 128
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterLaBasicBindingImpl;->notifyPropertyChanged(I)V
@@ -2921,7 +2921,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x258
+    const/16 v0, 0x25a
 
     if-ne v0, p1, :cond_0
 

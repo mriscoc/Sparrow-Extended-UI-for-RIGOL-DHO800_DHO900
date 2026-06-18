@@ -100,7 +100,7 @@
 
     iget v0, v0, Lcom/rigol/scope/cil/ServiceEnum$UtilityQuickDataSource;->value1:I
 
-    const v1, 0x7f030190
+    const v1, 0x7f030192
 
     invoke-static {v1, v0}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -228,11 +228,11 @@
 
     :sswitch_data_0
     .sparse-switch
-        0x7f0a0746 -> :sswitch_4
-        0x7f0a0749 -> :sswitch_3
-        0x7f0a0753 -> :sswitch_2
-        0x7f0a0756 -> :sswitch_1
-        0x7f0a0758 -> :sswitch_0
+        0x7f0a0752 -> :sswitch_4
+        0x7f0a0755 -> :sswitch_3
+        0x7f0a075f -> :sswitch_2
+        0x7f0a0762 -> :sswitch_1
+        0x7f0a0764 -> :sswitch_0
     .end sparse-switch
 .end method
 

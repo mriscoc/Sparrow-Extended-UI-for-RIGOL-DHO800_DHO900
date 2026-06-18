@@ -327,7 +327,7 @@
     .line 163
     iput-boolean p1, p0, Lcom/rigol/scope/data/SharedParam;->launcheNum:Z
 
-    const/16 p1, 0x1e1
+    const/16 p1, 0x1e2
 
     .line 164
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SharedParam;->notifyPropertyChanged(I)V
@@ -356,7 +356,7 @@
     .line 144
     iput-boolean p1, p0, Lcom/rigol/scope/data/SharedParam;->probeRequestCal:Z
 
-    const/16 p1, 0x29c
+    const/16 p1, 0x2a0
 
     .line 145
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SharedParam;->notifyPropertyChanged(I)V
@@ -385,7 +385,7 @@
     .line 119
     iput-boolean p1, p0, Lcom/rigol/scope/data/SharedParam;->showNetwork:Z
 
-    const/16 p1, 0x33e
+    const/16 p1, 0x342
 
     .line 120
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SharedParam;->notifyPropertyChanged(I)V
@@ -414,7 +414,7 @@
     .line 131
     iput-boolean p1, p0, Lcom/rigol/scope/data/SharedParam;->showRMT:Z
 
-    const/16 p1, 0x340
+    const/16 p1, 0x344
 
     .line 132
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SharedParam;->notifyPropertyChanged(I)V
@@ -443,7 +443,7 @@
     .line 71
     iput-boolean p1, p0, Lcom/rigol/scope/data/SharedParam;->showResultBar:Z
 
-    const/16 p1, 0x341
+    const/16 p1, 0x345
 
     .line 72
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SharedParam;->notifyPropertyChanged(I)V
@@ -472,7 +472,7 @@
     .line 107
     iput-boolean p1, p0, Lcom/rigol/scope/data/SharedParam;->showSmb:Z
 
-    const/16 p1, 0x343
+    const/16 p1, 0x347
 
     .line 108
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SharedParam;->notifyPropertyChanged(I)V
@@ -501,7 +501,7 @@
     .line 95
     iput-boolean p1, p0, Lcom/rigol/scope/data/SharedParam;->showUsb:Z
 
-    const/16 p1, 0x34b
+    const/16 p1, 0x34f
 
     .line 96
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SharedParam;->notifyPropertyChanged(I)V
@@ -530,7 +530,7 @@
     .line 153
     iput-boolean p1, p0, Lcom/rigol/scope/data/SharedParam;->viewonDrag:Z
 
-    const/16 p1, 0x409
+    const/16 p1, 0x40d
 
     .line 154
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SharedParam;->notifyPropertyChanged(I)V
@@ -559,7 +559,7 @@
     .line 47
     iput p1, p0, Lcom/rigol/scope/data/SharedParam;->windowCount:I
 
-    const/16 p1, 0x434
+    const/16 p1, 0x438
 
     .line 48
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SharedParam;->notifyPropertyChanged(I)V
@@ -588,7 +588,7 @@
     .line 59
     iput p1, p0, Lcom/rigol/scope/data/SharedParam;->xyWindowCount:I
 
-    const/16 p1, 0x43d
+    const/16 p1, 0x441
 
     .line 60
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/SharedParam;->notifyPropertyChanged(I)V

@@ -139,6 +139,30 @@
     return v0
 .end method
 
+.method public synthetic lambda$null$0$UpaRippleAdapter(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
+    .locals 0
+
+    .line 127
+    iput-object p1, p0, Lcom/rigol/scope/adapters/UpaRippleAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
+
+    return-void
+.end method
+
+.method public synthetic lambda$null$1$UpaRippleAdapter(ILcom/rigol/scope/data/MappingObject;)V
+    .locals 0
+
+    .line 128
+    iget-object p1, p0, Lcom/rigol/scope/adapters/UpaRippleAdapter;->param:Lcom/rigol/scope/data/UpaRippleParam;
+
+    invoke-virtual {p2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
+
+    move-result p2
+
+    invoke-virtual {p1, p2}, Lcom/rigol/scope/data/UpaRippleParam;->savePowerCurr(I)V
+
+    return-void
+.end method
+
 .method public synthetic lambda$onClick$3$UpaRippleAdapter(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
     .locals 0
 
@@ -164,30 +188,6 @@
     iget-object p1, p0, Lcom/rigol/scope/adapters/UpaRippleAdapter;->param:Lcom/rigol/scope/data/UpaRippleParam;
 
     invoke-virtual {p4}, Lcom/rigol/scope/data/MappingObject;->getValue()I
-
-    move-result p2
-
-    invoke-virtual {p1, p2}, Lcom/rigol/scope/data/UpaRippleParam;->savePowerCurr(I)V
-
-    return-void
-.end method
-
-.method public synthetic lambda$onCreateViewHolder$0$UpaRippleAdapter(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
-    .locals 0
-
-    .line 127
-    iput-object p1, p0, Lcom/rigol/scope/adapters/UpaRippleAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
-
-    return-void
-.end method
-
-.method public synthetic lambda$onCreateViewHolder$1$UpaRippleAdapter(ILcom/rigol/scope/data/MappingObject;)V
-    .locals 0
-
-    .line 128
-    iget-object p1, p0, Lcom/rigol/scope/adapters/UpaRippleAdapter;->param:Lcom/rigol/scope/data/UpaRippleParam;
-
-    invoke-virtual {p2}, Lcom/rigol/scope/data/MappingObject;->getValue()I
 
     move-result p2
 
@@ -227,13 +227,13 @@
 
     iget-object v8, p0, Lcom/rigol/scope/adapters/UpaRippleAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
 
-    new-instance v9, Lcom/rigol/scope/adapters/-$$Lambda$UpaRippleAdapter$3cu1VHCF-E34Pd5H6WIzrfTKv_U;
+    new-instance v9, Lcom/rigol/scope/adapters/-$$Lambda$UpaRippleAdapter$LkXfx_Dnlb3uEibPK04gSfEdxYs;
 
-    invoke-direct {v9, p0}, Lcom/rigol/scope/adapters/-$$Lambda$UpaRippleAdapter$3cu1VHCF-E34Pd5H6WIzrfTKv_U;-><init>(Lcom/rigol/scope/adapters/UpaRippleAdapter;)V
+    invoke-direct {v9, p0}, Lcom/rigol/scope/adapters/-$$Lambda$UpaRippleAdapter$LkXfx_Dnlb3uEibPK04gSfEdxYs;-><init>(Lcom/rigol/scope/adapters/UpaRippleAdapter;)V
 
-    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$UpaRippleAdapter$uu3lEMsM2fk7vPJR6TuOo-0Eib4;
+    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$UpaRippleAdapter$kWdQED9s4ru4urMqhYPpU9a4Vf4;
 
-    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$UpaRippleAdapter$uu3lEMsM2fk7vPJR6TuOo-0Eib4;-><init>(Lcom/rigol/scope/adapters/UpaRippleAdapter;)V
+    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$UpaRippleAdapter$kWdQED9s4ru4urMqhYPpU9a4Vf4;-><init>(Lcom/rigol/scope/adapters/UpaRippleAdapter;)V
 
     move-object v2, p1
 
@@ -331,7 +331,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f03023e
+    const v1, 0x7f030242
 
     invoke-static {v1}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
 
@@ -444,7 +444,7 @@
     nop
 
     :pswitch_data_0
-    .packed-switch 0x7f0a0a9d
+    .packed-switch 0x7f0a0aa9
         :pswitch_4
         :pswitch_0
         :pswitch_0
@@ -639,7 +639,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0a0aa1
+    const v0, 0x7f0a0aad
 
     if-ne p1, v0, :cond_1
 
@@ -678,7 +678,7 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0a0aa1
+    const v0, 0x7f0a0aad
 
     if-ne p2, v0, :cond_1
 

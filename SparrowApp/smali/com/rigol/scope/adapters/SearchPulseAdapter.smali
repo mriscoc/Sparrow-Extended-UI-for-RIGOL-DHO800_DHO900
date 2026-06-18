@@ -181,6 +181,24 @@
     return v0
 .end method
 
+.method public synthetic lambda$null$0$SearchPulseAdapter(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
+    .locals 0
+
+    .line 156
+    iput-object p1, p0, Lcom/rigol/scope/adapters/SearchPulseAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
+
+    return-void
+.end method
+
+.method public synthetic lambda$null$1$SearchPulseAdapter(ILcom/rigol/scope/data/MappingObject;)V
+    .locals 0
+
+    .line 157
+    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/SearchPulseAdapter;->selectAdapter(Lcom/rigol/scope/data/MappingObject;)V
+
+    return-void
+.end method
+
 .method public synthetic lambda$onClick$3$SearchPulseAdapter(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
     .locals 0
 
@@ -204,24 +222,6 @@
 
     .line 194
     invoke-direct {p0, p4}, Lcom/rigol/scope/adapters/SearchPulseAdapter;->selectAdapter(Lcom/rigol/scope/data/MappingObject;)V
-
-    return-void
-.end method
-
-.method public synthetic lambda$onCreateViewHolder$0$SearchPulseAdapter(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
-    .locals 0
-
-    .line 156
-    iput-object p1, p0, Lcom/rigol/scope/adapters/SearchPulseAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
-
-    return-void
-.end method
-
-.method public synthetic lambda$onCreateViewHolder$1$SearchPulseAdapter(ILcom/rigol/scope/data/MappingObject;)V
-    .locals 0
-
-    .line 157
-    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/SearchPulseAdapter;->selectAdapter(Lcom/rigol/scope/data/MappingObject;)V
 
     return-void
 .end method
@@ -269,13 +269,13 @@
 
     iget-object v8, p0, Lcom/rigol/scope/adapters/SearchPulseAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
 
-    new-instance v9, Lcom/rigol/scope/adapters/-$$Lambda$SearchPulseAdapter$30d4RflKyDFy3-i2MRUYGTwC-YU;
+    new-instance v9, Lcom/rigol/scope/adapters/-$$Lambda$SearchPulseAdapter$Od9Wnl4MbeSR5CLSLMflA5324no;
 
-    invoke-direct {v9, p0}, Lcom/rigol/scope/adapters/-$$Lambda$SearchPulseAdapter$30d4RflKyDFy3-i2MRUYGTwC-YU;-><init>(Lcom/rigol/scope/adapters/SearchPulseAdapter;)V
+    invoke-direct {v9, p0}, Lcom/rigol/scope/adapters/-$$Lambda$SearchPulseAdapter$Od9Wnl4MbeSR5CLSLMflA5324no;-><init>(Lcom/rigol/scope/adapters/SearchPulseAdapter;)V
 
-    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$SearchPulseAdapter$3xjBvPki40_Y8fcEnDivSTagoNo;
+    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$SearchPulseAdapter$_uWmzouY0ANRFU_TK7B2Ez7ouqU;
 
-    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$SearchPulseAdapter$3xjBvPki40_Y8fcEnDivSTagoNo;-><init>(Lcom/rigol/scope/adapters/SearchPulseAdapter;)V
+    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$SearchPulseAdapter$_uWmzouY0ANRFU_TK7B2Ez7ouqU;-><init>(Lcom/rigol/scope/adapters/SearchPulseAdapter;)V
 
     move-object v2, p1
 
@@ -405,7 +405,7 @@
     goto/16 :goto_0
 
     :sswitch_1
-    const v1, 0x7f0301af
+    const v1, 0x7f0301b1
 
     .line 186
     invoke-static {v1}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -721,15 +721,15 @@
 
     :sswitch_data_0
     .sparse-switch
-        0x7f0a05f1 -> :sswitch_8
-        0x7f0a05f2 -> :sswitch_7
-        0x7f0a060d -> :sswitch_6
-        0x7f0a065d -> :sswitch_5
-        0x7f0a0718 -> :sswitch_4
-        0x7f0a0719 -> :sswitch_3
-        0x7f0a08e2 -> :sswitch_2
-        0x7f0a09f0 -> :sswitch_1
-        0x7f0a0aab -> :sswitch_0
+        0x7f0a05f9 -> :sswitch_8
+        0x7f0a05fa -> :sswitch_7
+        0x7f0a0615 -> :sswitch_6
+        0x7f0a0665 -> :sswitch_5
+        0x7f0a0724 -> :sswitch_4
+        0x7f0a0725 -> :sswitch_3
+        0x7f0a08ee -> :sswitch_2
+        0x7f0a09fc -> :sswitch_1
+        0x7f0a0ab7 -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -1094,15 +1094,15 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0a060d
+    const v0, 0x7f0a0615
 
     if-eq p1, v0, :cond_3
 
-    const v0, 0x7f0a08e2
+    const v0, 0x7f0a08ee
 
     if-eq p1, v0, :cond_2
 
-    const v0, 0x7f0a0aab
+    const v0, 0x7f0a0ab7
 
     if-eq p1, v0, :cond_1
 
@@ -1198,15 +1198,15 @@
     goto/16 :goto_0
 
     :cond_0
-    const v0, 0x7f0a060d
+    const v0, 0x7f0a0615
 
     if-eq p2, v0, :cond_3
 
-    const v0, 0x7f0a08e2
+    const v0, 0x7f0a08ee
 
     if-eq p2, v0, :cond_2
 
-    const v0, 0x7f0a0aab
+    const v0, 0x7f0a0ab7
 
     if-eq p2, v0, :cond_1
 

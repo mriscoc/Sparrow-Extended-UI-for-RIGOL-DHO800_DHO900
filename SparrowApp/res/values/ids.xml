@@ -827,6 +827,8 @@
     <item type="id" name="display" />
     <item type="id" name="displaySpinner" />
     <item type="id" name="displayText" />
+    <item type="id" name="display_mode" />
+    <item type="id" name="display_mode_switch" />
     <item type="id" name="display_onoff_switchButton" />
     <item type="id" name="display_switch" />
     <item type="id" name="divider" />
@@ -1235,6 +1237,12 @@
     <item type="id" name="ipconfig_layout" />
     <item type="id" name="itemView" />
     <item type="id" name="item_data" />
+    <item type="id" name="item_data_avg" />
+    <item type="id" name="item_data_cnt" />
+    <item type="id" name="item_data_cur" />
+    <item type="id" name="item_data_dev" />
+    <item type="id" name="item_data_max" />
+    <item type="id" name="item_data_min" />
     <item type="id" name="item_title" />
     <item type="id" name="item_touch_helper_previous_elevation" />
     <item type="id" name="iv_impedance_1" />
@@ -1502,11 +1510,13 @@
     <item type="id" name="more_less" />
     <item type="id" name="more_than" />
     <item type="id" name="motion_base" />
+    <item type="id" name="move" />
     <item type="id" name="moveDown" />
     <item type="id" name="moveLeft" />
     <item type="id" name="moveRate" />
     <item type="id" name="moveRight" />
     <item type="id" name="moveUp" />
+    <item type="id" name="move_switch_button" />
     <item type="id" name="msRefreshHeader" />
     <item type="id" name="msg_bode_source_in" />
     <item type="id" name="mtrl_calendar_day_selector_frame" />
@@ -1618,6 +1628,8 @@
     <item type="id" name="path_name_edit_load" />
     <item type="id" name="path_name_edit_text" />
     <item type="id" name="peak" />
+    <item type="id" name="peak_detect" />
+    <item type="id" name="peak_detect_switch" />
     <item type="id" name="peak_guideline_center" />
     <item type="id" name="peak_num" />
     <item type="id" name="peak_num_text" />

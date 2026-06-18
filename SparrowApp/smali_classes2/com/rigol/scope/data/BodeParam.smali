@@ -11,7 +11,7 @@
         0x3
     }
     d1 = {
-        "\u0000`\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\t\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0010\u0008\n\u0002\u0008\u0004\n\u0002\u0010\u000e\n\u0002\u0008\u000c\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0010\u000b\n\u0002\u0008q\n\u0002\u0010\u0006\n\u0002\u0008\u0006\n\u0002\u0010\u0007\n\u0002\u0008\u0011\n\u0002\u0010\u0011\n\u0002\u0008\u0004\n\u0002\u0010\u0002\n\u0002\u0008?\u0018\u00002\u00020\u0001B\u0005\u00a2\u0006\u0002\u0010\u0002J5\u0010\u00b6\u0001\u001a\u0016\u0012\u000f\u0012\r\u0012\u0006\u0012\u0004\u0018\u00010\u0016\u0018\u00010\u00b7\u0001\u0018\u00010\u00b7\u00012\u0007\u0010\u00b8\u0001\u001a\u00020\u00112\u0007\u0010\u00b9\u0001\u001a\u00020\u0011H\u0002\u00a2\u0006\u0003\u0010\u00ba\u0001J\n\u0010\u00bb\u0001\u001a\u00030\u00bc\u0001H\u0016J\u0007\u0010\u00bd\u0001\u001a\u00020\u0004J\u0008\u0010\u00be\u0001\u001a\u00030\u00bc\u0001J\u0007\u0010\u00bf\u0001\u001a\u00020\u0016J\u0007\u0010\u00c0\u0001\u001a\u00020,J\u0007\u0010\u00c1\u0001\u001a\u00020,J\u0007\u0010\u00c2\u0001\u001a\u00020\u0011J\u0008\u0010\u00c3\u0001\u001a\u00030\u00bc\u0001J\u0008\u0010\u00c4\u0001\u001a\u00030\u00bc\u0001J\u0007\u0010\u00c5\u0001\u001a\u00020\u0011J\u0007\u0010\u00c6\u0001\u001a\u00020,J\u0007\u0010\u00c7\u0001\u001a\u00020\u0011J\u0007\u0010\u00c8\u0001\u001a\u00020\u0011J\u0007\u0010\u00c9\u0001\u001a\u00020\u0004J\u0008\u0010\u00ca\u0001\u001a\u00030\u00bc\u0001J\u0007\u0010\u00cb\u0001\u001a\u00020\u0004J\u0008\u0010\u00cc\u0001\u001a\u00030\u00bc\u0001J\u0007\u0010\u00cd\u0001\u001a\u00020\u0011J\u0007\u0010\u00ce\u0001\u001a\u00020,J\u0007\u0010\u00cf\u0001\u001a\u00020\u0011J\u0007\u0010\u00d0\u0001\u001a\u00020\u0004J\u0008\u0010\u00d1\u0001\u001a\u00030\u00bc\u0001J\u0007\u0010\u00d2\u0001\u001a\u00020\u0004J\u0008\u0010\u00d3\u0001\u001a\u00030\u00bc\u0001J\u0007\u0010\u00d4\u0001\u001a\u00020\u0004J\u0008\u0010\u00d5\u0001\u001a\u00030\u00bc\u0001J\u0007\u0010\u00d6\u0001\u001a\u00020\u0004J\u0008\u0010\u00d7\u0001\u001a\u00030\u00bc\u0001J\u0007\u0010\u00d8\u0001\u001a\u00020\u0004J\u0008\u0010\u00d9\u0001\u001a\u00030\u00bc\u0001J\u0007\u0010\u00da\u0001\u001a\u00020\u0004J\u0008\u0010\u00db\u0001\u001a\u00030\u00bc\u0001J\u0007\u0010\u00dc\u0001\u001a\u00020\u0004J\u0008\u0010\u00dd\u0001\u001a\u00030\u00bc\u0001J\u0007\u0010\u00de\u0001\u001a\u00020\u0004J\u0008\u0010\u00df\u0001\u001a\u00030\u00bc\u0001J\u0008\u0010\u00e0\u0001\u001a\u00030\u00bc\u0001J\u0008\u0010\u00e1\u0001\u001a\u00030\u00bc\u0001J\n\u0010\u00e2\u0001\u001a\u00030\u00bc\u0001H\u0016J\u0010\u0010\u00e3\u0001\u001a\u00030\u00bc\u00012\u0006\u0010\u0005\u001a\u00020\u0004J\u0010\u0010\u00e4\u0001\u001a\u00030\u00bc\u00012\u0006\u0010-\u001a\u00020,J\u0010\u0010\u00e5\u0001\u001a\u00030\u00bc\u00012\u0006\u00102\u001a\u00020,J\u0010\u0010\u00e6\u0001\u001a\u00030\u00bc\u00012\u0006\u0010;\u001a\u00020\u0011J\u0010\u0010\u00e7\u0001\u001a\u00030\u00bc\u00012\u0006\u0010A\u001a\u00020\u0011J\u0010\u0010\u00e8\u0001\u001a\u00030\u00bc\u00012\u0006\u0010D\u001a\u00020,J\u0010\u0010\u00e9\u0001\u001a\u00030\u00bc\u00012\u0006\u0010G\u001a\u00020\u0011J\u0010\u0010\u00ea\u0001\u001a\u00030\u00bc\u00012\u0006\u0010J\u001a\u00020\u0011J\u0010\u0010\u00eb\u0001\u001a\u00030\u00bc\u00012\u0006\u0010M\u001a\u00020\u0004J\u0010\u0010\u00ec\u0001\u001a\u00030\u00bc\u00012\u0006\u0010S\u001a\u00020\u0004J\u0010\u0010\u00ed\u0001\u001a\u00030\u00bc\u00012\u0006\u0010Y\u001a\u00020\u0011J\u0010\u0010\u00ee\u0001\u001a\u00030\u00bc\u00012\u0006\u0010\\\u001a\u00020,J\u0010\u0010\u00ef\u0001\u001a\u00030\u00bc\u00012\u0006\u0010h\u001a\u00020\u0011J\u0010\u0010\u00f0\u0001\u001a\u00030\u00bc\u00012\u0006\u0010k\u001a\u00020\u0004J\u0010\u0010\u00f1\u0001\u001a\u00030\u00bc\u00012\u0006\u0010q\u001a\u00020\u0004J\u0010\u0010\u00f2\u0001\u001a\u00030\u00bc\u00012\u0006\u0010w\u001a\u00020\u0004J\u0010\u0010\u00f3\u0001\u001a\u00030\u00bc\u00012\u0006\u0010}\u001a\u00020\u0004J\u0011\u0010\u00f4\u0001\u001a\u00030\u00bc\u00012\u0007\u0010\u0083\u0001\u001a\u00020\u0004J\u0011\u0010\u00f5\u0001\u001a\u00030\u00bc\u00012\u0007\u0010\u0089\u0001\u001a\u00020\u0004J\u0011\u0010\u00f6\u0001\u001a\u00030\u00bc\u00012\u0007\u0010\u008f\u0001\u001a\u00020\u0004J\u0011\u0010\u00f7\u0001\u001a\u00030\u00bc\u00012\u0007\u0010\u0095\u0001\u001a\u00020\u0004J\u0011\u0010\u00f8\u0001\u001a\u00030\u00bc\u00012\u0007\u0010\u009b\u0001\u001a\u00020,J\u0010\u0010\u00f9\u0001\u001a\u00030\u00bc\u00012\u0006\u0010-\u001a\u00020,J\u0010\u0010\u00fa\u0001\u001a\u00030\u00bc\u00012\u0006\u00105\u001a\u00020,R&\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0006\u0010\u0007\"\u0004\u0008\u0008\u0010\tR\u001a\u0010\n\u001a\u00020\u000bX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u000c\u0010\r\"\u0004\u0008\u000e\u0010\u000fR\u001a\u0010\u0010\u001a\u00020\u0011X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0012\u0010\u0013\"\u0004\u0008\u0014\u0010\u0015R&\u0010\u0017\u001a\u00020\u00162\u0006\u0010\u0003\u001a\u00020\u00168G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0018\u0010\u0019\"\u0004\u0008\u001a\u0010\u001bR&\u0010\u001c\u001a\u00020\u00112\u0006\u0010\u0003\u001a\u00020\u00118G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u001d\u0010\u0013\"\u0004\u0008\u001e\u0010\u0015R&\u0010\u001f\u001a\u00020\u00112\u0006\u0010\u0003\u001a\u00020\u00118G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008 \u0010\u0013\"\u0004\u0008!\u0010\u0015R*\u0010\"\u001a\u0012\u0012\u0004\u0012\u00020\u00160#j\u0008\u0012\u0004\u0012\u00020\u0016`$X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008%\u0010&\"\u0004\u0008\'\u0010(R&\u0010)\u001a\u00020\u00112\u0006\u0010\u0003\u001a\u00020\u00118G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008*\u0010\u0013\"\u0004\u0008+\u0010\u0015R&\u0010-\u001a\u00020,2\u0006\u0010\u0003\u001a\u00020,8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008.\u0010/\"\u0004\u00080\u00101R&\u00102\u001a\u00020,2\u0006\u0010\u0003\u001a\u00020,8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00083\u0010/\"\u0004\u00084\u00101R&\u00105\u001a\u00020,2\u0006\u0010\u0003\u001a\u00020,8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00086\u0010/\"\u0004\u00087\u00101R&\u00108\u001a\u00020\u00162\u0006\u0010\u0003\u001a\u00020\u00168G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00089\u0010\u0019\"\u0004\u0008:\u0010\u001bR&\u0010;\u001a\u00020\u00112\u0006\u0010\u0003\u001a\u00020\u00118G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008<\u0010\u0013\"\u0004\u0008=\u0010\u0015R\u001a\u0010>\u001a\u00020\u000bX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008?\u0010\r\"\u0004\u0008@\u0010\u000fR&\u0010A\u001a\u00020\u00112\u0006\u0010\u0003\u001a\u00020\u00118G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008B\u0010\u0013\"\u0004\u0008C\u0010\u0015R&\u0010D\u001a\u00020,2\u0006\u0010\u0003\u001a\u00020,8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008E\u0010/\"\u0004\u0008F\u00101R&\u0010G\u001a\u00020\u00112\u0006\u0010\u0003\u001a\u00020\u00118G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008H\u0010\u0013\"\u0004\u0008I\u0010\u0015R&\u0010J\u001a\u00020\u00112\u0006\u0010\u0003\u001a\u00020\u00118G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008K\u0010\u0013\"\u0004\u0008L\u0010\u0015R&\u0010M\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008N\u0010\u0007\"\u0004\u0008O\u0010\tR\u001a\u0010P\u001a\u00020\u000bX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008Q\u0010\r\"\u0004\u0008R\u0010\u000fR&\u0010S\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008T\u0010\u0007\"\u0004\u0008U\u0010\tR\u001a\u0010V\u001a\u00020\u000bX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008W\u0010\r\"\u0004\u0008X\u0010\u000fR&\u0010Y\u001a\u00020\u00112\u0006\u0010\u0003\u001a\u00020\u00118G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008Z\u0010\u0013\"\u0004\u0008[\u0010\u0015R&\u0010\\\u001a\u00020,2\u0006\u0010\u0003\u001a\u00020,8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008]\u0010/\"\u0004\u0008^\u00101R$\u0010_\u001a\u00020\u00162\u0006\u0010\u0003\u001a\u00020\u0016@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008`\u0010\u0019\"\u0004\u0008a\u0010\u001bRD\u0010b\u001a\u0012\u0012\u0004\u0012\u00020\u00160#j\u0008\u0012\u0004\u0012\u00020\u0016`$2\u0016\u0010\u0003\u001a\u0012\u0012\u0004\u0012\u00020\u00160#j\u0008\u0012\u0004\u0012\u00020\u0016`$@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008c\u0010&\"\u0004\u0008d\u0010(RD\u0010e\u001a\u0012\u0012\u0004\u0012\u00020\u00160#j\u0008\u0012\u0004\u0012\u00020\u0016`$2\u0016\u0010\u0003\u001a\u0012\u0012\u0004\u0012\u00020\u00160#j\u0008\u0012\u0004\u0012\u00020\u0016`$@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008f\u0010&\"\u0004\u0008g\u0010(R&\u0010h\u001a\u00020\u00112\u0006\u0010\u0003\u001a\u00020\u00118G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008i\u0010\u0013\"\u0004\u0008j\u0010\u0015R&\u0010k\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008l\u0010\u0007\"\u0004\u0008m\u0010\tR\u001a\u0010n\u001a\u00020\u000bX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008o\u0010\r\"\u0004\u0008p\u0010\u000fR&\u0010q\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008r\u0010\u0007\"\u0004\u0008s\u0010\tR\u001a\u0010t\u001a\u00020\u000bX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008u\u0010\r\"\u0004\u0008v\u0010\u000fR&\u0010w\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008x\u0010\u0007\"\u0004\u0008y\u0010\tR\u001a\u0010z\u001a\u00020\u000bX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008{\u0010\r\"\u0004\u0008|\u0010\u000fR&\u0010}\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008~\u0010\u0007\"\u0004\u0008\u007f\u0010\tR\u001d\u0010\u0080\u0001\u001a\u00020\u000bX\u0086\u000e\u00a2\u0006\u0010\n\u0000\u001a\u0005\u0008\u0081\u0001\u0010\r\"\u0005\u0008\u0082\u0001\u0010\u000fR)\u0010\u0083\u0001\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u0010\n\u0000\u001a\u0005\u0008\u0084\u0001\u0010\u0007\"\u0005\u0008\u0085\u0001\u0010\tR\u001d\u0010\u0086\u0001\u001a\u00020\u000bX\u0086\u000e\u00a2\u0006\u0010\n\u0000\u001a\u0005\u0008\u0087\u0001\u0010\r\"\u0005\u0008\u0088\u0001\u0010\u000fR)\u0010\u0089\u0001\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u0010\n\u0000\u001a\u0005\u0008\u008a\u0001\u0010\u0007\"\u0005\u0008\u008b\u0001\u0010\tR\u001d\u0010\u008c\u0001\u001a\u00020\u000bX\u0086\u000e\u00a2\u0006\u0010\n\u0000\u001a\u0005\u0008\u008d\u0001\u0010\r\"\u0005\u0008\u008e\u0001\u0010\u000fR)\u0010\u008f\u0001\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u0010\n\u0000\u001a\u0005\u0008\u0090\u0001\u0010\u0007\"\u0005\u0008\u0091\u0001\u0010\tR\u001d\u0010\u0092\u0001\u001a\u00020\u000bX\u0086\u000e\u00a2\u0006\u0010\n\u0000\u001a\u0005\u0008\u0093\u0001\u0010\r\"\u0005\u0008\u0094\u0001\u0010\u000fR)\u0010\u0095\u0001\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u0010\n\u0000\u001a\u0005\u0008\u0096\u0001\u0010\u0007\"\u0005\u0008\u0097\u0001\u0010\tR\u001d\u0010\u0098\u0001\u001a\u00020\u000bX\u0086\u000e\u00a2\u0006\u0010\n\u0000\u001a\u0005\u0008\u0099\u0001\u0010\r\"\u0005\u0008\u009a\u0001\u0010\u000fR)\u0010\u009b\u0001\u001a\u00020,2\u0006\u0010\u0003\u001a\u00020,8G@FX\u0086\u000e\u00a2\u0006\u0010\n\u0000\u001a\u0005\u0008\u009c\u0001\u0010/\"\u0005\u0008\u009d\u0001\u00101R-\u0010\u009f\u0001\u001a\u00030\u009e\u00012\u0007\u0010\u0003\u001a\u00030\u009e\u00018G@FX\u0086\u000e\u00a2\u0006\u0012\n\u0000\u001a\u0006\u0008\u00a0\u0001\u0010\u00a1\u0001\"\u0006\u0008\u00a2\u0001\u0010\u00a3\u0001R/\u0010\u00a4\u0001\u001a\u0014\u0012\u0005\u0012\u00030\u00a5\u00010#j\t\u0012\u0005\u0012\u00030\u00a5\u0001`$X\u0086\u000e\u00a2\u0006\u0010\n\u0000\u001a\u0005\u0008\u00a6\u0001\u0010&\"\u0005\u0008\u00a7\u0001\u0010(R/\u0010\u00a8\u0001\u001a\u0014\u0012\u0005\u0012\u00030\u00a5\u00010#j\t\u0012\u0005\u0012\u00030\u00a5\u0001`$X\u0086\u000e\u00a2\u0006\u0010\n\u0000\u001a\u0005\u0008\u00a9\u0001\u0010&\"\u0005\u0008\u00aa\u0001\u0010(R+\u0010\u00ab\u0001\u001a\u00030\u009e\u00012\u0007\u0010\u0003\u001a\u00030\u009e\u0001@FX\u0086\u000e\u00a2\u0006\u0012\n\u0000\u001a\u0006\u0008\u00ac\u0001\u0010\u00a1\u0001\"\u0006\u0008\u00ad\u0001\u0010\u00a3\u0001R+\u0010\u00ae\u0001\u001a\u00030\u00a5\u00012\u0007\u0010\u0003\u001a\u00030\u00a5\u0001@FX\u0086\u000e\u00a2\u0006\u0012\n\u0000\u001a\u0006\u0008\u00af\u0001\u0010\u00b0\u0001\"\u0006\u0008\u00b1\u0001\u0010\u00b2\u0001R+\u0010\u00b3\u0001\u001a\u00030\u009e\u00012\u0007\u0010\u0003\u001a\u00030\u009e\u0001@FX\u0086\u000e\u00a2\u0006\u0012\n\u0000\u001a\u0006\u0008\u00b4\u0001\u0010\u00a1\u0001\"\u0006\u0008\u00b5\u0001\u0010\u00a3\u0001\u00a8\u0006\u00fb\u0001"
+        "\u0000`\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\t\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0010\u0008\n\u0002\u0008\u0004\n\u0002\u0010\u000e\n\u0002\u0008\u000c\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0010\u000b\n\u0002\u0008q\n\u0002\u0010\u0006\n\u0002\u0008\t\n\u0002\u0010\u0007\n\u0002\u0008\u0011\n\u0002\u0010\u0011\n\u0002\u0008\u0004\n\u0002\u0010\u0002\n\u0002\u0008?\u0018\u00002\u00020\u0001B\u0005\u00a2\u0006\u0002\u0010\u0002J5\u0010\u00b9\u0001\u001a\u0016\u0012\u000f\u0012\r\u0012\u0006\u0012\u0004\u0018\u00010\u0016\u0018\u00010\u00ba\u0001\u0018\u00010\u00ba\u00012\u0007\u0010\u00bb\u0001\u001a\u00020\u00112\u0007\u0010\u00bc\u0001\u001a\u00020\u0011H\u0002\u00a2\u0006\u0003\u0010\u00bd\u0001J\n\u0010\u00be\u0001\u001a\u00030\u00bf\u0001H\u0016J\u0007\u0010\u00c0\u0001\u001a\u00020\u0004J\u0008\u0010\u00c1\u0001\u001a\u00030\u00bf\u0001J\u0007\u0010\u00c2\u0001\u001a\u00020\u0016J\u0007\u0010\u00c3\u0001\u001a\u00020,J\u0007\u0010\u00c4\u0001\u001a\u00020,J\u0007\u0010\u00c5\u0001\u001a\u00020\u0011J\u0008\u0010\u00c6\u0001\u001a\u00030\u00bf\u0001J\u0008\u0010\u00c7\u0001\u001a\u00030\u00bf\u0001J\u0007\u0010\u00c8\u0001\u001a\u00020\u0011J\u0007\u0010\u00c9\u0001\u001a\u00020,J\u0007\u0010\u00ca\u0001\u001a\u00020\u0011J\u0007\u0010\u00cb\u0001\u001a\u00020\u0011J\u0007\u0010\u00cc\u0001\u001a\u00020\u0004J\u0008\u0010\u00cd\u0001\u001a\u00030\u00bf\u0001J\u0007\u0010\u00ce\u0001\u001a\u00020\u0004J\u0008\u0010\u00cf\u0001\u001a\u00030\u00bf\u0001J\u0007\u0010\u00d0\u0001\u001a\u00020\u0011J\u0007\u0010\u00d1\u0001\u001a\u00020,J\u0007\u0010\u00d2\u0001\u001a\u00020\u0011J\u0007\u0010\u00d3\u0001\u001a\u00020\u0004J\u0008\u0010\u00d4\u0001\u001a\u00030\u00bf\u0001J\u0007\u0010\u00d5\u0001\u001a\u00020\u0004J\u0008\u0010\u00d6\u0001\u001a\u00030\u00bf\u0001J\u0007\u0010\u00d7\u0001\u001a\u00020\u0004J\u0008\u0010\u00d8\u0001\u001a\u00030\u00bf\u0001J\u0007\u0010\u00d9\u0001\u001a\u00020\u0004J\u0008\u0010\u00da\u0001\u001a\u00030\u00bf\u0001J\u0007\u0010\u00db\u0001\u001a\u00020\u0004J\u0008\u0010\u00dc\u0001\u001a\u00030\u00bf\u0001J\u0007\u0010\u00dd\u0001\u001a\u00020\u0004J\u0008\u0010\u00de\u0001\u001a\u00030\u00bf\u0001J\u0007\u0010\u00df\u0001\u001a\u00020\u0004J\u0008\u0010\u00e0\u0001\u001a\u00030\u00bf\u0001J\u0007\u0010\u00e1\u0001\u001a\u00020\u0004J\u0008\u0010\u00e2\u0001\u001a\u00030\u00bf\u0001J\u0008\u0010\u00e3\u0001\u001a\u00030\u00bf\u0001J\u0008\u0010\u00e4\u0001\u001a\u00030\u00bf\u0001J\n\u0010\u00e5\u0001\u001a\u00030\u00bf\u0001H\u0016J\u0010\u0010\u00e6\u0001\u001a\u00030\u00bf\u00012\u0006\u0010\u0005\u001a\u00020\u0004J\u0010\u0010\u00e7\u0001\u001a\u00030\u00bf\u00012\u0006\u0010-\u001a\u00020,J\u0010\u0010\u00e8\u0001\u001a\u00030\u00bf\u00012\u0006\u00102\u001a\u00020,J\u0010\u0010\u00e9\u0001\u001a\u00030\u00bf\u00012\u0006\u0010;\u001a\u00020\u0011J\u0010\u0010\u00ea\u0001\u001a\u00030\u00bf\u00012\u0006\u0010A\u001a\u00020\u0011J\u0010\u0010\u00eb\u0001\u001a\u00030\u00bf\u00012\u0006\u0010D\u001a\u00020,J\u0010\u0010\u00ec\u0001\u001a\u00030\u00bf\u00012\u0006\u0010G\u001a\u00020\u0011J\u0010\u0010\u00ed\u0001\u001a\u00030\u00bf\u00012\u0006\u0010J\u001a\u00020\u0011J\u0010\u0010\u00ee\u0001\u001a\u00030\u00bf\u00012\u0006\u0010M\u001a\u00020\u0004J\u0010\u0010\u00ef\u0001\u001a\u00030\u00bf\u00012\u0006\u0010S\u001a\u00020\u0004J\u0010\u0010\u00f0\u0001\u001a\u00030\u00bf\u00012\u0006\u0010Y\u001a\u00020\u0011J\u0010\u0010\u00f1\u0001\u001a\u00030\u00bf\u00012\u0006\u0010\\\u001a\u00020,J\u0010\u0010\u00f2\u0001\u001a\u00030\u00bf\u00012\u0006\u0010h\u001a\u00020\u0011J\u0010\u0010\u00f3\u0001\u001a\u00030\u00bf\u00012\u0006\u0010k\u001a\u00020\u0004J\u0010\u0010\u00f4\u0001\u001a\u00030\u00bf\u00012\u0006\u0010q\u001a\u00020\u0004J\u0010\u0010\u00f5\u0001\u001a\u00030\u00bf\u00012\u0006\u0010w\u001a\u00020\u0004J\u0010\u0010\u00f6\u0001\u001a\u00030\u00bf\u00012\u0006\u0010}\u001a\u00020\u0004J\u0011\u0010\u00f7\u0001\u001a\u00030\u00bf\u00012\u0007\u0010\u0083\u0001\u001a\u00020\u0004J\u0011\u0010\u00f8\u0001\u001a\u00030\u00bf\u00012\u0007\u0010\u0089\u0001\u001a\u00020\u0004J\u0011\u0010\u00f9\u0001\u001a\u00030\u00bf\u00012\u0007\u0010\u008f\u0001\u001a\u00020\u0004J\u0011\u0010\u00fa\u0001\u001a\u00030\u00bf\u00012\u0007\u0010\u0095\u0001\u001a\u00020\u0004J\u0011\u0010\u00fb\u0001\u001a\u00030\u00bf\u00012\u0007\u0010\u009b\u0001\u001a\u00020,J\u0010\u0010\u00fc\u0001\u001a\u00030\u00bf\u00012\u0006\u0010-\u001a\u00020,J\u0010\u0010\u00fd\u0001\u001a\u00030\u00bf\u00012\u0006\u00105\u001a\u00020,R&\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0006\u0010\u0007\"\u0004\u0008\u0008\u0010\tR\u001a\u0010\n\u001a\u00020\u000bX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u000c\u0010\r\"\u0004\u0008\u000e\u0010\u000fR\u001a\u0010\u0010\u001a\u00020\u0011X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0012\u0010\u0013\"\u0004\u0008\u0014\u0010\u0015R&\u0010\u0017\u001a\u00020\u00162\u0006\u0010\u0003\u001a\u00020\u00168G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0018\u0010\u0019\"\u0004\u0008\u001a\u0010\u001bR&\u0010\u001c\u001a\u00020\u00112\u0006\u0010\u0003\u001a\u00020\u00118G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u001d\u0010\u0013\"\u0004\u0008\u001e\u0010\u0015R&\u0010\u001f\u001a\u00020\u00112\u0006\u0010\u0003\u001a\u00020\u00118G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008 \u0010\u0013\"\u0004\u0008!\u0010\u0015R*\u0010\"\u001a\u0012\u0012\u0004\u0012\u00020\u00160#j\u0008\u0012\u0004\u0012\u00020\u0016`$X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008%\u0010&\"\u0004\u0008\'\u0010(R&\u0010)\u001a\u00020\u00112\u0006\u0010\u0003\u001a\u00020\u00118G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008*\u0010\u0013\"\u0004\u0008+\u0010\u0015R&\u0010-\u001a\u00020,2\u0006\u0010\u0003\u001a\u00020,8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008.\u0010/\"\u0004\u00080\u00101R&\u00102\u001a\u00020,2\u0006\u0010\u0003\u001a\u00020,8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00083\u0010/\"\u0004\u00084\u00101R&\u00105\u001a\u00020,2\u0006\u0010\u0003\u001a\u00020,8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00086\u0010/\"\u0004\u00087\u00101R&\u00108\u001a\u00020\u00162\u0006\u0010\u0003\u001a\u00020\u00168G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00089\u0010\u0019\"\u0004\u0008:\u0010\u001bR&\u0010;\u001a\u00020\u00112\u0006\u0010\u0003\u001a\u00020\u00118G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008<\u0010\u0013\"\u0004\u0008=\u0010\u0015R\u001a\u0010>\u001a\u00020\u000bX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008?\u0010\r\"\u0004\u0008@\u0010\u000fR&\u0010A\u001a\u00020\u00112\u0006\u0010\u0003\u001a\u00020\u00118G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008B\u0010\u0013\"\u0004\u0008C\u0010\u0015R&\u0010D\u001a\u00020,2\u0006\u0010\u0003\u001a\u00020,8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008E\u0010/\"\u0004\u0008F\u00101R&\u0010G\u001a\u00020\u00112\u0006\u0010\u0003\u001a\u00020\u00118G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008H\u0010\u0013\"\u0004\u0008I\u0010\u0015R&\u0010J\u001a\u00020\u00112\u0006\u0010\u0003\u001a\u00020\u00118G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008K\u0010\u0013\"\u0004\u0008L\u0010\u0015R&\u0010M\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008N\u0010\u0007\"\u0004\u0008O\u0010\tR\u001a\u0010P\u001a\u00020\u000bX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008Q\u0010\r\"\u0004\u0008R\u0010\u000fR&\u0010S\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008T\u0010\u0007\"\u0004\u0008U\u0010\tR\u001a\u0010V\u001a\u00020\u000bX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008W\u0010\r\"\u0004\u0008X\u0010\u000fR&\u0010Y\u001a\u00020\u00112\u0006\u0010\u0003\u001a\u00020\u00118G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008Z\u0010\u0013\"\u0004\u0008[\u0010\u0015R&\u0010\\\u001a\u00020,2\u0006\u0010\u0003\u001a\u00020,8G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008]\u0010/\"\u0004\u0008^\u00101R$\u0010_\u001a\u00020\u00162\u0006\u0010\u0003\u001a\u00020\u0016@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008`\u0010\u0019\"\u0004\u0008a\u0010\u001bRD\u0010b\u001a\u0012\u0012\u0004\u0012\u00020\u00160#j\u0008\u0012\u0004\u0012\u00020\u0016`$2\u0016\u0010\u0003\u001a\u0012\u0012\u0004\u0012\u00020\u00160#j\u0008\u0012\u0004\u0012\u00020\u0016`$@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008c\u0010&\"\u0004\u0008d\u0010(RD\u0010e\u001a\u0012\u0012\u0004\u0012\u00020\u00160#j\u0008\u0012\u0004\u0012\u00020\u0016`$2\u0016\u0010\u0003\u001a\u0012\u0012\u0004\u0012\u00020\u00160#j\u0008\u0012\u0004\u0012\u00020\u0016`$@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008f\u0010&\"\u0004\u0008g\u0010(R&\u0010h\u001a\u00020\u00112\u0006\u0010\u0003\u001a\u00020\u00118G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008i\u0010\u0013\"\u0004\u0008j\u0010\u0015R&\u0010k\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008l\u0010\u0007\"\u0004\u0008m\u0010\tR\u001a\u0010n\u001a\u00020\u000bX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008o\u0010\r\"\u0004\u0008p\u0010\u000fR&\u0010q\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008r\u0010\u0007\"\u0004\u0008s\u0010\tR\u001a\u0010t\u001a\u00020\u000bX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008u\u0010\r\"\u0004\u0008v\u0010\u000fR&\u0010w\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008x\u0010\u0007\"\u0004\u0008y\u0010\tR\u001a\u0010z\u001a\u00020\u000bX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008{\u0010\r\"\u0004\u0008|\u0010\u000fR&\u0010}\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008~\u0010\u0007\"\u0004\u0008\u007f\u0010\tR\u001d\u0010\u0080\u0001\u001a\u00020\u000bX\u0086\u000e\u00a2\u0006\u0010\n\u0000\u001a\u0005\u0008\u0081\u0001\u0010\r\"\u0005\u0008\u0082\u0001\u0010\u000fR)\u0010\u0083\u0001\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u0010\n\u0000\u001a\u0005\u0008\u0084\u0001\u0010\u0007\"\u0005\u0008\u0085\u0001\u0010\tR\u001d\u0010\u0086\u0001\u001a\u00020\u000bX\u0086\u000e\u00a2\u0006\u0010\n\u0000\u001a\u0005\u0008\u0087\u0001\u0010\r\"\u0005\u0008\u0088\u0001\u0010\u000fR)\u0010\u0089\u0001\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u0010\n\u0000\u001a\u0005\u0008\u008a\u0001\u0010\u0007\"\u0005\u0008\u008b\u0001\u0010\tR\u001d\u0010\u008c\u0001\u001a\u00020\u000bX\u0086\u000e\u00a2\u0006\u0010\n\u0000\u001a\u0005\u0008\u008d\u0001\u0010\r\"\u0005\u0008\u008e\u0001\u0010\u000fR)\u0010\u008f\u0001\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u0010\n\u0000\u001a\u0005\u0008\u0090\u0001\u0010\u0007\"\u0005\u0008\u0091\u0001\u0010\tR\u001d\u0010\u0092\u0001\u001a\u00020\u000bX\u0086\u000e\u00a2\u0006\u0010\n\u0000\u001a\u0005\u0008\u0093\u0001\u0010\r\"\u0005\u0008\u0094\u0001\u0010\u000fR)\u0010\u0095\u0001\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00048G@FX\u0086\u000e\u00a2\u0006\u0010\n\u0000\u001a\u0005\u0008\u0096\u0001\u0010\u0007\"\u0005\u0008\u0097\u0001\u0010\tR\u001d\u0010\u0098\u0001\u001a\u00020\u000bX\u0086\u000e\u00a2\u0006\u0010\n\u0000\u001a\u0005\u0008\u0099\u0001\u0010\r\"\u0005\u0008\u009a\u0001\u0010\u000fR)\u0010\u009b\u0001\u001a\u00020,2\u0006\u0010\u0003\u001a\u00020,8G@FX\u0086\u000e\u00a2\u0006\u0010\n\u0000\u001a\u0005\u0008\u009c\u0001\u0010/\"\u0005\u0008\u009d\u0001\u00101R-\u0010\u009f\u0001\u001a\u00030\u009e\u00012\u0007\u0010\u0003\u001a\u00030\u009e\u00018G@FX\u0086\u000e\u00a2\u0006\u0012\n\u0000\u001a\u0006\u0008\u00a0\u0001\u0010\u00a1\u0001\"\u0006\u0008\u00a2\u0001\u0010\u00a3\u0001R-\u0010\u00a4\u0001\u001a\u00030\u009e\u00012\u0007\u0010\u0003\u001a\u00030\u009e\u00018G@FX\u0086\u000e\u00a2\u0006\u0012\n\u0000\u001a\u0006\u0008\u00a5\u0001\u0010\u00a1\u0001\"\u0006\u0008\u00a6\u0001\u0010\u00a3\u0001R/\u0010\u00a7\u0001\u001a\u0014\u0012\u0005\u0012\u00030\u00a8\u00010#j\t\u0012\u0005\u0012\u00030\u00a8\u0001`$X\u0086\u000e\u00a2\u0006\u0010\n\u0000\u001a\u0005\u0008\u00a9\u0001\u0010&\"\u0005\u0008\u00aa\u0001\u0010(R/\u0010\u00ab\u0001\u001a\u0014\u0012\u0005\u0012\u00030\u00a8\u00010#j\t\u0012\u0005\u0012\u00030\u00a8\u0001`$X\u0086\u000e\u00a2\u0006\u0010\n\u0000\u001a\u0005\u0008\u00ac\u0001\u0010&\"\u0005\u0008\u00ad\u0001\u0010(R+\u0010\u00ae\u0001\u001a\u00030\u009e\u00012\u0007\u0010\u0003\u001a\u00030\u009e\u0001@FX\u0086\u000e\u00a2\u0006\u0012\n\u0000\u001a\u0006\u0008\u00af\u0001\u0010\u00a1\u0001\"\u0006\u0008\u00b0\u0001\u0010\u00a3\u0001R+\u0010\u00b1\u0001\u001a\u00030\u00a8\u00012\u0007\u0010\u0003\u001a\u00030\u00a8\u0001@FX\u0086\u000e\u00a2\u0006\u0012\n\u0000\u001a\u0006\u0008\u00b2\u0001\u0010\u00b3\u0001\"\u0006\u0008\u00b4\u0001\u0010\u00b5\u0001R+\u0010\u00b6\u0001\u001a\u00030\u009e\u00012\u0007\u0010\u0003\u001a\u00030\u009e\u0001@FX\u0086\u000e\u00a2\u0006\u0012\n\u0000\u001a\u0006\u0008\u00b7\u0001\u0010\u00a1\u0001\"\u0006\u0008\u00b8\u0001\u0010\u00a3\u0001\u00a8\u0006\u00fe\u0001"
     }
     d2 = {
         "Lcom/rigol/scope/data/BodeParam;",
@@ -173,11 +173,14 @@
         "getFirEnable",
         "setFirEnable",
         "",
+        "horLineWidth",
+        "getHorLineWidth",
+        "()D",
+        "setHorLineWidth",
+        "(D)V",
         "last_one",
         "getLast_one",
-        "()D",
         "setLast_one",
-        "(D)V",
         "position_listx",
         "",
         "getPosition_listx",
@@ -391,6 +394,8 @@
 
 .field private firEnable:Z
 
+.field private horLineWidth:D
+
 .field private last_one:D
 
 .field private position_listx:Ljava/util/ArrayList;
@@ -544,40 +549,40 @@
 
     const-string v1, ""
 
-    .line 209
+    .line 211
     iput-object v1, p0, Lcom/rigol/scope/data/BodeParam;->bodeData:Ljava/lang/String;
 
-    .line 216
+    .line 218
     iput-object v1, p0, Lcom/rigol/scope/data/BodeParam;->bodePmgmData:Ljava/lang/String;
 
     const/16 v2, 0x3c
 
-    .line 231
+    .line 233
     iput v2, p0, Lcom/rigol/scope/data/BodeParam;->bodeDataGain:I
 
     const/16 v2, 0xb4
 
-    .line 239
+    .line 241
     iput v2, p0, Lcom/rigol/scope/data/BodeParam;->bodeDataRange:I
 
-    .line 275
+    .line 289
     iput-object v1, p0, Lcom/rigol/scope/data/BodeParam;->bode_result:Ljava/lang/String;
 
-    .line 281
+    .line 295
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v1, p0, Lcom/rigol/scope/data/BodeParam;->bode_resultlist:Ljava/util/ArrayList;
 
-    .line 287
+    .line 301
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v1, p0, Lcom/rigol/scope/data/BodeParam;->bode_resultDatalist:Ljava/util/ArrayList;
 
-    .line 299
+    .line 313
     iput-boolean v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeMinPop:Z
 
     return-void
@@ -586,7 +591,7 @@
 .method private final queryData(II)[[Ljava/lang/String;
     .locals 1
 
-    .line 681
+    .line 689
     invoke-static {}, Lcom/rigol/scope/cil/API;->getInstance()Lcom/rigol/scope/cil/API;
 
     move-result-object v0
@@ -595,13 +600,13 @@
 
     move-result-object p1
 
-    .line 685
+    .line 693
     :try_start_0
     const-class p2, [[Ljava/lang/String;
 
     check-cast p2, Ljava/lang/reflect/Type;
 
-    .line 683
+    .line 691
     invoke-static {p1, p2}, Lcom/blankj/utilcode/util/GsonUtils;->fromJson(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/Object;
 
     move-result-object p1
@@ -615,7 +620,7 @@
     :catch_0
     move-exception p1
 
-    .line 688
+    .line 696
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
     const/4 p1, 0x0
@@ -630,7 +635,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 137
+    .line 139
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeAmpout:J
 
     return-wide v0
@@ -648,7 +653,7 @@
 .method public final getBodeCursorPosition()I
     .locals 1
 
-    .line 308
+    .line 322
     iget v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeCursorPosition:I
 
     return v0
@@ -659,7 +664,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 209
+    .line 211
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeData:Ljava/lang/String;
 
     return-object v0
@@ -670,7 +675,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 231
+    .line 233
     iget v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeDataGain:I
 
     return v0
@@ -681,7 +686,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 239
+    .line 241
     iget v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeDataRange:I
 
     return v0
@@ -709,7 +714,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 223
+    .line 225
     iget v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeDataWidth:I
 
     return v0
@@ -742,7 +747,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 299
+    .line 313
     iget-boolean v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeMinPop:Z
 
     return v0
@@ -753,7 +758,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 216
+    .line 218
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bodePmgmData:Ljava/lang/String;
 
     return-object v0
@@ -848,7 +853,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 128
+    .line 129
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeStopFreq:J
 
     return-wide v0
@@ -888,7 +893,7 @@
 .method public final getBode_result()Ljava/lang/String;
     .locals 1
 
-    .line 275
+    .line 289
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bode_result:Ljava/lang/String;
 
     return-object v0
@@ -905,7 +910,7 @@
         }
     .end annotation
 
-    .line 287
+    .line 301
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bode_resultDatalist:Ljava/util/ArrayList;
 
     return-object v0
@@ -922,7 +927,7 @@
         }
     .end annotation
 
-    .line 281
+    .line 295
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bode_resultlist:Ljava/util/ArrayList;
 
     return-object v0
@@ -944,7 +949,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 145
+    .line 147
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp1:J
 
     return-wide v0
@@ -964,7 +969,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 153
+    .line 155
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp2:J
 
     return-wide v0
@@ -984,7 +989,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 161
+    .line 163
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp3:J
 
     return-wide v0
@@ -1004,7 +1009,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 169
+    .line 171
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp4:J
 
     return-wide v0
@@ -1024,7 +1029,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 177
+    .line 179
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp5:J
 
     return-wide v0
@@ -1044,7 +1049,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 185
+    .line 187
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp6:J
 
     return-wide v0
@@ -1064,7 +1069,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 193
+    .line 195
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp7:J
 
     return-wide v0
@@ -1084,7 +1089,7 @@
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 201
+    .line 203
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp8:J
 
     return-wide v0
@@ -1110,12 +1115,23 @@
     return v0
 .end method
 
+.method public final getHorLineWidth()D
+    .locals 2
+    .annotation runtime Landroidx/databinding/Bindable;
+    .end annotation
+
+    .line 261
+    iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->horLineWidth:D
+
+    return-wide v0
+.end method
+
 .method public final getLast_one()D
     .locals 2
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
 
-    .line 248
+    .line 250
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->last_one:D
 
     return-wide v0
@@ -1158,7 +1174,7 @@
 .method public final getSpacing_heightunit()D
     .locals 2
 
-    .line 262
+    .line 276
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->spacing_heightunit:D
 
     return-wide v0
@@ -1167,7 +1183,7 @@
 .method public final getSpacing_width_middley()F
     .locals 1
 
-    .line 268
+    .line 282
     iget v0, p0, Lcom/rigol/scope/data/BodeParam;->spacing_width_middley:F
 
     return v0
@@ -1176,7 +1192,7 @@
 .method public final getSpacing_width_unit()D
     .locals 2
 
-    .line 256
+    .line 270
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->spacing_width_unit:D
 
     return-wide v0
@@ -1185,109 +1201,109 @@
 .method public readAll()V
     .locals 0
 
-    .line 641
+    .line 649
     invoke-super {p0}, Lcom/rigol/scope/data/BaseParam;->readAll()V
 
-    .line 643
+    .line 651
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodeRunStopEnable()Z
 
-    .line 644
+    .line 652
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodeSourceOut()I
 
-    .line 645
+    .line 653
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodeSourceIn()I
 
-    .line 646
+    .line 654
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodeSweepType()I
 
-    .line 647
+    .line 655
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodeImpedace()Z
 
-    .line 648
+    .line 656
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodeVaramp()Z
 
-    .line 649
+    .line 657
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodeStopFreq()J
 
-    .line 650
+    .line 658
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodeStartFreq()J
 
-    .line 651
+    .line 659
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodePointNum()I
 
-    .line 652
+    .line 660
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodeRunDispType()I
 
-    .line 653
+    .line 661
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodeEnable()Z
 
-    .line 654
+    .line 662
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodeAmpout()J
 
-    .line 655
+    .line 663
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodevaramp1()J
 
-    .line 656
+    .line 664
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodevaramp2()J
 
-    .line 657
+    .line 665
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodevaramp3()J
 
-    .line 658
+    .line 666
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodevaramp4()J
 
-    .line 659
+    .line 667
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodevaramp5()J
 
-    .line 660
+    .line 668
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodevaramp6()J
 
-    .line 661
+    .line 669
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodevaramp7()J
 
-    .line 662
+    .line 670
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodevaramp8()J
 
-    .line 663
+    .line 671
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodevaramp1AttrAttr()V
 
-    .line 664
+    .line 672
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodevaramp2AttrAttr()V
 
-    .line 665
+    .line 673
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodevaramp3AttrAttr()V
 
-    .line 666
+    .line 674
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodevaramp4AttrAttr()V
 
-    .line 667
+    .line 675
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodevaramp5AttrAttr()V
 
-    .line 668
+    .line 676
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodevaramp6AttrAttr()V
 
-    .line 669
+    .line 677
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodevaramp7AttrAttr()V
 
-    .line 670
+    .line 678
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodevaramp8AttrAttr()V
 
-    .line 671
+    .line 679
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodeStartFreqAttr()V
 
-    .line 672
+    .line 680
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodePointNumAttr()V
 
-    .line 673
+    .line 681
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodeStopFreqAttr()V
 
-    .line 674
+    .line 682
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodeAmpoutAttr()V
 
-    .line 675
+    .line 683
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodedispType()I
 
-    .line 676
+    .line 684
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readFirEnable()V
 
     return-void
@@ -1298,14 +1314,14 @@
 
     const/16 v0, 0x50d
 
-    .line 470
+    .line 484
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/BodeParam;->setBodeAmpout(J)V
 
-    .line 471
+    .line 485
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeAmpout:J
 
     return-wide v0
@@ -1314,7 +1330,7 @@
 .method public final readBodeAmpoutAttr()V
     .locals 2
 
-    .line 466
+    .line 480
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeAmpoutAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     const/16 v1, 0x50d
@@ -1329,31 +1345,31 @@
 
     const/16 v0, 0x517
 
-    .line 339
+    .line 353
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readStr(I)Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/BodeParam;->setBodeData(Ljava/lang/String;)V
 
-    .line 341
+    .line 355
     iget-object v1, p0, Lcom/rigol/scope/data/BodeParam;->bodeData:Ljava/lang/String;
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/BodeParam;->syncData(ILjava/lang/Object;)V
 
-    .line 343
+    .line 357
     iget-boolean v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeRunStopEnable:Z
 
     if-eqz v0, :cond_0
 
-    .line 344
+    .line 358
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeDataString:Ljava/util/ArrayList;
 
     iget-object v1, p0, Lcom/rigol/scope/data/BodeParam;->bodeData:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 347
+    .line 361
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeData:Ljava/lang/String;
 
@@ -1365,14 +1381,14 @@
 
     const/16 v0, 0x501
 
-    .line 611
+    .line 619
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readBool(I)Z
 
     move-result v1
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/BodeParam;->setBodeEnable(Z)V
 
-    .line 612
+    .line 620
     iget-boolean v1, p0, Lcom/rigol/scope/data/BodeParam;->bodeEnable:Z
 
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -1381,7 +1397,7 @@
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/BodeParam;->syncData(ILjava/lang/Object;)V
 
-    .line 613
+    .line 621
     iget-boolean v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeEnable:Z
 
     return v0
@@ -1392,14 +1408,14 @@
 
     const/16 v0, 0x509
 
-    .line 531
+    .line 539
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->setBodeImpedace(Z)V
 
-    .line 532
+    .line 540
     iget-boolean v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeImpedace:Z
 
     return v0
@@ -1410,14 +1426,14 @@
 
     const/16 v0, 0x50c
 
-    .line 568
+    .line 576
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->setBodePointNum(I)V
 
-    .line 569
+    .line 577
     iget v0, p0, Lcom/rigol/scope/data/BodeParam;->bodePointNum:I
 
     return v0
@@ -1426,7 +1442,7 @@
 .method public final readBodePointNumAttr()V
     .locals 2
 
-    .line 564
+    .line 572
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bodePointNumAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     const/16 v1, 0x50c
@@ -1439,7 +1455,7 @@
 .method public final readBodeResult()V
     .locals 6
 
-    .line 311
+    .line 325
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->getServiceId()I
 
     move-result v0
@@ -1452,14 +1468,14 @@
 
     const/4 v2, 0x0
 
-    .line 312
+    .line 326
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v3
 
     invoke-virtual {p0, v1, v3}, Lcom/rigol/scope/data/BodeParam;->syncData(ILjava/lang/Object;)V
 
-    .line 314
+    .line 328
     invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
 
     check-cast v0, [Ljava/lang/Object;
@@ -1477,7 +1493,7 @@
     :goto_0
     if-ge v3, v1, :cond_1
 
-    .line 315
+    .line 329
     aget-object v4, v0, v2
 
     check-cast v4, [Ljava/lang/String;
@@ -1488,7 +1504,7 @@
 
     if-eqz v4, :cond_0
 
-    .line 316
+    .line 330
     iget-object v5, p0, Lcom/rigol/scope/data/BodeParam;->bode_resultlist:Ljava/util/ArrayList;
 
     invoke-virtual {v5, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
@@ -1507,14 +1523,14 @@
 
     const/16 v0, 0x503
 
-    .line 600
+    .line 608
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->setBodeRunDispType(I)V
 
-    .line 601
+    .line 609
     iget v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeRunDispType:I
 
     return v0
@@ -1525,14 +1541,14 @@
 
     const/16 v0, 0x502
 
-    .line 629
+    .line 637
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->setBodeRunStopEnable(Z)V
 
-    .line 630
+    .line 638
     iget-boolean v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeRunStopEnable:Z
 
     return v0
@@ -1543,14 +1559,14 @@
 
     const/16 v0, 0x506
 
-    .line 578
+    .line 586
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->setBodeSourceIn(I)V
 
-    .line 579
+    .line 587
     iget v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeSourceIn:I
 
     return v0
@@ -1561,43 +1577,34 @@
 
     const/16 v0, 0x507
 
-    .line 588
+    .line 596
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->setBodeSourceOut(I)V
 
-    .line 590
+    .line 598
     iget v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeSourceOut:I
 
     return v0
 .end method
 
 .method public final readBodeStartFreq()J
-    .locals 3
+    .locals 2
 
     const/16 v0, 0x50a
 
-    .line 503
+    .line 515
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readLong(I)J
 
-    move-result-wide v1
+    move-result-wide v0
 
-    invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/BodeParam;->setBodeStartFreq(J)V
-
-    .line 505
-    iget-wide v1, p0, Lcom/rigol/scope/data/BodeParam;->bodeStartFreq:J
-
-    invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
-
-    move-result-object v1
-
-    invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/BodeParam;->syncData(ILjava/lang/Object;)V
+    invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/BodeParam;->setBodeStartFreq(J)V
 
     const/4 v0, 0x1
 
-    .line 506
+    .line 516
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v0
@@ -1606,13 +1613,13 @@
 
     invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/BodeParam;->syncData(ILjava/lang/Object;)V
 
-    .line 507
+    .line 517
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodeStartFreqAttr()V
 
-    .line 508
+    .line 518
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodeStopFreqAttr()V
 
-    .line 509
+    .line 519
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeStartFreq:J
 
     return-wide v0
@@ -1621,7 +1628,7 @@
 .method public final readBodeStartFreqAttr()V
     .locals 2
 
-    .line 499
+    .line 511
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeStartFreqAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     const/16 v1, 0x50a
@@ -1636,20 +1643,20 @@
 
     const/16 v0, 0x50b
 
-    .line 485
+    .line 499
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/BodeParam;->setBodeStopFreq(J)V
 
-    .line 486
+    .line 500
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodeStartFreqAttr()V
 
-    .line 487
+    .line 501
     invoke-virtual {p0}, Lcom/rigol/scope/data/BodeParam;->readBodeStopFreqAttr()V
 
-    .line 488
+    .line 502
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeStopFreq:J
 
     return-wide v0
@@ -1658,7 +1665,7 @@
 .method public final readBodeStopFreqAttr()V
     .locals 2
 
-    .line 480
+    .line 494
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeStopFreqAttr:Lcom/rigol/scope/cil/MessageAttr;
 
     const/16 v1, 0x50b
@@ -1673,14 +1680,14 @@
 
     const/16 v0, 0x505
 
-    .line 554
+    .line 562
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->setBodeSweepType(I)V
 
-    .line 555
+    .line 563
     iget v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeSweepType:I
 
     return v0
@@ -1691,14 +1698,14 @@
 
     const/16 v0, 0x508
 
-    .line 520
+    .line 528
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readBool(I)Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->setBodeVaramp(Z)V
 
-    .line 521
+    .line 529
     iget-boolean v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeVaramp:Z
 
     return v0
@@ -1709,14 +1716,14 @@
 
     const/16 v0, 0x503
 
-    .line 541
+    .line 549
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readInt(I)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->setBodedispType(I)V
 
-    .line 542
+    .line 550
     iget v0, p0, Lcom/rigol/scope/data/BodeParam;->bodedispType:I
 
     return v0
@@ -1727,14 +1734,14 @@
 
     const/16 v0, 0x50e
 
-    .line 379
+    .line 393
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp1(J)V
 
-    .line 380
+    .line 394
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp1:J
 
     return-wide v0
@@ -1743,7 +1750,7 @@
 .method public final readBodevaramp1AttrAttr()V
     .locals 2
 
-    .line 375
+    .line 389
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp1Attr:Lcom/rigol/scope/cil/MessageAttr;
 
     const/16 v1, 0x50e
@@ -1758,14 +1765,14 @@
 
     const/16 v0, 0x50f
 
-    .line 394
+    .line 408
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp2(J)V
 
-    .line 395
+    .line 409
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp2:J
 
     return-wide v0
@@ -1774,7 +1781,7 @@
 .method public final readBodevaramp2AttrAttr()V
     .locals 2
 
-    .line 390
+    .line 404
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp2Attr:Lcom/rigol/scope/cil/MessageAttr;
 
     const/16 v1, 0x50f
@@ -1789,14 +1796,14 @@
 
     const/16 v0, 0x510
 
-    .line 404
+    .line 418
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp3(J)V
 
-    .line 405
+    .line 419
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp3:J
 
     return-wide v0
@@ -1805,7 +1812,7 @@
 .method public final readBodevaramp3AttrAttr()V
     .locals 2
 
-    .line 351
+    .line 365
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp3Attr:Lcom/rigol/scope/cil/MessageAttr;
 
     const/16 v1, 0x510
@@ -1820,14 +1827,14 @@
 
     const/16 v0, 0x511
 
-    .line 415
+    .line 429
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp4(J)V
 
-    .line 416
+    .line 430
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp4:J
 
     return-wide v0
@@ -1836,7 +1843,7 @@
 .method public final readBodevaramp4AttrAttr()V
     .locals 2
 
-    .line 355
+    .line 369
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp4Attr:Lcom/rigol/scope/cil/MessageAttr;
 
     const/16 v1, 0x511
@@ -1851,14 +1858,14 @@
 
     const/16 v0, 0x512
 
-    .line 425
+    .line 439
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp5(J)V
 
-    .line 427
+    .line 441
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp5:J
 
     return-wide v0
@@ -1867,7 +1874,7 @@
 .method public final readBodevaramp5AttrAttr()V
     .locals 2
 
-    .line 359
+    .line 373
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp5Attr:Lcom/rigol/scope/cil/MessageAttr;
 
     const/16 v1, 0x512
@@ -1882,14 +1889,14 @@
 
     const/16 v0, 0x513
 
-    .line 436
+    .line 450
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp6(J)V
 
-    .line 437
+    .line 451
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp6:J
 
     return-wide v0
@@ -1898,7 +1905,7 @@
 .method public final readBodevaramp6AttrAttr()V
     .locals 2
 
-    .line 363
+    .line 377
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp6Attr:Lcom/rigol/scope/cil/MessageAttr;
 
     const/16 v1, 0x513
@@ -1913,14 +1920,14 @@
 
     const/16 v0, 0x514
 
-    .line 446
+    .line 460
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp7(J)V
 
-    .line 447
+    .line 461
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp7:J
 
     return-wide v0
@@ -1929,7 +1936,7 @@
 .method public final readBodevaramp7AttrAttr()V
     .locals 2
 
-    .line 367
+    .line 381
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp7Attr:Lcom/rigol/scope/cil/MessageAttr;
 
     const/16 v1, 0x514
@@ -1944,14 +1951,14 @@
 
     const/16 v0, 0x515
 
-    .line 456
+    .line 470
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readLong(I)J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp8(J)V
 
-    .line 457
+    .line 471
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp8:J
 
     return-wide v0
@@ -1960,7 +1967,7 @@
 .method public final readBodevaramp8AttrAttr()V
     .locals 2
 
-    .line 371
+    .line 385
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp8Attr:Lcom/rigol/scope/cil/MessageAttr;
 
     const/16 v1, 0x515
@@ -1975,7 +1982,7 @@
 
     const/16 v0, 0x51c
 
-    .line 329
+    .line 343
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readBool(I)Z
 
     move-result v0
@@ -1990,14 +1997,14 @@
 
     const/16 v0, 0x51d
 
-    .line 325
+    .line 339
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->readStr(I)Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/BodeParam;->setBodePmgmData(Ljava/lang/String;)V
 
-    .line 326
+    .line 340
     iget-object v1, p0, Lcom/rigol/scope/data/BodeParam;->bodePmgmData:Ljava/lang/String;
 
     invoke-virtual {p0, v0, v1}, Lcom/rigol/scope/data/BodeParam;->syncData(ILjava/lang/Object;)V
@@ -2006,133 +2013,142 @@
 .end method
 
 .method public reset()V
-    .locals 3
+    .locals 4
 
-    .line 694
+    .line 702
     invoke-super {p0}, Lcom/rigol/scope/data/BaseParam;->reset()V
 
     const/4 v0, 0x0
 
-    .line 695
+    .line 703
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->setBodeEnable(Z)V
 
-    .line 696
+    .line 704
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->setBodeRunStopEnable(Z)V
 
     const/4 v1, 0x1
 
-    .line 697
+    .line 705
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/BodeParam;->setBodeRunDispType(I)V
 
     const/4 v2, 0x2
 
-    .line 698
+    .line 706
     invoke-virtual {p0, v2}, Lcom/rigol/scope/data/BodeParam;->setBodeSourceOut(I)V
 
-    .line 699
+    .line 707
     invoke-virtual {p0, v1}, Lcom/rigol/scope/data/BodeParam;->setBodeSourceIn(I)V
 
-    const/16 v1, 0xa
-
-    .line 700
-    invoke-virtual {p0, v1}, Lcom/rigol/scope/data/BodeParam;->setBodePointNum(I)V
-
-    .line 701
-    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->setBodeSweepType(I)V
-
-    .line 702
-    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->setBodedispType(I)V
-
-    .line 703
-    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->setBodeImpedace(Z)V
-
-    .line 704
-    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->setBodeVaramp(Z)V
-
-    const-wide/32 v1, 0x5f5e100
-
-    .line 705
-    invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/BodeParam;->setBodeStartFreq(J)V
-
-    const-wide v1, 0xe8d4a51000L
-
-    .line 706
-    invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/BodeParam;->setBodeStopFreq(J)V
-
-    const-wide/32 v1, 0xbebc200
-
-    .line 707
-    invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/BodeParam;->setBodeAmpout(J)V
+    const/16 v2, 0xa
 
     .line 708
-    invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp1(J)V
+    invoke-virtual {p0, v2}, Lcom/rigol/scope/data/BodeParam;->setBodePointNum(I)V
 
     .line 709
-    invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp2(J)V
+    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->setBodeSweepType(I)V
 
     .line 710
-    invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp3(J)V
+    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->setBodedispType(I)V
 
     .line 711
-    invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp4(J)V
+    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->setBodeImpedace(Z)V
 
     .line 712
-    invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp5(J)V
+    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->setBodeVaramp(Z)V
+
+    const-wide/32 v2, 0x5f5e100
 
     .line 713
-    invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp6(J)V
+    invoke-virtual {p0, v2, v3}, Lcom/rigol/scope/data/BodeParam;->setBodeStartFreq(J)V
+
+    const-wide v2, 0xe8d4a51000L
 
     .line 714
-    invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp7(J)V
+    invoke-virtual {p0, v2, v3}, Lcom/rigol/scope/data/BodeParam;->setBodeStopFreq(J)V
+
+    const-wide/32 v2, 0xbebc200
 
     .line 715
-    invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp8(J)V
-
-    const-string v1, ""
+    invoke-virtual {p0, v2, v3}, Lcom/rigol/scope/data/BodeParam;->setBodeAmpout(J)V
 
     .line 716
-    invoke-virtual {p0, v1}, Lcom/rigol/scope/data/BodeParam;->setBodeData(Ljava/lang/String;)V
+    invoke-virtual {p0, v2, v3}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp1(J)V
 
     .line 717
-    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->setBodeDataWidth(I)V
-
-    const/16 v1, 0x3c
+    invoke-virtual {p0, v2, v3}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp2(J)V
 
     .line 718
-    invoke-virtual {p0, v1}, Lcom/rigol/scope/data/BodeParam;->setBodeDataGain(I)V
-
-    const/16 v1, 0xb4
+    invoke-virtual {p0, v2, v3}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp3(J)V
 
     .line 719
-    invoke-virtual {p0, v1}, Lcom/rigol/scope/data/BodeParam;->setBodeDataRange(I)V
-
-    const-wide/16 v1, 0x0
+    invoke-virtual {p0, v2, v3}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp4(J)V
 
     .line 720
-    invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/BodeParam;->setLast_one(D)V
+    invoke-virtual {p0, v2, v3}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp5(J)V
 
     .line 721
-    invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/BodeParam;->setSpacing_width_unit(D)V
+    invoke-virtual {p0, v2, v3}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp6(J)V
 
     .line 722
-    invoke-virtual {p0, v1, v2}, Lcom/rigol/scope/data/BodeParam;->setSpacing_heightunit(D)V
-
-    const/4 v1, 0x0
+    invoke-virtual {p0, v2, v3}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp7(J)V
 
     .line 723
-    invoke-virtual {p0, v1}, Lcom/rigol/scope/data/BodeParam;->setSpacing_width_middley(F)V
+    invoke-virtual {p0, v2, v3}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp8(J)V
+
+    const-string v2, ""
 
     .line 724
-    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-
-    move-result-object v1
-
-    const/16 v2, 0x501
-
-    invoke-virtual {p0, v2, v1}, Lcom/rigol/scope/data/BodeParam;->syncData(ILjava/lang/Object;)V
+    invoke-virtual {p0, v2}, Lcom/rigol/scope/data/BodeParam;->setBodeData(Ljava/lang/String;)V
 
     .line 725
+    invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->setBodeDataWidth(I)V
+
+    const/16 v2, 0x3c
+
+    .line 726
+    invoke-virtual {p0, v2}, Lcom/rigol/scope/data/BodeParam;->setBodeDataGain(I)V
+
+    const/16 v2, 0xb4
+
+    .line 727
+    invoke-virtual {p0, v2}, Lcom/rigol/scope/data/BodeParam;->setBodeDataRange(I)V
+
+    const-wide/16 v2, 0x0
+
+    .line 728
+    invoke-virtual {p0, v2, v3}, Lcom/rigol/scope/data/BodeParam;->setLast_one(D)V
+
+    .line 729
+    invoke-virtual {p0, v2, v3}, Lcom/rigol/scope/data/BodeParam;->setSpacing_width_unit(D)V
+
+    .line 730
+    invoke-virtual {p0, v2, v3}, Lcom/rigol/scope/data/BodeParam;->setSpacing_heightunit(D)V
+
+    const/4 v2, 0x0
+
+    .line 731
+    invoke-virtual {p0, v2}, Lcom/rigol/scope/data/BodeParam;->setSpacing_width_middley(F)V
+
+    .line 732
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v2
+
+    const/16 v3, 0x501
+
+    invoke-virtual {p0, v3, v2}, Lcom/rigol/scope/data/BodeParam;->syncData(ILjava/lang/Object;)V
+
+    .line 733
     invoke-virtual {p0, v0}, Lcom/rigol/scope/data/BodeParam;->setFirEnable(Z)V
+
+    .line 734
+    invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v0
+
+    const/16 v1, 0x502
+
+    invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/BodeParam;->syncData(ILjava/lang/Object;)V
 
     return-void
 .end method
@@ -2140,12 +2156,12 @@
 .method public final saveBodeAmpout(J)V
     .locals 1
 
-    .line 475
+    .line 489
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->setBodeAmpout(J)V
 
     const/16 v0, 0x50d
 
-    .line 476
+    .line 490
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->saveLong(IJ)I
 
     return-void
@@ -2154,15 +2170,15 @@
 .method public final saveBodeEnable(Z)V
     .locals 1
 
-    .line 617
+    .line 625
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->setBodeEnable(Z)V
 
     const/16 v0, 0x501
 
-    .line 618
+    .line 626
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/BodeParam;->saveBool(IZ)I
 
-    .line 619
+    .line 627
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object p1
@@ -2175,12 +2191,12 @@
 .method public final saveBodeImpedace(Z)V
     .locals 1
 
-    .line 536
+    .line 544
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->setBodeImpedace(Z)V
 
     const/16 v0, 0x509
 
-    .line 537
+    .line 545
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/BodeParam;->saveBool(IZ)I
 
     return-void
@@ -2189,12 +2205,12 @@
 .method public final saveBodePointNum(I)V
     .locals 1
 
-    .line 573
+    .line 581
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->setBodePointNum(I)V
 
     const/16 v0, 0x50c
 
-    .line 574
+    .line 582
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/BodeParam;->saveInt(II)I
 
     return-void
@@ -2203,12 +2219,12 @@
 .method public final saveBodeRunDispType(I)V
     .locals 1
 
-    .line 605
+    .line 613
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->setBodeRunDispType(I)V
 
     const/16 v0, 0x503
 
-    .line 606
+    .line 614
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/BodeParam;->saveInt(II)I
 
     return-void
@@ -2217,20 +2233,20 @@
 .method public final saveBodeRunStopEnable(Z)V
     .locals 1
 
-    .line 634
+    .line 642
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->setBodeRunStopEnable(Z)V
 
-    .line 635
+    .line 643
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bode_resultlist:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
 
     const/16 v0, 0x502
 
-    .line 636
+    .line 644
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/BodeParam;->saveBool(IZ)I
 
-    .line 637
+    .line 645
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object p1
@@ -2243,12 +2259,12 @@
 .method public final saveBodeSourceIn(I)V
     .locals 1
 
-    .line 583
+    .line 591
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->setBodeSourceIn(I)V
 
     const/16 v0, 0x506
 
-    .line 584
+    .line 592
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/BodeParam;->saveInt(II)I
 
     return-void
@@ -2257,12 +2273,12 @@
 .method public final saveBodeSourceOut(I)V
     .locals 1
 
-    .line 594
+    .line 602
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->setBodeSourceOut(I)V
 
     const/16 v0, 0x507
 
-    .line 595
+    .line 603
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/BodeParam;->saveInt(II)I
 
     return-void
@@ -2271,42 +2287,26 @@
 .method public final saveBodeStartFreq(J)V
     .locals 1
 
-    .line 513
+    .line 523
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->setBodeStartFreq(J)V
 
     const/16 v0, 0x50a
 
-    .line 515
+    .line 524
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->saveLong(IJ)I
-
-    .line 516
-    invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
-
-    move-result-object p1
-
-    invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/BodeParam;->syncData(ILjava/lang/Object;)V
 
     return-void
 .end method
 
 .method public final saveBodeStopFreq(J)V
-    .locals 2
+    .locals 1
 
-    .line 492
+    .line 506
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->setBodeStopFreq(J)V
-
-    .line 493
-    invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
-
-    move-result-object v0
-
-    const/16 v1, 0x50a
-
-    invoke-virtual {p0, v1, v0}, Lcom/rigol/scope/data/BodeParam;->syncData(ILjava/lang/Object;)V
 
     const/16 v0, 0x50b
 
-    .line 494
+    .line 507
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->saveLong(IJ)I
 
     return-void
@@ -2315,12 +2315,12 @@
 .method public final saveBodeSweepType(I)V
     .locals 1
 
-    .line 559
+    .line 567
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->setBodeSweepType(I)V
 
     const/16 v0, 0x505
 
-    .line 560
+    .line 568
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/BodeParam;->saveInt(II)I
 
     return-void
@@ -2329,12 +2329,12 @@
 .method public final saveBodeVaramp(Z)V
     .locals 1
 
-    .line 525
+    .line 533
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->setBodeVaramp(Z)V
 
     const/16 v0, 0x508
 
-    .line 526
+    .line 534
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/BodeParam;->saveBool(IZ)I
 
     return-void
@@ -2343,15 +2343,15 @@
 .method public final saveBodedispType(I)V
     .locals 1
 
-    .line 546
+    .line 554
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->setBodedispType(I)V
 
     const/16 v0, 0x503
 
-    .line 547
+    .line 555
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/BodeParam;->saveInt(II)I
 
-    .line 549
+    .line 557
     iget-boolean p1, p0, Lcom/rigol/scope/data/BodeParam;->bodeEnable:Z
 
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -2368,12 +2368,12 @@
 .method public final saveBodevaramp1(J)V
     .locals 1
 
-    .line 384
+    .line 398
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp1(J)V
 
     const/16 v0, 0x50e
 
-    .line 386
+    .line 400
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->saveLong(IJ)I
 
     return-void
@@ -2382,12 +2382,12 @@
 .method public final saveBodevaramp2(J)V
     .locals 1
 
-    .line 399
+    .line 413
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp2(J)V
 
     const/16 v0, 0x50f
 
-    .line 400
+    .line 414
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->saveLong(IJ)I
 
     return-void
@@ -2396,12 +2396,12 @@
 .method public final saveBodevaramp3(J)V
     .locals 1
 
-    .line 409
+    .line 423
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp3(J)V
 
     const/16 v0, 0x510
 
-    .line 411
+    .line 425
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->saveLong(IJ)I
 
     return-void
@@ -2410,12 +2410,12 @@
 .method public final saveBodevaramp4(J)V
     .locals 1
 
-    .line 420
+    .line 434
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp4(J)V
 
     const/16 v0, 0x511
 
-    .line 421
+    .line 435
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->saveLong(IJ)I
 
     return-void
@@ -2424,12 +2424,12 @@
 .method public final saveBodevaramp5(J)V
     .locals 1
 
-    .line 431
+    .line 445
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp5(J)V
 
     const/16 v0, 0x512
 
-    .line 432
+    .line 446
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->saveLong(IJ)I
 
     return-void
@@ -2438,12 +2438,12 @@
 .method public final saveBodevaramp6(J)V
     .locals 1
 
-    .line 441
+    .line 455
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp6(J)V
 
     const/16 v0, 0x513
 
-    .line 442
+    .line 456
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->saveLong(IJ)I
 
     return-void
@@ -2452,12 +2452,12 @@
 .method public final saveBodevaramp7(J)V
     .locals 1
 
-    .line 451
+    .line 465
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp7(J)V
 
     const/16 v0, 0x514
 
-    .line 452
+    .line 466
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->saveLong(IJ)I
 
     return-void
@@ -2466,12 +2466,12 @@
 .method public final saveBodevaramp8(J)V
     .locals 1
 
-    .line 461
+    .line 475
     invoke-virtual {p0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->setBodevaramp8(J)V
 
     const/16 v0, 0x515
 
-    .line 462
+    .line 476
     invoke-virtual {p0, v0, p1, p2}, Lcom/rigol/scope/data/BodeParam;->saveLong(IJ)I
 
     return-void
@@ -2480,12 +2480,12 @@
 .method public final saveFirEnable(Z)V
     .locals 1
 
-    .line 332
+    .line 346
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->setFirEnable(Z)V
 
     const/16 v0, 0x51c
 
-    .line 333
+    .line 347
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/BodeParam;->saveBool(IZ)I
 
     return-void
@@ -2494,7 +2494,7 @@
 .method public final setBodeAmpout(J)V
     .locals 3
 
-    .line 139
+    .line 141
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeAmpout:J
 
     invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -2509,12 +2509,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/BodeParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 140
+    .line 142
     iput-wide p1, p0, Lcom/rigol/scope/data/BodeParam;->bodeAmpout:J
 
     const/16 p1, 0x5b
 
-    .line 141
+    .line 143
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2536,7 +2536,7 @@
 .method public final setBodeCursorPosition(I)V
     .locals 0
 
-    .line 308
+    .line 322
     iput p1, p0, Lcom/rigol/scope/data/BodeParam;->bodeCursorPosition:I
 
     return-void
@@ -2549,19 +2549,19 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 211
+    .line 213
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeData:Ljava/lang/String;
 
     const-string v1, "chNum"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/BodeParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 212
+    .line 214
     iput-object p1, p0, Lcom/rigol/scope/data/BodeParam;->bodeData:Ljava/lang/String;
 
     const/16 p1, 0x77
 
-    .line 213
+    .line 215
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2570,7 +2570,7 @@
 .method public final setBodeDataGain(I)V
     .locals 3
 
-    .line 233
+    .line 235
     iget v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeDataGain:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -2585,12 +2585,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/BodeParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 234
+    .line 236
     iput p1, p0, Lcom/rigol/scope/data/BodeParam;->bodeDataGain:I
 
     const/16 p1, 0x5d
 
-    .line 235
+    .line 237
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2599,7 +2599,7 @@
 .method public final setBodeDataRange(I)V
     .locals 3
 
-    .line 241
+    .line 243
     iget v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeDataRange:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -2614,12 +2614,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/BodeParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 242
+    .line 244
     iput p1, p0, Lcom/rigol/scope/data/BodeParam;->bodeDataRange:I
 
     const/16 p1, 0x5e
 
-    .line 243
+    .line 245
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2649,7 +2649,7 @@
 .method public final setBodeDataWidth(I)V
     .locals 3
 
-    .line 225
+    .line 227
     iget v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeDataWidth:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -2664,12 +2664,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/BodeParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 226
+    .line 228
     iput p1, p0, Lcom/rigol/scope/data/BodeParam;->bodeDataWidth:I
 
     const/16 p1, 0x77
 
-    .line 227
+    .line 229
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2707,12 +2707,12 @@
 .method public final setBodeEnable1(Z)V
     .locals 1
 
-    .line 623
+    .line 631
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->setBodeEnable(Z)V
 
     const/16 v0, 0x501
 
-    .line 624
+    .line 632
     invoke-virtual {p0, v0, p1}, Lcom/rigol/scope/data/BodeParam;->saveBool(IZ)I
 
     return-void
@@ -2750,7 +2750,7 @@
 .method public final setBodeMinPop(Z)V
     .locals 3
 
-    .line 301
+    .line 315
     iget-boolean v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeMinPop:Z
 
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -2765,12 +2765,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/BodeParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 302
+    .line 316
     iput-boolean p1, p0, Lcom/rigol/scope/data/BodeParam;->bodeMinPop:Z
 
     const/16 p1, 0x63
 
-    .line 303
+    .line 317
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2783,19 +2783,19 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 218
+    .line 220
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bodePmgmData:Ljava/lang/String;
 
     const-string v1, "chNum"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/BodeParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 219
+    .line 221
     iput-object p1, p0, Lcom/rigol/scope/data/BodeParam;->bodePmgmData:Ljava/lang/String;
 
     const/16 p1, 0x65
 
-    .line 220
+    .line 222
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -2985,6 +2985,17 @@
     .line 124
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
 
+    .line 125
+    iget-wide p1, p0, Lcom/rigol/scope/data/BodeParam;->bodeStartFreq:J
+
+    invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object p1
+
+    const/16 p2, 0x50a
+
+    invoke-virtual {p0, p2, p1}, Lcom/rigol/scope/data/BodeParam;->syncData(ILjava/lang/Object;)V
+
     return-void
 .end method
 
@@ -3004,7 +3015,7 @@
 .method public final setBodeStopFreq(J)V
     .locals 3
 
-    .line 130
+    .line 131
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->bodeStopFreq:J
 
     invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -3019,13 +3030,24 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/BodeParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 131
+    .line 132
     iput-wide p1, p0, Lcom/rigol/scope/data/BodeParam;->bodeStopFreq:J
 
     const/16 p1, 0x6c
 
-    .line 132
+    .line 133
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
+
+    .line 134
+    iget-wide p1, p0, Lcom/rigol/scope/data/BodeParam;->bodeStopFreq:J
+
+    invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object p1
+
+    const/16 p2, 0x50b
+
+    invoke-virtual {p0, p2, p1}, Lcom/rigol/scope/data/BodeParam;->syncData(ILjava/lang/Object;)V
 
     return-void
 .end method
@@ -3108,19 +3130,19 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 277
+    .line 291
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bode_result:Ljava/lang/String;
 
     const-string v1, "chNum"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/BodeParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 278
+    .line 292
     iput-object p1, p0, Lcom/rigol/scope/data/BodeParam;->bode_result:Ljava/lang/String;
 
     const/16 p1, 0x5e
 
-    .line 279
+    .line 293
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3141,19 +3163,19 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 289
+    .line 303
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bode_resultDatalist:Ljava/util/ArrayList;
 
     const-string v1, "chNum"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/BodeParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 290
+    .line 304
     iput-object p1, p0, Lcom/rigol/scope/data/BodeParam;->bode_resultDatalist:Ljava/util/ArrayList;
 
     const/16 p1, 0x5e
 
-    .line 291
+    .line 305
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3174,19 +3196,19 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 283
+    .line 297
     iget-object v0, p0, Lcom/rigol/scope/data/BodeParam;->bode_resultlist:Ljava/util/ArrayList;
 
     const-string v1, "chNum"
 
     invoke-virtual {p0, v1, v0, p1}, Lcom/rigol/scope/data/BodeParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 284
+    .line 298
     iput-object p1, p0, Lcom/rigol/scope/data/BodeParam;->bode_resultlist:Ljava/util/ArrayList;
 
     const/16 p1, 0x5e
 
-    .line 285
+    .line 299
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3224,7 +3246,7 @@
 .method public final setBodeshow(Z)V
     .locals 0
 
-    .line 336
+    .line 350
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->setBodeMinPop(Z)V
 
     return-void
@@ -3233,7 +3255,7 @@
 .method public final setBodevaramp1(J)V
     .locals 3
 
-    .line 147
+    .line 149
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp1:J
 
     invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -3248,12 +3270,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/BodeParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 148
+    .line 150
     iput-wide p1, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp1:J
 
     const/16 p1, 0x70
 
-    .line 149
+    .line 151
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3275,7 +3297,7 @@
 .method public final setBodevaramp2(J)V
     .locals 3
 
-    .line 155
+    .line 157
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp2:J
 
     invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -3290,12 +3312,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/BodeParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 156
+    .line 158
     iput-wide p1, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp2:J
 
     const/16 p1, 0x71
 
-    .line 157
+    .line 159
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3317,7 +3339,7 @@
 .method public final setBodevaramp3(J)V
     .locals 3
 
-    .line 163
+    .line 165
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp3:J
 
     invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -3332,12 +3354,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/BodeParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 164
+    .line 166
     iput-wide p1, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp3:J
 
     const/16 p1, 0x72
 
-    .line 165
+    .line 167
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3359,7 +3381,7 @@
 .method public final setBodevaramp4(J)V
     .locals 3
 
-    .line 171
+    .line 173
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp4:J
 
     invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -3374,12 +3396,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/BodeParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 172
+    .line 174
     iput-wide p1, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp4:J
 
     const/16 p1, 0x73
 
-    .line 173
+    .line 175
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3401,7 +3423,7 @@
 .method public final setBodevaramp5(J)V
     .locals 3
 
-    .line 179
+    .line 181
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp5:J
 
     invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -3416,12 +3438,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/BodeParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 180
+    .line 182
     iput-wide p1, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp5:J
 
     const/16 p1, 0x74
 
-    .line 181
+    .line 183
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3443,7 +3465,7 @@
 .method public final setBodevaramp6(J)V
     .locals 3
 
-    .line 187
+    .line 189
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp6:J
 
     invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -3458,12 +3480,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/BodeParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 188
+    .line 190
     iput-wide p1, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp6:J
 
     const/16 p1, 0x75
 
-    .line 189
+    .line 191
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3485,7 +3507,7 @@
 .method public final setBodevaramp7(J)V
     .locals 3
 
-    .line 195
+    .line 197
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp7:J
 
     invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -3500,12 +3522,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/BodeParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 196
+    .line 198
     iput-wide p1, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp7:J
 
     const/16 p1, 0x76
 
-    .line 197
+    .line 199
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3527,7 +3549,7 @@
 .method public final setBodevaramp8(J)V
     .locals 3
 
-    .line 203
+    .line 205
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp8:J
 
     invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
@@ -3542,12 +3564,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/BodeParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 204
+    .line 206
     iput-wide p1, p0, Lcom/rigol/scope/data/BodeParam;->bodevaramp8:J
 
     const/16 p1, 0x77
 
-    .line 205
+    .line 207
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3595,10 +3617,39 @@
     return-void
 .end method
 
+.method public final setHorLineWidth(D)V
+    .locals 3
+
+    .line 263
+    iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->horLineWidth:D
+
+    invoke-static {v0, v1}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
+
+    move-result-object v0
+
+    invoke-static {p1, p2}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
+
+    move-result-object v1
+
+    const-string v2, "horLineWidth"
+
+    invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/BodeParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
+
+    .line 264
+    iput-wide p1, p0, Lcom/rigol/scope/data/BodeParam;->horLineWidth:D
+
+    const/16 p1, 0x5e
+
+    .line 265
+    invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
+
+    return-void
+.end method
+
 .method public final setLast_one(D)V
     .locals 3
 
-    .line 250
+    .line 252
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->last_one:D
 
     invoke-static {v0, v1}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
@@ -3613,12 +3664,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/BodeParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 251
+    .line 253
     iput-wide p1, p0, Lcom/rigol/scope/data/BodeParam;->last_one:D
 
     const/16 p1, 0x5e
 
-    .line 252
+    .line 254
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3669,7 +3720,7 @@
 .method public final setSpacing_heightunit(D)V
     .locals 3
 
-    .line 264
+    .line 278
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->spacing_heightunit:D
 
     invoke-static {v0, v1}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
@@ -3684,12 +3735,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/BodeParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 265
+    .line 279
     iput-wide p1, p0, Lcom/rigol/scope/data/BodeParam;->spacing_heightunit:D
 
     const/16 p1, 0x5e
 
-    .line 266
+    .line 280
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3698,7 +3749,7 @@
 .method public final setSpacing_width_middley(F)V
     .locals 3
 
-    .line 270
+    .line 284
     iget v0, p0, Lcom/rigol/scope/data/BodeParam;->spacing_width_middley:F
 
     invoke-static {v0}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
@@ -3713,12 +3764,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/BodeParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 271
+    .line 285
     iput p1, p0, Lcom/rigol/scope/data/BodeParam;->spacing_width_middley:F
 
     const/16 p1, 0x5e
 
-    .line 272
+    .line 286
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
 
     return-void
@@ -3727,7 +3778,7 @@
 .method public final setSpacing_width_unit(D)V
     .locals 3
 
-    .line 258
+    .line 272
     iget-wide v0, p0, Lcom/rigol/scope/data/BodeParam;->spacing_width_unit:D
 
     invoke-static {v0, v1}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
@@ -3742,12 +3793,12 @@
 
     invoke-virtual {p0, v2, v0, v1}, Lcom/rigol/scope/data/BodeParam;->log(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    .line 259
+    .line 273
     iput-wide p1, p0, Lcom/rigol/scope/data/BodeParam;->spacing_width_unit:D
 
     const/16 p1, 0x5e
 
-    .line 260
+    .line 274
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/BodeParam;->notifyPropertyChanged(I)V
 
     return-void

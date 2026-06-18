@@ -74,7 +74,7 @@
 .method public final onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1098
+    .line 1213
     iget-object p1, p0, Lcom/rigol/scope/views/grid/RtsaGridRulerView$7;->this$0:Lcom/rigol/scope/views/grid/RtsaGridRulerView;
 
     invoke-static {p1}, Lcom/rigol/scope/views/grid/RtsaGridRulerView;->access$updateXRulers(Lcom/rigol/scope/views/grid/RtsaGridRulerView;)V

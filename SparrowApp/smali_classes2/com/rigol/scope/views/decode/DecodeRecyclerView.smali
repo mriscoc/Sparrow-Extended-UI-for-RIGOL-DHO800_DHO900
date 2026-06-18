@@ -591,7 +591,7 @@
 
     move-result v1
 
-    const/16 v2, 0x5901
+    const/16 v2, 0x5b01
 
     invoke-virtual {v0, v1, v2}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
@@ -1063,62 +1063,6 @@
 
 
 # virtual methods
-.method public synthetic lambda$aBKeyInit$14$DecodeRecyclerView(ILcom/rigol/scope/data/MappingObject;)V
-    .locals 1
-
-    .line 362
-    iget-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->clickedView:Landroid/view/View;
-
-    if-nez v0, :cond_0
-
-    return-void
-
-    .line 363
-    :cond_0
-    invoke-virtual {v0}, Landroid/view/View;->getId()I
-
-    move-result v0
-
-    sparse-switch v0, :sswitch_data_0
-
-    goto :goto_0
-
-    .line 365
-    :sswitch_0
-    invoke-direct {p0, p2}, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->selectTypeValue(Lcom/rigol/scope/data/MappingObject;)V
-
-    goto :goto_0
-
-    .line 368
-    :sswitch_1
-    invoke-direct {p0, p1}, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->selectFormatValue(I)V
-
-    goto :goto_0
-
-    .line 374
-    :sswitch_2
-    invoke-direct {p0, p1}, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->selectEventViewValue(I)V
-
-    goto :goto_0
-
-    .line 371
-    :sswitch_3
-    invoke-direct {p0, p1}, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->selectEventFormatValue(I)V
-
-    :goto_0
-    return-void
-
-    nop
-
-    :sswitch_data_0
-    .sparse-switch
-        0x7f0a0278 -> :sswitch_3
-        0x7f0a027d -> :sswitch_2
-        0x7f0a028e -> :sswitch_1
-        0x7f0a034c -> :sswitch_0
-    .end sparse-switch
-.end method
-
 .method public synthetic lambda$aBKeyInit$15$DecodeRecyclerView(Landroid/view/KeyEvent;)V
     .locals 11
 
@@ -1164,9 +1108,9 @@
 
     const/4 v9, 0x0
 
-    new-instance v10, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$EGtQjEx-OdDnaEvKooCXSQT43kc;
+    new-instance v10, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$HU4iK7B9LxEja_-MbRdiVu6fId0;
 
-    invoke-direct {v10, p0}, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$EGtQjEx-OdDnaEvKooCXSQT43kc;-><init>(Lcom/rigol/scope/views/decode/DecodeRecyclerView;)V
+    invoke-direct {v10, p0}, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$HU4iK7B9LxEja_-MbRdiVu6fId0;-><init>(Lcom/rigol/scope/views/decode/DecodeRecyclerView;)V
 
     move-object v2, p1
 
@@ -1181,108 +1125,6 @@
 
     .line 134
     iput-object p1, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->optionParam:Lcom/rigol/scope/data/OptionParam;
-
-    return-void
-.end method
-
-.method public synthetic lambda$initView$1$DecodeRecyclerView(Lcom/rigol/scope/data/MappingObject;)Ljava/lang/Boolean;
-    .locals 4
-
-    const/4 v0, 0x1
-
-    .line 169
-    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-
-    move-result-object v1
-
-    if-nez p1, :cond_0
-
-    return-object v1
-
-    .line 172
-    :cond_0
-    invoke-virtual {p1}, Lcom/rigol/scope/data/MappingObject;->getValue()I
-
-    move-result p1
-
-    invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getDecodeBusTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
-
-    move-result-object p1
-
-    if-nez p1, :cond_1
-
-    return-object v1
-
-    .line 178
-    :cond_1
-    iget-object v1, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->optionParam:Lcom/rigol/scope/data/OptionParam;
-
-    const-class v2, Lcom/rigol/scope/viewmodels/UtilityViewModel;
-
-    invoke-static {v2}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
-
-    move-result-object v2
-
-    check-cast v2, Lcom/rigol/scope/viewmodels/UtilityViewModel;
-
-    invoke-virtual {v2}, Lcom/rigol/scope/viewmodels/UtilityViewModel;->getValue()Ljava/lang/Object;
-
-    move-result-object v2
-
-    check-cast v2, Lcom/rigol/scope/data/UtilityParam;
-
-    invoke-virtual {v2}, Lcom/rigol/scope/data/UtilityParam;->getSeries()I
-
-    move-result v2
-
-    const/16 v3, 0x320
-
-    if-ne v2, v3, :cond_2
-
-    goto :goto_0
-
-    :cond_2
-    const/4 v0, 0x0
-
-    :goto_0
-    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-
-    move-result-object v0
-
-    invoke-static {p1, v1, v0}, Lcom/rigol/scope/utilities/KtUtilKt;->decodeBusTypeEnable(Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;Lcom/rigol/scope/data/OptionParam;Ljava/lang/Boolean;)Z
-
-    move-result p1
-
-    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-
-    move-result-object p1
-
-    return-object p1
-.end method
-
-.method public synthetic lambda$initView$10$DecodeRecyclerView(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
-    .locals 0
-
-    .line 263
-    iput-object p1, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
-
-    .line 264
-    iput-object p2, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
-
-    .line 265
-    iput-object p3, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->mappingObjects:Ljava/util/List;
-
-    .line 266
-    iput-object p4, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->clickedView:Landroid/view/View;
-
-    return-void
-.end method
-
-.method public synthetic lambda$initView$11$DecodeRecyclerView(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
-    .locals 0
-
-    .line 268
-    invoke-direct {p0, p3}, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->selectEventViewValue(I)V
 
     return-void
 .end method
@@ -1354,7 +1196,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f100377
+    const v0, 0x7f10037a
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1430,9 +1272,9 @@
     move-result-object v0
 
     .line 166
-    new-instance v1, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$ENDt0hjwR4D_K9iUDOHQEKj6lCw;
+    new-instance v1, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$YYlGX1UXczSesVx8g6DXn4igWlA;
 
-    invoke-direct {v1, p0}, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$ENDt0hjwR4D_K9iUDOHQEKj6lCw;-><init>(Lcom/rigol/scope/views/decode/DecodeRecyclerView;)V
+    invoke-direct {v1, p0}, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$YYlGX1UXczSesVx8g6DXn4igWlA;-><init>(Lcom/rigol/scope/views/decode/DecodeRecyclerView;)V
 
     invoke-static {v0, v1}, Lcom/rigol/scope/utilities/KtUtilKt;->filter(Ljava/util/List;Lkotlin/jvm/functions/Function1;)Ljava/util/List;
 
@@ -1441,13 +1283,13 @@
     .line 187
     iget-object v1, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->anchorview:Landroid/view/View;
 
-    new-instance v2, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$uAkELh_KCmjb4Wu5RwOr2XvOqhs;
+    new-instance v2, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$nvl1DVvEuisWI-LupriCZ9-jeHU;
 
-    invoke-direct {v2, p0}, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$uAkELh_KCmjb4Wu5RwOr2XvOqhs;-><init>(Lcom/rigol/scope/views/decode/DecodeRecyclerView;)V
+    invoke-direct {v2, p0}, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$nvl1DVvEuisWI-LupriCZ9-jeHU;-><init>(Lcom/rigol/scope/views/decode/DecodeRecyclerView;)V
 
-    new-instance v3, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$2GfdLYmsppA49XtNuyta2jq5zpI;
+    new-instance v3, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$cdeTuLibvQ2lwR2qrOe1E2YKKL0;
 
-    invoke-direct {v3, p0}, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$2GfdLYmsppA49XtNuyta2jq5zpI;-><init>(Lcom/rigol/scope/views/decode/DecodeRecyclerView;)V
+    invoke-direct {v3, p0}, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$cdeTuLibvQ2lwR2qrOe1E2YKKL0;-><init>(Lcom/rigol/scope/views/decode/DecodeRecyclerView;)V
 
     invoke-static {v1, p1, v0, v2, v3}, Lcom/rigol/scope/utilities/ViewUtil;->showSpinner(Landroid/view/View;Landroid/view/View;Ljava/util/List;Lcom/rigol/scope/utilities/AorBManager$OnSpinnerAdapterListener;Lcom/rigol/scope/views/spinner/PopupSpinner$OnItemClickListener;)V
 
@@ -1464,13 +1306,13 @@
     .line 197
     iget-object v1, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->anchorview:Landroid/view/View;
 
-    new-instance v2, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$v4g9KV8oDwccLSpVOF1Y7uD5f2Y;
+    new-instance v2, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$KqoFGvMy1JNTlbqMWEHnMedqWXU;
 
-    invoke-direct {v2, p0}, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$v4g9KV8oDwccLSpVOF1Y7uD5f2Y;-><init>(Lcom/rigol/scope/views/decode/DecodeRecyclerView;)V
+    invoke-direct {v2, p0}, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$KqoFGvMy1JNTlbqMWEHnMedqWXU;-><init>(Lcom/rigol/scope/views/decode/DecodeRecyclerView;)V
 
-    new-instance v3, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$Oguito7ORQqFTQWW1c7dy-JspaU;
+    new-instance v3, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$Rb_q1I9ZA-c0Cg-s2gMJt2FFts4;
 
-    invoke-direct {v3, p0}, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$Oguito7ORQqFTQWW1c7dy-JspaU;-><init>(Lcom/rigol/scope/views/decode/DecodeRecyclerView;)V
+    invoke-direct {v3, p0}, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$Rb_q1I9ZA-c0Cg-s2gMJt2FFts4;-><init>(Lcom/rigol/scope/views/decode/DecodeRecyclerView;)V
 
     invoke-static {v1, p1, v0, v2, v3}, Lcom/rigol/scope/utilities/ViewUtil;->showSpinner(Landroid/view/View;Landroid/view/View;Ljava/util/List;Lcom/rigol/scope/utilities/AorBManager$OnSpinnerAdapterListener;Lcom/rigol/scope/views/spinner/PopupSpinner$OnItemClickListener;)V
 
@@ -1492,7 +1334,7 @@
 
     move-result v0
 
-    const/16 v2, 0x591d
+    const/16 v2, 0x5b1d
 
     invoke-virtual {p1, v0, v2, v1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
@@ -1515,7 +1357,7 @@
 
     move-result v0
 
-    const/16 v1, 0x59ad
+    const/16 v1, 0x5bad
 
     .line 212
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/cil/API;->UI_QueryStr(II)Ljava/lang/String;
@@ -1538,7 +1380,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f1011c1
+    const v0, 0x7f1011d6
 
     invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1616,7 +1458,7 @@
 
     move-result v0
 
-    const/16 v2, 0x5924
+    const/16 v2, 0x5b24
 
     invoke-virtual {p1, v0, v2, v1}, Lcom/rigol/scope/cil/API;->UI_PostInt32(III)I
 
@@ -1637,13 +1479,13 @@
     .line 241
     iget-object v1, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->anchorview:Landroid/view/View;
 
-    new-instance v2, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$gIE80XjJ1mtZ4-bBpf2YK1xi_Ks;
+    new-instance v2, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$gU59Pnh8-Cvft24A5NIy5WrHMN8;
 
-    invoke-direct {v2, p0}, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$gIE80XjJ1mtZ4-bBpf2YK1xi_Ks;-><init>(Lcom/rigol/scope/views/decode/DecodeRecyclerView;)V
+    invoke-direct {v2, p0}, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$gU59Pnh8-Cvft24A5NIy5WrHMN8;-><init>(Lcom/rigol/scope/views/decode/DecodeRecyclerView;)V
 
-    new-instance v3, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$uwVINqJ67iKdXsSwXn7842H1D1M;
+    new-instance v3, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$GVt4g73-Xz9XIKQuZx3EOrBBuSk;
 
-    invoke-direct {v3, p0}, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$uwVINqJ67iKdXsSwXn7842H1D1M;-><init>(Lcom/rigol/scope/views/decode/DecodeRecyclerView;)V
+    invoke-direct {v3, p0}, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$GVt4g73-Xz9XIKQuZx3EOrBBuSk;-><init>(Lcom/rigol/scope/views/decode/DecodeRecyclerView;)V
 
     invoke-static {v1, p1, v0, v2, v3}, Lcom/rigol/scope/utilities/ViewUtil;->showSpinner(Landroid/view/View;Landroid/view/View;Ljava/util/List;Lcom/rigol/scope/utilities/AorBManager$OnSpinnerAdapterListener;Lcom/rigol/scope/views/spinner/PopupSpinner$OnItemClickListener;)V
 
@@ -1664,13 +1506,13 @@
     .line 251
     iget-object v1, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->anchorview:Landroid/view/View;
 
-    new-instance v2, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$7oWOYR21IdM92T0mvbw3VfeVpjk;
+    new-instance v2, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$XUK7XjRHoQXxxswR5zXm-Ck4ZYI;
 
-    invoke-direct {v2, p0}, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$7oWOYR21IdM92T0mvbw3VfeVpjk;-><init>(Lcom/rigol/scope/views/decode/DecodeRecyclerView;)V
+    invoke-direct {v2, p0}, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$XUK7XjRHoQXxxswR5zXm-Ck4ZYI;-><init>(Lcom/rigol/scope/views/decode/DecodeRecyclerView;)V
 
-    new-instance v3, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$H5l0-UgMFMDKx-KNDMy7jGJRKbU;
+    new-instance v3, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$vAuQr0JPjhvtaS3TdUuKMlkrcq0;
 
-    invoke-direct {v3, p0}, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$H5l0-UgMFMDKx-KNDMy7jGJRKbU;-><init>(Lcom/rigol/scope/views/decode/DecodeRecyclerView;)V
+    invoke-direct {v3, p0}, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$vAuQr0JPjhvtaS3TdUuKMlkrcq0;-><init>(Lcom/rigol/scope/views/decode/DecodeRecyclerView;)V
 
     invoke-static {v1, p1, v0, v2, v3}, Lcom/rigol/scope/utilities/ViewUtil;->showSpinner(Landroid/view/View;Landroid/view/View;Ljava/util/List;Lcom/rigol/scope/utilities/AorBManager$OnSpinnerAdapterListener;Lcom/rigol/scope/views/spinner/PopupSpinner$OnItemClickListener;)V
 
@@ -1691,13 +1533,13 @@
     .line 261
     iget-object v1, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->anchorview:Landroid/view/View;
 
-    new-instance v2, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$QZ1AJ0mPHttLnqzrZWwdAiVJbqc;
+    new-instance v2, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$VsX_EQ-LliFMZuAInor4TTMUmoc;
 
-    invoke-direct {v2, p0}, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$QZ1AJ0mPHttLnqzrZWwdAiVJbqc;-><init>(Lcom/rigol/scope/views/decode/DecodeRecyclerView;)V
+    invoke-direct {v2, p0}, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$VsX_EQ-LliFMZuAInor4TTMUmoc;-><init>(Lcom/rigol/scope/views/decode/DecodeRecyclerView;)V
 
-    new-instance v3, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$_oefYXwO_kEp2fq5e8RWbRDlJaM;
+    new-instance v3, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$rvlYvWyIX4ywlH9BtliGQDAXZUw;
 
-    invoke-direct {v3, p0}, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$_oefYXwO_kEp2fq5e8RWbRDlJaM;-><init>(Lcom/rigol/scope/views/decode/DecodeRecyclerView;)V
+    invoke-direct {v3, p0}, Lcom/rigol/scope/views/decode/-$$Lambda$DecodeRecyclerView$rvlYvWyIX4ywlH9BtliGQDAXZUw;-><init>(Lcom/rigol/scope/views/decode/DecodeRecyclerView;)V
 
     invoke-static {v1, p1, v0, v2, v3}, Lcom/rigol/scope/utilities/ViewUtil;->showSpinner(Landroid/view/View;Landroid/view/View;Ljava/util/List;Lcom/rigol/scope/utilities/AorBManager$OnSpinnerAdapterListener;Lcom/rigol/scope/views/spinner/PopupSpinner$OnItemClickListener;)V
 
@@ -1723,7 +1565,165 @@
     return-void
 .end method
 
-.method public synthetic lambda$initView$2$DecodeRecyclerView(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
+.method public synthetic lambda$null$1$DecodeRecyclerView(Lcom/rigol/scope/data/MappingObject;)Ljava/lang/Boolean;
+    .locals 4
+
+    const/4 v0, 0x1
+
+    .line 169
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v1
+
+    if-nez p1, :cond_0
+
+    return-object v1
+
+    .line 172
+    :cond_0
+    invoke-virtual {p1}, Lcom/rigol/scope/data/MappingObject;->getValue()I
+
+    move-result p1
+
+    invoke-static {p1}, Lcom/rigol/scope/cil/ServiceEnum;->getDecodeBusTypeFromValue1(I)Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;
+
+    move-result-object p1
+
+    if-nez p1, :cond_1
+
+    return-object v1
+
+    .line 178
+    :cond_1
+    iget-object v1, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->optionParam:Lcom/rigol/scope/data/OptionParam;
+
+    const-class v2, Lcom/rigol/scope/viewmodels/UtilityViewModel;
+
+    invoke-static {v2}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
+
+    move-result-object v2
+
+    check-cast v2, Lcom/rigol/scope/viewmodels/UtilityViewModel;
+
+    invoke-virtual {v2}, Lcom/rigol/scope/viewmodels/UtilityViewModel;->getValue()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Lcom/rigol/scope/data/UtilityParam;
+
+    invoke-virtual {v2}, Lcom/rigol/scope/data/UtilityParam;->getSeries()I
+
+    move-result v2
+
+    const/16 v3, 0x320
+
+    if-ne v2, v3, :cond_2
+
+    goto :goto_0
+
+    :cond_2
+    const/4 v0, 0x0
+
+    :goto_0
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v0
+
+    invoke-static {p1, v1, v0}, Lcom/rigol/scope/utilities/KtUtilKt;->decodeBusTypeEnable(Lcom/rigol/scope/cil/ServiceEnum$DecodeBusType;Lcom/rigol/scope/data/OptionParam;Ljava/lang/Boolean;)Z
+
+    move-result p1
+
+    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public synthetic lambda$null$10$DecodeRecyclerView(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
+    .locals 0
+
+    .line 263
+    iput-object p1, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->popupSpinner:Lcom/rigol/scope/views/spinner/PopupSpinner;
+
+    .line 264
+    iput-object p2, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->spinnerAdapter:Lcom/rigol/scope/adapters/SpinnerAdapter;
+
+    .line 265
+    iput-object p3, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->mappingObjects:Ljava/util/List;
+
+    .line 266
+    iput-object p4, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->clickedView:Landroid/view/View;
+
+    return-void
+.end method
+
+.method public synthetic lambda$null$11$DecodeRecyclerView(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
+    .locals 0
+
+    .line 268
+    invoke-direct {p0, p3}, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->selectEventViewValue(I)V
+
+    return-void
+.end method
+
+.method public synthetic lambda$null$14$DecodeRecyclerView(ILcom/rigol/scope/data/MappingObject;)V
+    .locals 1
+
+    .line 362
+    iget-object v0, p0, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->clickedView:Landroid/view/View;
+
+    if-nez v0, :cond_0
+
+    return-void
+
+    .line 363
+    :cond_0
+    invoke-virtual {v0}, Landroid/view/View;->getId()I
+
+    move-result v0
+
+    sparse-switch v0, :sswitch_data_0
+
+    goto :goto_0
+
+    .line 365
+    :sswitch_0
+    invoke-direct {p0, p2}, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->selectTypeValue(Lcom/rigol/scope/data/MappingObject;)V
+
+    goto :goto_0
+
+    .line 368
+    :sswitch_1
+    invoke-direct {p0, p1}, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->selectFormatValue(I)V
+
+    goto :goto_0
+
+    .line 374
+    :sswitch_2
+    invoke-direct {p0, p1}, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->selectEventViewValue(I)V
+
+    goto :goto_0
+
+    .line 371
+    :sswitch_3
+    invoke-direct {p0, p1}, Lcom/rigol/scope/views/decode/DecodeRecyclerView;->selectEventFormatValue(I)V
+
+    :goto_0
+    return-void
+
+    nop
+
+    :sswitch_data_0
+    .sparse-switch
+        0x7f0a0278 -> :sswitch_3
+        0x7f0a027d -> :sswitch_2
+        0x7f0a028e -> :sswitch_1
+        0x7f0a034c -> :sswitch_0
+    .end sparse-switch
+.end method
+
+.method public synthetic lambda$null$2$DecodeRecyclerView(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
     .locals 0
 
     .line 189
@@ -1741,7 +1741,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$initView$3$DecodeRecyclerView(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
+.method public synthetic lambda$null$3$DecodeRecyclerView(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
     .locals 0
 
     .line 194
@@ -1750,7 +1750,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$initView$4$DecodeRecyclerView(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
+.method public synthetic lambda$null$4$DecodeRecyclerView(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
     .locals 0
 
     .line 199
@@ -1768,7 +1768,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$initView$5$DecodeRecyclerView(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
+.method public synthetic lambda$null$5$DecodeRecyclerView(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
     .locals 0
 
     .line 204
@@ -1777,7 +1777,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$initView$6$DecodeRecyclerView(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
+.method public synthetic lambda$null$6$DecodeRecyclerView(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
     .locals 0
 
     .line 243
@@ -1795,7 +1795,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$initView$7$DecodeRecyclerView(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
+.method public synthetic lambda$null$7$DecodeRecyclerView(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
     .locals 0
 
     .line 248
@@ -1804,7 +1804,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$initView$8$DecodeRecyclerView(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
+.method public synthetic lambda$null$8$DecodeRecyclerView(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
     .locals 0
 
     .line 253
@@ -1822,7 +1822,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$initView$9$DecodeRecyclerView(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
+.method public synthetic lambda$null$9$DecodeRecyclerView(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;ILcom/rigol/scope/data/MappingObject;)V
     .locals 0
 
     .line 258

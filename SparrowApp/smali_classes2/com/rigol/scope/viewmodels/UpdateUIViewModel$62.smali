@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/HorizontalParam;)V
     .locals 0
 
-    .line 1278
+    .line 1238
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$62;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$62;->val$param:Lcom/rigol/scope/data/HorizontalParam;
@@ -51,10 +51,10 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 1281
+    .line 1241
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$62;->val$param:Lcom/rigol/scope/data/HorizontalParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->readTriggerStatus()Lcom/rigol/scope/cil/ServiceEnum$ControlStatus;
+    invoke-virtual {p1}, Lcom/rigol/scope/data/HorizontalParam;->readFilter1()Z
 
     return-void
 .end method
@@ -62,7 +62,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1278
+    .line 1238
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$62;->onChanged(Ljava/lang/Boolean;)V

@@ -103,7 +103,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v1, 0x7f10119d
+    const v1, 0x7f1011b0
 
     invoke-static {v1}, Lcom/rigol/scope/utilities/ContextUtil;->getString(I)Ljava/lang/String;
 

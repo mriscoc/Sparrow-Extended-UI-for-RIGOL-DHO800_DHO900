@@ -1,29 +1,22 @@
-version: 2.9.3
-apkFileName: Sparrow_orig_00.01.04.apk
-isFrameworkApk: false
+version: 2.12.1
+apkFileName: Sparrow_orig_00.01.05.00.02.apk
 usesFramework:
   ids:
   - 1
-  tag: null
 sdkInfo:
   minSdkVersion: 25
   targetSdkVersion: 25
 packageInfo:
   forcedPackageId: 127
-  renameManifestPackage: null
 versionInfo:
   versionCode: 1008000
-  versionName: 00.01.04.00.02
-resourcesAreCompressed: false
-sharedLibrary: false
-sparseResources: false
-unknownFiles:
-  version.properties: 0
-  checkstyle/checkstyle-suppressions.xml: 8
-  findbugs/findbugs-exclude-filter.xml: 8
-  pmd/pmd-ruleset.xml: 8
+  versionName: 00.01.05.00.02
 doNotCompress:
-- resources.arsc
+- arsc
+- gif
+- jpg
+- png
+- so
 - META-INF/androidx.activity_activity.version
 - META-INF/androidx.annotation_annotation-experimental.version
 - META-INF/androidx.appcompat_appcompat-resources.version
@@ -75,18 +68,9 @@ doNotCompress:
 - META-INF/androidx.viewpager_viewpager.version
 - META-INF/com.google.android.material_material.version
 - META-INF/javamail.default.address.map
-- png
 - assets/raw/dict_pinyin.dat
-- lib/arm64-v8a/libc++_shared.so
-- lib/arm64-v8a/libjniPdfium.so
-- lib/arm64-v8a/libkbd-lib.so
-- lib/arm64-v8a/libmodft2.so
-- lib/arm64-v8a/libmodpdfium.so
-- lib/arm64-v8a/libmodpng.so
-- lib/arm64-v8a/libscope-auklet.so
 - res/drawable/average.bmp
-- jpg
 - res/drawable/hres.bmp
-- gif
 - res/drawable/normal.bmp
 - res/drawable/peak.bmp
+- version.properties

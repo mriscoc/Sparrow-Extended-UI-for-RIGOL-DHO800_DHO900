@@ -25,7 +25,7 @@
 .method constructor <init>(Lcom/rigol/scope/adapters/MathLogicAdapter;)V
     .locals 0
 
-    .line 367
+    .line 370
     iput-object p1, p0, Lcom/rigol/scope/adapters/MathLogicAdapter$6;->this$0:Lcom/rigol/scope/adapters/MathLogicAdapter;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +38,7 @@
 .method public onClick(Landroid/view/View;)V
     .locals 13
 
-    .line 370
+    .line 373
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathLogicAdapter$6;->this$0:Lcom/rigol/scope/adapters/MathLogicAdapter;
 
     invoke-static {v0}, Lcom/rigol/scope/adapters/MathLogicAdapter;->access$100(Lcom/rigol/scope/adapters/MathLogicAdapter;)Lcom/rigol/scope/utilities/AorBManager;
@@ -55,7 +55,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 371
+    .line 374
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathLogicAdapter$6;->this$0:Lcom/rigol/scope/adapters/MathLogicAdapter;
 
     invoke-static {v0}, Lcom/rigol/scope/adapters/MathLogicAdapter;->access$400(Lcom/rigol/scope/adapters/MathLogicAdapter;)Lcom/rigol/scope/data/MathParam;
@@ -64,7 +64,7 @@
 
     invoke-virtual {v0}, Lcom/rigol/scope/data/MathParam;->readThresholdCH1Attr()V
 
-    .line 372
+    .line 375
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathLogicAdapter$6;->this$0:Lcom/rigol/scope/adapters/MathLogicAdapter;
 
     invoke-static {v0}, Lcom/rigol/scope/adapters/MathLogicAdapter;->access$500(Lcom/rigol/scope/adapters/MathLogicAdapter;)Landroid/view/View;
@@ -73,7 +73,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathLogicAdapter$6;->this$0:Lcom/rigol/scope/adapters/MathLogicAdapter;
 
-    .line 373
+    .line 376
     invoke-static {v0}, Lcom/rigol/scope/adapters/MathLogicAdapter;->access$400(Lcom/rigol/scope/adapters/MathLogicAdapter;)Lcom/rigol/scope/data/MathParam;
 
     move-result-object v0
@@ -84,7 +84,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathLogicAdapter$6;->this$0:Lcom/rigol/scope/adapters/MathLogicAdapter;
 
-    .line 374
+    .line 377
     invoke-static {v0}, Lcom/rigol/scope/adapters/MathLogicAdapter;->access$400(Lcom/rigol/scope/adapters/MathLogicAdapter;)Lcom/rigol/scope/data/MathParam;
 
     move-result-object v0
@@ -99,7 +99,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathLogicAdapter$6;->this$0:Lcom/rigol/scope/adapters/MathLogicAdapter;
 
-    .line 375
+    .line 378
     invoke-static {v0}, Lcom/rigol/scope/adapters/MathLogicAdapter;->access$400(Lcom/rigol/scope/adapters/MathLogicAdapter;)Lcom/rigol/scope/data/MathParam;
 
     move-result-object v0
@@ -114,7 +114,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathLogicAdapter$6;->this$0:Lcom/rigol/scope/adapters/MathLogicAdapter;
 
-    .line 376
+    .line 379
     invoke-static {v0}, Lcom/rigol/scope/adapters/MathLogicAdapter;->access$400(Lcom/rigol/scope/adapters/MathLogicAdapter;)Lcom/rigol/scope/data/MathParam;
 
     move-result-object v0
@@ -129,7 +129,7 @@
 
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathLogicAdapter$6;->this$0:Lcom/rigol/scope/adapters/MathLogicAdapter;
 
-    .line 377
+    .line 380
     invoke-static {v0}, Lcom/rigol/scope/adapters/MathLogicAdapter;->access$400(Lcom/rigol/scope/adapters/MathLogicAdapter;)Lcom/rigol/scope/data/MathParam;
 
     move-result-object v0
@@ -144,7 +144,7 @@
 
     move-object v2, p1
 
-    .line 372
+    .line 375
     invoke-static/range {v1 .. v12}, Lcom/rigol/scope/utilities/ViewUtil;->showKeyboard(Landroid/view/View;Landroid/view/View;Lcom/rigol/scope/cil/ServiceEnum$Unit;JJJJLcom/rigol/scope/views/keyboard/KeyboardListener;)V
 
     :cond_0

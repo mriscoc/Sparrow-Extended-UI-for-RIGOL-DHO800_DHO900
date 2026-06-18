@@ -36,7 +36,7 @@
 .method constructor <init>(Lcom/rigol/scope/viewmodels/UpdateUIViewModel;Lcom/rigol/scope/data/DecodeParam;)V
     .locals 0
 
-    .line 5114
+    .line 5072
     iput-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$406;->this$0:Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     iput-object p2, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$406;->val$param:Lcom/rigol/scope/data/DecodeParam;
@@ -51,15 +51,15 @@
 .method public onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 5117
+    .line 5075
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$406;->val$param:Lcom/rigol/scope/data/DecodeParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/DecodeParam;->readRs232_tx_thres()V
+    invoke-virtual {p1}, Lcom/rigol/scope/data/DecodeParam;->readPal_clk_thres()V
 
-    .line 5118
+    .line 5076
     iget-object p1, p0, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$406;->val$param:Lcom/rigol/scope/data/DecodeParam;
 
-    invoke-virtual {p1}, Lcom/rigol/scope/data/DecodeParam;->readTxThresAttr()V
+    invoke-virtual {p1}, Lcom/rigol/scope/data/DecodeParam;->readPalClkThresAttr()V
 
     return-void
 .end method
@@ -67,7 +67,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 5114
+    .line 5072
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel$406;->onChanged(Ljava/lang/Boolean;)V

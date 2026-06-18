@@ -504,7 +504,7 @@
     .line 50
     iput-object p1, p0, Lcom/rigol/scope/data/ResultParam;->measType:Lcom/rigol/scope/cil/ServiceEnum$MeasType;
 
-    const/16 p1, 0x210
+    const/16 p1, 0x211
 
     .line 51
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/ResultParam;->notifyPropertyChanged(I)V
@@ -518,7 +518,7 @@
     .line 121
     iput p1, p0, Lcom/rigol/scope/data/ResultParam;->mode:I
 
-    const/16 p1, 0x220
+    const/16 p1, 0x221
 
     .line 122
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/ResultParam;->notifyPropertyChanged(I)V
@@ -543,7 +543,7 @@
     .line 73
     iput-object p1, p0, Lcom/rigol/scope/data/ResultParam;->sourceA:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x35e
+    const/16 p1, 0x362
 
     .line 74
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/ResultParam;->notifyPropertyChanged(I)V
@@ -568,7 +568,7 @@
     .line 84
     iput-object p1, p0, Lcom/rigol/scope/data/ResultParam;->sourceB:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x362
+    const/16 p1, 0x366
 
     .line 85
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/ResultParam;->notifyPropertyChanged(I)V
@@ -597,7 +597,7 @@
     .line 102
     iput p1, p0, Lcom/rigol/scope/data/ResultParam;->stat:I
 
-    const/16 p1, 0x386
+    const/16 p1, 0x38a
 
     .line 103
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/ResultParam;->notifyPropertyChanged(I)V
@@ -618,7 +618,7 @@
 
     const/16 v1, 0x1c
 
-    const/16 v2, 0x3323
+    const/16 v2, 0x3523
 
     invoke-static {v1, v2}, Lcom/rigol/scope/data/MessageBus;->getKey(II)Ljava/lang/String;
 
@@ -650,7 +650,7 @@
     .line 61
     iput-object p1, p0, Lcom/rigol/scope/data/ResultParam;->syncArea:Lcom/rigol/scope/cil/ServiceEnum$Chan;
 
-    const/16 p1, 0x397
+    const/16 p1, 0x39b
 
     .line 62
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/ResultParam;->notifyPropertyChanged(I)V
@@ -688,7 +688,7 @@
     .line 39
     iput-object p1, p0, Lcom/rigol/scope/data/ResultParam;->title:Ljava/lang/String;
 
-    const/16 p1, 0x3ab
+    const/16 p1, 0x3af
 
     .line 40
     invoke-virtual {p0, p1}, Lcom/rigol/scope/data/ResultParam;->notifyPropertyChanged(I)V

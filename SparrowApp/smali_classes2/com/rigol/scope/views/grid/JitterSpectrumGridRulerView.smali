@@ -81,21 +81,21 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 0
 
-    .line 1695
+    .line 1810
     invoke-direct {p0, p1, p2, p3}, Lcom/rigol/scope/views/grid/GridRulerViewWrapper;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 1698
+    .line 1813
     invoke-direct {p0}, Lcom/rigol/scope/views/grid/JitterSpectrumGridRulerView;->updateYRuler()V
 
-    .line 1699
+    .line 1814
     invoke-direct {p0}, Lcom/rigol/scope/views/grid/JitterSpectrumGridRulerView;->updateXRuler()V
 
     const/4 p1, 0x1
 
-    .line 1702
+    .line 1817
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/grid/JitterSpectrumGridRulerView;->setFromTop(Z)V
 
-    .line 1704
+    .line 1819
     const-class p1, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -108,16 +108,16 @@
 
     const/16 p2, 0x34
 
-    const/16 p3, 0x270a
+    const/16 p3, 0x290a
 
-    .line 1707
+    .line 1822
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/UpdateUIViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
     if-eqz p1, :cond_1
 
-    .line 1708
+    .line 1823
     invoke-static {}, Lcom/blankj/utilcode/util/ActivityUtils;->getTopActivity()Landroid/app/Activity;
 
     move-result-object p2
@@ -159,7 +159,7 @@
 
     const/4 p2, 0x0
 
-    .line 1693
+    .line 1808
     check-cast p2, Landroid/util/AttributeSet;
 
     :cond_0
@@ -169,7 +169,7 @@
 
     const/4 p3, 0x0
 
-    .line 1694
+    .line 1809
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Lcom/rigol/scope/views/grid/JitterSpectrumGridRulerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -179,7 +179,7 @@
 .method public static final synthetic access$updateXRuler(Lcom/rigol/scope/views/grid/JitterSpectrumGridRulerView;)V
     .locals 0
 
-    .line 1691
+    .line 1806
     invoke-direct {p0}, Lcom/rigol/scope/views/grid/JitterSpectrumGridRulerView;->updateXRuler()V
 
     return-void
@@ -188,14 +188,14 @@
 .method private final updateXRuler()V
     .locals 1
 
-    .line 1718
+    .line 1833
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->getJitterSpectrumXRulers()[Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/grid/JitterSpectrumGridRulerView;->setColumnContents([Ljava/lang/String;)V
 
-    .line 1721
+    .line 1836
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/JitterSpectrumGridRulerView;->invalidate()V
 
     return-void
@@ -204,14 +204,14 @@
 .method private final updateYRuler()V
     .locals 1
 
-    .line 1728
+    .line 1843
     invoke-static {}, Lcom/rigol/scope/utilities/ViewUtil;->getJitterSpectrumYRulers()[Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lcom/rigol/scope/views/grid/JitterSpectrumGridRulerView;->setRowContents([Ljava/lang/String;)V
 
-    .line 1731
+    .line 1846
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/JitterSpectrumGridRulerView;->invalidate()V
 
     return-void

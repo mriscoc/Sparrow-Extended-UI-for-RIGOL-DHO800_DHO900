@@ -89,7 +89,7 @@
     const/4 p1, 0x0
 
     :goto_0
-    const v0, 0x7f0a0642
+    const v0, 0x7f0a064a
 
     const-string v1, "mappingObject"
 
@@ -117,7 +117,7 @@
 
     :cond_2
     :goto_1
-    const v0, 0x7f0a042d
+    const v0, 0x7f0a042f
 
     if-nez p1, :cond_3
 
@@ -143,7 +143,7 @@
 
     :cond_4
     :goto_2
-    const v0, 0x7f0a04e6
+    const v0, 0x7f0a04e8
 
     if-nez p1, :cond_5
 

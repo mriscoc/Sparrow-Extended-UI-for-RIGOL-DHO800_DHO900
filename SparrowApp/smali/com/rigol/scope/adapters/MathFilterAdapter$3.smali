@@ -25,7 +25,7 @@
 .method constructor <init>(Lcom/rigol/scope/adapters/MathFilterAdapter;)V
     .locals 0
 
-    .line 304
+    .line 307
     iput-object p1, p0, Lcom/rigol/scope/adapters/MathFilterAdapter$3;->this$0:Lcom/rigol/scope/adapters/MathFilterAdapter;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +38,7 @@
 .method public onCall(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
     .locals 1
 
-    .line 314
+    .line 317
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathFilterAdapter$3;->this$0:Lcom/rigol/scope/adapters/MathFilterAdapter;
 
     invoke-static {v0, p1}, Lcom/rigol/scope/adapters/MathFilterAdapter;->access$502(Lcom/rigol/scope/adapters/MathFilterAdapter;Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
@@ -56,7 +56,7 @@
         }
     .end annotation
 
-    .line 309
+    .line 312
     iget-object v0, p0, Lcom/rigol/scope/adapters/MathFilterAdapter$3;->this$0:Lcom/rigol/scope/adapters/MathFilterAdapter;
 
     invoke-static {v0}, Lcom/rigol/scope/adapters/MathFilterAdapter;->access$400(Lcom/rigol/scope/adapters/MathFilterAdapter;)Lcom/rigol/scope/data/MathParam;

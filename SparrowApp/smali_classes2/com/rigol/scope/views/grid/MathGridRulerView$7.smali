@@ -74,7 +74,7 @@
 .method public final onChanged(Ljava/lang/Object;)V
     .locals 2
 
-    .line 1206
+    .line 1321
     iget-object p1, p0, Lcom/rigol/scope/views/grid/MathGridRulerView$7;->this$0:Lcom/rigol/scope/views/grid/MathGridRulerView;
 
     invoke-static {p1}, Lcom/rigol/scope/views/grid/MathGridRulerView;->access$getHorizontalParam$p(Lcom/rigol/scope/views/grid/MathGridRulerView;)Lcom/rigol/scope/data/HorizontalParam;
@@ -91,7 +91,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 1207
+    .line 1322
     iget-object p1, p0, Lcom/rigol/scope/views/grid/MathGridRulerView$7;->this$0:Lcom/rigol/scope/views/grid/MathGridRulerView;
 
     invoke-static {p1}, Lcom/rigol/scope/views/grid/MathGridRulerView;->access$getMathParam$p(Lcom/rigol/scope/views/grid/MathGridRulerView;)Lcom/rigol/scope/data/MathParam;

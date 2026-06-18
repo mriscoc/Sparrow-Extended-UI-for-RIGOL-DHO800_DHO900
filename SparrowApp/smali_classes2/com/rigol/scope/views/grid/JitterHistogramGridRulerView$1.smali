@@ -75,12 +75,12 @@
 .method public final onChanged(Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 1801
+    .line 1916
     iget-object p1, p0, Lcom/rigol/scope/views/grid/JitterHistogramGridRulerView$1;->this$0:Lcom/rigol/scope/views/grid/JitterHistogramGridRulerView;
 
     invoke-static {p1}, Lcom/rigol/scope/views/grid/JitterHistogramGridRulerView;->access$updateXRuler(Lcom/rigol/scope/views/grid/JitterHistogramGridRulerView;)V
 
-    .line 1802
+    .line 1917
     iget-object p1, p0, Lcom/rigol/scope/views/grid/JitterHistogramGridRulerView$1;->this$0:Lcom/rigol/scope/views/grid/JitterHistogramGridRulerView;
 
     invoke-static {p1}, Lcom/rigol/scope/views/grid/JitterHistogramGridRulerView;->access$updateYRuler(Lcom/rigol/scope/views/grid/JitterHistogramGridRulerView;)V
@@ -91,7 +91,7 @@
 .method public bridge synthetic onChanged(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1784
+    .line 1899
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/rigol/scope/views/grid/JitterHistogramGridRulerView$1;->onChanged(Ljava/lang/Boolean;)V

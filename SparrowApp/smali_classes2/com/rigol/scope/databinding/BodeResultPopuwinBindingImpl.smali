@@ -34,7 +34,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/BodeResultPopuwinBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04cc
+    const v1, 0x7f0a04ce
 
     const/4 v2, 0x6
 
@@ -44,7 +44,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/BodeResultPopuwinBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04ce
+    const v1, 0x7f0a04d0
 
     const/4 v2, 0x7
 
@@ -53,7 +53,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/BodeResultPopuwinBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04cd
+    const v1, 0x7f0a04cf
 
     const/16 v2, 0x8
 
@@ -62,7 +62,7 @@
     .line 20
     sget-object v0, Lcom/rigol/scope/databinding/BodeResultPopuwinBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a069e
+    const v1, 0x7f0a06a8
 
     const/16 v2, 0x9
 
@@ -71,7 +71,7 @@
     .line 21
     sget-object v0, Lcom/rigol/scope/databinding/BodeResultPopuwinBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a06a0
+    const v1, 0x7f0a06aa
 
     const/16 v2, 0xa
 
@@ -80,7 +80,7 @@
     .line 22
     sget-object v0, Lcom/rigol/scope/databinding/BodeResultPopuwinBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a06a2
+    const v1, 0x7f0a06ac
 
     const/16 v2, 0xb
 
@@ -89,7 +89,7 @@
     .line 23
     sget-object v0, Lcom/rigol/scope/databinding/BodeResultPopuwinBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a069f
+    const v1, 0x7f0a06a9
 
     const/16 v2, 0xc
 
@@ -98,7 +98,7 @@
     .line 24
     sget-object v0, Lcom/rigol/scope/databinding/BodeResultPopuwinBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a06a1
+    const v1, 0x7f0a06ab
 
     const/16 v2, 0xd
 
@@ -836,7 +836,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v1, 0x252
+    const/16 v1, 0x254
 
     if-ne v1, p1, :cond_1
 

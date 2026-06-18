@@ -74,7 +74,7 @@
 .method public final onChanged(Ljava/lang/Object;)V
     .locals 1
 
-    .line 1646
+    .line 1761
     iget-object p1, p0, Lcom/rigol/scope/views/grid/JitterTrackGridRulerView$1;->this$0:Lcom/rigol/scope/views/grid/JitterTrackGridRulerView;
 
     invoke-static {p1}, Lcom/rigol/scope/views/grid/JitterTrackGridRulerView;->access$getHorizontalParam$p(Lcom/rigol/scope/views/grid/JitterTrackGridRulerView;)Lcom/rigol/scope/data/HorizontalParam;
@@ -83,7 +83,7 @@
 
     if-eqz p1, :cond_0
 
-    .line 1647
+    .line 1762
     iget-object p1, p0, Lcom/rigol/scope/views/grid/JitterTrackGridRulerView$1;->this$0:Lcom/rigol/scope/views/grid/JitterTrackGridRulerView;
 
     invoke-static {p1}, Lcom/rigol/scope/views/grid/JitterTrackGridRulerView;->access$getHorizontalParam$p(Lcom/rigol/scope/views/grid/JitterTrackGridRulerView;)Lcom/rigol/scope/data/HorizontalParam;

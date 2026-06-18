@@ -433,6 +433,54 @@
     return v0
 .end method
 
+.method public synthetic lambda$null$0$TriggerEdgeAdapter(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
+    .locals 0
+
+    .line 158
+    iput-object p1, p0, Lcom/rigol/scope/adapters/TriggerEdgeAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
+
+    return-void
+.end method
+
+.method public synthetic lambda$null$1$TriggerEdgeAdapter(ILcom/rigol/scope/data/MappingObject;)V
+    .locals 1
+
+    .line 160
+    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerEdgeAdapter;->clickedView:Landroid/view/View;
+
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    move-result p1
+
+    const v0, 0x7f0a09fc
+
+    if-ne p1, v0, :cond_0
+
+    .line 161
+    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerEdgeAdapter;->selectSource(Lcom/rigol/scope/data/MappingObject;)V
+
+    goto :goto_0
+
+    .line 162
+    :cond_0
+    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerEdgeAdapter;->clickedView:Landroid/view/View;
+
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
+
+    move-result p1
+
+    const v0, 0x7f0a096a
+
+    if-ne p1, v0, :cond_1
+
+    .line 163
+    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerEdgeAdapter;->selectCoupling(Lcom/rigol/scope/data/MappingObject;)V
+
+    :cond_1
+    :goto_0
+    return-void
+.end method
+
 .method public synthetic lambda$onClick$3$TriggerEdgeAdapter(Lcom/rigol/scope/views/spinner/PopupSpinner;Lcom/rigol/scope/adapters/SpinnerAdapter;Ljava/util/List;Landroid/view/View;)V
     .locals 0
 
@@ -487,54 +535,6 @@
     return-void
 .end method
 
-.method public synthetic lambda$onCreateViewHolder$0$TriggerEdgeAdapter(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
-    .locals 0
-
-    .line 158
-    iput-object p1, p0, Lcom/rigol/scope/adapters/TriggerEdgeAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
-
-    return-void
-.end method
-
-.method public synthetic lambda$onCreateViewHolder$1$TriggerEdgeAdapter(ILcom/rigol/scope/data/MappingObject;)V
-    .locals 1
-
-    .line 160
-    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerEdgeAdapter;->clickedView:Landroid/view/View;
-
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
-
-    move-result p1
-
-    const v0, 0x7f0a09f0
-
-    if-ne p1, v0, :cond_0
-
-    .line 161
-    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerEdgeAdapter;->selectSource(Lcom/rigol/scope/data/MappingObject;)V
-
-    goto :goto_0
-
-    .line 162
-    :cond_0
-    iget-object p1, p0, Lcom/rigol/scope/adapters/TriggerEdgeAdapter;->clickedView:Landroid/view/View;
-
-    invoke-virtual {p1}, Landroid/view/View;->getId()I
-
-    move-result p1
-
-    const v0, 0x7f0a095e
-
-    if-ne p1, v0, :cond_1
-
-    .line 163
-    invoke-direct {p0, p2}, Lcom/rigol/scope/adapters/TriggerEdgeAdapter;->selectCoupling(Lcom/rigol/scope/data/MappingObject;)V
-
-    :cond_1
-    :goto_0
-    return-void
-.end method
-
 .method public synthetic lambda$onCreateViewHolder$2$TriggerEdgeAdapter(Landroid/view/KeyEvent;)V
     .locals 11
 
@@ -578,13 +578,13 @@
 
     iget-object v8, p0, Lcom/rigol/scope/adapters/TriggerEdgeAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
 
-    new-instance v9, Lcom/rigol/scope/adapters/-$$Lambda$TriggerEdgeAdapter$6wU4-y5IGEvblzdwgxGZRQKR2mo;
+    new-instance v9, Lcom/rigol/scope/adapters/-$$Lambda$TriggerEdgeAdapter$vyMquyUsPwAWQ7aZ-hH2HLolra8;
 
-    invoke-direct {v9, p0}, Lcom/rigol/scope/adapters/-$$Lambda$TriggerEdgeAdapter$6wU4-y5IGEvblzdwgxGZRQKR2mo;-><init>(Lcom/rigol/scope/adapters/TriggerEdgeAdapter;)V
+    invoke-direct {v9, p0}, Lcom/rigol/scope/adapters/-$$Lambda$TriggerEdgeAdapter$vyMquyUsPwAWQ7aZ-hH2HLolra8;-><init>(Lcom/rigol/scope/adapters/TriggerEdgeAdapter;)V
 
-    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$TriggerEdgeAdapter$sS50Br1H8hovjv5pIEgAC9LfSTo;
+    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$TriggerEdgeAdapter$srdC_6xyhb0hVlv9N6DUacvTtUM;
 
-    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$TriggerEdgeAdapter$sS50Br1H8hovjv5pIEgAC9LfSTo;-><init>(Lcom/rigol/scope/adapters/TriggerEdgeAdapter;)V
+    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$TriggerEdgeAdapter$srdC_6xyhb0hVlv9N6DUacvTtUM;-><init>(Lcom/rigol/scope/adapters/TriggerEdgeAdapter;)V
 
     move-object v2, p1
 
@@ -640,7 +640,7 @@
 
     const/4 v1, 0x1
 
-    const/16 v2, 0x5760
+    const/16 v2, 0x5960
 
     const/16 v3, 0xb
 
@@ -835,12 +835,12 @@
     :sswitch_data_0
     .sparse-switch
         0x7f0a00c3 -> :sswitch_6
-        0x7f0a03af -> :sswitch_5
-        0x7f0a03b1 -> :sswitch_4
-        0x7f0a03b3 -> :sswitch_3
-        0x7f0a069b -> :sswitch_2
-        0x7f0a0813 -> :sswitch_1
-        0x7f0a09d5 -> :sswitch_0
+        0x7f0a03b1 -> :sswitch_5
+        0x7f0a03b3 -> :sswitch_4
+        0x7f0a03b5 -> :sswitch_3
+        0x7f0a06a5 -> :sswitch_2
+        0x7f0a081f -> :sswitch_1
+        0x7f0a09e1 -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -869,7 +869,7 @@
 
     move-result-object v0
 
-    const/16 v2, 0x574e
+    const/16 v2, 0x594e
 
     const/16 v3, 0xb
 
@@ -882,7 +882,7 @@
 
     move-result-object v2
 
-    const/16 v4, 0x5769
+    const/16 v4, 0x5969
 
     invoke-virtual {v2, v3, v4}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 
@@ -893,7 +893,7 @@
 
     if-eqz v3, :cond_5
 
-    const v3, 0x7f03022c
+    const v3, 0x7f030230
 
     .line 361
     invoke-static {v3}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1159,7 +1159,7 @@
 
     if-eqz v0, :cond_5
 
-    const v0, 0x7f0301f1
+    const v0, 0x7f0301f5
 
     .line 388
     invoke-static {v0}, Lcom/rigol/scope/utilities/ViewUtil;->getList(I)Ljava/util/List;
@@ -1340,13 +1340,13 @@
     .sparse-switch
         0x7f0a00c3 -> :sswitch_8
         0x7f0a0190 -> :sswitch_7
-        0x7f0a03b6 -> :sswitch_6
-        0x7f0a069b -> :sswitch_5
-        0x7f0a0813 -> :sswitch_4
-        0x7f0a095e -> :sswitch_3
-        0x7f0a0987 -> :sswitch_2
-        0x7f0a09b8 -> :sswitch_1
-        0x7f0a09f0 -> :sswitch_0
+        0x7f0a03b8 -> :sswitch_6
+        0x7f0a06a5 -> :sswitch_5
+        0x7f0a081f -> :sswitch_4
+        0x7f0a096a -> :sswitch_3
+        0x7f0a0993 -> :sswitch_2
+        0x7f0a09c4 -> :sswitch_1
+        0x7f0a09fc -> :sswitch_0
     .end sparse-switch
 .end method
 
@@ -1386,7 +1386,7 @@
 
     iget p2, p2, Lcom/rigol/scope/cil/ServiceEnum$EdgeSlope;->value1:I
 
-    const v0, 0x7f0301f7
+    const v0, 0x7f0301fb
 
     invoke-static {v0, p2}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -1427,7 +1427,7 @@
 
     iget p2, p2, Lcom/rigol/scope/cil/ServiceEnum$TriggerSweep;->value1:I
 
-    const v0, 0x7f030233
+    const v0, 0x7f030237
 
     invoke-static {v0, p2}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
 
@@ -1675,11 +1675,11 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0a0987
+    const v0, 0x7f0a0993
 
     if-eq p1, v0, :cond_2
 
-    const v0, 0x7f0a09b8
+    const v0, 0x7f0a09c4
 
     if-eq p1, v0, :cond_1
 
@@ -1742,11 +1742,11 @@
     goto :goto_0
 
     :cond_0
-    const v0, 0x7f0a0987
+    const v0, 0x7f0a0993
 
     if-eq p2, v0, :cond_2
 
-    const v0, 0x7f0a09b8
+    const v0, 0x7f0a09c4
 
     if-eq p2, v0, :cond_1
 

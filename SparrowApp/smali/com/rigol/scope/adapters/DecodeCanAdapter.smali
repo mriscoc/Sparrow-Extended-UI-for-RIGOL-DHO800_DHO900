@@ -215,7 +215,7 @@
     return v0
 .end method
 
-.method public synthetic lambda$onBindViewHolder$0$DecodeCanAdapter(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
+.method public synthetic lambda$null$0$DecodeCanAdapter(Lcom/rigol/scope/views/keyboard/KeyboardPopupView;)V
     .locals 0
 
     .line 141
@@ -224,7 +224,7 @@
     return-void
 .end method
 
-.method public synthetic lambda$onBindViewHolder$1$DecodeCanAdapter(ILcom/rigol/scope/data/MappingObject;)V
+.method public synthetic lambda$null$1$DecodeCanAdapter(ILcom/rigol/scope/data/MappingObject;)V
     .locals 2
 
     .line 143
@@ -311,13 +311,13 @@
 
     iget-object v9, p0, Lcom/rigol/scope/adapters/DecodeCanAdapter;->keyboardPopupView:Lcom/rigol/scope/views/keyboard/KeyboardPopupView;
 
-    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCanAdapter$k1_Z1oHXJqagoq4jzltENr09RF8;
+    new-instance v10, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCanAdapter$duemiYB_gvfBhObvyn_r1F3WSlY;
 
-    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCanAdapter$k1_Z1oHXJqagoq4jzltENr09RF8;-><init>(Lcom/rigol/scope/adapters/DecodeCanAdapter;)V
+    invoke-direct {v10, p0}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCanAdapter$duemiYB_gvfBhObvyn_r1F3WSlY;-><init>(Lcom/rigol/scope/adapters/DecodeCanAdapter;)V
 
-    new-instance v11, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCanAdapter$HDHAOidhchP0Ff_2EvI7wQ6WoNQ;
+    new-instance v11, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCanAdapter$deOGUmE-6ZJUnqnciNoHbq7hzD8;
 
-    invoke-direct {v11, p0}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCanAdapter$HDHAOidhchP0Ff_2EvI7wQ6WoNQ;-><init>(Lcom/rigol/scope/adapters/DecodeCanAdapter;)V
+    invoke-direct {v11, p0}, Lcom/rigol/scope/adapters/-$$Lambda$DecodeCanAdapter$deOGUmE-6ZJUnqnciNoHbq7hzD8;-><init>(Lcom/rigol/scope/adapters/DecodeCanAdapter;)V
 
     move-object v3, p1
 
@@ -773,7 +773,7 @@
 
     move-result p2
 
-    const/16 v0, 0x5953
+    const/16 v0, 0x5b53
 
     invoke-virtual {p1, p2, v0}, Lcom/rigol/scope/data/DecodeParam;->getDecodeThres(II)J
 
@@ -1043,7 +1043,7 @@
 
     const/16 p2, 0xb
 
-    const/16 v0, 0x574e
+    const/16 v0, 0x594e
 
     invoke-virtual {p1, p2, v0}, Lcom/rigol/scope/cil/API;->UI_QueryInt32(II)I
 

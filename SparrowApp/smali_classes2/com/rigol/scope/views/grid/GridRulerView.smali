@@ -17,7 +17,7 @@
         0x3
     }
     d1 = {
-        "\u0000~\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0010\u0011\n\u0002\u0010\u000e\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0010\n\u0002\u0018\u0002\n\u0002\u0008\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0010\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0007\n\u0002\u0008$\u0008\u0016\u0018\u0000 w2\u00020\u0001:\u0001wB\u0011\u0008\u0016\u0012\u0008\u0010\u0002\u001a\u0004\u0018\u00010\u0003\u00a2\u0006\u0002\u0010\u0004B\u001b\u0008\u0016\u0012\u0008\u0010\u0002\u001a\u0004\u0018\u00010\u0003\u0012\u0008\u0010\u0005\u001a\u0004\u0018\u00010\u0006\u00a2\u0006\u0002\u0010\u0007B#\u0008\u0016\u0012\u0008\u0010\u0002\u001a\u0004\u0018\u00010\u0003\u0012\u0008\u0010\u0005\u001a\u0004\u0018\u00010\u0006\u0012\u0006\u0010\u0008\u001a\u00020\t\u00a2\u0006\u0002\u0010\nJ \u0010P\u001a\u00020Q2\u0006\u0010R\u001a\u00020\u00122\u0006\u0010S\u001a\u00020T2\u0006\u0010U\u001a\u00020\tH\u0002J \u0010V\u001a\u00020Q2\u0006\u0010W\u001a\u00020\t2\u0006\u0010R\u001a\u00020\u00122\u0006\u0010S\u001a\u00020TH\u0002J \u0010X\u001a\u00020Q2\u0006\u0010Y\u001a\u00020\t2\u0006\u0010S\u001a\u00020T2\u0006\u0010R\u001a\u00020\u0012H\u0002J \u0010Z\u001a\u00020Q2\u0006\u0010W\u001a\u00020\t2\u0006\u0010S\u001a\u00020T2\u0006\u0010R\u001a\u00020\u0012H\u0002J \u0010[\u001a\u00020Q2\u0006\u0010\\\u001a\u00020T2\u0006\u0010]\u001a\u00020\t2\u0006\u0010R\u001a\u00020\u0012H\u0002J \u0010^\u001a\u00020Q2\u0006\u0010\\\u001a\u00020T2\u0006\u0010]\u001a\u00020\t2\u0006\u0010R\u001a\u00020\u0012H\u0002J\u0010\u0010_\u001a\u00020Q2\u0006\u0010R\u001a\u00020\u0012H\u0002J \u0010`\u001a\u00020Q2\u0006\u0010R\u001a\u00020\u00122\u0006\u0010a\u001a\u00020T2\u0006\u0010U\u001a\u00020\tH\u0002J \u0010b\u001a\u00020Q2\u0006\u0010c\u001a\u00020\t2\u0006\u0010a\u001a\u00020T2\u0006\u0010R\u001a\u00020\u0012H\u0002J \u0010d\u001a\u00020Q2\u0006\u0010U\u001a\u00020\t2\u0006\u0010a\u001a\u00020T2\u0006\u0010R\u001a\u00020\u0012H\u0002J \u0010e\u001a\u00020Q2\u0006\u0010c\u001a\u00020\t2\u0006\u0010a\u001a\u00020T2\u0006\u0010R\u001a\u00020\u0012H\u0002J \u0010f\u001a\u00020Q2\u0006\u0010\\\u001a\u00020T2\u0006\u0010]\u001a\u00020\t2\u0006\u0010R\u001a\u00020\u0012H\u0002J \u0010g\u001a\u00020Q2\u0006\u0010\\\u001a\u00020T2\u0006\u0010]\u001a\u00020\t2\u0006\u0010R\u001a\u00020\u0012H\u0002J\u0010\u0010h\u001a\u00020Q2\u0006\u0010R\u001a\u00020\u0012H\u0002J\u0010\u0010i\u001a\u00020T2\u0006\u0010U\u001a\u00020\tH\u0002J\u000e\u00104\u001a\u00020Q2\u0006\u00104\u001a\u00020$J\u0010\u0010j\u001a\u00020Q2\u0006\u0010R\u001a\u00020\u0012H\u0014J(\u0010k\u001a\u00020Q2\u0006\u0010l\u001a\u00020\t2\u0006\u0010m\u001a\u00020\t2\u0006\u0010n\u001a\u00020\t2\u0006\u0010o\u001a\u00020\tH\u0014J\u000e\u0010p\u001a\u00020Q2\u0006\u0010q\u001a\u00020\tJ\u000e\u0010r\u001a\u00020Q2\u0006\u0010s\u001a\u00020TJ\u000e\u0010t\u001a\u00020Q2\u0006\u0010q\u001a\u00020\tJ\u0008\u0010u\u001a\u00020QH\u0002J\u0008\u0010v\u001a\u00020QH\u0002R\u001c\u0010\u000b\u001a\u0004\u0018\u00010\u000cX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\r\u0010\u000e\"\u0004\u0008\u000f\u0010\u0010R\u001c\u0010\u0011\u001a\u0004\u0018\u00010\u0012X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0013\u0010\u0014\"\u0004\u0008\u0015\u0010\u0016R6\u0010\u001a\u001a\n\u0012\u0004\u0012\u00020\u0019\u0018\u00010\u00182\u000e\u0010\u0017\u001a\n\u0012\u0004\u0012\u00020\u0019\u0018\u00010\u0018@FX\u0086\u000e\u00a2\u0006\u0010\n\u0002\u0010\u001f\u001a\u0004\u0008\u001b\u0010\u001c\"\u0004\u0008\u001d\u0010\u001eR\u000e\u0010 \u001a\u00020!X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u000e\u0010\"\u001a\u00020!X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u001a\u0010#\u001a\u00020$X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008%\u0010&\"\u0004\u0008\'\u0010(R\u001a\u0010)\u001a\u00020$X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008*\u0010&\"\u0004\u0008+\u0010(R\u001c\u0010,\u001a\u0004\u0018\u00010-X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008.\u0010/\"\u0004\u00080\u00101R\u001a\u00102\u001a\u00020$X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00082\u0010&\"\u0004\u00083\u0010(R\u001a\u00104\u001a\u00020$X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00084\u0010&\"\u0004\u00085\u0010(R\u001a\u00106\u001a\u00020$X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00086\u0010&\"\u0004\u00087\u0010(R\u001a\u00108\u001a\u00020$X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00088\u0010&\"\u0004\u00089\u0010(R\u000e\u0010:\u001a\u00020$X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u001a\u0010;\u001a\u00020$X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008;\u0010&\"\u0004\u0008<\u0010(R\u000e\u0010=\u001a\u00020>X\u0082\u0004\u00a2\u0006\u0002\n\u0000R6\u0010?\u001a\n\u0012\u0004\u0012\u00020\u0019\u0018\u00010\u00182\u000e\u0010\u0017\u001a\n\u0012\u0004\u0012\u00020\u0019\u0018\u00010\u0018@FX\u0086\u000e\u00a2\u0006\u0010\n\u0002\u0010\u001f\u001a\u0004\u0008@\u0010\u001c\"\u0004\u0008A\u0010\u001eR\u000e\u0010B\u001a\u00020!X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u000e\u0010C\u001a\u00020!X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u000e\u0010D\u001a\u00020!X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u000e\u0010E\u001a\u00020!X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u0013\u0010F\u001a\u0004\u0018\u00010G\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008H\u0010IR\u001a\u0010J\u001a\u00020KX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008L\u0010M\"\u0004\u0008N\u0010O\u00a8\u0006x"
+        "\u0000\u0086\u0001\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0010\u0011\n\u0002\u0010\u000e\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0012\n\u0002\u0010\u0007\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0010\u0002\n\u0002\u0008%\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0008\u0016\u0018\u0000 \u0081\u00012\u00020\u0001:\u0002\u0081\u0001B\u0011\u0008\u0016\u0012\u0008\u0010\u0002\u001a\u0004\u0018\u00010\u0003\u00a2\u0006\u0002\u0010\u0004B\u001b\u0008\u0016\u0012\u0008\u0010\u0002\u001a\u0004\u0018\u00010\u0003\u0012\u0008\u0010\u0005\u001a\u0004\u0018\u00010\u0006\u00a2\u0006\u0002\u0010\u0007B#\u0008\u0016\u0012\u0008\u0010\u0002\u001a\u0004\u0018\u00010\u0003\u0012\u0008\u0010\u0005\u001a\u0004\u0018\u00010\u0006\u0012\u0006\u0010\u0008\u001a\u00020\t\u00a2\u0006\u0002\u0010\nJ \u0010X\u001a\u00020Y2\u0006\u0010Z\u001a\u00020\u00122\u0006\u0010[\u001a\u00020@2\u0006\u0010\\\u001a\u00020\tH\u0002J \u0010]\u001a\u00020Y2\u0006\u0010^\u001a\u00020\t2\u0006\u0010Z\u001a\u00020\u00122\u0006\u0010[\u001a\u00020@H\u0002J \u0010_\u001a\u00020Y2\u0006\u0010`\u001a\u00020\t2\u0006\u0010[\u001a\u00020@2\u0006\u0010Z\u001a\u00020\u0012H\u0002J \u0010a\u001a\u00020Y2\u0006\u0010^\u001a\u00020\t2\u0006\u0010[\u001a\u00020@2\u0006\u0010Z\u001a\u00020\u0012H\u0002J \u0010b\u001a\u00020Y2\u0006\u0010c\u001a\u00020@2\u0006\u0010d\u001a\u00020\t2\u0006\u0010Z\u001a\u00020\u0012H\u0002J \u0010e\u001a\u00020Y2\u0006\u0010c\u001a\u00020@2\u0006\u0010d\u001a\u00020\t2\u0006\u0010Z\u001a\u00020\u0012H\u0002J\u0010\u0010f\u001a\u00020Y2\u0006\u0010Z\u001a\u00020\u0012H\u0002J \u0010g\u001a\u00020Y2\u0006\u0010Z\u001a\u00020\u00122\u0006\u0010h\u001a\u00020@2\u0006\u0010\\\u001a\u00020\tH\u0002J \u0010i\u001a\u00020Y2\u0006\u0010j\u001a\u00020\t2\u0006\u0010h\u001a\u00020@2\u0006\u0010Z\u001a\u00020\u0012H\u0002J \u0010k\u001a\u00020Y2\u0006\u0010\\\u001a\u00020\t2\u0006\u0010h\u001a\u00020@2\u0006\u0010Z\u001a\u00020\u0012H\u0002J \u0010l\u001a\u00020Y2\u0006\u0010j\u001a\u00020\t2\u0006\u0010h\u001a\u00020@2\u0006\u0010Z\u001a\u00020\u0012H\u0002J \u0010m\u001a\u00020Y2\u0006\u0010c\u001a\u00020@2\u0006\u0010d\u001a\u00020\t2\u0006\u0010Z\u001a\u00020\u0012H\u0002J \u0010n\u001a\u00020Y2\u0006\u0010c\u001a\u00020@2\u0006\u0010d\u001a\u00020\t2\u0006\u0010Z\u001a\u00020\u0012H\u0002J\u0010\u0010o\u001a\u00020Y2\u0006\u0010Z\u001a\u00020\u0012H\u0002J\u0010\u0010p\u001a\u00020@2\u0006\u0010\\\u001a\u00020\tH\u0002J\u000e\u00104\u001a\u00020Y2\u0006\u00104\u001a\u00020$J\u0010\u0010q\u001a\u00020Y2\u0006\u0010Z\u001a\u00020\u0012H\u0014J(\u0010r\u001a\u00020Y2\u0006\u0010s\u001a\u00020\t2\u0006\u0010t\u001a\u00020\t2\u0006\u0010u\u001a\u00020\t2\u0006\u0010v\u001a\u00020\tH\u0014J\u000e\u0010w\u001a\u00020Y2\u0006\u0010x\u001a\u00020\tJ\u000e\u0010y\u001a\u00020Y2\u0006\u0010z\u001a\u00020@J\u000e\u0010{\u001a\u00020Y2\u0006\u0010x\u001a\u00020\tJ\u0008\u0010|\u001a\u00020YH\u0002J\u000e\u0010}\u001a\u00020Y2\u0006\u0010~\u001a\u00020\u007fJ\t\u0010\u0080\u0001\u001a\u00020YH\u0002R\u001c\u0010\u000b\u001a\u0004\u0018\u00010\u000cX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\r\u0010\u000e\"\u0004\u0008\u000f\u0010\u0010R\u001c\u0010\u0011\u001a\u0004\u0018\u00010\u0012X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0013\u0010\u0014\"\u0004\u0008\u0015\u0010\u0016R6\u0010\u001a\u001a\n\u0012\u0004\u0012\u00020\u0019\u0018\u00010\u00182\u000e\u0010\u0017\u001a\n\u0012\u0004\u0012\u00020\u0019\u0018\u00010\u0018@FX\u0086\u000e\u00a2\u0006\u0010\n\u0002\u0010\u001f\u001a\u0004\u0008\u001b\u0010\u001c\"\u0004\u0008\u001d\u0010\u001eR\u000e\u0010 \u001a\u00020!X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u000e\u0010\"\u001a\u00020!X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u001a\u0010#\u001a\u00020$X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008%\u0010&\"\u0004\u0008\'\u0010(R\u001a\u0010)\u001a\u00020$X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008*\u0010&\"\u0004\u0008+\u0010(R\u001c\u0010,\u001a\u0004\u0018\u00010-X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008.\u0010/\"\u0004\u00080\u00101R\u001a\u00102\u001a\u00020$X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00082\u0010&\"\u0004\u00083\u0010(R\u001a\u00104\u001a\u00020$X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00084\u0010&\"\u0004\u00085\u0010(R\u001a\u00106\u001a\u00020$X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00086\u0010&\"\u0004\u00087\u0010(R\u001a\u00108\u001a\u00020$X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00088\u0010&\"\u0004\u00089\u0010(R\u001a\u0010:\u001a\u00020$X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008:\u0010&\"\u0004\u0008;\u0010(R\u000e\u0010<\u001a\u00020$X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u001a\u0010=\u001a\u00020$X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008=\u0010&\"\u0004\u0008>\u0010(R\u001a\u0010?\u001a\u00020@X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008A\u0010B\"\u0004\u0008C\u0010DR\u000e\u0010E\u001a\u00020FX\u0082\u0004\u00a2\u0006\u0002\n\u0000R6\u0010G\u001a\n\u0012\u0004\u0012\u00020\u0019\u0018\u00010\u00182\u000e\u0010\u0017\u001a\n\u0012\u0004\u0012\u00020\u0019\u0018\u00010\u0018@FX\u0086\u000e\u00a2\u0006\u0010\n\u0002\u0010\u001f\u001a\u0004\u0008H\u0010\u001c\"\u0004\u0008I\u0010\u001eR\u000e\u0010J\u001a\u00020!X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u000e\u0010K\u001a\u00020!X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u000e\u0010L\u001a\u00020!X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u000e\u0010M\u001a\u00020!X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u0013\u0010N\u001a\u0004\u0018\u00010O\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008P\u0010QR\u001a\u0010R\u001a\u00020SX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008T\u0010U\"\u0004\u0008V\u0010W\u00a8\u0006\u0082\u0001"
     }
     d2 = {
         "Lcom/rigol/scope/views/grid/GridRulerView;",
@@ -74,6 +74,8 @@
         "setAbout",
         "isMain",
         "setMain",
+        "isMove",
+        "setMove",
         "isShowAllCol",
         "setShowAllCol",
         "isShowAllRow",
@@ -81,6 +83,12 @@
         "isShowLine",
         "isShowRuler",
         "setShowRuler",
+        "moveOffset",
+        "",
+        "getMoveOffset",
+        "()F",
+        "setMoveOffset",
+        "(F)V",
         "path",
         "Landroid/graphics/Path;",
         "rowContents",
@@ -104,7 +112,6 @@
         "",
         "canvas",
         "columnWidth",
-        "",
         "i",
         "drawColumnContents",
         "columnContentsSize",
@@ -138,6 +145,9 @@
         "alpha",
         "setRowTextColor",
         "updateColumnLinePathEffect",
+        "updateMoveOffset",
+        "param",
+        "Lcom/rigol/scope/data/VerticalParam;",
         "updateRowLinePathEffect",
         "Companion",
         "app_release"
@@ -182,6 +192,8 @@
 
 .field private isMain:Z
 
+.field private isMove:Z
+
 .field private isShowAllCol:Z
 
 .field private isShowAllRow:Z
@@ -189,6 +201,8 @@
 .field private isShowLine:Z
 
 .field private isShowRuler:Z
+
+.field private moveOffset:F
 
 .field private final path:Landroid/graphics/Path;
 
@@ -219,7 +233,7 @@
 
     sput-object v0, Lcom/rigol/scope/views/grid/GridRulerView;->Companion:Lcom/rigol/scope/views/grid/GridRulerView$Companion;
 
-    .line 887
+    .line 971
     new-instance v0, Landroid/graphics/DashPathEffect;
 
     const/4 v1, 0x2
@@ -250,189 +264,189 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 5
 
-    .line 217
+    .line 226
     invoke-direct {p0, p1}, Landroid/view/View;-><init>(Landroid/content/Context;)V
 
-    .line 54
+    .line 55
     new-instance p1, Landroid/graphics/Paint;
 
     invoke-direct {p1}, Landroid/graphics/Paint;-><init>()V
 
     const/high16 v0, 0x3f800000    # 1.0f
 
-    .line 56
+    .line 57
     invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
     const/4 v1, 0x1
 
-    .line 57
+    .line 58
     invoke-virtual {p1, v1}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
     const/high16 v2, 0x41800000    # 16.0f
 
-    .line 58
+    .line 59
     invoke-virtual {p1, v2}, Landroid/graphics/Paint;->setTextSize(F)V
 
     const v3, -0x333334
 
-    .line 59
+    .line 60
     invoke-virtual {p1, v3}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 60
+    .line 61
     sget-object v4, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
 
-    .line 54
+    .line 55
     iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->columnTextPaint:Landroid/graphics/Paint;
 
-    .line 65
+    .line 66
     new-instance p1, Landroid/graphics/Paint;
 
     invoke-direct {p1}, Landroid/graphics/Paint;-><init>()V
-
-    .line 67
-    invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
     .line 68
-    invoke-virtual {p1, v1}, Landroid/graphics/Paint;->setAntiAlias(Z)V
+    invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
     .line 69
-    invoke-virtual {p1, v2}, Landroid/graphics/Paint;->setTextSize(F)V
+    invoke-virtual {p1, v1}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
     .line 70
-    invoke-virtual {p1, v3}, Landroid/graphics/Paint;->setColor(I)V
+    invoke-virtual {p1, v2}, Landroid/graphics/Paint;->setTextSize(F)V
 
     .line 71
+    invoke-virtual {p1, v3}, Landroid/graphics/Paint;->setColor(I)V
+
+    .line 72
     sget-object v2, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
 
-    .line 65
+    .line 66
     iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowTextPaint:Landroid/graphics/Paint;
 
-    .line 76
+    .line 77
     new-instance p1, Landroid/graphics/Paint;
 
     invoke-direct {p1}, Landroid/graphics/Paint;-><init>()V
 
-    .line 78
+    .line 79
     sget-object v2, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p1, v2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 79
+    .line 80
     invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
     const/4 v2, -0x1
 
-    .line 80
+    .line 81
     invoke-virtual {p1, v2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 81
+    .line 82
     sget-object v4, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
 
-    .line 76
+    .line 77
     iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->columnLinePaint:Landroid/graphics/Paint;
 
-    .line 86
+    .line 87
     new-instance p1, Landroid/graphics/Paint;
 
     invoke-direct {p1}, Landroid/graphics/Paint;-><init>()V
-
-    .line 88
-    sget-object v4, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
-
-    invoke-virtual {p1, v4}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
     .line 89
-    invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setStrokeWidth(F)V
-
-    .line 90
-    invoke-virtual {p1, v2}, Landroid/graphics/Paint;->setColor(I)V
-
-    .line 91
-    sget-object v4, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
-
-    .line 86
-    iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowLinePaint:Landroid/graphics/Paint;
-
-    .line 96
-    new-instance p1, Landroid/graphics/Paint;
-
-    invoke-direct {p1}, Landroid/graphics/Paint;-><init>()V
-
-    .line 99
     sget-object v4, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p1, v4}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 100
+    .line 90
     invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
+    .line 91
+    invoke-virtual {p1, v2}, Landroid/graphics/Paint;->setColor(I)V
+
+    .line 92
+    sget-object v4, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    .line 87
+    iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowLinePaint:Landroid/graphics/Paint;
+
+    .line 97
+    new-instance p1, Landroid/graphics/Paint;
+
+    invoke-direct {p1}, Landroid/graphics/Paint;-><init>()V
+
+    .line 100
+    sget-object v4, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
+
+    invoke-virtual {p1, v4}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
+
     .line 101
+    invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setStrokeWidth(F)V
+
+    .line 102
     new-instance v4, Landroid/graphics/PathEffect;
 
     invoke-direct {v4}, Landroid/graphics/PathEffect;-><init>()V
 
     invoke-virtual {p1, v4}, Landroid/graphics/Paint;->setPathEffect(Landroid/graphics/PathEffect;)Landroid/graphics/PathEffect;
 
-    .line 102
+    .line 103
     invoke-virtual {p1, v2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 103
+    .line 104
     sget-object v2, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
 
-    .line 96
+    .line 97
     iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->scaleLinePaint:Landroid/graphics/Paint;
 
-    .line 108
+    .line 109
     new-instance p1, Landroid/graphics/Paint;
 
     invoke-direct {p1}, Landroid/graphics/Paint;-><init>()V
 
-    .line 111
+    .line 112
     sget-object v2, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p1, v2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 112
+    .line 113
     invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 113
+    .line 114
     new-instance v0, Landroid/graphics/PathEffect;
 
     invoke-direct {v0}, Landroid/graphics/PathEffect;-><init>()V
 
     invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setPathEffect(Landroid/graphics/PathEffect;)Landroid/graphics/PathEffect;
 
-    .line 114
+    .line 115
     invoke-virtual {p1, v3}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 115
+    .line 116
     sget-object v0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
 
-    .line 108
+    .line 109
     iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->solidLinePaint:Landroid/graphics/Paint;
 
-    .line 120
+    .line 121
     new-instance p1, Landroid/graphics/Path;
 
     invoke-direct {p1}, Landroid/graphics/Path;-><init>()V
 
     iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->path:Landroid/graphics/Path;
 
-    .line 136
+    .line 137
     iput-boolean v1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->isAbout:Z
 
-    .line 200
+    .line 201
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;->GRID_IS_FULL:Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
     iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->type:Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
-    .line 205
+    .line 206
     iput-boolean v1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->isShowLine:Z
 
-    .line 210
+    .line 211
     iput-boolean v1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->isShowRuler:Z
 
-    .line 267
+    .line 276
     const-class p1, Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -443,7 +457,7 @@
 
     iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->syncDataView:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    .line 268
+    .line 277
     const-class p1, Lcom/rigol/scope/viewmodels/HorizontalViewModel;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -464,23 +478,23 @@
 
     iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->horizontal:Lcom/rigol/scope/data/HorizontalParam;
 
-    .line 276
+    .line 301
     iget-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->syncDataView:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
     if-eqz p1, :cond_1
 
     const/16 v0, 0xa
 
-    const/16 v1, 0x2303
+    const/16 v1, 0x2503
 
-    .line 275
+    .line 300
     invoke-virtual {p1, v0, v1}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
     if-eqz p1, :cond_1
 
-    .line 276
+    .line 301
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/GridRulerView;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -516,189 +530,189 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 4
 
-    .line 219
+    .line 228
     invoke-direct {p0, p1, p2}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 54
+    .line 55
     new-instance p1, Landroid/graphics/Paint;
 
     invoke-direct {p1}, Landroid/graphics/Paint;-><init>()V
 
     const/high16 p2, 0x3f800000    # 1.0f
 
-    .line 56
+    .line 57
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
     const/4 v0, 0x1
 
-    .line 57
+    .line 58
     invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
     const/high16 v1, 0x41800000    # 16.0f
 
-    .line 58
+    .line 59
     invoke-virtual {p1, v1}, Landroid/graphics/Paint;->setTextSize(F)V
 
     const v2, -0x333334
 
-    .line 59
+    .line 60
     invoke-virtual {p1, v2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 60
+    .line 61
     sget-object v3, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
 
-    .line 54
+    .line 55
     iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->columnTextPaint:Landroid/graphics/Paint;
 
-    .line 65
+    .line 66
     new-instance p1, Landroid/graphics/Paint;
 
     invoke-direct {p1}, Landroid/graphics/Paint;-><init>()V
-
-    .line 67
-    invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
     .line 68
-    invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setAntiAlias(Z)V
+    invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
     .line 69
-    invoke-virtual {p1, v1}, Landroid/graphics/Paint;->setTextSize(F)V
+    invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
     .line 70
-    invoke-virtual {p1, v2}, Landroid/graphics/Paint;->setColor(I)V
+    invoke-virtual {p1, v1}, Landroid/graphics/Paint;->setTextSize(F)V
 
     .line 71
+    invoke-virtual {p1, v2}, Landroid/graphics/Paint;->setColor(I)V
+
+    .line 72
     sget-object v1, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
 
-    .line 65
+    .line 66
     iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowTextPaint:Landroid/graphics/Paint;
 
-    .line 76
+    .line 77
     new-instance p1, Landroid/graphics/Paint;
 
     invoke-direct {p1}, Landroid/graphics/Paint;-><init>()V
 
-    .line 78
+    .line 79
     sget-object v1, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p1, v1}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 79
+    .line 80
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
     const/4 v1, -0x1
 
-    .line 80
+    .line 81
     invoke-virtual {p1, v1}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 81
+    .line 82
     sget-object v3, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
 
-    .line 76
+    .line 77
     iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->columnLinePaint:Landroid/graphics/Paint;
 
-    .line 86
+    .line 87
     new-instance p1, Landroid/graphics/Paint;
 
     invoke-direct {p1}, Landroid/graphics/Paint;-><init>()V
-
-    .line 88
-    sget-object v3, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
-
-    invoke-virtual {p1, v3}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
     .line 89
-    invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
-
-    .line 90
-    invoke-virtual {p1, v1}, Landroid/graphics/Paint;->setColor(I)V
-
-    .line 91
-    sget-object v3, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
-
-    .line 86
-    iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowLinePaint:Landroid/graphics/Paint;
-
-    .line 96
-    new-instance p1, Landroid/graphics/Paint;
-
-    invoke-direct {p1}, Landroid/graphics/Paint;-><init>()V
-
-    .line 99
     sget-object v3, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p1, v3}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 100
+    .line 90
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
+    .line 91
+    invoke-virtual {p1, v1}, Landroid/graphics/Paint;->setColor(I)V
+
+    .line 92
+    sget-object v3, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    .line 87
+    iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowLinePaint:Landroid/graphics/Paint;
+
+    .line 97
+    new-instance p1, Landroid/graphics/Paint;
+
+    invoke-direct {p1}, Landroid/graphics/Paint;-><init>()V
+
+    .line 100
+    sget-object v3, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
+
+    invoke-virtual {p1, v3}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
+
     .line 101
+    invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
+
+    .line 102
     new-instance v3, Landroid/graphics/PathEffect;
 
     invoke-direct {v3}, Landroid/graphics/PathEffect;-><init>()V
 
     invoke-virtual {p1, v3}, Landroid/graphics/Paint;->setPathEffect(Landroid/graphics/PathEffect;)Landroid/graphics/PathEffect;
 
-    .line 102
+    .line 103
     invoke-virtual {p1, v1}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 103
+    .line 104
     sget-object v1, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
 
-    .line 96
+    .line 97
     iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->scaleLinePaint:Landroid/graphics/Paint;
 
-    .line 108
+    .line 109
     new-instance p1, Landroid/graphics/Paint;
 
     invoke-direct {p1}, Landroid/graphics/Paint;-><init>()V
 
-    .line 111
+    .line 112
     sget-object v1, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p1, v1}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 112
+    .line 113
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 113
+    .line 114
     new-instance p2, Landroid/graphics/PathEffect;
 
     invoke-direct {p2}, Landroid/graphics/PathEffect;-><init>()V
 
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setPathEffect(Landroid/graphics/PathEffect;)Landroid/graphics/PathEffect;
 
-    .line 114
+    .line 115
     invoke-virtual {p1, v2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 115
+    .line 116
     sget-object p2, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
 
-    .line 108
+    .line 109
     iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->solidLinePaint:Landroid/graphics/Paint;
 
-    .line 120
+    .line 121
     new-instance p1, Landroid/graphics/Path;
 
     invoke-direct {p1}, Landroid/graphics/Path;-><init>()V
 
     iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->path:Landroid/graphics/Path;
 
-    .line 136
+    .line 137
     iput-boolean v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->isAbout:Z
 
-    .line 200
+    .line 201
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;->GRID_IS_FULL:Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
     iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->type:Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
-    .line 205
+    .line 206
     iput-boolean v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->isShowLine:Z
 
-    .line 210
+    .line 211
     iput-boolean v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->isShowRuler:Z
 
-    .line 267
+    .line 276
     const-class p1, Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -709,7 +723,7 @@
 
     iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->syncDataView:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    .line 268
+    .line 277
     const-class p1, Lcom/rigol/scope/viewmodels/HorizontalViewModel;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -730,23 +744,23 @@
 
     iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->horizontal:Lcom/rigol/scope/data/HorizontalParam;
 
-    .line 276
+    .line 301
     iget-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->syncDataView:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
     if-eqz p1, :cond_1
 
     const/16 p2, 0xa
 
-    const/16 v0, 0x2303
+    const/16 v0, 0x2503
 
-    .line 275
+    .line 300
     invoke-virtual {p1, p2, v0}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
     if-eqz p1, :cond_1
 
-    .line 276
+    .line 301
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/GridRulerView;->getContext()Landroid/content/Context;
 
     move-result-object p2
@@ -782,189 +796,189 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 3
 
-    .line 221
+    .line 230
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 54
+    .line 55
     new-instance p1, Landroid/graphics/Paint;
 
     invoke-direct {p1}, Landroid/graphics/Paint;-><init>()V
 
     const/high16 p2, 0x3f800000    # 1.0f
 
-    .line 56
+    .line 57
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
     const/4 p3, 0x1
 
-    .line 57
+    .line 58
     invoke-virtual {p1, p3}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
     const/high16 v0, 0x41800000    # 16.0f
 
-    .line 58
+    .line 59
     invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setTextSize(F)V
 
     const v1, -0x333334
 
-    .line 59
+    .line 60
     invoke-virtual {p1, v1}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 60
+    .line 61
     sget-object v2, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
 
-    .line 54
+    .line 55
     iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->columnTextPaint:Landroid/graphics/Paint;
 
-    .line 65
+    .line 66
     new-instance p1, Landroid/graphics/Paint;
 
     invoke-direct {p1}, Landroid/graphics/Paint;-><init>()V
-
-    .line 67
-    invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
     .line 68
-    invoke-virtual {p1, p3}, Landroid/graphics/Paint;->setAntiAlias(Z)V
+    invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
     .line 69
-    invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setTextSize(F)V
+    invoke-virtual {p1, p3}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
     .line 70
-    invoke-virtual {p1, v1}, Landroid/graphics/Paint;->setColor(I)V
+    invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setTextSize(F)V
 
     .line 71
+    invoke-virtual {p1, v1}, Landroid/graphics/Paint;->setColor(I)V
+
+    .line 72
     sget-object v0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
 
-    .line 65
+    .line 66
     iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowTextPaint:Landroid/graphics/Paint;
 
-    .line 76
+    .line 77
     new-instance p1, Landroid/graphics/Paint;
 
     invoke-direct {p1}, Landroid/graphics/Paint;-><init>()V
 
-    .line 78
+    .line 79
     sget-object v0, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 79
+    .line 80
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
     const/4 v0, -0x1
 
-    .line 80
+    .line 81
     invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 81
+    .line 82
     sget-object v2, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
 
-    .line 76
+    .line 77
     iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->columnLinePaint:Landroid/graphics/Paint;
 
-    .line 86
+    .line 87
     new-instance p1, Landroid/graphics/Paint;
 
     invoke-direct {p1}, Landroid/graphics/Paint;-><init>()V
-
-    .line 88
-    sget-object v2, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
-
-    invoke-virtual {p1, v2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
     .line 89
-    invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
-
-    .line 90
-    invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setColor(I)V
-
-    .line 91
-    sget-object v2, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
-
-    .line 86
-    iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowLinePaint:Landroid/graphics/Paint;
-
-    .line 96
-    new-instance p1, Landroid/graphics/Paint;
-
-    invoke-direct {p1}, Landroid/graphics/Paint;-><init>()V
-
-    .line 99
     sget-object v2, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p1, v2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 100
+    .line 90
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
+    .line 91
+    invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setColor(I)V
+
+    .line 92
+    sget-object v2, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    .line 87
+    iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowLinePaint:Landroid/graphics/Paint;
+
+    .line 97
+    new-instance p1, Landroid/graphics/Paint;
+
+    invoke-direct {p1}, Landroid/graphics/Paint;-><init>()V
+
+    .line 100
+    sget-object v2, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
+
+    invoke-virtual {p1, v2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
+
     .line 101
+    invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
+
+    .line 102
     new-instance v2, Landroid/graphics/PathEffect;
 
     invoke-direct {v2}, Landroid/graphics/PathEffect;-><init>()V
 
     invoke-virtual {p1, v2}, Landroid/graphics/Paint;->setPathEffect(Landroid/graphics/PathEffect;)Landroid/graphics/PathEffect;
 
-    .line 102
+    .line 103
     invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 103
+    .line 104
     sget-object v0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
 
-    .line 96
+    .line 97
     iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->scaleLinePaint:Landroid/graphics/Paint;
 
-    .line 108
+    .line 109
     new-instance p1, Landroid/graphics/Paint;
 
     invoke-direct {p1}, Landroid/graphics/Paint;-><init>()V
 
-    .line 111
+    .line 112
     sget-object v0, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 112
+    .line 113
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 113
+    .line 114
     new-instance p2, Landroid/graphics/PathEffect;
 
     invoke-direct {p2}, Landroid/graphics/PathEffect;-><init>()V
 
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setPathEffect(Landroid/graphics/PathEffect;)Landroid/graphics/PathEffect;
 
-    .line 114
+    .line 115
     invoke-virtual {p1, v1}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 115
+    .line 116
     sget-object p2, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
 
-    .line 108
+    .line 109
     iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->solidLinePaint:Landroid/graphics/Paint;
 
-    .line 120
+    .line 121
     new-instance p1, Landroid/graphics/Path;
 
     invoke-direct {p1}, Landroid/graphics/Path;-><init>()V
 
     iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->path:Landroid/graphics/Path;
 
-    .line 136
+    .line 137
     iput-boolean p3, p0, Lcom/rigol/scope/views/grid/GridRulerView;->isAbout:Z
 
-    .line 200
+    .line 201
     sget-object p1, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;->GRID_IS_FULL:Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
     iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->type:Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
-    .line 205
+    .line 206
     iput-boolean p3, p0, Lcom/rigol/scope/views/grid/GridRulerView;->isShowLine:Z
 
-    .line 210
+    .line 211
     iput-boolean p3, p0, Lcom/rigol/scope/views/grid/GridRulerView;->isShowRuler:Z
 
-    .line 267
+    .line 276
     const-class p1, Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -975,7 +989,7 @@
 
     iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->syncDataView:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
-    .line 268
+    .line 277
     const-class p1, Lcom/rigol/scope/viewmodels/HorizontalViewModel;
 
     invoke-static {p1}, Lcom/rigol/scope/utilities/ContextUtil;->getAppViewModel(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
@@ -996,23 +1010,23 @@
 
     iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->horizontal:Lcom/rigol/scope/data/HorizontalParam;
 
-    .line 276
+    .line 301
     iget-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->syncDataView:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
     if-eqz p1, :cond_1
 
     const/16 p2, 0xa
 
-    const/16 p3, 0x2303
+    const/16 p3, 0x2503
 
-    .line 275
+    .line 300
     invoke-virtual {p1, p2, p3}, Lcom/rigol/scope/viewmodels/SyncDataViewModel;->get(II)Landroidx/lifecycle/MutableLiveData;
 
     move-result-object p1
 
     if-eqz p1, :cond_1
 
-    .line 276
+    .line 301
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/GridRulerView;->getContext()Landroid/content/Context;
 
     move-result-object p2
@@ -1048,7 +1062,7 @@
 .method public static final synthetic access$getDEFAULT_DASH_PATH_EFFECT$cp()Landroid/graphics/PathEffect;
     .locals 1
 
-    .line 50
+    .line 51
     sget-object v0, Lcom/rigol/scope/views/grid/GridRulerView;->DEFAULT_DASH_PATH_EFFECT:Landroid/graphics/PathEffect;
 
     return-object v0
@@ -1057,14 +1071,14 @@
 .method private final drawColumn(Landroid/graphics/Canvas;FI)V
     .locals 5
 
-    .line 770
+    .line 829
     iget-object v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->columnContents:[Ljava/lang/String;
 
     invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
 
     aget-object v0, v0, p3
 
-    .line 771
+    .line 830
     move-object v1, v0
 
     check-cast v1, Ljava/lang/CharSequence;
@@ -1082,7 +1096,7 @@
 
     mul-float/2addr v1, p2
 
-    .line 779
+    .line 838
     iget-object p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->columnTextPaint:Landroid/graphics/Paint;
 
     invoke-virtual {p2, v0}, Landroid/graphics/Paint;->measureText(Ljava/lang/String;)F
@@ -1095,7 +1109,7 @@
 
     if-nez p3, :cond_3
 
-    .line 787
+    .line 846
     iget-boolean p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->fromTop:Z
 
     if-eqz p2, :cond_1
@@ -1111,14 +1125,14 @@
 
     int-to-float p2, p2
 
-    .line 788
+    .line 847
     :goto_0
     iget-object p3, p0, Lcom/rigol/scope/views/grid/GridRulerView;->columnTextPaint:Landroid/graphics/Paint;
 
-    .line 784
+    .line 843
     invoke-virtual {p1, v0, v3, p2, p3}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    .line 793
+    .line 852
     iget-boolean p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->fromTop:Z
 
     if-eqz p2, :cond_2
@@ -1132,16 +1146,16 @@
 
     int-to-float v2, p2
 
-    .line 794
+    .line 853
     :goto_1
     iget-object p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->columnTextPaint:Landroid/graphics/Paint;
 
-    .line 790
+    .line 849
     invoke-virtual {p1, v0, v3, v2, p2}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
     goto :goto_4
 
-    .line 797
+    .line 856
     :cond_3
     iget-object v4, p0, Lcom/rigol/scope/views/grid/GridRulerView;->columnContents:[Ljava/lang/String;
 
@@ -1157,7 +1171,7 @@
 
     sub-float/2addr v1, v3
 
-    .line 801
+    .line 860
     iget-boolean p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->fromTop:Z
 
     if-eqz p2, :cond_4
@@ -1171,11 +1185,11 @@
 
     int-to-float v2, p2
 
-    .line 802
+    .line 861
     :goto_2
     iget-object p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->columnTextPaint:Landroid/graphics/Paint;
 
-    .line 798
+    .line 857
     invoke-virtual {p1, v0, v1, v2, p2}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
     goto :goto_4
@@ -1189,7 +1203,7 @@
 
     sub-float/2addr v1, p2
 
-    .line 809
+    .line 868
     iget-boolean p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->fromTop:Z
 
     if-eqz p2, :cond_6
@@ -1205,11 +1219,11 @@
 
     sub-float v2, p2, v3
 
-    .line 810
+    .line 869
     :goto_3
     iget-object p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->columnTextPaint:Landroid/graphics/Paint;
 
-    .line 806
+    .line 865
     invoke-virtual {p1, v0, v1, v2, p2}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
     :goto_4
@@ -1219,12 +1233,12 @@
 .method private final drawColumnContents(ILandroid/graphics/Canvas;F)V
     .locals 7
 
-    .line 698
+    .line 757
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 699
+    .line 758
     iget-object v1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->columnContents:[Ljava/lang/String;
 
     invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
@@ -1240,14 +1254,14 @@
 
     aget-object v5, v1, v4
 
-    .line 700
+    .line 759
     invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     add-int/lit8 v4, v4, 0x1
 
     goto :goto_0
 
-    .line 702
+    .line 761
     :cond_0
     iget-object v1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->columnTextPaint:Landroid/graphics/Paint;
 
@@ -1259,7 +1273,7 @@
 
     move-result v0
 
-    .line 705
+    .line 764
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/GridRulerView;->getWidth()I
 
     move-result v1
@@ -1274,7 +1288,7 @@
 
     if-lez v1, :cond_2
 
-    .line 706
+    .line 765
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/GridRulerView;->getWidth()I
 
     move-result v1
@@ -1289,7 +1303,7 @@
 
     if-nez v1, :cond_1
 
-    .line 707
+    .line 766
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/GridRulerView;->getWidth()I
 
     move-result v1
@@ -1300,7 +1314,7 @@
 
     goto :goto_1
 
-    .line 709
+    .line 768
     :cond_1
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/GridRulerView;->getWidth()I
 
@@ -1319,7 +1333,7 @@
 
     goto :goto_2
 
-    .line 712
+    .line 771
     :cond_2
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/GridRulerView;->getWidth()I
 
@@ -1344,11 +1358,11 @@
     :cond_3
     move v0, v4
 
-    .line 723
+    .line 782
     :goto_2
     div-int v1, p1, v0
 
-    .line 724
+    .line 783
     rem-int v5, p1, v0
 
     if-eqz v5, :cond_4
@@ -1358,17 +1372,17 @@
     :cond_4
     sub-int/2addr v1, v2
 
-    .line 728
+    .line 787
     div-int/lit8 v2, p1, 0x2
 
-    .line 729
+    .line 788
     rem-int/lit8 v5, p1, 0x2
 
     if-eqz v5, :cond_5
 
     add-int/lit8 v2, v2, 0x1
 
-    .line 734
+    .line 793
     :cond_5
     iget-boolean v5, p0, Lcom/rigol/scope/views/grid/GridRulerView;->isShowRuler:Z
 
@@ -1383,7 +1397,7 @@
 
     if-nez v5, :cond_7
 
-    .line 739
+    .line 798
     iget-boolean v6, p0, Lcom/rigol/scope/views/grid/GridRulerView;->fromStart:Z
 
     if-eqz v6, :cond_6
@@ -1392,18 +1406,18 @@
 
     sub-int/2addr v6, v5
 
-    .line 741
+    .line 800
     invoke-direct {p0, p2, p3, v6}, Lcom/rigol/scope/views/grid/GridRulerView;->drawColumn(Landroid/graphics/Canvas;FI)V
 
     goto :goto_4
 
-    .line 744
+    .line 803
     :cond_6
     invoke-direct {p0, p2, p3, v5}, Lcom/rigol/scope/views/grid/GridRulerView;->drawColumn(Landroid/graphics/Canvas;FI)V
 
     goto :goto_4
 
-    .line 747
+    .line 806
     :cond_7
     invoke-direct {p0, p2, p3, v5}, Lcom/rigol/scope/views/grid/GridRulerView;->drawColumn(Landroid/graphics/Canvas;FI)V
 
@@ -1411,7 +1425,7 @@
 
     sub-int/2addr v6, v5
 
-    .line 748
+    .line 807
     invoke-direct {p0, p2, p3, v6}, Lcom/rigol/scope/views/grid/GridRulerView;->drawColumn(Landroid/graphics/Canvas;FI)V
 
     :goto_4
@@ -1421,18 +1435,18 @@
 
     goto :goto_3
 
-    .line 754
+    .line 813
     :cond_8
     iget-boolean v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->isShowAllCol:Z
 
     if-eqz v0, :cond_9
 
-    .line 755
+    .line 814
     invoke-direct {p0, p2, p3, v3}, Lcom/rigol/scope/views/grid/GridRulerView;->drawColumn(Landroid/graphics/Canvas;FI)V
 
     sub-int/2addr p1, v4
 
-    .line 756
+    .line 815
     invoke-direct {p0, p2, p3, p1}, Lcom/rigol/scope/views/grid/GridRulerView;->drawColumn(Landroid/graphics/Canvas;FI)V
 
     :cond_9
@@ -1440,38 +1454,76 @@
 .end method
 
 .method private final drawColumnLine(IFLandroid/graphics/Canvas;)V
-    .locals 1
+    .locals 3
 
     int-to-float p1, p1
 
     mul-float/2addr p1, p2
 
-    .line 860
-    iget-object p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->path:Landroid/graphics/Path;
+    .line 928
+    iget-object p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowContents:[Ljava/lang/String;
 
-    invoke-virtual {p2}, Landroid/graphics/Path;->reset()V
+    invoke-static {p2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
 
-    .line 863
-    iget-object p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->path:Landroid/graphics/Path;
+    array-length p2, p2
 
-    const/4 v0, 0x0
-
-    int-to-float v0, v0
-
-    invoke-virtual {p2, p1, v0}, Landroid/graphics/Path;->moveTo(FF)V
-
-    .line 866
-    iget-object p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->path:Landroid/graphics/Path;
-
+    .line 931
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/GridRulerView;->getHeight()I
 
     move-result v0
 
     int-to-float v0, v0
 
+    add-int/lit8 p2, p2, -0x1
+
+    int-to-float p2, p2
+
+    div-float/2addr v0, p2
+
+    const/4 p2, 0x0
+
+    int-to-float p2, p2
+
+    .line 932
+    iget v1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->moveOffset:F
+
+    cmpl-float v2, v1, p2
+
+    if-ltz v2, :cond_0
+
+    sub-float/2addr p2, v1
+
+    goto :goto_0
+
+    :cond_0
+    neg-float p2, v1
+
+    sub-float/2addr p2, v0
+
+    .line 941
+    :goto_0
+    invoke-virtual {p0}, Lcom/rigol/scope/views/grid/GridRulerView;->getHeight()I
+
+    move-result v0
+
+    int-to-float v0, v0
+
+    .line 944
+    iget-object v1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->path:Landroid/graphics/Path;
+
+    invoke-virtual {v1}, Landroid/graphics/Path;->reset()V
+
+    .line 947
+    iget-object v1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->path:Landroid/graphics/Path;
+
+    invoke-virtual {v1, p1, p2}, Landroid/graphics/Path;->moveTo(FF)V
+
+    .line 950
+    iget-object p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->path:Landroid/graphics/Path;
+
     invoke-virtual {p2, p1, v0}, Landroid/graphics/Path;->lineTo(FF)V
 
-    .line 869
+    .line 953
     iget-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->path:Landroid/graphics/Path;
 
     iget-object p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->columnLinePaint:Landroid/graphics/Paint;
@@ -1484,14 +1536,14 @@
 .method private final drawColumnLines(IFLandroid/graphics/Canvas;)V
     .locals 5
 
-    .line 818
+    .line 877
     iget-boolean v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->isShowLine:Z
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 823
+    .line 882
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->type:Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
@@ -1501,37 +1553,57 @@
 
     const/4 v3, 0x1
 
-    if-ne v0, v1, :cond_3
+    if-ne v0, v1, :cond_4
 
+    .line 883
+    iget-boolean v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->isMove:Z
+
+    if-eqz v0, :cond_1
+
+    sub-int/2addr p1, v3
+
+    move v0, v3
+
+    :goto_0
+    if-ge v0, p1, :cond_5
+
+    .line 886
+    invoke-direct {p0, v0, p2, p3}, Lcom/rigol/scope/views/grid/GridRulerView;->drawColumnLine(IFLandroid/graphics/Canvas;)V
+
+    add-int/lit8 v0, v0, 0x1
+
+    goto :goto_0
+
+    :cond_1
     add-int/lit8 v0, p1, -0x1
 
     move v1, v3
 
-    :goto_0
-    if-ge v1, v0, :cond_2
+    :goto_1
+    if-ge v1, v0, :cond_3
 
-    .line 826
+    .line 893
     rem-int/lit8 v4, p1, 0x2
 
-    if-eqz v4, :cond_1
+    if-eqz v4, :cond_2
 
     div-int/lit8 v4, v0, 0x2
 
-    if-ne v1, v4, :cond_1
+    if-ne v1, v4, :cond_2
+
+    goto :goto_2
+
+    .line 896
+    :cond_2
+    invoke-direct {p0, v1, p2, p3}, Lcom/rigol/scope/views/grid/GridRulerView;->drawColumnLine(IFLandroid/graphics/Canvas;)V
+
+    :goto_2
+    add-int/lit8 v1, v1, 0x1
 
     goto :goto_1
 
-    .line 829
-    :cond_1
-    invoke-direct {p0, v1, p2, p3}, Lcom/rigol/scope/views/grid/GridRulerView;->drawColumnLine(IFLandroid/graphics/Canvas;)V
-
-    :goto_1
-    add-int/lit8 v1, v1, 0x1
-
-    goto :goto_0
-
-    .line 832
-    :cond_2
+    .line 899
+    :cond_3
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/GridRulerView;->getHeight()I
 
     move-result p1
@@ -1554,7 +1626,7 @@
 
     div-float/2addr p1, p2
 
-    .line 833
+    .line 900
     iget-object p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowContents:[Ljava/lang/String;
 
     invoke-static {p2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
@@ -1567,20 +1639,20 @@
 
     add-int/2addr p2, v3
 
-    .line 831
+    .line 898
     invoke-direct {p0, p1, p2, p3}, Lcom/rigol/scope/views/grid/GridRulerView;->drawColumnMiddleScale(FILandroid/graphics/Canvas;)V
 
-    goto :goto_2
+    goto :goto_3
 
-    .line 836
-    :cond_3
+    .line 904
+    :cond_4
     iget-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->type:Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
     sget-object p2, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;->GRID_IS_HALF:Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
-    if-ne p1, p2, :cond_4
+    if-ne p1, p2, :cond_5
 
-    .line 838
+    .line 906
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/GridRulerView;->getHeight()I
 
     move-result p1
@@ -1603,7 +1675,7 @@
 
     div-float/2addr p1, p2
 
-    .line 839
+    .line 907
     iget-object p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowContents:[Ljava/lang/String;
 
     invoke-static {p2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
@@ -1616,12 +1688,12 @@
 
     add-int/2addr p2, v3
 
-    .line 837
+    .line 905
     invoke-direct {p0, p1, p2, p3}, Lcom/rigol/scope/views/grid/GridRulerView;->drawColumnMiddleScale(FILandroid/graphics/Canvas;)V
 
-    .line 846
-    :cond_4
-    :goto_2
+    .line 914
+    :cond_5
+    :goto_3
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/GridRulerView;->getHeight()I
 
     move-result p1
@@ -1644,7 +1716,7 @@
 
     div-float/2addr p1, p2
 
-    .line 847
+    .line 915
     iget-object p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowContents:[Ljava/lang/String;
 
     invoke-static {p2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
@@ -1657,7 +1729,7 @@
 
     add-int/2addr p2, v3
 
-    .line 845
+    .line 913
     invoke-direct {p0, p1, p2, p3}, Lcom/rigol/scope/views/grid/GridRulerView;->drawColumnSideScaleLine(FILandroid/graphics/Canvas;)V
 
     return-void
@@ -1670,7 +1742,7 @@
 
     move/from16 v1, p2
 
-    .line 651
+    .line 710
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/views/grid/GridRulerView;->getWidth()I
 
     move-result v2
@@ -1687,7 +1759,7 @@
 
     int-to-float v6, v10
 
-    .line 656
+    .line 715
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/views/grid/GridRulerView;->getHeight()I
 
     move-result v4
@@ -1707,7 +1779,7 @@
     :goto_0
     if-ge v10, v1, :cond_1
 
-    .line 660
+    .line 719
     invoke-direct {v0, v10}, Lcom/rigol/scope/views/grid/GridRulerView;->getScaleLineSize(I)F
 
     move-result v4
@@ -1720,7 +1792,7 @@
 
     mul-float v5, v5, p1
 
-    .line 662
+    .line 721
     iget-object v6, v0, Lcom/rigol/scope/views/grid/GridRulerView;->scaleLinePaint:Landroid/graphics/Paint;
 
     invoke-virtual {v6}, Landroid/graphics/Paint;->getStrokeWidth()F
@@ -1745,7 +1817,7 @@
 
     add-float v14, v2, v4
 
-    .line 667
+    .line 726
     iget-object v4, v0, Lcom/rigol/scope/views/grid/GridRulerView;->scaleLinePaint:Landroid/graphics/Paint;
 
     move-object/from16 v11, p3
@@ -1771,7 +1843,7 @@
 
     int-to-float v7, v0
 
-    .line 611
+    .line 670
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/GridRulerView;->getHeight()I
 
     move-result v1
@@ -1795,7 +1867,7 @@
     :goto_0
     if-ge v8, p2, :cond_1
 
-    .line 615
+    .line 674
     invoke-direct {p0, v8}, Lcom/rigol/scope/views/grid/GridRulerView;->getScaleLineSize(I)F
 
     move-result v4
@@ -1808,7 +1880,7 @@
 
     mul-float/2addr v1, p1
 
-    .line 617
+    .line 676
     iget-object v2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->scaleLinePaint:Landroid/graphics/Paint;
 
     invoke-virtual {v2}, Landroid/graphics/Paint;->getStrokeWidth()F
@@ -1827,7 +1899,7 @@
     :goto_1
     move v5, v1
 
-    .line 622
+    .line 681
     iget-object v6, p0, Lcom/rigol/scope/views/grid/GridRulerView;->scaleLinePaint:Landroid/graphics/Paint;
 
     move-object v1, p3
@@ -1842,7 +1914,7 @@
 
     goto :goto_0
 
-    .line 626
+    .line 685
     :cond_1
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/GridRulerView;->getWidth()I
 
@@ -1858,7 +1930,7 @@
 
     sub-float v4, v1, v2
 
-    .line 631
+    .line 690
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/GridRulerView;->getHeight()I
 
     move-result v1
@@ -1878,7 +1950,7 @@
     :goto_2
     if-ge v0, p2, :cond_3
 
-    .line 635
+    .line 694
     invoke-direct {p0, v0}, Lcom/rigol/scope/views/grid/GridRulerView;->getScaleLineSize(I)F
 
     move-result v1
@@ -1891,7 +1963,7 @@
 
     mul-float/2addr v2, p1
 
-    .line 637
+    .line 696
     iget-object v3, p0, Lcom/rigol/scope/views/grid/GridRulerView;->scaleLinePaint:Landroid/graphics/Paint;
 
     invoke-virtual {v3}, Landroid/graphics/Paint;->getStrokeWidth()F
@@ -1910,7 +1982,7 @@
     :goto_3
     move v7, v2
 
-    .line 642
+    .line 701
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/GridRulerView;->getWidth()I
 
     move-result v2
@@ -1944,14 +2016,14 @@
 .method private final drawColumns(Landroid/graphics/Canvas;)V
     .locals 4
 
-    .line 679
+    .line 738
     iget-object v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->columnContents:[Ljava/lang/String;
 
     invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
 
     array-length v0, v0
 
-    .line 682
+    .line 741
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/GridRulerView;->getWidth()I
 
     move-result v1
@@ -1964,7 +2036,7 @@
 
     div-float/2addr v1, v2
 
-    .line 685
+    .line 744
     iget-object v2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->horizontal:Lcom/rigol/scope/data/HorizontalParam;
 
     if-eqz v2, :cond_0
@@ -1987,11 +2059,11 @@
 
     if-nez v2, :cond_2
 
-    .line 686
+    .line 745
     :cond_1
     invoke-direct {p0, v0, p1, v1}, Lcom/rigol/scope/views/grid/GridRulerView;->drawColumnContents(ILandroid/graphics/Canvas;F)V
 
-    .line 690
+    .line 749
     :cond_2
     invoke-direct {p0, v0, v1, p1}, Lcom/rigol/scope/views/grid/GridRulerView;->drawColumnLines(IFLandroid/graphics/Canvas;)V
 
@@ -2001,14 +2073,14 @@
 .method private final drawRowContent(Landroid/graphics/Canvas;FI)V
     .locals 6
 
-    .line 370
+    .line 395
     iget-object v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowContents:[Ljava/lang/String;
 
     invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
 
     aget-object v0, v0, p3
 
-    .line 371
+    .line 396
     move-object v1, v0
 
     check-cast v1, Ljava/lang/CharSequence;
@@ -2026,29 +2098,35 @@
 
     mul-float/2addr v1, p2
 
-    float-to-int p2, v1
+    .line 400
+    iget p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->moveOffset:F
 
-    .line 375
-    iget-object v1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->columnTextPaint:Landroid/graphics/Paint;
+    sub-float/2addr v1, p2
 
-    invoke-virtual {v1, v0}, Landroid/graphics/Paint;->measureText(Ljava/lang/String;)F
+    .line 401
+    iget-object p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->columnTextPaint:Landroid/graphics/Paint;
 
-    move-result v1
+    invoke-virtual {p2, v0}, Landroid/graphics/Paint;->measureText(Ljava/lang/String;)F
 
-    .line 377
+    move-result p2
+
+    .line 403
     iget-boolean v2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->isAbout:Z
 
-    const/high16 v3, 0x41000000    # 8.0f
+    const/high16 v3, 0x41800000    # 16.0f
 
-    const/high16 v4, 0x41800000    # 16.0f
+    const/high16 v4, 0x41000000    # 8.0f
 
     const/high16 v5, 0x41200000    # 10.0f
 
-    if-eqz v2, :cond_6
+    if-eqz v2, :cond_8
 
-    if-nez p3, :cond_2
+    .line 404
+    iget-boolean v2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->isMove:Z
 
-    .line 382
+    if-eqz v2, :cond_2
+
+    .line 408
     iget-boolean p3, p0, Lcom/rigol/scope/views/grid/GridRulerView;->fromStart:Z
 
     if-eqz p3, :cond_1
@@ -2062,41 +2140,28 @@
 
     int-to-float p3, p3
 
-    sub-float/2addr p3, v1
+    sub-float/2addr p3, p2
 
     sub-float v5, p3, v5
 
     :goto_0
-    int-to-float p2, p2
+    add-float/2addr v1, v4
 
-    add-float/2addr p2, v4
+    .line 410
+    iget-object p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowTextPaint:Landroid/graphics/Paint;
 
-    .line 384
-    iget-object p3, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowTextPaint:Landroid/graphics/Paint;
+    .line 406
+    invoke-virtual {p1, v0, v5, v1, p2}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    .line 380
-    invoke-virtual {p1, v0, v5, p2, p3}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
+    goto/16 :goto_4
 
-    goto :goto_3
-
-    .line 387
     :cond_2
-    iget-object v2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowContents:[Ljava/lang/String;
+    if-nez p3, :cond_4
 
-    invoke-static {v2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
-
-    array-length v2, v2
-
-    add-int/lit8 v2, v2, -0x1
-
-    if-ne p3, v2, :cond_4
-
-    .line 390
+    .line 419
     iget-boolean p3, p0, Lcom/rigol/scope/views/grid/GridRulerView;->fromStart:Z
 
     if-eqz p3, :cond_3
-
-    move p3, v5
 
     goto :goto_1
 
@@ -2107,28 +2172,39 @@
 
     int-to-float p3, p3
 
-    sub-float/2addr p3, v1
+    sub-float/2addr p3, p2
 
-    sub-float/2addr p3, v5
+    sub-float v5, p3, v5
 
     :goto_1
-    int-to-float p2, p2
+    add-float/2addr v1, v3
 
-    sub-float/2addr p2, v5
+    .line 421
+    iget-object p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowTextPaint:Landroid/graphics/Paint;
 
-    .line 392
-    iget-object v1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowTextPaint:Landroid/graphics/Paint;
+    .line 417
+    invoke-virtual {p1, v0, v5, v1, p2}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
 
-    .line 388
-    invoke-virtual {p1, v0, p3, p2, v1}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
+    goto :goto_4
 
-    goto :goto_3
-
-    .line 398
+    .line 424
     :cond_4
+    iget-object v2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowContents:[Ljava/lang/String;
+
+    invoke-static {v2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
+
+    array-length v2, v2
+
+    add-int/lit8 v2, v2, -0x1
+
+    if-ne p3, v2, :cond_6
+
+    .line 427
     iget-boolean p3, p0, Lcom/rigol/scope/views/grid/GridRulerView;->fromStart:Z
 
     if-eqz p3, :cond_5
+
+    move p3, v5
 
     goto :goto_2
 
@@ -2139,81 +2215,119 @@
 
     int-to-float p3, p3
 
-    sub-float/2addr p3, v1
+    sub-float/2addr p3, p2
+
+    sub-float/2addr p3, v5
+
+    :goto_2
+    sub-float/2addr v1, v5
+
+    .line 429
+    iget-object p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowTextPaint:Landroid/graphics/Paint;
+
+    .line 425
+    invoke-virtual {p1, v0, p3, v1, p2}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
+
+    goto :goto_4
+
+    .line 435
+    :cond_6
+    iget-boolean p3, p0, Lcom/rigol/scope/views/grid/GridRulerView;->fromStart:Z
+
+    if-eqz p3, :cond_7
+
+    goto :goto_3
+
+    :cond_7
+    invoke-virtual {p0}, Lcom/rigol/scope/views/grid/GridRulerView;->getWidth()I
+
+    move-result p3
+
+    int-to-float p3, p3
+
+    sub-float/2addr p3, p2
 
     sub-float v5, p3, v5
 
-    :goto_2
-    int-to-float p2, p2
-
-    add-float/2addr p2, v3
-
-    .line 400
-    iget-object p3, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowTextPaint:Landroid/graphics/Paint;
-
-    .line 396
-    invoke-virtual {p1, v0, v5, p2, p3}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
-
-    goto :goto_3
-
-    :cond_6
-    if-nez p3, :cond_7
-
-    int-to-float p2, p2
-
-    add-float/2addr p2, v4
-
-    .line 411
-    iget-object p3, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowTextPaint:Landroid/graphics/Paint;
-
-    .line 407
-    invoke-virtual {p1, v0, v5, p2, p3}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
-
-    goto :goto_3
-
-    .line 414
-    :cond_7
-    iget-object v1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowContents:[Ljava/lang/String;
-
-    invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
-
-    array-length v1, v1
-
-    add-int/lit8 v1, v1, -0x1
-
-    if-ne p3, v1, :cond_8
-
-    int-to-float p2, p2
-
-    sub-float/2addr p2, v5
-
-    .line 419
-    iget-object p3, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowTextPaint:Landroid/graphics/Paint;
-
-    .line 415
-    invoke-virtual {p1, v0, v5, p2, p3}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
-
-    goto :goto_3
-
-    :cond_8
-    int-to-float p2, p2
-
-    add-float/2addr p2, v3
-
-    .line 427
-    iget-object p3, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowTextPaint:Landroid/graphics/Paint;
-
-    .line 423
-    invoke-virtual {p1, v0, v5, p2, p3}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
-
     :goto_3
+    add-float/2addr v1, v4
+
+    .line 437
+    iget-object p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowTextPaint:Landroid/graphics/Paint;
+
+    .line 433
+    invoke-virtual {p1, v0, v5, v1, p2}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
+
+    goto :goto_4
+
+    .line 443
+    :cond_8
+    iget-boolean p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->isMove:Z
+
+    if-eqz p2, :cond_9
+
+    add-float/2addr v1, v4
+
+    .line 449
+    iget-object p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowTextPaint:Landroid/graphics/Paint;
+
+    .line 445
+    invoke-virtual {p1, v0, v5, v1, p2}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
+
+    goto :goto_4
+
+    :cond_9
+    if-nez p3, :cond_a
+
+    add-float/2addr v1, v3
+
+    .line 460
+    iget-object p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowTextPaint:Landroid/graphics/Paint;
+
+    .line 456
+    invoke-virtual {p1, v0, v5, v1, p2}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
+
+    goto :goto_4
+
+    .line 463
+    :cond_a
+    iget-object p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowContents:[Ljava/lang/String;
+
+    invoke-static {p2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
+
+    array-length p2, p2
+
+    add-int/lit8 p2, p2, -0x1
+
+    if-ne p3, p2, :cond_b
+
+    sub-float/2addr v1, v5
+
+    .line 468
+    iget-object p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowTextPaint:Landroid/graphics/Paint;
+
+    .line 464
+    invoke-virtual {p1, v0, v5, v1, p2}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
+
+    goto :goto_4
+
+    :cond_b
+    add-float/2addr v1, v4
+
+    .line 476
+    iget-object p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowTextPaint:Landroid/graphics/Paint;
+
+    .line 472
+    invoke-virtual {p1, v0, v5, v1, p2}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
+
+    :goto_4
     return-void
 .end method
 
 .method private final drawRowContents(IFLandroid/graphics/Canvas;)V
     .locals 3
 
-    .line 344
+    .line 369
     iget-boolean v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->isShowRuler:Z
 
     if-nez v0, :cond_0
@@ -2230,43 +2344,51 @@
     :goto_0
     if-ge v2, v0, :cond_1
 
-    .line 350
+    .line 375
     invoke-direct {p0, p3, p2, v2}, Lcom/rigol/scope/views/grid/GridRulerView;->drawRowContent(Landroid/graphics/Canvas;FI)V
 
     add-int/lit8 v2, v2, 0x1
 
     goto :goto_0
 
-    .line 353
+    .line 378
     :cond_1
     iget-boolean v2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->isShowAllRow:Z
 
+    if-nez v2, :cond_3
+
+    iget-boolean v2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->isMove:Z
+
     if-eqz v2, :cond_2
 
-    const/4 v0, 0x0
-
-    :goto_1
-    if-ge v0, p1, :cond_3
-
-    .line 356
-    invoke-direct {p0, p3, p2, v0}, Lcom/rigol/scope/views/grid/GridRulerView;->drawRowContent(Landroid/graphics/Canvas;FI)V
-
-    add-int/lit8 v0, v0, 0x1
-
-    goto :goto_1
+    goto :goto_2
 
     :cond_2
-    :goto_2
-    if-ge v1, v0, :cond_3
+    :goto_1
+    if-ge v1, v0, :cond_4
 
-    .line 361
+    .line 386
     invoke-direct {p0, p3, p2, v1}, Lcom/rigol/scope/views/grid/GridRulerView;->drawRowContent(Landroid/graphics/Canvas;FI)V
 
     add-int/lit8 v1, v1, 0x1
 
-    goto :goto_2
+    goto :goto_1
 
     :cond_3
+    :goto_2
+    const/4 v0, 0x0
+
+    :goto_3
+    if-ge v0, p1, :cond_4
+
+    .line 381
+    invoke-direct {p0, p3, p2, v0}, Lcom/rigol/scope/views/grid/GridRulerView;->drawRowContent(Landroid/graphics/Canvas;FI)V
+
+    add-int/lit8 v0, v0, 0x1
+
+    goto :goto_3
+
+    :cond_4
     return-void
 .end method
 
@@ -2277,12 +2399,17 @@
 
     mul-float/2addr p1, p2
 
-    .line 482
+    .line 539
+    iget p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->moveOffset:F
+
+    sub-float/2addr p1, p2
+
+    .line 541
     iget-object p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->path:Landroid/graphics/Path;
 
     invoke-virtual {p2}, Landroid/graphics/Path;->reset()V
 
-    .line 485
+    .line 544
     iget-object p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->path:Landroid/graphics/Path;
 
     const/4 v0, 0x0
@@ -2291,7 +2418,7 @@
 
     invoke-virtual {p2, v0, p1}, Landroid/graphics/Path;->moveTo(FF)V
 
-    .line 488
+    .line 547
     iget-object p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->path:Landroid/graphics/Path;
 
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/GridRulerView;->getWidth()I
@@ -2302,7 +2429,7 @@
 
     invoke-virtual {p2, v0, p1}, Landroid/graphics/Path;->lineTo(FF)V
 
-    .line 491
+    .line 550
     iget-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->path:Landroid/graphics/Path;
 
     iget-object p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowLinePaint:Landroid/graphics/Paint;
@@ -2315,14 +2442,14 @@
 .method private final drawRowLines(IFLandroid/graphics/Canvas;)V
     .locals 5
 
-    .line 440
+    .line 490
     iget-boolean v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->isShowLine:Z
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 445
+    .line 495
     :cond_0
     iget-object v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->type:Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
@@ -2332,37 +2459,55 @@
 
     const/4 v3, 0x1
 
-    if-ne v0, v1, :cond_3
+    if-ne v0, v1, :cond_4
 
+    .line 496
+    iget-boolean v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->isMove:Z
+
+    if-eqz v0, :cond_1
+
+    const/4 v0, 0x0
+
+    :goto_0
+    if-ge v0, p1, :cond_5
+
+    .line 499
+    invoke-direct {p0, v0, p2, p3}, Lcom/rigol/scope/views/grid/GridRulerView;->drawRowLine(IFLandroid/graphics/Canvas;)V
+
+    add-int/lit8 v0, v0, 0x1
+
+    goto :goto_0
+
+    :cond_1
     add-int/lit8 v0, p1, -0x1
 
     move v1, v3
 
-    :goto_0
-    if-ge v1, v0, :cond_2
+    :goto_1
+    if-ge v1, v0, :cond_3
 
-    .line 448
+    .line 506
     rem-int/lit8 v4, p1, 0x2
 
-    if-eqz v4, :cond_1
+    if-eqz v4, :cond_2
 
     div-int/lit8 v4, v0, 0x2
 
-    if-ne v1, v4, :cond_1
+    if-ne v1, v4, :cond_2
+
+    goto :goto_2
+
+    .line 509
+    :cond_2
+    invoke-direct {p0, v1, p2, p3}, Lcom/rigol/scope/views/grid/GridRulerView;->drawRowLine(IFLandroid/graphics/Canvas;)V
+
+    :goto_2
+    add-int/lit8 v1, v1, 0x1
 
     goto :goto_1
 
-    .line 451
-    :cond_1
-    invoke-direct {p0, v1, p2, p3}, Lcom/rigol/scope/views/grid/GridRulerView;->drawRowLine(IFLandroid/graphics/Canvas;)V
-
-    :goto_1
-    add-int/lit8 v1, v1, 0x1
-
-    goto :goto_0
-
-    .line 454
-    :cond_2
+    .line 512
+    :cond_3
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/GridRulerView;->getWidth()I
 
     move-result p1
@@ -2385,7 +2530,7 @@
 
     div-float/2addr p1, p2
 
-    .line 455
+    .line 513
     iget-object p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->columnContents:[Ljava/lang/String;
 
     invoke-static {p2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
@@ -2398,20 +2543,20 @@
 
     add-int/2addr p2, v3
 
-    .line 453
+    .line 511
     invoke-direct {p0, p1, p2, p3}, Lcom/rigol/scope/views/grid/GridRulerView;->drawRowMiddleScaleLine(FILandroid/graphics/Canvas;)V
 
-    goto :goto_2
+    goto :goto_3
 
-    .line 458
-    :cond_3
+    .line 517
+    :cond_4
     iget-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->type:Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
     sget-object p2, Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;->GRID_IS_HALF:Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
-    if-ne p1, p2, :cond_4
+    if-ne p1, p2, :cond_5
 
-    .line 460
+    .line 519
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/GridRulerView;->getWidth()I
 
     move-result p1
@@ -2434,7 +2579,7 @@
 
     div-float/2addr p1, p2
 
-    .line 461
+    .line 520
     iget-object p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->columnContents:[Ljava/lang/String;
 
     invoke-static {p2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
@@ -2447,12 +2592,12 @@
 
     add-int/2addr p2, v3
 
-    .line 459
+    .line 518
     invoke-direct {p0, p1, p2, p3}, Lcom/rigol/scope/views/grid/GridRulerView;->drawRowMiddleScaleLine(FILandroid/graphics/Canvas;)V
 
-    .line 468
-    :cond_4
-    :goto_2
+    .line 527
+    :cond_5
+    :goto_3
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/GridRulerView;->getWidth()I
 
     move-result p1
@@ -2475,7 +2620,7 @@
 
     div-float/2addr p1, p2
 
-    .line 469
+    .line 528
     iget-object p2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->columnContents:[Ljava/lang/String;
 
     invoke-static {p2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
@@ -2488,7 +2633,7 @@
 
     add-int/2addr p2, v3
 
-    .line 467
+    .line 526
     invoke-direct {p0, p1, p2, p3}, Lcom/rigol/scope/views/grid/GridRulerView;->drawRowSideScaleLine(FILandroid/graphics/Canvas;)V
 
     return-void
@@ -2501,12 +2646,12 @@
 
     move/from16 v1, p2
 
-    .line 554
+    .line 613
     iget-object v2, v0, Lcom/rigol/scope/views/grid/GridRulerView;->path:Landroid/graphics/Path;
 
     invoke-virtual {v2}, Landroid/graphics/Path;->reset()V
 
-    .line 555
+    .line 614
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/views/grid/GridRulerView;->getHeight()I
 
     move-result v2
@@ -2523,7 +2668,7 @@
 
     int-to-float v5, v10
 
-    .line 559
+    .line 618
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/views/grid/GridRulerView;->getWidth()I
 
     move-result v4
@@ -2543,7 +2688,7 @@
     :goto_0
     if-ge v10, v1, :cond_1
 
-    .line 563
+    .line 622
     invoke-direct {v0, v10}, Lcom/rigol/scope/views/grid/GridRulerView;->getScaleLineSize(I)F
 
     move-result v4
@@ -2556,7 +2701,7 @@
 
     mul-float v5, v5, p1
 
-    .line 565
+    .line 624
     iget-object v6, v0, Lcom/rigol/scope/views/grid/GridRulerView;->scaleLinePaint:Landroid/graphics/Paint;
 
     invoke-virtual {v6}, Landroid/graphics/Paint;->getStrokeWidth()F
@@ -2581,7 +2726,7 @@
 
     add-float v15, v2, v4
 
-    .line 570
+    .line 629
     iget-object v4, v0, Lcom/rigol/scope/views/grid/GridRulerView;->scaleLinePaint:Landroid/graphics/Paint;
 
     move-object/from16 v11, p3
@@ -2611,7 +2756,7 @@
 
     int-to-float v9, v2
 
-    .line 514
+    .line 573
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/views/grid/GridRulerView;->getWidth()I
 
     move-result v3
@@ -2635,7 +2780,7 @@
     :goto_0
     if-ge v10, v1, :cond_1
 
-    .line 518
+    .line 577
     invoke-direct {v0, v10}, Lcom/rigol/scope/views/grid/GridRulerView;->getScaleLineSize(I)F
 
     move-result v7
@@ -2648,7 +2793,7 @@
 
     mul-float v3, v3, p1
 
-    .line 520
+    .line 579
     iget-object v4, v0, Lcom/rigol/scope/views/grid/GridRulerView;->scaleLinePaint:Landroid/graphics/Paint;
 
     invoke-virtual {v4}, Landroid/graphics/Paint;->getStrokeWidth()F
@@ -2667,7 +2812,7 @@
     :goto_1
     move v6, v3
 
-    .line 525
+    .line 584
     iget-object v8, v0, Lcom/rigol/scope/views/grid/GridRulerView;->scaleLinePaint:Landroid/graphics/Paint;
 
     move-object/from16 v3, p3
@@ -2682,7 +2827,7 @@
 
     goto :goto_0
 
-    .line 529
+    .line 588
     :cond_1
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/views/grid/GridRulerView;->getHeight()I
 
@@ -2698,7 +2843,7 @@
 
     sub-float v16, v3, v4
 
-    .line 534
+    .line 593
     invoke-virtual/range {p0 .. p0}, Lcom/rigol/scope/views/grid/GridRulerView;->getWidth()I
 
     move-result v3
@@ -2720,7 +2865,7 @@
     :goto_2
     if-ge v2, v1, :cond_3
 
-    .line 538
+    .line 597
     invoke-direct {v0, v2}, Lcom/rigol/scope/views/grid/GridRulerView;->getScaleLineSize(I)F
 
     move-result v3
@@ -2733,7 +2878,7 @@
 
     mul-float v4, v4, p1
 
-    .line 540
+    .line 599
     iget-object v5, v0, Lcom/rigol/scope/views/grid/GridRulerView;->scaleLinePaint:Landroid/graphics/Paint;
 
     invoke-virtual {v5}, Landroid/graphics/Paint;->getStrokeWidth()F
@@ -2754,7 +2899,7 @@
 
     sub-float v12, v16, v3
 
-    .line 545
+    .line 604
     iget-object v15, v0, Lcom/rigol/scope/views/grid/GridRulerView;->scaleLinePaint:Landroid/graphics/Paint;
 
     move-object/from16 v10, p3
@@ -2776,14 +2921,14 @@
 .method private final drawRows(Landroid/graphics/Canvas;)V
     .locals 4
 
-    .line 325
+    .line 350
     iget-object v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowContents:[Ljava/lang/String;
 
     invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
 
     array-length v0, v0
 
-    .line 328
+    .line 353
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/GridRulerView;->getHeight()I
 
     move-result v1
@@ -2796,7 +2941,7 @@
 
     div-float/2addr v1, v2
 
-    .line 331
+    .line 356
     iget-object v2, p0, Lcom/rigol/scope/views/grid/GridRulerView;->horizontal:Lcom/rigol/scope/data/HorizontalParam;
 
     if-eqz v2, :cond_0
@@ -2819,11 +2964,11 @@
 
     if-nez v2, :cond_2
 
-    .line 332
+    .line 357
     :cond_1
     invoke-direct {p0, v0, v1, p1}, Lcom/rigol/scope/views/grid/GridRulerView;->drawRowContents(IFLandroid/graphics/Canvas;)V
 
-    .line 336
+    .line 361
     :cond_2
     invoke-direct {p0, v0, v1, p1}, Lcom/rigol/scope/views/grid/GridRulerView;->drawRowLines(IFLandroid/graphics/Canvas;)V
 
@@ -2835,7 +2980,7 @@
 
     const/4 v0, 0x5
 
-    .line 578
+    .line 637
     rem-int/2addr p1, v0
 
     if-nez p1, :cond_0
@@ -2856,7 +3001,7 @@
 .method private final updateColumnLinePathEffect()V
     .locals 7
 
-    .line 161
+    .line 162
     iget-object v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowContents:[Ljava/lang/String;
 
     if-eqz v0, :cond_0
@@ -2877,7 +3022,7 @@
 
     return-void
 
-    .line 168
+    .line 169
     :cond_1
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/GridRulerView;->getHeight()I
 
@@ -2909,7 +3054,7 @@
 
     sub-float/2addr v1, v0
 
-    .line 169
+    .line 170
     iget-object v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->columnLinePaint:Landroid/graphics/Paint;
 
     new-instance v3, Landroid/graphics/DashPathEffect;
@@ -2940,7 +3085,7 @@
 .method private final updateRowLinePathEffect()V
     .locals 7
 
-    .line 138
+    .line 139
     iget-object v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->columnContents:[Ljava/lang/String;
 
     if-eqz v0, :cond_0
@@ -2961,7 +3106,7 @@
 
     return-void
 
-    .line 145
+    .line 146
     :cond_1
     invoke-virtual {p0}, Lcom/rigol/scope/views/grid/GridRulerView;->getWidth()I
 
@@ -2993,7 +3138,7 @@
 
     sub-float/2addr v1, v0
 
-    .line 146
+    .line 147
     iget-object v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowLinePaint:Landroid/graphics/Paint;
 
     new-instance v3, Landroid/graphics/DashPathEffect;
@@ -3026,7 +3171,7 @@
 .method public final getBufferBitmap()Landroid/graphics/Bitmap;
     .locals 1
 
-    .line 270
+    .line 279
     iget-object v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->bufferBitmap:Landroid/graphics/Bitmap;
 
     return-object v0
@@ -3035,7 +3180,7 @@
 .method public final getBufferCanvas()Landroid/graphics/Canvas;
     .locals 1
 
-    .line 271
+    .line 280
     iget-object v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->bufferCanvas:Landroid/graphics/Canvas;
 
     return-object v0
@@ -3044,7 +3189,7 @@
 .method public final getColumnContents()[Ljava/lang/String;
     .locals 1
 
-    .line 125
+    .line 126
     iget-object v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->columnContents:[Ljava/lang/String;
 
     return-object v0
@@ -3053,7 +3198,7 @@
 .method public final getFromStart()Z
     .locals 1
 
-    .line 185
+    .line 186
     iget-boolean v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->fromStart:Z
 
     return v0
@@ -3062,7 +3207,7 @@
 .method public final getFromTop()Z
     .locals 1
 
-    .line 178
+    .line 179
     iget-boolean v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->fromTop:Z
 
     return v0
@@ -3071,16 +3216,25 @@
 .method public final getHorizontal()Lcom/rigol/scope/data/HorizontalParam;
     .locals 1
 
-    .line 268
+    .line 277
     iget-object v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->horizontal:Lcom/rigol/scope/data/HorizontalParam;
 
     return-object v0
 .end method
 
+.method public final getMoveOffset()F
+    .locals 1
+
+    .line 224
+    iget v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->moveOffset:F
+
+    return v0
+.end method
+
 .method public final getRowContents()[Ljava/lang/String;
     .locals 1
 
-    .line 153
+    .line 154
     iget-object v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowContents:[Ljava/lang/String;
 
     return-object v0
@@ -3089,7 +3243,7 @@
 .method public final getSyncDataView()Lcom/rigol/scope/viewmodels/SyncDataViewModel;
     .locals 1
 
-    .line 267
+    .line 276
     iget-object v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->syncDataView:Lcom/rigol/scope/viewmodels/SyncDataViewModel;
 
     return-object v0
@@ -3098,7 +3252,7 @@
 .method public final getType()Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
     .locals 1
 
-    .line 200
+    .line 201
     iget-object v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->type:Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
 
     return-object v0
@@ -3107,7 +3261,7 @@
 .method public final isAbout()Z
     .locals 1
 
-    .line 136
+    .line 137
     iget-boolean v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->isAbout:Z
 
     return v0
@@ -3116,7 +3270,7 @@
 .method public final isMain(Z)V
     .locals 0
 
-    .line 251
+    .line 260
     iput-boolean p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->isMain:Z
 
     return-void
@@ -3125,8 +3279,17 @@
 .method public final isMain()Z
     .locals 1
 
-    .line 215
+    .line 216
     iget-boolean v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->isMain:Z
+
+    return v0
+.end method
+
+.method public final isMove()Z
+    .locals 1
+
+    .line 220
+    iget-boolean v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->isMove:Z
 
     return v0
 .end method
@@ -3134,7 +3297,7 @@
 .method public final isShowAllCol()Z
     .locals 1
 
-    .line 190
+    .line 191
     iget-boolean v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->isShowAllCol:Z
 
     return v0
@@ -3143,7 +3306,7 @@
 .method public final isShowAllRow()Z
     .locals 1
 
-    .line 195
+    .line 196
     iget-boolean v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->isShowAllRow:Z
 
     return v0
@@ -3152,7 +3315,7 @@
 .method public final isShowRuler()Z
     .locals 1
 
-    .line 210
+    .line 211
     iget-boolean v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->isShowRuler:Z
 
     return v0
@@ -3165,13 +3328,13 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 295
+    .line 320
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 311
+    .line 336
     invoke-direct {p0, p1}, Lcom/rigol/scope/views/grid/GridRulerView;->drawColumns(Landroid/graphics/Canvas;)V
 
-    .line 314
+    .line 339
     invoke-direct {p0, p1}, Lcom/rigol/scope/views/grid/GridRulerView;->drawRows(Landroid/graphics/Canvas;)V
 
     return-void
@@ -3180,18 +3343,18 @@
 .method protected onSizeChanged(IIII)V
     .locals 0
 
-    .line 282
+    .line 307
     invoke-super {p0, p1, p2, p3, p4}, Landroid/view/View;->onSizeChanged(IIII)V
 
     if-eq p1, p3, :cond_0
 
-    .line 285
+    .line 310
     invoke-direct {p0}, Lcom/rigol/scope/views/grid/GridRulerView;->updateRowLinePathEffect()V
 
     :cond_0
     if-eq p2, p4, :cond_1
 
-    .line 290
+    .line 315
     invoke-direct {p0}, Lcom/rigol/scope/views/grid/GridRulerView;->updateColumnLinePathEffect()V
 
     :cond_1
@@ -3201,7 +3364,7 @@
 .method public final setAbout(Z)V
     .locals 0
 
-    .line 136
+    .line 137
     iput-boolean p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->isAbout:Z
 
     return-void
@@ -3210,7 +3373,7 @@
 .method public final setBufferBitmap(Landroid/graphics/Bitmap;)V
     .locals 0
 
-    .line 270
+    .line 279
     iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->bufferBitmap:Landroid/graphics/Bitmap;
 
     return-void
@@ -3219,7 +3382,7 @@
 .method public final setBufferCanvas(Landroid/graphics/Canvas;)V
     .locals 0
 
-    .line 271
+    .line 280
     iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->bufferCanvas:Landroid/graphics/Canvas;
 
     return-void
@@ -3228,10 +3391,10 @@
 .method public final setColumnContents([Ljava/lang/String;)V
     .locals 0
 
-    .line 127
+    .line 128
     iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->columnContents:[Ljava/lang/String;
 
-    .line 129
+    .line 130
     invoke-direct {p0}, Lcom/rigol/scope/views/grid/GridRulerView;->updateRowLinePathEffect()V
 
     return-void
@@ -3240,7 +3403,7 @@
 .method public final setColumnTextColor(I)V
     .locals 1
 
-    .line 242
+    .line 251
     iget-object v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->columnTextPaint:Landroid/graphics/Paint;
 
     invoke-virtual {v0, p1}, Landroid/graphics/Paint;->setColor(I)V
@@ -3251,7 +3414,7 @@
 .method public final setFromStart(Z)V
     .locals 0
 
-    .line 185
+    .line 186
     iput-boolean p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->fromStart:Z
 
     return-void
@@ -3260,7 +3423,7 @@
 .method public final setFromTop(Z)V
     .locals 0
 
-    .line 178
+    .line 179
     iput-boolean p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->fromTop:Z
 
     return-void
@@ -3269,7 +3432,7 @@
 .method public final setHorizontal(Lcom/rigol/scope/data/HorizontalParam;)V
     .locals 0
 
-    .line 268
+    .line 277
     iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->horizontal:Lcom/rigol/scope/data/HorizontalParam;
 
     return-void
@@ -3278,7 +3441,7 @@
 .method public final setLineAlpha(F)V
     .locals 5
 
-    .line 260
+    .line 269
     iget-object v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->columnLinePaint:Landroid/graphics/Paint;
 
     const/16 v1, 0xff
@@ -3291,17 +3454,17 @@
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 261
+    .line 270
     iget-object v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowLinePaint:Landroid/graphics/Paint;
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 262
+    .line 271
     iget-object v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->scaleLinePaint:Landroid/graphics/Paint;
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 264
+    .line 273
     iget-object v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->solidLinePaint:Landroid/graphics/Paint;
 
     float-to-double v1, p1
@@ -3320,8 +3483,26 @@
 .method public final setMain(Z)V
     .locals 0
 
-    .line 215
+    .line 216
     iput-boolean p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->isMain:Z
+
+    return-void
+.end method
+
+.method public final setMove(Z)V
+    .locals 0
+
+    .line 220
+    iput-boolean p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->isMove:Z
+
+    return-void
+.end method
+
+.method public final setMoveOffset(F)V
+    .locals 0
+
+    .line 224
+    iput p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->moveOffset:F
 
     return-void
 .end method
@@ -3329,10 +3510,10 @@
 .method public final setRowContents([Ljava/lang/String;)V
     .locals 0
 
-    .line 155
+    .line 156
     iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowContents:[Ljava/lang/String;
 
-    .line 157
+    .line 158
     invoke-direct {p0}, Lcom/rigol/scope/views/grid/GridRulerView;->updateColumnLinePathEffect()V
 
     return-void
@@ -3341,7 +3522,7 @@
 .method public final setRowTextColor(I)V
     .locals 1
 
-    .line 233
+    .line 242
     iget-object v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowTextPaint:Landroid/graphics/Paint;
 
     invoke-virtual {v0, p1}, Landroid/graphics/Paint;->setColor(I)V
@@ -3352,7 +3533,7 @@
 .method public final setShowAllCol(Z)V
     .locals 0
 
-    .line 190
+    .line 191
     iput-boolean p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->isShowAllCol:Z
 
     return-void
@@ -3361,7 +3542,7 @@
 .method public final setShowAllRow(Z)V
     .locals 0
 
-    .line 195
+    .line 196
     iput-boolean p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->isShowAllRow:Z
 
     return-void
@@ -3370,7 +3551,7 @@
 .method public final setShowRuler(Z)V
     .locals 0
 
-    .line 210
+    .line 211
     iput-boolean p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->isShowRuler:Z
 
     return-void
@@ -3383,8 +3564,63 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 200
+    .line 201
     iput-object p1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->type:Lcom/rigol/scope/cil/ServiceEnum$EWaveGrids;
+
+    return-void
+.end method
+
+.method public final updateMoveOffset(Lcom/rigol/scope/data/VerticalParam;)V
+    .locals 5
+
+    const-string v0, "param"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 290
+    iget-object v0, p0, Lcom/rigol/scope/views/grid/GridRulerView;->rowContents:[Ljava/lang/String;
+
+    invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
+
+    array-length v0, v0
+
+    .line 293
+    invoke-virtual {p0}, Lcom/rigol/scope/views/grid/GridRulerView;->getHeight()I
+
+    move-result v1
+
+    int-to-float v1, v1
+
+    const/4 v2, 0x1
+
+    sub-int/2addr v0, v2
+
+    int-to-float v0, v0
+
+    div-float/2addr v1, v0
+
+    .line 295
+    invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->getOffset()J
+
+    move-result-wide v3
+
+    long-to-float v0, v3
+
+    invoke-virtual {p1}, Lcom/rigol/scope/data/VerticalParam;->getScale()J
+
+    move-result-wide v3
+
+    long-to-float p1, v3
+
+    div-float/2addr v0, p1
+
+    int-to-float p1, v2
+
+    rem-float/2addr v0, p1
+
+    mul-float/2addr v1, v0
+
+    iput v1, p0, Lcom/rigol/scope/views/grid/GridRulerView;->moveOffset:F
 
     return-void
 .end method

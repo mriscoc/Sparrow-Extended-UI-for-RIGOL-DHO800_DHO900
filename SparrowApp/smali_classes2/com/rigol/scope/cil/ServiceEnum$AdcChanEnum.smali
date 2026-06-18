@@ -48,7 +48,7 @@
 .method static constructor <clinit>()V
     .locals 15
 
-    .line 9037
+    .line 9047
     new-instance v7, Lcom/rigol/scope/cil/ServiceEnum$AdcChanEnum;
 
     const-string v1, "ADC_CH1"
@@ -69,7 +69,7 @@
 
     sput-object v7, Lcom/rigol/scope/cil/ServiceEnum$AdcChanEnum;->ADC_CH1:Lcom/rigol/scope/cil/ServiceEnum$AdcChanEnum;
 
-    .line 9038
+    .line 9048
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanEnum;
 
     const-string v9, "ADC_CH2"
@@ -90,7 +90,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanEnum;->ADC_CH2:Lcom/rigol/scope/cil/ServiceEnum$AdcChanEnum;
 
-    .line 9039
+    .line 9049
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanEnum;
 
     const-string v2, "ADC_CH3"
@@ -111,7 +111,7 @@
 
     sput-object v0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanEnum;->ADC_CH3:Lcom/rigol/scope/cil/ServiceEnum$AdcChanEnum;
 
-    .line 9040
+    .line 9050
     new-instance v0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanEnum;
 
     const-string v9, "ADC_CH4"
@@ -136,7 +136,7 @@
 
     new-array v1, v1, [Lcom/rigol/scope/cil/ServiceEnum$AdcChanEnum;
 
-    .line 9035
+    .line 9045
     sget-object v2, Lcom/rigol/scope/cil/ServiceEnum$AdcChanEnum;->ADC_CH1:Lcom/rigol/scope/cil/ServiceEnum$AdcChanEnum;
 
     const/4 v3, 0x0
@@ -176,19 +176,19 @@
         }
     .end annotation
 
-    .line 9043
+    .line 9053
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 9044
+    .line 9054
     iput p3, p0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanEnum;->value1:I
 
-    .line 9045
+    .line 9055
     iput-object p4, p0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanEnum;->value2:Ljava/lang/String;
 
-    .line 9046
+    .line 9056
     iput-object p5, p0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanEnum;->pic1:Ljava/lang/String;
 
-    .line 9047
+    .line 9057
     iput-object p6, p0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanEnum;->pic2:Ljava/lang/String;
 
     return-void
@@ -197,7 +197,7 @@
 .method public static valueOf(Ljava/lang/String;)Lcom/rigol/scope/cil/ServiceEnum$AdcChanEnum;
     .locals 1
 
-    .line 9035
+    .line 9045
     const-class v0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanEnum;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -212,7 +212,7 @@
 .method public static values()[Lcom/rigol/scope/cil/ServiceEnum$AdcChanEnum;
     .locals 1
 
-    .line 9035
+    .line 9045
     sget-object v0, Lcom/rigol/scope/cil/ServiceEnum$AdcChanEnum;->$VALUES:[Lcom/rigol/scope/cil/ServiceEnum$AdcChanEnum;
 
     invoke-virtual {v0}, [Lcom/rigol/scope/cil/ServiceEnum$AdcChanEnum;->clone()Ljava/lang/Object;

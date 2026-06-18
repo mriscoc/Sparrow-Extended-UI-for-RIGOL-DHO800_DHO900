@@ -24,7 +24,7 @@
 
     sput-object v0, Lcom/rigol/scope/databinding/AdapterBusEthAnalyseBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04d1
+    const v1, 0x7f0a04d3
 
     const/4 v2, 0x5
 
@@ -34,7 +34,7 @@
     .line 18
     sget-object v0, Lcom/rigol/scope/databinding/AdapterBusEthAnalyseBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04cc
+    const v1, 0x7f0a04ce
 
     const/4 v2, 0x6
 
@@ -43,7 +43,7 @@
     .line 19
     sget-object v0, Lcom/rigol/scope/databinding/AdapterBusEthAnalyseBindingImpl;->sViewsWithIds:Landroid/util/SparseIntArray;
 
-    const v1, 0x7f0a04d2
+    const v1, 0x7f0a04d4
 
     const/4 v2, 0x7
 
@@ -396,7 +396,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -468,7 +468,7 @@
     throw p1
 
     :cond_0
-    const/16 v0, 0x393
+    const/16 v0, 0x397
 
     if-ne p2, v0, :cond_1
 
@@ -568,7 +568,7 @@
     const/4 v7, 0x0
 
     :goto_0
-    const v14, 0x7f030120
+    const v14, 0x7f030121
 
     .line 206
     invoke-static {v14, v7}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -649,7 +649,7 @@
     const/4 v15, 0x0
 
     :goto_3
-    const v0, 0x7f03011f
+    const v0, 0x7f030120
 
     .line 233
     invoke-static {v0, v15}, Lcom/rigol/scope/utilities/ViewUtil;->getMappingObject(II)Lcom/rigol/scope/data/MappingObject;
@@ -913,7 +913,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x239
+    const/16 p1, 0x23b
 
     .line 108
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterBusEthAnalyseBindingImpl;->notifyPropertyChanged(I)V
@@ -964,7 +964,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    const/16 p1, 0x252
+    const/16 p1, 0x254
 
     .line 100
     invoke-virtual {p0, p1}, Lcom/rigol/scope/databinding/AdapterBusEthAnalyseBindingImpl;->notifyPropertyChanged(I)V
@@ -989,7 +989,7 @@
 .method public setVariable(ILjava/lang/Object;)Z
     .locals 1
 
-    const/16 v0, 0x252
+    const/16 v0, 0x254
 
     if-ne v0, p1, :cond_0
 
@@ -1001,7 +1001,7 @@
     goto :goto_0
 
     :cond_0
-    const/16 v0, 0x239
+    const/16 v0, 0x23b
 
     if-ne v0, p1, :cond_1
 
