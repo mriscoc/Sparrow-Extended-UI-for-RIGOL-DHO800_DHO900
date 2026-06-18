@@ -1,40 +1,60 @@
 # Sparrow Extended UI for the RIGOL DHO800 DHO900 series oscilloscopes
 
-This is the official repository for the proyect Sparrow Extended UI. This project began by gathering ideas and contributions from the community of users of Rigol DHO800 and DHO900 series oscilloscopes, mainly on the [Eevblog forum](https://www.eevblog.com/forum/testgear/hacking-the-rigol-dho800900-scope). Other projects to customize the original interface were started later. If you visit that forum, you can find a historical compilation of the ideas implemented in this modification. In early 2024, the first layout changes of the measurement panel and a little reorganization of the UI elements were presented in the forum, and the [first public release](https://www.eevblog.com/forum/testgear/hacking-the-rigol-dho800900-scope/msg5470243/#msg5470243) was presented, as well as the first demonstration of the [full screen mode](https://www.eevblog.com/forum/testgear/hacking-the-rigol-dho800900-scope/msg5471431/#msg5471431). A new [header bar](https://www.eevblog.com/forum/testgear/hacking-the-rigol-dho800900-scope/msg5471554/#msg5471554) was shown in April 2024 and released in the Github repository. Finally, a video showing the modifications made up to May 2024 [was published on YouTube](https://www.eevblog.com/forum/testgear/hacking-the-rigol-dho800900-scope/msg5504275/#msg5504275). Many more modifications have been made over time. At the end of 2025, Rigol launched the MHO900 series of oscilloscopes, applying many of the ideas from this project to the user interface of these instruments.
+This is the official repository for the Sparrow Extended UI. This project began by gathering ideas and contributions from the community of users of Rigol DHO800 and DHO900 series oscilloscopes, mainly on the [Eevblog forum](https://www.eevblog.com/forum/testgear/hacking-the-rigol-dho800900-scope). Other projects to customize the original interface were started later. If you visit this forum, you can find a historical compilation of the ideas implemented in this modification. In early 2024, the first layout changes of the measurement panel and a little reorganization of the UI elements were published in the forum, and the [first public release](https://www.eevblog.com/forum/testgear/hacking-the-rigol-dho800900-scope/msg5470243/#msg5470243) was presented, as well as the first demonstration of the [full screen mode](https://www.eevblog.com/forum/testgear/hacking-the-rigol-dho800900-scope/msg5471431/#msg5471431). A new [header bar](https://www.eevblog.com/forum/testgear/hacking-the-rigol-dho800900-scope/msg5471554/#msg5471554) was shown in April 2024 and released in the Github repository. Finally, a video showing the modifications made up to May 2024 [was published on YouTube](https://www.eevblog.com/forum/testgear/hacking-the-rigol-dho800900-scope/msg5504275/#msg5504275). Many more modifications have been made over time. At the end of 2025, Rigol launched the MHO900 series of oscilloscopes, applying many of the ideas from this project to the user interface of these instruments.
 
-⚠️ Over time, other customization projects appeared with similar names, which has caused confusion. This document refers exclusively to this **ORIGINAL Sparrow Extended** project.
-
-## Sparrow Extended UI
+> [!NOTE]
+> ⚠️ Over time, other customization projects appeared with similar names, which has caused confusion. This document refers exclusively to this **ORIGINAL Sparrow Extended** project by MRiscoC.
 
 Get the latest version here: https://www.patreon.com/posts/dho800-900-gui-7-141608043
 
-Features of verion 0.7.1:
-- Full Screen mode with informative bottom bar and clickable elements
-- Special A(ction) button to launch the DHO Actions application
-- Included a configurable DHO Actions panel that allows to execute SCPI commands, launch applications (Python scripts with PyDroid) and open web pages in the default browser.
-- Included DHO visor, allows to display the screen streaming in scaling mode.
-- Unlocks extended decoders like LIN, FlexRay, I2S, 1553B
-- All DHO series have bandwidth unlocked to 250MHz and Memory depth up to 50M
-- Ultra Power Analyzer unlocked for all DHO series
-- Enabled advanced settings in XY mode with real functions.
-- Compact unified Horizontal bar, Trigger bar and Channel widgets
-- Dock/Undock of the Result Bar
-- Compact Result / measurements bar with optimized rendering
-- Probe attenuation in channel widget
-- Trigger coupling indicator
-- Better rendering of the chanel scale labels, so they can be readed always no matter what the back color is.
-- Automatically show date-time at boot if it is valid
-- Start menu settings button allows to open Android system settings
-- Fixes alignment of visual elements, color and transparency corrections
-- Better UI organization for improvement of screen size utilization 
-- Code enhancements, removed extra logging for better general performance
-- Fixes for bugs reported by the community
-- Normal and System versions
+## Includes bug fixes and features introduced by the new stock firmware, plus unique Sparrow Extended UI features:
+
+- **DHOActions panel integrated** into the main application (no longer requires separate installation on the DHO device).
+- **Bug fixes:**
+  - [Issue #17](https://github.com/mriscoc/Sparrow-Extended-GUI-for-RIGOL-DHO800_DHO900/discussions/17) resolved.
+  - SCPI command `:SAVE:SETup C:\test.stp` now works correctly.
+  - Community-reported bugs fixed (cursor, screen brightness, etc.).
+- **UI improvements:**
+  - Scrolling enabled for bottom bar and full-screen bar (supports side-by-side screen mode).
+  - Improved icons and labels.
+  - Full-screen mode with informative bottom bar and clickable elements.
+  - Special **A(ction) button** to launch the DHOActions panel:
+    - Execute SCPI commands.
+    - Save/load oscilloscope custom configurations.
+    - Launch applications (Python scripts with PyDroid).
+    - Open web pages in the default browser.
+- **Unlocked features:**
+  - Extended decoders: LIN, FlexRay, I2S, 1553B.
+  - All DHO series bandwidth unlocked to **250 MHz** and memory depth up to **50M**.
+  - **Ultra Power Analyzer** unlocked for all DHO series.
+- **XY mode:**
+  - Square (1:1) aspect ratio.
+  - Advanced settings enabled and enhanced.
+- **Bars and widgets:**
+  - Compact unified horizontal bar, trigger bar, and channel widgets.
+  - Dock/undock of the result bar.
+  - Compact result/measurements bar with optimized rendering.
+- **Usability enhancements:**
+  - Probe attenuation shown in channel widget.
+  - Trigger coupling indicator.
+  - Better rendering of channel scale labels (always readable regardless of background color).
+  - Auto show date/time at boot if valid.
+  - Start menu settings button opens Android system settings.
+- **Visual corrections:**
+  - Alignment fixes, color and transparency corrections.
+  - Background changed from gray to black.
+  - Improved UI organization for better screen size utilization.
+- **Performance:**
+  - Code enhancements, removed extra logging.
+  - General performance improvements.
+- **Distribution:**
+  - Available in **Normal** and **System** versions.
+- **DHOVisor**, allows to display the screen streaming in scaling mode.
 
 > [!NOTE]
 > DHO Actions must be started after the Oscilloscope application is loaded to be able to connect to it, if the Oscilloscope application closes and restarts, you must force a reconnect by pressing and holding the close icon [X] in the upper right corner of the DHO Actions screen and start it from the DHO Sparrow application.
 
-## Screeshot of version 0.7.1:
+## Screeshot:
 ![Sparrow_Extended_v0 7 1](https://github.com/user-attachments/assets/ba0dd531-b2ab-4f03-9d15-3c6e5d58f9af)
 
 ## Fullscreen mode  
