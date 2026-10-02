@@ -5,7 +5,8 @@ This is the official repository for the Sparrow Extended UI. This project began 
 > [!NOTE]
 ⚠️ Over time, other customization projects appeared with similar names, which has caused confusion. This document refers exclusively to the **ORIGINAL Sparrow Extended** project by MRiscoC.
 
-Get the latest version here: https://www.patreon.com/posts/dho800-900-gui-7-141608043
+Get the latest version here: https://www.patreon.com/posts/dho800-900-gui-7-141608043  
+
 If Patreon is blocked in your country please try with: https://boosty.to/mriscoc/posts/477a16cd-4585-4255-80fa-3ddff2eb0ea1
 
 ## Includes bug fixes and features introduced by the new stock firmware, plus unique Sparrow Extended UI features:
