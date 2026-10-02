@@ -87,7 +87,7 @@ then follow this guide: [How to install the new Sparrow extended UI?](https://gi
 
 
 ## Donations
-Thank you for your support, I receive donations through [Patreon](https://www.patreon.com/mriscoc) and [Paypal](https://www.paypal.com/donate/?business=85SPAAR6UZEE8)   
+Thank you for your support, I receive donations through [Patreon](https://www.patreon.com/mriscoc), [Boosty](https://boosty.to/mriscoc/posts/477a16cd-4585-4255-80fa-3ddff2eb0ea1) and [Paypal](https://www.paypal.com/donate/?business=85SPAAR6UZEE8)   
 
 [<img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif">](https://www.paypal.com/donate?business=85SPAAR6UZEE8&currency_code=USD)   
 
